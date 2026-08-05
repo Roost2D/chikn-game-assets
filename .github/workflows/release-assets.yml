@@ -33,8 +33,8 @@ jobs:
           if-no-files-found: error
           retention-days: 1
 
-  # Minimal privileged job: holds `contents: write` behind an environment approval gate, and never
-  # installs or executes dependencies.
+  # Minimal privileged job: holds `contents: write` behind a dedicated environment boundary, and
+  # never installs or executes dependencies.
   release:
     needs: build
     runs-on: ubuntu-latest

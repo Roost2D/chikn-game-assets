@@ -23,8 +23,8 @@ Review this table whenever Dependabot opens a VitePress or Vite pull request. Th
 
 ## Secret scanning
 
-Enable **GitHub secret scanning with push protection** on the repository — it is the authoritative
-control, and it covers provider token formats that a hand-written regex cannot.
+**GitHub secret scanning and push protection are enabled** on the repository. They are the
+authoritative control and cover provider token formats that a hand-written regex cannot.
 
 `scripts/verify-public-tree.mjs` keeps a deliberately narrow offline backstop: it rejects PEM private
 key blocks, `.env` files, binaries, key material by extension, and any path that is not tracked by
