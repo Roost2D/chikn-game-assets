@@ -24,4 +24,20 @@ Code, docs, schemas, manifest/atlas JSON, rig definitions, transforms, attachmen
 
 Paths under `excludedPaths` have no hosted-asset classification and are omitted from both release archives. `eggorithm.png`, legacy animation sprites/placeholders, and rig assembly reference images are explicit regression cases.
 
+### What `excludedPaths` does and does not mean
+
+`excludedPaths` is a **repository-only quarantine set**. It means "not part of the supported or canonical release artifacts". It does **not** mean private, secret, or undistributed.
+
+These files are deliberately retained in Git and Git LFS as legacy reference material and as exclusion regression cases — CI *requires* them to exist so the exclusion path stays continuously tested. Because they are tracked in a public repository, they remain publicly downloadable through `git clone` and GitHub's automatic source snapshots. Anything that genuinely must not be publicly accessible belongs in private storage and must be removed from Git history; it cannot be protected by listing it here.
+
+What the exclusion mechanism does guarantee:
+
+- the atlas builder skips them, so they never reach `runtime/`;
+- they are absent from the runtime and source release archives;
+- they are unavailable through the npm runtime package.
+
+### Retained metadata referencing excluded images
+
+Three Apache-2.0 metadata files under `sources/legacy-enemy-flat/` reference excluded images: `enemy_attack.json` → `enemy_attack.png`, `enemy_fly.json` → `enemy_fly.png`, and `enemy_walk.json` → `enemy_walk.png`. This is harmless today because `legacy-enemy-flat` is declared `runtime: false` in `config/source-selection.json`, so the builder never reads them. If the excluded binaries are ever removed, these three metadata files must be cleaned up in the same change or they will dangle.
+
 Read the [community asset notice](https://github.com/Roost2D/chikn-game-assets/blob/main/CHIKN-COMMUNITY-ASSET-NOTICE.md), [attribution guidance](https://github.com/Roost2D/chikn-game-assets/blob/main/ATTRIBUTION.md), and [commercial-use boundary](https://github.com/Roost2D/chikn-game-assets/blob/main/COMMERCIAL_USE.md). CI rejects missing classifications, changed hashes without manifest refresh, excluded runtime lineage, and source archives containing excluded files.

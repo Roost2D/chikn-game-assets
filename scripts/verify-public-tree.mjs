@@ -9,7 +9,7 @@ for (const path of paths) {
   if (/\.(?:png|jpe?g|webp|zip)$/i.test(path)) {
     const { stdout: attribute } = await exec('git', ['check-attr', 'filter', '--', path]); if (!attribute.trim().endsWith(': lfs')) errors.push(`Binary source is not tracked by Git LFS: ${path}`);
   }
-  if (/\.(?:json|md|mjs|ts|yml|yaml)$/i.test(path) && !path.startsWith('reports/')) {
+  if (/\.(?:json|md|mjs|ts|txt|yml|yaml)$/i.test(path) && !path.startsWith('reports/')) {
     const text = await readFile(path, 'utf8').catch(() => ''); if (/-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/.test(text)) errors.push(`Private key material found: ${path}`);
   }
 }

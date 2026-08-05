@@ -5,26 +5,37 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: chikn-assets-pages
   cancel-in-progress: true
 
 jobs:
-  deploy:
-    environment: github-pages
+  # The build runs `npm ci`, so it executes dependency lifecycle scripts. Keep it away from the
+  # Pages deployment credential: it only ever produces an artifact.
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with: { lfs: true }
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with: { node-version: 22.14.0, cache: npm }
       - run: npm ci
       - run: npm run pages:build
         env:
           DOCS_BASE: /chikn-game-assets/
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with: { path: docs/.vitepress/dist }
+
+  deploy:
+    needs: build
+    environment: github-pages
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

@@ -1,5 +1,6 @@
 import { readFile, readdir } from 'node:fs/promises';
 import { relative, resolve, sep } from 'node:path';
+import { portablePathError } from './manifest-utils.mjs';
 import { sourceSha256 } from './source-hash.mjs';
 
 const root = resolve('.');
@@ -15,6 +16,8 @@ if (manifest.schema !== 'chikn-game-assets.rights/v1') errors.push('Invalid righ
 for (const path of manifest.excludedPaths ?? []) {
   if (!path || excludedPaths.has(path)) errors.push(`Duplicate or empty excluded path: ${path}`);
   excludedPaths.add(path);
+  const pathReason = portablePathError(path, { prefix: 'sources/' });
+  if (pathReason) { errors.push(`excluded path ${pathReason}`); continue; }
   try {
     await readFile(resolve(path));
   } catch {
@@ -27,6 +30,8 @@ for (const asset of manifest.assets ?? []) {
   ids.add(asset.id);
   if (!asset.sourcePath || byPath.has(asset.sourcePath)) errors.push(`Duplicate or empty rights path: ${asset.sourcePath}`);
   byPath.set(asset.sourcePath, asset);
+  const pathReason = portablePathError(asset.sourcePath, { prefix: 'sources/' });
+  if (pathReason) errors.push(`${asset.id}: ${pathReason}`);
   if (excludedPaths.has(asset.sourcePath)) errors.push(`${asset.id}: excluded project material also has a release classification`);
   if (!asset.license || !asset.commercialUse || !asset.attribution) errors.push(`${asset.id}: incomplete rights classification`);
 
@@ -43,11 +48,13 @@ for (const asset of manifest.assets ?? []) {
   }
   if (!/^[a-f0-9]{64}$/.test(asset.sha256 ?? '')) errors.push(`${asset.id}: invalid SHA-256`);
 
-  try {
-    const bytes = await readFile(resolve(asset.sourcePath));
-    if (sourceSha256(bytes, asset.sourcePath) !== asset.sha256) errors.push(`${asset.id}: source hash changed; refresh the technical manifest`);
-  } catch {
-    errors.push(`${asset.id}: source file is missing`);
+  if (!pathReason) {
+    try {
+      const bytes = await readFile(resolve(asset.sourcePath));
+      if (sourceSha256(bytes, asset.sourcePath) !== asset.sha256) errors.push(`${asset.id}: source hash changed; refresh the technical manifest`);
+    } catch {
+      errors.push(`${asset.id}: source file is missing`);
+    }
   }
 }
 

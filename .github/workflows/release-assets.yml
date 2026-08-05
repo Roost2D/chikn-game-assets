@@ -5,15 +5,18 @@ on:
     tags: ['v*']
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  release:
+  # Builds the archives with no write credential in scope; `npm ci` runs only here.
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with: { lfs: true }
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with: { node-version: 22.14.0, cache: npm }
       - run: npm ci
       - run: npm run release:verify
@@ -21,9 +24,28 @@ jobs:
       - name: Build complete source and runtime archives
         run: |
           (cd .release/sources && zip -r "../../release/chikn-game-assets-${GITHUB_REF_NAME}-sources.zip" .)
-          zip -r "release/chikn-game-assets-${GITHUB_REF_NAME}-runtime.zip" runtime manifests/rights-manifest.json README.md INTEGRATION.md AGENTS.md llms.txt ASSET_CONTRIBUTIONS.md LICENSE LICENSE-CODE CHIKN-COMMUNITY-ASSET-NOTICE.md ATTRIBUTION.md COMMERCIAL_USE.md TRADEMARKS.md THIRD_PARTY_NOTICES.md
+          zip -r "release/chikn-game-assets-${GITHUB_REF_NAME}-runtime.zip" runtime manifests/rights-manifest.json README.md INTEGRATION.md AGENTS.md llms.txt ASSET_CONTRIBUTIONS.md SECURITY.md LICENSE LICENSE-CODE CHIKN-COMMUNITY-ASSET-NOTICE.md ATTRIBUTION.md COMMERCIAL_USE.md TRADEMARKS.md THIRD_PARTY_NOTICES.md
           sha256sum release/*.zip > release/SHA256SUMS
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: release-archives
+          path: release/
+          if-no-files-found: error
+          retention-days: 1
+
+  # Minimal privileged job: holds `contents: write` behind an environment approval gate, and never
+  # installs or executes dependencies.
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: github-release
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with: { name: release-archives, path: release }
       - name: Publish immutable GitHub Release assets
         run: gh release create "$GITHUB_REF_NAME" release/* --verify-tag --generate-notes
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}

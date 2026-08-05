@@ -1,5 +1,5 @@
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
-import { relative, resolve, sep } from 'node:path';
+import { extname, relative, resolve, sep } from 'node:path';
 import { sourceSha256 } from './source-hash.mjs';
 
 const root = resolve('.');
@@ -20,7 +20,7 @@ for (const source of selection.roots) {
     if (excludedPaths.has(sourcePath)) continue;
 
     const bytes = await readFile(absolute);
-    const extension = sourcePath.slice(sourcePath.lastIndexOf('.')).toLowerCase();
+    const extension = extname(sourcePath).toLowerCase();
     const grant = metadataExtensions.has(extension) ? policy.metadata : policy;
     const asset = {
       id: `rights/${sourcePath.replace(/^sources\//, '').split('/').map(slug).join('/')}`,

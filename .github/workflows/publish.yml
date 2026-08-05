@@ -11,24 +11,55 @@ on:
 
 permissions:
   contents: read
-  id-token: write
 
 jobs:
-  publish:
+  # Everything that runs `npm ci` — and therefore arbitrary dependency lifecycle scripts — happens
+  # here, with no registry credential and no OIDC token in scope. The job's only output is a tarball.
+  verify:
     runs-on: ubuntu-latest
-    environment: npm-publish
+    permissions:
+      contents: read
+    env:
+      TAG: ${{ inputs.tag }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with: { lfs: true }
-      - uses: actions/setup-node@v4
-        with: { node-version: 22.14.0, cache: npm, registry-url: https://registry.npmjs.org }
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with: { node-version: 22.14.0, cache: npm }
       - run: npm install --global npm@11.5.2
       - run: npm --version
       - run: npm ci
-      - run: node scripts/assert-release-channel.mjs ${{ inputs.tag }}
+      - run: node scripts/assert-release-channel.mjs "$TAG"
       - run: npm run release:verify
       - run: npm run repro:linux
       - if: inputs.tag == 'latest'
         run: npm run cross:verify
         env: { ROOST2D_TAG: next, CHIKN_ASSETS_TAG: next }
-      - run: npm publish -w @chikn-game-assets/runtime --access public --provenance --tag ${{ inputs.tag }}
+      - run: npm pack -w @chikn-game-assets/runtime --pack-destination dist-pack
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: runtime-tarball
+          path: dist-pack/*.tgz
+          if-no-files-found: error
+          retention-days: 1
+
+  # Minimal privileged job: it holds the OIDC token but never installs or executes dependencies.
+  # NOTE: `--provenance` against a pre-built tarball must be confirmed on the first real publish.
+  # If npm refuses it, fold this step back into `verify` rather than dropping provenance.
+  publish:
+    needs: verify
+    runs-on: ubuntu-latest
+    environment: npm-publish
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      TAG: ${{ inputs.tag }}
+    steps:
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with: { node-version: 22.14.0, registry-url: https://registry.npmjs.org }
+      - run: npm --version
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with: { name: runtime-tarball, path: dist-pack }
+      - name: Publish the verified tarball
+        run: npm publish dist-pack/*.tgz --access public --provenance --tag "$TAG"

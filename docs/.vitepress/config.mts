@@ -38,6 +38,7 @@ export default defineConfig({
           { text: 'Commercial use', link: '/commercial-use' },
           { text: 'Rights and attribution', link: '/rights' },
           { text: 'Release integrity', link: '/releases' },
+          { text: 'Security notes', link: '/security-notes' },
           { text: 'Asset contributions', link: 'https://github.com/Roost2D/chikn-game-assets/blob/main/ASSET_CONTRIBUTIONS.md' },
         ],
       },

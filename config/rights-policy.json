@@ -16,6 +16,7 @@
     "attribution": "Roost2D project metadata — Apache-2.0.",
     "approved": true
   },
+  "excludedPathsNote": "Repository-only quarantine: these paths are public in Git/LFS but excluded from canonical runtime, npm, and release artifacts. The retained legacy animation JSON files may reference excluded PNGs while legacy-enemy-flat remains runtime-disabled.",
   "excludedPaths": [
     "sources/legacy-enemy-flat/eggorithm.png",
     "sources/legacy-enemy-flat/enemy_attack.png",

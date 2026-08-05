@@ -25,8 +25,9 @@ const sourceAtlases = [];
 for (const selection of sourceSelection.roots) {
   const sourceRoot = resolve(selection.source);
   for (const absolute of await walk(sourceRoot)) {
-    const sourcePath = relative(root, absolute).split(sep).join('/'); const bytes = await readFile(absolute); const canonicalBytes = canonicalSourceBytes(bytes, sourcePath); const sha256 = sourceSha256(bytes, sourcePath);
+    const sourcePath = relative(root, absolute).split(sep).join('/');
     if (excludedPaths.has(sourcePath)) continue;
+    const bytes = await readFile(absolute); const canonicalBytes = canonicalSourceBytes(bytes, sourcePath); const sha256 = sourceSha256(bytes, sourcePath);
     allSourceFiles.push({ path: sourcePath, bytes: canonicalBytes.byteLength, sha256 });
     const rights = rightsByPath.get(sourcePath);
     if (!rights) throw new Error(`Source is not classified in the rights manifest: ${sourcePath}`);
