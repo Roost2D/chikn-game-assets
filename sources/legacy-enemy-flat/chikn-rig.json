@@ -1,0 +1,4184 @@
+{
+    "skins": {
+        "bullion": {
+            "Head": {
+                "name": "Bullion_Head",
+                "texture": "chikn/Bullion_Head.png"
+            },
+            "LegFoot A": {
+                "name": "Bullion_LegFoot A",
+                "texture": "chikn/Bullion_LegFoot A.png"
+            },
+            "LegFoot B": {
+                "name": "Bullion_LegFoot B",
+                "texture": "chikn/Bullion_LegFoot B.png"
+            },
+            "LegLower A": {
+                "name": "Bullion_LegLower A",
+                "texture": "chikn/Bullion_LegLower A.png"
+            },
+            "LegLower B": {
+                "name": "Bullion_LegLower B",
+                "texture": "chikn/Bullion_LegLower B.png"
+            },
+            "LegUpper A": {
+                "name": "Bullion_LegUpper A",
+                "texture": "chikn/Bullion_LegUpper A.png"
+            },
+            "LegUpper B": {
+                "name": "Bullion_LegUpper B",
+                "texture": "chikn/Bullion_LegUpper B.png"
+            },
+            "Tail": {
+                "name": "Bullion_Tail",
+                "texture": "chikn/Bullion_Tail.png"
+            },
+            "Torso": {
+                "name": "Bullion_Torso",
+                "texture": "chikn/Bullion_Torso.png"
+            },
+            "Wing": {
+                "name": "Bullion_Wing_1",
+                "texture": "chikn/Bullion_Wing.png"
+            }
+        },
+        "celestial": {
+            "Head": {
+                "name": "Celestial_Head",
+                "texture": "chikn/Celestial_Head.png"
+            },
+            "LegFoot A": {
+                "name": "Celestial_LegFoot A",
+                "texture": "chikn/Celestial_LegFoot A.png"
+            },
+            "LegFoot B": {
+                "name": "Celestial_LegFoot B",
+                "texture": "chikn/Celestial_LegFoot B.png"
+            },
+            "LegLower A": {
+                "name": "Celestial_LegLower A",
+                "texture": "chikn/Celestial_LegLower A.png"
+            },
+            "LegLower B": {
+                "name": "Celestial_LegLower B",
+                "texture": "chikn/Celestial_LegLower B.png"
+            },
+            "LegUpper A": {
+                "name": "Celestial_LegUpper A",
+                "texture": "chikn/Celestial_LegUpper A.png"
+            },
+            "LegUpper B": {
+                "name": "Celestial_LegUpper B",
+                "texture": "chikn/Celestial_LegUpper B.png"
+            },
+            "Tail": {
+                "name": "Celestial_Tail",
+                "texture": "chikn/Celestial_Tail.png"
+            },
+            "Torso": {
+                "name": "Celestial_Torso",
+                "texture": "chikn/Celestial_Torso.png"
+            },
+            "Wing": {
+                "name": "Celestial_Wing_1",
+                "texture": "chikn/Celestial_Wing.png"
+            }
+        },
+        "crystal\u00e9": {
+            "Head": {
+                "name": "Crystale_Head",
+                "texture": "chikn/Crystale_Head.png"
+            },
+            "LegFoot A": {
+                "name": "Crystale_LegFoot A",
+                "texture": "chikn/Crystale_LegFoot A.png"
+            },
+            "LegFoot B": {
+                "name": "Crystale_LegFoot B",
+                "texture": "chikn/Crystale_LegFoot B.png"
+            },
+            "LegLower A": {
+                "name": "Crystale_LegLower A",
+                "texture": "chikn/Crystale_LegLower A.png"
+            },
+            "LegLower B": {
+                "name": "Crystale_LegLower B",
+                "texture": "chikn/Crystale_LegLower B.png"
+            },
+            "LegUpper A": {
+                "name": "Crystale_LegUpper A",
+                "texture": "chikn/Crystale_LegUpper A.png"
+            },
+            "LegUpper B": {
+                "name": "Crystale_LegUpper B",
+                "texture": "chikn/Crystale_LegUpper B.png"
+            },
+            "Tail": {
+                "name": "Crystale_Tail",
+                "texture": "chikn/Crystale_Tail.png"
+            },
+            "Torso": {
+                "name": "Crystale_Torso",
+                "texture": "chikn/Crystale_Torso.png"
+            },
+            "Wing": {
+                "name": "Crystale_Wing_1",
+                "texture": "chikn/Crystale_Wing.png"
+            }
+        },
+        "frognation green": {
+            "Head": {
+                "name": "FrogGreen_Head",
+                "texture": "chikn/FrogGreen_Head.png"
+            },
+            "LegFoot A": {
+                "name": "FrogGreen_LegFoot A",
+                "texture": "chikn/FrogGreen_LegFoot A.png"
+            },
+            "LegFoot B": {
+                "name": "FrogGreen_LegFoot B",
+                "texture": "chikn/FrogGreen_LegFoot B.png"
+            },
+            "LegLower A": {
+                "name": "FrogGreen_LegLower A",
+                "texture": "chikn/FrogGreen_LegLower A.png"
+            },
+            "LegLower B": {
+                "name": "FrogGreen_LegLower B",
+                "texture": "chikn/FrogGreen_LegLower B.png"
+            },
+            "LegUpper A": {
+                "name": "FrogGreen_LegUpper A",
+                "texture": "chikn/FrogGreen_LegUpper A.png"
+            },
+            "LegUpper B": {
+                "name": "FrogGreen_LegUpper B",
+                "texture": "chikn/FrogGreen_LegUpper B.png"
+            },
+            "Tail": {
+                "name": "FrogGreen_Tail",
+                "texture": "chikn/FrogGreen_Tail.png"
+            },
+            "Torso": {
+                "name": "FrogGreen_Torso",
+                "texture": "chikn/FrogGreen_Torso.png"
+            },
+            "Wing": {
+                "name": "FrogGreen_Wing_1",
+                "texture": "chikn/FrogGreen_Wing.png"
+            }
+        },
+        "gameboy": {
+            "Head": {
+                "name": "GameBoy_Head",
+                "texture": "chikn/GameBoy_Head.png"
+            },
+            "LegFoot A": {
+                "name": "GameBoy_LegFoot A",
+                "texture": "chikn/GameBoy_LegFoot A.png"
+            },
+            "LegFoot B": {
+                "name": "GameBoy_LegFoot B",
+                "texture": "chikn/GameBoy_LegFoot B.png"
+            },
+            "LegLower A": {
+                "name": "GameBoy_LegLower A",
+                "texture": "chikn/GameBoy_LegLower A.png"
+            },
+            "LegLower B": {
+                "name": "GameBoy_LegLower B",
+                "texture": "chikn/GameBoy_LegLower B.png"
+            },
+            "LegUpper A": {
+                "name": "GameBoy_LegUpper A",
+                "texture": "chikn/GameBoy_LegUpper A.png"
+            },
+            "LegUpper B": {
+                "name": "GameBoy_LegUpper B",
+                "texture": "chikn/GameBoy_LegUpper B.png"
+            },
+            "Tail": {
+                "name": "GameBoy_Tail",
+                "texture": "chikn/GameBoy_Tail.png"
+            },
+            "Torso": {
+                "name": "GameBoy_Torso",
+                "texture": "chikn/GameBoy_Torso.png"
+            },
+            "Wing": {
+                "name": "GameBoy_Wing_1",
+                "texture": "chikn/GameBoy_Wing.png"
+            }
+        },
+        "mutant purple": {
+            "Head": {
+                "name": "MutantPurple_Head",
+                "texture": "chikn/MutantPurple_Head.png"
+            },
+            "LegFoot A": {
+                "name": "MutantPurple_LegFoot A",
+                "texture": "chikn/MutantPurple_LegFoot A.png"
+            },
+            "LegFoot B": {
+                "name": "MutantPurple_LegFoot B",
+                "texture": "chikn/MutantPurple_LegFoot B.png"
+            },
+            "LegLower A": {
+                "name": "MutantPurple_LegLower A",
+                "texture": "chikn/MutantPurple_LegLower A.png"
+            },
+            "LegLower B": {
+                "name": "MutantPurple_LegLower B",
+                "texture": "chikn/MutantPurple_LegLower B.png"
+            },
+            "LegUpper A": {
+                "name": "MutantPurple_LegUpper A",
+                "texture": "chikn/MutantPurple_LegUpper A.png"
+            },
+            "LegUpper B": {
+                "name": "MutantPurple_LegUpper B",
+                "texture": "chikn/MutantPurple_LegUpper B.png"
+            },
+            "Tail": {
+                "name": "MutantPurple_Tail",
+                "texture": "chikn/MutantPurple_Tail.png"
+            },
+            "Torso": {
+                "name": "MutantPurple_Torso",
+                "texture": "chikn/MutantPurple_Torso.png"
+            },
+            "Wing": {
+                "name": "MutantPurple_Wing_1",
+                "texture": "chikn/MutantPurple_Wing.png"
+            }
+        },
+        "nightstalker blue": {
+            "Head": {
+                "name": "NightstalkerBlue_Head",
+                "texture": "chikn/NightstalkerBlue_Head.png"
+            },
+            "LegFoot A": {
+                "name": "NightstalkerBlue_LegFoot A",
+                "texture": "chikn/NightstalkerBlue_LegFoot A.png"
+            },
+            "LegFoot B": {
+                "name": "NightstalkerBlue_LegFoot B",
+                "texture": "chikn/NightstalkerBlue_LegFoot B.png"
+            },
+            "LegLower A": {
+                "name": "NightstalkerBlue_LegLower A",
+                "texture": "chikn/NightstalkerBlue_LegLower A.png"
+            },
+            "LegLower B": {
+                "name": "NightstalkerBlue_LegLower B",
+                "texture": "chikn/NightstalkerBlue_LegLower B.png"
+            },
+            "LegUpper A": {
+                "name": "NightstalkerBlue_LegUpper A",
+                "texture": "chikn/NightstalkerBlue_LegUpper A.png"
+            },
+            "LegUpper B": {
+                "name": "NightstalkerBlue_LegUpper B",
+                "texture": "chikn/NightstalkerBlue_LegUpper B.png"
+            },
+            "Tail": {
+                "name": "NightstalkerBlue_Tail",
+                "texture": "chikn/NightstalkerBlue_Tail.png"
+            },
+            "Torso": {
+                "name": "NightstalkerBlue_Torso",
+                "texture": "chikn/NightstalkerBlue_Torso.png"
+            },
+            "Wing": {
+                "name": "NightstalkerBlue_Wing_1",
+                "texture": "chikn/NightstalkerBlue_Wing.png"
+            }
+        },
+        "passion red": {
+            "Head": {
+                "name": "PassionRed_Head",
+                "texture": "chikn/PassionRed_Head.png"
+            },
+            "LegFoot A": {
+                "name": "PassionRed_LegFoot A",
+                "texture": "chikn/PassionRed_LegFoot A.png"
+            },
+            "LegFoot B": {
+                "name": "PassionRed_LegFoot B",
+                "texture": "chikn/PassionRed_LegFoot B.png"
+            },
+            "LegLower A": {
+                "name": "PassionRed_LegLower A",
+                "texture": "chikn/PassionRed_LegLower A.png"
+            },
+            "LegLower B": {
+                "name": "PassionRed_LegLower B",
+                "texture": "chikn/PassionRed_LegLower B.png"
+            },
+            "LegUpper A": {
+                "name": "PassionRed_LegUpper A",
+                "texture": "chikn/PassionRed_LegUpper A.png"
+            },
+            "LegUpper B": {
+                "name": "PassionRed_LegUpper B",
+                "texture": "chikn/PassionRed_LegUpper B.png"
+            },
+            "Tail": {
+                "name": "PassionRed_Tail",
+                "texture": "chikn/PassionRed_Tail.png"
+            },
+            "Torso": {
+                "name": "PassionRed_Torso",
+                "texture": "chikn/PassionRed_Torso.png"
+            },
+            "Wing": {
+                "name": "PassionRed_Wing_1",
+                "texture": "chikn/PassionRed_Wing.png"
+            }
+        },
+        "pixel-chan": {
+            "Head": {
+                "name": "PixelChan_Head",
+                "texture": "chikn/PixelChan_Head.png"
+            },
+            "LegFoot A": {
+                "name": "PixelChan_LegFoot A",
+                "texture": "chikn/PixelChan_LegFoot A.png"
+            },
+            "LegFoot B": {
+                "name": "PixelChan_LegFoot B",
+                "texture": "chikn/PixelChan_LegFoot B.png"
+            },
+            "LegLower A": {
+                "name": "PixelChan_LegLower A",
+                "texture": "chikn/PixelChan_LegLower A.png"
+            },
+            "LegLower B": {
+                "name": "PixelChan_LegLower B",
+                "texture": "chikn/PixelChan_LegLower B.png"
+            },
+            "LegUpper A": {
+                "name": "PixelChan_LegUpper A",
+                "texture": "chikn/PixelChan_LegUpper A.png"
+            },
+            "LegUpper B": {
+                "name": "PixelChan_LegUpper B",
+                "texture": "chikn/PixelChan_LegUpper B.png"
+            },
+            "Tail": {
+                "name": "PixelChan_Tail",
+                "texture": "chikn/PixelChan_Tail.png"
+            },
+            "Torso": {
+                "name": "PixelChan_Torso",
+                "texture": "chikn/PixelChan_Torso.png"
+            },
+            "Wing": {
+                "name": "PixelChan_Wing_1",
+                "texture": "chikn/PixelChan_Wing.png"
+            }
+        },
+        "rustic brown": {
+            "Head": {
+                "name": "RusticBrown_Head",
+                "texture": "chikn/RusticBrown_Head.png"
+            },
+            "LegFoot A": {
+                "name": "RusticBrown_LegFoot A",
+                "texture": "chikn/RusticBrown_LegFoot A.png"
+            },
+            "LegFoot B": {
+                "name": "RusticBrown_LegFoot B",
+                "texture": "chikn/RusticBrown_LegFoot B.png"
+            },
+            "LegLower A": {
+                "name": "RusticBrown_LegLower A",
+                "texture": "chikn/RusticBrown_LegLower A.png"
+            },
+            "LegLower B": {
+                "name": "RusticBrown_LegLower B",
+                "texture": "chikn/RusticBrown_LegLower B.png"
+            },
+            "LegUpper A": {
+                "name": "RusticBrown_LegUpper A",
+                "texture": "chikn/RusticBrown_LegUpper A.png"
+            },
+            "LegUpper B": {
+                "name": "RusticBrown_LegUpper B",
+                "texture": "chikn/RusticBrown_LegUpper B.png"
+            },
+            "Tail": {
+                "name": "RusticBrown_Tail",
+                "texture": "chikn/RusticBrown_Tail.png"
+            },
+            "Torso": {
+                "name": "RusticBrown_Torso",
+                "texture": "chikn/RusticBrown_Torso.png"
+            },
+            "Wing": {
+                "name": "RusticBrown_Wing_1",
+                "texture": "chikn/RusticBrown_Wing.png"
+            }
+        }
+    },
+    "traits": {
+        "black vans": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "BlackVans A",
+                    "texture": "chikn/BlackVans A.png"
+                },
+                {
+                    "name": "BlackVans B",
+                    "texture": "chikn/BlackVans B.png"
+                }
+            ]
+        },
+        "blue feet": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "BlueFeet A 2",
+                    "texture": "chikn/BlueFeet A 2.png"
+                },
+                {
+                    "name": "BlueFeet B 2",
+                    "texture": "chikn/BlueFeet B 2.png"
+                }
+            ]
+        },
+        "blue kicks": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "BlueKicks A",
+                    "texture": "chikn/BlueKicks A.png"
+                },
+                {
+                    "name": "BlueKicks B",
+                    "texture": "chikn/BlueKicks B.png"
+                }
+            ]
+        },
+        "comfortable uggs": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "ComfortableUggs A",
+                    "texture": "chikn/ComfortableUggs A.png"
+                },
+                {
+                    "name": "ComfortableUggs B",
+                    "texture": "chikn/ComfortableUggs B.png"
+                }
+            ]
+        },
+        "green feet": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "GreenFeet B 2",
+                    "texture": "chikn/GreenFeet B 2.png"
+                },
+                {
+                    "name": "GreenFeet A 2",
+                    "texture": "chikn/GreenFeet A 2.png"
+                }
+            ]
+        },
+        "green kicks": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "GreenKicks A",
+                    "texture": "chikn/GreenKicks A.png"
+                },
+                {
+                    "name": "GreenKicks B",
+                    "texture": "chikn/GreenKicks B.png"
+                }
+            ]
+        },
+        "purple leather boots": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "PurpleBoots A",
+                    "texture": "chikn/PurpleBoots A.png"
+                },
+                {
+                    "name": "PurpleBoots B",
+                    "texture": "chikn/PurpleBoots B.png"
+                }
+            ]
+        },
+        "purple feet": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "PurpleFeet A 2",
+                    "texture": "chikn/PurpleFeet A 2.png"
+                },
+                {
+                    "name": "PurpleFeet B 2",
+                    "texture": "chikn/PurpleFeet B 2.png"
+                }
+            ]
+        },
+        "real feet": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "RealFeet A",
+                    "texture": "chikn/RealFeet A.png"
+                },
+                {
+                    "name": "RealFeet B",
+                    "texture": "chikn/RealFeet B.png"
+                }
+            ]
+        },
+        "red leather boots": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "RedBoots A",
+                    "texture": "chikn/RedBoots A.png"
+                },
+                {
+                    "name": "RedBoots B",
+                    "texture": "chikn/RedBoots B.png"
+                }
+            ]
+        },
+        "red feet": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "RedFeet A 2",
+                    "texture": "chikn/RedFeet A 2.png"
+                },
+                {
+                    "name": "RedFeet B 2",
+                    "texture": "chikn/RedFeet B 2.png"
+                }
+            ]
+        },
+        "red vans": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "RedVans A",
+                    "texture": "chikn/RedVans A.png"
+                },
+                {
+                    "name": "RedVans B",
+                    "texture": "chikn/RedVans B.png"
+                }
+            ]
+        },
+        "rollerderby": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "Rollerderby A",
+                    "texture": "chikn/Rollerderby A.png"
+                },
+                {
+                    "name": "Rollerderby B",
+                    "texture": "chikn/Rollerderby B.png"
+                }
+            ]
+        },
+        "swashbucklers": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "Swashbucklers A",
+                    "texture": "chikn/Swashbucklers A.png"
+                },
+                {
+                    "name": "Swashbucklers B",
+                    "texture": "chikn/Swashbucklers B.png"
+                }
+            ]
+        },
+        "avax safety officer": {
+            "slot": "Head",
+            "attachment": {
+                "name": "AVAXSafetyOfficer",
+                "texture": "chikn/AVAXSafetyOfficer.png"
+            }
+        },
+        "admiral": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Admiral",
+                "texture": "chikn/Admiral.png"
+            }
+        },
+        "all seeing eye": {
+            "slot": "Head",
+            "attachment": {
+                "name": "AllSeeingEye",
+                "texture": "chikn/AllSeeingEye.png"
+            }
+        },
+        "black sweatband": {
+            "slot": "Head",
+            "attachment": {
+                "name": "BlackSweatband",
+                "texture": "chikn/BlackSweatband.png"
+            }
+        },
+        "blue mage": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Blue Mage",
+                "texture": "chikn/Blue Mage.png"
+            }
+        },
+        "boxhead": {
+            "slot": "Head",
+            "attachments": [
+                {
+                    "name": "Boxhead A",
+                    "texture": "chikn/Boxhead A.png"
+                },
+                {
+                    "name": "Boxhead B",
+                    "texture": "chikn/Boxhead B.png"
+                }
+            ]
+        },
+        "charcoal brunette": {
+            "slot": "Head",
+            "attachments": [
+                {
+                    "name": "CharcoalBrunette B",
+                    "texture": "chikn/CharcoalBrunette B.png"
+                },
+                {
+                    "name": "CharcoalBrunette",
+                    "texture": "chikn/CharcoalBrunette.png"
+                }
+            ]
+        },
+        "cheeky redhead": {
+            "slot": "Head",
+            "attachments": [
+                {
+                    "name": "Cheeky Redhead",
+                    "texture": "chikn/Cheeky Redhead.png"
+                },
+                {
+                    "name": "CheekyRedhead B",
+                    "texture": "chikn/CheekyRedhead B.png"
+                }
+            ]
+        },
+        "construction helmet": {
+            "slot": "Head",
+            "attachment": {
+                "name": "ConstructionHelmet",
+                "texture": "chikn/ConstructionHelmet.png"
+            }
+        },
+        "cool dude 69": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Cool Dude 69",
+                "texture": "chikn/Cool Dude 69.png"
+            }
+        },
+        "covid safe": {
+            "slot": "Head",
+            "attachment": {
+                "name": "CovidSafe",
+                "texture": "chikn/CovidSafe.png"
+            }
+        },
+        "crusader": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Crusader",
+                "texture": "chikn/Crusader.png"
+            }
+        },
+        "daft punk": {
+            "slot": "Head",
+            "attachment": {
+                "name": "DaftPunk",
+                "texture": "chikn/DaftPunk.png"
+            }
+        },
+        "deal with it": {
+            "slot": "Head",
+            "attachment": {
+                "name": "DealWithIt",
+                "texture": "chikn/DealWithIt.png"
+            }
+        },
+        "frothy crown": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Frothy Crown",
+                "texture": "chikn/Frothy Crown.png"
+            }
+        },
+        "gentlechikn": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Gentlechikn",
+                "texture": "chikn/Gentlechikn.png"
+            }
+        },
+        "gentleman's pipe": {
+            "slot": "Head",
+            "attachment": {
+                "name": "GentlemansPipe",
+                "texture": "chikn/GentlemansPipe.png"
+            }
+        },
+        "golden blonde": {
+            "slot": "Head",
+            "attachments": [
+                {
+                    "name": "GoldenBlonde B",
+                    "texture": "chikn/GoldenBlonde B.png"
+                },
+                {
+                    "name": "GoldenBlonde",
+                    "texture": "chikn/GoldenBlonde.png"
+                }
+            ]
+        },
+        "golden bone daddy": {
+            "slot": "Head",
+            "attachment": {
+                "name": "GoldenBoneDaddy",
+                "texture": "chikn/GoldenBoneDaddy.png"
+            }
+        },
+        "golden crusader": {
+            "slot": "Head",
+            "attachment": {
+                "name": "GoldenCrusader",
+                "texture": "chikn/GoldenCrusader.png"
+            }
+        },
+        "goose": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Goose",
+                "texture": "chikn/Goose.png"
+            }
+        },
+        "hamlet": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Hamlet",
+                "texture": "chikn/Hamlet.png"
+            }
+        },
+        "hothead": {
+            "slot": "Head",
+            "attachment": {
+                "name": "HotHead",
+                "texture": "chikn/HotHead.png"
+            }
+        },
+        "hubba bubba": {
+            "slot": "Head",
+            "attachment": {
+                "name": "HubbaBubba",
+                "texture": "chikn/HubbaBubba.png"
+            }
+        },
+        "icey stare": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Icey Stare",
+                "texture": "chikn/Icey Stare.png"
+            }
+        },
+        "inherited royalty": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Inherited Royalty",
+                "texture": "chikn/Inherited Royalty.png"
+            }
+        },
+        "laser eye": {
+            "slot": "Head",
+            "attachment": {
+                "name": "LaserEye",
+                "texture": "chikn/LaserEye.png"
+            }
+        },
+        "low vision admiral": {
+            "slot": "Head",
+            "attachment": {
+                "name": "LowVisionAdmiral",
+                "texture": "chikn/LowVisionAdmiral.png"
+            }
+        },
+        "luckiest red cap": {
+            "slot": "Head",
+            "attachment": {
+                "name": "LuckiestRedCap",
+                "texture": "chikn/LuckiestRedCap.png"
+            }
+        },
+        "lucky blue cap": {
+            "slot": "Head",
+            "attachment": {
+                "name": "LuckyBlueCap",
+                "texture": "chikn/LuckyBlueCap.png"
+            }
+        },
+        "maverick": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Maverick",
+                "texture": "chikn/Maverick.png"
+            }
+        },
+        "mfd": {
+            "slot": "Head",
+            "attachment": {
+                "name": "MFD",
+                "texture": "chikn/MFD.png"
+            }
+        },
+        "moustache": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Moustache",
+                "texture": "chikn/Moustache.png"
+            }
+        },
+        "murica": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Murica",
+                "texture": "chikn/Murica.png"
+            }
+        },
+        "mysterious fez": {
+            "slot": "Head",
+            "attachment": {
+                "name": "MysteriousFez",
+                "texture": "chikn/MysteriousFez.png"
+            }
+        },
+        "nerdlinger": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Nerdlinger",
+                "texture": "chikn/Nerdlinger.png"
+            }
+        },
+        "pillager": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Pillager",
+                "texture": "chikn/Pillager.png"
+            }
+        },
+        "pineapple": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Pineapple",
+                "texture": "chikn/Pineapple.png"
+            }
+        },
+        "pixel cigarette": {
+            "slot": "Head",
+            "attachment": {
+                "name": "PixelCigarette",
+                "texture": "chikn/PixelCigarette.png"
+            }
+        },
+        "purple sweatband": {
+            "slot": "Head",
+            "attachment": {
+                "name": "PurpleSweatband",
+                "texture": "chikn/PurpleSweatband.png"
+            }
+        },
+        "red mage": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Red Mage",
+                "texture": "chikn/Red Mage.png"
+            }
+        },
+        "saint": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Saint",
+                "texture": "chikn/Saint.png"
+            }
+        },
+        "savage beast": {
+            "slot": "Head",
+            "attachment": {
+                "name": "SavageBeast",
+                "texture": "chikn/SavageBeast.png"
+            }
+        },
+        "smoking lounge": {
+            "slot": "Head",
+            "attachment": {
+                "name": "SmokingLounge",
+                "texture": "chikn/SmokingLounge.png"
+            }
+        },
+        "sucker": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Sucker",
+                "texture": "chikn/Sucker.png"
+            }
+        },
+        "super saiyan": {
+            "slot": "Head",
+            "attachment": {
+                "name": "SuperSaiyan",
+                "texture": "chikn/SuperSaiyan.png"
+            }
+        },
+        "top of the morning": {
+            "slot": "Head",
+            "attachment": {
+                "name": "TopOfTheMorning",
+                "texture": "chikn/TopOfTheMorning.png"
+            }
+        },
+        "tungsten cube": {
+            "slot": "Head",
+            "attachment": {
+                "name": "TungstenCube",
+                "texture": "chikn/TungstenCube.png"
+            }
+        },
+        "uniquehorn": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Uniquehorn",
+                "texture": "chikn/Uniquehorn.png"
+            }
+        },
+        "avax bling": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "AVAXBling",
+                "texture": "chikn/AVAXBling.png"
+            }
+        },
+        "avax degen": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "AVAXDegen",
+                "texture": "chikn/AVAXDegen.png"
+            }
+        },
+        "bitcoin bling": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "BitcoinBling",
+                "texture": "chikn/BitcoinBling.png"
+            }
+        },
+        "bitcoin maxi": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "BitcoinMaxi",
+                "texture": "chikn/BitcoinMaxi.png"
+            }
+        },
+        "black bandana": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "BlackBandana",
+                "texture": "chikn/BlackBandana.png"
+            }
+        },
+        "blue bandana": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "BlueBandana",
+                "texture": "chikn/BlueBandana.png"
+            }
+        },
+        "chains for days": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "ChainsForDays",
+                "texture": "chikn/ChainsForDays.png"
+            }
+        },
+        "chicken choker": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "ChickenChoker",
+                "texture": "chikn/ChickenChoker.png"
+            }
+        },
+        "dollar chain": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "DollarChain",
+                "texture": "chikn/DollarChain.png"
+            }
+        },
+        "ethereum bling": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "EthereumBling",
+                "texture": "chikn/EthereumBling.png"
+            }
+        },
+        "ethereum gwei guzzler": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "EthereumGweiGuzzler",
+                "texture": "chikn/EthereumGweiGuzzler.png"
+            }
+        },
+        "hairy old man": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "HairyOldMan",
+                "texture": "chikn/HairyOldMan.png"
+            }
+        },
+        "mim bling": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "MIMBling",
+                "texture": "chikn/MIMBling.png"
+            }
+        },
+        "mim og": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "MIMOG",
+                "texture": "chikn/MIMOG.png"
+            }
+        },
+        "polygon bling": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "PolygonBling",
+                "texture": "chikn/PolygonBling.png"
+            }
+        },
+        "polygon degen": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "PolygonDegen",
+                "texture": "chikn/PolygonDegen.png"
+            }
+        },
+        "purple bowtie": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "PurpleBowtie",
+                "texture": "chikn/PurpleBowtie.png"
+            }
+        },
+        "red bandana": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "RedBandana",
+                "texture": "chikn/RedBandana.png"
+            }
+        },
+        "red bowtie": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "RedBowtie",
+                "texture": "chikn/RedBowtie.png"
+            }
+        },
+        "second head": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "SecondHead",
+                "texture": "chikn/SecondHead.png"
+            }
+        },
+        "wage slave": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "WageSlave",
+                "texture": "chikn/WageSlave.png"
+            }
+        },
+        "big mama fat pipes": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Big Mama Fat Pipes",
+                "texture": "chikn/Big Mama Fat Pipes.png"
+            }
+        },
+        "gas guzzler": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Gas Guzzler",
+                "texture": "chikn/Gas Guzzler.png"
+            }
+        },
+        "golden egg": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Golden Egg",
+                "texture": "chikn/Golden Egg.png"
+            }
+        },
+        "golden plumage": {
+            "slot": "Tail",
+            "attachments": [
+                {
+                    "name": "GoldenPlumage A",
+                    "texture": "chikn/GoldenPlumage A.png"
+                },
+                {
+                    "name": "GoldenPlumage B",
+                    "texture": "chikn/GoldenPlumage B.png"
+                }
+            ]
+        },
+        "led": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "LED",
+                "texture": "chikn/LED.png"
+            }
+        },
+        "liarliar": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Liar Liar",
+                "texture": "chikn/Liar Liar.png"
+            }
+        },
+        "nyan": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Nyan",
+                "texture": "chikn/Nyan.png"
+            }
+        },
+        "orange plumage": {
+            "slot": "Tail",
+            "attachments": [
+                {
+                    "name": "OrangePlumage A",
+                    "texture": "chikn/OrangePlumage A.png"
+                },
+                {
+                    "name": "OrangePlumage B",
+                    "texture": "chikn/OrangePlumage B.png"
+                }
+            ]
+        },
+        "red plumage": {
+            "slot": "Tail",
+            "attachments": [
+                {
+                    "name": "RedPlumage A",
+                    "texture": "chikn/RedPlumage A.png"
+                },
+                {
+                    "name": "RedPlumage B",
+                    "texture": "chikn/RedPlumage B.png"
+                }
+            ]
+        },
+        "very fresh egg": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Very Fresh Egg",
+                "texture": "chikn/Very Fresh Egg.png"
+            }
+        },
+        "a fresh baguette": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "AFreshBaguette",
+                "texture": "chikn/AFreshBaguette.png"
+            }
+        },
+        "action shorts": {
+            "slot": "Torso",
+            "attachments": [
+                {
+                    "name": "ActionShorts Body",
+                    "texture": "chikn/ActionShorts Body.png"
+                },
+                {
+                    "name": "ActionShorts PantA",
+                    "texture": "chikn/ActionShorts PantA.png"
+                },
+                {
+                    "name": "ActionShorts PantB",
+                    "texture": "chikn/ActionShorts PantB.png"
+                }
+            ]
+        },
+        "big bag of cash": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "BigBagOfCash",
+                "texture": "chikn/BigBagOfCash.png"
+            }
+        },
+        "big ol corn cob": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "BigOlCornCob",
+                "texture": "chikn/BigOlCornCob.png"
+            }
+        },
+        "blue bag": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "BlueBag",
+                "texture": "chikn/BlueBag.png"
+            }
+        },
+        "business boy": {
+            "slot": "Torso",
+            "attachments": [
+                {
+                    "name": "BusinessBoy_Body",
+                    "texture": "chikn/BusinessBoy_Body.png"
+                },
+                {
+                    "name": "BusinessBoy_Wing",
+                    "texture": "chikn/BusinessBoy_Wing.png"
+                }
+            ]
+        },
+        "captain chimerica": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "CaptainChimerica",
+                "texture": "chikn/CaptainChimerica.png"
+            }
+        },
+        "cutlass": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Cutlass",
+                "texture": "chikn/Cutlass.png"
+            }
+        },
+        "fresh fish": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "FreshFish",
+                "texture": "chikn/FreshFish.png"
+            }
+        },
+        "hentai": {
+            "slot": "Torso",
+            "attachments": [
+                {
+                    "name": "Hentai_Back",
+                    "texture": "chikn/Hentai_Back.png"
+                },
+                {
+                    "name": "Hentai_Front",
+                    "texture": "chikn/Hentai_Front.png"
+                }
+            ]
+        },
+        "human growth hormones": {
+            "slot": "Torso",
+            "attachments": [
+                {
+                    "name": "HumanGrowthHormones_Back",
+                    "texture": "chikn/HumanGrowthHormones_Back.png"
+                },
+                {
+                    "name": "HumanGrowthHormones_Front",
+                    "texture": "chikn/HumanGrowthHormones_Front.png"
+                }
+            ]
+        },
+        "karate kid": {
+            "slot": "Torso",
+            "attachments": [
+                {
+                    "name": "KarateKid_Body",
+                    "texture": "chikn/KarateKid_Body.png"
+                },
+                {
+                    "name": "KarateKid_Wing",
+                    "texture": "chikn/KarateKid_Wing.png"
+                }
+            ]
+        },
+        "midas muscles": {
+            "slot": "Torso",
+            "attachments": [
+                {
+                    "name": "MidasMucles_Back",
+                    "texture": "chikn/MidasMucles_Back.png"
+                },
+                {
+                    "name": "MidasMucles_Front",
+                    "texture": "chikn/MidasMucles_Front.png"
+                }
+            ]
+        },
+        "mighty broadsword": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "MightyBroadsword",
+                "texture": "chikn/MightyBroadsword.png"
+            }
+        },
+        "nugget wand": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "NuggetWand",
+                "texture": "chikn/NuggetWand.png"
+            }
+        }
+    },
+    "rig": [
+        {
+            "name": "Bullion_Head",
+            "parent": "Bullion_Torso",
+            "x": 45.147891799055394,
+            "y": -110.67772040452111,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Bullion_LegFoot A",
+            "parent": "Bullion_LegLower A",
+            "x": 7.6151481322456,
+            "y": 31.676544913741818,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "Bullion_LegFoot B",
+            "parent": "Bullion_LegLower B",
+            "x": 6.566614462858985,
+            "y": 22.81248194109653,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "Bullion_LegLower A",
+            "parent": "Bullion_LegUpper A",
+            "x": 1.3981623014169173,
+            "y": 42.406158239143366,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Bullion_LegLower B",
+            "parent": "Bullion_LegUpper B",
+            "x": 0.0,
+            "y": 48.31624033313504,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Bullion_LegUpper A",
+            "parent": "Bullion_Torso",
+            "x": -14.9,
+            "y": 47.382820027063595,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Bullion_LegUpper B",
+            "parent": "Bullion_Torso",
+            "x": 21.019483467988834,
+            "y": 45.347269282814615,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Bullion_Tail",
+            "parent": "Bullion_Torso",
+            "x": -93.64126001717783,
+            "y": -42.61914090265906,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "Bullion_Torso",
+            "parent": null,
+            "x": -13.506775440103048,
+            "y": -20.26093991671624,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "Bullion_Wing",
+            "parent": "Bullion_Torso",
+            "x": -21.139510519536284,
+            "y": -4.221487209994051,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "Bullion_Wing_1",
+            "parent": "Bullion_Torso",
+            "x": -21.38361746844078,
+            "y": -4.890525452581773,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "Celestial_Head",
+            "parent": "Celestial_Torso",
+            "x": 45.583168741949336,
+            "y": -109.80703866745985,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Celestial_LegFoot A",
+            "parent": "Celestial_LegLower A",
+            "x": 8.108251438647834,
+            "y": 25.757703818869867,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "Celestial_LegFoot B",
+            "parent": "Celestial_LegLower B",
+            "x": 7.410699871189352,
+            "y": 27.032908982748364,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "Celestial_LegLower A",
+            "parent": "Celestial_LegUpper A",
+            "x": -0.08114761778978241,
+            "y": 48.81823609192131,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Celestial_LegLower B",
+            "parent": "Celestial_LegUpper B",
+            "x": 0.0,
+            "y": 48.81820838971583,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Celestial_LegUpper A",
+            "parent": "Celestial_Torso",
+            "x": -11.44709626370442,
+            "y": 44.917677335871,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Celestial_LegUpper B",
+            "parent": "Celestial_Torso",
+            "x": 20.525,
+            "y": 45.012178619756426,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Celestial_Tail",
+            "parent": "Celestial_Torso",
+            "x": -89.42083297552598,
+            "y": -50.21590957763236,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "Celestial_Torso",
+            "parent": null,
+            "x": -13.505945874221913,
+            "y": -20.261894076402243,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Celestial_Wing",
+            "parent": "Celestial_Torso",
+            "x": -21.139510519536284,
+            "y": -4.221487209994051,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "Celestial_Wing_1",
+            "parent": "Celestial_Torso",
+            "x": -22.227702876771147,
+            "y": -6.596073765615705,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "Crystale_Head",
+            "parent": "Crystale_Torso",
+            "x": 45.583168741949336,
+            "y": -109.80703866745985,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Crystale_LegFoot A",
+            "parent": "Crystale_LegLower A",
+            "x": 7.6151481322456,
+            "y": 31.676544913741818,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "Crystale_LegFoot B",
+            "parent": "Crystale_LegLower B",
+            "x": 7.410699871189352,
+            "y": 27.032908982748364,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "Crystale_LegLower A",
+            "parent": "Crystale_LegUpper A",
+            "x": 1.3981623014169173,
+            "y": 42.406158239143366,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Crystale_LegLower B",
+            "parent": "Crystale_LegUpper B",
+            "x": -0.9862066128044666,
+            "y": 47.82300357522904,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Crystale_LegUpper A",
+            "parent": "Crystale_Torso",
+            "x": -15.391922714922288,
+            "y": 47.383861125400976,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Crystale_LegUpper B",
+            "parent": "Crystale_Torso",
+            "x": 20.525,
+            "y": 45.012178619756426,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Crystale_Tail",
+            "parent": "Crystale_Torso",
+            "x": -89.42083297552598,
+            "y": -50.21590957763236,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "Crystale_Torso",
+            "parent": null,
+            "x": -13.505945874221913,
+            "y": -20.261894076402243,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Crystale_Wing",
+            "parent": "Crystale_Torso",
+            "x": -21.139510519536284,
+            "y": -4.221487209994051,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "Crystale_Wing_1",
+            "parent": "Crystale_Torso",
+            "x": -22.227702876771147,
+            "y": 0.0,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "FrogGreen_Head",
+            "parent": "FrogGreen_Torso",
+            "x": 45.583168741949336,
+            "y": -109.80703866745985,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "FrogGreen_LegFoot A",
+            "parent": "FrogGreen_LegLower A",
+            "x": 7.6151481322456,
+            "y": 31.676544913741818,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "FrogGreen_LegFoot B",
+            "parent": "FrogGreen_LegLower B",
+            "x": 7.410699871189352,
+            "y": 27.032908982748364,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "FrogGreen_LegLower A",
+            "parent": "FrogGreen_LegUpper A",
+            "x": 1.3981623014169173,
+            "y": 42.406158239143366,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "FrogGreen_LegLower B",
+            "parent": "FrogGreen_LegUpper B",
+            "x": 0.0,
+            "y": 48.31624033313504,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "FrogGreen_LegUpper A",
+            "parent": "FrogGreen_Torso",
+            "x": -15.88502602132452,
+            "y": 47.87709788330697,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "FrogGreen_LegUpper B",
+            "parent": "FrogGreen_Torso",
+            "x": 20.525,
+            "y": 45.012178619756426,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "FrogGreen_Tail",
+            "parent": "FrogGreen_Torso",
+            "x": -89.42083297552598,
+            "y": -50.21590957763236,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "FrogGreen_Torso",
+            "parent": null,
+            "x": -13.505945874221913,
+            "y": -20.261894076402243,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "FrogGreen_Wing",
+            "parent": "FrogGreen_Torso",
+            "x": -21.139510519536284,
+            "y": -4.221487209994051,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "FrogGreen_Wing_1",
+            "parent": "FrogGreen_Torso",
+            "x": -22.227702876771147,
+            "y": -7.422781677572873,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "GameBoy_Head",
+            "parent": "GameBoy_Torso",
+            "x": 45.583168741949336,
+            "y": -109.80703866745985,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "GameBoy_LegFoot A",
+            "parent": "GameBoy_LegLower A",
+            "x": 7.6151481322456,
+            "y": 31.676544913741818,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "GameBoy_LegFoot B",
+            "parent": "GameBoy_LegLower B",
+            "x": 7.410699871189352,
+            "y": 27.032908982748364,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "GameBoy_LegLower A",
+            "parent": "GameBoy_LegUpper A",
+            "x": 1.3981623014169173,
+            "y": 42.406158239143366,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "GameBoy_LegLower B",
+            "parent": "GameBoy_LegUpper B",
+            "x": 0.0,
+            "y": 48.31624033313504,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "GameBoy_LegUpper A",
+            "parent": "GameBoy_Torso",
+            "x": -15.88502602132452,
+            "y": 47.383861125400976,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "GameBoy_LegUpper B",
+            "parent": "GameBoy_Torso",
+            "x": 20.525,
+            "y": 45.012178619756426,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "GameBoy_Tail",
+            "parent": "GameBoy_Torso",
+            "x": -89.42083297552598,
+            "y": -50.21590957763236,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "GameBoy_Torso",
+            "parent": null,
+            "x": -13.505945874221913,
+            "y": -20.261894076402243,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "GameBoy_Wing",
+            "parent": "GameBoy_Torso",
+            "x": -21.139510519536284,
+            "y": -4.221487209994051,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "GameBoy_Wing_1",
+            "parent": "GameBoy_Torso",
+            "x": -22.227702876771147,
+            "y": -7.422781677572873,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "MutantPurple_Head",
+            "parent": "MutantPurple_Torso",
+            "x": 45.583168741949336,
+            "y": -109.80703866745985,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "MutantPurple_LegFoot A",
+            "parent": "MutantPurple_LegLower A",
+            "x": 7.6151481322456,
+            "y": 31.676544913741818,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "MutantPurple_LegFoot B",
+            "parent": "MutantPurple_LegLower B",
+            "x": 7.410699871189352,
+            "y": 27.032908982748364,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "MutantPurple_LegLower A",
+            "parent": "MutantPurple_LegUpper A",
+            "x": 1.3981623014169173,
+            "y": 42.406158239143366,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "MutantPurple_LegLower B",
+            "parent": "MutantPurple_LegUpper B",
+            "x": 0.0,
+            "y": 48.31624033313504,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "MutantPurple_LegUpper A",
+            "parent": "MutantPurple_Torso",
+            "x": -15.88502602132452,
+            "y": 46.890624367494986,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "MutantPurple_LegUpper B",
+            "parent": "MutantPurple_Torso",
+            "x": 20.525,
+            "y": 45.012178619756426,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "MutantPurple_Tail",
+            "parent": "MutantPurple_Torso",
+            "x": -89.42083297552598,
+            "y": -50.21590957763236,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "MutantPurple_Torso",
+            "parent": null,
+            "x": -13.505945874221913,
+            "y": -20.261894076402243,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "MutantPurple_Wing",
+            "parent": "MutantPurple_Torso",
+            "x": -21.139510519536284,
+            "y": -4.221487209994051,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "MutantPurple_Wing_1",
+            "parent": "MutantPurple_Torso",
+            "x": -22.227702876771147,
+            "y": -7.422781677572873,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "NightstalkerBlue_Head",
+            "parent": "NightstalkerBlue_Torso",
+            "x": 45.583168741949336,
+            "y": -109.80703866745985,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "NightstalkerBlue_LegFoot A",
+            "parent": "NightstalkerBlue_LegLower A",
+            "x": 7.6151481322456,
+            "y": 31.676544913741818,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "NightstalkerBlue_LegFoot B",
+            "parent": "NightstalkerBlue_LegLower B",
+            "x": 7.410699871189352,
+            "y": 27.032908982748364,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "NightstalkerBlue_LegLower A",
+            "parent": "NightstalkerBlue_LegUpper A",
+            "x": 1.3981623014169173,
+            "y": 42.406158239143366,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "NightstalkerBlue_LegLower B",
+            "parent": "NightstalkerBlue_LegUpper B",
+            "x": 0.0,
+            "y": 48.31624033313504,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "NightstalkerBlue_LegUpper A",
+            "parent": "NightstalkerBlue_Torso",
+            "x": -15.88502602132452,
+            "y": 46.39738760958898,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "NightstalkerBlue_LegUpper B",
+            "parent": "NightstalkerBlue_Torso",
+            "x": 20.525,
+            "y": 45.012178619756426,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "NightstalkerBlue_Tail",
+            "parent": "NightstalkerBlue_Torso",
+            "x": -89.42083297552598,
+            "y": -50.21590957763236,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "NightstalkerBlue_Torso",
+            "parent": null,
+            "x": -13.505945874221913,
+            "y": -20.261894076402243,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "NightstalkerBlue_Wing",
+            "parent": "NightstalkerBlue_Torso",
+            "x": -21.139510519536284,
+            "y": -4.221487209994051,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "NightstalkerBlue_Wing_1",
+            "parent": "NightstalkerBlue_Torso",
+            "x": -22.227702876771147,
+            "y": -7.422781677572873,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "PassionRed_Head",
+            "parent": "PassionRed_Torso",
+            "x": 45.583168741949336,
+            "y": -109.80703866745985,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "PassionRed_LegFoot A",
+            "parent": "PassionRed_LegLower A",
+            "x": 7.6151481322456,
+            "y": 31.676544913741818,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "PassionRed_LegFoot B",
+            "parent": "PassionRed_LegLower B",
+            "x": 7.410699871189352,
+            "y": 27.032908982748364,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "PassionRed_LegLower A",
+            "parent": "PassionRed_LegUpper A",
+            "x": 1.3981623014169173,
+            "y": 42.406158239143366,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "PassionRed_LegLower B",
+            "parent": "PassionRed_LegUpper B",
+            "x": 0.0,
+            "y": 48.31624033313504,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "PassionRed_LegUpper A",
+            "parent": "PassionRed_Torso",
+            "x": -16.871232634128987,
+            "y": 45.904150851682985,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "PassionRed_LegUpper B",
+            "parent": "PassionRed_Torso",
+            "x": 20.525,
+            "y": 45.012178619756426,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "PassionRed_Tail",
+            "parent": "PassionRed_Torso",
+            "x": -89.42083297552598,
+            "y": -50.21590957763236,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "PassionRed_Torso",
+            "parent": null,
+            "x": -13.588294043050428,
+            "y": -19.767703158810246,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "PassionRed_Wing",
+            "parent": "PassionRed_Torso",
+            "x": -21.139510519536284,
+            "y": -4.221487209994051,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "PassionRed_Wing_1",
+            "parent": "PassionRed_Torso",
+            "x": -22.227702876771147,
+            "y": -7.422781677572873,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "PixelChan_Head",
+            "parent": "PixelChan_Torso",
+            "x": 45.583168741949336,
+            "y": -109.80703866745985,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "PixelChan_LegFoot A",
+            "parent": "PixelChan_LegLower A",
+            "x": 7.6151481322456,
+            "y": 31.676544913741818,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "PixelChan_LegFoot B",
+            "parent": "PixelChan_LegLower B",
+            "x": 7.410699871189352,
+            "y": 27.032908982748364,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "PixelChan_LegLower A",
+            "parent": "PixelChan_LegUpper A",
+            "x": 1.3981623014169173,
+            "y": 42.406158239143366,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "PixelChan_LegLower B",
+            "parent": "PixelChan_LegUpper B",
+            "x": 0.0,
+            "y": 48.31624033313504,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "PixelChan_LegUpper A",
+            "parent": "PixelChan_Torso",
+            "x": -16.378129327726754,
+            "y": 46.39738760958898,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "PixelChan_LegUpper B",
+            "parent": "PixelChan_Torso",
+            "x": 20.525,
+            "y": 45.012178619756426,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "PixelChan_Tail",
+            "parent": "PixelChan_Torso",
+            "x": -89.42083297552598,
+            "y": -50.21590957763236,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "PixelChan_Torso",
+            "parent": null,
+            "x": -13.505945874221913,
+            "y": -20.261894076402243,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "PixelChan_Wing",
+            "parent": "PixelChan_Torso",
+            "x": -21.139510519536284,
+            "y": -4.221487209994051,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "PixelChan_Wing_1",
+            "parent": "PixelChan_Torso",
+            "x": -22.227702876771147,
+            "y": -7.422781677572873,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "RusticBrown_Head",
+            "parent": "RusticBrown_Torso",
+            "x": 45.583168741949336,
+            "y": -109.80703866745985,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "RusticBrown_LegFoot A",
+            "parent": "RusticBrown_LegLower A",
+            "x": 7.6151481322456,
+            "y": 31.676544913741818,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "RusticBrown_LegFoot B",
+            "parent": "RusticBrown_LegLower B",
+            "x": 7.410699871189352,
+            "y": 27.032908982748364,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "RusticBrown_LegLower A",
+            "parent": "RusticBrown_LegUpper A",
+            "x": 1.3981623014169173,
+            "y": 42.406158239143366,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "RusticBrown_LegLower B",
+            "parent": "RusticBrown_LegUpper B",
+            "x": 0.0,
+            "y": 48.31624033313504,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "RusticBrown_LegUpper A",
+            "parent": "RusticBrown_Torso",
+            "x": -18.350542553335686,
+            "y": 44.917677335871,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "RusticBrown_LegUpper B",
+            "parent": "RusticBrown_Torso",
+            "x": 20.525,
+            "y": 45.012178619756426,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "RusticBrown_Tail",
+            "parent": "RusticBrown_Torso",
+            "x": -89.42083297552598,
+            "y": -50.21590957763236,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "RusticBrown_Torso",
+            "parent": null,
+            "x": -11.94927053355191,
+            "y": -20.261894076402243,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "RusticBrown_Wing",
+            "parent": "RusticBrown_Torso",
+            "x": -21.139510519536284,
+            "y": -4.221487209994051,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "RusticBrown_Wing_1",
+            "parent": "RusticBrown_Torso",
+            "x": -22.227702876771147,
+            "y": -7.422781677572873,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "BlackVans A",
+            "parent": null,
+            "x": 6.757201367741274,
+            "y": -2.2669222146272006,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "BlackVans B",
+            "parent": null,
+            "x": 46.70920110542891,
+            "y": -6.360972039165148,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 5
+        },
+        {
+            "name": "BlueFeet A 2",
+            "parent": null,
+            "x": -6.411035608401566,
+            "y": -32.0716350397457,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "BlueFeet A",
+            "parent": null,
+            "x": -17.14314152186615,
+            "y": 99.30039333686773,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "BlueFeet B 2",
+            "parent": null,
+            "x": 25.06481664963372,
+            "y": -35.90127213014027,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "BlueFeet B",
+            "parent": null,
+            "x": 13.918114645818584,
+            "y": 99.4846807403442,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "BlueKicks A",
+            "parent": null,
+            "x": 14.107210750413415,
+            "y": -4.53940648338488,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "BlueKicks B",
+            "parent": null,
+            "x": 59.2983994410619,
+            "y": -9.865124033803042,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 5
+        },
+        {
+            "name": "ComfortableUggs A",
+            "parent": null,
+            "x": 17.431424231020547,
+            "y": -0.3153715192270141,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "ComfortableUggs B",
+            "parent": null,
+            "x": 58.87288021335095,
+            "y": -3.3947880457089497,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "GreenFeet A",
+            "parent": null,
+            "x": -18.03039450109736,
+            "y": 99.29447956154118,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "GreenFeet B 2",
+            "parent": null,
+            "x": 27.48074014397182,
+            "y": -29.63743166086526,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "GreenFeet B",
+            "parent": null,
+            "x": 14.929474045786396,
+            "y": 100.22949062176282,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "GreenFeet A 2",
+            "parent": null,
+            "x": -7.92949844619713,
+            "y": -27.348357885086727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "GreenKicks A",
+            "parent": null,
+            "x": 17.17001470938506,
+            "y": -5.2616739202676825,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "GreenKicks B",
+            "parent": null,
+            "x": 53.43915218043364,
+            "y": -11.031148502376183,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 5
+        },
+        {
+            "name": "PurpleBoots A",
+            "parent": null,
+            "x": 8.044103119292856,
+            "y": -20.608482783352528,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "PurpleBoots B",
+            "parent": null,
+            "x": 41.7080497999288,
+            "y": -31.57452870267086,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "PurpleFeet A",
+            "parent": null,
+            "x": -18.03039450109736,
+            "y": 99.34594201713153,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "PurpleFeet B",
+            "parent": null,
+            "x": 14.832153889294057,
+            "y": 99.39944052399649,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "PurpleFeet A 2",
+            "parent": null,
+            "x": -6.410345527608264,
+            "y": -30.971790351682728,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "PurpleFeet B 2",
+            "parent": null,
+            "x": 28.388697613632242,
+            "y": -31.970839929586774,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "RealFeet A",
+            "parent": null,
+            "x": 14.75969474461362,
+            "y": -30.405543662633733,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "RealFeet B",
+            "parent": null,
+            "x": 38.768170816660735,
+            "y": -42.934460095719785,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "RedBoots A",
+            "parent": null,
+            "x": 3.983681211457341,
+            "y": -25.21586380562205,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "RedBoots B",
+            "parent": null,
+            "x": 37.75810487635823,
+            "y": -34.05774846882183,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "RedFeet A",
+            "parent": null,
+            "x": -18.423466216016504,
+            "y": 100.19507253437231,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "RedFeet A 2",
+            "parent": null,
+            "x": -7.994742040297886,
+            "y": -25.213884104593447,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "RedFeet B",
+            "parent": null,
+            "x": 15.42528878717938,
+            "y": 99.26209752542526,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "RedFeet B 2",
+            "parent": null,
+            "x": 27.086863871424697,
+            "y": -32.23683906713387,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "RedVans A",
+            "parent": null,
+            "x": 8.912380151602513,
+            "y": 1.4408990928186256,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "RedVans B",
+            "parent": null,
+            "x": 49.68849076811275,
+            "y": -5.476415932702096,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 5
+        },
+        {
+            "name": "Rollerderby A",
+            "parent": null,
+            "x": 12.978261999440722,
+            "y": 1.0772579600008498,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Rollerderby B",
+            "parent": null,
+            "x": 49.94377688234922,
+            "y": -5.6034777731202325,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 5
+        },
+        {
+            "name": "Swashbucklers A",
+            "parent": null,
+            "x": 11.61571375331479,
+            "y": -20.056247676107816,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Swashbucklers B",
+            "parent": null,
+            "x": 46.710899613461336,
+            "y": -30.036398481409336,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "AVAXSafetyOfficer",
+            "parent": null,
+            "x": -0.05354290927206051,
+            "y": -74.35383316358275,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Admiral",
+            "parent": null,
+            "x": -5.243552113028752,
+            "y": -68.01789921688051,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "AllSeeingEye",
+            "parent": null,
+            "x": 1.5011478530377786,
+            "y": -35.323299250117316,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "BlackSweatband",
+            "parent": null,
+            "x": -3.8879529580556955,
+            "y": -53.509920712742606,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Blue Mage",
+            "parent": null,
+            "x": -17.483910743636155,
+            "y": -83.20122796756523,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Boxhead A",
+            "parent": null,
+            "x": 6.09782393422261,
+            "y": -47.39875752996795,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Boxhead B",
+            "parent": null,
+            "x": 8.824824393670092,
+            "y": 7.691916265409425,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 3
+        },
+        {
+            "name": "CharcoalBrunette B",
+            "parent": null,
+            "x": -36.08598096835799,
+            "y": 16.808656851826775,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "CharcoalBrunette",
+            "parent": null,
+            "x": -32.12842441259128,
+            "y": -38.02217490644258,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Cheeky Redhead",
+            "parent": null,
+            "x": -32.58548911479065,
+            "y": -33.310196319621596,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "CheekyRedhead B",
+            "parent": null,
+            "x": -35.77,
+            "y": 14.53,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 11
+        },
+        {
+            "name": "ConstructionHelmet",
+            "parent": null,
+            "x": -0.09428830194769944,
+            "y": -72.34049248707308,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Cool Dude 69",
+            "parent": null,
+            "x": 18.125370700978486,
+            "y": -32.399079580709184,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "CovidSafe",
+            "parent": null,
+            "x": 8.259010786270498,
+            "y": -12.963987075929367,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Crusader",
+            "parent": null,
+            "x": -1.613642036942359,
+            "y": -42.417647443112855,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "DaftPunk",
+            "parent": null,
+            "x": 1.1130139049916963,
+            "y": -46.520150278640614,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "DealWithIt",
+            "parent": null,
+            "x": 19.646297663099357,
+            "y": -32.55175820733524,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Frothy Crown",
+            "parent": null,
+            "x": 3.5543631800161926,
+            "y": -70.97629488912642,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Gentlechikn",
+            "parent": null,
+            "x": 10.383588851861074,
+            "y": -55.028035692526316,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "GentlemansPipe",
+            "parent": null,
+            "x": 63.119065631321504,
+            "y": 6.850580703791167,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "GoldenBlonde B",
+            "parent": null,
+            "x": -26.813832794362398,
+            "y": 28.506689607116897,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "GoldenBlonde",
+            "parent": null,
+            "x": -30.533847014938456,
+            "y": -39.34826635589775,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "GoldenBoneDaddy",
+            "parent": null,
+            "x": 1.8864239219096532,
+            "y": -44.371114179323996,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "GoldenCrusader",
+            "parent": null,
+            "x": 3.0972984778168176,
+            "y": -48.34733877730929,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Goose",
+            "parent": null,
+            "x": 15.851059779865146,
+            "y": -34.22502932416694,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Hamlet",
+            "parent": null,
+            "x": 7.1998682077276435,
+            "y": -39.38513374917835,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "HotHead",
+            "parent": null,
+            "x": -15.579949636350804,
+            "y": -63.73673981922238,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "HubbaBubba",
+            "parent": null,
+            "x": 80.83115336157212,
+            "y": -23.01608930110814,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Icey Stare",
+            "parent": null,
+            "x": 20.35431554861553,
+            "y": -33.86988031111588,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Inherited Royalty",
+            "parent": null,
+            "x": -16.02745103531289,
+            "y": -71.12961515581506,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "LaserEye",
+            "parent": null,
+            "x": 4.160111919654177,
+            "y": -37.15961117211813,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "LowVisionAdmiral",
+            "parent": null,
+            "x": -12.036189345475456,
+            "y": -58.16384917169154,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "LuckiestRedCap",
+            "parent": null,
+            "x": 6.180323203198284,
+            "y": -64.49311333949049,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "LuckyBlueCap",
+            "parent": null,
+            "x": 7.445052891581646,
+            "y": -63.73343647199317,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Maverick",
+            "parent": null,
+            "x": 13.521419013476137,
+            "y": -34.37605627717832,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "MFD",
+            "parent": null,
+            "x": 12.231741478041052,
+            "y": -28.787748911069173,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Moustache",
+            "parent": null,
+            "x": 34.644244069060065,
+            "y": -23.69460415724106,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Murica",
+            "parent": null,
+            "x": 14.02752065244631,
+            "y": -41.209018900617735,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "MysteriousFez",
+            "parent": null,
+            "x": -14.822370405021765,
+            "y": -59.43300535248059,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Nerdlinger",
+            "parent": null,
+            "x": 9.977658722600786,
+            "y": -35.89541001217299,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Pillager",
+            "parent": null,
+            "x": -24.68873031972975,
+            "y": -87.77473026794127,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Pineapple",
+            "parent": null,
+            "x": -1.6215863398410484,
+            "y": -52.357829362148095,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "PixelCigarette",
+            "parent": null,
+            "x": 44.69740391451868,
+            "y": -1.3945057237583853,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "PurpleSweatband",
+            "parent": null,
+            "x": -5.964018495917543,
+            "y": -56.395949556105904,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Red Mage",
+            "parent": null,
+            "x": -15.834573682962109,
+            "y": -82.96647150875165,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Saint",
+            "parent": null,
+            "x": 0.346631613431299,
+            "y": -46.80448461723225,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "SavageBeast",
+            "parent": null,
+            "x": 57.05045375157423,
+            "y": 6.561978443519834,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "SmokingLounge",
+            "parent": null,
+            "x": 33.26043175139698,
+            "y": -29.56779751798871,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Sucker",
+            "parent": null,
+            "x": 71.97773154165719,
+            "y": -20.962806094927032,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "SuperSaiyan",
+            "parent": null,
+            "x": -17.09825455326132,
+            "y": -83.22162408380112,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "TopOfTheMorning",
+            "parent": null,
+            "x": -7.483372230912202,
+            "y": -70.87165682949328,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "TungstenCube",
+            "parent": null,
+            "x": 6.183469657450715,
+            "y": -44.97407495821392,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Uniquehorn",
+            "parent": null,
+            "x": 27.862821149719835,
+            "y": -83.58013812472062,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "AVAXBling",
+            "parent": null,
+            "x": 8.852302785329812,
+            "y": 47.834249318746586,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "AVAXDegen",
+            "parent": null,
+            "x": 8.878091259150914,
+            "y": 51.55005764749954,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "BitcoinBling",
+            "parent": null,
+            "x": 4.07656976115018,
+            "y": 53.45250837177197,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "BitcoinMaxi",
+            "parent": null,
+            "x": 5.036987900133546,
+            "y": 49.245813298625876,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "BlackBandana",
+            "parent": null,
+            "x": -5.976072215209477,
+            "y": 56.59726895493685,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "BlueBandana",
+            "parent": null,
+            "x": -7.5736987750383165,
+            "y": 58.076979228654835,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "ChainsForDays",
+            "parent": null,
+            "x": -0.9444383627879631,
+            "y": 41.68958547708455,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "ChickenChoker",
+            "parent": null,
+            "x": 5.530091206535779,
+            "y": 28.614871998189926,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "DollarChain",
+            "parent": null,
+            "x": 2.9978349815446776,
+            "y": 54.50068757973369,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "EthereumBling",
+            "parent": null,
+            "x": -0.8281056321349638,
+            "y": 46.516217778616436,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "EthereumGweiGuzzler",
+            "parent": null,
+            "x": -1.6721910404653286,
+            "y": 47.81668746913323,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "HairyOldMan",
+            "parent": null,
+            "x": 16.94571037144913,
+            "y": 8.506387415401505,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "MIMBling",
+            "parent": null,
+            "x": 5.723789358652084,
+            "y": 47.041285216845324,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "MIMOG",
+            "parent": null,
+            "x": 5.07340210243801,
+            "y": 41.58907164071918,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "PolygonBling",
+            "parent": null,
+            "x": 7.148969223331349,
+            "y": 43.85879414659584,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "PolygonDegen",
+            "parent": null,
+            "x": 7.148969223331349,
+            "y": 44.896730117998175,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "PurpleBowtie",
+            "parent": null,
+            "x": 9.224536344224688,
+            "y": 24.463128112580563,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "RedBandana",
+            "parent": null,
+            "x": -4.723339045679772,
+            "y": 45.6782318228138,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "RedBowtie",
+            "parent": null,
+            "x": 6.041892863019527,
+            "y": 20.04885050785674,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "SecondHead",
+            "parent": null,
+            "x": 61.156220616589536,
+            "y": -12.888049799928801,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "WageSlave",
+            "parent": null,
+            "x": 2.7711613034515565,
+            "y": 63.26055963313884,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Big Mama Fat Pipes",
+            "parent": null,
+            "x": -54.32976731066212,
+            "y": -30.387415238198074,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Gas Guzzler",
+            "parent": null,
+            "x": -50.62887669379582,
+            "y": -29.868169798060066,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Golden Egg",
+            "parent": null,
+            "x": -30.829572958348166,
+            "y": 75.13469745817018,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -6
+        },
+        {
+            "name": "GoldenPlumage A",
+            "parent": null,
+            "x": 18.342797771000818,
+            "y": 20.27177479935377,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "GoldenPlumage B",
+            "parent": null,
+            "x": -29.803912684997314,
+            "y": -38.49067553938029,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "LED",
+            "parent": null,
+            "x": -38.140023349737874,
+            "y": 70.31094979984898,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "Liar Liar",
+            "parent": null,
+            "x": -19.45991926169782,
+            "y": -43.78112499331061,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "Nyan",
+            "parent": null,
+            "x": -73.30025905267345,
+            "y": 13.862507312923192,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "OrangePlumage A",
+            "parent": null,
+            "x": 22.687647124977516,
+            "y": 27.542674519535048,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "OrangePlumage B",
+            "parent": null,
+            "x": -16.360748827837007,
+            "y": -31.681508021750304,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "Red Plumage A",
+            "parent": null,
+            "x": -86.32989706824208,
+            "y": -41.215005525131275,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Red Plumage",
+            "parent": null,
+            "x": -124.20998294200766,
+            "y": -100.89651150484038,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "RedPlumage A",
+            "parent": null,
+            "x": 16.973532760736234,
+            "y": 23.64768926096786,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "RedPlumage B",
+            "parent": null,
+            "x": -28.11574186833657,
+            "y": -38.16555811675104,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "Very Fresh Egg",
+            "parent": null,
+            "x": -15.762407764613556,
+            "y": 77.77545805889245,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "AFreshBaguette",
+            "parent": null,
+            "x": -30.513353370545303,
+            "y": -8.69802260559191,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "ActionShorts Body",
+            "parent": null,
+            "x": 1.242078145126664,
+            "y": 23.49521475312314,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "ActionShorts PantA",
+            "parent": null,
+            "x": -27.033336195792188,
+            "y": 51.772582986317666,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "ActionShorts PantB",
+            "parent": null,
+            "x": 22.555259768140832,
+            "y": 49.598077334919694,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 9
+        },
+        {
+            "name": "BigBagOfCash",
+            "parent": null,
+            "x": 1.242078145126664,
+            "y": -7.394198691255205,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "BigOlCornCob",
+            "parent": null,
+            "x": -31.81698583082868,
+            "y": -2.1723069601427722,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "BlueBag",
+            "parent": null,
+            "x": 4.286818376985831,
+            "y": -11.743209994051158,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "BusinessBoy_Body",
+            "parent": null,
+            "x": 6.461004723057107,
+            "y": -1.3038239143367043,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "BusinessBoy_Wing",
+            "parent": null,
+            "x": -36.83227942871507,
+            "y": -24.839644096653203,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "CaptainChimerica",
+            "parent": null,
+            "x": -30.513353370545303,
+            "y": -0.43314217727543125,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 16
+        },
+        {
+            "name": "Cutlass",
+            "parent": null,
+            "x": 36.04005152425934,
+            "y": 5.221891731112432,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "FreshFish",
+            "parent": null,
+            "x": -2.6732159725203952,
+            "y": -3.4783295657346818,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Hentai_Back",
+            "parent": null,
+            "x": 28.20946328896522,
+            "y": -36.106907792980365,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "Hentai_Front",
+            "parent": null,
+            "x": -54.871275225418636,
+            "y": -46.548492563950035,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "HumanGrowthHormones_Back",
+            "parent": null,
+            "x": 104.3323658222413,
+            "y": -64.81961689470553,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -6
+        },
+        {
+            "name": "HumanGrowthHormones_Front",
+            "parent": null,
+            "x": -37.906466294547016,
+            "y": -54.37803212373586,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "KarateKid_Body",
+            "parent": null,
+            "x": 8.199914126234436,
+            "y": -4.349011302795955,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "KarateKid_Wing",
+            "parent": null,
+            "x": -26.911119684679058,
+            "y": -32.92226369920585,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "MidasMucles_Back",
+            "parent": null,
+            "x": 102.15598110777158,
+            "y": -67.86480428316479,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -6
+        },
+        {
+            "name": "MidasMucles_Front",
+            "parent": null,
+            "x": -30.078076427651354,
+            "y": -56.11939559785842,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "MightyBroadsword",
+            "parent": null,
+            "x": -11.26859025525891,
+            "y": 3.669737215158818,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "NuggetWand",
+            "parent": null,
+            "x": 30.38584800343495,
+            "y": 26.105061273051756,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        }
+    ]
+}

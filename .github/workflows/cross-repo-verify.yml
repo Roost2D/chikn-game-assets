@@ -1,0 +1,26 @@
+name: Verify published release candidates
+
+on:
+  workflow_dispatch:
+    inputs:
+      roost2d_tag:
+        description: Roost2D dist-tag to verify
+        required: true
+        default: next
+      chikn_assets_tag:
+        description: Chikn asset dist-tag to verify
+        required: true
+        default: next
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22.14.0, cache: npm, registry-url: https://registry.npmjs.org }
+      - run: npm ci
+      - run: npm run cross:verify
+        env:
+          ROOST2D_TAG: ${{ inputs.roost2d_tag }}
+          CHIKN_ASSETS_TAG: ${{ inputs.chikn_assets_tag }}

@@ -1,0 +1,12 @@
+{
+  "schema": "chikn-game-assets.budgets/v1",
+  "totalRepositoryBytes": 524288000,
+  "sourceArchiveBytes": 262144000,
+  "allSourcesBytes": 786432000,
+  "runtimeDefaultBytes": 262144000,
+  "runtimeHighBytes": 524288000,
+  "atlasDefaultBytes": 16777216,
+  "atlasHighBytes": 33554432,
+  "pagesArtifactBytes": 262144000,
+  "npmPackageBytes": 5242880
+}

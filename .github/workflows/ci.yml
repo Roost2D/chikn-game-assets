@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { lfs: true }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22.14.0, cache: npm }
+      - run: npm ci
+      - run: npm run build
+      - run: npm run check
+      - run: npm run repro:linux
+      - run: npm run pack:check
+      - run: npm run docs:build
+      - name: Generated reports are committed
+        run: git diff --exit-code -- reports manifests
+
+  cross-platform-semantics:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { lfs: true }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22.14.0, cache: npm }
+      - run: npm ci
+      - run: npm run build
+      - name: Decoded pixels and normalized manifest match canonical report
+        run: git diff --exit-code -- reports/reproducibility/semantic.json

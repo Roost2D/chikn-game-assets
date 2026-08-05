@@ -1,0 +1,4798 @@
+{
+    "skins": {
+        "Bullion": {
+            "Head": {
+                "name": "Bullion_Head",
+                "texture": "roostr/Bullion_Head.png"
+            },
+            "LegFoot A": {
+                "name": "Bullion_LegFoot A",
+                "texture": "roostr/Bullion_LegFoot-1.png"
+            },
+            "LegFoot B": {
+                "name": "Bullion_LegFoot B",
+                "texture": "roostr/Bullion_LegFoot-1.png"
+            },
+            "LegLower A": {
+                "name": "Bullion_LegLower A",
+                "texture": "roostr/Bullion_LegLower-1.png"
+            },
+            "LegLower B": {
+                "name": "Bullion_LegLower B",
+                "texture": "roostr/Bullion_LegLower-1.png"
+            },
+            "LegUpper A": {
+                "name": "Bullion_LegUpper A",
+                "texture": "roostr/Bullion_LegUpper-1.png"
+            },
+            "LegUpper B": {
+                "name": "Bullion_LegUpper B",
+                "texture": "roostr/Bullion_LegUpper-1.png"
+            },
+            "Tail": {
+                "name": "Bullion_Tail",
+                "texture": "roostr/Bullion_Tail.png"
+            },
+            "Torso": {
+                "name": "Bullion_Torso",
+                "texture": "roostr/Bullion_Torso.png"
+            },
+            "Wing": {
+                "name": "Bullion_Wing_1",
+                "texture": "roostr/Bullion_Wing.png"
+            }
+        },
+        "Celestial": {
+            "Head": {
+                "name": "Celestial_Head",
+                "texture": "roostr/Celestial_Head.png"
+            },
+            "LegFoot A": {
+                "name": "Celestial_LegFoot A",
+                "texture": "roostr/Celestial_LegFoot-1.png"
+            },
+            "LegFoot B": {
+                "name": "Celestial_LegFoot B",
+                "texture": "roostr/Celestial_LegFoot-1.png"
+            },
+            "LegLower A": {
+                "name": "Celestial_LegLower A",
+                "texture": "roostr/Celestial_LegLower-1.png"
+            },
+            "LegLower B": {
+                "name": "Celestial_LegLower B",
+                "texture": "roostr/Celestial_LegLower-1.png"
+            },
+            "LegUpper A": {
+                "name": "Celestial_LegUpper A",
+                "texture": "roostr/Celestial_LegUpper-1.png"
+            },
+            "LegUpper B": {
+                "name": "Celestial_LegUpper B",
+                "texture": "roostr/Celestial_LegUpper-1.png"
+            },
+            "Tail": {
+                "name": "Celestial_Tail",
+                "texture": "roostr/Celestial_Tail.png"
+            },
+            "Torso": {
+                "name": "Celestial_Torso",
+                "texture": "roostr/Celestial_Torso.png"
+            },
+            "Wing": {
+                "name": "Celestial_Wing_1",
+                "texture": "roostr/Celestial_Wing.png"
+            }
+        },
+        "Frog Green": {
+            "Head": {
+                "name": "FrogGreen_Head",
+                "texture": "roostr/FrogGreen_Head.png"
+            },
+            "LegFoot A": {
+                "name": "FrogGreen_LegFoot A",
+                "texture": "roostr/FrogGreen_LegFoot-1.png"
+            },
+            "LegFoot B": {
+                "name": "FrogGreen_LegFoot B",
+                "texture": "roostr/FrogGreen_LegFoot-1.png"
+            },
+            "LegLower A": {
+                "name": "FrogGreen_LegLower A",
+                "texture": "roostr/FrogGreen_LegLower-1.png"
+            },
+            "LegLower B": {
+                "name": "FrogGreen_LegLower B",
+                "texture": "roostr/FrogGreen_LegLower-1.png"
+            },
+            "LegUpper A": {
+                "name": "FrogGreen_LegUpper A",
+                "texture": "roostr/FrogGreen_LegUpper-1.png"
+            },
+            "LegUpper B": {
+                "name": "FrogGreen_LegUpper B",
+                "texture": "roostr/FrogGreen_LegUpper-1.png"
+            },
+            "Tail": {
+                "name": "FrogGreen_Tail",
+                "texture": "roostr/FrogGreen_Tail.png"
+            },
+            "Torso": {
+                "name": "FrogGreen_Torso",
+                "texture": "roostr/FrogGreen_Torso.png"
+            },
+            "Wing": {
+                "name": "FrogGreen_Wing_1",
+                "texture": "roostr/FrogGreen_Wing.png"
+            }
+        },
+        "Midnight": {
+            "Head": {
+                "name": "Midnight_Head",
+                "texture": "roostr/Midnight_Head.png"
+            },
+            "LegFoot A": {
+                "name": "Midnight_LegFoot A",
+                "texture": "roostr/Midnight_LegFoot-1.png"
+            },
+            "LegFoot B": {
+                "name": "Midnight_LegFoot B",
+                "texture": "roostr/Midnight_LegFoot-1.png"
+            },
+            "LegLower A": {
+                "name": "Midnight_LegLower A",
+                "texture": "roostr/Midnight_LegLower-1.png"
+            },
+            "LegLower B": {
+                "name": "Midnight_LegLower B",
+                "texture": "roostr/Midnight_LegLower-1.png"
+            },
+            "LegUpper A": {
+                "name": "Midnight_LegUpper A",
+                "texture": "roostr/Midnight_LegUpper-1.png"
+            },
+            "LegUpper B": {
+                "name": "Midnight_LegUpper B",
+                "texture": "roostr/Midnight_LegUpper-1.png"
+            },
+            "Tail": {
+                "name": "Midnight_Tail",
+                "texture": "roostr/Midnight_Tail.png"
+            },
+            "Torso": {
+                "name": "Midnight_Torso",
+                "texture": "roostr/Midnight_Torso.png"
+            },
+            "Wing": {
+                "name": "Midnight_Wing_1",
+                "texture": "roostr/Midnight_Wing.png"
+            }
+        },
+        "Mutant Purple": {
+            "Head": {
+                "name": "MutantPurple_Head",
+                "texture": "roostr/MutantPurple_Head.png"
+            },
+            "LegFoot A": {
+                "name": "MutantPurple_LegFoot A",
+                "texture": "roostr/MutantPurple_LegFoot-1.png"
+            },
+            "LegFoot B": {
+                "name": "MutantPurple_LegFoot B",
+                "texture": "roostr/MutantPurple_LegFoot-1.png"
+            },
+            "LegLower A": {
+                "name": "MutantPurple_LegLower A",
+                "texture": "roostr/MutantPurple_LegLower-1.png"
+            },
+            "LegLower B": {
+                "name": "MutantPurple_LegLower B",
+                "texture": "roostr/MutantPurple_LegLower-1.png"
+            },
+            "LegUpper A": {
+                "name": "MutantPurple_LegUpper A",
+                "texture": "roostr/MutantPurple_LegUpper-1.png"
+            },
+            "LegUpper B": {
+                "name": "MutantPurple_LegUpper B",
+                "texture": "roostr/MutantPurple_LegUpper-1.png"
+            },
+            "Tail": {
+                "name": "MutantPurple_Tail",
+                "texture": "roostr/MutantPurple_Tail.png"
+            },
+            "Torso": {
+                "name": "MutantPurple_Torso",
+                "texture": "roostr/MutantPurple_Torso.png"
+            },
+            "Wing": {
+                "name": "MutantPurple_Wing_1",
+                "texture": "roostr/MutantPurple_Wing.png"
+            }
+        },
+        "Nightstalker Blue": {
+            "Head": {
+                "name": "NighstalkerBlue_Head",
+                "texture": "roostr/NighstalkerBlue_Head.png"
+            },
+            "LegFoot A": {
+                "name": "NighstalkerBlue_LegFoot A",
+                "texture": "roostr/NighstalkerBlue_LegFoot-1.png"
+            },
+            "LegFoot B": {
+                "name": "NighstalkerBlue_LegFoot B",
+                "texture": "roostr/NighstalkerBlue_LegFoot-1.png"
+            },
+            "LegLower A": {
+                "name": "NighstalkerBlue_LegLower A",
+                "texture": "roostr/NighstalkerBlue_LegLower-1.png"
+            },
+            "LegLower B": {
+                "name": "NighstalkerBlue_LegLower B",
+                "texture": "roostr/NighstalkerBlue_LegLower-1.png"
+            },
+            "LegUpper A": {
+                "name": "NighstalkerBlue_LegUpper A",
+                "texture": "roostr/NighstalkerBlue_LegUpper-1.png"
+            },
+            "LegUpper B": {
+                "name": "NighstalkerBlue_LegUpper B",
+                "texture": "roostr/NighstalkerBlue_LegUpper-1.png"
+            },
+            "Tail": {
+                "name": "NighstalkerBlue_Tail",
+                "texture": "roostr/NighstalkerBlue_Tail.png"
+            },
+            "Torso": {
+                "name": "NighstalkerBlue_Torso",
+                "texture": "roostr/NighstalkerBlue_Torso.png"
+            },
+            "Wing": {
+                "name": "NighstalkerBlue_Wing_1",
+                "texture": "roostr/NighstalkerBlue_Wing.png"
+            }
+        },
+        "Obsidian": {
+            "Head": {
+                "name": "Obsidian_Head",
+                "texture": "roostr/Obsidian_Head.png"
+            },
+            "LegFoot A": {
+                "name": "Obsidian_LegFoot A",
+                "texture": "roostr/Obsidian_LegFoot-1.png"
+            },
+            "LegFoot B": {
+                "name": "Obsidian_LegFoot B",
+                "texture": "roostr/Obsidian_LegFoot-1.png"
+            },
+            "LegLower A": {
+                "name": "Obsidian_LegLower A",
+                "texture": "roostr/Obsidian_LegLower-1.png"
+            },
+            "LegLower B": {
+                "name": "Obsidian_LegLower B",
+                "texture": "roostr/Obsidian_LegLower-1.png"
+            },
+            "LegUpper A": {
+                "name": "Obsidian_LegUpper A",
+                "texture": "roostr/Obsidian_LegUpper-1.png"
+            },
+            "LegUpper B": {
+                "name": "Obsidian_LegUpper B",
+                "texture": "roostr/Obsidian_LegUpper-1.png"
+            },
+            "Tail": {
+                "name": "Obsidian_Tail",
+                "texture": "roostr/Obsidian_Tail.png"
+            },
+            "Torso": {
+                "name": "Obsidian_Torso",
+                "texture": "roostr/Obsidian_Torso.png"
+            },
+            "Wing": {
+                "name": "Obsidian_Wing_1",
+                "texture": "roostr/Obsidian_Wing.png"
+            }
+        },
+        "Passion Red": {
+            "Head": {
+                "name": "PassionRed_Head",
+                "texture": "roostr/PassionRed_Head.png"
+            },
+            "LegFoot A": {
+                "name": "PassionRed_LegFoot A",
+                "texture": "roostr/PassionRed_LegFoot-1.png"
+            },
+            "LegFoot B": {
+                "name": "PassionRed_LegFoot B",
+                "texture": "roostr/PassionRed_LegFoot-1.png"
+            },
+            "LegLower A": {
+                "name": "PassionRed_LegLower A",
+                "texture": "roostr/PassionRed_LegLower-1.png"
+            },
+            "LegLower B": {
+                "name": "PassionRed_LegLower B",
+                "texture": "roostr/PassionRed_LegLower-1.png"
+            },
+            "LegUpper A": {
+                "name": "PassionRed_LegUpper A",
+                "texture": "roostr/PassionRed_LegUpper-1.png"
+            },
+            "LegUpper B": {
+                "name": "PassionRed_LegUpper B",
+                "texture": "roostr/PassionRed_LegUpper-1.png"
+            },
+            "Tail": {
+                "name": "PassionRed_Tail",
+                "texture": "roostr/PassionRed_Tail.png"
+            },
+            "Torso": {
+                "name": "PassionRed_Torso",
+                "texture": "roostr/PassionRed_Torso.png"
+            },
+            "Wing": {
+                "name": "PassionRed_Wing_1",
+                "texture": "roostr/PassionRed_Wing.png"
+            }
+        },
+        "Snow White": {
+            "Head": {
+                "name": "SnowWhite_Head",
+                "texture": "roostr/SnowWhite_Head.png"
+            },
+            "LegFoot A": {
+                "name": "SnowWhite_LegFoot A",
+                "texture": "roostr/SnowWhite_LegFoot-1.png"
+            },
+            "LegFoot B": {
+                "name": "SnowWhite_LegFoot B",
+                "texture": "roostr/SnowWhite_LegFoot-1.png"
+            },
+            "LegLower A": {
+                "name": "SnowWhite_LegLower A",
+                "texture": "roostr/SnowWhite_LegLower-1.png"
+            },
+            "LegLower B": {
+                "name": "SnowWhite_LegLower B",
+                "texture": "roostr/SnowWhite_LegLower-1.png"
+            },
+            "LegUpper A": {
+                "name": "SnowWhite_LegUpper A",
+                "texture": "roostr/SnowWhite_LegUpper-1.png"
+            },
+            "LegUpper B": {
+                "name": "SnowWhite_LegUpper B",
+                "texture": "roostr/SnowWhite_LegUpper-1.png"
+            },
+            "Tail": {
+                "name": "SnowWhite_Tail",
+                "texture": "roostr/SnowWhite_Tail.png"
+            },
+            "Torso": {
+                "name": "SnowWhite_Torso",
+                "texture": "roostr/SnowWhite_Torso.png"
+            },
+            "Wing": {
+                "name": "SnowWhite_Wing_1",
+                "texture": "roostr/SnowWhite_Wing.png"
+            }
+        }
+    },
+    "traits": {
+        "All Stars": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "AllStars_A",
+                    "texture": "roostr/AllStars_A.png"
+                },
+                {
+                    "name": "AllStars_B",
+                    "texture": "roostr/AllStars_B.png"
+                }
+            ]
+        },
+        "Ball'n Chain": {
+            "slot": "Feet",
+            "attachment": {
+                "name": "BallNChain",
+                "texture": "roostr/BallNChain.png"
+            }
+        },
+        "Black Stilettos": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "BlackStilettos_A",
+                    "texture": "roostr/BlackStilettos_A.png"
+                },
+                {
+                    "name": "BlackStilettos_B",
+                    "texture": "roostr/BlackStilettos_B.png"
+                }
+            ]
+        },
+        "Blue Timbs": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "BlueTimbs_A",
+                    "texture": "roostr/BlueTimbs_A.png"
+                },
+                {
+                    "name": "BlueTimbs_B",
+                    "texture": "roostr/BlueTimbs_B.png"
+                }
+            ]
+        },
+        "Buckaroo": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "Buckaroo_A",
+                    "texture": "roostr/Buckaroo_A.png"
+                },
+                {
+                    "name": "Buckaroo_B",
+                    "texture": "roostr/Buckaroo_B.png"
+                }
+            ]
+        },
+        "Celestial Feet": {
+            "slot": "Feet",
+            "attachment": {
+                "name": "Celestial Feet",
+                "texture": "roostr/Celestial Feet.png"
+            }
+        },
+        "Croqs": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "Croqs_A",
+                    "texture": "roostr/Croqs_A.png"
+                },
+                {
+                    "name": "Croqs_B",
+                    "texture": "roostr/Croqs_B.png"
+                }
+            ]
+        },
+        "Golden Feet": {
+            "slot": "Feet",
+            "attachment": {
+                "name": "Golden Feet",
+                "texture": "roostr/Golden Feet.png"
+            }
+        },
+        "Golden Greaves": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "GoldenGreaves_A",
+                    "texture": "roostr/GoldenGreaves_A.png"
+                },
+                {
+                    "name": "GoldenGreaves_B",
+                    "texture": "roostr/GoldenGreaves_B.png"
+                }
+            ]
+        },
+        "Greaves": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "Greaves_A",
+                    "texture": "roostr/Greaves_A.png"
+                },
+                {
+                    "name": "Greaves_B",
+                    "texture": "roostr/Greaves_B.png"
+                }
+            ]
+        },
+        "Green Feet": {
+            "slot": "Feet",
+            "attachment": {
+                "name": "Green Feet",
+                "texture": "roostr/Green Feet.png"
+            }
+        },
+        "Iron Claw": {
+            "slot": "Feet",
+            "attachment": {
+                "name": "IronClaw",
+                "texture": "roostr/IronClaw.png"
+            }
+        },
+        "Red Feet": {
+            "slot": "Feet",
+            "attachment": {
+                "name": "Red Feet",
+                "texture": "roostr/Red Feet.png"
+            }
+        },
+        "Red Stilettos": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "RedStilettos_A",
+                    "texture": "roostr/RedStilettos_A.png"
+                },
+                {
+                    "name": "RedStilettos_B",
+                    "texture": "roostr/RedStilettos_B.png"
+                }
+            ]
+        },
+        "Sneaker Head": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "Sneaker Head_A",
+                    "texture": "roostr/Sneaker Head_A.png"
+                },
+                {
+                    "name": "Sneaker Head_B",
+                    "texture": "roostr/Sneaker Head_B.png"
+                }
+            ]
+        },
+        "Spurs": {
+            "slot": "Feet",
+            "attachments": [
+                {
+                    "name": "Spur_A",
+                    "texture": "roostr/Spur_A.png"
+                },
+                {
+                    "name": "Spur_B",
+                    "texture": "roostr/Spur_B.png"
+                }
+            ]
+        },
+        "3D Specs": {
+            "slot": "Head",
+            "attachment": {
+                "name": "3D Specs",
+                "texture": "roostr/3D Specs.png"
+            }
+        },
+        "Batter-Up": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Batter Up",
+                "texture": "roostr/Batter Up.png"
+            }
+        },
+        "Beaker": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Beaker",
+                "texture": "roostr/Beaker.png"
+            }
+        },
+        "Beanie": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Beanie",
+                "texture": "roostr/Beanie.png"
+            }
+        },
+        "Hairy Old Man": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Beard",
+                "texture": "roostr/Beard.png"
+            }
+        },
+        "Beret": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Beret",
+                "texture": "roostr/Beret.png"
+            }
+        },
+        "Boxhead": {
+            "slot": "Head",
+            "attachments": [
+                {
+                    "name": "Boxhead",
+                    "texture": "roostr/Boxhead.png"
+                },
+                {
+                    "name": "Boxhead_B",
+                    "texture": "roostr/Boxhead_B.png"
+                }
+            ]
+        },
+        "Bucket": {
+            "slot": "Head",
+            "attachments": [
+                {
+                    "name": "Bucket",
+                    "texture": "roostr/Bucket.png"
+                },
+                {
+                    "name": "Bucket_B",
+                    "texture": "roostr/Bucket_B.png"
+                }
+            ]
+        },
+        "Cap": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Cap",
+                "texture": "roostr/Cap.png"
+            }
+        },
+        "Celestial Comb": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Celestial Comb",
+                "texture": "roostr/Celestial Comb.png"
+            }
+        },
+        "Chef": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Chef",
+                "texture": "roostr/Chef.png"
+            }
+        },
+        "Chrome Dome": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Chrome Dome",
+                "texture": "roostr/Chrome Dome.png"
+            }
+        },
+        "Dirty Bird": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Cigar_B",
+                "texture": "roostr/Cigar_B.png"
+            }
+        },
+        "Coachella": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Coachella",
+                "texture": "roostr/Coachella.png"
+            }
+        },
+        "Conspiracy Theorist": {
+            "slot": "Head",
+            "attachment": {
+                "name": "ConspiracyTheorist",
+                "texture": "roostr/ConspiracyTheorist.png"
+            }
+        },
+        "Construction Helmet": {
+            "slot": "Head",
+            "attachment": {
+                "name": "ConstructionHelmet",
+                "texture": "roostr/ConstructionHelmet.png"
+            }
+        },
+        "Coqpit Commander": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Coqpit Commander",
+                "texture": "roostr/Coqpit Commander.png"
+            }
+        },
+        "CRT": {
+            "slot": "Head",
+            "attachment": {
+                "name": "CRT",
+                "texture": "roostr/CRT.png"
+            }
+        },
+        "Daffy": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Daffy",
+                "texture": "roostr/Daffy.png"
+            }
+        },
+        "Feed Bag": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Feed Bag",
+                "texture": "roostr/Feed Bag.png"
+            }
+        },
+        "Fez": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Fez",
+                "texture": "roostr/Fez.png"
+            }
+        },
+        "Framez": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Framez",
+                "texture": "roostr/Framez.png"
+            }
+        },
+        "Gas Mask": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Gasmask",
+                "texture": "roostr/Gasmask.png"
+            }
+        },
+        "Gentlechikn": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Gentlechikn",
+                "texture": "roostr/Gentlechikn.png"
+            }
+        },
+        "Gentleman's Pipe": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Gentleman_s Pipe_B",
+                "texture": "roostr/Gentleman_s Pipe_B.png"
+            }
+        },
+        "Golden Comb": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Golden Comb",
+                "texture": "roostr/Golden Comb.png"
+            }
+        },
+        "Golden Templar": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Golden Templar",
+                "texture": "roostr/Golden Templar.png"
+            }
+        },
+        "Golden Bone Daddy": {
+            "slot": "Head",
+            "attachment": {
+                "name": "GoldenBoneDaddy",
+                "texture": "roostr/GoldenBoneDaddy.png"
+            }
+        },
+        "Grandpa": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Grandpa",
+                "texture": "roostr/Grandpa.png"
+            }
+        },
+        "Green Comb": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Green Comb",
+                "texture": "roostr/Green Comb.png"
+            }
+        },
+        "Green Party Hat": {
+            "slot": "Head",
+            "attachments": [
+                {
+                    "name": "Green Party Hat",
+                    "texture": "roostr/Green Party Hat.png"
+                },
+                {
+                    "name": "Green Party Hat_B",
+                    "texture": "roostr/Green Party Hat_B.png"
+                }
+            ]
+        },
+        "Happy Birthday": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Happy Birthday",
+                "texture": "roostr/Happy Birthday.png"
+            }
+        },
+        "Hipster": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Hipster",
+                "texture": "roostr/Hipster.png"
+            }
+        },
+        "Hole in One": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Hole In One",
+                "texture": "roostr/Hole In One.png"
+            }
+        },
+        "Inherited Royalty": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Inherited Royalty",
+                "texture": "roostr/Inherited Royalty.png"
+            }
+        },
+        "Jell-O": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Jell-O",
+                "texture": "roostr/Jell-O.png"
+            }
+        },
+        "Laser Eye": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Laser Eye",
+                "texture": "roostr/Laser Eye.png"
+            }
+        },
+        "Mullet": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Mullet",
+                "texture": "roostr/Mullet.png"
+            }
+        },
+        "OASIS": {
+            "slot": "Head",
+            "attachment": {
+                "name": "OASIS",
+                "texture": "roostr/OASIS.png"
+            }
+        },
+        "Panic Buy": {
+            "slot": "Head",
+            "attachments": [
+                {
+                    "name": "Panic Buy",
+                    "texture": "roostr/Panic Buy.png"
+                },
+                {
+                    "name": "Panic Buy_B",
+                    "texture": "roostr/Panic Buy_B.png"
+                }
+            ]
+        },
+        "PermaBull": {
+            "slot": "Head",
+            "attachments": [
+                {
+                    "name": "Permabull",
+                    "texture": "roostr/Permabull.png"
+                },
+                {
+                    "name": "Permabull_B",
+                    "texture": "roostr/Permabull_B.png"
+                }
+            ]
+        },
+        "Plague Doctor": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Plague Doctor",
+                "texture": "roostr/Plague Doctor.png"
+            }
+        },
+        "Purple Comb": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Purple Comb",
+                "texture": "roostr/Purple Comb.png"
+            }
+        },
+        "Quarter Pounder": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Quarter Pounder",
+                "texture": "roostr/Quarter Pounder.png"
+            }
+        },
+        "Quarterback": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Quarterback",
+                "texture": "roostr/Quarterback.png"
+            }
+        },
+        "Robocoq": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Robocoq",
+                "texture": "roostr/Robocoq.png"
+            }
+        },
+        "Roodboi Rootie": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Roodboi Rootie",
+                "texture": "roostr/Roodboi Rootie.png"
+            }
+        },
+        "Rosebud": {
+            "slot": "Head",
+            "attachments": [
+                {
+                    "name": "Rosebud",
+                    "texture": "roostr/Rosebud.png"
+                },
+                {
+                    "name": "Rosebud_B",
+                    "texture": "roostr/Rosebud_B.png"
+                }
+            ]
+        },
+        "Samurai": {
+            "slot": "Head",
+            "attachments": [
+                {
+                    "name": "Samurai",
+                    "texture": "roostr/Samurai.png"
+                },
+                {
+                    "name": "Samurai_B",
+                    "texture": "roostr/Samurai_B.png"
+                }
+            ]
+        },
+        "Sesh Hat": {
+            "slot": "Head",
+            "attachments": [
+                {
+                    "name": "Sesh Hat",
+                    "texture": "roostr/Sesh Hat.png"
+                },
+                {
+                    "name": "Sesh Hat_B",
+                    "texture": "roostr/Sesh Hat_B.png"
+                }
+            ]
+        },
+        "Smol Brain In Jar": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Smol Brain In Jar",
+                "texture": "roostr/Smol Brain In Jar.png"
+            }
+        },
+        "Snorkel": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Snorkel",
+                "texture": "roostr/Snorkel.png"
+            }
+        },
+        "Sombrero": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Sombrero",
+                "texture": "roostr/Sombrero.png"
+            }
+        },
+        "Sunnies": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Sunnies",
+                "texture": "roostr/Sunnies.png"
+            }
+        },
+        "SuperVillain": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Super Villian",
+                "texture": "roostr/Super Villian.png"
+            }
+        },
+        "Templar": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Templar",
+                "texture": "roostr/Templar.png"
+            }
+        },
+        "Winterproof": {
+            "slot": "Head",
+            "attachments": [
+                {
+                    "name": "Winterproof",
+                    "texture": "roostr/Winterproof.png"
+                },
+                {
+                    "name": "Winterproof_B",
+                    "texture": "roostr/Winterproof_B.png"
+                }
+            ]
+        },
+        "Woody": {
+            "slot": "Head",
+            "attachment": {
+                "name": "Woody",
+                "texture": "roostr/Woody.png"
+            }
+        },
+        "a little rag": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "A Little Rag",
+                "texture": "roostr/A Little Rag.png"
+            }
+        },
+        "Avax Degen": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "AVAX Degen",
+                "texture": "roostr/AVAX Degen.png"
+            }
+        },
+        "Bandolier": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Bandolier",
+                "texture": "roostr/Bandolier.png"
+            }
+        },
+        "Bitcoin Maxi": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Bitcoin Maxi",
+                "texture": "roostr/Bitcoin Maxi.png"
+            }
+        },
+        "Bone Necklace": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Bone Necklace",
+                "texture": "roostr/Bone Necklace.png"
+            }
+        },
+        "Chick Magnet": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Chick Magnet",
+                "texture": "roostr/Chick Magnet.png"
+            }
+        },
+        "Clockchain": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Clockchain",
+                "texture": "roostr/Clockchain.png"
+            }
+        },
+        "Coq Maxi": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Coq Maxi",
+                "texture": "roostr/Coq Maxi.png"
+            }
+        },
+        "Coq Tags": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Coq Tags",
+                "texture": "roostr/Coq Tags.png"
+            }
+        },
+        "Floatie Boi": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Floatie Boi",
+                "texture": "roostr/Floatie Boi.png"
+            }
+        },
+        "Golden Pauldrons": {
+            "slot": "Neck",
+            "attachments": [
+                {
+                    "name": "Golden Pauldrons",
+                    "texture": "roostr/Golden Pauldrons.png"
+                },
+                {
+                    "name": "Golden Pauldrons_B",
+                    "texture": "roostr/Golden Pauldrons_B.png"
+                }
+            ]
+        },
+        "Gwei Guzzler": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Gwei Guzzler",
+                "texture": "roostr/Gwei Guzzler.png"
+            }
+        },
+        "Joseph Drip": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Joseph Drip",
+                "texture": "roostr/Joseph Drip.png"
+            }
+        },
+        "Lei": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Lei",
+                "texture": "roostr/Lei.png"
+            }
+        },
+        "Make a Wish": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Make a Wish",
+                "texture": "roostr/Make a Wish.png"
+            }
+        },
+        "Prized Coq": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Prized Coq",
+                "texture": "roostr/Prized Coq.png"
+            }
+        },
+        "Purple Bowtie": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Purple Bowtie",
+                "texture": "roostr/Purple Bowtie.png"
+            }
+        },
+        "Red Bowtie": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Red Bowtie",
+                "texture": "roostr/Red Bowtie.png"
+            }
+        },
+        "Sash": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Sash",
+                "texture": "roostr/Sash.png"
+            }
+        },
+        "Shoulder Armour": {
+            "slot": "Neck",
+            "attachments": [
+                {
+                    "name": "Shoulder Armour",
+                    "texture": "roostr/Shoulder Armour.png"
+                },
+                {
+                    "name": "Shoulder Armour_B",
+                    "texture": "roostr/Shoulder Armour_B.png"
+                }
+            ]
+        },
+        "Stethoscope": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Stethoscope",
+                "texture": "roostr/Stethoscope.png"
+            }
+        },
+        "Stop Loss": {
+            "slot": "Neck",
+            "attachment": {
+                "name": "Stop Loss",
+                "texture": "roostr/Stop Loss.png"
+            }
+        },
+        "Big Mama Fat Pipes": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Big Mama Fat Pipes",
+                "texture": "roostr/Big Mama Fat Pipes.png"
+            }
+        },
+        "chikn Jockey": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "ChiknJockey",
+                "texture": "roostr/ChiknJockey.png"
+            }
+        },
+        "Concorde": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Concorde",
+                "texture": "roostr/Concorde.png"
+            }
+        },
+        "Foliage": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Foliage",
+                "texture": "roostr/Foliage.png"
+            }
+        },
+        "Gas Guzzler": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Gas Guzzler",
+                "texture": "roostr/Gas Guzzler.png"
+            }
+        },
+        "Hydra": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Hydra",
+                "texture": "roostr/Hydra.png"
+            }
+        },
+        "Off Grid": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Off Grid",
+                "texture": "roostr/Off Grid.png"
+            }
+        },
+        "Peacoq": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Peakcoq",
+                "texture": "roostr/Peakcoq.png"
+            }
+        },
+        "Prawn Coqtail": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Prawn Coqtail",
+                "texture": "roostr/Prawn Coqtail.png"
+            }
+        },
+        "Royal Flush": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Royal Flush",
+                "texture": "roostr/Royal Flush.png"
+            }
+        },
+        "Scorpion King": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Scorpion King",
+                "texture": "roostr/Scorpion King.png"
+            }
+        },
+        "Smokestack": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "Smokestack",
+                "texture": "roostr/Smokestack.png"
+            }
+        },
+        "Sword Tail": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "SwordTail",
+                "texture": "roostr/SwordTail.png"
+            }
+        },
+        "WhaleGod": {
+            "slot": "Tail",
+            "attachment": {
+                "name": "WhaleGod",
+                "texture": "roostr/WhaleGod.png"
+            }
+        },
+        "9-iron": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "9-iron",
+                "texture": "roostr/9-iron.png"
+            }
+        },
+        "A Fresh Baguette": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "AFreshBaguette",
+                "texture": "roostr/AFreshBaguette.png"
+            }
+        },
+        "Avax Banger": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "AVAX Banger",
+                "texture": "roostr/AVAX Banger.png"
+            }
+        },
+        "Banger": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Banger",
+                "texture": "roostr/Banger.png"
+            }
+        },
+        "Banjo": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Banjo",
+                "texture": "roostr/Banjo.png"
+            }
+        },
+        "Big Stick": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Big Stick",
+                "texture": "roostr/Big Stick.png"
+            }
+        },
+        "Big Ol' Corn Cob": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "BigOlCornCob",
+                "texture": "roostr/BigOlCornCob.png"
+            }
+        },
+        "Black T-Shirt": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Black T-Shirt",
+                "texture": "roostr/Black T-Shirt.png"
+            }
+        },
+        "Bone": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Bone",
+                "texture": "roostr/Bone.png"
+            }
+        },
+        "Boombox": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Boombox",
+                "texture": "roostr/Boombox.png"
+            }
+        },
+        "Breastplate": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Breastplate",
+                "texture": "roostr/Breastplate.png"
+            }
+        },
+        "CD-RW": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "CD-RW",
+                "texture": "roostr/CD-RW.png"
+            }
+        },
+        "Dad Shirt": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Dad Shirt",
+                "texture": "roostr/Dad Shirt.png"
+            }
+        },
+        "Doctor Coq": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Doctor Coq",
+                "texture": "roostr/Doctor Coq.png"
+            }
+        },
+        "Fancy Sword": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Fancy Sword",
+                "texture": "roostr/Fancy Sword.png"
+            }
+        },
+        "Floppy Disk": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Floppy Disk",
+                "texture": "roostr/Floppy Disk.png"
+            }
+        },
+        "Fresh Fish": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "FreshFish",
+                "texture": "roostr/FreshFish.png"
+            }
+        },
+        "Gainz": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Gainz",
+                "texture": "roostr/Gainz.png"
+            }
+        },
+        "Gameboi": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Gameboi",
+                "texture": "roostr/Gameboi.png"
+            }
+        },
+        "Golden Breastplate": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Golden Breastplate",
+                "texture": "roostr/Golden Breastplate.png"
+            }
+        },
+        "GoldFish": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "GoldFish",
+                "texture": "roostr/GoldFish.png"
+            }
+        },
+        "Grande LeCoq": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Grande LeCoq",
+                "texture": "roostr/Grande LeCoq.png"
+            }
+        },
+        "Hendrix": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Hendrix",
+                "texture": "roostr/Hendrix.png"
+            }
+        },
+        "Home Run": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Home Run",
+                "texture": "roostr/Home Run.png"
+            }
+        },
+        "Hoops": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Hoops",
+                "texture": "roostr/Hoops.png"
+            }
+        },
+        "Human Growth Hormones": {
+            "slot": "Torso",
+            "attachments": [
+                {
+                    "name": "HumanGrowthHormones",
+                    "texture": "roostr/HumanGrowthHormones.png"
+                },
+                {
+                    "name": "HumanGrowthHormones_B",
+                    "texture": "roostr/HumanGrowthHormones_B.png"
+                }
+            ]
+        },
+        "Katana": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Katana",
+                "texture": "roostr/Katana.png"
+            }
+        },
+        "Kevlar": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Kevlar",
+                "texture": "roostr/Kevlar.png"
+            }
+        },
+        "Lord Quas": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Lord Quas",
+                "texture": "roostr/Lord Quas.png"
+            }
+        },
+        "Love Balloon": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Love Balloon",
+                "texture": "roostr/Love Balloon.png"
+            }
+        },
+        "McFly": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "McFly",
+                "texture": "roostr/McFly.png"
+            }
+        },
+        "Midas Muscles": {
+            "slot": "Torso",
+            "attachments": [
+                {
+                    "name": "MidasMucles",
+                    "texture": "roostr/MidasMucles.png"
+                },
+                {
+                    "name": "MidasMucles_B",
+                    "texture": "roostr/MidasMucles_B.png"
+                }
+            ]
+        },
+        "Not Football": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Not Football",
+                "texture": "roostr/Not Football.png"
+            }
+        },
+        "Omelette": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Omelette",
+                "texture": "roostr/Omelette.png"
+            }
+        },
+        "Play Boy": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Play Boy",
+                "texture": "roostr/Play Boy.png"
+            }
+        },
+        "Red T-Shirt": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Red T-Shirt",
+                "texture": "roostr/Red T-Shirt.png"
+            }
+        },
+        "Rubber chikn": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Rubber Chikn",
+                "texture": "roostr/Rubber Chikn.png"
+            }
+        },
+        "Saddle": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Saddle",
+                "texture": "roostr/Saddle.png"
+            }
+        },
+        "Shield": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Shield",
+                "texture": "roostr/Shield.png"
+            }
+        },
+        "Shovel": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Shovel",
+                "texture": "roostr/Shovel.png"
+            }
+        },
+        "Snib Snibs": {
+            "slot": "Torso",
+            "attachments": [
+                {
+                    "name": "Snib Snibs",
+                    "texture": "roostr/Snib Snibs.png"
+                },
+                {
+                    "name": "Snib Snibs_B",
+                    "texture": "roostr/Snib Snibs_B.png"
+                }
+            ]
+        },
+        "Snip Snips": {
+            "slot": "Torso",
+            "attachments": [
+                {
+                    "name": "Snip Snips",
+                    "texture": "roostr/Snip Snips.png"
+                },
+                {
+                    "name": "Snip Snips_B",
+                    "texture": "roostr/Snip Snips_B.png"
+                }
+            ]
+        },
+        "Spelunker": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Spelunker",
+                "texture": "roostr/Spelunker.png"
+            }
+        },
+        "Spork": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Spork",
+                "texture": "roostr/Spork.png"
+            }
+        },
+        "Starfish": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Starfish",
+                "texture": "roostr/Starfish.png"
+            }
+        },
+        "Sword": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Sword",
+                "texture": "roostr/Sword.png"
+            }
+        },
+        "The Key": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "The Key",
+                "texture": "roostr/The Key.png"
+            }
+        },
+        "Toot-Toot": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Toot Toot",
+                "texture": "roostr/Toot Toot.png"
+            }
+        },
+        "Tweed": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Tweed",
+                "texture": "roostr/Tweed.png"
+            }
+        },
+        "White T-Shirt": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "White T-Shirt",
+                "texture": "roostr/White T-Shirt.png"
+            }
+        },
+        "Zippo": {
+            "slot": "Torso",
+            "attachment": {
+                "name": "Zippo",
+                "texture": "roostr/Zippo.png"
+            }
+        }
+    },
+    "rig": [
+        {
+            "name": "Bullion_Head",
+            "parent": "Bullion_Torso",
+            "x": 43.537231513514676,
+            "y": -87.60746057464237,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Bullion_LegFoot A",
+            "parent": "Bullion_LegLower A",
+            "x": 6.256915227092161,
+            "y": 24.18668856726256,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "Bullion_LegFoot B",
+            "parent": "Bullion_LegLower B",
+            "x": 6.8700064997069425,
+            "y": 19.047363820802666,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "Bullion_LegLower A",
+            "parent": "Bullion_LegUpper A",
+            "x": 1.7904018928329055,
+            "y": 36.06947242872016,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Bullion_LegLower B",
+            "parent": "Bullion_LegUpper B",
+            "x": 0.0,
+            "y": 37.00546746856205,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Bullion_LegUpper A",
+            "parent": "Bullion_Torso",
+            "x": -9.52116344928646,
+            "y": 41.711501303458014,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Bullion_LegUpper B",
+            "parent": "Bullion_Torso",
+            "x": 17.34,
+            "y": 40.80471050049068,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Bullion_Tail",
+            "parent": "Bullion_Torso",
+            "x": -75.54588555364106,
+            "y": -38.460426462547844,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "Bullion_Torso",
+            "parent": null,
+            "x": -11.411002085789425,
+            "y": -15.868490179935536,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Bullion_Wing",
+            "parent": "Bullion_Torso",
+            "x": -17.859406910311055,
+            "y": -3.2332422088572987,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "Bullion_Wing_1",
+            "parent": "Bullion_Torso",
+            "x": -21.59337584461006,
+            "y": -2.391042490987018,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "Celestial_Head",
+            "parent": "Celestial_Torso",
+            "x": 43.537231513514676,
+            "y": -87.60746057464237,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Celestial_LegFoot A",
+            "parent": "Celestial_LegLower A",
+            "x": 6.866100107138271,
+            "y": 23.910492870911924,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "Celestial_LegFoot B",
+            "parent": "Celestial_LegLower B",
+            "x": 6.565414059683888,
+            "y": 18.218776731750744,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "Celestial_LegLower A",
+            "parent": "Celestial_LegUpper A",
+            "x": 2.399586772879015,
+            "y": 35.79327673236952,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Celestial_LegLower B",
+            "parent": "Celestial_LegUpper B",
+            "x": 0.0,
+            "y": 37.00546746856205,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Celestial_LegUpper A",
+            "parent": "Celestial_Torso",
+            "x": -10.92,
+            "y": 41.71148184494602,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Celestial_LegUpper B",
+            "parent": "Celestial_Torso",
+            "x": 17.34,
+            "y": 40.80471050049068,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Celestial_Tail",
+            "parent": "Celestial_Torso",
+            "x": -75.54588555364106,
+            "y": -38.460426462547844,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "Celestial_Torso",
+            "parent": null,
+            "x": -11.409144826335359,
+            "y": -15.517878622197923,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Celestial_Wing",
+            "parent": "Celestial_Torso",
+            "x": -17.859406910311055,
+            "y": -3.2332422088572987,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "Celestial_Wing_1",
+            "parent": "Celestial_Torso",
+            "x": -18.778750340074364,
+            "y": -5.05194095133953,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "FrogGreen_Head",
+            "parent": "FrogGreen_Torso",
+            "x": 43.537231513514676,
+            "y": -87.60746057464237,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "FrogGreen_LegFoot A",
+            "parent": "FrogGreen_LegLower A",
+            "x": 6.866100107138271,
+            "y": 23.634297174561283,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "FrogGreen_LegFoot B",
+            "parent": "FrogGreen_LegLower B",
+            "x": 6.260821619660833,
+            "y": 17.666385339049462,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "FrogGreen_LegLower A",
+            "parent": "FrogGreen_LegUpper A",
+            "x": 2.399586772879015,
+            "y": 36.06947242872016,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "FrogGreen_LegLower B",
+            "parent": "FrogGreen_LegUpper B",
+            "x": 0.0,
+            "y": 37.00546746856205,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "FrogGreen_LegUpper A",
+            "parent": "FrogGreen_Torso",
+            "x": -10.92,
+            "y": 41.71148184494602,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "FrogGreen_LegUpper B",
+            "parent": "FrogGreen_Torso",
+            "x": 17.34,
+            "y": 40.80471050049068,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "FrogGreen_Tail",
+            "parent": "FrogGreen_Torso",
+            "x": -75.54588555364106,
+            "y": -38.460426462547844,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "FrogGreen_Torso",
+            "parent": null,
+            "x": -11.409144826335359,
+            "y": -15.517878622197923,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "FrogGreen_Wing",
+            "parent": "FrogGreen_Torso",
+            "x": -17.859406910311055,
+            "y": -3.2332422088572987,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "FrogGreen_Wing_1",
+            "parent": "FrogGreen_Torso",
+            "x": -18.778750340074364,
+            "y": -5.05194095133953,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "Midnight_Head",
+            "parent": "Midnight_Torso",
+            "x": 43.537231513514676,
+            "y": -87.60746057464237,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Midnight_LegFoot A",
+            "parent": "Midnight_LegLower A",
+            "x": 6.561507667115216,
+            "y": 23.910492870911924,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "Midnight_LegFoot B",
+            "parent": "Midnight_LegLower B",
+            "x": 6.8700064997069425,
+            "y": 18.218776731750744,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "Midnight_LegLower A",
+            "parent": "Midnight_LegUpper A",
+            "x": 2.7041792129020696,
+            "y": 35.51708103601888,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Midnight_LegLower B",
+            "parent": "Midnight_LegUpper B",
+            "x": 0.0,
+            "y": 37.00546746856205,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Midnight_LegUpper A",
+            "parent": "Midnight_Torso",
+            "x": -10.92,
+            "y": 41.71148184494602,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Midnight_LegUpper B",
+            "parent": "Midnight_Torso",
+            "x": 17.34,
+            "y": 40.80471050049068,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Midnight_Tail",
+            "parent": "Midnight_Torso",
+            "x": -75.54588555364106,
+            "y": -38.460426462547844,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "Midnight_Torso",
+            "parent": null,
+            "x": -11.41,
+            "y": -15.519391560353286,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Midnight_Wing",
+            "parent": "Midnight_Torso",
+            "x": -17.859406910311055,
+            "y": -3.2332422088572987,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "Midnight_Wing_1",
+            "parent": "Midnight_Torso",
+            "x": -18.778750340074364,
+            "y": -5.05194095133953,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "MutantPurple_Head",
+            "parent": "MutantPurple_Torso",
+            "x": 43.537231513514676,
+            "y": -87.60746057464237,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "MutantPurple_LegFoot A",
+            "parent": "MutantPurple_LegLower A",
+            "x": 6.561507667115216,
+            "y": 23.910492870911924,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "MutantPurple_LegFoot B",
+            "parent": "MutantPurple_LegLower B",
+            "x": 5.956229179637778,
+            "y": 17.942581035400103,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "MutantPurple_LegLower A",
+            "parent": "MutantPurple_LegUpper A",
+            "x": 2.7041792129020696,
+            "y": 35.79327673236952,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "MutantPurple_LegLower B",
+            "parent": "MutantPurple_LegUpper B",
+            "x": 0.0,
+            "y": 37.00546746856205,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "MutantPurple_LegUpper A",
+            "parent": "MutantPurple_Torso",
+            "x": -10.92,
+            "y": 41.71148184494602,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "MutantPurple_LegUpper B",
+            "parent": "MutantPurple_Torso",
+            "x": 17.34,
+            "y": 40.80471050049068,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "MutantPurple_Tail",
+            "parent": "MutantPurple_Torso",
+            "x": -75.54588555364106,
+            "y": -38.460426462547844,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "MutantPurple_Torso",
+            "parent": null,
+            "x": -11.409144826335359,
+            "y": -15.517878622197923,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "MutantPurple_Wing",
+            "parent": "MutantPurple_Torso",
+            "x": -17.859406910311055,
+            "y": -3.2332422088572987,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "MutantPurple_Wing_1",
+            "parent": "MutantPurple_Torso",
+            "x": -18.778750340074364,
+            "y": -5.05194095133953,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "NighstalkerBlue_Head",
+            "parent": "NighstalkerBlue_Torso",
+            "x": 43.537231513514676,
+            "y": -87.60746057464237,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "NighstalkerBlue_LegFoot A",
+            "parent": "NighstalkerBlue_LegLower A",
+            "x": 6.561507667115216,
+            "y": 23.910492870911924,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "NighstalkerBlue_LegFoot B",
+            "parent": "NighstalkerBlue_LegLower B",
+            "x": 5.956229179637778,
+            "y": 17.666385339049462,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "NighstalkerBlue_LegLower A",
+            "parent": "NighstalkerBlue_LegUpper A",
+            "x": 2.399586772879015,
+            "y": 35.24088533966824,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "NighstalkerBlue_LegLower B",
+            "parent": "NighstalkerBlue_LegUpper B",
+            "x": 0.0,
+            "y": 37.00546746856205,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "NighstalkerBlue_LegUpper A",
+            "parent": "NighstalkerBlue_Torso",
+            "x": -10.92,
+            "y": 41.71148184494602,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "NighstalkerBlue_LegUpper B",
+            "parent": "NighstalkerBlue_Torso",
+            "x": 17.34,
+            "y": 40.80471050049068,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "NighstalkerBlue_Tail",
+            "parent": "NighstalkerBlue_Torso",
+            "x": -75.54588555364106,
+            "y": -38.460426462547844,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "NighstalkerBlue_Torso",
+            "parent": null,
+            "x": -11.409144826335359,
+            "y": -15.517878622197923,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "NighstalkerBlue_Wing",
+            "parent": "NighstalkerBlue_Torso",
+            "x": -17.859406910311055,
+            "y": -3.2332422088572987,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "NighstalkerBlue_Wing_1",
+            "parent": "NighstalkerBlue_Torso",
+            "x": -18.778750340074364,
+            "y": -5.05194095133953,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "Obsidian_Head",
+            "parent": "Obsidian_Torso",
+            "x": 43.537231513514676,
+            "y": -87.60746057464237,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Obsidian_LegFoot A",
+            "parent": "Obsidian_LegLower A",
+            "x": 6.561507667115216,
+            "y": 23.910492870911924,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "Obsidian_LegFoot B",
+            "parent": "Obsidian_LegLower B",
+            "x": 6.565414059683888,
+            "y": 17.942581035400103,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "Obsidian_LegLower A",
+            "parent": "Obsidian_LegUpper A",
+            "x": 2.7041792129020696,
+            "y": 35.79327673236952,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Obsidian_LegLower B",
+            "parent": "Obsidian_LegUpper B",
+            "x": 0.0,
+            "y": 37.00546746856205,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Obsidian_LegUpper A",
+            "parent": "Obsidian_Torso",
+            "x": -10.92,
+            "y": 41.71148184494602,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Obsidian_LegUpper B",
+            "parent": "Obsidian_Torso",
+            "x": 17.34,
+            "y": 40.80471050049068,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Obsidian_Tail",
+            "parent": "Obsidian_Torso",
+            "x": -75.54588555364106,
+            "y": -38.460426462547844,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "Obsidian_Torso",
+            "parent": null,
+            "x": -11.409144826335359,
+            "y": -15.517878622197923,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Obsidian_Wing",
+            "parent": "Obsidian_Torso",
+            "x": -17.859406910311055,
+            "y": -3.2332422088572987,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "Obsidian_Wing_1",
+            "parent": "Obsidian_Torso",
+            "x": -18.778750340074364,
+            "y": -5.05194095133953,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "PassionRed_Head",
+            "parent": "PassionRed_Torso",
+            "x": 43.537231513514676,
+            "y": -87.60746057464237,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "PassionRed_LegFoot A",
+            "parent": "PassionRed_LegLower A",
+            "x": 6.561507667115216,
+            "y": 23.910492870911924,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "PassionRed_LegFoot B",
+            "parent": "PassionRed_LegLower B",
+            "x": 6.260821619660833,
+            "y": 17.666385339049462,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "PassionRed_LegLower A",
+            "parent": "PassionRed_LegUpper A",
+            "x": 2.7041792129020696,
+            "y": 35.51708103601888,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "PassionRed_LegLower B",
+            "parent": "PassionRed_LegUpper B",
+            "x": 0.0,
+            "y": 37.00546746856205,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "PassionRed_LegUpper A",
+            "parent": "PassionRed_Torso",
+            "x": -10.92,
+            "y": 41.71148184494602,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "PassionRed_LegUpper B",
+            "parent": "PassionRed_Torso",
+            "x": 17.34,
+            "y": 40.80471050049068,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "PassionRed_Tail",
+            "parent": "PassionRed_Torso",
+            "x": -75.54588555364106,
+            "y": -38.460426462547844,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "PassionRed_Torso",
+            "parent": null,
+            "x": -11.409144826335359,
+            "y": -15.517878622197923,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "PassionRed_Wing",
+            "parent": "PassionRed_Torso",
+            "x": -17.859406910311055,
+            "y": -3.2332422088572987,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "PassionRed_Wing_1",
+            "parent": "PassionRed_Torso",
+            "x": -18.778750340074364,
+            "y": -5.05194095133953,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "SnowWhite_Head",
+            "parent": "SnowWhite_Torso",
+            "x": 43.537231513514676,
+            "y": -87.60746057464237,
+            "pivot_x": 0.5,
+            "pivot_y": 0.85,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "SnowWhite_LegFoot A",
+            "parent": "SnowWhite_LegLower A",
+            "x": 6.561507667115216,
+            "y": 23.910492870911924,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "SnowWhite_LegFoot B",
+            "parent": "SnowWhite_LegLower B",
+            "x": 6.260821619660833,
+            "y": 17.666385339049462,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "SnowWhite_LegLower A",
+            "parent": "SnowWhite_LegUpper A",
+            "x": 2.399586772879015,
+            "y": 35.24088533966824,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "SnowWhite_LegLower B",
+            "parent": "SnowWhite_LegUpper B",
+            "x": 0.0,
+            "y": 37.00546746856205,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "SnowWhite_LegUpper A",
+            "parent": "SnowWhite_Torso",
+            "x": -10.92,
+            "y": 41.71148184494602,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "SnowWhite_LegUpper B",
+            "parent": "SnowWhite_Torso",
+            "x": 17.34,
+            "y": 40.80471050049068,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "SnowWhite_Tail",
+            "parent": "SnowWhite_Torso",
+            "x": -75.54588555364106,
+            "y": -38.460426462547844,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -2
+        },
+        {
+            "name": "SnowWhite_Torso",
+            "parent": null,
+            "x": -11.409144826335359,
+            "y": -15.517878622197923,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "SnowWhite_Wing",
+            "parent": "SnowWhite_Torso",
+            "x": -17.859406910311055,
+            "y": -3.2332422088572987,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -5
+        },
+        {
+            "name": "SnowWhite_Wing_1",
+            "parent": "SnowWhite_Torso",
+            "x": -18.778750340074364,
+            "y": -5.05194095133953,
+            "pivot_x": 0.5,
+            "pivot_y": 0.2,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "AllStars_A",
+            "parent": null,
+            "x": -3.2683536986735495,
+            "y": 74.79447738199569,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "AllStars_B",
+            "parent": null,
+            "x": 17.09,
+            "y": 73.3532679097154,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "BallNChain",
+            "parent": null,
+            "x": -72.13378965358291,
+            "y": 70.47922573888579,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "BlackStilettos_A",
+            "parent": null,
+            "x": -20.147838043166864,
+            "y": 74.91251444992895,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "BlackStilettos_B",
+            "parent": null,
+            "x": 6.085,
+            "y": 75.2257507360157,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "BlueTimbs_A",
+            "parent": null,
+            "x": -2.740128209226939,
+            "y": 75.63899584324706,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "BlueTimbs_B",
+            "parent": null,
+            "x": 28.9954778593708,
+            "y": 70.06795502280126,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "Buckaroo_A",
+            "parent": null,
+            "x": -1.4524525046582437,
+            "y": 63.00987144355706,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Buckaroo_B",
+            "parent": null,
+            "x": 26.03,
+            "y": 62.698704612365056,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "Celestial Feet",
+            "parent": null,
+            "x": -1.09,
+            "y": 65.60037291462217,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "Croqs_A",
+            "parent": null,
+            "x": -8.321250630214003,
+            "y": 77.68596945258314,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Croqs_B",
+            "parent": null,
+            "x": 13.759374536434537,
+            "y": 75.62183080654123,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "Golden Feet",
+            "parent": null,
+            "x": -0.445,
+            "y": 66.90842403981253,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "GoldenGreaves_A",
+            "parent": null,
+            "x": -16.727641588222706,
+            "y": 56.30935522735933,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "GoldenGreaves_B",
+            "parent": null,
+            "x": 8.15473672159163,
+            "y": 55.02034084051333,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Greaves_A",
+            "parent": null,
+            "x": -15.407937848308666,
+            "y": 57.809607666608905,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Greaves_B",
+            "parent": null,
+            "x": 9.988762026238522,
+            "y": 58.15532533003413,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -4
+        },
+        {
+            "name": "Green Feet",
+            "parent": null,
+            "x": 0.72,
+            "y": 65.45075564278704,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "IronClaw",
+            "parent": null,
+            "x": -44.10020915147201,
+            "y": 61.62277433456633,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Red Feet",
+            "parent": null,
+            "x": -0.03335505859558767,
+            "y": 65.33973310507065,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 7
+        },
+        {
+            "name": "RedStilettos_A",
+            "parent": null,
+            "x": -19.883077609819473,
+            "y": 74.84156357287651,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "RedStilettos_B",
+            "parent": null,
+            "x": 7.357781452815987,
+            "y": 74.62960752104036,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 5
+        },
+        {
+            "name": "Sneaker Head_A",
+            "parent": null,
+            "x": -7.604031207255284,
+            "y": 74.89652806068734,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Sneaker Head_B",
+            "parent": null,
+            "x": 19.749759690719042,
+            "y": 74.88485653151994,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 5
+        },
+        {
+            "name": "Spur_A",
+            "parent": null,
+            "x": -43.856587694989365,
+            "y": 67.50424031183671,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Spur_B",
+            "parent": null,
+            "x": -20.097136091298623,
+            "y": 67.04316445924093,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 5
+        },
+        {
+            "name": "3D Specs",
+            "parent": null,
+            "x": 34.29793472668301,
+            "y": -145.58738365892012,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Batter Up",
+            "parent": null,
+            "x": 19.990442485383845,
+            "y": -168.02652335412733,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Beaker",
+            "parent": null,
+            "x": 26.56415513679157,
+            "y": -150.49594546724668,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Beanie",
+            "parent": null,
+            "x": 24.26055862526578,
+            "y": -166.74348281471828,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Beard",
+            "parent": null,
+            "x": 44.738537173036455,
+            "y": -109.82500476968366,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Beret",
+            "parent": null,
+            "x": 20.76382044437299,
+            "y": -166.27346556543924,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Boxhead",
+            "parent": null,
+            "x": 37.12814145449599,
+            "y": -141.41243387038347,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Boxhead_B",
+            "parent": null,
+            "x": 37.78,
+            "y": -105.87915603532875,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -10
+        },
+        {
+            "name": "Bucket",
+            "parent": null,
+            "x": 26.177466157297,
+            "y": -137.52331783095505,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Bucket_B",
+            "parent": null,
+            "x": 25.015,
+            "y": -97.55499509322864,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -3
+        },
+        {
+            "name": "Cap",
+            "parent": null,
+            "x": 39.85977035912046,
+            "y": -168.76774089080385,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Celestial Comb",
+            "parent": null,
+            "x": 34.19108822077368,
+            "y": -125.07591289891697,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Chef",
+            "parent": null,
+            "x": 19.11021802048537,
+            "y": -173.3256911413928,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Chrome Dome",
+            "parent": null,
+            "x": 31.097576384817103,
+            "y": -159.65944590651253,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Cigar_B",
+            "parent": null,
+            "x": 84.3124656355546,
+            "y": -120.39095143989996,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Coachella",
+            "parent": null,
+            "x": 19.990442485383845,
+            "y": -153.56443269965848,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "ConspiracyTheorist",
+            "parent": null,
+            "x": 27.617375569365954,
+            "y": -169.82718108090333,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "ConstructionHelmet",
+            "parent": null,
+            "x": 33.524556767693866,
+            "y": -170.74439902880152,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Coqpit Commander",
+            "parent": null,
+            "x": 32.90763741093899,
+            "y": -165.14982513877294,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "CRT",
+            "parent": null,
+            "x": 31.591111870221006,
+            "y": -143.0460859675301,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Daffy",
+            "parent": null,
+            "x": 72.34991331938532,
+            "y": -140.9652331717643,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Feed Bag",
+            "parent": null,
+            "x": 29.657666972748146,
+            "y": -150.7595402377576,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Fez",
+            "parent": null,
+            "x": 22.853723944080112,
+            "y": -161.53951490362866,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Framez",
+            "parent": null,
+            "x": 24.25228994254496,
+            "y": -147.04503534484513,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Gasmask",
+            "parent": null,
+            "x": 46.92701849593208,
+            "y": -133.94539650012544,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Gentlechikn",
+            "parent": null,
+            "x": 40.48495839859616,
+            "y": -162.70314975149628,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Gentleman_s Pipe_B",
+            "parent": null,
+            "x": 81.86067920451536,
+            "y": -110.78982265566977,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Golden Comb",
+            "parent": null,
+            "x": 34.306203409403835,
+            "y": -124.35947874966848,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Golden Templar",
+            "parent": null,
+            "x": 32.75117880870472,
+            "y": -128.3204005425504,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "GoldenBoneDaddy",
+            "parent": null,
+            "x": 28.110911054769858,
+            "y": -151.4607633532328,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Grandpa",
+            "parent": null,
+            "x": 33.40117289634289,
+            "y": -173.91511408221328,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Green Comb",
+            "parent": null,
+            "x": 33.91951442990926,
+            "y": -125.18771307357177,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Green Party Hat",
+            "parent": null,
+            "x": 19.356985763187325,
+            "y": -176.60060085257274,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Green Party Hat_B",
+            "parent": null,
+            "x": 13.030040854481548,
+            "y": -182.31458043414273,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Happy Birthday",
+            "parent": null,
+            "x": 28.49760003426443,
+            "y": -165.83583722047493,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Hipster",
+            "parent": null,
+            "x": 24.25228994254496,
+            "y": -161.77072076982486,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Hole In One",
+            "parent": null,
+            "x": 33.26952034227109,
+            "y": -148.5440707166771,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Inherited Royalty",
+            "parent": null,
+            "x": 17.291888311642666,
+            "y": -181.97157439329172,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Jell-O",
+            "parent": null,
+            "x": 27.724222075275286,
+            "y": -153.9150442573961,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Laser Eye",
+            "parent": null,
+            "x": 33.91124574718844,
+            "y": -143.3966975252677,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Mullet",
+            "parent": null,
+            "x": 17.02858320349907,
+            "y": -151.23716300392323,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "OASIS",
+            "parent": null,
+            "x": 40.48495839859616,
+            "y": -144.09792064074293,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Panic Buy",
+            "parent": null,
+            "x": 37.004757583145015,
+            "y": -147.60403621811906,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Panic Buy_B",
+            "parent": null,
+            "x": 35.07063027115262,
+            "y": -94.661585565883,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 11
+        },
+        {
+            "name": "Permabull",
+            "parent": null,
+            "x": -6.946133525164395,
+            "y": -167.36529465985342,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Permabull_B",
+            "parent": null,
+            "x": 75.6740364559717,
+            "y": -165.8350136686714,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Plague Doctor",
+            "parent": null,
+            "x": 63.94,
+            "y": -134.0570755642787,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Purple Comb",
+            "parent": null,
+            "x": 33.66447800448648,
+            "y": -125.07591289891697,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Quarter Pounder",
+            "parent": null,
+            "x": 32.75117880870472,
+            "y": -143.48371431249444,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Quarterback",
+            "parent": null,
+            "x": 35.33461779381575,
+            "y": -150.74996788410274,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Robocoq",
+            "parent": null,
+            "x": 31.204422890726434,
+            "y": -157.85878817973654,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Roodboi Rootie",
+            "parent": null,
+            "x": 30.18427718903534,
+            "y": -165.7068591752787,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Rosebud",
+            "parent": null,
+            "x": 34.42958728075481,
+            "y": -114.64458295401529,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Rosebud_B",
+            "parent": null,
+            "x": 57.00573801095343,
+            "y": -168.53989112608153,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Samurai",
+            "parent": null,
+            "x": 21.15050942386756,
+            "y": -170.83141581602823,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Samurai_B",
+            "parent": null,
+            "x": 55.1791396193899,
+            "y": -111.92867411610932,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Sesh Hat",
+            "parent": null,
+            "x": 29.147594121902596,
+            "y": -168.3771349118649,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Sesh Hat_B",
+            "parent": null,
+            "x": 29.27040899610048,
+            "y": -150.14536905412794,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Smol Brain In Jar",
+            "parent": null,
+            "x": 28.49760003426443,
+            "y": -147.34044144760819,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Snorkel",
+            "parent": null,
+            "x": 50.55540923089667,
+            "y": -151.5629911742328,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Sombrero",
+            "parent": null,
+            "x": 32.134259451949845,
+            "y": -181.57336289746618,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Sunnies",
+            "parent": null,
+            "x": 26.0458136032252,
+            "y": -148.05687559685666,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Super Villian",
+            "parent": null,
+            "x": 39.32489146011245,
+            "y": -140.3282102928559,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Templar",
+            "parent": null,
+            "x": 37.39144656263959,
+            "y": -138.22454094643024,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Winterproof",
+            "parent": null,
+            "x": 33.40944157906371,
+            "y": -153.76324966154,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Winterproof_B",
+            "parent": null,
+            "x": 47.445550013602976,
+            "y": -129.10908693275016,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Woody",
+            "parent": null,
+            "x": 25.395819515587032,
+            "y": -161.9543266979331,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "A Little Rag",
+            "parent": null,
+            "x": 26.64390387595003,
+            "y": -50.37912323638499,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "AVAX Degen",
+            "parent": null,
+            "x": 49.84524264562435,
+            "y": -54.23585037149872,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Bandolier",
+            "parent": null,
+            "x": 28.96403775291746,
+            "y": -67.20847800779039,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Bitcoin Maxi",
+            "parent": null,
+            "x": 41.72477407623833,
+            "y": -58.44318906435007,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Bone Necklace",
+            "parent": null,
+            "x": 34.377683465841464,
+            "y": -66.50725489231517,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Chick Magnet",
+            "parent": null,
+            "x": 45.978352850678625,
+            "y": -53.534627256023505,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Clockchain",
+            "parent": null,
+            "x": 39.4046401992709,
+            "y": -52.48279258281066,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Coq Maxi",
+            "parent": null,
+            "x": 49.458553666129774,
+            "y": -55.28768504471156,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Coq Tags",
+            "parent": null,
+            "x": 44.044907953205765,
+            "y": -42.315057408419904,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Floatie Boi",
+            "parent": null,
+            "x": 30.89748265039032,
+            "y": -65.80603177683993,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Golden Pauldrons",
+            "parent": null,
+            "x": -1.5843916271537277,
+            "y": -73.51948604706742,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Golden Pauldrons_B",
+            "parent": null,
+            "x": 52.55115625283395,
+            "y": -79.48050300710771,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Gwei Guzzler",
+            "parent": null,
+            "x": 44.044907953205765,
+            "y": -42.315057408419904,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Joseph Drip",
+            "parent": null,
+            "x": 44.044907953205765,
+            "y": -42.315057408419904,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Lei",
+            "parent": null,
+            "x": 34.377683465841464,
+            "y": -56.69013127566202,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Make a Wish",
+            "parent": null,
+            "x": 44.044907953205765,
+            "y": -42.315057408419904,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Prized Coq",
+            "parent": null,
+            "x": 44.044907953205765,
+            "y": -42.315057408419904,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Purple Bowtie",
+            "parent": null,
+            "x": 44.044907953205765,
+            "y": -42.315057408419904,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Red Bowtie",
+            "parent": null,
+            "x": 44.044907953205765,
+            "y": -42.315057408419904,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Sash",
+            "parent": null,
+            "x": 44.044907953205765,
+            "y": -42.315057408419904,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Shoulder Armour",
+            "parent": null,
+            "x": 57.5787575949941,
+            "y": -73.51921268452706,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 6
+        },
+        {
+            "name": "Shoulder Armour_B",
+            "parent": null,
+            "x": -0.8110136681645812,
+            "y": -76.67499006670593,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Stethoscope",
+            "parent": null,
+            "x": 35.92443938381975,
+            "y": -66.50725489231517,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Stop Loss",
+            "parent": null,
+            "x": 44.044907953205765,
+            "y": -42.315057408419904,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 14
+        },
+        {
+            "name": "Big Mama Fat Pipes",
+            "parent": null,
+            "x": -117.64995737734651,
+            "y": -73.30197922361947,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "ChiknJockey",
+            "parent": null,
+            "x": -43.78083876894983,
+            "y": -82.74759448308225,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "Concorde",
+            "parent": null,
+            "x": -117.64995737734651,
+            "y": -73.30197922361947,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Foliage",
+            "parent": null,
+            "x": -113.77199963725401,
+            "y": -60.3083870967742,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Gas Guzzler",
+            "parent": null,
+            "x": -123.83698104925966,
+            "y": -69.09464053076812,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Hydra",
+            "parent": null,
+            "x": -121.90353615178681,
+            "y": -85.92399530217352,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Off Grid",
+            "parent": null,
+            "x": -117.64995737734651,
+            "y": -73.30197922361947,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Peakcoq",
+            "parent": null,
+            "x": -117.64995737734651,
+            "y": -73.30197922361947,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Prawn Coqtail",
+            "parent": null,
+            "x": -117.64995737734651,
+            "y": -73.30197922361947,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "Royal Flush",
+            "parent": null,
+            "x": -117.64995737734651,
+            "y": -73.30197922361947,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "Scorpion King",
+            "parent": null,
+            "x": -104.50241770200417,
+            "y": -85.22287588846363,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 0
+        },
+        {
+            "name": "Smokestack",
+            "parent": null,
+            "x": -97.15544146413421,
+            "y": -109.41496967059355,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "SwordTail",
+            "parent": null,
+            "x": -119.96967443547656,
+            "y": -80.66434117003828,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "WhaleGod",
+            "parent": null,
+            "x": -114.55644554138993,
+            "y": -65.23791339565439,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -1
+        },
+        {
+            "name": "9-iron",
+            "parent": null,
+            "x": -25.778761222453976,
+            "y": -6.661826134499727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "AFreshBaguette",
+            "parent": null,
+            "x": -25.778761222453976,
+            "y": -6.661826134499727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "AVAX Banger",
+            "parent": null,
+            "x": -25.778761222453976,
+            "y": -6.661826134499727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Banger",
+            "parent": null,
+            "x": -25.778761222453976,
+            "y": -6.661826134499727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Banjo",
+            "parent": null,
+            "x": -25.778761222453976,
+            "y": -6.661826134499727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Big Stick",
+            "parent": null,
+            "x": 1.0493515915480185,
+            "y": 17.995013668671405,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "BigOlCornCob",
+            "parent": null,
+            "x": -26.880116078715876,
+            "y": -1.6637725533078187,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Black T-Shirt",
+            "parent": null,
+            "x": 3.6216559354312143,
+            "y": -8.994138873701475,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Bone",
+            "parent": null,
+            "x": 5.458485535503764,
+            "y": -0.9986003280481136,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Boombox",
+            "parent": null,
+            "x": -25.78,
+            "y": -0.33097154072620216,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Breastplate",
+            "parent": null,
+            "x": 6.8598837408102495,
+            "y": -3.7140010170836795,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "CD-RW",
+            "parent": null,
+            "x": -2.2584274961458237,
+            "y": -2.6640568616730453,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Dad Shirt",
+            "parent": null,
+            "x": 2.3266030808186677,
+            "y": -17.239347409377633,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Doctor Coq",
+            "parent": null,
+            "x": -7.301609044567769,
+            "y": 0.46144315337102126,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Fancy Sword",
+            "parent": null,
+            "x": 19.31364106284574,
+            "y": -18.441268452706396,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Floppy Disk",
+            "parent": null,
+            "x": 1.615,
+            "y": -6.5876938174681055,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "FreshFish",
+            "parent": null,
+            "x": 6.927577763670989,
+            "y": -3.3309130672498637,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "Gainz",
+            "parent": null,
+            "x": -30.19,
+            "y": -7.326712463199215,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Gameboi",
+            "parent": null,
+            "x": 3.9137699650444944,
+            "y": -0.13884494367176267,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Golden Breastplate",
+            "parent": null,
+            "x": 10.551051242446544,
+            "y": -19.490939245576687,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 12
+        },
+        {
+            "name": "GoldFish",
+            "parent": null,
+            "x": 10.40065294277682,
+            "y": -19.490388190267904,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Grande LeCoq",
+            "parent": null,
+            "x": 13.683681809786341,
+            "y": -29.442331335918603,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Hendrix",
+            "parent": null,
+            "x": -15.411930551126575,
+            "y": -3.371705389546556,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Home Run",
+            "parent": null,
+            "x": -25.778761222453976,
+            "y": -6.661826134499727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Hoops",
+            "parent": null,
+            "x": -25.778761222453976,
+            "y": -6.661826134499727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "HumanGrowthHormones",
+            "parent": null,
+            "x": 89.2415846643363,
+            "y": -61.05141077234085,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -6
+        },
+        {
+            "name": "HumanGrowthHormones_B",
+            "parent": null,
+            "x": -29.47519680559288,
+            "y": -59.9187366109212,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "Katana",
+            "parent": null,
+            "x": 19.463849378410945,
+            "y": 7.362636175004772,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Kevlar",
+            "parent": null,
+            "x": 12.503447747508647,
+            "y": -24.893627136855578,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Lord Quas",
+            "parent": null,
+            "x": -25.778761222453976,
+            "y": -6.661826134499727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Love Balloon",
+            "parent": null,
+            "x": 93.32144446187421,
+            "y": -48.033989947538,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "McFly",
+            "parent": null,
+            "x": -25.778761222453976,
+            "y": -6.661826134499727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "MidasMucles",
+            "parent": null,
+            "x": 67.65165846643363,
+            "y": -55.37957831998165,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -6
+        },
+        {
+            "name": "MidasMucles_B",
+            "parent": null,
+            "x": -28.426707667831852,
+            "y": -52.542464024703044,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "Not Football",
+            "parent": null,
+            "x": -25.778761222453976,
+            "y": -6.661826134499727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Omelette",
+            "parent": null,
+            "x": -25.778761222453976,
+            "y": -6.661826134499727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Play Boy",
+            "parent": null,
+            "x": -7.991068165703667,
+            "y": -12.271611058301525,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Red T-Shirt",
+            "parent": null,
+            "x": 3.6216559354312143,
+            "y": -8.994138873701475,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Rubber Chikn",
+            "parent": null,
+            "x": -25.778761222453976,
+            "y": -6.661826134499727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Saddle",
+            "parent": null,
+            "x": -25.78,
+            "y": -40.80471050049068,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "Shield",
+            "parent": null,
+            "x": -25.78,
+            "y": -14.65194338376968,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 15
+        },
+        {
+            "name": "Shovel",
+            "parent": null,
+            "x": -25.778761222453976,
+            "y": -6.661826134499727,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Snib Snibs",
+            "parent": null,
+            "x": 59.918648675288935,
+            "y": -15.914625939636874,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Snib Snibs_B",
+            "parent": null,
+            "x": 83.15,
+            "y": -55.42186457311089,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -6
+        },
+        {
+            "name": "Snip Snips",
+            "parent": null,
+            "x": 63.711766695208595,
+            "y": -15.907020422750245,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Snip Snips_B",
+            "parent": null,
+            "x": 85.2,
+            "y": -26.645475956820412,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": -6
+        },
+        {
+            "name": "Spelunker",
+            "parent": null,
+            "x": 27.11558851055552,
+            "y": -3.551955216180957,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Spork",
+            "parent": null,
+            "x": 14.05020366548694,
+            "y": 1.7528512512029717,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Starfish",
+            "parent": null,
+            "x": 28.003435288713458,
+            "y": 10.114290018699307,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Sword",
+            "parent": null,
+            "x": 34.15803059920468,
+            "y": 11.920586425593733,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "The Key",
+            "parent": null,
+            "x": 47.98154877674348,
+            "y": 6.9078299594989945,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Toot Toot",
+            "parent": null,
+            "x": 28.3576959067861,
+            "y": 4.908355270841483,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Tweed",
+            "parent": null,
+            "x": -1.4173555142959426,
+            "y": -19.283842213053777,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "White T-Shirt",
+            "parent": null,
+            "x": 3.6216559354312143,
+            "y": -8.994138873701475,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        },
+        {
+            "name": "Zippo",
+            "parent": null,
+            "x": 62.38632610230844,
+            "y": 7.713247732742384,
+            "pivot_x": 0.5,
+            "pivot_y": 0.5,
+            "rotation": 0,
+            "scale": 1.0,
+            "z_index": 10
+        }
+    ]
+}

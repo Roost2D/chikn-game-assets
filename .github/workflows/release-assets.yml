@@ -1,0 +1,29 @@
+name: Publish versioned asset archives
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { lfs: true }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22.14.0, cache: npm }
+      - run: npm ci
+      - run: npm run release:verify
+      - run: mkdir -p release
+      - name: Build complete source and runtime archives
+        run: |
+          (cd .release/sources && zip -r "../../release/chikn-game-assets-${GITHUB_REF_NAME}-sources.zip" .)
+          zip -r "release/chikn-game-assets-${GITHUB_REF_NAME}-runtime.zip" runtime manifests/rights-manifest.json README.md INTEGRATION.md AGENTS.md llms.txt ASSET_CONTRIBUTIONS.md LICENSE LICENSE-CODE CHIKN-COMMUNITY-ASSET-NOTICE.md ATTRIBUTION.md COMMERCIAL_USE.md TRADEMARKS.md THIRD_PARTY_NOTICES.md
+          sha256sum release/*.zip > release/SHA256SUMS
+      - name: Publish immutable GitHub Release assets
+        run: gh release create "$GITHUB_REF_NAME" release/* --verify-tag --generate-notes
+        env:
+          GH_TOKEN: ${{ github.token }}

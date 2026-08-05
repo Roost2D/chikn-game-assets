@@ -1,0 +1,5535 @@
+{
+    "frames": {
+        "roostr/3D Specs.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 49,
+                "h": 14
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 49,
+                "h": 14
+            },
+            "sourceSize": {
+                "w": 49,
+                "h": 14
+            }
+        },
+        "roostr/9-iron.png": {
+            "frame": {
+                "x": 49,
+                "y": 0,
+                "w": 120,
+                "h": 40
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 120,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 120,
+                "h": 40
+            }
+        },
+        "roostr/A Little Rag.png": {
+            "frame": {
+                "x": 169,
+                "y": 0,
+                "w": 52,
+                "h": 52
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 52
+            }
+        },
+        "roostr/AFreshBaguette.png": {
+            "frame": {
+                "x": 222,
+                "y": 0,
+                "w": 86,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 86,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 86,
+                "h": 38
+            }
+        },
+        "roostr/AVAX Banger.png": {
+            "frame": {
+                "x": 308,
+                "y": 0,
+                "w": 90,
+                "h": 53
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 90,
+                "h": 53
+            },
+            "sourceSize": {
+                "w": 90,
+                "h": 53
+            }
+        },
+        "roostr/AVAX Degen.png": {
+            "frame": {
+                "x": 398,
+                "y": 0,
+                "w": 26,
+                "h": 26
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 26
+            }
+        },
+        "roostr/AllStars_A.png": {
+            "frame": {
+                "x": 424,
+                "y": 0,
+                "w": 40,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 23
+            }
+        },
+        "roostr/AllStars_B.png": {
+            "frame": {
+                "x": 464,
+                "y": 0,
+                "w": 40,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 23
+            }
+        },
+        "roostr/BallNChain.png": {
+            "frame": {
+                "x": 505,
+                "y": 0,
+                "w": 63,
+                "h": 26
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 26
+            }
+        },
+        "roostr/Bandolier.png": {
+            "frame": {
+                "x": 568,
+                "y": 0,
+                "w": 47,
+                "h": 30
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 47,
+                "h": 30
+            }
+        },
+        "roostr/Banger.png": {
+            "frame": {
+                "x": 615,
+                "y": 0,
+                "w": 90,
+                "h": 53
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 90,
+                "h": 53
+            },
+            "sourceSize": {
+                "w": 90,
+                "h": 53
+            }
+        },
+        "roostr/Banjo.png": {
+            "frame": {
+                "x": 0,
+                "y": 53,
+                "w": 119,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 119,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 119,
+                "h": 61
+            }
+        },
+        "roostr/Batter Up.png": {
+            "frame": {
+                "x": 705,
+                "y": 0,
+                "w": 53,
+                "h": 44
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 53,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 53,
+                "h": 44
+            }
+        },
+        "roostr/Beaker.png": {
+            "frame": {
+                "x": 758,
+                "y": 0,
+                "w": 53,
+                "h": 65
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 53,
+                "h": 65
+            },
+            "sourceSize": {
+                "w": 53,
+                "h": 65
+            }
+        },
+        "roostr/Beanie.png": {
+            "frame": {
+                "x": 120,
+                "y": 65,
+                "w": 34,
+                "h": 30
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 30
+            }
+        },
+        "roostr/Beard.png": {
+            "frame": {
+                "x": 154,
+                "y": 65,
+                "w": 37,
+                "h": 34
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 37,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 37,
+                "h": 34
+            }
+        },
+        "roostr/Beret.png": {
+            "frame": {
+                "x": 191,
+                "y": 65,
+                "w": 43,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 43,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 43,
+                "h": 28
+            }
+        },
+        "roostr/Big Mama Fat Pipes.png": {
+            "frame": {
+                "x": 234,
+                "y": 65,
+                "w": 74,
+                "h": 70
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 74,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 74,
+                "h": 70
+            }
+        },
+        "roostr/Big Stick.png": {
+            "frame": {
+                "x": 398,
+                "y": 44,
+                "w": 128,
+                "h": 68
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 68
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 68
+            }
+        },
+        "roostr/BigOlCornCob.png": {
+            "frame": {
+                "x": 308,
+                "y": 65,
+                "w": 75,
+                "h": 52
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 75,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 75,
+                "h": 52
+            }
+        },
+        "roostr/Bitcoin Maxi.png": {
+            "frame": {
+                "x": 526,
+                "y": 65,
+                "w": 25,
+                "h": 26
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 26
+            }
+        },
+        "roostr/Black T-Shirt.png": {
+            "frame": {
+                "x": 552,
+                "y": 65,
+                "w": 68,
+                "h": 56
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 68,
+                "h": 56
+            },
+            "sourceSize": {
+                "w": 68,
+                "h": 56
+            }
+        },
+        "roostr/BlackStilettos_A.png": {
+            "frame": {
+                "x": 620,
+                "y": 65,
+                "w": 31,
+                "h": 17
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 17
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 17
+            }
+        },
+        "roostr/BlackStilettos_B.png": {
+            "frame": {
+                "x": 651,
+                "y": 65,
+                "w": 31,
+                "h": 17
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 17
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 17
+            }
+        },
+        "roostr/BlueTimbs_A.png": {
+            "frame": {
+                "x": 682,
+                "y": 65,
+                "w": 40,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 28
+            }
+        },
+        "roostr/BlueTimbs_B.png": {
+            "frame": {
+                "x": 722,
+                "y": 65,
+                "w": 40,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 28
+            }
+        },
+        "roostr/Bone.png": {
+            "frame": {
+                "x": 620,
+                "y": 93,
+                "w": 95,
+                "h": 50
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 95,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 95,
+                "h": 50
+            }
+        },
+        "roostr/Bone Necklace.png": {
+            "frame": {
+                "x": 762,
+                "y": 65,
+                "w": 52,
+                "h": 30
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 30
+            }
+        },
+        "roostr/Boombox.png": {
+            "frame": {
+                "x": 715,
+                "y": 95,
+                "w": 53,
+                "h": 44
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 53,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 53,
+                "h": 44
+            }
+        },
+        "roostr/Boxhead.png": {
+            "frame": {
+                "x": 0,
+                "y": 140,
+                "w": 74,
+                "h": 62
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 74,
+                "h": 62
+            },
+            "sourceSize": {
+                "w": 74,
+                "h": 62
+            }
+        },
+        "roostr/Boxhead_B.png": {
+            "frame": {
+                "x": 74,
+                "y": 140,
+                "w": 69,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 69,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 69,
+                "h": 24
+            }
+        },
+        "roostr/Breastplate.png": {
+            "frame": {
+                "x": 144,
+                "y": 140,
+                "w": 70,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 70,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 70,
+                "h": 60
+            }
+        },
+        "roostr/Buckaroo_A.png": {
+            "frame": {
+                "x": 768,
+                "y": 95,
+                "w": 43,
+                "h": 45
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 43,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 43,
+                "h": 45
+            }
+        },
+        "roostr/Buckaroo_B.png": {
+            "frame": {
+                "x": 214,
+                "y": 140,
+                "w": 43,
+                "h": 45
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 43,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 43,
+                "h": 45
+            }
+        },
+        "roostr/Bucket.png": {
+            "frame": {
+                "x": 257,
+                "y": 140,
+                "w": 57,
+                "h": 66
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 66
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 66
+            }
+        },
+        "roostr/Bucket_B.png": {
+            "frame": {
+                "x": 314,
+                "y": 140,
+                "w": 56,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 56,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 56,
+                "h": 16
+            }
+        },
+        "roostr/Bullion_Head.png": {
+            "frame": {
+                "x": 370,
+                "y": 140,
+                "w": 44,
+                "h": 98
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 98
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 98
+            }
+        },
+        "roostr/Bullion_LegFoot.png": {
+            "frame": {
+                "x": 191,
+                "y": 95,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/Bullion_LegFoot-1.png": {
+            "frame": {
+                "x": 526,
+                "y": 95,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/Bullion_LegLower.png": {
+            "frame": {
+                "x": 811,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/Bullion_LegLower-1.png": {
+            "frame": {
+                "x": 0,
+                "y": 25,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/Bullion_LegUpper.png": {
+            "frame": {
+                "x": 415,
+                "y": 140,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/Bullion_LegUpper-1.png": {
+            "frame": {
+                "x": 441,
+                "y": 140,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/Bullion_Tail.png": {
+            "frame": {
+                "x": 467,
+                "y": 140,
+                "w": 57,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 76
+            }
+        },
+        "roostr/Bullion_Torso.png": {
+            "frame": {
+                "x": 524,
+                "y": 140,
+                "w": 82,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 61
+            }
+        },
+        "roostr/Bullion_Wing.png": {
+            "frame": {
+                "x": 715,
+                "y": 140,
+                "w": 55,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 46
+            }
+        },
+        "roostr/CD-RW.png": {
+            "frame": {
+                "x": 770,
+                "y": 140,
+                "w": 40,
+                "h": 37
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 37
+            }
+        },
+        "roostr/CRT.png": {
+            "frame": {
+                "x": 74,
+                "y": 178,
+                "w": 64,
+                "h": 55
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 55
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 55
+            }
+        },
+        "roostr/Cap.png": {
+            "frame": {
+                "x": 314,
+                "y": 178,
+                "w": 44,
+                "h": 27
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 27
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 27
+            }
+        },
+        "roostr/Celestial Comb.png": {
+            "frame": {
+                "x": 415,
+                "y": 178,
+                "w": 42,
+                "h": 74
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 74
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 74
+            }
+        },
+        "roostr/Celestial Feet.png": {
+            "frame": {
+                "x": 606,
+                "y": 178,
+                "w": 36,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 31
+            }
+        },
+        "roostr/Celestial_Head.png": {
+            "frame": {
+                "x": 642,
+                "y": 178,
+                "w": 44,
+                "h": 98
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 98
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 98
+            }
+        },
+        "roostr/Celestial_LegFoot.png": {
+            "frame": {
+                "x": 686,
+                "y": 178,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/Celestial_LegFoot-1.png": {
+            "frame": {
+                "x": 770,
+                "y": 178,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/Celestial_LegLower.png": {
+            "frame": {
+                "x": 10,
+                "y": 25,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/Celestial_LegLower-1.png": {
+            "frame": {
+                "x": 20,
+                "y": 25,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/Celestial_LegUpper.png": {
+            "frame": {
+                "x": 794,
+                "y": 178,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/Celestial_LegUpper-1.png": {
+            "frame": {
+                "x": 0,
+                "y": 207,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/Celestial_Tail.png": {
+            "frame": {
+                "x": 686,
+                "y": 186,
+                "w": 57,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 76
+            }
+        },
+        "roostr/Celestial_Torso.png": {
+            "frame": {
+                "x": 0,
+                "y": 262,
+                "w": 82,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 61
+            }
+        },
+        "roostr/Celestial_Wing.png": {
+            "frame": {
+                "x": 138,
+                "y": 207,
+                "w": 55,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 46
+            }
+        },
+        "roostr/Chef.png": {
+            "frame": {
+                "x": 26,
+                "y": 207,
+                "w": 45,
+                "h": 36
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 45,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 45,
+                "h": 36
+            }
+        },
+        "roostr/Chick Magnet.png": {
+            "frame": {
+                "x": 194,
+                "y": 207,
+                "w": 27,
+                "h": 30
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 27,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 27,
+                "h": 30
+            }
+        },
+        "roostr/ChiknJockey.png": {
+            "frame": {
+                "x": 221,
+                "y": 186,
+                "w": 33,
+                "h": 36
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 36
+            }
+        },
+        "roostr/Chrome Dome.png": {
+            "frame": {
+                "x": 254,
+                "y": 207,
+                "w": 37,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 37,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 37,
+                "h": 28
+            }
+        },
+        "roostr/Cigar_B.png": {
+            "frame": {
+                "x": 291,
+                "y": 207,
+                "w": 32,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 28
+            }
+        },
+        "roostr/Clockchain.png": {
+            "frame": {
+                "x": 323,
+                "y": 207,
+                "w": 34,
+                "h": 34
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 34
+            }
+        },
+        "roostr/Coachella.png": {
+            "frame": {
+                "x": 524,
+                "y": 207,
+                "w": 48,
+                "h": 42
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 48,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 48,
+                "h": 42
+            }
+        },
+        "roostr/Concorde.png": {
+            "frame": {
+                "x": 744,
+                "y": 207,
+                "w": 76,
+                "h": 93
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 93
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 93
+            }
+        },
+        "roostr/ConspiracyTheorist.png": {
+            "frame": {
+                "x": 82,
+                "y": 300,
+                "w": 37,
+                "h": 36
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 37,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 37,
+                "h": 36
+            }
+        },
+        "roostr/ConstructionHelmet.png": {
+            "frame": {
+                "x": 119,
+                "y": 300,
+                "w": 43,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 43,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 43,
+                "h": 28
+            }
+        },
+        "roostr/Coq Maxi.png": {
+            "frame": {
+                "x": 162,
+                "y": 300,
+                "w": 37,
+                "h": 26
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 37,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 37,
+                "h": 26
+            }
+        },
+        "roostr/Coq Tags.png": {
+            "frame": {
+                "x": 572,
+                "y": 207,
+                "w": 20,
+                "h": 25
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 25
+            }
+        },
+        "roostr/Coqpit Commander.png": {
+            "frame": {
+                "x": 199,
+                "y": 300,
+                "w": 48,
+                "h": 33
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 48,
+                "h": 33
+            },
+            "sourceSize": {
+                "w": 48,
+                "h": 33
+            }
+        },
+        "roostr/Croqs_A.png": {
+            "frame": {
+                "x": 247,
+                "y": 300,
+                "w": 39,
+                "h": 18
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 18
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 18
+            }
+        },
+        "roostr/Croqs_B.png": {
+            "frame": {
+                "x": 286,
+                "y": 300,
+                "w": 39,
+                "h": 17
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 17
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 17
+            }
+        },
+        "roostr/Dad Shirt.png": {
+            "frame": {
+                "x": 326,
+                "y": 300,
+                "w": 77,
+                "h": 74
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 77,
+                "h": 74
+            },
+            "sourceSize": {
+                "w": 77,
+                "h": 74
+            }
+        },
+        "roostr/Daffy.png": {
+            "frame": {
+                "x": 403,
+                "y": 300,
+                "w": 28,
+                "h": 12
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 28,
+                "h": 12
+            },
+            "sourceSize": {
+                "w": 28,
+                "h": 12
+            }
+        },
+        "roostr/Doctor Coq.png": {
+            "frame": {
+                "x": 431,
+                "y": 300,
+                "w": 85,
+                "h": 72
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 85,
+                "h": 72
+            },
+            "sourceSize": {
+                "w": 85,
+                "h": 72
+            }
+        },
+        "roostr/Fancy Sword.png": {
+            "frame": {
+                "x": 516,
+                "y": 300,
+                "w": 135,
+                "h": 53
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 135,
+                "h": 53
+            },
+            "sourceSize": {
+                "w": 135,
+                "h": 53
+            }
+        },
+        "roostr/Feed Bag.png": {
+            "frame": {
+                "x": 651,
+                "y": 300,
+                "w": 66,
+                "h": 67
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 67
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 67
+            }
+        },
+        "roostr/Fez.png": {
+            "frame": {
+                "x": 717,
+                "y": 300,
+                "w": 38,
+                "h": 33
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 33
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 33
+            }
+        },
+        "roostr/Floatie Boi.png": {
+            "frame": {
+                "x": 754,
+                "y": 300,
+                "w": 64,
+                "h": 43
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 43
+            }
+        },
+        "roostr/Floppy Disk.png": {
+            "frame": {
+                "x": 0,
+                "y": 344,
+                "w": 49,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 49,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 49,
+                "h": 47
+            }
+        },
+        "roostr/Foliage.png": {
+            "frame": {
+                "x": 50,
+                "y": 344,
+                "w": 65,
+                "h": 73
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 65,
+                "h": 73
+            },
+            "sourceSize": {
+                "w": 65,
+                "h": 73
+            }
+        },
+        "roostr/Framez.png": {
+            "frame": {
+                "x": 115,
+                "y": 344,
+                "w": 46,
+                "h": 15
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 15
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 15
+            }
+        },
+        "roostr/FreshFish.png": {
+            "frame": {
+                "x": 161,
+                "y": 344,
+                "w": 106,
+                "h": 57
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 106,
+                "h": 57
+            },
+            "sourceSize": {
+                "w": 106,
+                "h": 57
+            }
+        },
+        "roostr/FrogGreen_Head.png": {
+            "frame": {
+                "x": 268,
+                "y": 344,
+                "w": 44,
+                "h": 98
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 98
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 98
+            }
+        },
+        "roostr/FrogGreen_LegFoot.png": {
+            "frame": {
+                "x": 403,
+                "y": 344,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/FrogGreen_LegFoot-1.png": {
+            "frame": {
+                "x": 717,
+                "y": 344,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/FrogGreen_LegLower.png": {
+            "frame": {
+                "x": 30,
+                "y": 25,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/FrogGreen_LegLower-1.png": {
+            "frame": {
+                "x": 811,
+                "y": 25,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/FrogGreen_LegUpper.png": {
+            "frame": {
+                "x": 740,
+                "y": 344,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/FrogGreen_LegUpper-1.png": {
+            "frame": {
+                "x": 767,
+                "y": 344,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/FrogGreen_Tail.png": {
+            "frame": {
+                "x": 403,
+                "y": 373,
+                "w": 57,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 76
+            }
+        },
+        "roostr/FrogGreen_Torso.png": {
+            "frame": {
+                "x": 460,
+                "y": 373,
+                "w": 82,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 61
+            }
+        },
+        "roostr/FrogGreen_Wing.png": {
+            "frame": {
+                "x": 542,
+                "y": 373,
+                "w": 55,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 46
+            }
+        },
+        "roostr/Gainz.png": {
+            "frame": {
+                "x": 598,
+                "y": 373,
+                "w": 55,
+                "h": 52
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 52
+            }
+        },
+        "roostr/Gameboi.png": {
+            "frame": {
+                "x": 652,
+                "y": 373,
+                "w": 54,
+                "h": 41
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 41
+            }
+        },
+        "roostr/Gas Guzzler.png": {
+            "frame": {
+                "x": 707,
+                "y": 373,
+                "w": 74,
+                "h": 70
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 74,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 74,
+                "h": 70
+            }
+        },
+        "roostr/Gasmask.png": {
+            "frame": {
+                "x": 0,
+                "y": 443,
+                "w": 50,
+                "h": 44
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 44
+            }
+        },
+        "roostr/Gentlechikn.png": {
+            "frame": {
+                "x": 50,
+                "y": 443,
+                "w": 59,
+                "h": 42
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 42
+            }
+        },
+        "roostr/Gentleman_s Pipe_B.png": {
+            "frame": {
+                "x": 793,
+                "y": 344,
+                "w": 25,
+                "h": 26
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 26
+            }
+        },
+        "roostr/GoldFish.png": {
+            "frame": {
+                "x": 109,
+                "y": 443,
+                "w": 106,
+                "h": 57
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 106,
+                "h": 57
+            },
+            "sourceSize": {
+                "w": 106,
+                "h": 57
+            }
+        },
+        "roostr/Golden Breastplate.png": {
+            "frame": {
+                "x": 215,
+                "y": 443,
+                "w": 70,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 70,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 70,
+                "h": 60
+            }
+        },
+        "roostr/Golden Comb.png": {
+            "frame": {
+                "x": 285,
+                "y": 443,
+                "w": 42,
+                "h": 74
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 74
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 74
+            }
+        },
+        "roostr/Golden Feet.png": {
+            "frame": {
+                "x": 115,
+                "y": 370,
+                "w": 36,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 31
+            }
+        },
+        "roostr/Golden Pauldrons.png": {
+            "frame": {
+                "x": 781,
+                "y": 373,
+                "w": 38,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 38
+            }
+        },
+        "roostr/Golden Pauldrons_B.png": {
+            "frame": {
+                "x": 328,
+                "y": 411,
+                "w": 38,
+                "h": 33
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 33
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 33
+            }
+        },
+        "roostr/Golden Templar.png": {
+            "frame": {
+                "x": 460,
+                "y": 443,
+                "w": 58,
+                "h": 84
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 84
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 84
+            }
+        },
+        "roostr/GoldenBoneDaddy.png": {
+            "frame": {
+                "x": 518,
+                "y": 443,
+                "w": 52,
+                "h": 50
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 50
+            }
+        },
+        "roostr/GoldenGreaves_A.png": {
+            "frame": {
+                "x": 214,
+                "y": 95,
+                "w": 16,
+                "h": 27
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 27
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 27
+            }
+        },
+        "roostr/GoldenGreaves_B.png": {
+            "frame": {
+                "x": 0,
+                "y": 411,
+                "w": 16,
+                "h": 27
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 27
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 27
+            }
+        },
+        "roostr/Grande LeCoq.png": {
+            "frame": {
+                "x": 571,
+                "y": 443,
+                "w": 71,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 71,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 71,
+                "h": 61
+            }
+        },
+        "roostr/Grandpa.png": {
+            "frame": {
+                "x": 115,
+                "y": 411,
+                "w": 39,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 22
+            }
+        },
+        "roostr/Greaves_A.png": {
+            "frame": {
+                "x": 17,
+                "y": 411,
+                "w": 16,
+                "h": 27
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 27
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 27
+            }
+        },
+        "roostr/Greaves_B.png": {
+            "frame": {
+                "x": 154,
+                "y": 411,
+                "w": 16,
+                "h": 27
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 27
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 27
+            }
+        },
+        "roostr/Green Comb.png": {
+            "frame": {
+                "x": 642,
+                "y": 443,
+                "w": 42,
+                "h": 74
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 74
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 74
+            }
+        },
+        "roostr/Green Feet.png": {
+            "frame": {
+                "x": 170,
+                "y": 411,
+                "w": 36,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 31
+            }
+        },
+        "roostr/Green Party Hat.png": {
+            "frame": {
+                "x": 685,
+                "y": 443,
+                "w": 42,
+                "h": 35
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 35
+            }
+        },
+        "roostr/Green Party Hat_B.png": {
+            "frame": {
+                "x": 206,
+                "y": 411,
+                "w": 29,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 29,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 29,
+                "h": 23
+            }
+        },
+        "roostr/Gwei Guzzler.png": {
+            "frame": {
+                "x": 236,
+                "y": 411,
+                "w": 16,
+                "h": 30
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 30
+            }
+        },
+        "roostr/Happy Birthday.png": {
+            "frame": {
+                "x": 366,
+                "y": 411,
+                "w": 24,
+                "h": 44
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 24,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 24,
+                "h": 44
+            }
+        },
+        "roostr/Hendrix.png": {
+            "frame": {
+                "x": 328,
+                "y": 478,
+                "w": 125,
+                "h": 68
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 125,
+                "h": 68
+            },
+            "sourceSize": {
+                "w": 125,
+                "h": 68
+            }
+        },
+        "roostr/Hipster.png": {
+            "frame": {
+                "x": 727,
+                "y": 443,
+                "w": 46,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 31
+            }
+        },
+        "roostr/Hole In One.png": {
+            "frame": {
+                "x": 727,
+                "y": 474,
+                "w": 52,
+                "h": 52
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 52
+            }
+        },
+        "roostr/Home Run.png": {
+            "frame": {
+                "x": 0,
+                "y": 527,
+                "w": 99,
+                "h": 44
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 99,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 99,
+                "h": 44
+            }
+        },
+        "roostr/Hoops.png": {
+            "frame": {
+                "x": 99,
+                "y": 527,
+                "w": 43,
+                "h": 43
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 43,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 43,
+                "h": 43
+            }
+        },
+        "roostr/HumanGrowthHormones.png": {
+            "frame": {
+                "x": 143,
+                "y": 527,
+                "w": 46,
+                "h": 48
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 48
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 48
+            }
+        },
+        "roostr/HumanGrowthHormones_B.png": {
+            "frame": {
+                "x": 189,
+                "y": 527,
+                "w": 46,
+                "h": 48
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 48
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 48
+            }
+        },
+        "roostr/Hydra.png": {
+            "frame": {
+                "x": 236,
+                "y": 527,
+                "w": 82,
+                "h": 93
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 93
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 93
+            }
+        },
+        "roostr/Inherited Royalty.png": {
+            "frame": {
+                "x": 518,
+                "y": 527,
+                "w": 45,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 45,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 45,
+                "h": 38
+            }
+        },
+        "roostr/IronClaw.png": {
+            "frame": {
+                "x": 781,
+                "y": 411,
+                "w": 38,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 22
+            }
+        },
+        "roostr/Jell-O.png": {
+            "frame": {
+                "x": 564,
+                "y": 527,
+                "w": 60,
+                "h": 54
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 54
+            }
+        },
+        "roostr/Joseph Drip.png": {
+            "frame": {
+                "x": 781,
+                "y": 433,
+                "w": 22,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            }
+        },
+        "roostr/Katana.png": {
+            "frame": {
+                "x": 624,
+                "y": 527,
+                "w": 132,
+                "h": 50
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 132,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 132,
+                "h": 50
+            }
+        },
+        "roostr/Kevlar.png": {
+            "frame": {
+                "x": 0,
+                "y": 578,
+                "w": 67,
+                "h": 54
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 67,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 67,
+                "h": 54
+            }
+        },
+        "roostr/Laser Eye.png": {
+            "frame": {
+                "x": 780,
+                "y": 455,
+                "w": 29,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 29,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 29,
+                "h": 29
+            }
+        },
+        "roostr/Lei.png": {
+            "frame": {
+                "x": 755,
+                "y": 527,
+                "w": 59,
+                "h": 44
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 44
+            }
+        },
+        "roostr/Lord Quas.png": {
+            "frame": {
+                "x": 318,
+                "y": 570,
+                "w": 53,
+                "h": 43
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 53,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 53,
+                "h": 43
+            }
+        },
+        "roostr/Love Balloon.png": {
+            "frame": {
+                "x": 67,
+                "y": 578,
+                "w": 69,
+                "h": 74
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 69,
+                "h": 74
+            },
+            "sourceSize": {
+                "w": 69,
+                "h": 74
+            }
+        },
+        "roostr/Make a Wish.png": {
+            "frame": {
+                "x": 685,
+                "y": 484,
+                "w": 25,
+                "h": 40
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 40
+            }
+        },
+        "roostr/McFly.png": {
+            "frame": {
+                "x": 370,
+                "y": 578,
+                "w": 108,
+                "h": 56
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 108,
+                "h": 56
+            },
+            "sourceSize": {
+                "w": 108,
+                "h": 56
+            }
+        },
+        "roostr/MidasMucles.png": {
+            "frame": {
+                "x": 479,
+                "y": 570,
+                "w": 46,
+                "h": 48
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 48
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 48
+            }
+        },
+        "roostr/MidasMucles_B.png": {
+            "frame": {
+                "x": 755,
+                "y": 570,
+                "w": 46,
+                "h": 48
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 48
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 48
+            }
+        },
+        "roostr/Midnight_Head.png": {
+            "frame": {
+                "x": 136,
+                "y": 618,
+                "w": 44,
+                "h": 98
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 98
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 98
+            }
+        },
+        "roostr/Midnight_LegFoot.png": {
+            "frame": {
+                "x": 33,
+                "y": 433,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/Midnight_LegFoot-1.png": {
+            "frame": {
+                "x": 57,
+                "y": 433,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/Midnight_LegLower.png": {
+            "frame": {
+                "x": 383,
+                "y": 95,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/Midnight_LegLower-1.png": {
+            "frame": {
+                "x": 811,
+                "y": 95,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/Midnight_LegUpper.png": {
+            "frame": {
+                "x": 780,
+                "y": 484,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/Midnight_LegUpper-1.png": {
+            "frame": {
+                "x": 526,
+                "y": 570,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/Midnight_Tail.png": {
+            "frame": {
+                "x": 479,
+                "y": 618,
+                "w": 57,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 76
+            }
+        },
+        "roostr/Midnight_Torso.png": {
+            "frame": {
+                "x": 624,
+                "y": 578,
+                "w": 82,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 61
+            }
+        },
+        "roostr/Midnight_Wing.png": {
+            "frame": {
+                "x": 536,
+                "y": 618,
+                "w": 55,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 46
+            }
+        },
+        "roostr/Mullet.png": {
+            "frame": {
+                "x": 180,
+                "y": 618,
+                "w": 44,
+                "h": 37
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 37
+            }
+        },
+        "roostr/MutantPurple_Head.png": {
+            "frame": {
+                "x": 318,
+                "y": 618,
+                "w": 44,
+                "h": 98
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 98
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 98
+            }
+        },
+        "roostr/MutantPurple_LegFoot.png": {
+            "frame": {
+                "x": 80,
+                "y": 433,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/MutantPurple_LegFoot-1.png": {
+            "frame": {
+                "x": 104,
+                "y": 433,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/MutantPurple_LegLower.png": {
+            "frame": {
+                "x": 811,
+                "y": 120,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/MutantPurple_LegLower-1.png": {
+            "frame": {
+                "x": 606,
+                "y": 144,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/MutantPurple_LegUpper.png": {
+            "frame": {
+                "x": 592,
+                "y": 618,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/MutantPurple_LegUpper-1.png": {
+            "frame": {
+                "x": 705,
+                "y": 618,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/MutantPurple_Tail.png": {
+            "frame": {
+                "x": 732,
+                "y": 618,
+                "w": 57,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 76
+            }
+        },
+        "roostr/MutantPurple_Torso.png": {
+            "frame": {
+                "x": 0,
+                "y": 694,
+                "w": 82,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 61
+            }
+        },
+        "roostr/MutantPurple_Wing.png": {
+            "frame": {
+                "x": 180,
+                "y": 694,
+                "w": 55,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 46
+            }
+        },
+        "roostr/NighstalkerBlue_Head.png": {
+            "frame": {
+                "x": 82,
+                "y": 694,
+                "w": 44,
+                "h": 98
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 98
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 98
+            }
+        },
+        "roostr/NighstalkerBlue_LegFoot.png": {
+            "frame": {
+                "x": 127,
+                "y": 433,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/NighstalkerBlue_LegFoot-1.png": {
+            "frame": {
+                "x": 542,
+                "y": 433,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/NighstalkerBlue_LegLower.png": {
+            "frame": {
+                "x": 616,
+                "y": 144,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/NighstalkerBlue_LegLower-1.png": {
+            "frame": {
+                "x": 626,
+                "y": 144,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/NighstalkerBlue_LegUpper.png": {
+            "frame": {
+                "x": 788,
+                "y": 618,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/NighstalkerBlue_LegUpper-1.png": {
+            "frame": {
+                "x": 0,
+                "y": 648,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/NighstalkerBlue_Tail.png": {
+            "frame": {
+                "x": 236,
+                "y": 694,
+                "w": 57,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 76
+            }
+        },
+        "roostr/NighstalkerBlue_Torso.png": {
+            "frame": {
+                "x": 362,
+                "y": 694,
+                "w": 82,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 61
+            }
+        },
+        "roostr/NighstalkerBlue_Wing.png": {
+            "frame": {
+                "x": 444,
+                "y": 694,
+                "w": 55,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 46
+            }
+        },
+        "roostr/Not Football.png": {
+            "frame": {
+                "x": 499,
+                "y": 694,
+                "w": 46,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 46
+            }
+        },
+        "roostr/OASIS.png": {
+            "frame": {
+                "x": 636,
+                "y": 144,
+                "w": 46,
+                "h": 25
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 25
+            }
+        },
+        "roostr/Obsidian_Head.png": {
+            "frame": {
+                "x": 545,
+                "y": 694,
+                "w": 44,
+                "h": 98
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 98
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 98
+            }
+        },
+        "roostr/Obsidian_LegFoot.png": {
+            "frame": {
+                "x": 566,
+                "y": 433,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/Obsidian_LegFoot-1.png": {
+            "frame": {
+                "x": 589,
+                "y": 433,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/Obsidian_LegLower.png": {
+            "frame": {
+                "x": 682,
+                "y": 144,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/Obsidian_LegLower-1.png": {
+            "frame": {
+                "x": 692,
+                "y": 144,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/Obsidian_LegUpper.png": {
+            "frame": {
+                "x": 26,
+                "y": 648,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/Obsidian_LegUpper-1.png": {
+            "frame": {
+                "x": 224,
+                "y": 648,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/Obsidian_Tail.png": {
+            "frame": {
+                "x": 589,
+                "y": 694,
+                "w": 57,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 76
+            }
+        },
+        "roostr/Obsidian_Torso.png": {
+            "frame": {
+                "x": 646,
+                "y": 694,
+                "w": 82,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 61
+            }
+        },
+        "roostr/Obsidian_Wing.png": {
+            "frame": {
+                "x": 728,
+                "y": 694,
+                "w": 55,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 46
+            }
+        },
+        "roostr/Off Grid.png": {
+            "frame": {
+                "x": 821,
+                "y": 0,
+                "w": 78,
+                "h": 92
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 92
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 92
+            }
+        },
+        "roostr/Omelette.png": {
+            "frame": {
+                "x": 821,
+                "y": 92,
+                "w": 68,
+                "h": 36
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 68,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 68,
+                "h": 36
+            }
+        },
+        "roostr/Panic Buy.png": {
+            "frame": {
+                "x": 821,
+                "y": 129,
+                "w": 64,
+                "h": 43
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 43
+            }
+        },
+        "roostr/Panic Buy_B.png": {
+            "frame": {
+                "x": 820,
+                "y": 172,
+                "w": 62,
+                "h": 103
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 62,
+                "h": 103
+            },
+            "sourceSize": {
+                "w": 62,
+                "h": 103
+            }
+        },
+        "roostr/PassionRed_Head.png": {
+            "frame": {
+                "x": 819,
+                "y": 276,
+                "w": 44,
+                "h": 98
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 98
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 98
+            }
+        },
+        "roostr/PassionRed_LegFoot.png": {
+            "frame": {
+                "x": 0,
+                "y": 129,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/PassionRed_LegFoot-1.png": {
+            "frame": {
+                "x": 24,
+                "y": 129,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/PassionRed_LegLower.png": {
+            "frame": {
+                "x": 889,
+                "y": 92,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/PassionRed_LegLower-1.png": {
+            "frame": {
+                "x": 889,
+                "y": 117,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/PassionRed_LegUpper.png": {
+            "frame": {
+                "x": 864,
+                "y": 276,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/PassionRed_LegUpper-1.png": {
+            "frame": {
+                "x": 864,
+                "y": 305,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/PassionRed_Tail.png": {
+            "frame": {
+                "x": 819,
+                "y": 373,
+                "w": 57,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 76
+            }
+        },
+        "roostr/PassionRed_Torso.png": {
+            "frame": {
+                "x": 809,
+                "y": 450,
+                "w": 82,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 61
+            }
+        },
+        "roostr/PassionRed_Wing.png": {
+            "frame": {
+                "x": 814,
+                "y": 511,
+                "w": 55,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 46
+            }
+        },
+        "roostr/Peakcoq.png": {
+            "frame": {
+                "x": 815,
+                "y": 556,
+                "w": 65,
+                "h": 74
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 65,
+                "h": 74
+            },
+            "sourceSize": {
+                "w": 65,
+                "h": 74
+            }
+        },
+        "roostr/Permabull.png": {
+            "frame": {
+                "x": 82,
+                "y": 276,
+                "w": 33,
+                "h": 19
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 19
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 19
+            }
+        },
+        "roostr/Permabull_B.png": {
+            "frame": {
+                "x": 115,
+                "y": 276,
+                "w": 33,
+                "h": 19
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 19
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 19
+            }
+        },
+        "roostr/Plague Doctor.png": {
+            "frame": {
+                "x": 251,
+                "y": 630,
+                "w": 58,
+                "h": 36
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 36
+            }
+        },
+        "roostr/Play Boy.png": {
+            "frame": {
+                "x": 788,
+                "y": 648,
+                "w": 89,
+                "h": 73
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 89,
+                "h": 73
+            },
+            "sourceSize": {
+                "w": 89,
+                "h": 73
+            }
+        },
+        "roostr/Prawn Coqtail.png": {
+            "frame": {
+                "x": 293,
+                "y": 721,
+                "w": 59,
+                "h": 96
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 96
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 96
+            }
+        },
+        "roostr/Prized Coq.png": {
+            "frame": {
+                "x": 870,
+                "y": 511,
+                "w": 27,
+                "h": 45
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 27,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 27,
+                "h": 45
+            }
+        },
+        "roostr/Purple Bowtie.png": {
+            "frame": {
+                "x": 148,
+                "y": 276,
+                "w": 31,
+                "h": 20
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 20
+            }
+        },
+        "roostr/Purple Comb.png": {
+            "frame": {
+                "x": 126,
+                "y": 721,
+                "w": 42,
+                "h": 74
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 74
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 74
+            }
+        },
+        "roostr/Quarter Pounder.png": {
+            "frame": {
+                "x": 784,
+                "y": 721,
+                "w": 62,
+                "h": 54
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 62,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 62,
+                "h": 54
+            }
+        },
+        "roostr/Quarterback.png": {
+            "frame": {
+                "x": 846,
+                "y": 721,
+                "w": 50,
+                "h": 49
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 49
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 49
+            }
+        },
+        "roostr/Red Bowtie.png": {
+            "frame": {
+                "x": 180,
+                "y": 276,
+                "w": 31,
+                "h": 20
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 20
+            }
+        },
+        "roostr/Red Feet.png": {
+            "frame": {
+                "x": 0,
+                "y": 770,
+                "w": 36,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 31
+            }
+        },
+        "roostr/Red T-Shirt.png": {
+            "frame": {
+                "x": 168,
+                "y": 775,
+                "w": 68,
+                "h": 56
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 68,
+                "h": 56
+            },
+            "sourceSize": {
+                "w": 68,
+                "h": 56
+            }
+        },
+        "roostr/RedStilettos_A.png": {
+            "frame": {
+                "x": 211,
+                "y": 276,
+                "w": 31,
+                "h": 17
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 17
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 17
+            }
+        },
+        "roostr/RedStilettos_B.png": {
+            "frame": {
+                "x": 242,
+                "y": 276,
+                "w": 31,
+                "h": 17
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 17
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 17
+            }
+        },
+        "roostr/Robocoq.png": {
+            "frame": {
+                "x": 352,
+                "y": 775,
+                "w": 63,
+                "h": 63
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 63
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 63
+            }
+        },
+        "roostr/Roodboi Rootie.png": {
+            "frame": {
+                "x": 416,
+                "y": 770,
+                "w": 46,
+                "h": 33
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 33
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 33
+            }
+        },
+        "roostr/Rosebud.png": {
+            "frame": {
+                "x": 461,
+                "y": 775,
+                "w": 73,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 73,
+                "h": 47
+            }
+        },
+        "roostr/Rosebud_B.png": {
+            "frame": {
+                "x": 864,
+                "y": 334,
+                "w": 34,
+                "h": 26
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 26
+            }
+        },
+        "roostr/Royal Flush.png": {
+            "frame": {
+                "x": 589,
+                "y": 775,
+                "w": 72,
+                "h": 78
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 72,
+                "h": 78
+            }
+        },
+        "roostr/Rubber Chikn.png": {
+            "frame": {
+                "x": 662,
+                "y": 775,
+                "w": 128,
+                "h": 72
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 72
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 72
+            }
+        },
+        "roostr/Saddle.png": {
+            "frame": {
+                "x": 36,
+                "y": 770,
+                "w": 44,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 31
+            }
+        },
+        "roostr/Samurai.png": {
+            "frame": {
+                "x": 846,
+                "y": 770,
+                "w": 42,
+                "h": 50
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 50
+            }
+        },
+        "roostr/Samurai_B.png": {
+            "frame": {
+                "x": 273,
+                "y": 276,
+                "w": 18,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 23
+            }
+        },
+        "roostr/Sash.png": {
+            "frame": {
+                "x": 0,
+                "y": 820,
+                "w": 40,
+                "h": 42
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 42
+            }
+        },
+        "roostr/Scorpion King.png": {
+            "frame": {
+                "x": 899,
+                "y": 0,
+                "w": 59,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 113
+            }
+        },
+        "roostr/Sesh Hat.png": {
+            "frame": {
+                "x": 120,
+                "y": 113,
+                "w": 38,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 24
+            }
+        },
+        "roostr/Sesh Hat_B.png": {
+            "frame": {
+                "x": 158,
+                "y": 113,
+                "w": 39,
+                "h": 14
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 14
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 14
+            }
+        },
+        "roostr/Shield.png": {
+            "frame": {
+                "x": 885,
+                "y": 142,
+                "w": 64,
+                "h": 71
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 71
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 71
+            }
+        },
+        "roostr/Shoulder Armour.png": {
+            "frame": {
+                "x": 592,
+                "y": 213,
+                "w": 38,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 38
+            }
+        },
+        "roostr/Shoulder Armour_B.png": {
+            "frame": {
+                "x": 882,
+                "y": 213,
+                "w": 38,
+                "h": 33
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 33
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 33
+            }
+        },
+        "roostr/Shovel.png": {
+            "frame": {
+                "x": 40,
+                "y": 820,
+                "w": 113,
+                "h": 56
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 113,
+                "h": 56
+            },
+            "sourceSize": {
+                "w": 113,
+                "h": 56
+            }
+        },
+        "roostr/Smokestack.png": {
+            "frame": {
+                "x": 880,
+                "y": 556,
+                "w": 71,
+                "h": 105
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 71,
+                "h": 105
+            },
+            "sourceSize": {
+                "w": 71,
+                "h": 105
+            }
+        },
+        "roostr/Smol Brain In Jar.png": {
+            "frame": {
+                "x": 890,
+                "y": 246,
+                "w": 53,
+                "h": 65
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 53,
+                "h": 65
+            },
+            "sourceSize": {
+                "w": 53,
+                "h": 65
+            }
+        },
+        "roostr/Sneaker Head_A.png": {
+            "frame": {
+                "x": 393,
+                "y": 113,
+                "w": 40,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 24
+            }
+        },
+        "roostr/Sneaker Head_B.png": {
+            "frame": {
+                "x": 433,
+                "y": 113,
+                "w": 40,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 24
+            }
+        },
+        "roostr/Snib Snibs.png": {
+            "frame": {
+                "x": 897,
+                "y": 311,
+                "w": 52,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 39
+            }
+        },
+        "roostr/Snib Snibs_B.png": {
+            "frame": {
+                "x": 473,
+                "y": 113,
+                "w": 54,
+                "h": 26
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 26
+            }
+        },
+        "roostr/Snip Snips.png": {
+            "frame": {
+                "x": 897,
+                "y": 351,
+                "w": 56,
+                "h": 42
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 56,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 56,
+                "h": 42
+            }
+        },
+        "roostr/Snip Snips_B.png": {
+            "frame": {
+                "x": 82,
+                "y": 246,
+                "w": 52,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 28
+            }
+        },
+        "roostr/Snorkel.png": {
+            "frame": {
+                "x": 876,
+                "y": 393,
+                "w": 57,
+                "h": 44
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 44
+            }
+        },
+        "roostr/SnowWhite_Head.png": {
+            "frame": {
+                "x": 897,
+                "y": 437,
+                "w": 44,
+                "h": 98
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 98
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 98
+            }
+        },
+        "roostr/SnowWhite_LegFoot.png": {
+            "frame": {
+                "x": 526,
+                "y": 113,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/SnowWhite_LegFoot-1.png": {
+            "frame": {
+                "x": 898,
+                "y": 113,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/SnowWhite_LegLower.png": {
+            "frame": {
+                "x": 197,
+                "y": 113,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/SnowWhite_LegLower-1.png": {
+            "frame": {
+                "x": 922,
+                "y": 113,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/SnowWhite_LegUpper.png": {
+            "frame": {
+                "x": 921,
+                "y": 213,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/SnowWhite_LegUpper-1.png": {
+            "frame": {
+                "x": 194,
+                "y": 243,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/SnowWhite_Tail.png": {
+            "frame": {
+                "x": 896,
+                "y": 661,
+                "w": 57,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 76
+            }
+        },
+        "roostr/SnowWhite_Torso.png": {
+            "frame": {
+                "x": 236,
+                "y": 820,
+                "w": 82,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 61
+            }
+        },
+        "roostr/SnowWhite_Wing.png": {
+            "frame": {
+                "x": 291,
+                "y": 243,
+                "w": 55,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 46
+            }
+        },
+        "roostr/Sombrero.png": {
+            "frame": {
+                "x": 790,
+                "y": 820,
+                "w": 78,
+                "h": 35
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 35
+            }
+        },
+        "roostr/Spelunker.png": {
+            "frame": {
+                "x": 318,
+                "y": 855,
+                "w": 94,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 94,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 94,
+                "h": 46
+            }
+        },
+        "roostr/Spork.png": {
+            "frame": {
+                "x": 869,
+                "y": 820,
+                "w": 88,
+                "h": 43
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 88,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 88,
+                "h": 43
+            }
+        },
+        "roostr/Spur_A.png": {
+            "frame": {
+                "x": 220,
+                "y": 243,
+                "w": 39,
+                "h": 17
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 17
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 17
+            }
+        },
+        "roostr/Spur_B.png": {
+            "frame": {
+                "x": 347,
+                "y": 243,
+                "w": 39,
+                "h": 17
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 17
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 17
+            }
+        },
+        "roostr/Starfish.png": {
+            "frame": {
+                "x": 457,
+                "y": 243,
+                "w": 53,
+                "h": 51
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 53,
+                "h": 51
+            },
+            "sourceSize": {
+                "w": 53,
+                "h": 51
+            }
+        },
+        "roostr/Stethoscope.png": {
+            "frame": {
+                "x": 896,
+                "y": 738,
+                "w": 56,
+                "h": 54
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 56,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 56,
+                "h": 54
+            }
+        },
+        "roostr/Stop Loss.png": {
+            "frame": {
+                "x": 452,
+                "y": 535,
+                "w": 31,
+                "h": 33
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 33
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 33
+            }
+        },
+        "roostr/Sunnies.png": {
+            "frame": {
+                "x": 0,
+                "y": 393,
+                "w": 46,
+                "h": 15
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 15
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 15
+            }
+        },
+        "roostr/Super Villian.png": {
+            "frame": {
+                "x": 0,
+                "y": 863,
+                "w": 36,
+                "h": 55
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 55
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 55
+            }
+        },
+        "roostr/Sword.png": {
+            "frame": {
+                "x": 412,
+                "y": 863,
+                "w": 128,
+                "h": 51
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 51
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 51
+            }
+        },
+        "roostr/SwordTail.png": {
+            "frame": {
+                "x": 153,
+                "y": 863,
+                "w": 67,
+                "h": 78
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 67,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 67,
+                "h": 78
+            }
+        },
+        "roostr/Templar.png": {
+            "frame": {
+                "x": 540,
+                "y": 863,
+                "w": 58,
+                "h": 84
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 84
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 84
+            }
+        },
+        "roostr/The Key.png": {
+            "frame": {
+                "x": 598,
+                "y": 863,
+                "w": 68,
+                "h": 41
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 68,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 68,
+                "h": 41
+            }
+        },
+        "roostr/Toot Toot.png": {
+            "frame": {
+                "x": 667,
+                "y": 863,
+                "w": 105,
+                "h": 49
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 105,
+                "h": 49
+            },
+            "sourceSize": {
+                "w": 105,
+                "h": 49
+            }
+        },
+        "roostr/Tweed.png": {
+            "frame": {
+                "x": 772,
+                "y": 863,
+                "w": 86,
+                "h": 67
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 86,
+                "h": 67
+            },
+            "sourceSize": {
+                "w": 86,
+                "h": 67
+            }
+        },
+        "roostr/WhaleGod.png": {
+            "frame": {
+                "x": 859,
+                "y": 863,
+                "w": 65,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 65,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 65,
+                "h": 100
+            }
+        },
+        "roostr/White T-Shirt.png": {
+            "frame": {
+                "x": 0,
+                "y": 962,
+                "w": 68,
+                "h": 56
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 68,
+                "h": 56
+            },
+            "sourceSize": {
+                "w": 68,
+                "h": 56
+            }
+        },
+        "roostr/Winterproof.png": {
+            "frame": {
+                "x": 68,
+                "y": 962,
+                "w": 42,
+                "h": 50
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 50
+            }
+        },
+        "roostr/Winterproof_B.png": {
+            "frame": {
+                "x": 259,
+                "y": 243,
+                "w": 28,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 28,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 28,
+                "h": 32
+            }
+        },
+        "roostr/Woody.png": {
+            "frame": {
+                "x": 111,
+                "y": 962,
+                "w": 59,
+                "h": 36
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 36
+            }
+        },
+        "roostr/Zippo.png": {
+            "frame": {
+                "x": 958,
+                "y": 0,
+                "w": 66,
+                "h": 70
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 70
+            }
+        }
+    },
+    "meta": {
+        "app": "http://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "roostr-Atlas.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1024,
+            "h": 1019
+        },
+        "scale": "1"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "animations": {
+        "fly": {
+            "duration": 0.5,
+            "tweens": [
+                { "target": "Torso", "at": 0.0, "duration": 0.5, "properties": { "rotation": 5 } },
+
+                { "target": "Wing", "at": 0.0, "duration": 0.25, "properties": { "rotation": 45.0 } },
+                { "target": "Tail", "at": 0.0, "duration": 0.25, "properties": { "rotation": -15.0 } },
+                
+                { "target": "Wing", "at": 0.25, "duration": 0.25, "properties": { "rotation": -55.0 } },
+                { "target": "Tail", "at": 0.25, "duration": 0.25, "properties": { "rotation": 15.0 } },
+
+                { "target": "Wing", "at": 0.5, "properties": { "rotation": 45.0 } },
+                { "target": "Tail", "at": 0.5, "properties": { "rotation": -15.0 } }
+            ]
+        }
+    }
+}

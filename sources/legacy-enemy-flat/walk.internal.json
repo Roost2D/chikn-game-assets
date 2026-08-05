@@ -1,0 +1,60 @@
+{
+    "animations": {
+        "walk": {
+            "duration": 0.8,
+            "keyframes": {
+                "0.0": {
+                    "Torso": { "y": 0, "rotation": 5 },
+                    "Head": { "y": 0, "rotation": -5 },
+                    "Tail": { "rotation": -8 },
+                    "Wing": { "rotation": -15 },
+                    "Wing_1": { "rotation": 15 },
+                    "LegUpper A": { "rotation": -30 },
+                    "LegLower A": { "rotation": 45 },
+                    "LegFoot A": { "rotation": -15 },
+                    "LegUpper B": { "rotation": 40 },
+                    "LegLower B": { "rotation": -60 },
+                    "LegFoot B": { "rotation": 20 }
+                },
+                "0.2": {
+                    "Torso": { "y": -20, "rotation": 6 },
+                    "Head": { "y": -5, "rotation": -8 },
+                    "LegUpper B": { "rotation": -20 },
+                    "LegLower B": { "rotation": 20 }
+                },
+                "0.4": {
+                    "Torso": { "y": 0, "rotation": 5 },
+                    "Head": { "y": 0, "rotation": -5 },
+                    "Tail": { "rotation": 8 },
+                    "Wing": { "rotation": 15 },
+                    "Wing_1": { "rotation": -15 },
+                    "LegUpper A": { "rotation": 40 },
+                    "LegLower A": { "rotation": -60 },
+                    "LegFoot A": { "rotation": 20 },
+                    "LegUpper B": { "rotation": -30 },
+                    "LegLower B": { "rotation": 45 },
+                    "LegFoot B": { "rotation": -15 }
+                },
+                "0.6": {
+                    "Torso": { "y": -20, "rotation": 6 },
+                    "Head": { "y": -5, "rotation": -8 },
+                    "LegUpper A": { "rotation": -20 },
+                    "LegLower A": { "rotation": 20 }
+                },
+                "0.8": {
+                    "Torso": { "y": 0, "rotation": 5 },
+                    "Head": { "y": 0, "rotation": -5 },
+                    "Tail": { "rotation": -8 },
+                    "Wing": { "rotation": -15 },
+                    "Wing_1": { "rotation": 15 },
+                    "LegUpper A": { "rotation": -30 },
+                    "LegLower A": { "rotation": 45 },
+                    "LegFoot A": { "rotation": -15 },
+                    "LegUpper B": { "rotation": 40 },
+                    "LegLower B": { "rotation": -60 },
+                    "LegFoot B": { "rotation": 20 }
+                }
+            }
+        }
+    }
+}

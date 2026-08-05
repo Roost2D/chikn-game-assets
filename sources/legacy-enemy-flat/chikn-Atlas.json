@@ -1,0 +1,5135 @@
+{
+    "frames": {
+        "chikn/AFreshBaguette.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 113,
+                "h": 50
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 113,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 113,
+                "h": 50
+            }
+        },
+        "chikn/AVAXBling.png": {
+            "frame": {
+                "x": 113,
+                "y": 0,
+                "w": 66,
+                "h": 52
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 52
+            }
+        },
+        "chikn/AVAXDegen.png": {
+            "frame": {
+                "x": 179,
+                "y": 0,
+                "w": 66,
+                "h": 52
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 52
+            }
+        },
+        "chikn/AVAXSafetyOfficer.png": {
+            "frame": {
+                "x": 245,
+                "y": 0,
+                "w": 57,
+                "h": 37
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 37
+            }
+        },
+        "chikn/ActionShorts Body.png": {
+            "frame": {
+                "x": 301,
+                "y": 0,
+                "w": 117,
+                "h": 30
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 117,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 117,
+                "h": 30
+            }
+        },
+        "chikn/ActionShorts PantA.png": {
+            "frame": {
+                "x": 419,
+                "y": 0,
+                "w": 48,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 48,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 48,
+                "h": 24
+            }
+        },
+        "chikn/ActionShorts PantB.png": {
+            "frame": {
+                "x": 467,
+                "y": 0,
+                "w": 48,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 48,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 48,
+                "h": 24
+            }
+        },
+        "chikn/Admiral.png": {
+            "frame": {
+                "x": 515,
+                "y": 0,
+                "w": 86,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 86,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 86,
+                "h": 80
+            }
+        },
+        "chikn/AllSeeingEye.png": {
+            "frame": {
+                "x": 602,
+                "y": 0,
+                "w": 55,
+                "h": 37
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 37
+            }
+        },
+        "chikn/Big Mama Fat Pipes.png": {
+            "frame": {
+                "x": 657,
+                "y": 0,
+                "w": 96,
+                "h": 96
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96
+            },
+            "sourceSize": {
+                "w": 96,
+                "h": 96
+            }
+        },
+        "chikn/BigBagOfCash.png": {
+            "frame": {
+                "x": 754,
+                "y": 0,
+                "w": 98,
+                "h": 87
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 98,
+                "h": 87
+            },
+            "sourceSize": {
+                "w": 98,
+                "h": 87
+            }
+        },
+        "chikn/BigOlCornCob.png": {
+            "frame": {
+                "x": 0,
+                "y": 88,
+                "w": 96,
+                "h": 70
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 96,
+                "h": 70
+            }
+        },
+        "chikn/BitcoinBling.png": {
+            "frame": {
+                "x": 852,
+                "y": 0,
+                "w": 63,
+                "h": 52
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 52
+            }
+        },
+        "chikn/BitcoinMaxi.png": {
+            "frame": {
+                "x": 245,
+                "y": 52,
+                "w": 63,
+                "h": 52
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 52
+            }
+        },
+        "chikn/BlackBandana.png": {
+            "frame": {
+                "x": 96,
+                "y": 88,
+                "w": 69,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 69,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 69,
+                "h": 64
+            }
+        },
+        "chikn/BlackSweatband.png": {
+            "frame": {
+                "x": 0,
+                "y": 52,
+                "w": 40,
+                "h": 25
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 25
+            }
+        },
+        "chikn/BlackVans A.png": {
+            "frame": {
+                "x": 40,
+                "y": 52,
+                "w": 59,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 28
+            }
+        },
+        "chikn/BlackVans B.png": {
+            "frame": {
+                "x": 308,
+                "y": 52,
+                "w": 59,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 28
+            }
+        },
+        "chikn/Blue Mage.png": {
+            "frame": {
+                "x": 308,
+                "y": 88,
+                "w": 97,
+                "h": 65
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 97,
+                "h": 65
+            },
+            "sourceSize": {
+                "w": 97,
+                "h": 65
+            }
+        },
+        "chikn/BlueBag.png": {
+            "frame": {
+                "x": 406,
+                "y": 88,
+                "w": 98,
+                "h": 87
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 98,
+                "h": 87
+            },
+            "sourceSize": {
+                "w": 98,
+                "h": 87
+            }
+        },
+        "chikn/BlueBandana.png": {
+            "frame": {
+                "x": 165,
+                "y": 88,
+                "w": 69,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 69,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 69,
+                "h": 64
+            }
+        },
+        "chikn/BlueFeet A.png": {
+            "frame": {
+                "x": 368,
+                "y": 52,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/BlueFeet A 2.png": {
+            "frame": {
+                "x": 399,
+                "y": 52,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/BlueFeet B.png": {
+            "frame": {
+                "x": 412,
+                "y": 52,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/BlueFeet B 2.png": {
+            "frame": {
+                "x": 442,
+                "y": 52,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/BlueKicks A.png": {
+            "frame": {
+                "x": 852,
+                "y": 52,
+                "w": 63,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 38
+            }
+        },
+        "chikn/BlueKicks B.png": {
+            "frame": {
+                "x": 504,
+                "y": 91,
+                "w": 63,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 38
+            }
+        },
+        "chikn/Boxhead A.png": {
+            "frame": {
+                "x": 754,
+                "y": 88,
+                "w": 93,
+                "h": 89
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 93,
+                "h": 89
+            },
+            "sourceSize": {
+                "w": 93,
+                "h": 89
+            }
+        },
+        "chikn/Boxhead B.png": {
+            "frame": {
+                "x": 566,
+                "y": 88,
+                "w": 90,
+                "h": 42
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 90,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 90,
+                "h": 42
+            }
+        },
+        "chikn/Bullion_Head.png": {
+            "frame": {
+                "x": 847,
+                "y": 91,
+                "w": 55,
+                "h": 107
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 107
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 107
+            }
+        },
+        "chikn/Bullion_LegFoot A.png": {
+            "frame": {
+                "x": 456,
+                "y": 52,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/Bullion_LegFoot B.png": {
+            "frame": {
+                "x": 602,
+                "y": 52,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/Bullion_LegLower A.png": {
+            "frame": {
+                "x": 487,
+                "y": 52,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/Bullion_LegLower B.png": {
+            "frame": {
+                "x": 499,
+                "y": 52,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/Bullion_LegUpper A.png": {
+            "frame": {
+                "x": 0,
+                "y": 198,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/Bullion_LegUpper B.png": {
+            "frame": {
+                "x": 34,
+                "y": 198,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/Bullion_Tail.png": {
+            "frame": {
+                "x": 69,
+                "y": 198,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/Bullion_Torso.png": {
+            "frame": {
+                "x": 132,
+                "y": 176,
+                "w": 114,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 80
+            }
+        },
+        "chikn/Bullion_Wing.png": {
+            "frame": {
+                "x": 247,
+                "y": 198,
+                "w": 73,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 73,
+                "h": 60
+            }
+        },
+        "chikn/BusinessBoy_Body.png": {
+            "frame": {
+                "x": 319,
+                "y": 176,
+                "w": 96,
+                "h": 88
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 88
+            },
+            "sourceSize": {
+                "w": 96,
+                "h": 88
+            }
+        },
+        "chikn/BusinessBoy_Wing.png": {
+            "frame": {
+                "x": 416,
+                "y": 198,
+                "w": 72,
+                "h": 68
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 68
+            },
+            "sourceSize": {
+                "w": 72,
+                "h": 68
+            }
+        },
+        "chikn/CaptainChimerica.png": {
+            "frame": {
+                "x": 488,
+                "y": 198,
+                "w": 71,
+                "h": 69
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 71,
+                "h": 69
+            },
+            "sourceSize": {
+                "w": 71,
+                "h": 69
+            }
+        },
+        "chikn/Celestial_Head.png": {
+            "frame": {
+                "x": 559,
+                "y": 198,
+                "w": 55,
+                "h": 107
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 107
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 107
+            }
+        },
+        "chikn/Celestial_LegFoot A.png": {
+            "frame": {
+                "x": 614,
+                "y": 198,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/Celestial_LegFoot B.png": {
+            "frame": {
+                "x": 645,
+                "y": 198,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/Celestial_LegLower A.png": {
+            "frame": {
+                "x": 633,
+                "y": 52,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/Celestial_LegLower B.png": {
+            "frame": {
+                "x": 903,
+                "y": 91,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/Celestial_LegUpper A.png": {
+            "frame": {
+                "x": 676,
+                "y": 198,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/Celestial_LegUpper B.png": {
+            "frame": {
+                "x": 710,
+                "y": 198,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/Celestial_Tail.png": {
+            "frame": {
+                "x": 744,
+                "y": 198,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/Celestial_Torso.png": {
+            "frame": {
+                "x": 0,
+                "y": 300,
+                "w": 114,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 80
+            }
+        },
+        "chikn/Celestial_Wing.png": {
+            "frame": {
+                "x": 657,
+                "y": 123,
+                "w": 73,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 73,
+                "h": 60
+            }
+        },
+        "chikn/ChainsForDays.png": {
+            "frame": {
+                "x": 234,
+                "y": 123,
+                "w": 55,
+                "h": 41
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 41
+            }
+        },
+        "chikn/CharcoalBrunette.png": {
+            "frame": {
+                "x": 808,
+                "y": 198,
+                "w": 61,
+                "h": 73
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 73
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 73
+            }
+        },
+        "chikn/CharcoalBrunette B.png": {
+            "frame": {
+                "x": 869,
+                "y": 198,
+                "w": 42,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 64
+            }
+        },
+        "chikn/Cheeky Redhead.png": {
+            "frame": {
+                "x": 132,
+                "y": 271,
+                "w": 61,
+                "h": 73
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 73
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 73
+            }
+        },
+        "chikn/CheekyRedhead B.png": {
+            "frame": {
+                "x": 193,
+                "y": 262,
+                "w": 42,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 64
+            }
+        },
+        "chikn/ChickenChoker.png": {
+            "frame": {
+                "x": 0,
+                "y": 271,
+                "w": 67,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 67,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 67,
+                "h": 22
+            }
+        },
+        "chikn/ComfortableUggs A.png": {
+            "frame": {
+                "x": 235,
+                "y": 262,
+                "w": 64,
+                "h": 45
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 45
+            }
+        },
+        "chikn/ComfortableUggs B.png": {
+            "frame": {
+                "x": 614,
+                "y": 262,
+                "w": 64,
+                "h": 45
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 45
+            }
+        },
+        "chikn/ConstructionHelmet.png": {
+            "frame": {
+                "x": 299,
+                "y": 271,
+                "w": 57,
+                "h": 37
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 37
+            }
+        },
+        "chikn/Cool Dude 69.png": {
+            "frame": {
+                "x": 356,
+                "y": 271,
+                "w": 71,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 71,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 71,
+                "h": 24
+            }
+        },
+        "chikn/CovidSafe.png": {
+            "frame": {
+                "x": 427,
+                "y": 271,
+                "w": 55,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 39
+            }
+        },
+        "chikn/Crusader.png": {
+            "frame": {
+                "x": 678,
+                "y": 262,
+                "w": 64,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 76
+            }
+        },
+        "chikn/Crystale_Head.png": {
+            "frame": {
+                "x": 482,
+                "y": 271,
+                "w": 55,
+                "h": 107
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 107
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 107
+            }
+        },
+        "chikn/Crystale_LegFoot A.png": {
+            "frame": {
+                "x": 869,
+                "y": 262,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/Crystale_LegFoot B.png": {
+            "frame": {
+                "x": 808,
+                "y": 272,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/Crystale_LegLower A.png": {
+            "frame": {
+                "x": 289,
+                "y": 123,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/Crystale_LegLower B.png": {
+            "frame": {
+                "x": 729,
+                "y": 123,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/Crystale_LegUpper A.png": {
+            "frame": {
+                "x": 839,
+                "y": 272,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/Crystale_LegUpper B.png": {
+            "frame": {
+                "x": 873,
+                "y": 272,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/Crystale_Tail.png": {
+            "frame": {
+                "x": 235,
+                "y": 311,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/Crystale_Torso.png": {
+            "frame": {
+                "x": 299,
+                "y": 311,
+                "w": 114,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 80
+            }
+        },
+        "chikn/Crystale_Wing.png": {
+            "frame": {
+                "x": 538,
+                "y": 311,
+                "w": 73,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 73,
+                "h": 60
+            }
+        },
+        "chikn/Cutlass.png": {
+            "frame": {
+                "x": 742,
+                "y": 311,
+                "w": 107,
+                "h": 37
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 107,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 107,
+                "h": 37
+            }
+        },
+        "chikn/DaftPunk.png": {
+            "frame": {
+                "x": 114,
+                "y": 347,
+                "w": 83,
+                "h": 81
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 83,
+                "h": 81
+            },
+            "sourceSize": {
+                "w": 83,
+                "h": 81
+            }
+        },
+        "chikn/DealWithIt.png": {
+            "frame": {
+                "x": 413,
+                "y": 311,
+                "w": 54,
+                "h": 13
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 13
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 13
+            }
+        },
+        "chikn/DollarChain.png": {
+            "frame": {
+                "x": 610,
+                "y": 311,
+                "w": 62,
+                "h": 57
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 62,
+                "h": 57
+            },
+            "sourceSize": {
+                "w": 62,
+                "h": 57
+            }
+        },
+        "chikn/EthereumBling.png": {
+            "frame": {
+                "x": 849,
+                "y": 311,
+                "w": 57,
+                "h": 52
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 52
+            }
+        },
+        "chikn/EthereumGweiGuzzler.png": {
+            "frame": {
+                "x": 413,
+                "y": 363,
+                "w": 57,
+                "h": 52
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 52
+            }
+        },
+        "chikn/FreshFish.png": {
+            "frame": {
+                "x": 673,
+                "y": 347,
+                "w": 137,
+                "h": 79
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 137,
+                "h": 79
+            },
+            "sourceSize": {
+                "w": 137,
+                "h": 79
+            }
+        },
+        "chikn/FrogGreen_Head.png": {
+            "frame": {
+                "x": 810,
+                "y": 363,
+                "w": 55,
+                "h": 107
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 107
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 107
+            }
+        },
+        "chikn/FrogGreen_LegFoot A.png": {
+            "frame": {
+                "x": 198,
+                "y": 363,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/FrogGreen_LegFoot B.png": {
+            "frame": {
+                "x": 866,
+                "y": 363,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/FrogGreen_LegLower A.png": {
+            "frame": {
+                "x": 903,
+                "y": 123,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/FrogGreen_LegLower B.png": {
+            "frame": {
+                "x": 96,
+                "y": 155,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/FrogGreen_LegUpper A.png": {
+            "frame": {
+                "x": 198,
+                "y": 373,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/FrogGreen_LegUpper B.png": {
+            "frame": {
+                "x": 538,
+                "y": 373,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/FrogGreen_Tail.png": {
+            "frame": {
+                "x": 572,
+                "y": 373,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/FrogGreen_Torso.png": {
+            "frame": {
+                "x": 0,
+                "y": 426,
+                "w": 114,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 80
+            }
+        },
+        "chikn/FrogGreen_Wing.png": {
+            "frame": {
+                "x": 114,
+                "y": 470,
+                "w": 73,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 73,
+                "h": 60
+            }
+        },
+        "chikn/Frothy Crown.png": {
+            "frame": {
+                "x": 187,
+                "y": 470,
+                "w": 78,
+                "h": 63
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 63
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 63
+            }
+        },
+        "chikn/GameBoy_Head.png": {
+            "frame": {
+                "x": 265,
+                "y": 470,
+                "w": 55,
+                "h": 107
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 107
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 107
+            }
+        },
+        "chikn/GameBoy_LegFoot A.png": {
+            "frame": {
+                "x": 635,
+                "y": 373,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/GameBoy_LegFoot B.png": {
+            "frame": {
+                "x": 866,
+                "y": 373,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/GameBoy_LegLower A.png": {
+            "frame": {
+                "x": 110,
+                "y": 155,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/GameBoy_LegLower B.png": {
+            "frame": {
+                "x": 289,
+                "y": 155,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/GameBoy_LegUpper A.png": {
+            "frame": {
+                "x": 0,
+                "y": 384,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/GameBoy_LegUpper B.png": {
+            "frame": {
+                "x": 34,
+                "y": 384,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/GameBoy_Tail.png": {
+            "frame": {
+                "x": 470,
+                "y": 384,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/GameBoy_Torso.png": {
+            "frame": {
+                "x": 321,
+                "y": 426,
+                "w": 114,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 80
+            }
+        },
+        "chikn/GameBoy_Wing.png": {
+            "frame": {
+                "x": 635,
+                "y": 470,
+                "w": 73,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 73,
+                "h": 60
+            }
+        },
+        "chikn/Gas Guzzler.png": {
+            "frame": {
+                "x": 708,
+                "y": 470,
+                "w": 96,
+                "h": 96
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96
+            },
+            "sourceSize": {
+                "w": 96,
+                "h": 96
+            }
+        },
+        "chikn/Gentlechikn.png": {
+            "frame": {
+                "x": 805,
+                "y": 470,
+                "w": 74,
+                "h": 56
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 74,
+                "h": 56
+            },
+            "sourceSize": {
+                "w": 74,
+                "h": 56
+            }
+        },
+        "chikn/GentlemansPipe.png": {
+            "frame": {
+                "x": 69,
+                "y": 384,
+                "w": 33,
+                "h": 34
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 34
+            }
+        },
+        "chikn/Golden Egg.png": {
+            "frame": {
+                "x": 866,
+                "y": 384,
+                "w": 49,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 49,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 49,
+                "h": 38
+            }
+        },
+        "chikn/GoldenBlonde.png": {
+            "frame": {
+                "x": 0,
+                "y": 526,
+                "w": 61,
+                "h": 73
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 73
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 73
+            }
+        },
+        "chikn/GoldenBlonde B.png": {
+            "frame": {
+                "x": 878,
+                "y": 422,
+                "w": 42,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 64
+            }
+        },
+        "chikn/GoldenBoneDaddy.png": {
+            "frame": {
+                "x": 533,
+                "y": 486,
+                "w": 69,
+                "h": 65
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 69,
+                "h": 65
+            },
+            "sourceSize": {
+                "w": 69,
+                "h": 65
+            }
+        },
+        "chikn/GoldenCrusader.png": {
+            "frame": {
+                "x": 321,
+                "y": 526,
+                "w": 64,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 76
+            }
+        },
+        "chikn/GoldenPlumage A.png": {
+            "frame": {
+                "x": 61,
+                "y": 526,
+                "w": 51,
+                "h": 51
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 51,
+                "h": 51
+            },
+            "sourceSize": {
+                "w": 51,
+                "h": 51
+            }
+        },
+        "chikn/GoldenPlumage B.png": {
+            "frame": {
+                "x": 385,
+                "y": 526,
+                "w": 79,
+                "h": 105
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 79,
+                "h": 105
+            },
+            "sourceSize": {
+                "w": 79,
+                "h": 105
+            }
+        },
+        "chikn/Goose.png": {
+            "frame": {
+                "x": 504,
+                "y": 155,
+                "w": 63,
+                "h": 25
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 25
+            }
+        },
+        "chikn/GreenFeet A.png": {
+            "frame": {
+                "x": 635,
+                "y": 384,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/GreenFeet A 2.png": {
+            "frame": {
+                "x": 303,
+                "y": 155,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/GreenFeet B.png": {
+            "frame": {
+                "x": 198,
+                "y": 422,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/GreenFeet B 2.png": {
+            "frame": {
+                "x": 568,
+                "y": 155,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/GreenKicks A.png": {
+            "frame": {
+                "x": 580,
+                "y": 155,
+                "w": 63,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 38
+            }
+        },
+        "chikn/GreenKicks B.png": {
+            "frame": {
+                "x": 228,
+                "y": 422,
+                "w": 63,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 38
+            }
+        },
+        "chikn/HairyOldMan.png": {
+            "frame": {
+                "x": 464,
+                "y": 526,
+                "w": 49,
+                "h": 44
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 49,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 49,
+                "h": 44
+            }
+        },
+        "chikn/Hamlet.png": {
+            "frame": {
+                "x": 805,
+                "y": 526,
+                "w": 69,
+                "h": 65
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 69,
+                "h": 65
+            },
+            "sourceSize": {
+                "w": 69,
+                "h": 65
+            }
+        },
+        "chikn/Hentai_Back.png": {
+            "frame": {
+                "x": 61,
+                "y": 591,
+                "w": 74,
+                "h": 59
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 74,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 74,
+                "h": 59
+            }
+        },
+        "chikn/Hentai_Front.png": {
+            "frame": {
+                "x": 135,
+                "y": 591,
+                "w": 74,
+                "h": 59
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 74,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 74,
+                "h": 59
+            }
+        },
+        "chikn/HotHead.png": {
+            "frame": {
+                "x": 209,
+                "y": 591,
+                "w": 105,
+                "h": 93
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 105,
+                "h": 93
+            },
+            "sourceSize": {
+                "w": 105,
+                "h": 93
+            }
+        },
+        "chikn/HubbaBubba.png": {
+            "frame": {
+                "x": 464,
+                "y": 591,
+                "w": 50,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 39
+            }
+        },
+        "chikn/HumanGrowthHormones_Back.png": {
+            "frame": {
+                "x": 515,
+                "y": 591,
+                "w": 61,
+                "h": 63
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 63
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 63
+            }
+        },
+        "chikn/HumanGrowthHormones_Front.png": {
+            "frame": {
+                "x": 576,
+                "y": 591,
+                "w": 61,
+                "h": 63
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 63
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 63
+            }
+        },
+        "chikn/Icey Stare.png": {
+            "frame": {
+                "x": 637,
+                "y": 591,
+                "w": 71,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 71,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 71,
+                "h": 24
+            }
+        },
+        "chikn/Inherited Royalty.png": {
+            "frame": {
+                "x": 708,
+                "y": 591,
+                "w": 64,
+                "h": 58
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 58
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 58
+            }
+        },
+        "chikn/KarateKid_Body.png": {
+            "frame": {
+                "x": 773,
+                "y": 591,
+                "w": 101,
+                "h": 94
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 101,
+                "h": 94
+            },
+            "sourceSize": {
+                "w": 101,
+                "h": 94
+            }
+        },
+        "chikn/KarateKid_Wing.png": {
+            "frame": {
+                "x": 0,
+                "y": 685,
+                "w": 62,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 62,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 62,
+                "h": 61
+            }
+        },
+        "chikn/LED.png": {
+            "frame": {
+                "x": 63,
+                "y": 685,
+                "w": 51,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 51,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 51,
+                "h": 38
+            }
+        },
+        "chikn/LaserEye.png": {
+            "frame": {
+                "x": 533,
+                "y": 422,
+                "w": 38,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 38
+            }
+        },
+        "chikn/Liar Liar.png": {
+            "frame": {
+                "x": 114,
+                "y": 685,
+                "w": 94,
+                "h": 133
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 94,
+                "h": 133
+            },
+            "sourceSize": {
+                "w": 94,
+                "h": 133
+            }
+        },
+        "chikn/LowVisionAdmiral.png": {
+            "frame": {
+                "x": 208,
+                "y": 685,
+                "w": 86,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 86,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 86,
+                "h": 80
+            }
+        },
+        "chikn/LuckiestRedCap.png": {
+            "frame": {
+                "x": 295,
+                "y": 685,
+                "w": 59,
+                "h": 35
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 35
+            }
+        },
+        "chikn/LuckyBlueCap.png": {
+            "frame": {
+                "x": 354,
+                "y": 685,
+                "w": 59,
+                "h": 35
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 35
+            }
+        },
+        "chikn/MFD.png": {
+            "frame": {
+                "x": 412,
+                "y": 685,
+                "w": 48,
+                "h": 73
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 48,
+                "h": 73
+            },
+            "sourceSize": {
+                "w": 48,
+                "h": 73
+            }
+        },
+        "chikn/MIMBling.png": {
+            "frame": {
+                "x": 460,
+                "y": 685,
+                "w": 64,
+                "h": 50
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 50
+            }
+        },
+        "chikn/MIMOG.png": {
+            "frame": {
+                "x": 524,
+                "y": 685,
+                "w": 64,
+                "h": 50
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 50
+            }
+        },
+        "chikn/Maverick.png": {
+            "frame": {
+                "x": 589,
+                "y": 685,
+                "w": 63,
+                "h": 25
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 25
+            }
+        },
+        "chikn/MidasMucles_Back.png": {
+            "frame": {
+                "x": 652,
+                "y": 685,
+                "w": 61,
+                "h": 63
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 63
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 63
+            }
+        },
+        "chikn/MidasMucles_Front.png": {
+            "frame": {
+                "x": 713,
+                "y": 685,
+                "w": 61,
+                "h": 63
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 63
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 63
+            }
+        },
+        "chikn/MightyBroadsword.png": {
+            "frame": {
+                "x": 774,
+                "y": 685,
+                "w": 106,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 106,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 106,
+                "h": 76
+            }
+        },
+        "chikn/Moustache.png": {
+            "frame": {
+                "x": 0,
+                "y": 762,
+                "w": 50,
+                "h": 20
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 20
+            }
+        },
+        "chikn/Murica.png": {
+            "frame": {
+                "x": 295,
+                "y": 762,
+                "w": 84,
+                "h": 66
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 66
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 66
+            }
+        },
+        "chikn/MutantPurple_Head.png": {
+            "frame": {
+                "x": 50,
+                "y": 762,
+                "w": 55,
+                "h": 107
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 107
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 107
+            }
+        },
+        "chikn/MutantPurple_LegFoot A.png": {
+            "frame": {
+                "x": 436,
+                "y": 422,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/MutantPurple_LegFoot B.png": {
+            "frame": {
+                "x": 635,
+                "y": 422,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/MutantPurple_LegLower A.png": {
+            "frame": {
+                "x": 643,
+                "y": 155,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/MutantPurple_LegLower B.png": {
+            "frame": {
+                "x": 729,
+                "y": 155,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/MutantPurple_LegUpper A.png": {
+            "frame": {
+                "x": 436,
+                "y": 486,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/MutantPurple_LegUpper B.png": {
+            "frame": {
+                "x": 878,
+                "y": 486,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/MutantPurple_Tail.png": {
+            "frame": {
+                "x": 379,
+                "y": 762,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/MutantPurple_Torso.png": {
+            "frame": {
+                "x": 443,
+                "y": 762,
+                "w": 114,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 80
+            }
+        },
+        "chikn/MutantPurple_Wing.png": {
+            "frame": {
+                "x": 557,
+                "y": 762,
+                "w": 73,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 73,
+                "h": 60
+            }
+        },
+        "chikn/MysteriousFez.png": {
+            "frame": {
+                "x": 602,
+                "y": 486,
+                "w": 30,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 38
+            }
+        },
+        "chikn/Nerdlinger.png": {
+            "frame": {
+                "x": 630,
+                "y": 762,
+                "w": 54,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 22
+            }
+        },
+        "chikn/NightstalkerBlue_Head.png": {
+            "frame": {
+                "x": 684,
+                "y": 762,
+                "w": 55,
+                "h": 107
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 107
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 107
+            }
+        },
+        "chikn/NightstalkerBlue_LegFoot A.png": {
+            "frame": {
+                "x": 602,
+                "y": 525,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/NightstalkerBlue_LegFoot B.png": {
+            "frame": {
+                "x": 878,
+                "y": 525,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/NightstalkerBlue_LegLower A.png": {
+            "frame": {
+                "x": 903,
+                "y": 155,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/NightstalkerBlue_LegLower B.png": {
+            "frame": {
+                "x": 908,
+                "y": 262,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/NightstalkerBlue_LegUpper A.png": {
+            "frame": {
+                "x": 112,
+                "y": 535,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/NightstalkerBlue_LegUpper B.png": {
+            "frame": {
+                "x": 146,
+                "y": 535,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/NightstalkerBlue_Tail.png": {
+            "frame": {
+                "x": 739,
+                "y": 762,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/NightstalkerBlue_Torso.png": {
+            "frame": {
+                "x": 802,
+                "y": 762,
+                "w": 114,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 80
+            }
+        },
+        "chikn/NightstalkerBlue_Wing.png": {
+            "frame": {
+                "x": 106,
+                "y": 842,
+                "w": 73,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 73,
+                "h": 60
+            }
+        },
+        "chikn/NuggetWand.png": {
+            "frame": {
+                "x": 178,
+                "y": 842,
+                "w": 100,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 60
+            }
+        },
+        "chikn/Nyan.png": {
+            "frame": {
+                "x": 279,
+                "y": 842,
+                "w": 84,
+                "h": 66
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 66
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 66
+            }
+        },
+        "chikn/OldFashionedRomance.png": {
+            "frame": {
+                "x": 916,
+                "y": 0,
+                "w": 136,
+                "h": 88
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 136,
+                "h": 88
+            },
+            "sourceSize": {
+                "w": 136,
+                "h": 88
+            }
+        },
+        "chikn/OrangePlumage A.png": {
+            "frame": {
+                "x": 916,
+                "y": 88,
+                "w": 51,
+                "h": 51
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 51,
+                "h": 51
+            },
+            "sourceSize": {
+                "w": 51,
+                "h": 51
+            }
+        },
+        "chikn/OrangePlumage B.png": {
+            "frame": {
+                "x": 967,
+                "y": 88,
+                "w": 79,
+                "h": 105
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 79,
+                "h": 105
+            },
+            "sourceSize": {
+                "w": 79,
+                "h": 105
+            }
+        },
+        "chikn/PassionRed_Head.png": {
+            "frame": {
+                "x": 920,
+                "y": 193,
+                "w": 55,
+                "h": 107
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 107
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 107
+            }
+        },
+        "chikn/PassionRed_LegFoot A.png": {
+            "frame": {
+                "x": 975,
+                "y": 193,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/PassionRed_LegFoot B.png": {
+            "frame": {
+                "x": 1006,
+                "y": 193,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/PassionRed_LegLower A.png": {
+            "frame": {
+                "x": 1037,
+                "y": 193,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/PassionRed_LegLower B.png": {
+            "frame": {
+                "x": 614,
+                "y": 225,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/PassionRed_LegUpper A.png": {
+            "frame": {
+                "x": 975,
+                "y": 203,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/PassionRed_LegUpper B.png": {
+            "frame": {
+                "x": 1010,
+                "y": 225,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/PassionRed_Tail.png": {
+            "frame": {
+                "x": 975,
+                "y": 264,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/PassionRed_Torso.png": {
+            "frame": {
+                "x": 920,
+                "y": 366,
+                "w": 114,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 80
+            }
+        },
+        "chikn/PassionRed_Wing.png": {
+            "frame": {
+                "x": 920,
+                "y": 446,
+                "w": 73,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 73,
+                "h": 60
+            }
+        },
+        "chikn/Peacemaker.png": {
+            "frame": {
+                "x": 993,
+                "y": 446,
+                "w": 62,
+                "h": 34
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 62,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 62,
+                "h": 34
+            }
+        },
+        "chikn/Pillager.png": {
+            "frame": {
+                "x": 913,
+                "y": 505,
+                "w": 65,
+                "h": 56
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 65,
+                "h": 56
+            },
+            "sourceSize": {
+                "w": 65,
+                "h": 56
+            }
+        },
+        "chikn/Pineapple.png": {
+            "frame": {
+                "x": 993,
+                "y": 480,
+                "w": 61,
+                "h": 91
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 91
+            }
+        },
+        "chikn/PixelChan_Head.png": {
+            "frame": {
+                "x": 873,
+                "y": 571,
+                "w": 55,
+                "h": 107
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 107
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 107
+            }
+        },
+        "chikn/PixelChan_LegFoot A.png": {
+            "frame": {
+                "x": 627,
+                "y": 225,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/PixelChan_LegFoot B.png": {
+            "frame": {
+                "x": 114,
+                "y": 446,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/PixelChan_LegLower A.png": {
+            "frame": {
+                "x": 657,
+                "y": 225,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/PixelChan_LegLower B.png": {
+            "frame": {
+                "x": 1040,
+                "y": 264,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/PixelChan_LegUpper A.png": {
+            "frame": {
+                "x": 436,
+                "y": 446,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/PixelChan_LegUpper B.png": {
+            "frame": {
+                "x": 929,
+                "y": 571,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/PixelChan_Tail.png": {
+            "frame": {
+                "x": 963,
+                "y": 571,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/PixelChan_Torso.png": {
+            "frame": {
+                "x": 929,
+                "y": 674,
+                "w": 114,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 80
+            }
+        },
+        "chikn/PixelChan_Wing.png": {
+            "frame": {
+                "x": 917,
+                "y": 754,
+                "w": 73,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 73,
+                "h": 60
+            }
+        },
+        "chikn/PixelCigarette.png": {
+            "frame": {
+                "x": 1035,
+                "y": 366,
+                "w": 22,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 22
+            }
+        },
+        "chikn/PolygonBling.png": {
+            "frame": {
+                "x": 990,
+                "y": 754,
+                "w": 66,
+                "h": 52
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 52
+            }
+        },
+        "chikn/PolygonDegen.png": {
+            "frame": {
+                "x": 990,
+                "y": 806,
+                "w": 66,
+                "h": 52
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 52
+            }
+        },
+        "chikn/Popsicle.png": {
+            "frame": {
+                "x": 917,
+                "y": 813,
+                "w": 71,
+                "h": 33
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 71,
+                "h": 33
+            },
+            "sourceSize": {
+                "w": 71,
+                "h": 33
+            }
+        },
+        "chikn/PurpleBoots A.png": {
+            "frame": {
+                "x": 443,
+                "y": 858,
+                "w": 53,
+                "h": 57
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 53,
+                "h": 57
+            },
+            "sourceSize": {
+                "w": 53,
+                "h": 57
+            }
+        },
+        "chikn/PurpleBoots B.png": {
+            "frame": {
+                "x": 495,
+                "y": 858,
+                "w": 52,
+                "h": 55
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 55
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 55
+            }
+        },
+        "chikn/PurpleBowtie.png": {
+            "frame": {
+                "x": 208,
+                "y": 806,
+                "w": 60,
+                "h": 35
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 35
+            }
+        },
+        "chikn/PurpleFeet A.png": {
+            "frame": {
+                "x": 145,
+                "y": 446,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/PurpleFeet A 2.png": {
+            "frame": {
+                "x": 908,
+                "y": 296,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/PurpleFeet B.png": {
+            "frame": {
+                "x": 176,
+                "y": 446,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/PurpleFeet B 2.png": {
+            "frame": {
+                "x": 1040,
+                "y": 296,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/PurpleSweatband.png": {
+            "frame": {
+                "x": 0,
+                "y": 806,
+                "w": 40,
+                "h": 25
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 25
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 25
+            }
+        },
+        "chikn/RealFeet A.png": {
+            "frame": {
+                "x": 549,
+                "y": 858,
+                "w": 62,
+                "h": 59
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 62,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 62,
+                "h": 59
+            }
+        },
+        "chikn/RealFeet B.png": {
+            "frame": {
+                "x": 610,
+                "y": 858,
+                "w": 59,
+                "h": 57
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 57
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 57
+            }
+        },
+        "chikn/Red Mage.png": {
+            "frame": {
+                "x": 802,
+                "y": 847,
+                "w": 97,
+                "h": 65
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 97,
+                "h": 65
+            },
+            "sourceSize": {
+                "w": 97,
+                "h": 65
+            }
+        },
+        "chikn/Red Plumage.png": {
+            "frame": {
+                "x": 900,
+                "y": 847,
+                "w": 79,
+                "h": 105
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 79,
+                "h": 105
+            },
+            "sourceSize": {
+                "w": 79,
+                "h": 105
+            }
+        },
+        "chikn/Red Plumage A.png": {
+            "frame": {
+                "x": 630,
+                "y": 806,
+                "w": 51,
+                "h": 51
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 51,
+                "h": 51
+            },
+            "sourceSize": {
+                "w": 51,
+                "h": 51
+            }
+        },
+        "chikn/RedBandana.png": {
+            "frame": {
+                "x": 980,
+                "y": 858,
+                "w": 69,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 69,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 69,
+                "h": 64
+            }
+        },
+        "chikn/RedBoots A.png": {
+            "frame": {
+                "x": 0,
+                "y": 922,
+                "w": 53,
+                "h": 57
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 53,
+                "h": 57
+            },
+            "sourceSize": {
+                "w": 53,
+                "h": 57
+            }
+        },
+        "chikn/RedBoots B.png": {
+            "frame": {
+                "x": 53,
+                "y": 922,
+                "w": 52,
+                "h": 55
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 55
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 55
+            }
+        },
+        "chikn/RedBowtie.png": {
+            "frame": {
+                "x": 105,
+                "y": 922,
+                "w": 60,
+                "h": 35
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 35
+            }
+        },
+        "chikn/RedFeet A.png": {
+            "frame": {
+                "x": 635,
+                "y": 446,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/RedFeet A 2.png": {
+            "frame": {
+                "x": 198,
+                "y": 328,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/RedFeet B.png": {
+            "frame": {
+                "x": 666,
+                "y": 446,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/RedFeet B 2.png": {
+            "frame": {
+                "x": 211,
+                "y": 328,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/RedPlumage A.png": {
+            "frame": {
+                "x": 165,
+                "y": 922,
+                "w": 51,
+                "h": 51
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 51,
+                "h": 51
+            },
+            "sourceSize": {
+                "w": 51,
+                "h": 51
+            }
+        },
+        "chikn/RedPlumage B.png": {
+            "frame": {
+                "x": 1052,
+                "y": 0,
+                "w": 79,
+                "h": 105
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 79,
+                "h": 105
+            },
+            "sourceSize": {
+                "w": 79,
+                "h": 105
+            }
+        },
+        "chikn/RedVans A.png": {
+            "frame": {
+                "x": 1046,
+                "y": 105,
+                "w": 59,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 28
+            }
+        },
+        "chikn/RedVans B.png": {
+            "frame": {
+                "x": 1046,
+                "y": 134,
+                "w": 59,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 28
+            }
+        },
+        "chikn/Rollerderby A.png": {
+            "frame": {
+                "x": 1050,
+                "y": 162,
+                "w": 57,
+                "h": 42
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 42
+            }
+        },
+        "chikn/Rollerderby B.png": {
+            "frame": {
+                "x": 1050,
+                "y": 204,
+                "w": 57,
+                "h": 42
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 42
+            }
+        },
+        "chikn/RunRight01.png": {
+            "frame": {
+                "x": 234,
+                "y": 105,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "chikn/RunRight02.png": {
+            "frame": {
+                "x": 249,
+                "y": 105,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "chikn/RunRight03.png": {
+            "frame": {
+                "x": 265,
+                "y": 105,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "chikn/RunRight04.png": {
+            "frame": {
+                "x": 282,
+                "y": 105,
+                "w": 16,
+                "h": 16
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        },
+        "chikn/RusticBrown_Head.png": {
+            "frame": {
+                "x": 1052,
+                "y": 246,
+                "w": 55,
+                "h": 107
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 107
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 107
+            }
+        },
+        "chikn/RusticBrown_LegFoot A.png": {
+            "frame": {
+                "x": 657,
+                "y": 105,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/RusticBrown_LegFoot B.png": {
+            "frame": {
+                "x": 688,
+                "y": 105,
+                "w": 30,
+                "h": 11
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 11
+            }
+        },
+        "chikn/RusticBrown_LegLower A.png": {
+            "frame": {
+                "x": 1106,
+                "y": 105,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/RusticBrown_LegLower B.png": {
+            "frame": {
+                "x": 1119,
+                "y": 105,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/RusticBrown_LegUpper A.png": {
+            "frame": {
+                "x": 1056,
+                "y": 354,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/RusticBrown_LegUpper B.png": {
+            "frame": {
+                "x": 1091,
+                "y": 354,
+                "w": 34,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 39
+            }
+        },
+        "chikn/RusticBrown_Tail.png": {
+            "frame": {
+                "x": 1055,
+                "y": 392,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/RusticBrown_Torso.png": {
+            "frame": {
+                "x": 217,
+                "y": 922,
+                "w": 114,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 80
+            }
+        },
+        "chikn/RusticBrown_Wing.png": {
+            "frame": {
+                "x": 1054,
+                "y": 494,
+                "w": 73,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 73,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 73,
+                "h": 60
+            }
+        },
+        "chikn/Saint.png": {
+            "frame": {
+                "x": 1026,
+                "y": 571,
+                "w": 94,
+                "h": 93
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 94,
+                "h": 93
+            },
+            "sourceSize": {
+                "w": 94,
+                "h": 93
+            }
+        },
+        "chikn/SavageBeast.png": {
+            "frame": {
+                "x": 181,
+                "y": 555,
+                "w": 63,
+                "h": 37
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 37
+            }
+        },
+        "chikn/SecondHead.png": {
+            "frame": {
+                "x": 1043,
+                "y": 664,
+                "w": 74,
+                "h": 75
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 74,
+                "h": 75
+            },
+            "sourceSize": {
+                "w": 74,
+                "h": 75
+            }
+        },
+        "chikn/SmokingLounge.png": {
+            "frame": {
+                "x": 1056,
+                "y": 739,
+                "w": 78,
+                "h": 68
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 68
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 68
+            }
+        },
+        "chikn/SpellWand.png": {
+            "frame": {
+                "x": 1049,
+                "y": 858,
+                "w": 86,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 86,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 86,
+                "h": 47
+            }
+        },
+        "chikn/Sucker.png": {
+            "frame": {
+                "x": 504,
+                "y": 134,
+                "w": 42,
+                "h": 18
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 18
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 18
+            }
+        },
+        "chikn/SummerDays.png": {
+            "frame": {
+                "x": 1056,
+                "y": 807,
+                "w": 71,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 71,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 71,
+                "h": 38
+            }
+        },
+        "chikn/SuperSaiyan.png": {
+            "frame": {
+                "x": 364,
+                "y": 905,
+                "w": 63,
+                "h": 62
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 62
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 62
+            }
+        },
+        "chikn/Swashbucklers A.png": {
+            "frame": {
+                "x": 669,
+                "y": 905,
+                "w": 62,
+                "h": 55
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 62,
+                "h": 55
+            },
+            "sourceSize": {
+                "w": 62,
+                "h": 55
+            }
+        },
+        "chikn/Swashbucklers B.png": {
+            "frame": {
+                "x": 732,
+                "y": 905,
+                "w": 62,
+                "h": 52
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 62,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 62,
+                "h": 52
+            }
+        },
+        "chikn/TopOfTheMorning.png": {
+            "frame": {
+                "x": 1049,
+                "y": 905,
+                "w": 57,
+                "h": 39
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 39
+            }
+        },
+        "chikn/TungstenCube.png": {
+            "frame": {
+                "x": 427,
+                "y": 944,
+                "w": 82,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 80
+            }
+        },
+        "chikn/Uniquehorn.png": {
+            "frame": {
+                "x": 0,
+                "y": 162,
+                "w": 35,
+                "h": 36
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 36
+            }
+        },
+        "chikn/Very Fresh Egg.png": {
+            "frame": {
+                "x": 0,
+                "y": 844,
+                "w": 49,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 49,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 49,
+                "h": 38
+            }
+        },
+        "chikn/WageSlave.png": {
+            "frame": {
+                "x": 509,
+                "y": 944,
+                "w": 55,
+                "h": 69
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 69
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 69
+            }
+        }
+    },
+    "meta": {
+        "app": "http://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "chikn-Atlas.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1135,
+            "h": 1024
+        },
+        "scale": "1"
+    }
+}

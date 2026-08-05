@@ -1,0 +1,38 @@
+{
+    "animations": {
+        "attack": {
+            "duration": 0.35,
+            "tweens": [
+                {
+                    "target": "Wing_1",
+                    "at": 0.0,
+                    "duration": 0.1,
+                    "properties": {
+                        "x": -20,
+                        "y": -15,
+                        "rotation": 45
+                    }
+                },
+                {
+                    "target": "Wing_1",
+                    "at": 0.1,
+                    "duration": 0.1,
+                    "properties": {
+                        "x": 25,
+                        "rotation": -90
+                    }
+                },
+                {
+                    "target": "Wing_1",
+                    "at": 0.2,
+                    "duration": 0.15,
+                    "properties": {
+                        "x": 0,
+                        "y": 0,
+                        "rotation": 0
+                    }
+                }
+            ]
+        }
+    }
+}

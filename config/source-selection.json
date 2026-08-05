@@ -1,0 +1,18 @@
+{
+  "schema": "chikn-game-assets.source-selection/v1",
+  "additionalAliases": {
+    "chikn-traits/head/mfd": ["roostr.rig.mfd"]
+  },
+  "roots": [
+    { "source": "sources/chikn-flat", "group": "chikn-flat", "species": "chikn" },
+    { "source": "sources/roostr-flat", "group": "roostr-flat", "species": "roostr" },
+    { "source": "sources/rig-chikn", "group": "chikn-rig", "species": "chikn", "rigAliases": true },
+    { "source": "sources/rig-roostr", "group": "roostr-rig", "species": "roostr", "rigAliases": true },
+    { "source": "sources/traits-chikn", "group": "chikn-traits", "species": "chikn", "rigAliases": true },
+    { "source": "sources/traits-roostr", "group": "roostr-traits", "species": "roostr", "rigAliases": true },
+    { "source": "sources/unique", "group": "assembled-unique" },
+    { "source": "sources/roostr-unique", "group": "assembled-unique", "species": "roostr" },
+    { "source": "sources/legacy-enemy-flat", "group": "legacy-enemy-flat", "runtime": false },
+    { "source": "sources/farmland", "group": "farmland" }
+  ]
+}

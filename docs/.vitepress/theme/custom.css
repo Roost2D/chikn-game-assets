@@ -1,0 +1,15 @@
+.chikn-terms-banner {
+  position: relative;
+  z-index: 30;
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-warning-soft);
+  color: var(--vp-c-text-1);
+  text-align: center;
+  font-size: 0.84rem;
+}
+
+.chikn-terms-banner a {
+  color: var(--vp-c-brand-1);
+  font-weight: 650;
+}

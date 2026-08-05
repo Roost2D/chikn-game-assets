@@ -1,0 +1,21 @@
+{
+    "animations": {
+        "attack": {
+            "duration": 0.5,
+            "keyframes": {
+                "0.0": {
+                    "Wing_1": { "x": 0, "y": 20, "rotation": 0 }
+                },
+                "0.2": {
+                    "Wing_1": { "x": -4, "y": 50, "rotation": 50 }
+                },
+                "0.35": {
+                    "Wing_1": { "x": 8, "y": 50, "rotation": -90 }
+                },
+                "0.5": {
+                    "Wing_1": { "x": 0, "y": 20, "rotation": 0 }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1975 @@
+{
+    "frames": {
+        "chikn/UniqueChiknCryptopunk1231_Head.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 67,
+                "h": 103
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 67,
+                "h": 103
+            },
+            "sourceSize": {
+                "w": 67,
+                "h": 103
+            }
+        },
+        "chikn/UniqueChiknCryptopunk1231_Torso.png": {
+            "frame": {
+                "x": 69,
+                "y": 0,
+                "w": 113,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 113,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 113,
+                "h": 80
+            }
+        },
+        "chikn/UniqueChiknCryptopunk1231_Tail.png": {
+            "frame": {
+                "x": 184,
+                "y": 0,
+                "w": 66,
+                "h": 87
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 87
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 87
+            }
+        },
+        "chikn/UniqueChiknCryptopunk1231_WingB.png": {
+            "frame": {
+                "x": 252,
+                "y": 0,
+                "w": 71,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 71,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 71,
+                "h": 60
+            }
+        },
+        "chikn/UniqueChiknCryptopunk1231_WingA.png": {
+            "frame": {
+                "x": 325,
+                "y": 0,
+                "w": 71,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 71,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 71,
+                "h": 60
+            }
+        },
+        "chikn/UniqueChiknCryptopunk1231_LegLowerB.png": {
+            "frame": {
+                "x": 398,
+                "y": 0,
+                "w": 11,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 11,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 11,
+                "h": 28
+            }
+        },
+        "chikn/UniqueChiknCryptopunk1231_LegUpperB.png": {
+            "frame": {
+                "x": 411,
+                "y": 0,
+                "w": 33,
+                "h": 37
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 37
+            }
+        },
+        "chikn/UniqueChiknCryptopunk1231_LegLowerA.png": {
+            "frame": {
+                "x": 446,
+                "y": 0,
+                "w": 11,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 11,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 11,
+                "h": 28
+            }
+        },
+        "chikn/UniqueChiknCryptopunk1231_LegUpperA.png": {
+            "frame": {
+                "x": 459,
+                "y": 0,
+                "w": 33,
+                "h": 37
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 37
+            }
+        },
+        "chikn/UniqueChiknCryptopunk1231_LegFootB.png": {
+            "frame": {
+                "x": 494,
+                "y": 0,
+                "w": 30,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 10
+            }
+        },
+        "chikn/UniqueChiknCryptopunk1231_LegFootA.png": {
+            "frame": {
+                "x": 526,
+                "y": 0,
+                "w": 30,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 10
+            }
+        },
+        "chikn/UniqueChiknDirtybird2138_Head.png": {
+            "frame": {
+                "x": 558,
+                "y": 0,
+                "w": 58,
+                "h": 106
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 106
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 106
+            }
+        },
+        "chikn/UniqueChiknDirtybird2138_Torso.png": {
+            "frame": {
+                "x": 618,
+                "y": 0,
+                "w": 114,
+                "h": 79
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 79
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 79
+            }
+        },
+        "chikn/UniqueChiknDirtybird2138_Tail.png": {
+            "frame": {
+                "x": 734,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/UniqueChiknDirtybird2138_WingB.png": {
+            "frame": {
+                "x": 799,
+                "y": 0,
+                "w": 72,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 72,
+                "h": 60
+            }
+        },
+        "chikn/UniqueChiknDirtybird2138_WingA.png": {
+            "frame": {
+                "x": 873,
+                "y": 0,
+                "w": 72,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 72,
+                "h": 60
+            }
+        },
+        "chikn/UniqueChiknDirtybird2138_LegLowerB.png": {
+            "frame": {
+                "x": 947,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/UniqueChiknDirtybird2138_LegUpperB.png": {
+            "frame": {
+                "x": 962,
+                "y": 0,
+                "w": 34,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 38
+            }
+        },
+        "chikn/UniqueChiknDirtybird2138_LegLowerA.png": {
+            "frame": {
+                "x": 998,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/UniqueChiknDirtybird2138_LegUpperA.png": {
+            "frame": {
+                "x": 1013,
+                "y": 0,
+                "w": 34,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 38
+            }
+        },
+        "chikn/UniqueChiknDirtybird2138_LegFootB.png": {
+            "frame": {
+                "x": 1049,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 10
+            }
+        },
+        "chikn/UniqueChiknDirtybird2138_LegFootA.png": {
+            "frame": {
+                "x": 1082,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 10
+            }
+        },
+        "chikn/UniqueChiknPepe2757_Head.png": {
+            "frame": {
+                "x": 1115,
+                "y": 0,
+                "w": 72,
+                "h": 107
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 107
+            },
+            "sourceSize": {
+                "w": 72,
+                "h": 107
+            }
+        },
+        "chikn/UniqueChiknPepe2757_Torso.png": {
+            "frame": {
+                "x": 1189,
+                "y": 0,
+                "w": 114,
+                "h": 79
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 79
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 79
+            }
+        },
+        "chikn/UniqueChiknPepe2757_Tail.png": {
+            "frame": {
+                "x": 1305,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/UniqueChiknPepe2757_WingB.png": {
+            "frame": {
+                "x": 1370,
+                "y": 0,
+                "w": 72,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 72,
+                "h": 60
+            }
+        },
+        "chikn/UniqueChiknPepe2757_WingA.png": {
+            "frame": {
+                "x": 1444,
+                "y": 0,
+                "w": 72,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 72,
+                "h": 60
+            }
+        },
+        "chikn/UniqueChiknPepe2757_LegLowerB.png": {
+            "frame": {
+                "x": 1518,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/UniqueChiknPepe2757_LegUpperB.png": {
+            "frame": {
+                "x": 1533,
+                "y": 0,
+                "w": 34,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 38
+            }
+        },
+        "chikn/UniqueChiknPepe2757_LegLowerA.png": {
+            "frame": {
+                "x": 1569,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/UniqueChiknPepe2757_LegUpperA.png": {
+            "frame": {
+                "x": 1584,
+                "y": 0,
+                "w": 34,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 38
+            }
+        },
+        "chikn/UniqueChiknPepe2757_LegFootB.png": {
+            "frame": {
+                "x": 1620,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 10
+            }
+        },
+        "chikn/UniqueChiknPepe2757_LegFootA.png": {
+            "frame": {
+                "x": 1653,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 10
+            }
+        },
+        "chikn/UniqueChiknBayc3604_Head.png": {
+            "frame": {
+                "x": 1686,
+                "y": 0,
+                "w": 71,
+                "h": 108
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 71,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 71,
+                "h": 108
+            }
+        },
+        "chikn/UniqueChiknBayc3604_Torso.png": {
+            "frame": {
+                "x": 1759,
+                "y": 0,
+                "w": 114,
+                "h": 77
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 77
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 77
+            }
+        },
+        "chikn/UniqueChiknBayc3604_Tail.png": {
+            "frame": {
+                "x": 1875,
+                "y": 0,
+                "w": 65,
+                "h": 95
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 65,
+                "h": 95
+            },
+            "sourceSize": {
+                "w": 65,
+                "h": 95
+            }
+        },
+        "chikn/UniqueChiknBayc3604_WingB.png": {
+            "frame": {
+                "x": 1942,
+                "y": 0,
+                "w": 74,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 74,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 74,
+                "h": 60
+            }
+        },
+        "chikn/UniqueChiknBayc3604_WingA.png": {
+            "frame": {
+                "x": 0,
+                "y": 110,
+                "w": 74,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 74,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 74,
+                "h": 60
+            }
+        },
+        "chikn/UniqueChiknBayc3604_LegLowerB.png": {
+            "frame": {
+                "x": 76,
+                "y": 110,
+                "w": 12,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 12,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 12,
+                "h": 31
+            }
+        },
+        "chikn/UniqueChiknBayc3604_LegUpperB.png": {
+            "frame": {
+                "x": 90,
+                "y": 110,
+                "w": 40,
+                "h": 42
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 42
+            }
+        },
+        "chikn/UniqueChiknBayc3604_LegLowerA.png": {
+            "frame": {
+                "x": 132,
+                "y": 110,
+                "w": 12,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 12,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 12,
+                "h": 31
+            }
+        },
+        "chikn/UniqueChiknBayc3604_LegUpperA.png": {
+            "frame": {
+                "x": 146,
+                "y": 110,
+                "w": 40,
+                "h": 42
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 42
+            }
+        },
+        "chikn/UniqueChiknBayc3604_LegFootB.png": {
+            "frame": {
+                "x": 188,
+                "y": 110,
+                "w": 30,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 10
+            }
+        },
+        "chikn/UniqueChiknBayc3604_LegFootA.png": {
+            "frame": {
+                "x": 220,
+                "y": 110,
+                "w": 30,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 10
+            }
+        },
+        "chikn/UniqueChiknElon4386_Head.png": {
+            "frame": {
+                "x": 252,
+                "y": 110,
+                "w": 53,
+                "h": 62
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 53,
+                "h": 62
+            },
+            "sourceSize": {
+                "w": 53,
+                "h": 62
+            }
+        },
+        "chikn/UniqueChiknElon4386_Torso.png": {
+            "frame": {
+                "x": 307,
+                "y": 110,
+                "w": 85,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 85,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 85,
+                "h": 80
+            }
+        },
+        "chikn/UniqueChiknElon4386_Tail.png": {
+            "frame": {
+                "x": 394,
+                "y": 110,
+                "w": 47,
+                "h": 79
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 79
+            },
+            "sourceSize": {
+                "w": 47,
+                "h": 79
+            }
+        },
+        "chikn/UniqueChiknElon4386_WingB.png": {
+            "frame": {
+                "x": 443,
+                "y": 110,
+                "w": 52,
+                "h": 43
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 43
+            }
+        },
+        "chikn/UniqueChiknElon4386_WingA.png": {
+            "frame": {
+                "x": 497,
+                "y": 110,
+                "w": 52,
+                "h": 43
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 43
+            }
+        },
+        "chikn/UniqueChiknElon4386_LegLowerB.png": {
+            "frame": {
+                "x": 551,
+                "y": 110,
+                "w": 9,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 9,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 9,
+                "h": 23
+            }
+        },
+        "chikn/UniqueChiknElon4386_LegUpperB.png": {
+            "frame": {
+                "x": 562,
+                "y": 110,
+                "w": 25,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 29
+            }
+        },
+        "chikn/UniqueChiknElon4386_LegLowerA.png": {
+            "frame": {
+                "x": 589,
+                "y": 110,
+                "w": 9,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 9,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 9,
+                "h": 23
+            }
+        },
+        "chikn/UniqueChiknElon4386_LegUpperA.png": {
+            "frame": {
+                "x": 600,
+                "y": 110,
+                "w": 25,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 28
+            }
+        },
+        "chikn/UniqueChiknElon4386_LegFootB.png": {
+            "frame": {
+                "x": 627,
+                "y": 110,
+                "w": 22,
+                "h": 7
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 7
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 7
+            }
+        },
+        "chikn/UniqueChiknElon4386_LegFootA.png": {
+            "frame": {
+                "x": 651,
+                "y": 110,
+                "w": 22,
+                "h": 7
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 7
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 7
+            }
+        },
+        "chikn/UniqueChiknDegen6969_Head.png": {
+            "frame": {
+                "x": 675,
+                "y": 110,
+                "w": 74,
+                "h": 107
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 74,
+                "h": 107
+            },
+            "sourceSize": {
+                "w": 74,
+                "h": 107
+            }
+        },
+        "chikn/UniqueChiknDegen6969_Torso.png": {
+            "frame": {
+                "x": 751,
+                "y": 110,
+                "w": 114,
+                "h": 79
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 79
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 79
+            }
+        },
+        "chikn/UniqueChiknDegen6969_Tail.png": {
+            "frame": {
+                "x": 867,
+                "y": 110,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/UniqueChiknDegen6969_WingB.png": {
+            "frame": {
+                "x": 932,
+                "y": 110,
+                "w": 72,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 72,
+                "h": 60
+            }
+        },
+        "chikn/UniqueChiknDegen6969_WingA.png": {
+            "frame": {
+                "x": 1006,
+                "y": 110,
+                "w": 72,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 72,
+                "h": 60
+            }
+        },
+        "chikn/UniqueChiknDegen6969_LegLowerB.png": {
+            "frame": {
+                "x": 1080,
+                "y": 110,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/UniqueChiknDegen6969_LegUpperB.png": {
+            "frame": {
+                "x": 1095,
+                "y": 110,
+                "w": 34,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 38
+            }
+        },
+        "chikn/UniqueChiknDegen6969_LegLowerA.png": {
+            "frame": {
+                "x": 1131,
+                "y": 110,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/UniqueChiknDegen6969_LegUpperA.png": {
+            "frame": {
+                "x": 1146,
+                "y": 110,
+                "w": 34,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 38
+            }
+        },
+        "chikn/UniqueChiknDegen6969_LegFootB.png": {
+            "frame": {
+                "x": 1182,
+                "y": 110,
+                "w": 31,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 10
+            }
+        },
+        "chikn/UniqueChiknDegen6969_LegFootA.png": {
+            "frame": {
+                "x": 1215,
+                "y": 110,
+                "w": 31,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 10
+            }
+        },
+        "chikn/UniqueChiknSpace8312_Head.png": {
+            "frame": {
+                "x": 1248,
+                "y": 110,
+                "w": 69,
+                "h": 101
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 69,
+                "h": 101
+            },
+            "sourceSize": {
+                "w": 69,
+                "h": 101
+            }
+        },
+        "chikn/UniqueChiknSpace8312_Torso.png": {
+            "frame": {
+                "x": 1319,
+                "y": 110,
+                "w": 101,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 101,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 101,
+                "h": 80
+            }
+        },
+        "chikn/UniqueChiknSpace8312_Tail.png": {
+            "frame": {
+                "x": 1422,
+                "y": 110,
+                "w": 56,
+                "h": 90
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 56,
+                "h": 90
+            },
+            "sourceSize": {
+                "w": 56,
+                "h": 90
+            }
+        },
+        "chikn/UniqueChiknSpace8312_WingB.png": {
+            "frame": {
+                "x": 1480,
+                "y": 110,
+                "w": 64,
+                "h": 53
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 53
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 53
+            }
+        },
+        "chikn/UniqueChiknSpace8312_WingA.png": {
+            "frame": {
+                "x": 1546,
+                "y": 110,
+                "w": 64,
+                "h": 53
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 53
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 53
+            }
+        },
+        "chikn/UniqueChiknSpace8312_LegLowerB.png": {
+            "frame": {
+                "x": 1612,
+                "y": 110,
+                "w": 52,
+                "h": 34
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 34
+            }
+        },
+        "chikn/UniqueChiknSpace8312_LegUpperB.png": {
+            "frame": {
+                "x": 1666,
+                "y": 110,
+                "w": 30,
+                "h": 34
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 34
+            }
+        },
+        "chikn/UniqueChiknSpace8312_LegLowerA.png": {
+            "frame": {
+                "x": 1698,
+                "y": 110,
+                "w": 51,
+                "h": 35
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 51,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 51,
+                "h": 35
+            }
+        },
+        "chikn/UniqueChiknSpace8312_LegUpperA.png": {
+            "frame": {
+                "x": 1751,
+                "y": 110,
+                "w": 30,
+                "h": 34
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 34
+            }
+        },
+        "chikn/UniqueChiknSpace8312_LegUpperAExtra1.png": {
+            "frame": {
+                "x": 1783,
+                "y": 110,
+                "w": 30,
+                "h": 34
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 34
+            }
+        },
+        "chikn/UniqueChiknSweatymeatchikn9117_Head.png": {
+            "frame": {
+                "x": 1815,
+                "y": 110,
+                "w": 58,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 100
+            }
+        },
+        "chikn/UniqueChiknSweatymeatchikn9117_Torso.png": {
+            "frame": {
+                "x": 1875,
+                "y": 110,
+                "w": 114,
+                "h": 79
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 79
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 79
+            }
+        },
+        "chikn/UniqueChiknSweatymeatchikn9117_Tail.png": {
+            "frame": {
+                "x": 0,
+                "y": 219,
+                "w": 80,
+                "h": 92
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 92
+            },
+            "sourceSize": {
+                "w": 80,
+                "h": 92
+            }
+        },
+        "chikn/UniqueChiknSweatymeatchikn9117_WingB.png": {
+            "frame": {
+                "x": 82,
+                "y": 219,
+                "w": 67,
+                "h": 70
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 67,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 67,
+                "h": 70
+            }
+        },
+        "chikn/UniqueChiknSweatymeatchikn9117_WingA.png": {
+            "frame": {
+                "x": 151,
+                "y": 219,
+                "w": 67,
+                "h": 70
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 67,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 67,
+                "h": 70
+            }
+        },
+        "chikn/UniqueChiknSweatymeatchikn9117_LegLowerB.png": {
+            "frame": {
+                "x": 220,
+                "y": 219,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/UniqueChiknSweatymeatchikn9117_LegUpperB.png": {
+            "frame": {
+                "x": 235,
+                "y": 219,
+                "w": 40,
+                "h": 40
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 40
+            }
+        },
+        "chikn/UniqueChiknSweatymeatchikn9117_LegLowerA.png": {
+            "frame": {
+                "x": 277,
+                "y": 219,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/UniqueChiknSweatymeatchikn9117_LegUpperA.png": {
+            "frame": {
+                "x": 292,
+                "y": 219,
+                "w": 40,
+                "h": 40
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 40
+            }
+        },
+        "chikn/UniqueChiknSweatymeatchikn9117_LegFootB.png": {
+            "frame": {
+                "x": 334,
+                "y": 219,
+                "w": 31,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 10
+            }
+        },
+        "chikn/UniqueChiknSweatymeatchikn9117_LegFootA.png": {
+            "frame": {
+                "x": 367,
+                "y": 219,
+                "w": 31,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 10
+            }
+        },
+        "chikn/UniqueChiknKernel10000_Head.png": {
+            "frame": {
+                "x": 400,
+                "y": 219,
+                "w": 64,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 113
+            }
+        },
+        "chikn/UniqueChiknKernel10000_Torso.png": {
+            "frame": {
+                "x": 466,
+                "y": 219,
+                "w": 114,
+                "h": 79
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 114,
+                "h": 79
+            },
+            "sourceSize": {
+                "w": 114,
+                "h": 79
+            }
+        },
+        "chikn/UniqueChiknKernel10000_Tail.png": {
+            "frame": {
+                "x": 582,
+                "y": 219,
+                "w": 63,
+                "h": 102
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 102
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 102
+            }
+        },
+        "chikn/UniqueChiknKernel10000_WingB.png": {
+            "frame": {
+                "x": 647,
+                "y": 219,
+                "w": 72,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 72,
+                "h": 60
+            }
+        },
+        "chikn/UniqueChiknKernel10000_WingA.png": {
+            "frame": {
+                "x": 721,
+                "y": 219,
+                "w": 72,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 72,
+                "h": 60
+            }
+        },
+        "chikn/UniqueChiknKernel10000_LegLowerB.png": {
+            "frame": {
+                "x": 795,
+                "y": 219,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/UniqueChiknKernel10000_LegUpperB.png": {
+            "frame": {
+                "x": 810,
+                "y": 219,
+                "w": 34,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 38
+            }
+        },
+        "chikn/UniqueChiknKernel10000_LegLowerA.png": {
+            "frame": {
+                "x": 846,
+                "y": 219,
+                "w": 13,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 32
+            }
+        },
+        "chikn/UniqueChiknKernel10000_LegUpperA.png": {
+            "frame": {
+                "x": 861,
+                "y": 219,
+                "w": 34,
+                "h": 38
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 38
+            }
+        },
+        "chikn/UniqueChiknKernel10000_LegFootB.png": {
+            "frame": {
+                "x": 897,
+                "y": 219,
+                "w": 31,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 10
+            }
+        },
+        "chikn/UniqueChiknKernel10000_LegFootA.png": {
+            "frame": {
+                "x": 930,
+                "y": 219,
+                "w": 31,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 10
+            }
+        }
+    },
+    "meta": {
+        "app": "roost-rift unique character asset generator",
+        "version": "1.0",
+        "image": "chikn-unique-Atlas.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 2016,
+            "h": 332
+        },
+        "scale": "1"
+    }
+}

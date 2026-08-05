@@ -1,0 +1,270 @@
+{
+  "schema": "chikn-game-assets.distribution/v1",
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "lfs": {
+    "logicalFiles": 1116,
+    "logicalBytes": 80671051,
+    "uniqueObjects": 562,
+    "storageBytes": 47870797,
+    "expectedFreshCloneBytes": 80671051
+  },
+  "releases": {
+    "expectedSourceArchiveBytes": 78617422,
+    "expectedRuntimeArchiveBytes": 88281257
+  },
+  "runtime": {
+    "totalBytes": 88281257,
+    "atlasPages": [
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/assembled-unique-001.png",
+        "bytes": 199400
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-flat-001.png",
+        "bytes": 805486
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-flat-002.png",
+        "bytes": 748311
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-flat-003.png",
+        "bytes": 892241
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-flat-004.png",
+        "bytes": 894137
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-flat-005.png",
+        "bytes": 185065
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-rig-001.png",
+        "bytes": 634087
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-rig-002.png",
+        "bytes": 313374
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-traits-001.png",
+        "bytes": 1072651
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-traits-002.png",
+        "bytes": 844898
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-traits-003.png",
+        "bytes": 672344
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/farmland-001.png",
+        "bytes": 1955738
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-flat-001.png",
+        "bytes": 798670
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-flat-002.png",
+        "bytes": 883516
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-flat-003.png",
+        "bytes": 706381
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-flat-004.png",
+        "bytes": 798737
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-flat-005.png",
+        "bytes": 912088
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-flat-006.png",
+        "bytes": 912463
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-rig-001.png",
+        "bytes": 562477
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-rig-002.png",
+        "bytes": 306479
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-001.png",
+        "bytes": 954172
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-002.png",
+        "bytes": 880293
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-003.png",
+        "bytes": 866300
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-004.png",
+        "bytes": 976894
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-005.png",
+        "bytes": 465281
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/assembled-unique-001.png",
+        "bytes": 704477
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-flat-001.png",
+        "bytes": 2649852
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-flat-002.png",
+        "bytes": 2538784
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-flat-003.png",
+        "bytes": 2991024
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-flat-004.png",
+        "bytes": 3245504
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-flat-005.png",
+        "bytes": 403000
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-rig-001.png",
+        "bytes": 2151863
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-rig-002.png",
+        "bytes": 943620
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-traits-001.png",
+        "bytes": 3753516
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-traits-002.png",
+        "bytes": 2991009
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-traits-003.png",
+        "bytes": 2014207
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/farmland-001.png",
+        "bytes": 7525794
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-flat-001.png",
+        "bytes": 2684657
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-flat-002.png",
+        "bytes": 3381289
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-flat-003.png",
+        "bytes": 2664437
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-flat-004.png",
+        "bytes": 3157740
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-flat-005.png",
+        "bytes": 3187532
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-flat-006.png",
+        "bytes": 2001402
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-rig-001.png",
+        "bytes": 1907357
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-rig-002.png",
+        "bytes": 1041967
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-traits-001.png",
+        "bytes": 3375018
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-traits-002.png",
+        "bytes": 3095358
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-traits-003.png",
+        "bytes": 2945501
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-traits-004.png",
+        "bytes": 3646895
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-traits-005.png",
+        "bytes": 1304631
+      }
+    ]
+  }
+}

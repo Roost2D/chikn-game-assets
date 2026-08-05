@@ -1,0 +1,36 @@
+{
+  "name": "chikn-game-assets",
+  "version": "0.1.0-rc.0",
+  "private": true,
+  "description": "Publicly hosted Chikn, Roostr, and FarmLand community asset source and runtime distributions.",
+  "type": "module",
+  "packageManager": "npm@11.5.2",
+  "engines": { "node": ">=22.14.0" },
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "build": "npm run assets:build && npm run build -w @chikn-game-assets/runtime",
+    "assets:build": "node scripts/build-assets.mjs",
+    "rights:refresh": "node scripts/build-rights-manifest.mjs",
+    "rights:validate": "node scripts/verify-rights.mjs",
+    "content-terms:validate": "node scripts/verify-content-terms.mjs",
+    "inventory": "node scripts/build-assets.mjs --inventory-only",
+    "verify": "node scripts/verify-assets.mjs",
+    "distribution:report": "node scripts/report-distribution.mjs",
+    "check": "npm run check --workspaces --if-present && npm run rights:validate && npm run content-terms:validate && npm run verify && npm run distribution:report && node scripts/verify-public-tree.mjs && node scripts/verify-lifecycle.mjs",
+    "repro:linux": "npm run build && node scripts/repro-linux.mjs",
+    "cross:verify": "node scripts/cross-repo-verify.mjs",
+    "showcase:data": "node scripts/build-showcase-data.mjs",
+    "showcase:build": "npm run showcase:data && npm run build -w chikn-game-assets-showcase",
+    "docs:build": "vitepress build docs",
+    "pages:build": "npm run build && npm run showcase:build && npm run docs:build && node scripts/assemble-pages.mjs",
+    "pack:check": "npm run build && node scripts/verify-pack.mjs",
+    "release:sources:stage": "node scripts/stage-release-sources.mjs .release/sources",
+    "release:verify": "npm ci && npm run build && npm run check && npm run pack:check && npm run release:sources:stage"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "sharp": "^0.35.3",
+    "typescript": "^5.8.3",
+    "vitepress": "^1.6.3"
+  }
+}

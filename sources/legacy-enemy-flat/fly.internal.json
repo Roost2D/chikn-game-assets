@@ -1,0 +1,37 @@
+{
+    "animations": {
+        "fly": {
+            "duration": 1.2,
+            "keyframes": {
+                "0.0": {
+                    "Torso": { "y": -10, "rotation": 10.0 },
+                    "Head": { "rotation": -5.0 },
+                    "Wing": { "rotation": -50.0 },
+                    "Wing_1": { "rotation": -50.0 },
+                    "Tail": { "rotation": 10.0 },
+                    "LegUpper A": { "rotation": -40.0 },
+                    "LegLower A": { "rotation": 50.0 },
+                    "LegUpper B": { "rotation": -40.0 },
+                    "LegLower B": { "rotation": 50.0 }
+                },
+                "0.6": {
+                    "Torso": { "y": 10, "rotation": 5.0 },
+                    "Wing": { "rotation": 45.0 },
+                    "Wing_1": { "rotation": 45.0 },
+                    "Tail": { "rotation": 0.0 }
+                },
+                "1.2": {
+                    "Torso": { "y": -10, "rotation": 10.0 },
+                    "Head": { "rotation": -5.0 },
+                    "Wing": { "rotation": -50.0 },
+                    "Wing_1": { "rotation": -50.0 },
+                    "Tail": { "rotation": 10.0 },
+                    "LegUpper A": { "rotation": -40.0 },
+                    "LegLower A": { "rotation": 50.0 },
+                    "LegUpper B": { "rotation": -40.0 },
+                    "LegLower B": { "rotation": 50.0 }
+                }
+            }
+        }
+    }
+}

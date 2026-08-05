@@ -1,0 +1,2415 @@
+{
+    "frames": {
+        "roostr/UniqueRoostrBeast9130_Head.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 104
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 104
+            },
+            "sourceSize": {
+                "w": 47,
+                "h": 104
+            }
+        },
+        "roostr/UniqueRoostrBeast9130_Torso.png": {
+            "frame": {
+                "x": 49,
+                "y": 0,
+                "w": 82,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 60
+            }
+        },
+        "roostr/UniqueRoostrBeast9130_Tail.png": {
+            "frame": {
+                "x": 133,
+                "y": 0,
+                "w": 62,
+                "h": 79
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 62,
+                "h": 79
+            },
+            "sourceSize": {
+                "w": 62,
+                "h": 79
+            }
+        },
+        "roostr/UniqueRoostrBeast9130_WingB.png": {
+            "frame": {
+                "x": 197,
+                "y": 0,
+                "w": 59,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 46
+            }
+        },
+        "roostr/UniqueRoostrBeast9130_WingA.png": {
+            "frame": {
+                "x": 258,
+                "y": 0,
+                "w": 59,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 59,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 59,
+                "h": 46
+            }
+        },
+        "roostr/UniqueRoostrBeast9130_LegLowerB.png": {
+            "frame": {
+                "x": 319,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/UniqueRoostrBeast9130_LegUpperB.png": {
+            "frame": {
+                "x": 331,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/UniqueRoostrBeast9130_LegLowerA.png": {
+            "frame": {
+                "x": 359,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 24
+            }
+        },
+        "roostr/UniqueRoostrBeast9130_LegUpperA.png": {
+            "frame": {
+                "x": 371,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/UniqueRoostrBeast9130_LegFootB.png": {
+            "frame": {
+                "x": 399,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/UniqueRoostrBeast9130_LegFootA.png": {
+            "frame": {
+                "x": 424,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/UniqueRoostrMutantgreen8375_Head.png": {
+            "frame": {
+                "x": 449,
+                "y": 0,
+                "w": 53,
+                "h": 98
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 53,
+                "h": 98
+            },
+            "sourceSize": {
+                "w": 53,
+                "h": 98
+            }
+        },
+        "roostr/UniqueRoostrMutantgreen8375_Torso.png": {
+            "frame": {
+                "x": 504,
+                "y": 0,
+                "w": 82,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 61
+            }
+        },
+        "roostr/UniqueRoostrMutantgreen8375_Tail.png": {
+            "frame": {
+                "x": 588,
+                "y": 0,
+                "w": 66,
+                "h": 83
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 83
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 83
+            }
+        },
+        "roostr/UniqueRoostrMutantgreen8375_WingB.png": {
+            "frame": {
+                "x": 656,
+                "y": 0,
+                "w": 58,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 47
+            }
+        },
+        "roostr/UniqueRoostrMutantgreen8375_WingA.png": {
+            "frame": {
+                "x": 716,
+                "y": 0,
+                "w": 58,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 47
+            }
+        },
+        "roostr/UniqueRoostrMutantgreen8375_LegLowerB.png": {
+            "frame": {
+                "x": 776,
+                "y": 0,
+                "w": 11,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 11,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 11,
+                "h": 24
+            }
+        },
+        "roostr/UniqueRoostrMutantgreen8375_LegUpperB.png": {
+            "frame": {
+                "x": 789,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/UniqueRoostrMutantgreen8375_LegLowerA.png": {
+            "frame": {
+                "x": 817,
+                "y": 0,
+                "w": 11,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 11,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 11,
+                "h": 24
+            }
+        },
+        "roostr/UniqueRoostrMutantgreen8375_LegUpperA.png": {
+            "frame": {
+                "x": 830,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/UniqueRoostrMutantgreen8375_LegFootB.png": {
+            "frame": {
+                "x": 858,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/UniqueRoostrMutantgreen8375_LegFootA.png": {
+            "frame": {
+                "x": 883,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/UniqueRoostrRobot5524_Head.png": {
+            "frame": {
+                "x": 908,
+                "y": 0,
+                "w": 34,
+                "h": 67
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 67
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 67
+            }
+        },
+        "roostr/UniqueRoostrRobot5524_Torso.png": {
+            "frame": {
+                "x": 944,
+                "y": 0,
+                "w": 82,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 46
+            }
+        },
+        "roostr/UniqueRoostrRobot5524_Tail.png": {
+            "frame": {
+                "x": 1028,
+                "y": 0,
+                "w": 55,
+                "h": 58
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 58
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 58
+            }
+        },
+        "roostr/UniqueRoostrRobot5524_WingB.png": {
+            "frame": {
+                "x": 1085,
+                "y": 0,
+                "w": 46,
+                "h": 37
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 37
+            }
+        },
+        "roostr/UniqueRoostrRobot5524_WingA.png": {
+            "frame": {
+                "x": 1133,
+                "y": 0,
+                "w": 46,
+                "h": 37
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 37
+            }
+        },
+        "roostr/UniqueRoostrRobot5524_LegUpperB.png": {
+            "frame": {
+                "x": 1181,
+                "y": 0,
+                "w": 75,
+                "h": 27
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 75,
+                "h": 27
+            },
+            "sourceSize": {
+                "w": 75,
+                "h": 27
+            }
+        },
+        "roostr/UniqueRoostrRobot5524_LegUpperA.png": {
+            "frame": {
+                "x": 1258,
+                "y": 0,
+                "w": 75,
+                "h": 27
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 75,
+                "h": 27
+            },
+            "sourceSize": {
+                "w": 75,
+                "h": 27
+            }
+        },
+        "roostr/UniqueRoostrCaptain7467_Head.png": {
+            "frame": {
+                "x": 1335,
+                "y": 0,
+                "w": 75,
+                "h": 95
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 75,
+                "h": 95
+            },
+            "sourceSize": {
+                "w": 75,
+                "h": 95
+            }
+        },
+        "roostr/UniqueRoostrCaptain7467_Torso.png": {
+            "frame": {
+                "x": 1412,
+                "y": 0,
+                "w": 78,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 61
+            }
+        },
+        "roostr/UniqueRoostrCaptain7467_Tail.png": {
+            "frame": {
+                "x": 1492,
+                "y": 0,
+                "w": 54,
+                "h": 72
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 72
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 72
+            }
+        },
+        "roostr/UniqueRoostrCaptain7467_WingB.png": {
+            "frame": {
+                "x": 1548,
+                "y": 0,
+                "w": 52,
+                "h": 48
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 48
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 48
+            }
+        },
+        "roostr/UniqueRoostrCaptain7467_WingA.png": {
+            "frame": {
+                "x": 1602,
+                "y": 0,
+                "w": 52,
+                "h": 48
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 48
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 48
+            }
+        },
+        "roostr/UniqueRoostrCaptain7467_WingAExtra1.png": {
+            "frame": {
+                "x": 1656,
+                "y": 0,
+                "w": 82,
+                "h": 37
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 37
+            }
+        },
+        "roostr/UniqueRoostrCaptain7467_LegLowerB.png": {
+            "frame": {
+                "x": 1740,
+                "y": 0,
+                "w": 9,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 9,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 9,
+                "h": 23
+            }
+        },
+        "roostr/UniqueRoostrCaptain7467_LegUpperB.png": {
+            "frame": {
+                "x": 1751,
+                "y": 0,
+                "w": 25,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 28
+            }
+        },
+        "roostr/UniqueRoostrCaptain7467_LegLowerA.png": {
+            "frame": {
+                "x": 1778,
+                "y": 0,
+                "w": 13,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 24
+            }
+        },
+        "roostr/UniqueRoostrCaptain7467_LegUpperA.png": {
+            "frame": {
+                "x": 1793,
+                "y": 0,
+                "w": 25,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 28
+            }
+        },
+        "roostr/UniqueRoostrCaptain7467_LegFootB.png": {
+            "frame": {
+                "x": 1820,
+                "y": 0,
+                "w": 22,
+                "h": 7
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 7
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 7
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq6282_Head.png": {
+            "frame": {
+                "x": 1844,
+                "y": 0,
+                "w": 46,
+                "h": 94
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 94
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 94
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq6282_Torso.png": {
+            "frame": {
+                "x": 1892,
+                "y": 0,
+                "w": 80,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 80,
+                "h": 61
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq6282_Tail.png": {
+            "frame": {
+                "x": 1974,
+                "y": 0,
+                "w": 55,
+                "h": 74
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 74
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 74
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq6282_WingB.png": {
+            "frame": {
+                "x": 0,
+                "y": 106,
+                "w": 54,
+                "h": 45
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 45
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq6282_WingA.png": {
+            "frame": {
+                "x": 56,
+                "y": 106,
+                "w": 54,
+                "h": 45
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 45
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq6282_LegLowerB.png": {
+            "frame": {
+                "x": 112,
+                "y": 106,
+                "w": 9,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 9,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 9,
+                "h": 23
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq6282_LegUpperB.png": {
+            "frame": {
+                "x": 123,
+                "y": 106,
+                "w": 25,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 28
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq6282_LegLowerA.png": {
+            "frame": {
+                "x": 150,
+                "y": 106,
+                "w": 9,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 9,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 9,
+                "h": 23
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq6282_LegUpperA.png": {
+            "frame": {
+                "x": 161,
+                "y": 106,
+                "w": 25,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 28
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq6282_LegFootB.png": {
+            "frame": {
+                "x": 188,
+                "y": 106,
+                "w": 22,
+                "h": 7
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 7
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 7
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq6282_LegFootA.png": {
+            "frame": {
+                "x": 212,
+                "y": 106,
+                "w": 22,
+                "h": 7
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 7
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 7
+            }
+        },
+        "roostr/UniqueRoostrSplit5845_Head.png": {
+            "frame": {
+                "x": 236,
+                "y": 106,
+                "w": 84,
+                "h": 93
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 93
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 93
+            }
+        },
+        "roostr/UniqueRoostrSplit5845_Torso.png": {
+            "frame": {
+                "x": 322,
+                "y": 106,
+                "w": 80,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 80,
+                "h": 61
+            }
+        },
+        "roostr/UniqueRoostrSplit5845_Tail.png": {
+            "frame": {
+                "x": 404,
+                "y": 106,
+                "w": 61,
+                "h": 75
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 75
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 75
+            }
+        },
+        "roostr/UniqueRoostrSplit5845_WingB.png": {
+            "frame": {
+                "x": 467,
+                "y": 106,
+                "w": 58,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 46
+            }
+        },
+        "roostr/UniqueRoostrSplit5845_WingA.png": {
+            "frame": {
+                "x": 527,
+                "y": 106,
+                "w": 58,
+                "h": 46
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 46
+            }
+        },
+        "roostr/UniqueRoostrSplit5845_LegLowerB.png": {
+            "frame": {
+                "x": 587,
+                "y": 106,
+                "w": 11,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 11,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 11,
+                "h": 23
+            }
+        },
+        "roostr/UniqueRoostrSplit5845_LegUpperB.png": {
+            "frame": {
+                "x": 600,
+                "y": 106,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/UniqueRoostrSplit5845_LegLowerA.png": {
+            "frame": {
+                "x": 628,
+                "y": 106,
+                "w": 11,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 11,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 11,
+                "h": 23
+            }
+        },
+        "roostr/UniqueRoostrSplit5845_LegUpperA.png": {
+            "frame": {
+                "x": 641,
+                "y": 106,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/UniqueRoostrSplit5845_LegFootB.png": {
+            "frame": {
+                "x": 669,
+                "y": 106,
+                "w": 25,
+                "h": 7
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 7
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 7
+            }
+        },
+        "roostr/UniqueRoostrSplit5845_LegFootA.png": {
+            "frame": {
+                "x": 696,
+                "y": 106,
+                "w": 25,
+                "h": 7
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 7
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 7
+            }
+        },
+        "roostr/UniqueRoostrLava1_Head.png": {
+            "frame": {
+                "x": 723,
+                "y": 106,
+                "w": 54,
+                "h": 95
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 95
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 95
+            }
+        },
+        "roostr/UniqueRoostrLava1_Torso.png": {
+            "frame": {
+                "x": 779,
+                "y": 106,
+                "w": 76,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 76,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 76,
+                "h": 61
+            }
+        },
+        "roostr/UniqueRoostrLava1_Tail.png": {
+            "frame": {
+                "x": 857,
+                "y": 106,
+                "w": 57,
+                "h": 69
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 69
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 69
+            }
+        },
+        "roostr/UniqueRoostrLava1_WingB.png": {
+            "frame": {
+                "x": 916,
+                "y": 106,
+                "w": 52,
+                "h": 43
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 43
+            }
+        },
+        "roostr/UniqueRoostrLava1_WingA.png": {
+            "frame": {
+                "x": 970,
+                "y": 106,
+                "w": 52,
+                "h": 43
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 43
+            }
+        },
+        "roostr/UniqueRoostrLava1_LegLowerB.png": {
+            "frame": {
+                "x": 1024,
+                "y": 106,
+                "w": 9,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 9,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 9,
+                "h": 22
+            }
+        },
+        "roostr/UniqueRoostrLava1_LegUpperB.png": {
+            "frame": {
+                "x": 1035,
+                "y": 106,
+                "w": 24,
+                "h": 27
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 24,
+                "h": 27
+            },
+            "sourceSize": {
+                "w": 24,
+                "h": 27
+            }
+        },
+        "roostr/UniqueRoostrLava1_LegLowerA.png": {
+            "frame": {
+                "x": 1061,
+                "y": 106,
+                "w": 9,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 9,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 9,
+                "h": 22
+            }
+        },
+        "roostr/UniqueRoostrLava1_LegUpperA.png": {
+            "frame": {
+                "x": 1072,
+                "y": 106,
+                "w": 24,
+                "h": 27
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 24,
+                "h": 27
+            },
+            "sourceSize": {
+                "w": 24,
+                "h": 27
+            }
+        },
+        "roostr/UniqueRoostrLava1_LegFootB.png": {
+            "frame": {
+                "x": 1098,
+                "y": 106,
+                "w": 21,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 21,
+                "h": 10
+            }
+        },
+        "roostr/UniqueRoostrLava1_LegFootA.png": {
+            "frame": {
+                "x": 1121,
+                "y": 106,
+                "w": 21,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 21,
+                "h": 10
+            }
+        },
+        "roostr/UniqueRoostrGunslinger4433_Head.png": {
+            "frame": {
+                "x": 1144,
+                "y": 106,
+                "w": 47,
+                "h": 96
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 96
+            },
+            "sourceSize": {
+                "w": 47,
+                "h": 96
+            }
+        },
+        "roostr/UniqueRoostrGunslinger4433_Torso.png": {
+            "frame": {
+                "x": 1193,
+                "y": 106,
+                "w": 79,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 79,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 79,
+                "h": 61
+            }
+        },
+        "roostr/UniqueRoostrGunslinger4433_Tail.png": {
+            "frame": {
+                "x": 1274,
+                "y": 106,
+                "w": 58,
+                "h": 71
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 71
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 71
+            }
+        },
+        "roostr/UniqueRoostrGunslinger4433_WingB.png": {
+            "frame": {
+                "x": 1334,
+                "y": 106,
+                "w": 52,
+                "h": 44
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 44
+            }
+        },
+        "roostr/UniqueRoostrGunslinger4433_WingA.png": {
+            "frame": {
+                "x": 1388,
+                "y": 106,
+                "w": 52,
+                "h": 44
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 44
+            }
+        },
+        "roostr/UniqueRoostrGunslinger4433_WingAExtra1.png": {
+            "frame": {
+                "x": 1442,
+                "y": 106,
+                "w": 25,
+                "h": 31
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 31
+            }
+        },
+        "roostr/UniqueRoostrGunslinger4433_LegLowerB.png": {
+            "frame": {
+                "x": 1469,
+                "y": 106,
+                "w": 35,
+                "h": 22
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 22
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 22
+            }
+        },
+        "roostr/UniqueRoostrGunslinger4433_LegUpperB.png": {
+            "frame": {
+                "x": 1506,
+                "y": 106,
+                "w": 25,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 28
+            }
+        },
+        "roostr/UniqueRoostrGunslinger4433_LegLowerA.png": {
+            "frame": {
+                "x": 1533,
+                "y": 106,
+                "w": 37,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 37,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 37,
+                "h": 24
+            }
+        },
+        "roostr/UniqueRoostrGunslinger4433_LegUpperA.png": {
+            "frame": {
+                "x": 1572,
+                "y": 106,
+                "w": 25,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 28
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq10160_Head.png": {
+            "frame": {
+                "x": 1599,
+                "y": 106,
+                "w": 46,
+                "h": 94
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 94
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 94
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq10160_Torso.png": {
+            "frame": {
+                "x": 1647,
+                "y": 106,
+                "w": 80,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 80,
+                "h": 61
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq10160_Tail.png": {
+            "frame": {
+                "x": 1729,
+                "y": 106,
+                "w": 55,
+                "h": 74
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 74
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 74
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq10160_WingB.png": {
+            "frame": {
+                "x": 1786,
+                "y": 106,
+                "w": 54,
+                "h": 45
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 45
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq10160_WingA.png": {
+            "frame": {
+                "x": 1842,
+                "y": 106,
+                "w": 54,
+                "h": 45
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 54,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 54,
+                "h": 45
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq10160_LegLowerB.png": {
+            "frame": {
+                "x": 1898,
+                "y": 106,
+                "w": 9,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 9,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 9,
+                "h": 23
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq10160_LegUpperB.png": {
+            "frame": {
+                "x": 1909,
+                "y": 106,
+                "w": 25,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 28
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq10160_LegLowerA.png": {
+            "frame": {
+                "x": 1936,
+                "y": 106,
+                "w": 9,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 9,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 9,
+                "h": 23
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq10160_LegUpperA.png": {
+            "frame": {
+                "x": 1947,
+                "y": 106,
+                "w": 25,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 28
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq10160_LegFootB.png": {
+            "frame": {
+                "x": 1974,
+                "y": 106,
+                "w": 22,
+                "h": 7
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 7
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 7
+            }
+        },
+        "roostr/UniqueRoostrHypnocoq10160_LegFootA.png": {
+            "frame": {
+                "x": 1998,
+                "y": 106,
+                "w": 22,
+                "h": 7
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 7
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 7
+            }
+        },
+        "roostr/UniqueRoostrGumball2_Head.png": {
+            "frame": {
+                "x": 0,
+                "y": 204,
+                "w": 44,
+                "h": 97
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 97
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 97
+            }
+        },
+        "roostr/UniqueRoostrGumball2_Torso.png": {
+            "frame": {
+                "x": 46,
+                "y": 204,
+                "w": 81,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 81,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 81,
+                "h": 61
+            }
+        },
+        "roostr/UniqueRoostrGumball2_Tail.png": {
+            "frame": {
+                "x": 129,
+                "y": 204,
+                "w": 57,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 76
+            }
+        },
+        "roostr/UniqueRoostrGumball2_LegUpperB.png": {
+            "frame": {
+                "x": 188,
+                "y": 204,
+                "w": 45,
+                "h": 36
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 45,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 45,
+                "h": 36
+            }
+        },
+        "roostr/UniqueRoostrMutantblue3_Head.png": {
+            "frame": {
+                "x": 235,
+                "y": 204,
+                "w": 53,
+                "h": 98
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 53,
+                "h": 98
+            },
+            "sourceSize": {
+                "w": 53,
+                "h": 98
+            }
+        },
+        "roostr/UniqueRoostrMutantblue3_Torso.png": {
+            "frame": {
+                "x": 290,
+                "y": 204,
+                "w": 82,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 61
+            }
+        },
+        "roostr/UniqueRoostrMutantblue3_Tail.png": {
+            "frame": {
+                "x": 374,
+                "y": 204,
+                "w": 66,
+                "h": 83
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 83
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 83
+            }
+        },
+        "roostr/UniqueRoostrMutantblue3_WingB.png": {
+            "frame": {
+                "x": 442,
+                "y": 204,
+                "w": 58,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 47
+            }
+        },
+        "roostr/UniqueRoostrMutantblue3_WingA.png": {
+            "frame": {
+                "x": 502,
+                "y": 204,
+                "w": 58,
+                "h": 47
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 47
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 47
+            }
+        },
+        "roostr/UniqueRoostrMutantblue3_LegLowerB.png": {
+            "frame": {
+                "x": 562,
+                "y": 204,
+                "w": 11,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 11,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 11,
+                "h": 24
+            }
+        },
+        "roostr/UniqueRoostrMutantblue3_LegUpperB.png": {
+            "frame": {
+                "x": 575,
+                "y": 204,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/UniqueRoostrMutantblue3_LegLowerA.png": {
+            "frame": {
+                "x": 603,
+                "y": 204,
+                "w": 11,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 11,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 11,
+                "h": 24
+            }
+        },
+        "roostr/UniqueRoostrMutantblue3_LegUpperA.png": {
+            "frame": {
+                "x": 616,
+                "y": 204,
+                "w": 26,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "roostr/UniqueRoostrMutantblue3_LegFootB.png": {
+            "frame": {
+                "x": 644,
+                "y": 204,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/UniqueRoostrMutantblue3_LegFootA.png": {
+            "frame": {
+                "x": 669,
+                "y": 204,
+                "w": 23,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 8
+            }
+        },
+        "roostr/UniqueRoostrCutegravy11811_Head.png": {
+            "frame": {
+                "x": 694,
+                "y": 204,
+                "w": 43,
+                "h": 93
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 43,
+                "h": 93
+            },
+            "sourceSize": {
+                "w": 43,
+                "h": 93
+            }
+        },
+        "roostr/UniqueRoostrCutegravy11811_Torso.png": {
+            "frame": {
+                "x": 739,
+                "y": 204,
+                "w": 82,
+                "h": 58
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 58
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 58
+            }
+        },
+        "roostr/UniqueRoostrCutegravy11811_Tail.png": {
+            "frame": {
+                "x": 823,
+                "y": 204,
+                "w": 55,
+                "h": 74
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 74
+            },
+            "sourceSize": {
+                "w": 55,
+                "h": 74
+            }
+        },
+        "roostr/UniqueRoostrCutegravy11811_WingB.png": {
+            "frame": {
+                "x": 880,
+                "y": 204,
+                "w": 52,
+                "h": 43
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 43
+            }
+        },
+        "roostr/UniqueRoostrCutegravy11811_WingA.png": {
+            "frame": {
+                "x": 934,
+                "y": 204,
+                "w": 52,
+                "h": 43
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 43
+            }
+        },
+        "roostr/UniqueRoostrCutegravy11811_LegLowerB.png": {
+            "frame": {
+                "x": 988,
+                "y": 204,
+                "w": 9,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 9,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 9,
+                "h": 23
+            }
+        },
+        "roostr/UniqueRoostrCutegravy11811_LegUpperB.png": {
+            "frame": {
+                "x": 999,
+                "y": 204,
+                "w": 30,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 29
+            }
+        },
+        "roostr/UniqueRoostrCutegravy11811_LegLowerA.png": {
+            "frame": {
+                "x": 1031,
+                "y": 204,
+                "w": 9,
+                "h": 23
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 9,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 9,
+                "h": 23
+            }
+        },
+        "roostr/UniqueRoostrCutegravy11811_LegUpperA.png": {
+            "frame": {
+                "x": 1042,
+                "y": 204,
+                "w": 30,
+                "h": 29
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 29
+            }
+        },
+        "roostr/UniqueRoostrCutegravy11811_LegFootB.png": {
+            "frame": {
+                "x": 1074,
+                "y": 204,
+                "w": 22,
+                "h": 7
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 7
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 7
+            }
+        },
+        "roostr/UniqueRoostrCutegravy11811_LegFootA.png": {
+            "frame": {
+                "x": 1098,
+                "y": 204,
+                "w": 22,
+                "h": 7
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 7
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 7
+            }
+        }
+    },
+    "meta": {
+        "app": "roost-rift unique character asset generator",
+        "version": "1.0",
+        "image": "roostr-unique-Atlas.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 2029,
+            "h": 302
+        },
+        "scale": "1"
+    }
+}

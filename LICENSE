@@ -1,0 +1,17 @@
+# License boundaries
+
+This repository contains materials with different ownership and usage terms. A file's classification in `manifests/rights-manifest.json` and any file-specific notice control its use.
+
+1. Source code, documentation, generated schemas, rig definitions, animation timing data, and other independently authored project metadata are licensed under Apache-2.0. See `LICENSE-CODE`.
+
+2. Chikn, Roostr and FarmLand visual assets classified in the rights manifest remain owned by their respective rights holder. They are hosted with permission and governed by the Chikn team's existing non-commercial community permission.
+
+3. This repository does not itself grant a commercial licence or claim authority to sublicense the protected visual content.
+
+4. See `CHIKN-COMMUNITY-ASSET-NOTICE.md`, `ATTRIBUTION.md` and `COMMERCIAL_USE.md`.
+
+5. Generated atlas PNGs, thumbnails, resized images and runtime frames remain protected visual content. Generated manifests and atlas-coordinate JSON are independently authored technical metadata under Apache-2.0.
+
+6. Files listed in `excludedPaths` in `manifests/rights-manifest.json` are outside the hosted Chikn asset set. Their repository presence does not identify them as Chikn property or grant rights to them.
+
+Rig and animation metadata and unrelated project materials such as `eggorithm.png` are not claimed as Chikn, Roostr or FarmLand property.

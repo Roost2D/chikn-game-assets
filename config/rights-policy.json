@@ -1,0 +1,44 @@
+{
+  "schema": "chikn-game-assets.rights-policy/v1",
+  "version": "0.1.0-rc.0",
+  "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+  "commercialUse": "separate-agreement-required",
+  "attribution": "Chikn, Roostr and FarmLand visual assets — owned by their respective rights holder and used under Chikn's non-commercial community permission.",
+  "ownership": "third-party-chikn-rights-holder",
+  "hostingAuthorized": true,
+  "communityUseAuthorized": true,
+  "sublicenseGrantedByRepository": false,
+  "metadata": {
+    "extensions": [".json"],
+    "category": "project-metadata",
+    "license": "Apache-2.0",
+    "commercialUse": "allowed",
+    "attribution": "Roost2D project metadata — Apache-2.0.",
+    "approved": true
+  },
+  "excludedPaths": [
+    "sources/legacy-enemy-flat/eggorithm.png",
+    "sources/legacy-enemy-flat/enemy_attack.png",
+    "sources/legacy-enemy-flat/enemy_fly.png",
+    "sources/legacy-enemy-flat/enemy_walk.png",
+    "sources/legacy-enemy-flat/enemy_walk_2.png",
+    "sources/legacy-enemy-flat/placeholder_chikn.png",
+    "sources/legacy-enemy-flat/placeholder_roostr.png",
+    "sources/legacy-enemy-flat/rolling_egg.png",
+    "sources/legacy-enemy-flat/RoostrRunr.png",
+    "sources/rig-chikn/RigAssemblyRef.jpg",
+    "sources/rig-roostr/RigAssemblyRef.jpg"
+  ],
+  "categories": {
+    "chikn-flat": "assembled-character",
+    "roostr-flat": "assembled-character",
+    "rig-chikn": "character-rig-part",
+    "rig-roostr": "character-rig-part",
+    "traits-chikn": "character-trait",
+    "traits-roostr": "character-trait",
+    "unique": "unique-character",
+    "roostr-unique": "unique-character",
+    "legacy-enemy-flat": "assembled-character",
+    "farmland": "farmland"
+  }
+}
