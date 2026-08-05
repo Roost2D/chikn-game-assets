@@ -71,3 +71,7 @@ npm run release:verify
 ```
 
 The gate rebuilds the inventory and atlases, validates per-file rights, type-checks/tests the runtime helper, checks reproducibility and Git LFS coverage, inspects the npm tarball, and stages the source archive while proving excluded material is absent.
+
+Maintainers should follow the [release operator runbook](docs/releases.md#release-operator-runbook);
+the first npm publication has a one-time bootstrap step, while later releases use GitHub trusted
+publishing.
