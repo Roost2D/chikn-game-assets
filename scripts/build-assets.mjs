@@ -54,16 +54,18 @@ for (const sourceAtlas of sourceAtlases.sort((a, b) => a.sourcePath.localeCompar
     if (framePrefix && !normalizedFrameName.startsWith(framePrefix)) throw new Error(`${sourceAtlas.sourcePath}: frame ${frameName} does not start with ${framePrefix}`);
     const strippedFrameName = normalizedFrameName.slice(framePrefix.length);
     const relativeDirectory = relative(sourceAtlas.sourceRoot, dirname(sourceAtlas.absolute)).split(sep).filter((part) => part && part !== '.');
+    const unique = sourceAtlas.selection.sourceAtlas?.unique === true ? uniqueFrame(sourceAtlas.selection.species, strippedFrameName) : undefined;
     const idPrefix = sourceAtlas.selection.sourceAtlas?.compatibilityIdPrefix;
-    const assetId = idPrefix ? `${idPrefix}/${assetToken(strippedFrameName)}` : [sourceAtlas.selection.group, ...relativeDirectory.map(slug), assetToken(strippedFrameName)].join('/');
+    const assetId = unique ? `assembled-unique/${unique.species}/${assetToken(unique.skinName)}/${assetToken(unique.slotId)}` : idPrefix ? `${idPrefix}/${assetToken(strippedFrameName)}` : [sourceAtlas.selection.group, ...relativeDirectory.map(slug), assetToken(strippedFrameName)].join('/');
     if (claimedReferences.has(assetId)) continue;
     const aliases = uniqueAliases([
-      ...(sourceAtlas.selection.rigAliases ? [`${sourceAtlas.selection.species}.rig.${assetToken(strippedFrameName)}`] : []),
+      ...(sourceAtlas.selection.rigAliases || unique ? [`${sourceAtlas.selection.species}.rig.${assetToken(strippedFrameName)}`] : []),
+      ...(unique ? [`unique.${unique.species}.${unique.token}.${assetToken(unique.slotId)}`] : []),
       ...(sourceSelection.additionalAliases?.[assetId] ?? []),
       ...(configuredAliases[assetId] ?? []),
     ]);
     const { buffer, width, height } = await extractAtlasFrame(atlasImage, definition, sourceAtlas.sourcePath, frameName);
-    imageEntries.push({ assetId, aliases, group: sourceAtlas.selection.group, sourcePaths: [sourceAtlas.sourcePath, atlasSourcePath], rightsIds: [jsonRights.id, atlasRights.id], width, height, buffer });
+    imageEntries.push({ assetId, aliases, group: sourceAtlas.selection.group, species: sourceAtlas.selection.species, unique: Boolean(unique), sourcePaths: [sourceAtlas.sourcePath, atlasSourcePath], rightsIds: [jsonRights.id, atlasRights.id], width, height, buffer });
     for (const reference of [assetId, ...aliases]) {
       if (claimedReferences.has(reference)) throw new Error(`Duplicate asset reference: ${reference}`);
       claimedReferences.add(reference);
@@ -102,12 +104,15 @@ for (const profile of profiles) for (const [group, entries] of Object.entries(gr
 }
 
 for (const page of pageMetadata) assertBudget(`atlas ${page.path}`, page.bytes, page.profile === 'default' ? budgets.atlasDefaultBytes : budgets.atlasHighBytes);
-const bundles = [...new Set(imageEntries.flatMap((entry) => [entry.assetId, ...entry.aliases]).filter((reference) => reference.includes('/')).map((reference) => reference.split('/')[0]))].sort().map((bundleId) => {
-  const entries = imageEntries.filter((entry) => entry.assetId.startsWith(`${bundleId}/`) || entry.aliases.some((alias) => alias.startsWith(`${bundleId}/`)));
+const bundleFor = (bundleId, entries) => {
   const pagePaths = new Set(entries.flatMap((entry) => builtVariants.get(entry.assetId)).map((variant) => variant.path));
   const gpuBytes = pageMetadata.filter((page) => page.profile === 'default' && pagePaths.has(page.path)).reduce((total, page) => total + page.width * page.height * 4, 0);
   return { id: bundleId, items: entries.map((entry) => ({ assetId: entry.assetId, required: true })), lazy: true, preload: false, estimatedGpuBytes: gpuBytes };
-});
+};
+const bundles = [
+  ...[...new Set(imageEntries.flatMap((entry) => [entry.assetId, ...entry.aliases]).filter((reference) => reference.includes('/')).map((reference) => reference.split('/')[0]))].sort().map((bundleId) => bundleFor(bundleId, imageEntries.filter((entry) => entry.assetId.startsWith(`${bundleId}/`) || entry.aliases.some((alias) => alias.startsWith(`${bundleId}/`))))),
+  ...['chikn', 'roostr'].map((species) => bundleFor(`${species}-unique`, imageEntries.filter((entry) => entry.unique && entry.species === species))).filter((bundle) => bundle.items.length),
+];
 const manifest = {
   schema: 'roost2d.assets/v1', version: process.env.npm_package_version ?? '0.1.0-rc.0', generatedAt: generatedAt(), rightsDocumentSha256: sha256Hex(rightsManifestBytes), profiles: profileDefinitions,
   files: imageEntries.map((entry) => ({ id: entry.assetId, kind: 'atlas-frame', mediaType: 'image/png', variants: builtVariants.get(entry.assetId), aliases: entry.aliases, ...contentRights(entry.rightsIds), rightsIds: entry.rightsIds })),
@@ -124,6 +129,14 @@ function sha256Hex(bytes) { return createHash('sha256').update(bytes).digest('he
 function sri(bytes) { return `sha256-${createHash('sha256').update(bytes).digest('base64')}`; }
 function slug(value) { return value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
 function assetToken(value) { return slug(value.replace(/\.[^.]+$/, '')); }
+function uniqueFrame(species, frameName) {
+  if (species !== 'chikn' && species !== 'roostr') throw new Error(`Unique atlas frame ${frameName} has no supported species`);
+  const stem = frameName.replace(/\.[^.]+$/, ''); const separator = stem.lastIndexOf('_');
+  if (separator <= 0) throw new Error(`Unique atlas frame ${frameName} must contain a skin and part`);
+  const skinName = stem.slice(0, separator); const rawSlot = stem.slice(separator + 1); const token = Number.parseInt((skinName.match(/(\d+)$/) ?? [])[1], 10);
+  if (!Number.isInteger(token)) throw new Error(`Unique atlas frame ${frameName} has no token id`);
+  return { species, token, skinName, slotId: rawSlot.replace(/([a-z])([AB])$/, '$1 $2') };
+}
 function assertBudget(label, actual, maximum) { if (actual > maximum) throw new Error(`${label}: ${actual} bytes exceeds ${maximum} byte budget`); }
 function assertUnique(values, label) { const seen = new Set(); for (const value of values) { if (!value || seen.has(value)) throw new Error(`Duplicate ${label}: ${value}`); seen.add(value); } }
 function contentRights(rightsIds) {

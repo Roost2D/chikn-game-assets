@@ -42,8 +42,26 @@
       "compatibilityIdPrefix": "roostr-flat/chikn-roostr",
       "legacyRigIdPrefix": "roostr-rig"
     },
-    { "source": "sources/unique", "group": "assembled-unique" },
-    { "source": "sources/roostr-unique", "group": "assembled-unique", "species": "roostr" },
+    {
+      "source": "sources/unique",
+      "group": "assembled-unique",
+      "species": "chikn",
+      "sourceAtlas": {
+        "json": "chikn-unique-Atlas.json",
+        "framePrefix": "chikn/",
+        "unique": true
+      }
+    },
+    {
+      "source": "sources/roostr-unique",
+      "group": "assembled-unique",
+      "species": "roostr",
+      "sourceAtlas": {
+        "json": "roostr-unique-Atlas.json",
+        "framePrefix": "roostr/",
+        "unique": true
+      }
+    },
     { "source": "sources/legacy-enemy-flat", "group": "legacy-enemy-flat", "runtime": false },
     { "source": "sources/farmland", "group": "farmland" }
   ]

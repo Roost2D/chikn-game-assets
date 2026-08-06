@@ -1,18 +1,18 @@
 {
   "schema": "chikn-game-assets.release-size/v1",
   "generatedAt": "1970-01-01T00:00:00.000Z",
-  "runtimeBytes": 48513483,
+  "runtimeBytes": 49076102,
   "sourceBytes": 45817168,
   "atlases": [
     {
       "profile": "default",
       "group": "assembled-unique",
       "path": "runtime/atlases/default/assembled-unique-001.png",
-      "bytes": 199400,
-      "integrity": "sha256-28rj81DfEGfGiGCjmpWby8DFPKEThfShNjsI87DSRBs=",
-      "width": 2038,
-      "height": 172,
-      "frameCount": 2
+      "bytes": 188748,
+      "integrity": "sha256-VEX0XsDpsAeZ1cELIUhaHsjpFMn01IY4tok8h7gJ1ts=",
+      "width": 2043,
+      "height": 139,
+      "frameCount": 218
     },
     {
       "profile": "default",
@@ -158,11 +158,11 @@
       "profile": "high",
       "group": "assembled-unique",
       "path": "runtime/atlases/high/assembled-unique-001.png",
-      "bytes": 704477,
-      "integrity": "sha256-IfsDVcc5SpDMwAnvIyUYupKJLazM3NQW/MpHF0Z9jOI=",
-      "width": 4060,
-      "height": 338,
-      "frameCount": 2
+      "bytes": 675567,
+      "integrity": "sha256-FCYh50PRsI61QcwFJC37A2uGN3R4hLnG5tzmrNcxHsI=",
+      "width": 4071,
+      "height": 229,
+      "frameCount": 218
     },
     {
       "profile": "high",

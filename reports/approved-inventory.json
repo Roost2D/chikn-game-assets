@@ -49,12 +49,23 @@
       },
       {
         "source": "sources/unique",
-        "group": "assembled-unique"
+        "group": "assembled-unique",
+        "species": "chikn",
+        "sourceAtlas": {
+          "json": "chikn-unique-Atlas.json",
+          "framePrefix": "chikn/",
+          "unique": true
+        }
       },
       {
         "source": "sources/roostr-unique",
         "group": "assembled-unique",
-        "species": "roostr"
+        "species": "roostr",
+        "sourceAtlas": {
+          "json": "roostr-unique-Atlas.json",
+          "framePrefix": "roostr/",
+          "unique": true
+        }
       },
       {
         "source": "sources/legacy-enemy-flat",
@@ -200,7 +211,7 @@
   "rightsManifest": "manifests/rights-manifest.json",
   "totals": {
     "files": 568,
-    "images": 581,
+    "images": 797,
     "bytes": 45817168
   },
   "files": [
@@ -3047,30 +3058,4364 @@
   ],
   "images": [
     {
-      "assetId": "assembled-unique/chikn-unique-atlas",
-      "aliases": [],
+      "assetId": "assembled-unique/chikn/uniquechiknbayc3604/head",
+      "aliases": [
+        "chikn.rig.uniquechiknbayc3604-head",
+        "unique.chikn.3604.head"
+      ],
       "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
       "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
         "sources/unique/chikn-unique-Atlas.png"
       ],
       "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
         "rights/unique/chikn-unique-atlas-png"
       ],
-      "width": 2016,
-      "height": 332
+      "width": 71,
+      "height": 108
     },
     {
-      "assetId": "assembled-unique/roostr-unique-atlas",
-      "aliases": [],
+      "assetId": "assembled-unique/chikn/uniquechiknbayc3604/legfoot-a",
+      "aliases": [
+        "chikn.rig.uniquechiknbayc3604-legfoota",
+        "unique.chikn.3604.legfoot-a"
+      ],
       "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
       "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 30,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknbayc3604/legfoot-b",
+      "aliases": [
+        "chikn.rig.uniquechiknbayc3604-legfootb",
+        "unique.chikn.3604.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 30,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknbayc3604/leglower-a",
+      "aliases": [
+        "chikn.rig.uniquechiknbayc3604-leglowera",
+        "unique.chikn.3604.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 12,
+      "height": 31
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknbayc3604/leglower-b",
+      "aliases": [
+        "chikn.rig.uniquechiknbayc3604-leglowerb",
+        "unique.chikn.3604.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 12,
+      "height": 31
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknbayc3604/legupper-a",
+      "aliases": [
+        "chikn.rig.uniquechiknbayc3604-leguppera",
+        "unique.chikn.3604.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 40,
+      "height": 42
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknbayc3604/legupper-b",
+      "aliases": [
+        "chikn.rig.uniquechiknbayc3604-legupperb",
+        "unique.chikn.3604.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 40,
+      "height": 42
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknbayc3604/tail",
+      "aliases": [
+        "chikn.rig.uniquechiknbayc3604-tail",
+        "unique.chikn.3604.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 65,
+      "height": 95
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknbayc3604/torso",
+      "aliases": [
+        "chikn.rig.uniquechiknbayc3604-torso",
+        "unique.chikn.3604.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 114,
+      "height": 77
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknbayc3604/wing-a",
+      "aliases": [
+        "chikn.rig.uniquechiknbayc3604-winga",
+        "unique.chikn.3604.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 74,
+      "height": 60
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknbayc3604/wing-b",
+      "aliases": [
+        "chikn.rig.uniquechiknbayc3604-wingb",
+        "unique.chikn.3604.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 74,
+      "height": 60
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikncryptopunk1231/head",
+      "aliases": [
+        "chikn.rig.uniquechikncryptopunk1231-head",
+        "unique.chikn.1231.head"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 67,
+      "height": 103
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikncryptopunk1231/legfoot-a",
+      "aliases": [
+        "chikn.rig.uniquechikncryptopunk1231-legfoota",
+        "unique.chikn.1231.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 30,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikncryptopunk1231/legfoot-b",
+      "aliases": [
+        "chikn.rig.uniquechikncryptopunk1231-legfootb",
+        "unique.chikn.1231.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 30,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikncryptopunk1231/leglower-a",
+      "aliases": [
+        "chikn.rig.uniquechikncryptopunk1231-leglowera",
+        "unique.chikn.1231.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 11,
+      "height": 28
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikncryptopunk1231/leglower-b",
+      "aliases": [
+        "chikn.rig.uniquechikncryptopunk1231-leglowerb",
+        "unique.chikn.1231.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 11,
+      "height": 28
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikncryptopunk1231/legupper-a",
+      "aliases": [
+        "chikn.rig.uniquechikncryptopunk1231-leguppera",
+        "unique.chikn.1231.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 33,
+      "height": 37
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikncryptopunk1231/legupper-b",
+      "aliases": [
+        "chikn.rig.uniquechikncryptopunk1231-legupperb",
+        "unique.chikn.1231.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 33,
+      "height": 37
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikncryptopunk1231/tail",
+      "aliases": [
+        "chikn.rig.uniquechikncryptopunk1231-tail",
+        "unique.chikn.1231.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 66,
+      "height": 87
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikncryptopunk1231/torso",
+      "aliases": [
+        "chikn.rig.uniquechikncryptopunk1231-torso",
+        "unique.chikn.1231.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 113,
+      "height": 80
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikncryptopunk1231/wing-a",
+      "aliases": [
+        "chikn.rig.uniquechikncryptopunk1231-winga",
+        "unique.chikn.1231.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 71,
+      "height": 60
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikncryptopunk1231/wing-b",
+      "aliases": [
+        "chikn.rig.uniquechikncryptopunk1231-wingb",
+        "unique.chikn.1231.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 71,
+      "height": 60
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndegen6969/head",
+      "aliases": [
+        "chikn.rig.uniquechikndegen6969-head",
+        "unique.chikn.6969.head"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 74,
+      "height": 107
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndegen6969/legfoot-a",
+      "aliases": [
+        "chikn.rig.uniquechikndegen6969-legfoota",
+        "unique.chikn.6969.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 31,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndegen6969/legfoot-b",
+      "aliases": [
+        "chikn.rig.uniquechikndegen6969-legfootb",
+        "unique.chikn.6969.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 31,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndegen6969/leglower-a",
+      "aliases": [
+        "chikn.rig.uniquechikndegen6969-leglowera",
+        "unique.chikn.6969.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 13,
+      "height": 32
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndegen6969/leglower-b",
+      "aliases": [
+        "chikn.rig.uniquechikndegen6969-leglowerb",
+        "unique.chikn.6969.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 13,
+      "height": 32
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndegen6969/legupper-a",
+      "aliases": [
+        "chikn.rig.uniquechikndegen6969-leguppera",
+        "unique.chikn.6969.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 34,
+      "height": 38
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndegen6969/legupper-b",
+      "aliases": [
+        "chikn.rig.uniquechikndegen6969-legupperb",
+        "unique.chikn.6969.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 34,
+      "height": 38
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndegen6969/tail",
+      "aliases": [
+        "chikn.rig.uniquechikndegen6969-tail",
+        "unique.chikn.6969.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 63,
+      "height": 102
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndegen6969/torso",
+      "aliases": [
+        "chikn.rig.uniquechikndegen6969-torso",
+        "unique.chikn.6969.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 114,
+      "height": 79
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndegen6969/wing-a",
+      "aliases": [
+        "chikn.rig.uniquechikndegen6969-winga",
+        "unique.chikn.6969.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 72,
+      "height": 60
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndegen6969/wing-b",
+      "aliases": [
+        "chikn.rig.uniquechikndegen6969-wingb",
+        "unique.chikn.6969.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 72,
+      "height": 60
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndirtybird2138/head",
+      "aliases": [
+        "chikn.rig.uniquechikndirtybird2138-head",
+        "unique.chikn.2138.head"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 58,
+      "height": 106
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndirtybird2138/legfoot-a",
+      "aliases": [
+        "chikn.rig.uniquechikndirtybird2138-legfoota",
+        "unique.chikn.2138.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 31,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndirtybird2138/legfoot-b",
+      "aliases": [
+        "chikn.rig.uniquechikndirtybird2138-legfootb",
+        "unique.chikn.2138.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 31,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndirtybird2138/leglower-a",
+      "aliases": [
+        "chikn.rig.uniquechikndirtybird2138-leglowera",
+        "unique.chikn.2138.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 13,
+      "height": 32
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndirtybird2138/leglower-b",
+      "aliases": [
+        "chikn.rig.uniquechikndirtybird2138-leglowerb",
+        "unique.chikn.2138.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 13,
+      "height": 32
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndirtybird2138/legupper-a",
+      "aliases": [
+        "chikn.rig.uniquechikndirtybird2138-leguppera",
+        "unique.chikn.2138.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 34,
+      "height": 38
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndirtybird2138/legupper-b",
+      "aliases": [
+        "chikn.rig.uniquechikndirtybird2138-legupperb",
+        "unique.chikn.2138.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 34,
+      "height": 38
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndirtybird2138/tail",
+      "aliases": [
+        "chikn.rig.uniquechikndirtybird2138-tail",
+        "unique.chikn.2138.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 63,
+      "height": 102
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndirtybird2138/torso",
+      "aliases": [
+        "chikn.rig.uniquechikndirtybird2138-torso",
+        "unique.chikn.2138.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 114,
+      "height": 79
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndirtybird2138/wing-a",
+      "aliases": [
+        "chikn.rig.uniquechikndirtybird2138-winga",
+        "unique.chikn.2138.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 72,
+      "height": 60
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechikndirtybird2138/wing-b",
+      "aliases": [
+        "chikn.rig.uniquechikndirtybird2138-wingb",
+        "unique.chikn.2138.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 72,
+      "height": 60
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknelon4386/head",
+      "aliases": [
+        "chikn.rig.uniquechiknelon4386-head",
+        "unique.chikn.4386.head"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 53,
+      "height": 62
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknelon4386/legfoot-a",
+      "aliases": [
+        "chikn.rig.uniquechiknelon4386-legfoota",
+        "unique.chikn.4386.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 22,
+      "height": 7
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknelon4386/legfoot-b",
+      "aliases": [
+        "chikn.rig.uniquechiknelon4386-legfootb",
+        "unique.chikn.4386.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 22,
+      "height": 7
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknelon4386/leglower-a",
+      "aliases": [
+        "chikn.rig.uniquechiknelon4386-leglowera",
+        "unique.chikn.4386.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 9,
+      "height": 23
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknelon4386/leglower-b",
+      "aliases": [
+        "chikn.rig.uniquechiknelon4386-leglowerb",
+        "unique.chikn.4386.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 9,
+      "height": 23
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknelon4386/legupper-a",
+      "aliases": [
+        "chikn.rig.uniquechiknelon4386-leguppera",
+        "unique.chikn.4386.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 25,
+      "height": 28
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknelon4386/legupper-b",
+      "aliases": [
+        "chikn.rig.uniquechiknelon4386-legupperb",
+        "unique.chikn.4386.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 25,
+      "height": 29
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknelon4386/tail",
+      "aliases": [
+        "chikn.rig.uniquechiknelon4386-tail",
+        "unique.chikn.4386.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 47,
+      "height": 79
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknelon4386/torso",
+      "aliases": [
+        "chikn.rig.uniquechiknelon4386-torso",
+        "unique.chikn.4386.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 85,
+      "height": 80
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknelon4386/wing-a",
+      "aliases": [
+        "chikn.rig.uniquechiknelon4386-winga",
+        "unique.chikn.4386.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 52,
+      "height": 43
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknelon4386/wing-b",
+      "aliases": [
+        "chikn.rig.uniquechiknelon4386-wingb",
+        "unique.chikn.4386.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 52,
+      "height": 43
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknkernel10000/head",
+      "aliases": [
+        "chikn.rig.uniquechiknkernel10000-head",
+        "unique.chikn.10000.head"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 64,
+      "height": 113
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknkernel10000/legfoot-a",
+      "aliases": [
+        "chikn.rig.uniquechiknkernel10000-legfoota",
+        "unique.chikn.10000.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 31,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknkernel10000/legfoot-b",
+      "aliases": [
+        "chikn.rig.uniquechiknkernel10000-legfootb",
+        "unique.chikn.10000.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 31,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknkernel10000/leglower-a",
+      "aliases": [
+        "chikn.rig.uniquechiknkernel10000-leglowera",
+        "unique.chikn.10000.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 13,
+      "height": 32
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknkernel10000/leglower-b",
+      "aliases": [
+        "chikn.rig.uniquechiknkernel10000-leglowerb",
+        "unique.chikn.10000.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 13,
+      "height": 32
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknkernel10000/legupper-a",
+      "aliases": [
+        "chikn.rig.uniquechiknkernel10000-leguppera",
+        "unique.chikn.10000.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 34,
+      "height": 38
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknkernel10000/legupper-b",
+      "aliases": [
+        "chikn.rig.uniquechiknkernel10000-legupperb",
+        "unique.chikn.10000.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 34,
+      "height": 38
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknkernel10000/tail",
+      "aliases": [
+        "chikn.rig.uniquechiknkernel10000-tail",
+        "unique.chikn.10000.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 63,
+      "height": 102
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknkernel10000/torso",
+      "aliases": [
+        "chikn.rig.uniquechiknkernel10000-torso",
+        "unique.chikn.10000.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 114,
+      "height": 79
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknkernel10000/wing-a",
+      "aliases": [
+        "chikn.rig.uniquechiknkernel10000-winga",
+        "unique.chikn.10000.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 72,
+      "height": 60
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknkernel10000/wing-b",
+      "aliases": [
+        "chikn.rig.uniquechiknkernel10000-wingb",
+        "unique.chikn.10000.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 72,
+      "height": 60
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknpepe2757/head",
+      "aliases": [
+        "chikn.rig.uniquechiknpepe2757-head",
+        "unique.chikn.2757.head"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 72,
+      "height": 107
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknpepe2757/legfoot-a",
+      "aliases": [
+        "chikn.rig.uniquechiknpepe2757-legfoota",
+        "unique.chikn.2757.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 31,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknpepe2757/legfoot-b",
+      "aliases": [
+        "chikn.rig.uniquechiknpepe2757-legfootb",
+        "unique.chikn.2757.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 31,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknpepe2757/leglower-a",
+      "aliases": [
+        "chikn.rig.uniquechiknpepe2757-leglowera",
+        "unique.chikn.2757.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 13,
+      "height": 32
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknpepe2757/leglower-b",
+      "aliases": [
+        "chikn.rig.uniquechiknpepe2757-leglowerb",
+        "unique.chikn.2757.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 13,
+      "height": 32
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknpepe2757/legupper-a",
+      "aliases": [
+        "chikn.rig.uniquechiknpepe2757-leguppera",
+        "unique.chikn.2757.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 34,
+      "height": 38
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknpepe2757/legupper-b",
+      "aliases": [
+        "chikn.rig.uniquechiknpepe2757-legupperb",
+        "unique.chikn.2757.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 34,
+      "height": 38
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknpepe2757/tail",
+      "aliases": [
+        "chikn.rig.uniquechiknpepe2757-tail",
+        "unique.chikn.2757.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 63,
+      "height": 102
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknpepe2757/torso",
+      "aliases": [
+        "chikn.rig.uniquechiknpepe2757-torso",
+        "unique.chikn.2757.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 114,
+      "height": 79
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknpepe2757/wing-a",
+      "aliases": [
+        "chikn.rig.uniquechiknpepe2757-winga",
+        "unique.chikn.2757.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 72,
+      "height": 60
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknpepe2757/wing-b",
+      "aliases": [
+        "chikn.rig.uniquechiknpepe2757-wingb",
+        "unique.chikn.2757.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 72,
+      "height": 60
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknspace8312/head",
+      "aliases": [
+        "chikn.rig.uniquechiknspace8312-head",
+        "unique.chikn.8312.head"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 69,
+      "height": 101
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknspace8312/leglower-a",
+      "aliases": [
+        "chikn.rig.uniquechiknspace8312-leglowera",
+        "unique.chikn.8312.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 51,
+      "height": 35
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknspace8312/leglower-b",
+      "aliases": [
+        "chikn.rig.uniquechiknspace8312-leglowerb",
+        "unique.chikn.8312.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 52,
+      "height": 34
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknspace8312/legupper-a",
+      "aliases": [
+        "chikn.rig.uniquechiknspace8312-leguppera",
+        "unique.chikn.8312.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 30,
+      "height": 34
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknspace8312/legupper-b",
+      "aliases": [
+        "chikn.rig.uniquechiknspace8312-legupperb",
+        "unique.chikn.8312.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 30,
+      "height": 34
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknspace8312/legupperaextra1",
+      "aliases": [
+        "chikn.rig.uniquechiknspace8312-legupperaextra1",
+        "unique.chikn.8312.legupperaextra1"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 30,
+      "height": 34
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknspace8312/tail",
+      "aliases": [
+        "chikn.rig.uniquechiknspace8312-tail",
+        "unique.chikn.8312.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 56,
+      "height": 90
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknspace8312/torso",
+      "aliases": [
+        "chikn.rig.uniquechiknspace8312-torso",
+        "unique.chikn.8312.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 101,
+      "height": 80
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknspace8312/wing-a",
+      "aliases": [
+        "chikn.rig.uniquechiknspace8312-winga",
+        "unique.chikn.8312.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 64,
+      "height": 53
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknspace8312/wing-b",
+      "aliases": [
+        "chikn.rig.uniquechiknspace8312-wingb",
+        "unique.chikn.8312.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 64,
+      "height": 53
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknsweatymeatchikn9117/head",
+      "aliases": [
+        "chikn.rig.uniquechiknsweatymeatchikn9117-head",
+        "unique.chikn.9117.head"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 58,
+      "height": 100
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknsweatymeatchikn9117/legfoot-a",
+      "aliases": [
+        "chikn.rig.uniquechiknsweatymeatchikn9117-legfoota",
+        "unique.chikn.9117.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 31,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknsweatymeatchikn9117/legfoot-b",
+      "aliases": [
+        "chikn.rig.uniquechiknsweatymeatchikn9117-legfootb",
+        "unique.chikn.9117.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 31,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknsweatymeatchikn9117/leglower-a",
+      "aliases": [
+        "chikn.rig.uniquechiknsweatymeatchikn9117-leglowera",
+        "unique.chikn.9117.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 13,
+      "height": 32
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknsweatymeatchikn9117/leglower-b",
+      "aliases": [
+        "chikn.rig.uniquechiknsweatymeatchikn9117-leglowerb",
+        "unique.chikn.9117.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 13,
+      "height": 32
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknsweatymeatchikn9117/legupper-a",
+      "aliases": [
+        "chikn.rig.uniquechiknsweatymeatchikn9117-leguppera",
+        "unique.chikn.9117.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 40,
+      "height": 40
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknsweatymeatchikn9117/legupper-b",
+      "aliases": [
+        "chikn.rig.uniquechiknsweatymeatchikn9117-legupperb",
+        "unique.chikn.9117.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 40,
+      "height": 40
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknsweatymeatchikn9117/tail",
+      "aliases": [
+        "chikn.rig.uniquechiknsweatymeatchikn9117-tail",
+        "unique.chikn.9117.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 80,
+      "height": 92
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknsweatymeatchikn9117/torso",
+      "aliases": [
+        "chikn.rig.uniquechiknsweatymeatchikn9117-torso",
+        "unique.chikn.9117.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 114,
+      "height": 79
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknsweatymeatchikn9117/wing-a",
+      "aliases": [
+        "chikn.rig.uniquechiknsweatymeatchikn9117-winga",
+        "unique.chikn.9117.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 67,
+      "height": 70
+    },
+    {
+      "assetId": "assembled-unique/chikn/uniquechiknsweatymeatchikn9117/wing-b",
+      "aliases": [
+        "chikn.rig.uniquechiknsweatymeatchikn9117-wingb",
+        "unique.chikn.9117.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "chikn",
+      "unique": true,
+      "sourcePaths": [
+        "sources/unique/chikn-unique-Atlas.json",
+        "sources/unique/chikn-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/unique/chikn-unique-atlas-json",
+        "rights/unique/chikn-unique-atlas-png"
+      ],
+      "width": 67,
+      "height": 70
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrbeast9130/head",
+      "aliases": [
+        "roostr.rig.uniqueroostrbeast9130-head",
+        "unique.roostr.9130.head"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
         "sources/roostr-unique/roostr-unique-Atlas.png"
       ],
       "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
         "rights/roostr-unique/roostr-unique-atlas-png"
       ],
-      "width": 2029,
-      "height": 302
+      "width": 47,
+      "height": 104
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrbeast9130/legfoot-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrbeast9130-legfoota",
+        "unique.roostr.9130.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 23,
+      "height": 8
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrbeast9130/legfoot-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrbeast9130-legfootb",
+        "unique.roostr.9130.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 23,
+      "height": 8
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrbeast9130/leglower-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrbeast9130-leglowera",
+        "unique.roostr.9130.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 10,
+      "height": 24
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrbeast9130/leglower-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrbeast9130-leglowerb",
+        "unique.roostr.9130.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 10,
+      "height": 24
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrbeast9130/legupper-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrbeast9130-leguppera",
+        "unique.roostr.9130.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 26,
+      "height": 29
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrbeast9130/legupper-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrbeast9130-legupperb",
+        "unique.roostr.9130.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 26,
+      "height": 29
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrbeast9130/tail",
+      "aliases": [
+        "roostr.rig.uniqueroostrbeast9130-tail",
+        "unique.roostr.9130.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 62,
+      "height": 79
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrbeast9130/torso",
+      "aliases": [
+        "roostr.rig.uniqueroostrbeast9130-torso",
+        "unique.roostr.9130.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 82,
+      "height": 60
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrbeast9130/wing-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrbeast9130-winga",
+        "unique.roostr.9130.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 59,
+      "height": 46
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrbeast9130/wing-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrbeast9130-wingb",
+        "unique.roostr.9130.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 59,
+      "height": 46
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcaptain7467/head",
+      "aliases": [
+        "roostr.rig.uniqueroostrcaptain7467-head",
+        "unique.roostr.7467.head"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 75,
+      "height": 95
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcaptain7467/legfoot-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrcaptain7467-legfootb",
+        "unique.roostr.7467.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 22,
+      "height": 7
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcaptain7467/leglower-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrcaptain7467-leglowera",
+        "unique.roostr.7467.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 13,
+      "height": 24
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcaptain7467/leglower-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrcaptain7467-leglowerb",
+        "unique.roostr.7467.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 9,
+      "height": 23
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcaptain7467/legupper-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrcaptain7467-leguppera",
+        "unique.roostr.7467.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 25,
+      "height": 28
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcaptain7467/legupper-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrcaptain7467-legupperb",
+        "unique.roostr.7467.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 25,
+      "height": 28
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcaptain7467/tail",
+      "aliases": [
+        "roostr.rig.uniqueroostrcaptain7467-tail",
+        "unique.roostr.7467.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 54,
+      "height": 72
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcaptain7467/torso",
+      "aliases": [
+        "roostr.rig.uniqueroostrcaptain7467-torso",
+        "unique.roostr.7467.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 78,
+      "height": 61
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcaptain7467/wing-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrcaptain7467-winga",
+        "unique.roostr.7467.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 52,
+      "height": 48
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcaptain7467/wing-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrcaptain7467-wingb",
+        "unique.roostr.7467.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 52,
+      "height": 48
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcaptain7467/wingaextra1",
+      "aliases": [
+        "roostr.rig.uniqueroostrcaptain7467-wingaextra1",
+        "unique.roostr.7467.wingaextra1"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 82,
+      "height": 37
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcutegravy11811/head",
+      "aliases": [
+        "roostr.rig.uniqueroostrcutegravy11811-head",
+        "unique.roostr.11811.head"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 43,
+      "height": 93
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcutegravy11811/legfoot-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrcutegravy11811-legfoota",
+        "unique.roostr.11811.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 22,
+      "height": 7
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcutegravy11811/legfoot-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrcutegravy11811-legfootb",
+        "unique.roostr.11811.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 22,
+      "height": 7
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcutegravy11811/leglower-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrcutegravy11811-leglowera",
+        "unique.roostr.11811.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 9,
+      "height": 23
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcutegravy11811/leglower-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrcutegravy11811-leglowerb",
+        "unique.roostr.11811.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 9,
+      "height": 23
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcutegravy11811/legupper-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrcutegravy11811-leguppera",
+        "unique.roostr.11811.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 30,
+      "height": 29
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcutegravy11811/legupper-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrcutegravy11811-legupperb",
+        "unique.roostr.11811.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 30,
+      "height": 29
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcutegravy11811/tail",
+      "aliases": [
+        "roostr.rig.uniqueroostrcutegravy11811-tail",
+        "unique.roostr.11811.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 55,
+      "height": 74
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcutegravy11811/torso",
+      "aliases": [
+        "roostr.rig.uniqueroostrcutegravy11811-torso",
+        "unique.roostr.11811.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 82,
+      "height": 58
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcutegravy11811/wing-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrcutegravy11811-winga",
+        "unique.roostr.11811.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 52,
+      "height": 43
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrcutegravy11811/wing-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrcutegravy11811-wingb",
+        "unique.roostr.11811.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 52,
+      "height": 43
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgumball2/head",
+      "aliases": [
+        "roostr.rig.uniqueroostrgumball2-head",
+        "unique.roostr.2.head"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 44,
+      "height": 97
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgumball2/legupper-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrgumball2-legupperb",
+        "unique.roostr.2.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 45,
+      "height": 36
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgumball2/tail",
+      "aliases": [
+        "roostr.rig.uniqueroostrgumball2-tail",
+        "unique.roostr.2.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 57,
+      "height": 76
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgumball2/torso",
+      "aliases": [
+        "roostr.rig.uniqueroostrgumball2-torso",
+        "unique.roostr.2.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 81,
+      "height": 61
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgunslinger4433/head",
+      "aliases": [
+        "roostr.rig.uniqueroostrgunslinger4433-head",
+        "unique.roostr.4433.head"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 47,
+      "height": 96
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgunslinger4433/leglower-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrgunslinger4433-leglowera",
+        "unique.roostr.4433.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 37,
+      "height": 24
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgunslinger4433/leglower-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrgunslinger4433-leglowerb",
+        "unique.roostr.4433.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 35,
+      "height": 22
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgunslinger4433/legupper-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrgunslinger4433-leguppera",
+        "unique.roostr.4433.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 25,
+      "height": 28
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgunslinger4433/legupper-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrgunslinger4433-legupperb",
+        "unique.roostr.4433.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 25,
+      "height": 28
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgunslinger4433/tail",
+      "aliases": [
+        "roostr.rig.uniqueroostrgunslinger4433-tail",
+        "unique.roostr.4433.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 58,
+      "height": 71
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgunslinger4433/torso",
+      "aliases": [
+        "roostr.rig.uniqueroostrgunslinger4433-torso",
+        "unique.roostr.4433.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 79,
+      "height": 61
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgunslinger4433/wing-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrgunslinger4433-winga",
+        "unique.roostr.4433.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 52,
+      "height": 44
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgunslinger4433/wing-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrgunslinger4433-wingb",
+        "unique.roostr.4433.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 52,
+      "height": 44
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrgunslinger4433/wingaextra1",
+      "aliases": [
+        "roostr.rig.uniqueroostrgunslinger4433-wingaextra1",
+        "unique.roostr.4433.wingaextra1"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 25,
+      "height": 31
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq10160/head",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq10160-head",
+        "unique.roostr.10160.head"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 46,
+      "height": 94
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq10160/legfoot-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq10160-legfoota",
+        "unique.roostr.10160.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 22,
+      "height": 7
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq10160/legfoot-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq10160-legfootb",
+        "unique.roostr.10160.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 22,
+      "height": 7
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq10160/leglower-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq10160-leglowera",
+        "unique.roostr.10160.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 9,
+      "height": 23
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq10160/leglower-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq10160-leglowerb",
+        "unique.roostr.10160.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 9,
+      "height": 23
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq10160/legupper-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq10160-leguppera",
+        "unique.roostr.10160.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 25,
+      "height": 28
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq10160/legupper-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq10160-legupperb",
+        "unique.roostr.10160.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 25,
+      "height": 28
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq10160/tail",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq10160-tail",
+        "unique.roostr.10160.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 55,
+      "height": 74
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq10160/torso",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq10160-torso",
+        "unique.roostr.10160.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 80,
+      "height": 61
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq10160/wing-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq10160-winga",
+        "unique.roostr.10160.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 54,
+      "height": 45
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq10160/wing-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq10160-wingb",
+        "unique.roostr.10160.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 54,
+      "height": 45
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq6282/head",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq6282-head",
+        "unique.roostr.6282.head"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 46,
+      "height": 94
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq6282/legfoot-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq6282-legfoota",
+        "unique.roostr.6282.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 22,
+      "height": 7
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq6282/legfoot-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq6282-legfootb",
+        "unique.roostr.6282.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 22,
+      "height": 7
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq6282/leglower-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq6282-leglowera",
+        "unique.roostr.6282.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 9,
+      "height": 23
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq6282/leglower-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq6282-leglowerb",
+        "unique.roostr.6282.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 9,
+      "height": 23
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq6282/legupper-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq6282-leguppera",
+        "unique.roostr.6282.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 25,
+      "height": 28
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq6282/legupper-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq6282-legupperb",
+        "unique.roostr.6282.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 25,
+      "height": 28
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq6282/tail",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq6282-tail",
+        "unique.roostr.6282.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 55,
+      "height": 74
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq6282/torso",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq6282-torso",
+        "unique.roostr.6282.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 80,
+      "height": 61
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq6282/wing-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq6282-winga",
+        "unique.roostr.6282.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 54,
+      "height": 45
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrhypnocoq6282/wing-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrhypnocoq6282-wingb",
+        "unique.roostr.6282.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 54,
+      "height": 45
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrlava1/head",
+      "aliases": [
+        "roostr.rig.uniqueroostrlava1-head",
+        "unique.roostr.1.head"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 54,
+      "height": 95
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrlava1/legfoot-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrlava1-legfoota",
+        "unique.roostr.1.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 21,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrlava1/legfoot-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrlava1-legfootb",
+        "unique.roostr.1.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 21,
+      "height": 10
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrlava1/leglower-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrlava1-leglowera",
+        "unique.roostr.1.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 9,
+      "height": 22
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrlava1/leglower-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrlava1-leglowerb",
+        "unique.roostr.1.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 9,
+      "height": 22
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrlava1/legupper-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrlava1-leguppera",
+        "unique.roostr.1.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 24,
+      "height": 27
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrlava1/legupper-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrlava1-legupperb",
+        "unique.roostr.1.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 24,
+      "height": 27
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrlava1/tail",
+      "aliases": [
+        "roostr.rig.uniqueroostrlava1-tail",
+        "unique.roostr.1.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 57,
+      "height": 69
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrlava1/torso",
+      "aliases": [
+        "roostr.rig.uniqueroostrlava1-torso",
+        "unique.roostr.1.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 76,
+      "height": 61
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrlava1/wing-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrlava1-winga",
+        "unique.roostr.1.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 52,
+      "height": 43
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrlava1/wing-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrlava1-wingb",
+        "unique.roostr.1.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 52,
+      "height": 43
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantblue3/head",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantblue3-head",
+        "unique.roostr.3.head"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 53,
+      "height": 98
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantblue3/legfoot-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantblue3-legfoota",
+        "unique.roostr.3.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 23,
+      "height": 8
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantblue3/legfoot-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantblue3-legfootb",
+        "unique.roostr.3.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 23,
+      "height": 8
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantblue3/leglower-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantblue3-leglowera",
+        "unique.roostr.3.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 11,
+      "height": 24
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantblue3/leglower-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantblue3-leglowerb",
+        "unique.roostr.3.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 11,
+      "height": 24
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantblue3/legupper-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantblue3-leguppera",
+        "unique.roostr.3.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 26,
+      "height": 29
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantblue3/legupper-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantblue3-legupperb",
+        "unique.roostr.3.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 26,
+      "height": 29
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantblue3/tail",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantblue3-tail",
+        "unique.roostr.3.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 66,
+      "height": 83
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantblue3/torso",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantblue3-torso",
+        "unique.roostr.3.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 82,
+      "height": 61
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantblue3/wing-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantblue3-winga",
+        "unique.roostr.3.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 58,
+      "height": 47
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantblue3/wing-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantblue3-wingb",
+        "unique.roostr.3.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 58,
+      "height": 47
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantgreen8375/head",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantgreen8375-head",
+        "unique.roostr.8375.head"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 53,
+      "height": 98
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantgreen8375/legfoot-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantgreen8375-legfoota",
+        "unique.roostr.8375.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 23,
+      "height": 8
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantgreen8375/legfoot-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantgreen8375-legfootb",
+        "unique.roostr.8375.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 23,
+      "height": 8
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantgreen8375/leglower-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantgreen8375-leglowera",
+        "unique.roostr.8375.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 11,
+      "height": 24
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantgreen8375/leglower-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantgreen8375-leglowerb",
+        "unique.roostr.8375.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 11,
+      "height": 24
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantgreen8375/legupper-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantgreen8375-leguppera",
+        "unique.roostr.8375.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 26,
+      "height": 29
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantgreen8375/legupper-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantgreen8375-legupperb",
+        "unique.roostr.8375.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 26,
+      "height": 29
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantgreen8375/tail",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantgreen8375-tail",
+        "unique.roostr.8375.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 66,
+      "height": 83
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantgreen8375/torso",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantgreen8375-torso",
+        "unique.roostr.8375.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 82,
+      "height": 61
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantgreen8375/wing-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantgreen8375-winga",
+        "unique.roostr.8375.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 58,
+      "height": 47
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrmutantgreen8375/wing-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrmutantgreen8375-wingb",
+        "unique.roostr.8375.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 58,
+      "height": 47
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrrobot5524/head",
+      "aliases": [
+        "roostr.rig.uniqueroostrrobot5524-head",
+        "unique.roostr.5524.head"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 34,
+      "height": 67
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrrobot5524/legupper-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrrobot5524-leguppera",
+        "unique.roostr.5524.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 75,
+      "height": 27
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrrobot5524/legupper-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrrobot5524-legupperb",
+        "unique.roostr.5524.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 75,
+      "height": 27
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrrobot5524/tail",
+      "aliases": [
+        "roostr.rig.uniqueroostrrobot5524-tail",
+        "unique.roostr.5524.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 55,
+      "height": 58
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrrobot5524/torso",
+      "aliases": [
+        "roostr.rig.uniqueroostrrobot5524-torso",
+        "unique.roostr.5524.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 82,
+      "height": 46
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrrobot5524/wing-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrrobot5524-winga",
+        "unique.roostr.5524.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 46,
+      "height": 37
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrrobot5524/wing-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrrobot5524-wingb",
+        "unique.roostr.5524.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 46,
+      "height": 37
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrsplit5845/head",
+      "aliases": [
+        "roostr.rig.uniqueroostrsplit5845-head",
+        "unique.roostr.5845.head"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 84,
+      "height": 93
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrsplit5845/legfoot-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrsplit5845-legfoota",
+        "unique.roostr.5845.legfoot-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 25,
+      "height": 7
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrsplit5845/legfoot-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrsplit5845-legfootb",
+        "unique.roostr.5845.legfoot-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 25,
+      "height": 7
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrsplit5845/leglower-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrsplit5845-leglowera",
+        "unique.roostr.5845.leglower-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 11,
+      "height": 23
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrsplit5845/leglower-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrsplit5845-leglowerb",
+        "unique.roostr.5845.leglower-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 11,
+      "height": 23
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrsplit5845/legupper-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrsplit5845-leguppera",
+        "unique.roostr.5845.legupper-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 26,
+      "height": 29
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrsplit5845/legupper-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrsplit5845-legupperb",
+        "unique.roostr.5845.legupper-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 26,
+      "height": 29
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrsplit5845/tail",
+      "aliases": [
+        "roostr.rig.uniqueroostrsplit5845-tail",
+        "unique.roostr.5845.tail"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 61,
+      "height": 75
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrsplit5845/torso",
+      "aliases": [
+        "roostr.rig.uniqueroostrsplit5845-torso",
+        "unique.roostr.5845.torso"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 80,
+      "height": 61
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrsplit5845/wing-a",
+      "aliases": [
+        "roostr.rig.uniqueroostrsplit5845-winga",
+        "unique.roostr.5845.wing-a"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 58,
+      "height": 46
+    },
+    {
+      "assetId": "assembled-unique/roostr/uniqueroostrsplit5845/wing-b",
+      "aliases": [
+        "roostr.rig.uniqueroostrsplit5845-wingb",
+        "unique.roostr.5845.wing-b"
+      ],
+      "group": "assembled-unique",
+      "species": "roostr",
+      "unique": true,
+      "sourcePaths": [
+        "sources/roostr-unique/roostr-unique-Atlas.json",
+        "sources/roostr-unique/roostr-unique-Atlas.png"
+      ],
+      "rightsIds": [
+        "rights/roostr-unique/roostr-unique-atlas-json",
+        "rights/roostr-unique/roostr-unique-atlas-png"
+      ],
+      "width": 58,
+      "height": 46
     },
     {
       "assetId": "chikn-flat/runright01",
@@ -3078,6 +7423,8 @@
         "chikn.rig.runright01"
       ],
       "group": "chikn-flat",
+      "species": "chikn",
+      "unique": false,
       "sourcePaths": [
         "sources/chikn-atlas/chikn-Atlas.json",
         "sources/chikn-atlas/chikn-Atlas.png"
@@ -3095,6 +7442,8 @@
         "chikn.rig.runright02"
       ],
       "group": "chikn-flat",
+      "species": "chikn",
+      "unique": false,
       "sourcePaths": [
         "sources/chikn-atlas/chikn-Atlas.json",
         "sources/chikn-atlas/chikn-Atlas.png"
@@ -3112,6 +7461,8 @@
         "chikn.rig.runright03"
       ],
       "group": "chikn-flat",
+      "species": "chikn",
+      "unique": false,
       "sourcePaths": [
         "sources/chikn-atlas/chikn-Atlas.json",
         "sources/chikn-atlas/chikn-Atlas.png"
@@ -3129,6 +7480,8 @@
         "chikn.rig.runright04"
       ],
       "group": "chikn-flat",
+      "species": "chikn",
+      "unique": false,
       "sourcePaths": [
         "sources/chikn-atlas/chikn-Atlas.json",
         "sources/chikn-atlas/chikn-Atlas.png"
@@ -7458,6 +11811,7 @@
       "assetId": "farmland/overlays/barn-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7473,6 +11827,7 @@
       "assetId": "farmland/overlays/bighole-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7488,6 +11843,7 @@
       "assetId": "farmland/overlays/chiknmountain-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7503,6 +11859,7 @@
       "assetId": "farmland/overlays/coqroqs-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7518,6 +11875,7 @@
       "assetId": "farmland/overlays/corn-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7533,6 +11891,7 @@
       "assetId": "farmland/overlays/excalibur-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7548,6 +11907,7 @@
       "assetId": "farmland/overlays/goldmine-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7563,6 +11923,7 @@
       "assetId": "farmland/overlays/golf-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7578,6 +11939,7 @@
       "assetId": "farmland/overlays/grass-mushrooms-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7593,6 +11955,7 @@
       "assetId": "farmland/overlays/grass-trees-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7608,6 +11971,7 @@
       "assetId": "farmland/overlays/graveyard-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7623,6 +11987,7 @@
       "assetId": "farmland/overlays/meadow-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7638,6 +12003,7 @@
       "assetId": "farmland/overlays/mountain-crystal-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7653,6 +12019,7 @@
       "assetId": "farmland/overlays/mountain-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7668,6 +12035,7 @@
       "assetId": "farmland/overlays/orchard-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7683,6 +12051,7 @@
       "assetId": "farmland/overlays/pond-circle-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7698,6 +12067,7 @@
       "assetId": "farmland/overlays/pond-corner-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7713,6 +12083,7 @@
       "assetId": "farmland/overlays/pyramid-annuit-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7728,6 +12099,7 @@
       "assetId": "farmland/overlays/pyramid-avax-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7743,6 +12115,7 @@
       "assetId": "farmland/overlays/red-windmill-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7758,6 +12131,7 @@
       "assetId": "farmland/overlays/roqs-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7773,6 +12147,7 @@
       "assetId": "farmland/overlays/ruin-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7788,6 +12163,7 @@
       "assetId": "farmland/overlays/smallfarm-corn-fence-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7803,6 +12179,7 @@
       "assetId": "farmland/overlays/smallfarm-corn-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7818,6 +12195,7 @@
       "assetId": "farmland/overlays/smallfarm-wheat-fence-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7833,6 +12211,7 @@
       "assetId": "farmland/overlays/smallfarm-wheat-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7848,6 +12227,7 @@
       "assetId": "farmland/overlays/tungsten-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7863,6 +12243,7 @@
       "assetId": "farmland/overlays/water-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7878,6 +12259,7 @@
       "assetId": "farmland/overlays/wheat-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"
@@ -7893,6 +12275,7 @@
       "assetId": "farmland/overlays/woods-overlay",
       "aliases": [],
       "group": "farmland",
+      "unique": false,
       "sourcePaths": [
         "sources/farmland/overlays/overlays_atlas_high.json",
         "sources/farmland/overlays/overlays_atlas_high.png"

@@ -10,15 +10,15 @@
   },
   "releases": {
     "expectedSourceArchiveBytes": 45817168,
-    "expectedRuntimeArchiveBytes": 48513483
+    "expectedRuntimeArchiveBytes": 49076102
   },
   "runtime": {
-    "totalBytes": 48513483,
+    "totalBytes": 49076102,
     "atlasPages": [
       {
         "profile": "default",
         "path": "runtime/atlases/default/assembled-unique-001.png",
-        "bytes": 199400
+        "bytes": 188748
       },
       {
         "profile": "default",
@@ -93,7 +93,7 @@
       {
         "profile": "high",
         "path": "runtime/atlases/high/assembled-unique-001.png",
-        "bytes": 704477
+        "bytes": 675567
       },
       {
         "profile": "high",

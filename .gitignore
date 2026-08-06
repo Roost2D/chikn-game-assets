@@ -6,6 +6,7 @@ coverage/
 /runtime/
 .repro-runtime-a/
 .release/
+dist-pack/
 packages/runtime/runtime/
 packages/runtime/sources/
 packages/runtime/reports/
