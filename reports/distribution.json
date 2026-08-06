@@ -2,11 +2,11 @@
   "schema": "chikn-game-assets.distribution/v1",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "lfs": {
-    "logicalFiles": 1302,
-    "logicalBytes": 89219975,
-    "uniqueObjects": 562,
-    "storageBytes": 47870797,
-    "expectedFreshCloneBytes": 89219975
+    "logicalFiles": 560,
+    "logicalBytes": 46045658,
+    "uniqueObjects": 560,
+    "storageBytes": 46045658,
+    "expectedFreshCloneBytes": 46045658
   },
   "releases": {
     "expectedSourceArchiveBytes": 45817168,
