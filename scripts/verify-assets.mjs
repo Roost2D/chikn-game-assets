@@ -11,14 +11,29 @@ const rightsBytes = await readFile(resolve('manifests/rights-manifest.json'));
 const rights = JSON.parse(rightsBytes.toString('utf8'));
 const sourceSelection = JSON.parse(await readFile(resolve('config/source-selection.json'), 'utf8'));
 const rightsIds = new Set(rights.assets.map(({ id }) => id));
+const rightsById = new Map(rights.assets.map((asset) => [asset.id, asset]));
 const excludedPaths = new Set(rights.excludedPaths ?? []);
 if (manifest.rightsDocumentSha256 !== sha256(rightsBytes)) errors.push('Runtime manifest rightsDocumentSha256 does not match the rights manifest');
 for (const file of manifest.files) {
   if (!file.rightsIds?.length) errors.push(`${file.id}: missing source rights lineage`);
   for (const id of file.rightsIds ?? []) if (!rightsIds.has(id)) errors.push(`${file.id}: unknown rights id ${id}`);
-  if (file.license !== 'CHIKN-COMMUNITY-NONCOMMERCIAL' || file.commercialUse !== 'separate-agreement-required') errors.push(`${file.id}: incomplete runtime community-terms metadata`);
-  if (file.ownership !== 'third-party-chikn-rights-holder' || file.hostingAuthorized !== true || file.communityUseAuthorized !== true || file.sublicenseGrantedByRepository !== false) errors.push(`${file.id}: incomplete runtime ownership/community-use metadata`);
+  if (file.license === 'CHIKN-COMMUNITY-NONCOMMERCIAL') {
+    if (file.commercialUse !== 'separate-agreement-required') errors.push(`${file.id}: incomplete runtime community-terms metadata`);
+    if (file.ownership !== 'third-party-chikn-rights-holder' || file.hostingAuthorized !== true || file.communityUseAuthorized !== true || file.sublicenseGrantedByRepository !== false) errors.push(`${file.id}: incomplete runtime ownership/community-use metadata`);
+  } else if (file.license === 'Apache-2.0') {
+    if (file.commercialUse !== 'allowed' || !file.attribution?.includes('Roost2D project artwork')) errors.push(`${file.id}: incomplete runtime project-artwork metadata`);
+    if (file.ownership !== undefined || file.hostingAuthorized !== undefined || file.communityUseAuthorized !== undefined || file.sublicenseGrantedByRepository !== undefined) errors.push(`${file.id}: Apache project artwork carries protected-content fields`);
+    const imageRights = (file.rightsIds ?? []).map((id) => rightsById.get(id)).filter((record) => /\.(?:png|jpe?g)$/i.test(record?.sourcePath ?? ''));
+    if (!imageRights.length || imageRights.some((record) => record.license !== 'Apache-2.0')) errors.push(`${file.id}: Apache runtime artwork lacks Apache source lineage`);
+  } else errors.push(`${file.id}: unsupported runtime content terms`);
 }
+const licensesByAtlasPage = new Map();
+for (const file of manifest.files) for (const variant of file.variants ?? []) {
+  const licenses = licensesByAtlasPage.get(variant.path) ?? new Set();
+  licenses.add(file.license);
+  licensesByAtlasPage.set(variant.path, licenses);
+}
+for (const [path, licenses] of licensesByAtlasPage) if (licenses.size > 1) errors.push(`${path}: protected and Apache project artwork must not share an atlas page`);
 const lineage = JSON.parse(await readFile(resolve('reports/source-runtime-lineage.json'), 'utf8'));
 if (lineage.assets.length !== manifest.files.length) errors.push('Source-to-runtime lineage does not cover every logical asset');
 for (const entry of lineage.assets) {
@@ -26,12 +41,22 @@ for (const entry of lineage.assets) {
   for (const sourcePath of entry.sourcePaths ?? []) if (excludedPaths.has(sourcePath)) errors.push(`${entry.assetId}: excluded project material reached runtime output`);
 }
 if (manifest.bundles.some(({ id }) => id === 'legacy-enemy-flat')) errors.push('Legacy project material must not be a published runtime bundle');
-for (const selection of sourceSelection.roots.filter(({ group }) => /^(?:chikn|roostr)-(?:rig|traits)$/.test(group))) if (!selection.rigAliases) errors.push(`${selection.group}: rig-compatible sources must publish logical rig aliases`);
+for (const selection of sourceSelection.roots.filter(({ group }) => /^(?:chikn|roostr)-(?:flat|traits)$/.test(group))) if (!selection.rigAliases) errors.push(`${selection.group}: rig-compatible sources must publish logical rig aliases`);
 for (const [assetId, aliases] of Object.entries(sourceSelection.additionalAliases ?? {})) {
   const file = manifest.files.find(({ id }) => id === assetId);
   if (!file) errors.push(`Additional aliases reference unknown asset ${assetId}`);
   for (const alias of aliases) if (!file?.aliases?.includes(alias)) errors.push(`${assetId}: missing configured alias ${alias}`);
 }
+const aliasConfig = JSON.parse(await readFile(resolve('config/asset-aliases.json'), 'utf8'));
+for (const [assetId, aliases] of Object.entries(aliasConfig.aliases ?? {})) {
+  const file = manifest.files.find(({ id }) => id === assetId);
+  if (!file) errors.push(`Compatibility aliases reference unknown canonical asset ${assetId}`);
+  for (const alias of aliases) if (!file?.aliases?.includes(alias)) errors.push(`${assetId}: missing compatibility alias ${alias}`);
+}
+for (const bundleId of ['chikn-flat', 'chikn-rig', 'chikn-traits', 'roostr-flat', 'roostr-rig', 'roostr-traits']) if (!manifest.bundles.some(({ id }) => id === bundleId)) errors.push(`Missing compatibility bundle ${bundleId}`);
+const swimRing = manifest.files.find(({ id, aliases }) => id === 'farmland/water-swim-ring-coq' || aliases?.includes('farmland/water-swim-ring-coq'));
+if (swimRing?.license !== 'Apache-2.0') errors.push('water_swim_ring_coq.png must be published as Apache-2.0 project artwork');
+if (!swimRing) errors.push('water_swim_ring_coq.png is missing from runtime output');
 if (errors.length) throw new Error(errors.join('\n'));
 const runtimeFiles = await walk(resolve('runtime'));
 for (const file of runtimeFiles) {

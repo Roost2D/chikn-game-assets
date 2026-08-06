@@ -1,20 +1,27 @@
 # Chikn Game Assets
 
-This repository hosts Chikn, Roostr, and FarmLand visual artwork for community non-commercial use as individually classified sources plus deterministic `default` and `high` runtime atlases. It also publishes the small Apache-2.0 `@chikn-game-assets/runtime` helper for finding and loading a caller-hosted release.
+This repository hosts the official Chikn, Roostr, and FarmLand visual corpus for community non-commercial use as individually classified sources plus deterministic `default` and `high` runtime atlases. It also publishes the small Apache-2.0 `@chikn-game-assets/runtime` helper and a narrowly classified project-art exception.
 
-> Chikn, Roostr and FarmLand visual assets remain owned by their respective rights holder. They are hosted here with permission for community non-commercial use. This repository does not grant a commercial licence. Commercial use requires a separate agreement with the Chikn team.
+> Official Chikn, Roostr and FarmLand visual assets remain owned by their respective rights holder. Protected entries are hosted here with permission for community non-commercial use. This repository does not grant a commercial licence for those entries. Commercial use requires a separate agreement with the Chikn team; explicitly Apache-2.0 project entries are outside that restriction.
 
 ## What belongs to Chikn
 
-Chikn, Roostr, and FarmLand visual artwork is represented as protected Chikn content. Classified files use `license: "CHIKN-COMMUNITY-NONCOMMERCIAL"` and retain SHA-256 hashes in [`manifests/rights-manifest.json`](manifests/rights-manifest.json) for technical integrity and runtime lineage. The identifier points to Chikn's existing community terms; it is not a new licence or sublicense created by this repository.
+Official Chikn, Roostr, and FarmLand visual artwork is represented as protected Chikn content. Classified files use `license: "CHIKN-COMMUNITY-NONCOMMERCIAL"` and retain SHA-256 hashes in [`manifests/rights-manifest.json`](manifests/rights-manifest.json) for technical integrity and runtime lineage. The identifier points to Chikn's existing community terms; it is not a new licence or sublicense created by this repository.
 
 The following are not Chikn property:
 
 - rig definitions, transforms, attachment mappings, and animation timing data;
 - engine/runtime code, schemas, manifests, atlas-coordinate JSON, build scripts, and documentation;
-- unrelated project/demo material such as `eggorithm.png`.
+- `water_swim_ring_coq.png`, which is published project artwork classified as Apache-2.0;
+- unrelated repository-only material such as `eggorithm.png`, which is excluded from every release artifact.
 
-Project-created code and metadata are Apache-2.0. Excluded project images are listed in `excludedPaths` and cannot enter published source/runtime artifacts. The Chikn/Roostr artwork displayed by a rig remains protected even though the rig structure and animation data are separate project work.
+Project-created code, metadata, and the explicitly listed swim-ring artwork are Apache-2.0. Other excluded project images are listed in `excludedPaths` and cannot enter published source/runtime artifacts. The Chikn/Roostr artwork displayed by a rig remains protected even though the rig structure and animation data are separate project work.
+
+## Canonical source layout
+
+The Chikn and Roostr corpus deliberately keeps only two representations: retained source atlas PNG/JSON pairs under `sources/chikn-atlas` and `sources/roostr-atlas`, plus categorized high-resolution individual files under `sources/traits-chikn` and `sources/traits-roostr`. Base/body parts missing from the old trait folders live under each `Base/` directory.
+
+The former `chikn-flat`, `roostr-flat`, `rig-chikn`, and `rig-roostr` copy trees were removed. Exact same-byte files are stored once and represented by aliases from [`config/asset-aliases.json`](config/asset-aliases.json). Existing IDs such as `chikn-flat/admiral`, legacy rig IDs, and dotted `chikn.rig.*`/`roostr.rig.*` references remain supported; consumers should resolve IDs through the manifest/runtime helper and never infer paths from the source tree.
 
 Read the [community asset notice](CHIKN-COMMUNITY-ASSET-NOTICE.md), [attribution guidance](ATTRIBUTION.md), and [commercial-use boundary](COMMERCIAL_USE.md) before using the hosted content.
 
@@ -24,7 +31,7 @@ Read the [community asset notice](CHIKN-COMMUNITY-ASSET-NOTICE.md), [attribution
 | --- | --- | --- |
 | `@chikn-game-assets/runtime` | TypeScript types, loader helpers, asset/bundle ID catalog, legal notices; no images | your application needs stable IDs and an explicit manifest URL |
 | `chikn-game-assets-vX.Y.Z-runtime.zip` | `runtime/manifest.json`, integrity metadata, generated `default`/`high` atlas PNG/JSON | a game needs immutable, CDN-ready runtime content |
-| `chikn-game-assets-vX.Y.Z-sources.zip` | classified individual sources, source atlases, project metadata, rights manifest, notices, docs | an editor/build pipeline needs originals or an auditor needs source-to-runtime lineage |
+| `chikn-game-assets-vX.Y.Z-sources.zip` | canonical individual traits/base parts, source atlases, classified project artwork/metadata, rights manifest, notices, docs | an editor/build pipeline needs originals or an auditor needs source-to-runtime lineage |
 
 The split keeps npm installs small, prevents a package from silently choosing a production host, makes the community-use boundary visible, and lets applications pin, mirror, or replace an immutable image release independently from engine code. Roost2D works without this content pack and can be used with independently licensed replacement artwork.
 

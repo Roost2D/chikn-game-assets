@@ -16,6 +16,14 @@
     "attribution": "Roost2D project metadata — Apache-2.0.",
     "approved": true
   },
+  "projectVisuals": {
+    "paths": ["sources/farmland/water_swim_ring_coq.png"],
+    "category": "project-artwork",
+    "license": "Apache-2.0",
+    "commercialUse": "allowed",
+    "attribution": "Roost2D project artwork — Apache-2.0.",
+    "approved": true
+  },
   "excludedPathsNote": "Repository-only quarantine: these paths are public in Git/LFS but excluded from canonical runtime, npm, and release artifacts. The retained legacy animation JSON files may reference excluded PNGs while legacy-enemy-flat remains runtime-disabled.",
   "excludedPaths": [
     "sources/legacy-enemy-flat/eggorithm.png",
@@ -26,15 +34,11 @@
     "sources/legacy-enemy-flat/placeholder_chikn.png",
     "sources/legacy-enemy-flat/placeholder_roostr.png",
     "sources/legacy-enemy-flat/rolling_egg.png",
-    "sources/legacy-enemy-flat/RoostrRunr.png",
-    "sources/rig-chikn/RigAssemblyRef.jpg",
-    "sources/rig-roostr/RigAssemblyRef.jpg"
+    "sources/legacy-enemy-flat/RoostrRunr.png"
   ],
   "categories": {
-    "chikn-flat": "assembled-character",
-    "roostr-flat": "assembled-character",
-    "rig-chikn": "character-rig-part",
-    "rig-roostr": "character-rig-part",
+    "chikn-atlas": "character-source-atlas",
+    "roostr-atlas": "character-source-atlas",
     "traits-chikn": "character-trait",
     "traits-roostr": "character-trait",
     "unique": "unique-character",

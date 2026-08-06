@@ -21,7 +21,7 @@ export interface ChiknAssetManifest {
   generatedAt: string;
   rightsDocumentSha256: string;
   profiles: Record<AssetProfileId, { maxAtlasSize: number; scale: number; gpuBudgetBytes: number }>;
-  files: Array<{ id: string; aliases?: string[]; kind?: string; mediaType: string; license?: 'CHIKN-COMMUNITY-NONCOMMERCIAL' | 'Apache-2.0'; ownership?: 'third-party-chikn-rights-holder'; hostingAuthorized?: boolean; communityUseAuthorized?: boolean; sublicenseGrantedByRepository?: false; commercialUse?: string; rightsIds?: string[]; variants: Array<{ profile: AssetProfileId; path: string; bytes: number; integrity: { algorithm: 'sha256'; value: string }; scale: number; frameId?: string; frame?: { x: number; y: number; width: number; height: number; sourceWidth: number; sourceHeight: number } }> }>;
+  files: Array<{ id: string; aliases?: string[]; kind?: string; mediaType: string; license?: 'CHIKN-COMMUNITY-NONCOMMERCIAL' | 'Apache-2.0'; ownership?: 'third-party-chikn-rights-holder'; hostingAuthorized?: boolean; communityUseAuthorized?: boolean; sublicenseGrantedByRepository?: false; commercialUse?: string; attribution?: string; rightsIds?: string[]; variants: Array<{ profile: AssetProfileId; path: string; bytes: number; integrity: { algorithm: 'sha256'; value: string }; scale: number; frameId?: string; frame?: { x: number; y: number; width: number; height: number; sourceWidth: number; sourceHeight: number } }> }>;
   bundles: Array<{ id: string; lazy: boolean; preload?: boolean; estimatedGpuBytes?: number; items: Array<{ assetId: string; required: boolean; fallbackAssetId?: string }> }>;
 }
 
@@ -90,7 +90,7 @@ export async function loadChiknPack(options: LoadChiknPackOptions): Promise<Load
     ? ensureDirectoryUrl(options.assetBaseUrl)
     : options.baseUrl ? ensureDirectoryUrl(options.baseUrl) : undefined;
   const manifest = await fetchManifestUrl(manifestUrl, options.fetch, { expectedManifestSha256: options.expectedManifestSha256 });
-  const ids = manifest.files.map(({ id }) => id);
+  const ids = [...new Set(manifest.files.flatMap(({ id, aliases = [] }) => [id, ...aliases]))];
   const index = new Map(manifest.files.map((file) => [file.id, file]));
   for (const file of manifest.files) for (const alias of file.aliases ?? []) index.set(alias, file);
   return { manifest, manifestUrl, assetBaseUrl, profile: options.profile ?? 'default', assetIds: ids, bundleIds: manifest.bundles.map(({ id }) => id), findAsset: (id) => index.get(id) };

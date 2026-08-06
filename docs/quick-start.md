@@ -66,6 +66,8 @@ window.addEventListener('beforeunload', () => {
 });
 ```
 
+`chikn-flat/admiral` is a stable compatibility alias. The deduplicated source file lives in the trait tree, but callers should keep using catalog/manifest IDs and must not translate the alias into a filesystem path.
+
 Run `npm run dev`. `LazyAssetLoader` validates byte size and SHA-256; `PixiAssetLoader` returns only the requested crop while sharing its atlas page.
 
 ## 4. Find content

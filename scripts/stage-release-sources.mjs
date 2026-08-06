@@ -11,7 +11,7 @@ await assertSafeTargetBeforeRemoval();
 
 const manifest = JSON.parse(await readFile(resolve('manifests/rights-manifest.json'), 'utf8'));
 const budgets = JSON.parse(await readFile(resolve('config/budgets.json'), 'utf8'));
-for (const required of ['README.md', 'INTEGRATION.md', 'AGENTS.md', 'llms.txt', 'ASSET_CONTRIBUTIONS.md', 'SECURITY.md', 'CHIKN-COMMUNITY-ASSET-NOTICE.md', 'docs/quick-start.md', 'docs/rights.md', 'docs/distribution.md']) {
+for (const required of ['README.md', 'INTEGRATION.md', 'AGENTS.md', 'llms.txt', 'ASSET_CONTRIBUTIONS.md', 'SECURITY.md', 'CHIKN-COMMUNITY-ASSET-NOTICE.md', 'config/source-selection.json', 'config/asset-aliases.json', 'config/rights-policy.json', 'docs/quick-start.md', 'docs/rights.md', 'docs/distribution.md']) {
   const contents = await readFile(resolve(required), 'utf8').catch(() => '');
   if (contents.trim().length < 200) throw new Error(`Missing or incomplete release integration document: ${required}`);
 }
@@ -25,7 +25,7 @@ const sourcesRoot = await realpath(resolve('sources'));
 for (const asset of manifest.assets ?? []) {
   await copyManifestAsset(asset.sourcePath);
 }
-for (const path of ['manifests/rights-manifest.json', 'README.md', 'INTEGRATION.md', 'AGENTS.md', 'llms.txt', 'ASSET_CONTRIBUTIONS.md', 'SECURITY.md', 'LICENSE', 'LICENSE-CODE', 'CHIKN-COMMUNITY-ASSET-NOTICE.md', 'ATTRIBUTION.md', 'COMMERCIAL_USE.md', 'TRADEMARKS.md', 'THIRD_PARTY_NOTICES.md']) {
+for (const path of ['manifests/rights-manifest.json', 'config/source-selection.json', 'config/asset-aliases.json', 'config/rights-policy.json', 'README.md', 'INTEGRATION.md', 'AGENTS.md', 'llms.txt', 'ASSET_CONTRIBUTIONS.md', 'SECURITY.md', 'LICENSE', 'LICENSE-CODE', 'CHIKN-COMMUNITY-ASSET-NOTICE.md', 'ATTRIBUTION.md', 'COMMERCIAL_USE.md', 'TRADEMARKS.md', 'THIRD_PARTY_NOTICES.md']) {
   await copySupportDocument(path);
 }
 for (const entry of await readdir(resolve('docs'), { withFileTypes: true })) {

@@ -15,11 +15,11 @@ hero:
 
 features:
   - title: Exact hosted inventory
-    details: Individually classified sources, unique assembled characters, retained source atlases, and deterministic default/high runtime atlases.
+    details: Deduplicated individual traits/base parts, unique assembled characters, retained source atlases, and deterministic default/high runtime atlases.
   - title: Engine-independent delivery
     details: The npm helper resolves manifests and asset IDs; your application explicitly selects where release files are hosted.
   - title: Auditable rights boundaries
-    details: Protected visual content, Apache-2.0 metadata, and excluded project material are distinct and enforced by exact source hashes.
+    details: Protected visual content, published Apache-2.0 project art/metadata, and excluded project material are distinct and enforced by exact source hashes.
 ---
 
 > Chikn, Roostr and FarmLand assets are hosted with permission for community non-commercial use. Commercial use requires a separate agreement with the Chikn team.

@@ -1,5 +1,7 @@
 # Traits and skins
 
+The source archive stores individual character images only under `traits-chikn` and `traits-roostr`; base/body components are categorized under `Base/<skin>/`. The retained Chikn/Roostr atlas pairs provide the complete source-atlas representation. Legacy flat and rig names are runtime aliases, so integrations should persist asset IDs rather than source paths.
+
 A skin selects the base attachment set. Trait groups add one approved attachment at a time without making every part visible.
 
 ```ts

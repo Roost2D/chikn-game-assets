@@ -4,12 +4,44 @@
     "chikn-traits/head/mfd": ["roostr.rig.mfd"]
   },
   "roots": [
-    { "source": "sources/chikn-flat", "group": "chikn-flat", "species": "chikn" },
-    { "source": "sources/roostr-flat", "group": "roostr-flat", "species": "roostr" },
-    { "source": "sources/rig-chikn", "group": "chikn-rig", "species": "chikn", "rigAliases": true },
-    { "source": "sources/rig-roostr", "group": "roostr-rig", "species": "roostr", "rigAliases": true },
-    { "source": "sources/traits-chikn", "group": "chikn-traits", "species": "chikn", "rigAliases": true },
-    { "source": "sources/traits-roostr", "group": "roostr-traits", "species": "roostr", "rigAliases": true },
+    {
+      "source": "sources/chikn-atlas",
+      "group": "chikn-flat",
+      "species": "chikn",
+      "rigAliases": true,
+      "sourceAtlas": {
+        "json": "chikn-Atlas.json",
+        "framePrefix": "chikn/",
+        "compatibilityIdPrefix": "chikn-flat"
+      }
+    },
+    {
+      "source": "sources/roostr-atlas",
+      "group": "roostr-flat",
+      "species": "roostr",
+      "rigAliases": true,
+      "sourceAtlas": {
+        "json": "roostr-Atlas.json",
+        "framePrefix": "roostr/",
+        "compatibilityIdPrefix": "roostr-flat/chikn-roostr"
+      }
+    },
+    {
+      "source": "sources/traits-chikn",
+      "group": "chikn-traits",
+      "species": "chikn",
+      "rigAliases": true,
+      "compatibilityIdPrefix": "chikn-flat",
+      "legacyRigIdPrefix": "chikn-rig"
+    },
+    {
+      "source": "sources/traits-roostr",
+      "group": "roostr-traits",
+      "species": "roostr",
+      "rigAliases": true,
+      "compatibilityIdPrefix": "roostr-flat/chikn-roostr",
+      "legacyRigIdPrefix": "roostr-rig"
+    },
     { "source": "sources/unique", "group": "assembled-unique" },
     { "source": "sources/roostr-unique", "group": "assembled-unique", "species": "roostr" },
     { "source": "sources/legacy-enemy-flat", "group": "legacy-enemy-flat", "runtime": false },

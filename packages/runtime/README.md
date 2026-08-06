@@ -39,6 +39,8 @@ Many logical IDs share one atlas page, so `fetchAssetBytes` is deliberately low-
 
 If you pass a bare `manifestUrl` instead of `baseUrl`, the asset root is not inferred from it. Supply `assetBaseUrl` explicitly, or asset resolution throws.
 
-Chikn, Roostr and FarmLand visual assets remain owned by their respective rights holder. Roost2D hosts the classified asset set with permission for community non-commercial use and grants no independent licence or sublicense. Commercial use requires a separate Chikn agreement.
+Manifest entries marked `CHIKN-COMMUNITY-NONCOMMERCIAL` remain owned by the Chikn rights-holder; Roost2D hosts them with permission for community non-commercial use and grants no independent licence or sublicense. A manifest entry marked `Apache-2.0`, such as `farmland/water-swim-ring-coq`, is separately classified project artwork and is not Chikn property. Commercial use of protected Chikn entries still requires a separate Chikn agreement.
+
+IDs such as `chikn-flat/admiral` and dotted rig names may be compatibility aliases rather than primary file IDs. Always call `findAsset` (or use a Roost2D manifest resolver) instead of translating an ID into a source path.
 
 Read the [community asset notice](https://github.com/Roost2D/chikn-game-assets/blob/main/CHIKN-COMMUNITY-ASSET-NOTICE.md), [attribution guidance](https://github.com/Roost2D/chikn-game-assets/blob/main/ATTRIBUTION.md), [commercial-use boundary](https://github.com/Roost2D/chikn-game-assets/blob/main/COMMERCIAL_USE.md), and [complete integration guide](https://github.com/Roost2D/chikn-game-assets/blob/main/INTEGRATION.md).

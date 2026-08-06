@@ -14,4 +14,6 @@ Official Chikn, Roostr and FarmLand visual assets may be added under the same Ch
 
 Unknown, unrelated, or independently created community files must not be labelled as official Chikn assets. Give them their own documented rights classification or keep them under `excludedPaths`.
 
+Character sources must follow the canonical atlas + individual trait/Base layout. Do not add a second flat or rig copy tree. If two semantic IDs use exact same bytes, retain one source file and record the alternate IDs in `config/asset-aliases.json`.
+
 Per-file SHA-256 values are technical integrity records. Update them deliberately when a genuine source file changes.

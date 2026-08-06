@@ -2,7 +2,7 @@
 
 1. Build and verify both repositories on the candidate version.
 2. Review the quick start, integration guide, `AGENTS.md`, `llms.txt`, npm package README, rights-manifest diff, and generated lineage.
-3. Confirm Chikn/Roostr/FarmLand visuals use `CHIKN-COMMUNITY-NONCOMMERCIAL`, metadata remains Apache-2.0, and `excludedPaths` stay out of staged artifacts.
+3. Confirm official Chikn/Roostr/FarmLand visuals use `CHIKN-COMMUNITY-NONCOMMERCIAL`, approved project visuals use Apache-2.0, metadata remains Apache-2.0, and `excludedPaths` stay out of staged artifacts.
 4. Publish all lockstep `@roost2d/*` release candidates with npm tag `next`.
 5. Publish the matching `@chikn-game-assets/runtime` release candidate with npm tag `next`.
 6. Run **Verify published release candidates** against both `next` tags.

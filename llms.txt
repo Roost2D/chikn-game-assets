@@ -3,12 +3,17 @@
 This repository distributes classified Chikn, Roostr, and FarmLand visual content plus an Apache-2.0 npm runtime helper. Read README.md, LICENSE, INTEGRATION.md, and AGENTS.md first.
 
 Ownership/licensing:
-- Chikn/Roostr/FarmLand visual artwork is protected Chikn content (`CHIKN-COMMUNITY-NONCOMMERCIAL`)
+- official Chikn/Roostr/FarmLand visual artwork is protected Chikn content (`CHIKN-COMMUNITY-NONCOMMERCIAL`)
 - this identifier records Chikn's existing community permission; Roost2D grants no independent licence or sublicense
 - protected records require third-party ownership, hosting/community permission, no repository sublicense, and exact technical hashes
-- rig definitions, transforms, animation timing, code, schemas, manifests, and docs are project-authored Apache-2.0 material
+- rig definitions, transforms, animation timing, code, schemas, manifests, docs, and water_swim_ring_coq.png are project-authored Apache-2.0 material
 - artwork displayed by a rig remains protected
 - manifest excludedPaths are not Chikn property and never enter published artifacts; eggorithm.png is the regression example
+
+Canonical source layout:
+- sources/chikn-atlas and sources/roostr-atlas retain the source atlas pairs
+- sources/traits-chikn and sources/traits-roostr contain the only individual character images, including Base/<skin> parts
+- retired flat/rig copy trees must not be recreated; config/asset-aliases.json preserves old IDs without duplicate files
 
 Artifact roles:
 - @chikn-game-assets/runtime: code/types/IDs only, no images, caller supplies host

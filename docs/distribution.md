@@ -17,6 +17,6 @@ Bundles are grouped by content family and lazy by default. SHA-256 and frame met
 
 ## Sources ZIP
 
-The sources ZIP is for editors, custom atlas pipelines, provenance review, and source-to-runtime audits. It is staged from classified rights-manifest entries rather than zipping the repository wholesale. Files under `excludedPaths`, including `eggorithm.png`, cannot enter it.
+The sources ZIP is for editors, custom atlas pipelines, provenance review, and source-to-runtime audits. It is staged from classified rights-manifest entries rather than zipping the repository wholesale. Its character corpus contains the retained Chikn/Roostr source atlas pairs and one deduplicated set of high-resolution individual trait/base files. Files under `excludedPaths`, including `eggorithm.png`, cannot enter it; classified Apache-2.0 project artwork such as `water_swim_ring_coq.png` can.
 
 This arrangement lets a consumer pin an immutable image release, host it on consumer-controlled infrastructure, cache it independently from JavaScript, and upgrade the engine without downloading the content again. Mirroring does not create a new licence or expand Chikn's existing community permission.

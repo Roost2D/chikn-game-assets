@@ -7,6 +7,7 @@ const selection = JSON.parse(await readFile(resolve('config/source-selection.jso
 const policy = JSON.parse(await readFile(resolve('config/rights-policy.json'), 'utf8'));
 const excludedPaths = new Set(policy.excludedPaths ?? []);
 const metadataExtensions = new Set(policy.metadata?.extensions ?? []);
+const projectVisualPaths = new Set(policy.projectVisuals?.paths ?? []);
 const assets = [];
 
 for (const source of selection.roots) {
@@ -21,7 +22,11 @@ for (const source of selection.roots) {
 
     const bytes = await readFile(absolute);
     const extension = extname(sourcePath).toLowerCase();
-    const grant = metadataExtensions.has(extension) ? policy.metadata : policy;
+    const grant = metadataExtensions.has(extension)
+      ? policy.metadata
+      : projectVisualPaths.has(sourcePath)
+        ? policy.projectVisuals
+        : policy;
     const asset = {
       id: `rights/${sourcePath.replace(/^sources\//, '').split('/').map(slug).join('/')}`,
       sourcePath,

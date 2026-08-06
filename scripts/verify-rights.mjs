@@ -11,8 +11,15 @@ const errors = [];
 const byPath = new Map();
 const ids = new Set();
 const excludedPaths = new Set();
+const projectVisualPaths = new Set();
 
 if (manifest.schema !== 'chikn-game-assets.rights/v1') errors.push('Invalid rights-manifest schema');
+for (const path of policy.projectVisuals?.paths ?? []) {
+  if (!path || projectVisualPaths.has(path)) errors.push(`Duplicate or empty project visual path: ${path}`);
+  projectVisualPaths.add(path);
+  const pathReason = portablePathError(path, { prefix: 'sources/' });
+  if (pathReason) errors.push(`project visual path ${pathReason}`);
+}
 for (const path of manifest.excludedPaths ?? []) {
   if (!path || excludedPaths.has(path)) errors.push(`Duplicate or empty excluded path: ${path}`);
   excludedPaths.add(path);
@@ -39,12 +46,18 @@ for (const asset of manifest.assets ?? []) {
     errors.push(`${asset.id}: project metadata must be approved Apache-2.0 material`);
   }
   if (/\.(?:png|jpe?g)$/i.test(asset.sourcePath)) {
-    if (asset.license !== 'CHIKN-COMMUNITY-NONCOMMERCIAL') errors.push(`${asset.id}: protected visual content must use the Chikn community terms identifier`);
-    if (asset.ownership !== 'third-party-chikn-rights-holder') errors.push(`${asset.id}: protected visual ownership is missing`);
-    if (asset.hostingAuthorized !== true || asset.communityUseAuthorized !== true) errors.push(`${asset.id}: hosting/community permission is incomplete`);
-    if (asset.sublicenseGrantedByRepository !== false) errors.push(`${asset.id}: repository must not claim a sublicense`);
-    if (asset.commercialUse !== 'separate-agreement-required') errors.push(`${asset.id}: commercial use boundary is incomplete`);
-    if (asset.attribution !== policy.attribution) errors.push(`${asset.id}: attribution does not match the public content policy`);
+    if (projectVisualPaths.has(asset.sourcePath)) {
+      if (asset.license !== 'Apache-2.0' || asset.commercialUse !== 'allowed' || asset.approved !== true) errors.push(`${asset.id}: project artwork must be approved Apache-2.0 material`);
+      if (asset.attribution !== policy.projectVisuals.attribution) errors.push(`${asset.id}: project artwork attribution does not match policy`);
+      if (asset.ownership !== undefined || asset.hostingAuthorized !== undefined || asset.communityUseAuthorized !== undefined || asset.sublicenseGrantedByRepository !== undefined) errors.push(`${asset.id}: project artwork must not carry Chikn ownership/permission fields`);
+    } else {
+      if (asset.license !== 'CHIKN-COMMUNITY-NONCOMMERCIAL') errors.push(`${asset.id}: protected visual content must use the Chikn community terms identifier`);
+      if (asset.ownership !== 'third-party-chikn-rights-holder') errors.push(`${asset.id}: protected visual ownership is missing`);
+      if (asset.hostingAuthorized !== true || asset.communityUseAuthorized !== true) errors.push(`${asset.id}: hosting/community permission is incomplete`);
+      if (asset.sublicenseGrantedByRepository !== false) errors.push(`${asset.id}: repository must not claim a sublicense`);
+      if (asset.commercialUse !== 'separate-agreement-required') errors.push(`${asset.id}: commercial use boundary is incomplete`);
+      if (asset.attribution !== policy.attribution) errors.push(`${asset.id}: attribution does not match the public content policy`);
+    }
   }
   if (!/^[a-f0-9]{64}$/.test(asset.sha256 ?? '')) errors.push(`${asset.id}: invalid SHA-256`);
 
@@ -56,6 +69,12 @@ for (const asset of manifest.assets ?? []) {
       errors.push(`${asset.id}: source file is missing`);
     }
   }
+}
+
+for (const path of projectVisualPaths) {
+  const asset = byPath.get(path);
+  if (!asset) errors.push(`Configured project artwork is missing a release classification: ${path}`);
+  if (excludedPaths.has(path)) errors.push(`Configured project artwork is also excluded: ${path}`);
 }
 
 for (const absolute of await walk(sources)) {

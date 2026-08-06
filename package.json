@@ -17,7 +17,7 @@
     "test": "node --test scripts/test/*.test.mjs && npm test --workspaces --if-present",
     "verify": "node scripts/verify-assets.mjs",
     "distribution:report": "node scripts/report-distribution.mjs",
-    "check": "npm run check --workspaces --if-present && npm run rights:validate && npm run content-terms:validate && npm run verify && npm run distribution:report && node scripts/verify-public-tree.mjs && node scripts/verify-lifecycle.mjs",
+    "check": "npm run check --workspaces --if-present && npm run rights:validate && npm run content-terms:validate && npm run verify && npm run distribution:report && node scripts/verify-source-layout.mjs && node scripts/verify-public-tree.mjs && node scripts/verify-lifecycle.mjs",
     "repro:linux": "npm run build && node scripts/repro-linux.mjs",
     "cross:verify": "node scripts/cross-repo-verify.mjs",
     "showcase:data": "node scripts/build-showcase-data.mjs",

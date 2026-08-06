@@ -18,7 +18,11 @@ const catalog = {
   communityUseAuthorized: true,
   commercialUse: 'separate-agreement-required',
   sublicenseGrantedByRepository: false,
-  assetIds: manifest.files.map(({ id }) => id).sort(),
+  projectArtwork: {
+    license: 'Apache-2.0',
+    assetIds: manifest.files.filter(({ license }) => license === 'Apache-2.0').flatMap(({ id, aliases = [] }) => [id, ...aliases]).sort(),
+  },
+  assetIds: [...new Set(manifest.files.flatMap(({ id, aliases = [] }) => [id, ...aliases]))].sort(),
   bundleIds: manifest.bundles.map(({ id }) => id).sort()
 };
 await rm(resolve(packageRoot, 'catalog'), { recursive: true, force: true });

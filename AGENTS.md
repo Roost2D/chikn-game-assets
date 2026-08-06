@@ -10,6 +10,7 @@
 
 - `sources/` contains original inputs. Binary sources use Git LFS.
 - `config/source-selection.json` chooses source groups and whether a group enters runtime output.
+- `config/asset-aliases.json` preserves semantic and legacy IDs while keeping only one physical copy of identical source art.
 - `config/rights-policy.json` defines content, metadata, and excluded-path treatment.
 - `manifests/rights-manifest.json` is generated but review-sensitive: it records exact per-file classifications and hashes.
 - `runtime/`, `reports/`, and `packages/runtime/catalog` are generated. Do not hand-edit them.
@@ -18,13 +19,20 @@
 
 ## Rights invariants
 
-- Chikn, Roostr, and FarmLand visual artwork is protected Chikn content (`CHIKN-COMMUNITY-NONCOMMERCIAL`). This is a repository identifier for Chikn's existing community permission, not a Roost2D-authored licence.
+- Official Chikn, Roostr, and FarmLand visual artwork is protected Chikn content (`CHIKN-COMMUNITY-NONCOMMERCIAL`). This is a repository identifier for Chikn's existing community permission, not a Roost2D-authored licence.
 - Protected records must state third-party Chikn ownership, `hostingAuthorized: true`, `communityUseAuthorized: true`, and `sublicenseGrantedByRepository: false`.
-- Rig definitions, transforms, animations/timing, manifests, schemas, code, and docs are project-authored Apache-2.0 material.
+- Rig definitions, transforms, animations/timing, manifests, schemas, code, docs, and the specifically classified `water_swim_ring_coq.png` are project-authored Apache-2.0 material.
 - The artwork rendered by a rig remains protected even though the rig/animation metadata is separate.
 - `excludedPaths` are not Chikn property and must not enter generated runtime or GitHub Release artifacts. `eggorithm.png` is the canonical regression example.
 - Never refresh the rights manifest as a side effect. Run `npm run rights:refresh` only after deliberate rights review, then inspect the complete diff.
 - Official Chikn/Roostr/FarmLand additions require documented official provenance, deliberate `rights:refresh`, and review of the manifest/lineage diff; read `ASSET_CONTRIBUTIONS.md`.
+
+## Source-layout invariants
+
+- Canonical character art is the Chikn/Roostr source atlas pair plus high-resolution individual files in the two trait trees; missing base parts belong under `traits-*/Base/<skin>/`.
+- Do not recreate `sources/chikn-flat`, `sources/roostr-flat`, `sources/rig-chikn`, or `sources/rig-roostr`.
+- Do not copy an identical image to preserve a second semantic name. Keep one canonical file and add the alternate ID/rig alias to `config/asset-aliases.json`.
+- `npm run check` executes `verify-source-layout.mjs`, which rejects retired copy roots and every exact duplicate source image.
 
 ## Artifact contract
 

@@ -4,7 +4,7 @@ The repository separates Apache-2.0 project material from Chikn community conten
 
 ## Chikn community content
 
-Chikn, Roostr, and FarmLand visual sources use `license: "CHIKN-COMMUNITY-NONCOMMERCIAL"` in `manifests/rights-manifest.json`. This is a repository identifier for Chikn's existing community permission, not a licence or sublicense granted by Roost2D.
+Official Chikn, Roostr, and FarmLand visual sources use `license: "CHIKN-COMMUNITY-NONCOMMERCIAL"` in `manifests/rights-manifest.json`. This is a repository identifier for Chikn's existing community permission, not a licence or sublicense granted by Roost2D.
 
 Every protected record states:
 
@@ -18,11 +18,11 @@ Generated atlas PNGs, thumbnails, resized assets, and cropped frames retain the 
 
 ## Independently authored Apache material
 
-Code, docs, schemas, manifest/atlas JSON, rig definitions, transforms, attachment mappings, and animation clips/timing are independently authored Apache-2.0 project material. Artwork rendered through a rig remains Chikn community content.
+Code, docs, schemas, manifest/atlas JSON, rig definitions, transforms, attachment mappings, and animation clips/timing are independently authored Apache-2.0 project material. `sources/farmland/water_swim_ring_coq.png` is also independently authored project artwork: it is deliberately published with `license: "Apache-2.0"`, `commercialUse: "allowed"`, and no Chikn ownership/permission fields. Generated pages isolate Apache project artwork from protected content, so an integrity-checked fetch never returns a mixed-rights atlas page. Artwork rendered through a rig remains Chikn community content.
 
 ## Excluded and unrelated material
 
-Paths under `excludedPaths` have no hosted-asset classification and are omitted from both release archives. `eggorithm.png`, legacy animation sprites/placeholders, and rig assembly reference images are explicit regression cases.
+Paths under `excludedPaths` have no hosted-asset classification and are omitted from both release archives. The non-Chikn `eggorithm.png` and legacy animation sprites/placeholders are explicit regression cases.
 
 ### What `excludedPaths` does and does not mean
 

@@ -9,7 +9,7 @@ export default {
   Layout: () => h(DefaultTheme.Layout, null, {
     'layout-top': () => h('aside', { class: 'chikn-terms-banner' }, [
       h('strong', 'Community non-commercial assets. '),
-      'Chikn, Roostr and FarmLand assets are hosted with permission; commercial use requires a separate Chikn agreement. ',
+      'Official Chikn, Roostr and FarmLand assets are hosted with permission; commercial use of protected entries requires a separate Chikn agreement. Apache-2.0 project entries are labelled separately. ',
       h('a', { href: `${repository}CHIKN-COMMUNITY-ASSET-NOTICE.md` }, 'Notice'),
       ' · ',
       h('a', { href: `${repository}ATTRIBUTION.md` }, 'Attribution'),

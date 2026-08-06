@@ -5,6 +5,8 @@ Quick start: /quick-start
 Distribution: /distribution
 Rights: /rights
 
-Chikn, Roostr, and FarmLand visual artwork is protected Chikn content under the repository identifier CHIKN-COMMUNITY-NONCOMMERCIAL. It records Chikn's existing community permission and does not create a Roost2D licence or sublicense. Rig/animation metadata, manifests, schemas, code, and docs are separate Apache-2.0 project material. Files in rights-manifest excludedPaths, including eggorithm.png, are not Chikn property and are not published.
+Official Chikn, Roostr, and FarmLand visual artwork is protected Chikn content under the repository identifier CHIKN-COMMUNITY-NONCOMMERCIAL. It records Chikn's existing community permission and does not create a Roost2D licence or sublicense. Rig/animation metadata, manifests, schemas, code, docs, and water_swim_ring_coq.png are separate Apache-2.0 project material. Files in rights-manifest excludedPaths, including eggorithm.png, are not Chikn property and are not published.
+
+The canonical character source corpus is source atlas pairs plus deduplicated individual trait/Base folders. Legacy chikn-flat, roostr-flat, and rig source paths survive only as runtime aliases and must not be treated as filesystem paths.
 
 The npm runtime contains no images. Games host an immutable runtime ZIP and supply its base URL explicitly. The sources ZIP is for original classified inputs and audits.

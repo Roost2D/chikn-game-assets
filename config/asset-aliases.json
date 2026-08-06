@@ -1,0 +1,122 @@
+{
+  "schema": "chikn-game-assets.asset-aliases/v1",
+  "aliases": {
+    "chikn-traits/base/gameboy/gameboy-legfoot-a": [
+      "chikn-traits/base/gameboy/gameboy-legfoot-b",
+      "chikn-flat/gameboy-legfoot-b",
+      "chikn-rig/gameboy/gameboy-legfoot-b",
+      "chikn.rig.gameboy-legfoot-b"
+    ],
+    "chikn-traits/base/pixelchan/pixelchan-legfoot-a": [
+      "chikn-traits/base/pixelchan/pixelchan-legfoot-b",
+      "chikn-flat/pixelchan-legfoot-b",
+      "chikn-rig/pixelchan/pixelchan-legfoot-b",
+      "chikn.rig.pixelchan-legfoot-b"
+    ],
+    "roostr-traits/base/bullion/bullion-legfoot": [
+      "roostr-traits/base/snowwhite/snowwhite-legfoot",
+      "roostr-flat/chikn-roostr/snowwhite-legfoot",
+      "roostr-rig/snowwhite/snowwhite-legfoot",
+      "roostr.rig.snowwhite-legfoot"
+    ],
+    "roostr-traits/base/midnight/midnight-legfoot": [
+      "roostr-traits/base/midnight/midnight-legfoot-1",
+      "roostr-flat/chikn-roostr/midnight-legfoot-1",
+      "roostr-rig/midnight/midnight-legfoot-1",
+      "roostr.rig.midnight-legfoot-1"
+    ],
+    "roostr-traits/base/obsidian/obsidian-legfoot": [
+      "roostr-traits/base/obsidian/obsidian-legfoot-1",
+      "roostr-flat/chikn-roostr/obsidian-legfoot-1",
+      "roostr-rig/obsidian/obsidian-legfoot-1",
+      "roostr.rig.obsidian-legfoot-1"
+    ],
+    "chikn-traits/feet/bluefeet-a-2": [
+      "chikn-traits/feet/bluefeet-b-2",
+      "chikn-flat/bluefeet-b-2",
+      "chikn.rig.bluefeet-b-2",
+      "chikn-flat/passionred-leglower-a",
+      "chikn-rig/passionred/passionred-leglower-a",
+      "chikn.rig.passionred-leglower-a"
+    ],
+    "chikn-traits/feet/bluefeet-a": [
+      "chikn-traits/feet/bluefeet-b",
+      "chikn-flat/bluefeet-b",
+      "chikn.rig.bluefeet-b"
+    ],
+    "chikn-traits/feet/greenfeet-a": [
+      "chikn-traits/feet/greenfeet-b",
+      "chikn-flat/greenfeet-b",
+      "chikn.rig.greenfeet-b"
+    ],
+    "chikn-traits/feet/purplefeet-a-2": [
+      "chikn-traits/feet/purplefeet-b-2",
+      "chikn-flat/purplefeet-b-2",
+      "chikn.rig.purplefeet-b-2"
+    ],
+    "chikn-traits/feet/purplefeet-a": [
+      "chikn-traits/feet/purplefeet-b",
+      "chikn-flat/purplefeet-b",
+      "chikn.rig.purplefeet-b"
+    ],
+    "chikn-traits/feet/redfeet-a-2": [
+      "chikn-traits/feet/redfeet-b-2",
+      "chikn-flat/redfeet-b-2",
+      "chikn.rig.redfeet-b-2"
+    ],
+    "chikn-traits/feet/redfeet-a": [
+      "chikn-traits/feet/redfeet-b",
+      "chikn-flat/redfeet-b",
+      "chikn.rig.redfeet-b"
+    ],
+    "chikn-traits/tail/red-plumage": [
+      "chikn-traits/tail/redplumage-b",
+      "chikn-flat/redplumage-b",
+      "chikn.rig.redplumage-b"
+    ],
+    "chikn-traits/head/constructionhelmet": [
+      "roostr-traits/head/constructionhelmet",
+      "roostr-flat/chikn-roostr/constructionhelmet",
+      "roostr.rig.constructionhelmet"
+    ],
+    "chikn-traits/head/gentlemanspipe": [
+      "roostr-traits/head/gentleman-s-pipe-b",
+      "roostr-flat/chikn-roostr/gentleman-s-pipe-b",
+      "roostr.rig.gentleman-s-pipe-b"
+    ],
+    "chikn-traits/head/lasereye": [
+      "roostr-traits/head/laser-eye",
+      "roostr-flat/chikn-roostr/laser-eye",
+      "roostr.rig.laser-eye"
+    ],
+    "chikn-traits/torso/afreshbaguette": [
+      "roostr-traits/torso/afreshbaguette",
+      "roostr-flat/chikn-roostr/afreshbaguette",
+      "roostr.rig.afreshbaguette"
+    ],
+    "chikn-traits/torso/humangrowthhormones-back": [
+      "roostr-traits/torso/humangrowthhormones",
+      "roostr-flat/chikn-roostr/humangrowthhormones",
+      "roostr.rig.humangrowthhormones"
+    ],
+    "chikn-traits/torso/humangrowthhormones-front": [
+      "roostr-traits/torso/humangrowthhormones-b",
+      "roostr-flat/chikn-roostr/humangrowthhormones-b",
+      "roostr.rig.humangrowthhormones-b"
+    ],
+    "chikn-traits/torso/midasmucles-back": [
+      "roostr-traits/torso/midasmucles",
+      "roostr-flat/chikn-roostr/midasmucles",
+      "roostr.rig.midasmucles"
+    ],
+    "chikn-traits/torso/midasmucles-front": [
+      "roostr-traits/torso/midasmucles-b",
+      "roostr-flat/chikn-roostr/midasmucles-b",
+      "roostr.rig.midasmucles-b"
+    ],
+    "farmland/grass-full": ["farmland/placeholder-tile"],
+    "farmland/smallfarm-cabbage": ["farmland/smallfarm-cabbage-fence"],
+    "farmland/smallfarm-corn": ["farmland/smallfarm-corn-fence"],
+    "farmland/smallfarm-wheat": ["farmland/smallfarm-wheat-fence"]
+  }
+}

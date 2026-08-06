@@ -35,7 +35,7 @@ test('portable path validation rejects control characters', () => {
 
 test('portable path validation accepts real runtime paths', () => {
   assert.equal(portablePathError('runtime/atlases/default/chikn-flat-001.png', { prefix: 'runtime/' }), null);
-  assert.equal(portablePathError('sources/chikn-flat/Goose.png', { prefix: 'sources/' }), null);
+  assert.equal(portablePathError('sources/traits-chikn/Head/Goose.png', { prefix: 'sources/' }), null);
 });
 
 test('the prefix requirement is enforced', () => {

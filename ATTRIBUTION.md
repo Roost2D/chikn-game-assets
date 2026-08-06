@@ -2,7 +2,7 @@
 
 ## Chikn community content
 
-Chikn, Roostr and FarmLand visual assets remain owned by their respective rights holder and are hosted with permission for community non-commercial use under Chikn's existing community terms.
+Official Chikn, Roostr and FarmLand visual assets remain owned by their respective rights holder and are hosted with permission for community non-commercial use under Chikn's existing community terms.
 
 Recommended acknowledgement:
 
@@ -14,6 +14,6 @@ The repository does not grant commercial permission or claim ownership of protec
 
 ## Independently authored project material
 
-Rig definitions, transforms, animation clips and timing, build tools, manifests, and other independently authored metadata are not Chikn property. They are separately licensed under Apache-2.0. The artwork displayed by a rig remains Chikn community content; the rig structure and animation data do not.
+Rig definitions, transforms, animation clips and timing, build tools, manifests, and other independently authored metadata are not Chikn property. They are separately licensed under Apache-2.0. The published `water_swim_ring_coq.png` is likewise Roost2D project artwork under Apache-2.0. The artwork displayed by a rig remains Chikn community content; the rig structure and animation data do not.
 
-Unrelated project files such as `eggorithm.png` are listed under `excludedPaths` and do not enter published Chikn source or runtime artifacts.
+Unrelated project files such as `eggorithm.png` are listed under `excludedPaths` and do not enter published source or runtime artifacts.

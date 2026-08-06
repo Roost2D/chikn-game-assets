@@ -4,16 +4,18 @@ import './style.css';
 
 interface CatalogAsset {
   id: string;
+  aliases: string[];
   group: string;
   thumbnail: string;
   width: number;
   height: number;
   sourcePaths: string[];
   license: string;
-  ownership: string;
-  hostingAuthorized: boolean;
-  communityUseAuthorized: boolean;
-  sublicenseGrantedByRepository: false;
+  ownership?: string;
+  attribution?: string;
+  hostingAuthorized?: boolean;
+  communityUseAuthorized?: boolean;
+  sublicenseGrantedByRepository?: false;
   commercialUse: string;
 }
 
@@ -76,7 +78,16 @@ const RIGHTS_ROWS: ReadonlyArray<readonly [string, string]> = [
   ['Repository sublicense', 'None'],
 ];
 
-/** One template cloned per card: the rights block is identical everywhere, so build it once. */
+function rightsRows(asset: CatalogAsset): ReadonlyArray<readonly [string, string]> {
+  if (asset.license === 'Apache-2.0') return [
+    ['Owner', 'Roost2D project'],
+    ['License', 'Apache-2.0'],
+    ['Commercial use', 'Allowed under Apache-2.0'],
+    ['Attribution', asset.attribution ?? 'Roost2D project artwork'],
+  ];
+  return RIGHTS_ROWS;
+}
+
 function createCardTemplate() {
   const card = element('article', 'asset-card');
   const image = element('img');
@@ -85,11 +96,6 @@ function createCardTemplate() {
   const title = element('strong');
   const dimensions = element('small');
   const rights = element('dl', 'rights-summary');
-  for (const [term, description] of RIGHTS_ROWS) {
-    const row = element('div');
-    row.append(element('dt', undefined, term), element('dd', undefined, description));
-    rights.append(row);
-  }
   const link = element('a', undefined, 'Hosted source record');
   link.target = '_blank';
   link.rel = 'noreferrer';
@@ -140,6 +146,12 @@ function renderShowcase() {
       const title = card.querySelector('strong')!;
       title.textContent = asset.id;
       title.title = asset.id;
+      const rights = card.querySelector('.rights-summary')!;
+      for (const [term, description] of rightsRows(asset)) {
+        const row = element('div');
+        row.append(element('dt', undefined, term), element('dd', undefined, description));
+        rights.append(row);
+      }
       card.querySelector('small')!.textContent = `${asset.width}×${asset.height} · ${asset.group}`;
       const link = card.querySelector('a')!;
       const href = sourceRecordUrl(asset.sourcePaths[0]);
@@ -177,7 +189,7 @@ async function renderBuilder(session: RouteSession) {
   host.append(hero('Character Builder', 'Assemble, animate, and export.', 'Choose a flat character, layer hosted rig or trait art, mirror, tint, scale, randomize, and export a portable non-commercial configuration.'));
   const layout = element('div', 'workspace');
   const panel = element('section', 'panel');
-  const bodies = catalog.assets.filter((asset) => asset.group === 'chikn-flat' || asset.group === 'roostr-flat');
+  const bodies = catalog.assets.filter((asset) => asset.aliases.some((alias) => alias.startsWith('chikn-flat/') || alias.startsWith('roostr-flat/')));
   const traits = catalog.assets.filter((asset) => asset.group === 'chikn-traits' || asset.group === 'roostr-traits');
 
   const bodySelect = element('select');
@@ -377,7 +389,7 @@ async function renderGame(session: RouteSession) {
     tile.position.set(380 + (x - y) * 64, 95 + (x + y) * 32);
     app.stage.addChild(tile);
   }
-  const bird = await loadSprite(catalog.assets.find((asset) => asset.group === 'chikn-flat')!);
+  const bird = await loadSprite(catalog.assets.find((asset) => asset.aliases.includes('chikn-flat/admiral')) ?? catalog.assets.find((asset) => asset.aliases.some((alias) => alias.startsWith('chikn-flat/')))!);
   if (session.isStale) { bird.destroy(); return; }
   bird.scale.set(Math.min(100 / bird.width, 100 / bird.height));
   bird.position.set(380, 280);
