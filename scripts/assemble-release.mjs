@@ -9,7 +9,7 @@ const exec = promisify(execFile);
 const root = resolve('.');
 const packageJson = JSON.parse(await readFile(resolve('package.json'), 'utf8'));
 const version = packageJson.version;
-if (!/^0\.1\.0-rc\.1$/.test(version)) throw new Error(`Refusing to assemble an unexpected release version: ${version}`);
+if (!/^0\.1\.0-rc\.2$/.test(version)) throw new Error(`Refusing to assemble an unexpected release version: ${version}`);
 
 const release = resolve(`.release/v${version}`);
 await assertContainedReleaseDirectory(release);
@@ -20,6 +20,8 @@ const stageScript = resolve('scripts/stage-release-sources.mjs');
 await exec(process.execPath, [stageScript, resolve(release, 'sources')], { cwd: root });
 await cp(resolve('runtime'), resolve(release, 'runtime'), { recursive: true, force: false, dereference: false });
 await cp(resolve('manifests/rights-manifest.json'), resolve(release, 'runtime/rights-manifest.json'));
+await cp(resolve('CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md'), resolve(release, 'runtime/CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md'));
+await cp(resolve('REPOSITORY-LICENSING-NOTICE_PUBLIC.md'), resolve(release, 'runtime/REPOSITORY-LICENSING-NOTICE_PUBLIC.md'));
 await cp(resolve('CHIKN-COMMUNITY-ASSET-NOTICE.md'), resolve(release, 'runtime/CHIKN-COMMUNITY-ASSET-NOTICE.md'));
 await cp(resolve('ATTRIBUTION.md'), resolve(release, 'runtime/ATTRIBUTION.md'));
 await cp(resolve('COMMERCIAL_USE.md'), resolve(release, 'runtime/COMMERCIAL_USE.md'));
@@ -43,6 +45,8 @@ await writeFile(resolve(release, 'release.json'), JSON.stringify({
   version,
   runtimeManifestSha256: await sha256(resolve('runtime/manifest.json')),
   rightsManifestSha256: await sha256(resolve('manifests/rights-manifest.json')),
+  contentLicenseSha256: await sha256(resolve('CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md')),
+  repositoryLicensingNoticeSha256: await sha256(resolve('REPOSITORY-LICENSING-NOTICE_PUBLIC.md')),
   artifacts: checksums,
 }, null, 2) + '\n');
 

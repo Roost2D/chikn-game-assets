@@ -2,13 +2,13 @@
 
 ## Chikn community content
 
-Official Chikn, Roostr and FarmLand visual assets remain owned by their respective rights holder and are hosted with permission for community non-commercial use under Chikn's existing community terms.
+Official Chikn, Roostr and FarmLand visual assets remain owned by Chikn and are distributed under the Chikn Community Asset Pack Non-Commercial Licence, Version 1.1.
 
-Recommended acknowledgement:
+Required attribution for every public project, repository, download page and redistributed copy:
 
-> Chikn, Roostr and FarmLand visual assets are owned by their respective rights holder and used under Chikn's non-commercial community permission.
+> Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.
 
-When publishing a modified non-commercial project, identify that Chikn-origin assets were modified where reasonably practical. This is attribution guidance, not an additional licence condition created by this repository.
+When redistributing, include the unmodified `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md` and the applicable Asset Manifest. Modified assets must be identified as modified and unofficial as required by the licence.
 
 The repository does not grant commercial permission or claim ownership of protected visual content.
 

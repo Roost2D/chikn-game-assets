@@ -22,6 +22,6 @@ features:
     details: Protected visual content, published Apache-2.0 project art/metadata, and excluded project material are distinct and enforced by exact source hashes.
 ---
 
-> Chikn, Roostr and FarmLand assets are hosted with permission for community non-commercial use. Commercial use requires a separate agreement with the Chikn team.
+> Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.
 
-The website is a catalog and learning surface. Versioned runtime/source artifacts let applications mirror immutable content to their own CDN while keeping npm code small and ownership boundaries explicit. Roost2D grants no Chikn licence or sublicense.
+The website is a catalog and learning surface. Versioned runtime/source artifacts let applications mirror immutable content to their own CDN while keeping npm code small and ownership boundaries explicit. Chikn grants the licence directly; Roost2D is an authorised distributor. Redistributed packs must include the unmodified licence and applicable Asset Manifest.

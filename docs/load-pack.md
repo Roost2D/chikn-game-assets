@@ -25,4 +25,4 @@ Alternatively pass an exact `manifestUrl`. No production host is embedded in the
 
 The manifest variant path contains the atlas page, crop rectangle, original dimensions, scale, byte size, and SHA-256 SRI digest. Use `@roost2d/assets` plus `@roost2d/pixi`; never construct frame coordinates yourself.
 
-Pin the artifact URL to an immutable version. If you mirror it, copy bytes unchanged and retain `CHIKN-COMMUNITY-ASSET-NOTICE.md`, `ATTRIBUTION.md`, and `COMMERCIAL_USE.md` next to your distribution. Mirroring does not create a new licence or sublicense.
+Pin the artifact URL to an immutable version. If you mirror it, copy bytes unchanged and retain `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`, the applicable Asset Manifest, `REPOSITORY-LICENSING-NOTICE_PUBLIC.md`, and the exact attribution in `ATTRIBUTION.md`. Mirroring creates no new licence or sublicense.

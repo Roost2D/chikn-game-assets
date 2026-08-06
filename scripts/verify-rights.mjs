@@ -53,7 +53,7 @@ for (const asset of manifest.assets ?? []) {
     } else {
       if (asset.license !== 'CHIKN-COMMUNITY-NONCOMMERCIAL') errors.push(`${asset.id}: protected visual content must use the Chikn community terms identifier`);
       if (asset.ownership !== 'third-party-chikn-rights-holder') errors.push(`${asset.id}: protected visual ownership is missing`);
-      if (asset.hostingAuthorized !== true || asset.communityUseAuthorized !== true) errors.push(`${asset.id}: hosting/community permission is incomplete`);
+      if (asset.hostingAuthorized !== true || asset.communityUseAuthorized !== true) errors.push(`${asset.id}: licence/distribution authorization is incomplete`);
       if (asset.sublicenseGrantedByRepository !== false) errors.push(`${asset.id}: repository must not claim a sublicense`);
       if (asset.commercialUse !== 'separate-agreement-required') errors.push(`${asset.id}: commercial use boundary is incomplete`);
       if (asset.attribution !== policy.attribution) errors.push(`${asset.id}: attribution does not match the public content policy`);

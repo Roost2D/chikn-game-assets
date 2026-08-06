@@ -17,6 +17,8 @@ Preserve this layout when extracting or mirroring the runtime ZIP:
   README.md
   LICENSE
   LICENSE-CODE
+  CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md
+  REPOSITORY-LICENSING-NOTICE_PUBLIC.md
   CHIKN-COMMUNITY-ASSET-NOTICE.md
   ATTRIBUTION.md
   COMMERCIAL_USE.md
@@ -50,11 +52,11 @@ Use IDs from `@chikn-game-assets/runtime/catalog` or `runtime/manifest.json`. Do
 
 ## Rights
 
-Manifest entries marked `CHIKN-COMMUNITY-NONCOMMERCIAL` are protected Chikn/Roostr/FarmLand visual content hosted with permission. The identifier records Chikn's existing non-commercial community terms; Roost2D grants no independent licence or sublicense. Entries marked `Apache-2.0`, currently including `farmland/water-swim-ring-coq`, are independently authored project material and do not belong to Chikn. Files in `excludedPaths`, including the non-Chikn `eggorithm.png`, are not part of either published archive.
+Manifest entries marked `CHIKN-COMMUNITY-NONCOMMERCIAL` are protected Chikn/Roostr/FarmLand visual content governed by `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`, Version 1.1. Chikn grants that licence directly; Roost2D is an authorised distributor only and grants no Chikn licence, sublicense or commercial rights. Entries marked `Apache-2.0`, currently including `farmland/water-swim-ring-coq`, are independently authored project material and do not belong to Chikn. Files in `excludedPaths`, including the non-Chikn `eggorithm.png`, are not part of either published archive.
 
 Legacy flat and rig IDs are manifest aliases, not source-directory names. Resolve them with `findAsset`, `AssetManifestResolver`, or the generated catalog; do not construct a filesystem path from `chikn-flat/*`, `roostr-flat/*`, or dotted rig aliases.
 
-Read `CHIKN-COMMUNITY-ASSET-NOTICE.md`, `ATTRIBUTION.md`, and `COMMERCIAL_USE.md` before distribution. For commercial use, obtain a separate agreement from the Chikn team.
+Every redistribution must retain the unmodified `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`, the applicable Asset Manifest, and the exact attribution in `ATTRIBUTION.md`. For commercial use, obtain a separate written agreement from Chikn.
 
 ## Replacing the content pack
 

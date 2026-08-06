@@ -2,7 +2,7 @@
 
 This tutorial loads one immutable Chikn runtime release into a Vanilla TypeScript + PixiJS application. It does not require a wallet, API key, backend, or blockchain connection.
 
-> Chikn, Roostr and FarmLand assets are hosted with permission for community non-commercial use. Commercial use requires a separate agreement with the Chikn team. Roost2D grants no Chikn licence or sublicense.
+> Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm. Chikn grants the licence directly; Roost2D is an authorised distributor.
 
 ## 1. Create the app
 
@@ -28,7 +28,7 @@ Verify that this file exists afterward:
 public/vendor/chikn-vX.Y.Z/runtime/manifest.json
 ```
 
-The source ZIP is not needed by a running game; it is for editors, custom pipelines, and rights/source audits.
+The source ZIP is not needed by a running game; it is for editors, custom pipelines, and rights/source audits. Keep the unmodified `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md` and applicable Asset Manifest with every redistribution.
 
 ## 3. Render an asset
 

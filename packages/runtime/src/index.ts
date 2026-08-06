@@ -3,6 +3,10 @@ export const CHIKN_ASSET_MANIFEST_PATH = 'runtime/manifest.json';
 export const CHIKN_RUNTIME_LICENSE = 'Apache-2.0';
 export const CHIKN_CONTENT_TERMS = {
   licenseId: 'CHIKN-COMMUNITY-NONCOMMERCIAL',
+  licenseName: 'Chikn Community Asset Pack Non-Commercial Licence',
+  licenseVersion: '1.1',
+  licensePath: 'CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md',
+  requiredAttribution: 'Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.',
   ownership: 'third-party-chikn-rights-holder',
   hostingAuthorized: true,
   communityUseAuthorized: true,

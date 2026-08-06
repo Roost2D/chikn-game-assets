@@ -13,6 +13,10 @@ const catalog = {
   generatedAt: manifest.generatedAt,
   codeLicense: 'Apache-2.0',
   contentTermsId: 'CHIKN-COMMUNITY-NONCOMMERCIAL',
+  contentLicenseName: 'Chikn Community Asset Pack Non-Commercial Licence',
+  contentLicenseVersion: '1.1',
+  contentLicensePath: 'CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md',
+  requiredAttribution: 'Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.',
   ownership: 'third-party-chikn-rights-holder',
   hostingAuthorized: true,
   communityUseAuthorized: true,
@@ -28,4 +32,4 @@ const catalog = {
 await rm(resolve(packageRoot, 'catalog'), { recursive: true, force: true });
 await mkdir(resolve(packageRoot, 'catalog'), { recursive: true });
 await writeFile(resolve(packageRoot, 'catalog/asset-ids.json'), `${JSON.stringify(catalog, null, 2)}\n`);
-for (const [source, destination] of [['LICENSE-CODE', 'LICENSE'], ['CHIKN-COMMUNITY-ASSET-NOTICE.md', 'CHIKN-COMMUNITY-ASSET-NOTICE.md'], ['ATTRIBUTION.md', 'ATTRIBUTION.md'], ['COMMERCIAL_USE.md', 'COMMERCIAL_USE.md']]) await cp(resolve(repositoryRoot, source), resolve(packageRoot, destination));
+for (const [source, destination] of [['LICENSE-CODE', 'LICENSE'], ['CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md', 'CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md'], ['REPOSITORY-LICENSING-NOTICE_PUBLIC.md', 'REPOSITORY-LICENSING-NOTICE_PUBLIC.md'], ['CHIKN-COMMUNITY-ASSET-NOTICE.md', 'CHIKN-COMMUNITY-ASSET-NOTICE.md'], ['ATTRIBUTION.md', 'ATTRIBUTION.md'], ['COMMERCIAL_USE.md', 'COMMERCIAL_USE.md']]) await cp(resolve(repositoryRoot, source), resolve(packageRoot, destination));

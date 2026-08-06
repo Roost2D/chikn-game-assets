@@ -1,9 +1,9 @@
 {
   "schema": "chikn-game-assets.rights-policy/v1",
-  "version": "0.1.0-rc.0",
+  "version": "0.1.0-rc.2",
   "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
   "commercialUse": "separate-agreement-required",
-  "attribution": "Chikn, Roostr and FarmLand visual assets — owned by their respective rights holder and used under Chikn's non-commercial community permission.",
+  "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
   "ownership": "third-party-chikn-rights-holder",
   "hostingAuthorized": true,
   "communityUseAuthorized": true,

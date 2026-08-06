@@ -1,14 +1,14 @@
-# License boundaries
+# Repository licensing boundaries
 
 This repository contains materials with different ownership and usage terms. A file's classification in `manifests/rights-manifest.json` and any file-specific notice control its use.
 
 1. Source code, documentation, generated schemas, rig definitions, animation timing data, and other independently authored project metadata are licensed under Apache-2.0. See `LICENSE-CODE`.
 
-2. Official Chikn, Roostr and FarmLand visual assets classified as `CHIKN-COMMUNITY-NONCOMMERCIAL` in the rights manifest remain owned by their respective rights holder. They are hosted with permission and governed by the Chikn team's existing non-commercial community permission. Visual entries explicitly classified as Apache-2.0, including `water_swim_ring_coq.png`, are independently authored project material and are outside those terms.
+2. Official Chikn, Roostr and FarmLand visual assets classified as `CHIKN-COMMUNITY-NONCOMMERCIAL` in the rights manifest remain owned by Chikn. Chikn grants eligible users rights directly under the unmodified [`CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`](CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md), Version 1.1. The repository host is an authorised distributor and grants no Chikn licence or commercial rights. Visual entries explicitly classified as Apache-2.0, including `water_swim_ring_coq.png`, are independently authored project material and are outside those terms.
 
 3. This repository does not itself grant a commercial licence or claim authority to sublicense the protected visual content.
 
-4. See `CHIKN-COMMUNITY-ASSET-NOTICE.md`, `ATTRIBUTION.md` and `COMMERCIAL_USE.md`.
+4. See `REPOSITORY-LICENSING-NOTICE_PUBLIC.md`, `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`, `CHIKN-COMMUNITY-ASSET-NOTICE.md`, `ATTRIBUTION.md` and `COMMERCIAL_USE.md`.
 
 5. Generated atlas pages containing protected content remain subject to the protected content terms. Individual runtime frames retain the classification of their source; the Apache-2.0 swim-ring frame does not become Chikn property merely because it shares an atlas page. Generated manifests and atlas-coordinate JSON are independently authored technical metadata under Apache-2.0.
 

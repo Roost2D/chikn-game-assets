@@ -1,12 +1,17 @@
 {
   "name": "chikn-game-assets",
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0-rc.2",
   "private": true,
   "description": "Publicly hosted Chikn, Roostr, and FarmLand community asset source and runtime distributions.",
   "type": "module",
   "packageManager": "npm@11.5.2",
-  "engines": { "node": ">=22.14.0" },
-  "workspaces": ["packages/*", "apps/*"],
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "scripts": {
     "build": "npm run assets:build && npm run build -w @chikn-game-assets/runtime",
     "assets:build": "node scripts/build-assets.mjs",

@@ -9,12 +9,12 @@ export default {
   Layout: () => h(DefaultTheme.Layout, null, {
     'layout-top': () => h('aside', { class: 'chikn-terms-banner' }, [
       h('strong', 'Community non-commercial assets. '),
-      'Official Chikn, Roostr and FarmLand assets are hosted with permission; commercial use of protected entries requires a separate Chikn agreement. Apache-2.0 project entries are labelled separately. ',
-      h('a', { href: `${repository}CHIKN-COMMUNITY-ASSET-NOTICE.md` }, 'Notice'),
+      'Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm. Apache-2.0 project entries are labelled separately. ',
+      h('a', { href: `${repository}CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md` }, 'Licence'),
+      ' · ',
+      h('a', { href: `${repository}REPOSITORY-LICENSING-NOTICE_PUBLIC.md` }, 'Repository notice'),
       ' · ',
       h('a', { href: `${repository}ATTRIBUTION.md` }, 'Attribution'),
-      ' · ',
-      h('a', { href: `${repository}COMMERCIAL_USE.md` }, 'Commercial use'),
     ]),
   }),
 };

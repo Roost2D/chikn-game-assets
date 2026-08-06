@@ -5,6 +5,7 @@ import sharp from 'sharp';
 import { canonicalSourceBytes, sourceSha256 } from './source-hash.mjs';
 
 const root = resolve('.');
+const packageVersion = JSON.parse(await readFile(resolve('package.json'), 'utf8')).version;
 const sourceSelection = JSON.parse(await readFile(resolve('config/source-selection.json'), 'utf8'));
 const assetAliasConfig = JSON.parse(await readFile(resolve('config/asset-aliases.json'), 'utf8'));
 const configuredAliases = assetAliasConfig.aliases ?? {};
@@ -77,7 +78,7 @@ for (const assetId of Object.keys(configuredAliases)) if (!imageEntries.some((en
 imageEntries.sort((a, b) => a.assetId.localeCompare(b.assetId)); assertUnique(imageEntries.map((entry) => entry.assetId), 'asset id'); assertUnique(imageEntries.flatMap((entry) => entry.aliases), 'asset alias');
 const primaryIds = new Set(imageEntries.map((entry) => entry.assetId));
 for (const alias of imageEntries.flatMap((entry) => entry.aliases)) if (primaryIds.has(alias)) throw new Error(`Asset alias collides with a primary id: ${alias}`);
-const fingerprint = sha256Hex(Buffer.from(JSON.stringify({ sources: allSourceFiles.map(({ path, sha256 }) => [path, sha256]), selection: sourceSelection, aliases: assetAliasConfig, rightsDocumentSha256: sha256Hex(rightsManifestBytes), profiles, version: process.env.npm_package_version ?? '0.1.0-rc.0' })));
+const fingerprint = sha256Hex(Buffer.from(JSON.stringify({ sources: allSourceFiles.map(({ path, sha256 }) => [path, sha256]), selection: sourceSelection, aliases: assetAliasConfig, rightsDocumentSha256: sha256Hex(rightsManifestBytes), profiles, version: packageVersion })));
 if (incremental) try { if ((await readFile(resolve('runtime/.build-fingerprint'), 'utf8')).trim() === fingerprint) { console.log('Asset runtime is current; incremental build skipped.'); process.exit(0); } } catch {}
 
 await mkdir(resolve('reports/reproducibility'), { recursive: true });
@@ -114,7 +115,7 @@ const bundles = [
   ...['chikn', 'roostr'].map((species) => bundleFor(`${species}-unique`, imageEntries.filter((entry) => entry.unique && entry.species === species))).filter((bundle) => bundle.items.length),
 ];
 const manifest = {
-  schema: 'roost2d.assets/v1', version: process.env.npm_package_version ?? '0.1.0-rc.0', generatedAt: generatedAt(), rightsDocumentSha256: sha256Hex(rightsManifestBytes), profiles: profileDefinitions,
+  schema: 'roost2d.assets/v1', version: packageVersion, generatedAt: generatedAt(), rightsDocumentSha256: sha256Hex(rightsManifestBytes), profiles: profileDefinitions,
   files: imageEntries.map((entry) => ({ id: entry.assetId, kind: 'atlas-frame', mediaType: 'image/png', variants: builtVariants.get(entry.assetId), aliases: entry.aliases, ...contentRights(entry.rightsIds), rightsIds: entry.rightsIds })),
   bundles,
 };

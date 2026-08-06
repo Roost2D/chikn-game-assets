@@ -2,11 +2,11 @@
 
 This repository hosts the official Chikn, Roostr, and FarmLand visual corpus for community non-commercial use as individually classified sources plus deterministic `default` and `high` runtime atlases. It also publishes the small Apache-2.0 `@chikn-game-assets/runtime` helper and a narrowly classified project-art exception.
 
-> Official Chikn, Roostr and FarmLand visual assets remain owned by their respective rights holder. Protected entries are hosted here with permission for community non-commercial use. This repository does not grant a commercial licence for those entries. Commercial use requires a separate agreement with the Chikn team; explicitly Apache-2.0 project entries are outside that restriction.
+> Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.
 
 ## What belongs to Chikn
 
-Official Chikn, Roostr, and FarmLand visual artwork is represented as protected Chikn content. Classified files use `license: "CHIKN-COMMUNITY-NONCOMMERCIAL"` and retain SHA-256 hashes in [`manifests/rights-manifest.json`](manifests/rights-manifest.json) for technical integrity and runtime lineage. The identifier points to Chikn's existing community terms; it is not a new licence or sublicense created by this repository.
+Official Chikn, Roostr, and FarmLand visual artwork is represented as protected Chikn content. Classified files use `license: "CHIKN-COMMUNITY-NONCOMMERCIAL"` and retain SHA-256 hashes in [`manifests/rights-manifest.json`](manifests/rights-manifest.json) for technical integrity and runtime lineage. The stable identifier points to the [Chikn Community Asset Pack Non-Commercial Licence](CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md), Version 1.1, granted directly by Chikn; it is not a Roost2D licence or sublicense.
 
 The following are not Chikn property:
 
@@ -23,7 +23,7 @@ The Chikn and Roostr corpus deliberately keeps only two representations: retaine
 
 The former `chikn-flat`, `roostr-flat`, `rig-chikn`, and `rig-roostr` copy trees were removed. Exact same-byte files are stored once and represented by aliases from [`config/asset-aliases.json`](config/asset-aliases.json). Existing IDs such as `chikn-flat/admiral`, legacy rig IDs, and dotted `chikn.rig.*`/`roostr.rig.*` references remain supported; consumers should resolve IDs through the manifest/runtime helper and never infer paths from the source tree.
 
-Read the [community asset notice](CHIKN-COMMUNITY-ASSET-NOTICE.md), [attribution guidance](ATTRIBUTION.md), and [commercial-use boundary](COMMERCIAL_USE.md) before using the hosted content.
+Read the [full Chikn licence](CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md), [repository licensing notice](REPOSITORY-LICENSING-NOTICE_PUBLIC.md), [community asset notice](CHIKN-COMMUNITY-ASSET-NOTICE.md), [attribution requirements](ATTRIBUTION.md), and [commercial-use boundary](COMMERCIAL_USE.md) before using the hosted content.
 
 ## Why there are three release artifacts
 

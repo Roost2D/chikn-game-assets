@@ -4,13 +4,14 @@ import { promisify } from 'node:util';
 import { dirname, resolve } from 'node:path';
 
 const exec = promisify(execFile);
+const requiredAttribution = 'Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.';
 const budgets = JSON.parse(await readFile(resolve('config/budgets.json'), 'utf8'));
 const manifest = JSON.parse(await readFile(resolve('packages/runtime/package.json'), 'utf8'));
 const readme = await readFile(resolve('packages/runtime/README.md'), 'utf8');
 const catalog = JSON.parse(await readFile(resolve('packages/runtime/catalog/asset-ids.json'), 'utf8'));
 if (manifest.license !== 'Apache-2.0') throw new Error('Runtime helper code must publish under Apache-2.0');
 if (readme.length < 600 || !readme.includes('npm install')) throw new Error('Runtime package README must contain standalone integration guidance');
-if (catalog.codeLicense !== 'Apache-2.0' || catalog.contentTermsId !== 'CHIKN-COMMUNITY-NONCOMMERCIAL') throw new Error('Runtime catalog must distinguish code and protected-content terms');
+if (catalog.codeLicense !== 'Apache-2.0' || catalog.contentTermsId !== 'CHIKN-COMMUNITY-NONCOMMERCIAL' || catalog.contentLicenseName !== 'Chikn Community Asset Pack Non-Commercial Licence' || catalog.contentLicenseVersion !== '1.1' || catalog.contentLicensePath !== 'CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md' || catalog.requiredAttribution !== requiredAttribution) throw new Error('Runtime catalog must distinguish code and protected-content terms');
 if (catalog.ownership !== 'third-party-chikn-rights-holder' || catalog.hostingAuthorized !== true || catalog.communityUseAuthorized !== true || catalog.sublicenseGrantedByRepository !== false) throw new Error('Runtime catalog blurs ownership or community-use boundaries');
 for (const id of ['chikn-flat/admiral', 'chikn.rig.admiral', 'roostr-flat/chikn-roostr/3d-specs', 'farmland/water-swim-ring-coq']) if (!catalog.assetIds.includes(id)) throw new Error(`Runtime catalog is missing stable asset id or alias ${id}`);
 if (catalog.projectArtwork?.license !== 'Apache-2.0' || !catalog.projectArtwork.assetIds.includes('farmland/water-swim-ring-coq')) throw new Error('Runtime catalog does not identify the Apache-2.0 project artwork exception');
@@ -22,7 +23,12 @@ const [pack] = JSON.parse(stdout);
 if (!pack) throw new Error('npm pack did not return package metadata');
 if (pack.unpackedSize > budgets.npmPackageBytes) throw new Error(`Runtime helper package unpacked size ${pack.unpackedSize} exceeds ${budgets.npmPackageBytes}`);
 const names = new Set(pack.files.map((file) => file.path));
-for (const required of ['catalog/asset-ids.json', 'ATTRIBUTION.md', 'COMMERCIAL_USE.md', 'LICENSE', 'CHIKN-COMMUNITY-ASSET-NOTICE.md']) if (!names.has(required)) throw new Error(`Package missing ${required}`);
+for (const required of ['catalog/asset-ids.json', 'ATTRIBUTION.md', 'COMMERCIAL_USE.md', 'LICENSE', 'CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md', 'REPOSITORY-LICENSING-NOTICE_PUBLIC.md', 'CHIKN-COMMUNITY-ASSET-NOTICE.md']) if (!names.has(required)) throw new Error(`Package missing ${required}`);
+for (const legalDocument of ['CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md', 'REPOSITORY-LICENSING-NOTICE_PUBLIC.md']) {
+  const source = await readFile(resolve(legalDocument));
+  const packaged = await readFile(resolve('packages/runtime', legalDocument));
+  if (!source.equals(packaged)) throw new Error(`Runtime package copy of ${legalDocument} is not byte-for-byte identical`);
+}
 for (const name of names) {
   if (/\.(?:png|jpe?g|webp|gif|zip)$/i.test(name)) throw new Error(`Runtime helper must not contain binary asset content: ${name}`);
   if (/^(?:runtime|sources|reports)\//.test(name)) throw new Error(`Runtime helper contains full asset distribution content: ${name}`);

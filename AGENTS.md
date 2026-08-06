@@ -19,7 +19,7 @@
 
 ## Rights invariants
 
-- Official Chikn, Roostr, and FarmLand visual artwork is protected Chikn content (`CHIKN-COMMUNITY-NONCOMMERCIAL`). This is a repository identifier for Chikn's existing community permission, not a Roost2D-authored licence.
+- Official Chikn, Roostr, and FarmLand visual artwork is protected Chikn content (`CHIKN-COMMUNITY-NONCOMMERCIAL`). This stable identifier refers to `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`, Version 1.1, granted directly by Chikn; it is not a Roost2D-authored licence.
 - Protected records must state third-party Chikn ownership, `hostingAuthorized: true`, `communityUseAuthorized: true`, and `sublicenseGrantedByRepository: false`.
 - Rig definitions, transforms, animations/timing, manifests, schemas, code, docs, and the specifically classified `water_swim_ring_coq.png` are project-authored Apache-2.0 material.
 - The artwork rendered by a rig remains protected even though the rig/animation metadata is separate.
@@ -37,8 +37,8 @@
 ## Artifact contract
 
 - npm runtime package: code/types/catalog/legal notices only; no image files.
-- runtime ZIP: immutable manifest plus default/high generated atlases and public community-use notices for games/CDNs.
-- sources ZIP: only classified sources/metadata and supporting docs; excludes `excludedPaths`.
+- runtime ZIP: immutable manifest plus default/high generated atlases, the unmodified Chikn licence, and public notices for games/CDNs.
+- sources ZIP: only classified sources/metadata plus the unmodified Chikn licence and supporting docs; excludes `excludedPaths`.
 - Consumers supply their own host/base URL. Never hardcode a production CDN.
 
 ## Validation
