@@ -36,6 +36,14 @@ test('tag workflow includes the public licence and repository notice in the runt
   assert.match(runtimeArchiveCommand, /manifests\/rights-manifest\.json/);
 });
 
+test('tag workflow emits portable checksums and marks release candidates as prereleases', async () => {
+  const workflow = await readFile(resolve('.github/workflows/release-assets.yml'), 'utf8');
+  assert.match(workflow, /\(cd release && sha256sum \*\.zip > SHA256SUMS\)/);
+  assert.doesNotMatch(workflow, /sha256sum release\/\*\.zip > release\/SHA256SUMS/);
+  assert.match(workflow, /if \[\[ "\$GITHUB_REF_NAME" == \*-\* \]\]/);
+  assert.match(workflow, /release_flags\+=\(--prerelease\)/);
+});
+
 test('trusted publisher creates its tarball destination before npm pack', async () => {
   const workflow = await readFile(resolve('.github/workflows/publish.yml'), 'utf8');
   const createDirectoryIndex = workflow.indexOf('run: mkdir -p dist-pack');
@@ -55,6 +63,7 @@ test('trusted publisher resolves exactly one downloaded tarball before publishin
   assert.notEqual(publishIndex, -1, 'resolved tarball publish step is missing');
   assert.ok(findIndex < countCheckIndex && countCheckIndex < publishIndex);
   assert.doesNotMatch(workflow, /npm publish dist-pack\/\*\.tgz/);
+  assert.doesNotMatch(workflow, /--provenance/, 'OIDC publishes generate provenance automatically');
 });
 
 test('cross-repository verification builds its local runtime manifest first', async () => {

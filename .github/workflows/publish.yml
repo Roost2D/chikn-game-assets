@@ -45,8 +45,7 @@ jobs:
           retention-days: 1
 
   # Minimal privileged job: it holds the OIDC token but never installs or executes dependencies.
-  # NOTE: `--provenance` against a pre-built tarball must be confirmed on the first real publish.
-  # If npm refuses it, fold this step back into `verify` rather than dropping provenance.
+  # npm trusted publishing authenticates this job through OIDC and automatically records provenance.
   publish:
     needs: verify
     runs-on: ubuntu-latest
@@ -71,4 +70,4 @@ jobs:
             find "$GITHUB_WORKSPACE" -maxdepth 4 -type f -print >&2
             exit 1
           fi
-          npm publish "${tarballs[0]}" --access public --provenance --tag "$TAG"
+          npm publish "${tarballs[0]}" --access public --tag "$TAG"
