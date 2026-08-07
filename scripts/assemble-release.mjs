@@ -9,7 +9,7 @@ const exec = promisify(execFile);
 const root = resolve('.');
 const packageJson = JSON.parse(await readFile(resolve('package.json'), 'utf8'));
 const version = packageJson.version;
-if (!/^0\.1\.0-rc\.3$/.test(version)) throw new Error(`Refusing to assemble an unexpected release version: ${version}`);
+if (!/^0\.1\.0-rc\.4$/.test(version)) throw new Error(`Refusing to assemble an unexpected release version: ${version}`);
 
 const release = resolve(`.release/v${version}`);
 await assertContainedReleaseDirectory(release);
