@@ -56,3 +56,11 @@ test('trusted publisher resolves exactly one downloaded tarball before publishin
   assert.ok(findIndex < countCheckIndex && countCheckIndex < publishIndex);
   assert.doesNotMatch(workflow, /npm publish dist-pack\/\*\.tgz/);
 });
+
+test('cross-repository verification builds its local runtime manifest first', async () => {
+  const packageManifest = JSON.parse(await readFile(resolve('package.json'), 'utf8'));
+  assert.equal(
+    packageManifest.scripts['cross:verify'],
+    'npm run build && node scripts/cross-repo-verify.mjs',
+  );
+});
