@@ -78,6 +78,13 @@ test('cross-repository verification builds its local runtime manifest first', as
   );
 });
 
+test('cross-repository verification constructs and validates every unique skin', async () => {
+  const verifier = await readFile(resolve('scripts/cross-repo-verify.mjs'), 'utf8');
+  assert.match(verifier, /mergeUniqueSkin/);
+  assert.match(verifier, /UNIQUE_SKINS\.filter/);
+  assert.match(verifier, /validateRigDefinition/);
+});
+
 test('cross-repository workflow checks out the authorized LFS asset bytes', async () => {
   const workflow = await readFile(resolve('.github/workflows/cross-repo-verify.yml'), 'utf8');
   const checkoutIndex = workflow.indexOf('actions/checkout@');

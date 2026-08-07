@@ -21,10 +21,10 @@ try {
   await writeFile(join(directory, 'verify.mjs'), `
     import { readFile } from 'node:fs/promises';
     import { fileURLToPath } from 'node:url';
-    import { validateAssetManifest } from '@roost2d/contracts';
+    import { validateAssetManifest, validateRigDefinition } from '@roost2d/contracts';
     import { AssetManifestResolver } from '@roost2d/assets';
     import { loadChiknPack, resolveManifestUrl } from '@chikn-game-assets/runtime';
-    import { loadChiknRig, loadRoostrRig } from '@roost2d/chikn-rigs';
+    import { loadChiknRig, loadRoostrRig, mergeUniqueSkin, UNIQUE_SKINS } from '@roost2d/chikn-rigs';
     const manifest = { schema: 'roost2d.assets/v1', version: '1', generatedAt: '1970-01-01T00:00:00.000Z', rightsDocumentSha256: 'a'.repeat(64), profiles: { default: { maxAtlasSize: 2048, scale: .5, gpuBudgetBytes: 64 } }, files: [{ id: 'example', mediaType: 'image/png', variants: [{ profile: 'default', path: 'runtime/example.png', bytes: 1, integrity: { algorithm: 'sha256', value: 'sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=' }, scale: .5 }] }], bundles: [] };
     if (validateAssetManifest(manifest).length) throw new Error('Published contracts rejected a valid manifest');
     new AssetManifestResolver(manifest, { baseUrl: 'https://assets.example/' });
@@ -34,9 +34,14 @@ try {
     const runtimeManifest = JSON.parse(await readFile(new URL('./runtime-manifest.json', import.meta.url), 'utf8'));
     const knownAssets = new Set(runtimeManifest.files.flatMap((file) => [file.id, ...(file.aliases ?? [])]));
     const fileFetch = async (url) => new Response(await readFile(fileURLToPath(url)), { status: 200, headers: { 'content-type': 'application/json' } });
-    for (const definition of await Promise.all([loadChiknRig(fileFetch), loadRoostrRig(fileFetch)])) {
+    for (let definition of await Promise.all([loadChiknRig(fileFetch), loadRoostrRig(fileFetch)])) {
       const missing = [...new Set(definition.attachments.map(({ texture }) => texture.assetId).filter((id) => !knownAssets.has(id)))];
       if (missing.length) throw new Error(\`Published runtime is missing \${definition.id} rig textures: \${missing.join(', ')}\`);
+      for (const unique of UNIQUE_SKINS.filter(({ species }) => species === definition.id)) {
+        definition = mergeUniqueSkin(definition, unique, knownAssets);
+      }
+      const rigErrors = validateRigDefinition(definition);
+      if (rigErrors.length) throw new Error(\`Published runtime produced an invalid \${definition.id} rig: \${rigErrors.join(', ')}\`);
     }
   `);
   await exec(process.execPath, ['verify.mjs'], { cwd: directory });
