@@ -4,12 +4,13 @@ import { createHash } from 'node:crypto';
 import { dirname, relative, resolve, sep } from 'node:path';
 import { promisify } from 'node:util';
 import { zipDirectory } from './release-archive.mjs';
+import { assertRcReleaseVersion } from './release-version.mjs';
 
 const exec = promisify(execFile);
 const root = resolve('.');
 const packageJson = JSON.parse(await readFile(resolve('package.json'), 'utf8'));
-const version = packageJson.version;
-if (!/^0\.1\.0-rc\.4$/.test(version)) throw new Error(`Refusing to assemble an unexpected release version: ${version}`);
+const runtimePackageJson = JSON.parse(await readFile(resolve('packages/runtime/package.json'), 'utf8'));
+const version = assertRcReleaseVersion(packageJson.version, runtimePackageJson.version);
 
 const release = resolve(`.release/v${version}`);
 await assertContainedReleaseDirectory(release);
