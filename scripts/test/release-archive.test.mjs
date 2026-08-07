@@ -55,6 +55,10 @@ test('trusted publisher creates its tarball destination before npm pack', async 
 
 test('trusted publisher resolves exactly one downloaded tarball before publishing', async () => {
   const workflow = await readFile(resolve('.github/workflows/publish.yml'), 'utf8');
+  const [, publishJob] = workflow.split(/\n  publish:\r?\n/);
+  assert.ok(publishJob, 'separate publish job is missing');
+  assert.match(publishJob, /npm install --global npm@11\.5\.2/);
+  assert.doesNotMatch(publishJob, /actions\/checkout@|npm ci/);
   const findIndex = workflow.indexOf("find \"$GITHUB_WORKSPACE\" -type f -name '*.tgz' -print");
   const countCheckIndex = workflow.indexOf('if [[ "${#tarballs[@]}" -ne 1 ]]');
   const publishIndex = workflow.indexOf('npm publish "${tarballs[0]}"');
