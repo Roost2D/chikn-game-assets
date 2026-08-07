@@ -64,3 +64,13 @@ test('cross-repository verification builds its local runtime manifest first', as
     'npm run build && node scripts/cross-repo-verify.mjs',
   );
 });
+
+test('cross-repository workflow checks out the authorized LFS asset bytes', async () => {
+  const workflow = await readFile(resolve('.github/workflows/cross-repo-verify.yml'), 'utf8');
+  const checkoutIndex = workflow.indexOf('actions/checkout@');
+  const lfsIndex = workflow.indexOf('with: { lfs: true }', checkoutIndex);
+  const setupNodeIndex = workflow.indexOf('actions/setup-node@', checkoutIndex);
+  assert.notEqual(checkoutIndex, -1, 'checkout step is missing');
+  assert.notEqual(lfsIndex, -1, 'checkout does not fetch LFS assets');
+  assert.ok(lfsIndex < setupNodeIndex, 'LFS setting must belong to the checkout step');
+});
