@@ -71,7 +71,7 @@ export async function fetchManifestUrl(
 ): Promise<ChiknAssetManifest> {
   if (!fetcher) throw new Error('A fetch implementation is required');
   const url = assertFetchableUrl(manifestUrl);
-  const response = await fetcher(url);
+  const response = await fetcher.call(globalThis, url);
   if (!response.ok) throw new Error(`Unable to load Chikn asset manifest: ${response.status}`);
   const text = await response.text();
   if (options.expectedManifestSha256) {
@@ -153,7 +153,7 @@ export async function fetchAssetBytes(pack: LoadedChiknPack, assetId: string, op
   const maximum = options.maxAssetBytes ?? DEFAULT_MAX_ASSET_BYTES;
   if (!Number.isSafeInteger(maximum) || maximum <= 0) throw new Error('maxAssetBytes must be a positive safe integer');
   const limit = Math.min(variant.bytes, maximum);
-  const response = await fetcher(url, { signal: options.signal });
+  const response = await fetcher.call(globalThis, url, { signal: options.signal });
   if (!response.ok) throw new Error(`Unable to load ${file.id}: ${response.status}`);
   const bytes = await readCapped(response, limit, file.id);
   if (bytes.byteLength !== variant.bytes) {

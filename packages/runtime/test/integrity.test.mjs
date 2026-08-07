@@ -44,6 +44,19 @@ test('verified bytes are returned when the digest matches', async () => {
   assert.deepEqual(new Uint8Array(bytes), ATLAS);
 });
 
+test('browser fetch implementations retain the global invocation context', async () => {
+  const manifest = manifestWith([goodVariant]);
+  function browserFetch(url) {
+    assert.equal(this, globalThis);
+    return Promise.resolve(String(url).endsWith('.png')
+      ? new Response(ATLAS, { status: 200 })
+      : new Response(JSON.stringify(manifest), { status: 200 }));
+  }
+  const pack = await loadChiknPack({ baseUrl: 'https://cdn.example/packs/v1/', fetch: browserFetch });
+  const bytes = await fetchAssetBytes(pack, 'chikn/a', { fetch: browserFetch });
+  assert.deepEqual(new Uint8Array(bytes), ATLAS);
+});
+
 test('corrupted bytes are rejected', async () => {
   const tampered = new TextEncoder().encode('pretend this is an atlas pagX');
   const { pack, fetch } = await packFor(manifestWith([goodVariant]), tampered);
