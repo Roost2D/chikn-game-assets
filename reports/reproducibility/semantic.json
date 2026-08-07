@@ -3,9 +3,9 @@
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "manifest": {
     "schema": "roost2d.assets/v1",
-    "version": "0.1.0-rc.2",
+    "version": "0.1.0-rc.3",
     "generatedAt": "1970-01-01T00:00:00.000Z",
-    "rightsDocumentSha256": "bf493a4fd965a306b5fd8cd31d5fb392c76dfdf3b72227ba144967e0a1b660ae",
+    "rightsDocumentSha256": "c0e0edb176add7965bf9ff353ae63a60a2f1d31651e6227ab614070c283c6e61",
     "profiles": {
       "default": {
         "maxAtlasSize": 2048,

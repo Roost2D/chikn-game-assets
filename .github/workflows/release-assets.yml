@@ -24,7 +24,7 @@ jobs:
       - name: Build complete source and runtime archives
         run: |
           (cd .release/sources && zip -r "../../release/chikn-game-assets-${GITHUB_REF_NAME}-sources.zip" .)
-          zip -r "release/chikn-game-assets-${GITHUB_REF_NAME}-runtime.zip" runtime manifests/rights-manifest.json README.md INTEGRATION.md AGENTS.md llms.txt ASSET_CONTRIBUTIONS.md SECURITY.md LICENSE LICENSE-CODE CHIKN-COMMUNITY-ASSET-NOTICE.md ATTRIBUTION.md COMMERCIAL_USE.md TRADEMARKS.md THIRD_PARTY_NOTICES.md
+          zip -r "release/chikn-game-assets-${GITHUB_REF_NAME}-runtime.zip" runtime manifests/rights-manifest.json README.md INTEGRATION.md AGENTS.md llms.txt ASSET_CONTRIBUTIONS.md SECURITY.md LICENSE LICENSE-CODE CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md REPOSITORY-LICENSING-NOTICE_PUBLIC.md CHIKN-COMMUNITY-ASSET-NOTICE.md ATTRIBUTION.md COMMERCIAL_USE.md TRADEMARKS.md THIRD_PARTY_NOTICES.md
           sha256sum release/*.zip > release/SHA256SUMS
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:

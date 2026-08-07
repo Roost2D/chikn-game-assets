@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { mkdir, mkdtemp, readFile, rm, utimes, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
 import test from 'node:test';
 import { zipDirectory } from '../release-archive.mjs';
 
@@ -25,4 +25,13 @@ test('release ZIPs are byte-reproducible across source timestamp changes', { ski
   } finally {
     await rm(root, { recursive: true, force: true });
   }
+});
+
+test('tag workflow includes the public licence and repository notice in the runtime archive', async () => {
+  const workflow = await readFile(resolve('.github/workflows/release-assets.yml'), 'utf8');
+  const runtimeArchiveCommand = workflow.split(/\r?\n/).find((line) => line.includes('-runtime.zip'));
+  assert.ok(runtimeArchiveCommand, 'runtime archive command is missing');
+  assert.match(runtimeArchiveCommand, /CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC\.md/);
+  assert.match(runtimeArchiveCommand, /REPOSITORY-LICENSING-NOTICE_PUBLIC\.md/);
+  assert.match(runtimeArchiveCommand, /manifests\/rights-manifest\.json/);
 });
