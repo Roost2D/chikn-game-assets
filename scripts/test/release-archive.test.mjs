@@ -35,3 +35,12 @@ test('tag workflow includes the public licence and repository notice in the runt
   assert.match(runtimeArchiveCommand, /REPOSITORY-LICENSING-NOTICE_PUBLIC\.md/);
   assert.match(runtimeArchiveCommand, /manifests\/rights-manifest\.json/);
 });
+
+test('trusted publisher creates its tarball destination before npm pack', async () => {
+  const workflow = await readFile(resolve('.github/workflows/publish.yml'), 'utf8');
+  const createDirectoryIndex = workflow.indexOf('run: mkdir -p dist-pack');
+  const packIndex = workflow.indexOf('npm pack -w @chikn-game-assets/runtime --pack-destination dist-pack');
+  assert.notEqual(createDirectoryIndex, -1, 'dist-pack creation step is missing');
+  assert.notEqual(packIndex, -1, 'npm pack step is missing');
+  assert.ok(createDirectoryIndex < packIndex, 'dist-pack must exist before npm pack runs');
+});

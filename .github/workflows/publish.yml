@@ -35,6 +35,7 @@ jobs:
       - if: inputs.tag == 'latest'
         run: npm run cross:verify
         env: { ROOST2D_TAG: next, CHIKN_ASSETS_TAG: next }
+      - run: mkdir -p dist-pack
       - run: npm pack -w @chikn-game-assets/runtime --pack-destination dist-pack
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
