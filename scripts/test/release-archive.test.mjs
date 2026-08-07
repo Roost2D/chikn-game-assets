@@ -44,3 +44,15 @@ test('trusted publisher creates its tarball destination before npm pack', async 
   assert.notEqual(packIndex, -1, 'npm pack step is missing');
   assert.ok(createDirectoryIndex < packIndex, 'dist-pack must exist before npm pack runs');
 });
+
+test('trusted publisher resolves exactly one downloaded tarball before publishing', async () => {
+  const workflow = await readFile(resolve('.github/workflows/publish.yml'), 'utf8');
+  const findIndex = workflow.indexOf("find \"$GITHUB_WORKSPACE\" -type f -name '*.tgz' -print");
+  const countCheckIndex = workflow.indexOf('if [[ "${#tarballs[@]}" -ne 1 ]]');
+  const publishIndex = workflow.indexOf('npm publish "${tarballs[0]}"');
+  assert.notEqual(findIndex, -1, 'recursive tarball discovery is missing');
+  assert.notEqual(countCheckIndex, -1, 'exactly-one tarball validation is missing');
+  assert.notEqual(publishIndex, -1, 'resolved tarball publish step is missing');
+  assert.ok(findIndex < countCheckIndex && countCheckIndex < publishIndex);
+  assert.doesNotMatch(workflow, /npm publish dist-pack\/\*\.tgz/);
+});

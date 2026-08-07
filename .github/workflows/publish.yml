@@ -63,4 +63,12 @@ jobs:
       - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
         with: { name: runtime-tarball, path: dist-pack }
       - name: Publish the verified tarball
-        run: npm publish dist-pack/*.tgz --access public --provenance --tag "$TAG"
+        shell: bash
+        run: |
+          mapfile -t tarballs < <(find "$GITHUB_WORKSPACE" -type f -name '*.tgz' -print)
+          if [[ "${#tarballs[@]}" -ne 1 ]]; then
+            printf 'Expected exactly one verified runtime tarball, found %s\n' "${#tarballs[@]}" >&2
+            find "$GITHUB_WORKSPACE" -maxdepth 4 -type f -print >&2
+            exit 1
+          fi
+          npm publish "${tarballs[0]}" --access public --provenance --tag "$TAG"
