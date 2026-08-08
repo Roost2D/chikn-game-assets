@@ -27,19 +27,26 @@ test('release ZIPs are byte-reproducible across source timestamp changes', { ski
   }
 });
 
-test('tag workflow includes the public licence and repository notice in the runtime archive', async () => {
-  const workflow = await readFile(resolve('.github/workflows/release-assets.yml'), 'utf8');
-  const runtimeArchiveCommand = workflow.split(/\r?\n/).find((line) => line.includes('-runtime.zip'));
-  assert.ok(runtimeArchiveCommand, 'runtime archive command is missing');
-  assert.match(runtimeArchiveCommand, /CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC\.md/);
-  assert.match(runtimeArchiveCommand, /REPOSITORY-LICENSING-NOTICE_PUBLIC\.md/);
-  assert.match(runtimeArchiveCommand, /manifests\/rights-manifest\.json/);
+test('tag workflow publishes the deterministic license-bearing release assembly', async () => {
+  const [workflow, assembler] = await Promise.all([
+    readFile(resolve('.github/workflows/release-assets.yml'), 'utf8'),
+    readFile(resolve('scripts/assemble-release.mjs'), 'utf8'),
+  ]);
+  assert.match(workflow, /npm run release:assemble/);
+  assert.match(workflow, /Get-ChildItem[^\n]+\.zip'[^\n]+\.tgz'/);
+  assert.match(assembler, /CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC\.md/);
+  assert.match(assembler, /REPOSITORY-LICENSING-NOTICE_PUBLIC\.md/);
+  assert.match(assembler, /manifests\/rights-manifest\.json/);
 });
 
 test('tag workflow emits portable checksums and marks release candidates as prereleases', async () => {
-  const workflow = await readFile(resolve('.github/workflows/release-assets.yml'), 'utf8');
-  assert.match(workflow, /\(cd release && sha256sum \*\.zip > SHA256SUMS\)/);
-  assert.doesNotMatch(workflow, /sha256sum release\/\*\.zip > release\/SHA256SUMS/);
+  const [workflow, assembler] = await Promise.all([
+    readFile(resolve('.github/workflows/release-assets.yml'), 'utf8'),
+    readFile(resolve('scripts/assemble-release.mjs'), 'utf8'),
+  ]);
+  assert.match(workflow, /Join-Path \$sourceDir 'SHA256SUMS'/);
+  assert.match(workflow, /Join-Path \$sourceDir 'release\.json'/);
+  assert.match(assembler, /\$\{hash\} \*\$\{name\}/);
   assert.match(workflow, /if \[\[ "\$GITHUB_REF_NAME" == \*-\* \]\]/);
   assert.match(workflow, /release_flags\+=\(--prerelease\)/);
 });

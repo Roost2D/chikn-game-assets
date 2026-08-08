@@ -10,7 +10,7 @@ permissions:
 jobs:
   # Builds the archives with no write credential in scope; `npm ci` runs only here.
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     permissions:
       contents: read
     steps:
@@ -20,12 +20,18 @@ jobs:
         with: { node-version: 22.14.0, cache: npm }
       - run: npm ci
       - run: npm run release:verify
-      - run: mkdir -p release
-      - name: Build complete source and runtime archives
+      - run: npm run release:assemble
+      - name: Stage deterministic release artifacts
+        shell: pwsh
         run: |
-          (cd .release/sources && zip -r "../../release/chikn-game-assets-${GITHUB_REF_NAME}-sources.zip" .)
-          zip -r "release/chikn-game-assets-${GITHUB_REF_NAME}-runtime.zip" runtime manifests/rights-manifest.json README.md INTEGRATION.md AGENTS.md llms.txt ASSET_CONTRIBUTIONS.md SECURITY.md LICENSE LICENSE-CODE CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md REPOSITORY-LICENSING-NOTICE_PUBLIC.md CHIKN-COMMUNITY-ASSET-NOTICE.md ATTRIBUTION.md COMMERCIAL_USE.md TRADEMARKS.md THIRD_PARTY_NOTICES.md
-          (cd release && sha256sum *.zip > SHA256SUMS)
+          $version = $env:GITHUB_REF_NAME.Substring(1)
+          if ((node -p "require('./package.json').version") -ne $version) {
+            throw "Tag $env:GITHUB_REF_NAME does not match package version $version"
+          }
+          $sourceDir = Join-Path '.release' $env:GITHUB_REF_NAME
+          New-Item -ItemType Directory -Path release -Force | Out-Null
+          Copy-Item -LiteralPath (Join-Path $sourceDir 'release.json'), (Join-Path $sourceDir 'SHA256SUMS') -Destination release
+          Get-ChildItem -LiteralPath $sourceDir -File | Where-Object { $_.Extension -in '.zip', '.tgz' } | Copy-Item -Destination release
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: release-archives

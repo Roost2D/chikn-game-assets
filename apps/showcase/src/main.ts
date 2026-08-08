@@ -1,4 +1,19 @@
 import { Application, Assets, Container, Graphics, Sprite, Text, Texture } from 'pixi.js';
+import { loadChiknPack, type AssetProfileId } from '@chikn-game-assets/runtime';
+import { AssetManifestResolver, LazyAssetLoader } from '@roost2d/assets';
+import {
+  loadChiknAnimations,
+  loadChiknRig,
+  loadRoostrAnimations,
+  loadRoostrRig,
+  mergeUniqueSkin,
+  UNIQUE_SKINS,
+  uniqueAssetPrefix,
+  type ChiknSpecies,
+} from '@roost2d/chikn-rigs';
+import type { RigDefinitionV1, TextureRef } from '@roost2d/contracts';
+import { PixiAssetLoader, PixiRigFactory } from '@roost2d/pixi';
+import { RigRuntime } from '@roost2d/rig2d';
 import { RouteLifecycle, type RouteSession } from './lifecycle';
 import './style.css';
 
@@ -32,7 +47,7 @@ const catalog = await fetch('./data/catalog.json').then((response) => {
   if (!response.ok) throw new Error(`Catalog ${response.status}`);
   return response.json() as Promise<Catalog>;
 });
-const routes = ['showcase', 'builder', 'farmland', 'game'] as const;
+const routes = ['showcase', 'builder', 'rig', 'farmland', 'game'] as const;
 type Route = typeof routes[number];
 
 const lifecycle = new RouteLifecycle();
@@ -44,6 +59,7 @@ async function render() {
   host.replaceChildren();
   if (route === 'showcase') renderShowcase();
   if (route === 'builder') await renderBuilder(session);
+  if (route === 'rig') await renderRig(session);
   if (route === 'farmland') await renderFarmland(session);
   if (route === 'game') await renderGame(session);
 }
@@ -185,6 +201,14 @@ async function loadSprite(asset: CatalogAsset) {
   return sprite;
 }
 
+async function createRuntimeTextureLoader(profile: AssetProfileId = 'default') {
+  const baseUrl = new URL('./data/', document.baseURI);
+  const pack = await loadChiknPack({ baseUrl, profile });
+  const resolver = new AssetManifestResolver(pack.manifest, { baseUrl, profile: pack.profile });
+  const integrityLoader = new LazyAssetLoader(resolver);
+  return { pack, textures: new PixiAssetLoader(resolver, integrityLoader) };
+}
+
 async function renderBuilder(session: RouteSession) {
   host.append(hero('Character Builder', 'Assemble, animate, and export.', 'Choose a flat character, layer hosted rig or trait art, mirror, tint, scale, randomize, and export a portable non-commercial configuration.'));
   const layout = element('div', 'workspace');
@@ -293,6 +317,148 @@ async function renderBuilder(session: RouteSession) {
   await refresh();
 }
 
+async function renderRig(session: RouteSession) {
+  host.append(hero('Canonical integration', 'Animated Rig', 'Exercise the released manifest, integrity loader, Chikn rig metadata, renderer-neutral runtime, and Pixi adapter with no application-side scale, parenting, or depth fixes.'));
+  const layout = element('div', 'workspace');
+  const panel = element('section', 'panel');
+  const speciesSelect = element('select');
+  speciesSelect.append(new Option('Chikn', 'chikn'), new Option('Roostr', 'roostr'));
+  const profileSelect = element('select');
+  profileSelect.append(new Option('Default', 'default'), new Option('High', 'high'));
+  const skinSelect = element('select');
+  const uniqueSelect = element('select');
+  const categorySelect = element('select');
+  const traitSelect = element('select');
+  const animationSelect = element('select');
+  const status = element('pre', 'config', 'Loading rig metadataâ€¦');
+  panel.append(
+    field('Species', speciesSelect),
+    field('Asset profile', profileSelect),
+    field('Normal skin', skinSelect),
+    field('Unique', uniqueSelect),
+    field('Trait slot', categorySelect),
+    field('Trait', traitSelect),
+    field('Animation', animationSelect),
+    status,
+  );
+
+  const { stage, app } = await createStage(session, 'stage rig-stage');
+  if (session.isStale) return;
+  layout.append(panel, stage);
+  host.append(layout);
+
+  const definitions = new Map<ChiknSpecies, RigDefinitionV1>();
+  const clipsBySpecies = new Map<ChiknSpecies, Awaited<ReturnType<typeof loadChiknAnimations>>>();
+  let current: { rig: RigRuntime; factory: PixiRigFactory; textures: PixiAssetLoader } | undefined;
+  let refreshGeneration = 0;
+
+  const disposeCurrent = async () => {
+    const active = current;
+    current = undefined;
+    if (!active) return;
+    active.rig.dispose();
+    active.factory.destroyRoot();
+    await active.textures.clear();
+  };
+  session.onTeardown(() => { refreshGeneration += 1; void disposeCurrent(); });
+
+  const loadMetadata = async (species: ChiknSpecies) => {
+    let definition = definitions.get(species);
+    let clips = clipsBySpecies.get(species);
+    if (!definition) {
+      definition = species === 'chikn' ? await loadChiknRig() : await loadRoostrRig();
+      definitions.set(species, definition);
+    }
+    if (!clips) {
+      clips = species === 'chikn' ? await loadChiknAnimations() : await loadRoostrAnimations();
+      clipsBySpecies.set(species, clips);
+    }
+    return { definition, clips };
+  };
+
+  const setOptions = (select: HTMLSelectElement, options: ReadonlyArray<readonly [string, string]>, previous?: string) => {
+    select.replaceChildren(...options.map(([label, value]) => new Option(label, value)));
+    if (previous && [...select.options].some(({ value }) => value === previous)) select.value = previous;
+  };
+
+  const updateTraitOptions = (definition: RigDefinitionV1) => {
+    const category = categorySelect.value;
+    const groups = Object.values(definition.attachmentGroups ?? {}).filter((group) => String(group.metadata?.category ?? '').toLowerCase() === category.toLowerCase());
+    setOptions(traitSelect, [
+      ['None', ''],
+      ...groups.map((group) => [String(group.metadata?.name ?? group.id), group.id] as const),
+    ], traitSelect.value);
+  };
+
+  const updateMetadataControls = async () => {
+    const species = speciesSelect.value as ChiknSpecies;
+    const { definition, clips } = await loadMetadata(species);
+    if (session.isStale) return;
+    setOptions(skinSelect, Object.keys(definition.skins ?? {}).map((id) => [id, id] as const), definition.defaultSkinId);
+    setOptions(uniqueSelect, [
+      ['None', ''],
+      ...UNIQUE_SKINS.filter((entry) => entry.species === species).map((entry) => [`#${entry.token} Â· ${entry.skinId}`, String(entry.token)] as const),
+    ]);
+    const categories = [...new Set(Object.values(definition.attachmentGroups ?? {}).map((group) => String(group.metadata?.category ?? '')).filter(Boolean))];
+    const preferred = ['Head', 'Neck', 'Torso', 'Feet', 'Tail', 'Wings'];
+    setOptions(categorySelect, [...preferred, ...categories.filter((category) => !preferred.includes(category))].map((category) => [category, category] as const));
+    updateTraitOptions(definition);
+    setOptions(animationSelect, clips.map((clip) => [clip.id.replace(`${species}.`, ''), clip.id] as const));
+  };
+
+  const refresh = async () => {
+    const generation = ++refreshGeneration;
+    status.textContent = 'Loading integrity-checked atlas framesâ€¦';
+    await disposeCurrent();
+    try {
+      const species = speciesSelect.value as ChiknSpecies;
+      const { definition: baseDefinition, clips } = await loadMetadata(species);
+      const { pack, textures } = await createRuntimeTextureLoader(profileSelect.value as AssetProfileId);
+      let definition = baseDefinition;
+      const unique = UNIQUE_SKINS.find((entry) => entry.species === species && String(entry.token) === uniqueSelect.value);
+      if (unique) {
+        definition = mergeUniqueSkin(definition, unique, pack.assetIds.filter((id) => id.startsWith(uniqueAssetPrefix(unique))));
+      }
+      const references = new Map<string, TextureRef>();
+      for (const { texture } of definition.attachments) references.set(texture.frameId ? `${texture.assetId}#${texture.frameId}` : texture.assetId, texture);
+      const entries = await Promise.all([...references].map(async ([key, texture]) => [key, await textures.load(texture.assetId)] as const));
+      if (session.isStale || generation !== refreshGeneration) { await textures.clear(); return; }
+
+      const factory = new PixiRigFactory(new Map(entries));
+      const rig = new RigRuntime(definition, factory, clips);
+      current = { rig, factory, textures };
+      app.stage.addChild(factory.root);
+      factory.root.position.set(380, 365);
+      rig.applySkin(unique?.skinId ?? skinSelect.value);
+      if (traitSelect.value) rig.attachGroup(traitSelect.value);
+      if (animationSelect.value) rig.play(animationSelect.value, { layer: 'base' });
+      status.textContent = JSON.stringify({
+        species,
+        profile: pack.profile,
+        skin: unique?.skinId ?? skinSelect.value,
+        trait: traitSelect.value || null,
+        animation: animationSelect.value,
+        textures: references.size,
+        applicationCompensation: 'none',
+      }, null, 2);
+    } catch (error) {
+      if (generation === refreshGeneration) status.textContent = error instanceof Error ? error.message : String(error);
+    }
+  };
+
+  speciesSelect.addEventListener('change', async () => { await updateMetadataControls(); await refresh(); }, { signal: session.signal });
+  categorySelect.addEventListener('change', async () => { const { definition } = await loadMetadata(speciesSelect.value as ChiknSpecies); updateTraitOptions(definition); await refresh(); }, { signal: session.signal });
+  for (const select of [profileSelect, skinSelect, uniqueSelect, traitSelect]) select.addEventListener('change', () => void refresh(), { signal: session.signal });
+  animationSelect.addEventListener('change', () => {
+    if (!current) return;
+    current.rig.stop('base');
+    current.rig.play(animationSelect.value, { layer: 'base' });
+  }, { signal: session.signal });
+
+  await updateMetadataControls();
+  await refresh();
+}
+
 function field(label: string, control: HTMLElement, extra?: HTMLElement) {
   const wrapper = element('div', 'field');
   const caption = element('label', undefined, label);
@@ -302,7 +468,7 @@ function field(label: string, control: HTMLElement, extra?: HTMLElement) {
 }
 
 async function renderFarmland(session: RouteSession) {
-  host.append(hero('FarmLand Viewer', 'Compose an isometric 6×4 farm.', 'Pick hosted tiles and overlays, pan or zoom the camera, and inspect the selected logical cell.'));
+  host.append(hero('FarmLand Viewer', 'Compose an isometric 6×4 farm.', 'Render logical FarmLand IDs through the release manifest, integrity loader, and Pixi atlas-frame adapter; pan or zoom and replace any selected cell.'));
   const layout = element('div', 'workspace');
   const panel = element('section', 'panel');
   const farmland = catalog.assets.filter((asset) => asset.group === 'farmland' && !asset.id.includes('/overlays/')).slice(0, 42);
@@ -324,6 +490,9 @@ async function renderFarmland(session: RouteSession) {
 
   const { stage, app } = await createStage(session);
   if (session.isStale) return;
+  const { pack, textures } = await createRuntimeTextureLoader('default');
+  if (session.isStale) { await textures.clear(); return; }
+  session.onTeardown(() => { void textures.clear(); });
   layout.append(panel, stage);
   host.append(layout);
 
@@ -332,16 +501,21 @@ async function renderFarmland(session: RouteSession) {
   app.stage.addChild(world);
   let selected = farmland[0]!;
   for (let y = 0; y < 4; y += 1) for (let x = 0; x < 6; x += 1) {
-    const sprite = await loadSprite(farmland[(x + y * 3) % farmland.length]!);
+    const initial = farmland[(x + y * 3) % farmland.length]!;
+    const sprite = new Sprite(await textures.load(initial.id));
     if (session.isStale) { sprite.destroy(); return; }
-    sprite.width = 128;
-    sprite.height = 128;
+    sprite.anchor.set(0.5);
+    sprite.scale.set(128 / Math.max(sprite.texture.width, sprite.texture.height));
     sprite.position.set((x - y) * 64, (x + y) * 32);
     sprite.eventMode = 'static';
     sprite.cursor = 'pointer';
     sprite.on('pointertap', () => {
       tileInfo.textContent = JSON.stringify({ cell: { x, y }, assetId: selected.id }, null, 2);
-      void Assets.load<Texture>(selected.thumbnail).then((texture) => { if (!session.isStale) sprite.texture = texture; });
+      void textures.load(selected.id).then((texture) => {
+        if (session.isStale) return;
+        sprite.texture = texture;
+        sprite.scale.set(128 / Math.max(texture.width, texture.height));
+      });
     });
     world.addChild(sprite);
   }
@@ -365,6 +539,7 @@ async function renderFarmland(session: RouteSession) {
     event.preventDefault();
     world.scale.set(Math.max(0.4, Math.min(2, world.scale.x * (event.deltaY < 0 ? 1.1 : 0.9))));
   }, { passive: false, signal: session.signal });
+  tileInfo.textContent = JSON.stringify({ profile: pack.profile, renderer: 'PixiAssetLoader', source: 'runtime/manifest.json' }, null, 2);
 }
 
 async function renderGame(session: RouteSession) {
