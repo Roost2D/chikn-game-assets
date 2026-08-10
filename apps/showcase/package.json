@@ -1,11 +1,11 @@
 {
   "name": "chikn-game-assets-showcase",
-  "version": "0.1.0-rc.6",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": { "dev": "vite", "build": "vite build", "check": "tsc --noEmit", "test": "node --experimental-strip-types --test test/*.test.mts" },
   "dependencies": {
-    "@chikn-game-assets/runtime": "0.1.0-rc.6",
+    "@chikn-game-assets/runtime": "0.1.0",
     "@roost2d/assets": "0.1.0-rc.5",
     "@roost2d/chikn-rigs": "0.1.0-rc.5",
     "@roost2d/contracts": "0.1.0-rc.5",

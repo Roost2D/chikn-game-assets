@@ -33,10 +33,21 @@ jobs:
       - run: npm run release:verify
       - run: npm run repro:linux
       - if: inputs.tag == 'latest'
-        run: npm run cross:verify
-        env: { ROOST2D_TAG: next, CHIKN_ASSETS_TAG: next }
+        run: npx playwright install --with-deps chromium webkit
+      - if: inputs.tag == 'latest'
+        run: npm run test:browser
       - run: mkdir -p dist-pack
       - run: npm pack -w @chikn-game-assets/runtime --pack-destination dist-pack
+      - if: inputs.tag == 'latest'
+        name: Verify the exact stable runtime candidate against stable Roost2D
+        shell: bash
+        run: |
+          mapfile -t tarballs < <(find "$GITHUB_WORKSPACE/dist-pack" -type f -name '*.tgz' -print)
+          if [[ "${#tarballs[@]}" -ne 1 ]]; then
+            printf 'Expected exactly one stable runtime candidate, found %s\n' "${#tarballs[@]}" >&2
+            exit 1
+          fi
+          ROOST2D_TAG=latest CHIKN_ASSETS_SPEC="${tarballs[0]}" npm run cross:verify
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: runtime-tarball
@@ -73,4 +84,51 @@ jobs:
             find "$GITHUB_WORKSPACE" -maxdepth 4 -type f -print >&2
             exit 1
           fi
-          npm publish "${tarballs[0]}" --access public --tag "$TAG"
+          tarball="${tarballs[0]}"
+          package_name="$(tar -xOf "$tarball" package/package.json | node -e '
+            let input = "";
+            process.stdin.setEncoding("utf8");
+            process.stdin.on("data", (chunk) => { input += chunk; });
+            process.stdin.on("end", () => console.log(JSON.parse(input).name));
+          ')"
+          package_version="$(tar -xOf "$tarball" package/package.json | node -e '
+            let input = "";
+            process.stdin.setEncoding("utf8");
+            process.stdin.on("data", (chunk) => { input += chunk; });
+            process.stdin.on("end", () => console.log(JSON.parse(input).version));
+          ')"
+          package_spec="$package_name@$package_version"
+          local_integrity="$(node -e '
+            const { createHash } = require("node:crypto");
+            const { readFileSync } = require("node:fs");
+            console.log(`sha512-${createHash("sha512").update(readFileSync(process.argv[1])).digest("base64")}`);
+          ' "$tarball")"
+          published_integrity="$(npm view "$package_spec" dist.integrity 2>/dev/null || true)"
+          if [[ -n "$published_integrity" ]]; then
+            if [[ "$published_integrity" != "$local_integrity" ]]; then
+              printf 'Refusing to resume: %s exists with different integrity.\n' "$package_spec" >&2
+              exit 1
+            fi
+            published_tag="$(npm view "$package_name" "dist-tags.$TAG" 2>/dev/null || true)"
+            if [[ "$published_tag" != "$package_version" ]]; then
+              printf 'Refusing to resume: %s exists but tag %s points to %s. Repair the tag through an authorized operator.\n' "$package_spec" "$TAG" "${published_tag:-nothing}" >&2
+              exit 1
+            fi
+          else
+            npm publish "$tarball" --access public --tag "$TAG"
+          fi
+          verified=false
+          for attempt in {1..6}; do
+            published_version="$(npm view "$package_spec" version 2>/dev/null || true)"
+            published_tag="$(npm view "$package_name" "dist-tags.$TAG" 2>/dev/null || true)"
+            if [[ "$published_version" == "$package_version" && "$published_tag" == "$package_version" ]]; then
+              verified=true
+              break
+            fi
+            sleep 5
+          done
+          if [[ "$verified" != true ]]; then
+            printf 'Registry postflight failed for %s on tag %s.\n' "$package_spec" "$TAG" >&2
+            exit 1
+          fi
+          printf 'Registry postflight passed for %s (%s).\n' "$package_spec" "$TAG"

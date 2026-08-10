@@ -8,6 +8,10 @@ const exec = promisify(execFile);
 const requiredAttribution = 'Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.';
 const roost2dTag = process.env.ROOST2D_TAG ?? 'next';
 const chiknTag = process.env.CHIKN_ASSETS_TAG ?? 'next';
+const contractsSpec = installSpec(process.env.ROOST2D_CONTRACTS_SPEC) ?? `@roost2d/contracts@${roost2dTag}`;
+const assetsSpec = installSpec(process.env.ROOST2D_ASSETS_SPEC) ?? `@roost2d/assets@${roost2dTag}`;
+const chiknRigsSpec = installSpec(process.env.ROOST2D_CHIKN_RIGS_SPEC) ?? `@roost2d/chikn-rigs@${roost2dTag}`;
+const chiknAssetsSpec = installSpec(process.env.CHIKN_ASSETS_SPEC) ?? `@chikn-game-assets/runtime@${chiknTag}`;
 const directory = await mkdtemp(join(tmpdir(), 'roost2d-cross-verify-'));
 const npmArgs = (args) => process.platform === 'win32'
   ? [process.execPath, [resolve(dirname(process.execPath), 'node_modules/npm/bin/npm-cli.js'), ...args]]
@@ -15,7 +19,7 @@ const npmArgs = (args) => process.platform === 'win32'
 
 try {
   await writeFile(join(directory, 'package.json'), JSON.stringify({ name: 'roost2d-cross-verify', private: true, type: 'module' }));
-  const [command, args] = npmArgs(['install', '--ignore-scripts', `@roost2d/contracts@${roost2dTag}`, `@roost2d/assets@${roost2dTag}`, `@roost2d/chikn-rigs@${roost2dTag}`, `@chikn-game-assets/runtime@${chiknTag}`]);
+  const [command, args] = npmArgs(['install', '--ignore-scripts', contractsSpec, assetsSpec, chiknRigsSpec, chiknAssetsSpec]);
   await exec(command, args, { cwd: directory });
   await cp(resolve('runtime/manifest.json'), join(directory, 'runtime-manifest.json'));
   await writeFile(join(directory, 'verify.mjs'), `
@@ -65,7 +69,12 @@ try {
   if (catalog.ownership !== 'third-party-chikn-rights-holder' || catalog.hostingAuthorized !== true || catalog.communityUseAuthorized !== true || catalog.sublicenseGrantedByRepository !== false) throw new Error('Published catalog blurs ownership or community-use boundaries');
   const runtimeManifest = JSON.parse(await readFile(join(directory, 'node_modules/@chikn-game-assets/runtime/package.json'), 'utf8'));
   if (runtimeManifest.license !== 'Apache-2.0') throw new Error('Published runtime helper is not Apache-2.0');
-  console.log(`Cross-repository verification passed for @roost2d/*@${roost2dTag} and @chikn-game-assets/runtime@${chiknTag}.`);
+  console.log(`Cross-repository verification passed for ${contractsSpec}, ${assetsSpec}, ${chiknRigsSpec}, and ${chiknAssetsSpec}.`);
 } finally {
   await rm(directory, { recursive: true, force: true });
+}
+
+function installSpec(value) {
+  if (!value) return undefined;
+  return /^(?:\.{0,2}[\\/]|[A-Za-z]:[\\/]|\/)/.test(value) ? resolve(value) : value;
 }

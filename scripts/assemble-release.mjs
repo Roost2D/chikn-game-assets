@@ -4,13 +4,13 @@ import { createHash } from 'node:crypto';
 import { dirname, relative, resolve, sep } from 'node:path';
 import { promisify } from 'node:util';
 import { zipDirectory } from './release-archive.mjs';
-import { assertRcReleaseVersion } from './release-version.mjs';
+import { assertReleaseVersion } from './release-version.mjs';
 
 const exec = promisify(execFile);
 const root = resolve('.');
 const packageJson = JSON.parse(await readFile(resolve('package.json'), 'utf8'));
 const runtimePackageJson = JSON.parse(await readFile(resolve('packages/runtime/package.json'), 'utf8'));
-const version = assertRcReleaseVersion(packageJson.version, runtimePackageJson.version);
+const version = assertReleaseVersion(packageJson.version, runtimePackageJson.version);
 
 const release = resolve(`.release/v${version}`);
 await assertContainedReleaseDirectory(release);
@@ -26,6 +26,7 @@ await cp(resolve('REPOSITORY-LICENSING-NOTICE_PUBLIC.md'), resolve(release, 'run
 await cp(resolve('CHIKN-COMMUNITY-ASSET-NOTICE.md'), resolve(release, 'runtime/CHIKN-COMMUNITY-ASSET-NOTICE.md'));
 await cp(resolve('ATTRIBUTION.md'), resolve(release, 'runtime/ATTRIBUTION.md'));
 await cp(resolve('COMMERCIAL_USE.md'), resolve(release, 'runtime/COMMERCIAL_USE.md'));
+await cp(resolve('CHANGELOG.md'), resolve(release, 'runtime/CHANGELOG.md'));
 
 const runtimeZip = `chikn-game-assets-v${version}-runtime.zip`;
 const sourceZip = `chikn-game-assets-v${version}-source.zip`;

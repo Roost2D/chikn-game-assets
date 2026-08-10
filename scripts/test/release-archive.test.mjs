@@ -37,6 +37,7 @@ test('tag workflow publishes the deterministic license-bearing release assembly'
   assert.match(assembler, /CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC\.md/);
   assert.match(assembler, /REPOSITORY-LICENSING-NOTICE_PUBLIC\.md/);
   assert.match(assembler, /manifests\/rights-manifest\.json/);
+  assert.match(assembler, /CHANGELOG\.md/);
 });
 
 test('tag workflow emits portable checksums and marks release candidates as prereleases', async () => {
@@ -66,15 +67,30 @@ test('trusted publisher resolves exactly one downloaded tarball before publishin
   assert.ok(publishJob, 'separate publish job is missing');
   assert.match(publishJob, /npm install --global npm@11\.5\.2/);
   assert.doesNotMatch(publishJob, /actions\/checkout@|npm ci/);
-  const findIndex = workflow.indexOf("find \"$GITHUB_WORKSPACE\" -type f -name '*.tgz' -print");
-  const countCheckIndex = workflow.indexOf('if [[ "${#tarballs[@]}" -ne 1 ]]');
-  const publishIndex = workflow.indexOf('npm publish "${tarballs[0]}"');
+  const findIndex = publishJob.indexOf("find \"$GITHUB_WORKSPACE\" -type f -name '*.tgz' -print");
+  const countCheckIndex = publishJob.indexOf('if [[ "${#tarballs[@]}" -ne 1 ]]');
+  const publishIndex = publishJob.indexOf('npm publish "$tarball"');
   assert.notEqual(findIndex, -1, 'recursive tarball discovery is missing');
   assert.notEqual(countCheckIndex, -1, 'exactly-one tarball validation is missing');
   assert.notEqual(publishIndex, -1, 'resolved tarball publish step is missing');
   assert.ok(findIndex < countCheckIndex && countCheckIndex < publishIndex);
   assert.doesNotMatch(workflow, /npm publish dist-pack\/\*\.tgz/);
   assert.doesNotMatch(workflow, /--provenance/, 'OIDC publishes generate provenance automatically');
+});
+
+test('stable publishing verifies the exact candidate tarball against Roost2D latest', async () => {
+  const workflow = await readFile(resolve('.github/workflows/publish.yml'), 'utf8');
+  assert.match(workflow, /ROOST2D_TAG=latest CHIKN_ASSETS_SPEC="\$\{tarballs\[0\]\}" npm run cross:verify/);
+  assert.doesNotMatch(workflow, /ROOST2D_TAG: next, CHIKN_ASSETS_TAG: next/);
+});
+
+test('runtime publishing is resumable and checks its requested dist-tag', async () => {
+  const workflow = await readFile(resolve('.github/workflows/publish.yml'), 'utf8');
+  assert.match(workflow, /npm view "\$package_spec" dist\.integrity/);
+  assert.match(workflow, /published_tag" != "\$package_version/);
+  assert.doesNotMatch(workflow, /npm dist-tag add/);
+  assert.match(workflow, /for attempt in \{1\.\.6\}/);
+  assert.match(workflow, /Registry postflight passed/);
 });
 
 test('cross-repository verification builds its local runtime manifest first', async () => {
@@ -90,6 +106,13 @@ test('cross-repository verification constructs and validates every unique skin',
   assert.match(verifier, /mergeUniqueSkin/);
   assert.match(verifier, /UNIQUE_SKINS\.filter/);
   assert.match(verifier, /validateRigDefinition/);
+});
+
+test('cross-repository verification accepts exact local candidate package specs', async () => {
+  const verifier = await readFile(resolve('scripts/cross-repo-verify.mjs'), 'utf8');
+  for (const variable of ['ROOST2D_CONTRACTS_SPEC', 'ROOST2D_ASSETS_SPEC', 'ROOST2D_CHIKN_RIGS_SPEC', 'CHIKN_ASSETS_SPEC']) {
+    assert.match(verifier, new RegExp(variable));
+  }
 });
 
 test('cross-repository workflow checks out the authorized LFS asset bytes', async () => {

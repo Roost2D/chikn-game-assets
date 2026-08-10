@@ -322,14 +322,21 @@ async function renderRig(session: RouteSession) {
   const layout = element('div', 'workspace');
   const panel = element('section', 'panel');
   const speciesSelect = element('select');
+  speciesSelect.setAttribute('aria-label', 'Species');
   speciesSelect.append(new Option('Chikn', 'chikn'), new Option('Roostr', 'roostr'));
   const profileSelect = element('select');
+  profileSelect.setAttribute('aria-label', 'Asset profile');
   profileSelect.append(new Option('Default', 'default'), new Option('High', 'high'));
   const skinSelect = element('select');
+  skinSelect.setAttribute('aria-label', 'Normal skin');
   const uniqueSelect = element('select');
+  uniqueSelect.setAttribute('aria-label', 'Unique');
   const categorySelect = element('select');
+  categorySelect.setAttribute('aria-label', 'Trait slot');
   const traitSelect = element('select');
+  traitSelect.setAttribute('aria-label', 'Trait');
   const animationSelect = element('select');
+  animationSelect.setAttribute('aria-label', 'Animation');
   const status = element('pre', 'config', 'Loading rig metadataâ€¦');
   panel.append(
     field('Species', speciesSelect),

@@ -62,11 +62,14 @@ login. The workflow publishes the already verified tarball from a minimal OIDC j
 
 1. Give both repositories new versions without prerelease suffixes and pass their main-branch CI.
 2. Publish Roost2D with `tag=latest`.
-3. Dispatch **Publish asset runtime** with `tag=latest`; its preflight verifies the tested `next`
-   pair before publishing.
+3. Dispatch **Publish asset runtime** with `tag=latest`; its preflight installs the exact packed
+   stable runtime candidate alongside Roost2D `latest` before publishing that same tarball.
 4. Dispatch **Cross-repository verification** again with both tags set to `latest`.
 5. Push the stable `vX.Y.Z` tag only after the npm checks pass; that tag creates the versioned
    sources ZIP, runtime ZIP, and `SHA256SUMS` GitHub Release.
+
+Configure required human reviewers on the `npm-publish` and `github-release` GitHub environments.
+The latter is the explicit rights-manifest and classified-archive approval boundary.
 
 An npm name/version pair cannot be reused. Stable publication therefore requires a new version, not
 moving `latest` onto an existing `-rc` package version.
