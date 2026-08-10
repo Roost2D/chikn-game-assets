@@ -1,6 +1,6 @@
 {
   "name": "chikn-game-assets",
-  "version": "0.1.0-rc.5",
+  "version": "0.1.0",
   "private": true,
   "description": "Publicly hosted Chikn, Roostr, and FarmLand community asset source and runtime distributions.",
   "type": "module",
@@ -27,14 +27,18 @@
     "cross:verify": "npm run build && node scripts/cross-repo-verify.mjs",
     "showcase:data": "node scripts/build-showcase-data.mjs",
     "showcase:build": "npm run showcase:data && npm run build -w chikn-game-assets-showcase",
+    "test:browser": "playwright test",
+    "api:snapshot": "node scripts/runtime-api-snapshot.mjs --write",
+    "api:verify": "node scripts/runtime-api-snapshot.mjs",
     "docs:build": "vitepress build docs",
     "pages:build": "npm run build && npm run showcase:build && npm run docs:build && node scripts/assemble-pages.mjs",
     "pack:check": "npm run build && node scripts/verify-pack.mjs",
     "release:sources:stage": "node scripts/stage-release-sources.mjs .release/sources",
     "release:assemble": "npm run build && npm run release:sources:stage && node scripts/assemble-release.mjs",
-    "release:verify": "npm ci && npm run build && npm test && npm run check && npm run pack:check && npm run release:sources:stage"
+    "release:verify": "npm ci && npm run build && npm run api:verify && npm test && npm run check && npm run pack:check && npm run release:sources:stage"
   },
   "devDependencies": {
+    "@playwright/test": "1.62.1",
     "@types/node": "^22.15.3",
     "esbuild": "^0.28.1",
     "sharp": "^0.35.3",

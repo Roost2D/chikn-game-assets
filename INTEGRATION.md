@@ -29,7 +29,8 @@ Supply `<base>/`, not `<base>/runtime/`, to `loadChiknPack({ baseUrl })`. The he
 ## Install
 
 ```sh
-npm install pixi.js @roost2d/assets @roost2d/pixi @chikn-game-assets/runtime
+npm install pixi.js gsap @chikn-game-assets/runtime \
+  @roost2d/assets @roost2d/chikn-rigs @roost2d/contracts @roost2d/pixi @roost2d/rig2d
 ```
 
 All installed `@roost2d/*` packages must use the same exact version. The asset content version may be pinned independently.
@@ -49,6 +50,65 @@ const texture = await textures.load('chikn-flat/admiral');
 ```
 
 Use IDs from `@chikn-game-assets/runtime/catalog` or `runtime/manifest.json`. Do not derive IDs or atlas rectangles from filenames.
+
+## Animate a complete rig
+
+This is the canonical browser path used by the repository's **Animated Rig** showcase. It deliberately contains no Chikn/Roostr scale constants, trait reparenting, z-order rewrites, or special handling for assembled unique artwork.
+
+```ts
+import { loadChiknPack } from '@chikn-game-assets/runtime';
+import { AssetManifestResolver, LazyAssetLoader } from '@roost2d/assets';
+import {
+  loadChiknAnimations,
+  loadChiknRig,
+  mergeUniqueSkin,
+  resolveUniqueSkin,
+  uniqueAssetPrefix,
+} from '@roost2d/chikn-rigs';
+import { PixiApplicationHost, PixiAssetLoader, PixiRigFactory } from '@roost2d/pixi';
+import { RigRuntime } from '@roost2d/rig2d';
+
+const baseUrl = new URL('/assets/chikn/vX.Y.Z/', window.location.origin);
+const pack = await loadChiknPack({ baseUrl, profile: 'default' });
+const resolver = new AssetManifestResolver(pack.manifest, { baseUrl, profile: pack.profile });
+const textures = new PixiAssetLoader(resolver, new LazyAssetLoader(resolver));
+const host = await PixiApplicationHost.create({
+  mount: document.querySelector<HTMLDivElement>('#app')!,
+  resizeTo: window,
+});
+
+let definition = await loadChiknRig();
+const clips = await loadChiknAnimations();
+const unique = resolveUniqueSkin('chikn', 1231)!;
+definition = mergeUniqueSkin(
+  definition,
+  unique,
+  pack.assetIds.filter((id) => id.startsWith(uniqueAssetPrefix(unique))),
+);
+
+const entries = await Promise.all(
+  [...new Map(definition.attachments.map(({ texture }) => [
+    texture.frameId ? `${texture.assetId}#${texture.frameId}` : texture.assetId,
+    texture,
+  ])).entries()].map(async ([key, texture]) => [key, await textures.load(texture.assetId)] as const),
+);
+const factory = new PixiRigFactory(new Map(entries));
+const rig = new RigRuntime(definition, factory, clips);
+host.app.stage.addChild(factory.root);
+factory.root.position.set(320, 360);
+rig.applySkin(unique.skinId);
+rig.attachGroup('head/daft-punk');
+rig.play('chikn.idle', { layer: 'base' });
+
+window.addEventListener('beforeunload', () => {
+  rig.dispose();
+  factory.destroyRoot();
+  void textures.clear();
+  host.dispose();
+});
+```
+
+For Roostr, use `loadRoostrRig()`, `loadRoostrAnimations()`, and a Roostr entry from `resolveUniqueSkin`. Both `default` and `high` profiles use the same rig metadata; the manifest selects the sampled atlas data while the adapter preserves rig-space layout.
 
 ## Rights
 

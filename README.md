@@ -77,6 +77,9 @@ npm ci
 npm run release:verify
 ```
 
+See the [changelog](CHANGELOG.md), [stable ID policy](docs/stability.md), and
+[release operator runbook](docs/releases.md#release-operator-runbook) before promoting `latest`.
+
 The gate rebuilds the inventory and atlases, validates per-file rights, type-checks/tests the runtime helper, checks reproducibility and Git LFS coverage, inspects the npm tarball, and stages the source archive while proving excluded material is absent.
 
 Maintainers should follow the [release operator runbook](docs/releases.md#release-operator-runbook);

@@ -34,6 +34,8 @@ rig.applySkin('Celestial');
 rig.play('chikn.walk', { layer: 'base' });
 ```
 
+The texture references already carry source-art-to-rig layout scale, and legacy attachments declare whether depth belongs to their transform bone. `RigRuntime` resolves a slot animation and follower parent against the active body skin before any trait overlay. Do not add `0.1219`, `0.0929`, manual trait parenting, or sprite-to-bone z-order transfers in application code.
+
 Trait groups come from `definition.attachmentGroups`; call `rig.attachGroup(groupId)` with one of its keys. Mirror and tint at the rig level so every attachment stays aligned.
 
 During teardown call `rig.dispose()`, remove/clear the loaded textures, and destroy the factory root. Do not copy rig metadata into the image-rights class: the visual inputs remain under Chikn's community terms while the animation system is separately Apache-2.0.

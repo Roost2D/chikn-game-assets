@@ -1,0 +1,41 @@
+{
+  "schema": "chikn-game-assets.public-api/v1",
+  "package": "@chikn-game-assets/runtime",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./catalog": "./catalog/asset-ids.json"
+  },
+  "symbols": [
+    "AssetProfileId",
+    "CHIKN_ASSET_MANIFEST_PATH",
+    "CHIKN_ASSET_PACKAGE",
+    "CHIKN_CONTENT_TERMS",
+    "CHIKN_RUNTIME_LICENSE",
+    "CharacterRigAdapterOptions",
+    "ChiknAssetCache",
+    "ChiknAssetFile",
+    "ChiknAssetManifest",
+    "ChiknAssetVariant",
+    "DEFAULT_MAX_ASSET_BYTES",
+    "FetchAssetOptions",
+    "LoadChiknPackOptions",
+    "LoadedChiknPack",
+    "assetId",
+    "createCharacterRig",
+    "createChiknAssetCache",
+    "createChiknRig",
+    "createRoostrRig",
+    "fetchAssetBytes",
+    "fetchManifest",
+    "fetchManifestUrl",
+    "loadChiknPack",
+    "resolveAssetUrl",
+    "resolveManifestUrl",
+    "selectProfile",
+    "selectVariant"
+  ],
+  "declarationSha256": "8b9d880da1cb55aa1a5f0b4a74f14187bcd3fe81eb3fec5afbb9e66b98105ff3"
+}
