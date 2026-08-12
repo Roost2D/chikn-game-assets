@@ -45,14 +45,14 @@ for (const asset of manifest.assets ?? []) {
   if (/\.json$/i.test(asset.sourcePath) && (asset.license !== 'Apache-2.0' || asset.commercialUse !== 'allowed' || asset.approved !== true)) {
     errors.push(`${asset.id}: project metadata must be approved Apache-2.0 material`);
   }
-  if (/\.(?:png|jpe?g)$/i.test(asset.sourcePath)) {
+  if (/\.(?:png|jpe?g|mp3)$/i.test(asset.sourcePath)) {
     if (projectVisualPaths.has(asset.sourcePath)) {
       if (asset.license !== 'Apache-2.0' || asset.commercialUse !== 'allowed' || asset.approved !== true) errors.push(`${asset.id}: project artwork must be approved Apache-2.0 material`);
       if (asset.attribution !== policy.projectVisuals.attribution) errors.push(`${asset.id}: project artwork attribution does not match policy`);
       if (asset.ownership !== undefined || asset.hostingAuthorized !== undefined || asset.communityUseAuthorized !== undefined || asset.sublicenseGrantedByRepository !== undefined) errors.push(`${asset.id}: project artwork must not carry Chikn ownership/permission fields`);
     } else {
-      if (asset.license !== 'CHIKN-COMMUNITY-NONCOMMERCIAL') errors.push(`${asset.id}: protected visual content must use the Chikn community terms identifier`);
-      if (asset.ownership !== 'third-party-chikn-rights-holder') errors.push(`${asset.id}: protected visual ownership is missing`);
+      if (asset.license !== 'CHIKN-COMMUNITY-NONCOMMERCIAL') errors.push(`${asset.id}: protected content must use the Chikn community terms identifier`);
+      if (asset.ownership !== 'third-party-chikn-rights-holder') errors.push(`${asset.id}: protected content ownership is missing`);
       if (asset.hostingAuthorized !== true || asset.communityUseAuthorized !== true) errors.push(`${asset.id}: licence/distribution authorization is incomplete`);
       if (asset.sublicenseGrantedByRepository !== false) errors.push(`${asset.id}: repository must not claim a sublicense`);
       if (asset.commercialUse !== 'separate-agreement-required') errors.push(`${asset.id}: commercial use boundary is incomplete`);

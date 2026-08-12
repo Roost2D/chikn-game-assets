@@ -1,6 +1,6 @@
 # Chikn Community Asset Notice
 
-The Chikn, Roostr and FarmLand visual assets classified in
+The Chikn, Roostr and FarmLand visual and audio assets classified in
 `manifests/rights-manifest.json` remain owned by Chikn. Chikn grants the
 applicable non-commercial rights directly to Community Users under the
 unmodified `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`, Version 1.1.

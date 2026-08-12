@@ -1,9 +1,9 @@
 # Chikn Game Assets model context
 
-This repository distributes classified Chikn, Roostr, and FarmLand visual content plus an Apache-2.0 npm runtime helper. Read README.md, LICENSE, INTEGRATION.md, and AGENTS.md first.
+This repository distributes classified Chikn, Roostr, and FarmLand visual and audio content plus an Apache-2.0 npm runtime helper. Read README.md, LICENSE, INTEGRATION.md, and AGENTS.md first.
 
 Ownership/licensing:
-- official Chikn/Roostr/FarmLand visual artwork is protected Chikn content (`CHIKN-COMMUNITY-NONCOMMERCIAL`)
+- official Chikn/Roostr/FarmLand visual artwork and audio are protected Chikn content (`CHIKN-COMMUNITY-NONCOMMERCIAL`)
 - this identifier refers to CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md Version 1.1, granted directly by Chikn; Roost2D is an authorised distributor only
 - protected records require third-party ownership, direct Chikn licensing, authorised distribution, no repository sublicense, and exact technical hashes
 - rig definitions, transforms, animation timing, code, schemas, manifests, docs, and water_swim_ring_coq.png are project-authored Apache-2.0 material
@@ -13,11 +13,12 @@ Ownership/licensing:
 Canonical source layout:
 - sources/chikn-atlas and sources/roostr-atlas retain the source atlas pairs
 - sources/traits-chikn and sources/traits-roostr contain the only individual character images, including Base/<skin> parts
+- sources/audio contains the canonical MP3 corpus and excludes Unity .meta sidecars
 - retired flat/rig copy trees must not be recreated; config/asset-aliases.json preserves old IDs without duplicate files
 
 Artifact roles:
-- @chikn-game-assets/runtime: code/types/IDs only, no images, caller supplies host
-- runtime ZIP: manifest plus default/high atlases, the unmodified Chikn licence, and public notices for games/CDNs
+- @chikn-game-assets/runtime: code/types/IDs only, no image or audio files, caller supplies host
+- runtime ZIP: manifest plus default/high atlases, direct integrity-pinned audio, the unmodified Chikn licence, and public notices for games/CDNs
 - sources ZIP: classified originals/metadata plus the unmodified Chikn licence for editors and audits
 
 Sources are in sources/. Generated outputs are runtime/, reports/, manifests/rights-manifest.json, and packages/runtime/catalog. Do not hand-edit generated output or casually refresh rights hashes.

@@ -4,9 +4,12 @@ Canonical repository: https://github.com/Roost2D/chikn-game-assets
 Quick start: /quick-start
 Distribution: /distribution
 Rights: /rights
+Audio: /audio
 
-Official Chikn, Roostr, and FarmLand visual artwork is protected Chikn content under the stable repository identifier CHIKN-COMMUNITY-NONCOMMERCIAL. It refers to CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md Version 1.1, granted directly by Chikn; Roost2D is an authorised distributor only. Rig/animation metadata, manifests, schemas, code, docs, and water_swim_ring_coq.png are separate Apache-2.0 project material. Files in rights-manifest excludedPaths, including eggorithm.png, are not Chikn property and are not published.
+Official Chikn, Roostr, and FarmLand visual artwork and audio are protected Chikn content under the stable repository identifier CHIKN-COMMUNITY-NONCOMMERCIAL. It refers to CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md Version 1.1, granted directly by Chikn; Roost2D is an authorised distributor only. Rig/animation metadata, manifests, schemas, code, docs, and water_swim_ring_coq.png are separate Apache-2.0 project material. Files in rights-manifest excludedPaths, including eggorithm.png, are not Chikn property and are not published.
 
 The canonical character source corpus is source atlas pairs plus deduplicated individual trait/Base folders. Legacy chikn-flat, roostr-flat, and rig source paths survive only as runtime aliases and must not be treated as filesystem paths.
 
-The npm runtime contains no images. Games host an immutable runtime ZIP and supply its base URL explicitly. The sources ZIP is for original classified inputs and audits.
+The canonical audio corpus is the 79 MP3 files under sources/audio; Unity .meta sidecars are excluded.
+
+The npm runtime contains no image or audio files. Games host an immutable runtime ZIP and supply its base URL explicitly. The sources ZIP is for original classified inputs and audits.

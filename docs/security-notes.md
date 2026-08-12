@@ -42,7 +42,7 @@ patterns, which produce false positives while still missing real formats.
   (`npm publish`, `gh release create`, Pages deploy) never install dependencies, and each sits behind
   a GitHub environment gate.
 - **Pinned actions.** All GitHub Actions are pinned to full commit SHAs.
-- **Asset integrity.** `runtime/manifest.json` carries a SHA-256 SRI digest per atlas page.
+- **Asset integrity.** `runtime/manifest.json` carries a SHA-256 SRI digest per atlas page and direct audio file.
   `@roost2d/assets` is the recommended cached loader; `@chikn-game-assets/runtime` also exposes
   `fetchAssetBytes` and `createChiknAssetCache`, which verify byte count and digest, enforce
   same-origin containment, and abort oversized responses.

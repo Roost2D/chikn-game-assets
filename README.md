@@ -1,12 +1,14 @@
 # Chikn Game Assets
 
-This repository hosts the official Chikn, Roostr, and FarmLand visual corpus for community non-commercial use as individually classified sources plus deterministic `default` and `high` runtime atlases. It also publishes the small Apache-2.0 `@chikn-game-assets/runtime` helper and a narrowly classified project-art exception.
+This repository hosts the official Chikn, Roostr, and FarmLand visual and audio corpus for community non-commercial use as individually classified sources, deterministic `default` and `high` runtime atlases, and integrity-pinned audio files. It also publishes the small Apache-2.0 `@chikn-game-assets/runtime` helper and a narrowly classified project-art exception.
 
 > Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.
 
 ## What belongs to Chikn
 
 Official Chikn, Roostr, and FarmLand visual artwork is represented as protected Chikn content. Classified files use `license: "CHIKN-COMMUNITY-NONCOMMERCIAL"` and retain SHA-256 hashes in [`manifests/rights-manifest.json`](manifests/rights-manifest.json) for technical integrity and runtime lineage. The stable identifier points to the [Chikn Community Asset Pack Non-Commercial Licence](CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md), Version 1.1, granted directly by Chikn; it is not a Roost2D licence or sublicense.
+
+Official Chikn audio is classified under the same protected-content terms and is published as direct MP3 runtime assets with per-file SHA-256 integrity and source lineage.
 
 The following are not Chikn property:
 
@@ -29,11 +31,13 @@ Read the [full Chikn licence](CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md), [reposit
 
 | Artifact | Contains | Use it when |
 | --- | --- | --- |
-| `@chikn-game-assets/runtime` | TypeScript types, loader helpers, asset/bundle ID catalog, legal notices; no images | your application needs stable IDs and an explicit manifest URL |
-| `chikn-game-assets-vX.Y.Z-runtime.zip` | `runtime/manifest.json`, integrity metadata, generated `default`/`high` atlas PNG/JSON | a game needs immutable, CDN-ready runtime content |
+| `@chikn-game-assets/runtime` | TypeScript types, loader helpers, asset/bundle ID catalog, legal notices; no media files | your application needs stable IDs and an explicit manifest URL |
+| `chikn-game-assets-vX.Y.Z-runtime.zip` | files to place under `runtime/`: manifest/integrity metadata, generated `default`/`high` atlas PNG/JSON, direct MP3 audio, source lineage, and audio integration docs | a game needs immutable, CDN-ready runtime content |
 | `chikn-game-assets-vX.Y.Z-sources.zip` | canonical individual traits/base parts, source atlases, classified project artwork/metadata, rights manifest, notices, docs | an editor/build pipeline needs originals or an auditor needs source-to-runtime lineage |
 
-The split keeps npm installs small, prevents a package from silently choosing a production host, makes the community-use boundary visible, and lets applications pin, mirror, or replace an immutable image release independently from engine code. Roost2D works without this content pack and can be used with independently licensed replacement artwork.
+The split keeps npm installs small, prevents a package from silently choosing a production host, makes the community-use boundary visible, and lets applications pin, mirror, or replace an immutable media release independently from engine code. Roost2D works without this content pack and can be used with independently licensed replacement content.
+
+The audio catalog uses stable `audio/*` IDs. See [Audio assets](docs/audio.md) for naming, loading, provenance, and rights details.
 
 ## Quick start with Roost2D and PixiJS
 
@@ -41,7 +45,7 @@ The split keeps npm installs small, prevents a package from silently choosing a 
 npm install pixi.js @roost2d/assets @roost2d/pixi @chikn-game-assets/runtime
 ```
 
-Download the matching runtime ZIP from GitHub Releases and extract it to `/public/vendor/chikn-vX.Y.Z/`. Preserve the `runtime/` directory.
+Download the matching runtime ZIP from GitHub Releases and extract its contents to `/public/vendor/chikn-vX.Y.Z/runtime/`. Preserve the archive's internal directories.
 
 ```ts
 import { Sprite } from 'pixi.js';

@@ -13,7 +13,7 @@ if (manifest.license !== 'Apache-2.0') throw new Error('Runtime helper code must
 if (readme.length < 600 || !readme.includes('npm install')) throw new Error('Runtime package README must contain standalone integration guidance');
 if (catalog.codeLicense !== 'Apache-2.0' || catalog.contentTermsId !== 'CHIKN-COMMUNITY-NONCOMMERCIAL' || catalog.contentLicenseName !== 'Chikn Community Asset Pack Non-Commercial Licence' || catalog.contentLicenseVersion !== '1.1' || catalog.contentLicensePath !== 'CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md' || catalog.requiredAttribution !== requiredAttribution) throw new Error('Runtime catalog must distinguish code and protected-content terms');
 if (catalog.ownership !== 'third-party-chikn-rights-holder' || catalog.hostingAuthorized !== true || catalog.communityUseAuthorized !== true || catalog.sublicenseGrantedByRepository !== false) throw new Error('Runtime catalog blurs ownership or community-use boundaries');
-for (const id of ['chikn-flat/admiral', 'chikn.rig.admiral', 'roostr-flat/chikn-roostr/3d-specs', 'farmland/water-swim-ring-coq']) if (!catalog.assetIds.includes(id)) throw new Error(`Runtime catalog is missing stable asset id or alias ${id}`);
+for (const id of ['chikn-flat/admiral', 'chikn.rig.admiral', 'roostr-flat/chikn-roostr/3d-specs', 'farmland/water-swim-ring-coq', 'audio/bok-gark-01', 'audio/songs/cf-pre-game-loop-01']) if (!catalog.assetIds.includes(id)) throw new Error(`Runtime catalog is missing stable asset id or alias ${id}`);
 if (catalog.projectArtwork?.license !== 'Apache-2.0' || !catalog.projectArtwork.assetIds.includes('farmland/water-swim-ring-coq')) throw new Error('Runtime catalog does not identify the Apache-2.0 project artwork exception');
 const npmArgs = ['pack', '-w', '@chikn-game-assets/runtime', '--json', '--dry-run'];
 const command = process.platform === 'win32' ? process.execPath : 'npm';
@@ -30,7 +30,7 @@ for (const legalDocument of ['CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md', 'REPOSIT
   if (!source.equals(packaged)) throw new Error(`Runtime package copy of ${legalDocument} is not byte-for-byte identical`);
 }
 for (const name of names) {
-  if (/\.(?:png|jpe?g|webp|gif|zip)$/i.test(name)) throw new Error(`Runtime helper must not contain binary asset content: ${name}`);
+  if (/\.(?:png|jpe?g|webp|gif|mp3|zip)$/i.test(name)) throw new Error(`Runtime helper must not contain binary asset content: ${name}`);
   if (/^(?:runtime|sources|reports)\//.test(name)) throw new Error(`Runtime helper contains full asset distribution content: ${name}`);
 }
 console.log(`Verified ${pack.filename}: ${pack.size} packed bytes, ${pack.unpackedSize} unpacked bytes.`);

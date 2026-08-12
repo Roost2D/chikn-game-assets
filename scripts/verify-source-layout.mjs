@@ -23,6 +23,7 @@ for (const path of [
   'sources/chikn-atlas/chikn-Atlas.png',
   'sources/roostr-atlas/roostr-Atlas.json',
   'sources/roostr-atlas/roostr-Atlas.png',
+  'sources/audio',
   'sources/traits-chikn/Base',
   'sources/traits-roostr/Base',
 ]) {
@@ -40,22 +41,31 @@ for (const [assetId, values] of Object.entries(aliases.aliases ?? {})) {
   }
 }
 
-const images = (await walk(resolve('sources'))).filter((path) => /\.(?:png|jpe?g)$/i.test(path));
-const byHash = new Map();
-for (const absolute of images) {
-  const bytes = await readFile(absolute);
-  const head = bytes.subarray(0, 64).toString('utf8');
-  const sourcePath = relative(root, absolute).split(sep).join('/');
-  if (head.startsWith('version https://git-lfs.github.com/spec/v1')) errors.push(`Git LFS pointer was not materialized: ${sourcePath}`);
-  const hash = createHash('sha256').update(bytes).digest('hex');
-  const paths = byHash.get(hash) ?? [];
-  paths.push(sourcePath);
-  byHash.set(hash, paths);
-}
-for (const paths of byHash.values()) if (paths.length > 1) errors.push(`Exact duplicate source images must be represented by aliases, not copied files: ${paths.join(', ')}`);
+const sourceFiles = await walk(resolve('sources'));
+const images = sourceFiles.filter((path) => /\.(?:png|jpe?g)$/i.test(path));
+const audio = sourceFiles.filter((path) => /\.mp3$/i.test(path));
+const audioSidecars = sourceFiles.filter((path) => path.startsWith(resolve('sources/audio') + sep) && /\.meta$/i.test(path));
+if (audioSidecars.length) errors.push(`Unity audio sidecars must not enter the repository: ${audioSidecars.map((path) => relative(root, path).split(sep).join('/')).join(', ')}`);
+await verifyUniqueBinarySources(images, 'images');
+await verifyUniqueBinarySources(audio, 'audio files');
 
 if (errors.length) throw new Error(errors.join('\n'));
-console.log(`Verified canonical atlas + individual-trait layout with ${images.length} unique source images.`);
+console.log(`Verified canonical source layout with ${images.length} unique images and ${audio.length} unique audio files.`);
+
+async function verifyUniqueBinarySources(pathsToVerify, label) {
+  const byHash = new Map();
+  for (const absolute of pathsToVerify) {
+    const bytes = await readFile(absolute);
+    const head = bytes.subarray(0, 64).toString('utf8');
+    const sourcePath = relative(root, absolute).split(sep).join('/');
+    if (head.startsWith('version https://git-lfs.github.com/spec/v1')) errors.push(`Git LFS pointer was not materialized: ${sourcePath}`);
+    const hash = createHash('sha256').update(bytes).digest('hex');
+    const paths = byHash.get(hash) ?? [];
+    paths.push(sourcePath);
+    byHash.set(hash, paths);
+  }
+  for (const paths of byHash.values()) if (paths.length > 1) errors.push(`Exact duplicate source ${label} must be represented by aliases, not copied files: ${paths.join(', ')}`);
+}
 
 async function walk(directory) {
   const result = [];

@@ -8505,6 +8505,1507 @@
       ]
     },
     {
+      "assetId": "audio/alternate-arrow-hit",
+      "sourcePaths": [
+        "sources/audio/alternate_arrow_hit.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/alternate-arrow-hit-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/alternate-arrow-hit.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/alternate-arrow-hit.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/arena-yell",
+      "sourcePaths": [
+        "sources/audio/arena_yell.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/arena-yell-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/arena-yell.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/arena-yell.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/arrow-hits-01",
+      "sourcePaths": [
+        "sources/audio/arrow_hits_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/arrow-hits-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/arrow-hits-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/arrow-hits-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/arrow-hits-02",
+      "sourcePaths": [
+        "sources/audio/arrow_hits_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/arrow-hits-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/arrow-hits-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/arrow-hits-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/arrow-hits-03",
+      "sourcePaths": [
+        "sources/audio/arrow_hits_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/arrow-hits-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/arrow-hits-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/arrow-hits-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/arrow-hits-04",
+      "sourcePaths": [
+        "sources/audio/arrow_hits_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/arrow-hits-04-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/arrow-hits-04.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/arrow-hits-04.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/bok-gark-01",
+      "sourcePaths": [
+        "sources/audio/bok_gark_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/bok-gark-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/bok-gark-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/bok-gark-02",
+      "sourcePaths": [
+        "sources/audio/bok_gark_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/bok-gark-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/bok-gark-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/bok-gark-03",
+      "sourcePaths": [
+        "sources/audio/bok_gark_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/bok-gark-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/bok-gark-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/bok-gark-04",
+      "sourcePaths": [
+        "sources/audio/bok_gark_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-04-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/bok-gark-04.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/bok-gark-04.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/bok-gark-05",
+      "sourcePaths": [
+        "sources/audio/bok_gark_05.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-05-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/bok-gark-05.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/bok-gark-05.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/bok-gark-06",
+      "sourcePaths": [
+        "sources/audio/bok_gark_06.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-06-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/bok-gark-06.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/bok-gark-06.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/bok-gark-07",
+      "sourcePaths": [
+        "sources/audio/bok_gark_07.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-07-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/bok-gark-07.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/bok-gark-07.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/bok-gark-08",
+      "sourcePaths": [
+        "sources/audio/bok_gark_08.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-08-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/bok-gark-08.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/bok-gark-08.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/boomerang",
+      "sourcePaths": [
+        "sources/audio/boomerang.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/boomerang-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/boomerang.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/boomerang.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/cartoon-missile-01",
+      "sourcePaths": [
+        "sources/audio/cartoon_missile_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/cartoon-missile-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/cartoon-missile-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/cartoon-missile-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/cartoon-missile-02",
+      "sourcePaths": [
+        "sources/audio/cartoon_missile_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/cartoon-missile-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/cartoon-missile-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/cartoon-missile-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/cut-01",
+      "sourcePaths": [
+        "sources/audio/cut_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/cut-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/cut-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/cut-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/cut-02",
+      "sourcePaths": [
+        "sources/audio/cut_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/cut-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/cut-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/cut-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/cut-03",
+      "sourcePaths": [
+        "sources/audio/cut_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/cut-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/cut-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/cut-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/cut-04",
+      "sourcePaths": [
+        "sources/audio/cut_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/cut-04-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/cut-04.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/cut-04.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/damage-taken-boks-01",
+      "sourcePaths": [
+        "sources/audio/damage_taken_boks_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/damage-taken-boks-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/damage-taken-boks-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/damage-taken-boks-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/damage-taken-boks-02",
+      "sourcePaths": [
+        "sources/audio/damage_taken_boks_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/damage-taken-boks-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/damage-taken-boks-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/damage-taken-boks-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/damage-taken-boks-03",
+      "sourcePaths": [
+        "sources/audio/damage_taken_boks_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/damage-taken-boks-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/damage-taken-boks-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/damage-taken-boks-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/damage-taken-boks-04",
+      "sourcePaths": [
+        "sources/audio/damage_taken_boks_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/damage-taken-boks-04-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/damage-taken-boks-04.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/damage-taken-boks-04.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/damage-taken-boks-05",
+      "sourcePaths": [
+        "sources/audio/damage_taken_boks_05.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/damage-taken-boks-05-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/damage-taken-boks-05.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/damage-taken-boks-05.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/explosion-01",
+      "sourcePaths": [
+        "sources/audio/explosion_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/explosion-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/explosion-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/explosion-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/explosion-02",
+      "sourcePaths": [
+        "sources/audio/explosion_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/explosion-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/explosion-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/explosion-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/explosion-03",
+      "sourcePaths": [
+        "sources/audio/explosion_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/explosion-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/explosion-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/explosion-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/fart-01",
+      "sourcePaths": [
+        "sources/audio/fart_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/fart-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/fart-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/fart-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/fart-02",
+      "sourcePaths": [
+        "sources/audio/fart_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/fart-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/fart-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/fart-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/fart-03",
+      "sourcePaths": [
+        "sources/audio/fart_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/fart-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/fart-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/fart-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/fart-04",
+      "sourcePaths": [
+        "sources/audio/fart_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/fart-04-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/fart-04.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/fart-04.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/human-bok-01",
+      "sourcePaths": [
+        "sources/audio/human_bok_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/human-bok-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/human-bok-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/human-bok-02",
+      "sourcePaths": [
+        "sources/audio/human_bok_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/human-bok-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/human-bok-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/human-bok-03",
+      "sourcePaths": [
+        "sources/audio/human_bok_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/human-bok-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/human-bok-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/human-bok-04",
+      "sourcePaths": [
+        "sources/audio/human_bok_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-04-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/human-bok-04.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/human-bok-04.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/human-bok-05",
+      "sourcePaths": [
+        "sources/audio/human_bok_05.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-05-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/human-bok-05.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/human-bok-05.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/human-bok-06",
+      "sourcePaths": [
+        "sources/audio/human_bok_06.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-06-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/human-bok-06.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/human-bok-06.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/human-bok-07",
+      "sourcePaths": [
+        "sources/audio/human_bok_07.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-07-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/human-bok-07.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/human-bok-07.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/projectile-01",
+      "sourcePaths": [
+        "sources/audio/projectile_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/projectile-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/projectile-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/projectile-02",
+      "sourcePaths": [
+        "sources/audio/projectile_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/projectile-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/projectile-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/projectile-03",
+      "sourcePaths": [
+        "sources/audio/projectile_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/projectile-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/projectile-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/projectile-ricochet-01",
+      "sourcePaths": [
+        "sources/audio/projectile_ricochet_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-ricochet-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/projectile-ricochet-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/projectile-ricochet-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/projectile-ricochet-02",
+      "sourcePaths": [
+        "sources/audio/projectile_ricochet_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-ricochet-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/projectile-ricochet-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/projectile-ricochet-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/projectile-ricochet-03",
+      "sourcePaths": [
+        "sources/audio/projectile_ricochet_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-ricochet-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/projectile-ricochet-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/projectile-ricochet-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/projectile-ricochet-04",
+      "sourcePaths": [
+        "sources/audio/projectile_ricochet_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-ricochet-04-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/projectile-ricochet-04.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/projectile-ricochet-04.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-01",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-02",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-03",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-04",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-04-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-04.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-04.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-05",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_05.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-05-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-05.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-05.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-06",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_06.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-06-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-06.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-06.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-07",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_07.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-07-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-07.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-07.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-08",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_08.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-08-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-08.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-08.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-gark-01",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_gark_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-gark-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-gark-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-gark-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-gark-02",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_gark_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-gark-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-gark-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-gark-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-gark-03",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_gark_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-gark-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-gark-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-gark-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-gark-04",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_gark_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-gark-04-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-gark-04.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-gark-04.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-gark-05",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_gark_05.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-gark-05-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-gark-05.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-gark-05.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/real-chicken-bok-gark-06",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_gark_06.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-gark-06-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/real-chicken-bok-gark-06.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/real-chicken-bok-gark-06.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/slap-01",
+      "sourcePaths": [
+        "sources/audio/slap_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/slap-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/slap-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/slap-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/slap-02",
+      "sourcePaths": [
+        "sources/audio/slap_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/slap-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/slap-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/slap-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/slap-03",
+      "sourcePaths": [
+        "sources/audio/slap_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/slap-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/slap-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/slap-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/slap-04",
+      "sourcePaths": [
+        "sources/audio/slap_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/slap-04-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/slap-04.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/slap-04.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/slap-05",
+      "sourcePaths": [
+        "sources/audio/slap_05.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/slap-05-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/slap-05.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/slap-05.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/songs/cf-pre-game-loop-01",
+      "sourcePaths": [
+        "sources/audio/Songs/CF - Pre-game Loop_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/songs/cf-pre-game-loop-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/songs/cf-pre-game-loop-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/songs/cf-pre-game-loop-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/squeak-chicken-01",
+      "sourcePaths": [
+        "sources/audio/squeak_chicken_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/squeak-chicken-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/squeak-chicken-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/squeak-chicken-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/squeak-chicken-02",
+      "sourcePaths": [
+        "sources/audio/squeak_chicken_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/squeak-chicken-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/squeak-chicken-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/squeak-chicken-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/squeak-chicken-03",
+      "sourcePaths": [
+        "sources/audio/squeak_chicken_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/squeak-chicken-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/squeak-chicken-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/squeak-chicken-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/squeak-chicken-04",
+      "sourcePaths": [
+        "sources/audio/squeak_chicken_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/squeak-chicken-04-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/squeak-chicken-04.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/squeak-chicken-04.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/swipe-inpact-01",
+      "sourcePaths": [
+        "sources/audio/swipe_inpact_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/swipe-inpact-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/swipe-inpact-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/swipe-inpact-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/swipe-inpact-02",
+      "sourcePaths": [
+        "sources/audio/swipe_inpact_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/swipe-inpact-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/swipe-inpact-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/swipe-inpact-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/swipe-inpact-03",
+      "sourcePaths": [
+        "sources/audio/swipe_inpact_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/swipe-inpact-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/swipe-inpact-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/swipe-inpact-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/thud-01",
+      "sourcePaths": [
+        "sources/audio/thud_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/thud-01-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/thud-01.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/thud-01.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/thud-02",
+      "sourcePaths": [
+        "sources/audio/thud_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/thud-02-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/thud-02.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/thud-02.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/thud-03",
+      "sourcePaths": [
+        "sources/audio/thud_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/thud-03-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/thud-03.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/thud-03.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/ui-select",
+      "sourcePaths": [
+        "sources/audio/ui select.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/ui-select-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/ui-select.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/ui-select.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": "audio/unsheath",
+      "sourcePaths": [
+        "sources/audio/unsheath.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/unsheath-mp3"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/audio/unsheath.mp3"
+        },
+        {
+          "profile": "high",
+          "path": "runtime/audio/unsheath.mp3"
+        }
+      ]
+    },
+    {
       "assetId": "chikn-flat/runright01",
       "sourcePaths": [
         "sources/chikn-atlas/chikn-Atlas.json",

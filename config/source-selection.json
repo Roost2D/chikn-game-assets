@@ -62,6 +62,17 @@
         "unique": true
       }
     },
+    {
+      "source": "sources/audio",
+      "group": "audio",
+      "runtimeFiles": {
+        "kind": "audio",
+        "output": "runtime/audio",
+        "mediaTypes": {
+          ".mp3": "audio/mpeg"
+        }
+      }
+    },
     { "source": "sources/legacy-enemy-flat", "group": "legacy-enemy-flat", "runtime": false },
     { "source": "sources/farmland", "group": "farmland" }
   ]

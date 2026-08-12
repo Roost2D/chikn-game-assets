@@ -21,9 +21,12 @@ interface CatalogAsset {
   id: string;
   aliases: string[];
   group: string;
-  thumbnail: string;
-  width: number;
-  height: number;
+  kind: string;
+  mediaType: string;
+  thumbnail?: string;
+  audio?: string;
+  width?: number;
+  height?: number;
   sourcePaths: string[];
   license: string;
   ownership?: string;
@@ -37,7 +40,7 @@ interface CatalogAsset {
 interface Catalog {
   schema: string;
   version: string;
-  totals: { assets: number };
+  totals: { assets: number; images: number; audio: number };
   assets: CatalogAsset[];
 }
 
@@ -121,7 +124,7 @@ function createCardTemplate() {
 }
 
 function renderShowcase() {
-  host.append(hero(`${catalog.totals.assets.toLocaleString()} publicly hosted assets`, 'The Chikn community art shelf.', 'Search every hosted Chikn, Roostr, rig, trait, unique character, and FarmLand runtime frame.'));
+  host.append(hero(`${catalog.totals.assets.toLocaleString()} publicly hosted assets`, 'The Chikn community asset shelf.', `Search every hosted visual and play all ${catalog.totals.audio.toLocaleString()} audio files.`));
 
   const controls = element('div', 'controls');
   const search = element('input');
@@ -136,7 +139,7 @@ function renderShowcase() {
 
   const species = element('select');
   species.setAttribute('aria-label', 'Species');
-  for (const [label, value] of [['All content', ''], ['Chikn', 'chikn'], ['Roostr', 'roostr'], ['FarmLand', 'farmland']]) {
+  for (const [label, value] of [['All content', ''], ['Audio', 'audio'], ['Chikn', 'chikn'], ['Roostr', 'roostr'], ['FarmLand', 'farmland']]) {
     species.append(new Option(label, value));
   }
 
@@ -157,8 +160,18 @@ function renderShowcase() {
     for (const asset of visible) {
       const card = template.cloneNode(true) as HTMLElement;
       const image = card.querySelector('img')!;
-      image.src = asset.thumbnail;
-      image.alt = asset.id;
+      if (asset.audio) {
+        const player = element('audio');
+        player.controls = true;
+        player.preload = 'none';
+        player.src = asset.audio;
+        player.setAttribute('aria-label', asset.id);
+        image.replaceWith(player);
+      } else {
+        if (!asset.thumbnail) throw new Error(`Catalog image ${asset.id} has no thumbnail`);
+        image.src = asset.thumbnail;
+        image.alt = asset.id;
+      }
       const title = card.querySelector('strong')!;
       title.textContent = asset.id;
       title.title = asset.id;
@@ -168,7 +181,7 @@ function renderShowcase() {
         row.append(element('dt', undefined, term), element('dd', undefined, description));
         rights.append(row);
       }
-      card.querySelector('small')!.textContent = `${asset.width}×${asset.height} · ${asset.group}`;
+      card.querySelector('small')!.textContent = asset.audio ? `MP3 · ${asset.group}` : `${asset.width}×${asset.height} · ${asset.group}`;
       const link = card.querySelector('a')!;
       const href = sourceRecordUrl(asset.sourcePaths[0]);
       if (href) link.href = href; else link.remove();
@@ -195,6 +208,7 @@ async function createStage(session: RouteSession, className = 'stage') {
 }
 
 async function loadSprite(asset: CatalogAsset) {
+  if (!asset.thumbnail) throw new Error(`Cannot load non-visual asset ${asset.id} as a sprite`);
   const texture = await Assets.load<Texture>(asset.thumbnail);
   const sprite = new Sprite(texture);
   sprite.anchor.set(0.5);
@@ -483,6 +497,7 @@ async function renderFarmland(session: RouteSession) {
   panel.append(element('h2', undefined, 'Tile palette'));
   const list = element('div', 'farm-list');
   for (const asset of farmland) {
+    if (!asset.thumbnail) continue;
     const button = element('button');
     button.title = asset.id;
     button.dataset.id = asset.id;

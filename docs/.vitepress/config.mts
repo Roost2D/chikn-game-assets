@@ -24,6 +24,7 @@ export default defineConfig({
       {
         text: 'Content',
         items: [
+          { text: 'Audio', link: '/audio' },
           { text: 'Traits and skins', link: '/traits' },
           { text: 'Animations and ownership', link: '/animations' },
           { text: 'Roostr rigs', link: '/roostr' },

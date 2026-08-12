@@ -37,6 +37,7 @@
     "sources/legacy-enemy-flat/RoostrRunr.png"
   ],
   "categories": {
+    "audio": "audio",
     "chikn-atlas": "character-source-atlas",
     "roostr-atlas": "character-source-atlas",
     "traits-chikn": "character-trait",

@@ -4,7 +4,7 @@ This file travels with GitHub Release archives so a developer or coding agent ca
 
 ## Runtime archive layout
 
-Preserve this layout when extracting or mirroring the runtime ZIP:
+The runtime ZIP contains the files that belong inside `<base>/runtime/`. Extract or mirror the archive into that directory and preserve this layout:
 
 ```text
 <base>/
@@ -13,15 +13,17 @@ Preserve this layout when extracting or mirroring the runtime ZIP:
     atlases/
       default/
       high/
-  manifests/rights-manifest.json
-  README.md
-  LICENSE
-  LICENSE-CODE
-  CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md
-  REPOSITORY-LICENSING-NOTICE_PUBLIC.md
-  CHIKN-COMMUNITY-ASSET-NOTICE.md
-  ATTRIBUTION.md
-  COMMERCIAL_USE.md
+    audio/
+    rights-manifest.json
+    reports/source-runtime-lineage.json
+    README.md
+    INTEGRATION.md
+    docs/audio.md
+    CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md
+    REPOSITORY-LICENSING-NOTICE_PUBLIC.md
+    CHIKN-COMMUNITY-ASSET-NOTICE.md
+    ATTRIBUTION.md
+    COMMERCIAL_USE.md
 ```
 
 Supply `<base>/`, not `<base>/runtime/`, to `loadChiknPack({ baseUrl })`. The helper appends `runtime/manifest.json` itself. No public CDN is hardcoded.
@@ -50,6 +52,16 @@ const texture = await textures.load('chikn-flat/admiral');
 ```
 
 Use IDs from `@chikn-game-assets/runtime/catalog` or `runtime/manifest.json`. Do not derive IDs or atlas rectangles from filenames.
+
+Audio entries use `kind: "audio"`, `mediaType: "audio/mpeg"`, and stable `audio/*` IDs. They are identical across the `default` and `high` profiles, so callers can resolve or fetch them through the same manifest helper:
+
+```ts
+import { fetchAssetBytes } from '@chikn-game-assets/runtime';
+
+const bytes = await fetchAssetBytes(pack, 'audio/bok-gark-01');
+```
+
+The source filename and SHA-256 rights record remain available through `runtime/reports/source-runtime-lineage.json` and `runtime/rights-manifest.json` after extraction (`reports/source-runtime-lineage.json` and `manifests/rights-manifest.json` in the repository/source archive). See `runtime/docs/audio.md` for the complete convention.
 
 ## Animate a complete rig
 
@@ -112,7 +124,7 @@ For Roostr, use `loadRoostrRig()`, `loadRoostrAnimations()`, and a Roostr entry 
 
 ## Rights
 
-Manifest entries marked `CHIKN-COMMUNITY-NONCOMMERCIAL` are protected Chikn/Roostr/FarmLand visual content governed by `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`, Version 1.1. Chikn grants that licence directly; Roost2D is an authorised distributor only and grants no Chikn licence, sublicense or commercial rights. Entries marked `Apache-2.0`, currently including `farmland/water-swim-ring-coq`, are independently authored project material and do not belong to Chikn. Files in `excludedPaths`, including the non-Chikn `eggorithm.png`, are not part of either published archive.
+Manifest entries marked `CHIKN-COMMUNITY-NONCOMMERCIAL` are protected Chikn/Roostr/FarmLand visual or audio content governed by `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`, Version 1.1. Chikn grants that licence directly; Roost2D is an authorised distributor only and grants no Chikn licence, sublicense or commercial rights. Entries marked `Apache-2.0`, currently including `farmland/water-swim-ring-coq`, are independently authored project material and do not belong to Chikn. Files in `excludedPaths`, including the non-Chikn `eggorithm.png`, are not part of either published archive.
 
 Legacy flat and rig IDs are manifest aliases, not source-directory names. Resolve them with `findAsset`, `AssetManifestResolver`, or the generated catalog; do not construct a filesystem path from `chikn-flat/*`, `roostr-flat/*`, or dotted rig aliases.
 

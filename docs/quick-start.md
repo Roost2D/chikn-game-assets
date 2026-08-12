@@ -12,7 +12,7 @@ cd chikn-viewer
 npm install pixi.js @roost2d/assets @roost2d/pixi @chikn-game-assets/runtime
 ```
 
-Keep all installed `@roost2d/*` packages on the same exact version. The image release version is independent.
+Keep all installed `@roost2d/*` packages on the same exact version. The media release version is independent.
 
 ## 2. Add the runtime artifact
 
@@ -20,7 +20,10 @@ Download `chikn-game-assets-vX.Y.Z-runtime.zip` from the matching GitHub Release
 
 ```text
 public/vendor/chikn-vX.Y.Z/
+  runtime/
 ```
+
+In other words, extract the ZIP contents into the `runtime/` directory above; the archive itself does not add that wrapper directory.
 
 Verify that this file exists afterward:
 

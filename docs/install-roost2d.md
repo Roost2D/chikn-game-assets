@@ -18,7 +18,7 @@ For a complete game loop, input, isometric projection, and feedback, add only wh
 npm install @roost2d/core @roost2d/input @roost2d/isometric @roost2d/effects @roost2d/audio
 ```
 
-Every `@roost2d/*` dependency must use one exact lockstep version. `@chikn-game-assets/runtime` and the downloaded image artifact are separately versioned.
+Every `@roost2d/*` dependency must use one exact lockstep version. `@chikn-game-assets/runtime` and the downloaded media artifact are separately versioned.
 
 `@roost2d/tooling` is optional and Node-only:
 
