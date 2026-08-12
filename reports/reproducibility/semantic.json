@@ -3,9 +3,9 @@
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "manifest": {
     "schema": "roost2d.assets/v1",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "generatedAt": "1970-01-01T00:00:00.000Z",
-    "rightsDocumentSha256": "c0e0edb176add7965bf9ff353ae63a60a2f1d31651e6227ab614070c283c6e61",
+    "rightsDocumentSha256": "59f7126ae172ecfc6fa77e9208cbf631f2c902848cc4143d2f30b7e84e4f4f9b",
     "profiles": {
       "default": {
         "maxAtlasSize": 2048,
@@ -11789,6 +11789,2218 @@
         "rightsIds": [
           "rights/roostr-unique/roostr-unique-atlas-json",
           "rights/roostr-unique/roostr-unique-atlas-png"
+        ]
+      },
+      {
+        "id": "audio/alternate-arrow-hit",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/alternate-arrow-hit.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/alternate-arrow-hit.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/alternate-arrow-hit-mp3"
+        ]
+      },
+      {
+        "id": "audio/arena-yell",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/arena-yell.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/arena-yell.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/arena-yell-mp3"
+        ]
+      },
+      {
+        "id": "audio/arrow-hits-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/arrow-hits-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/arrow-hits-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/arrow-hits-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/arrow-hits-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/arrow-hits-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/arrow-hits-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/arrow-hits-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/arrow-hits-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/arrow-hits-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/arrow-hits-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/arrow-hits-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/arrow-hits-04",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/arrow-hits-04.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/arrow-hits-04.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/arrow-hits-04-mp3"
+        ]
+      },
+      {
+        "id": "audio/bok-gark-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/bok-gark-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/bok-gark-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/bok-gark-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/bok-gark-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/bok-gark-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/bok-gark-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/bok-gark-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/bok-gark-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/bok-gark-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/bok-gark-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/bok-gark-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/bok-gark-04",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/bok-gark-04.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/bok-gark-04.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/bok-gark-04-mp3"
+        ]
+      },
+      {
+        "id": "audio/bok-gark-05",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/bok-gark-05.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/bok-gark-05.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/bok-gark-05-mp3"
+        ]
+      },
+      {
+        "id": "audio/bok-gark-06",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/bok-gark-06.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/bok-gark-06.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/bok-gark-06-mp3"
+        ]
+      },
+      {
+        "id": "audio/bok-gark-07",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/bok-gark-07.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/bok-gark-07.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/bok-gark-07-mp3"
+        ]
+      },
+      {
+        "id": "audio/bok-gark-08",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/bok-gark-08.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/bok-gark-08.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/bok-gark-08-mp3"
+        ]
+      },
+      {
+        "id": "audio/boomerang",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/boomerang.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/boomerang.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/boomerang-mp3"
+        ]
+      },
+      {
+        "id": "audio/cartoon-missile-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/cartoon-missile-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/cartoon-missile-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/cartoon-missile-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/cartoon-missile-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/cartoon-missile-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/cartoon-missile-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/cartoon-missile-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/cut-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/cut-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/cut-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/cut-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/cut-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/cut-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/cut-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/cut-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/cut-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/cut-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/cut-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/cut-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/cut-04",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/cut-04.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/cut-04.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/cut-04-mp3"
+        ]
+      },
+      {
+        "id": "audio/damage-taken-boks-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/damage-taken-boks-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/damage-taken-boks-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/damage-taken-boks-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/damage-taken-boks-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/damage-taken-boks-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/damage-taken-boks-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/damage-taken-boks-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/damage-taken-boks-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/damage-taken-boks-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/damage-taken-boks-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/damage-taken-boks-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/damage-taken-boks-04",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/damage-taken-boks-04.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/damage-taken-boks-04.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/damage-taken-boks-04-mp3"
+        ]
+      },
+      {
+        "id": "audio/damage-taken-boks-05",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/damage-taken-boks-05.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/damage-taken-boks-05.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/damage-taken-boks-05-mp3"
+        ]
+      },
+      {
+        "id": "audio/explosion-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/explosion-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/explosion-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/explosion-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/explosion-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/explosion-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/explosion-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/explosion-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/explosion-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/explosion-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/explosion-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/explosion-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/fart-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/fart-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/fart-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/fart-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/fart-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/fart-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/fart-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/fart-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/fart-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/fart-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/fart-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/fart-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/fart-04",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/fart-04.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/fart-04.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/fart-04-mp3"
+        ]
+      },
+      {
+        "id": "audio/human-bok-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/human-bok-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/human-bok-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/human-bok-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/human-bok-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/human-bok-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/human-bok-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/human-bok-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/human-bok-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/human-bok-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/human-bok-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/human-bok-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/human-bok-04",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/human-bok-04.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/human-bok-04.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/human-bok-04-mp3"
+        ]
+      },
+      {
+        "id": "audio/human-bok-05",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/human-bok-05.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/human-bok-05.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/human-bok-05-mp3"
+        ]
+      },
+      {
+        "id": "audio/human-bok-06",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/human-bok-06.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/human-bok-06.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/human-bok-06-mp3"
+        ]
+      },
+      {
+        "id": "audio/human-bok-07",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/human-bok-07.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/human-bok-07.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/human-bok-07-mp3"
+        ]
+      },
+      {
+        "id": "audio/projectile-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/projectile-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/projectile-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/projectile-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/projectile-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/projectile-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/projectile-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/projectile-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/projectile-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/projectile-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/projectile-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/projectile-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/projectile-ricochet-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/projectile-ricochet-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/projectile-ricochet-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/projectile-ricochet-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/projectile-ricochet-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/projectile-ricochet-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/projectile-ricochet-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/projectile-ricochet-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/projectile-ricochet-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/projectile-ricochet-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/projectile-ricochet-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/projectile-ricochet-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/projectile-ricochet-04",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/projectile-ricochet-04.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/projectile-ricochet-04.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/projectile-ricochet-04-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-04",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-04.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-04.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-04-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-05",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-05.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-05.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-05-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-06",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-06.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-06.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-06-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-07",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-07.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-07.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-07-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-08",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-08.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-08.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-08-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-gark-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-gark-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-gark-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-gark-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-gark-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-gark-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-gark-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-gark-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-gark-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-gark-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-gark-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-gark-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-gark-04",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-gark-04.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-gark-04.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-gark-04-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-gark-05",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-gark-05.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-gark-05.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-gark-05-mp3"
+        ]
+      },
+      {
+        "id": "audio/real-chicken-bok-gark-06",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/real-chicken-bok-gark-06.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/real-chicken-bok-gark-06.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/real-chicken-bok-gark-06-mp3"
+        ]
+      },
+      {
+        "id": "audio/slap-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/slap-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/slap-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/slap-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/slap-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/slap-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/slap-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/slap-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/slap-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/slap-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/slap-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/slap-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/slap-04",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/slap-04.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/slap-04.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/slap-04-mp3"
+        ]
+      },
+      {
+        "id": "audio/slap-05",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/slap-05.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/slap-05.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/slap-05-mp3"
+        ]
+      },
+      {
+        "id": "audio/songs/cf-pre-game-loop-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/songs/cf-pre-game-loop-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/songs/cf-pre-game-loop-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/songs/cf-pre-game-loop-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/squeak-chicken-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/squeak-chicken-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/squeak-chicken-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/squeak-chicken-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/squeak-chicken-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/squeak-chicken-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/squeak-chicken-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/squeak-chicken-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/squeak-chicken-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/squeak-chicken-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/squeak-chicken-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/squeak-chicken-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/squeak-chicken-04",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/squeak-chicken-04.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/squeak-chicken-04.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/squeak-chicken-04-mp3"
+        ]
+      },
+      {
+        "id": "audio/swipe-inpact-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/swipe-inpact-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/swipe-inpact-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/swipe-inpact-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/swipe-inpact-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/swipe-inpact-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/swipe-inpact-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/swipe-inpact-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/swipe-inpact-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/swipe-inpact-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/swipe-inpact-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/swipe-inpact-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/thud-01",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/thud-01.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/thud-01.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/thud-01-mp3"
+        ]
+      },
+      {
+        "id": "audio/thud-02",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/thud-02.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/thud-02.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/thud-02-mp3"
+        ]
+      },
+      {
+        "id": "audio/thud-03",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/thud-03.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/thud-03.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/thud-03-mp3"
+        ]
+      },
+      {
+        "id": "audio/ui-select",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/ui-select.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/ui-select.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/ui-select-mp3"
+        ]
+      },
+      {
+        "id": "audio/unsheath",
+        "kind": "audio",
+        "mediaType": "audio/mpeg",
+        "variants": [
+          {
+            "profile": "default",
+            "path": "runtime/audio/unsheath.mp3",
+            "scale": 1
+          },
+          {
+            "profile": "high",
+            "path": "runtime/audio/unsheath.mp3",
+            "scale": 1
+          }
+        ],
+        "aliases": [],
+        "license": "CHIKN-COMMUNITY-NONCOMMERCIAL",
+        "ownership": "third-party-chikn-rights-holder",
+        "commercialUse": "separate-agreement-required",
+        "attribution": "Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.",
+        "hostingAuthorized": true,
+        "communityUseAuthorized": true,
+        "sublicenseGrantedByRepository": false,
+        "rightsIds": [
+          "rights/audio/unsheath-mp3"
         ]
       },
       {
@@ -43442,6 +45654,330 @@
         "lazy": true,
         "preload": false,
         "estimatedGpuBytes": 1135908
+      },
+      {
+        "id": "audio",
+        "items": [
+          {
+            "assetId": "audio/alternate-arrow-hit",
+            "required": true
+          },
+          {
+            "assetId": "audio/arena-yell",
+            "required": true
+          },
+          {
+            "assetId": "audio/arrow-hits-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/arrow-hits-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/arrow-hits-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/arrow-hits-04",
+            "required": true
+          },
+          {
+            "assetId": "audio/bok-gark-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/bok-gark-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/bok-gark-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/bok-gark-04",
+            "required": true
+          },
+          {
+            "assetId": "audio/bok-gark-05",
+            "required": true
+          },
+          {
+            "assetId": "audio/bok-gark-06",
+            "required": true
+          },
+          {
+            "assetId": "audio/bok-gark-07",
+            "required": true
+          },
+          {
+            "assetId": "audio/bok-gark-08",
+            "required": true
+          },
+          {
+            "assetId": "audio/boomerang",
+            "required": true
+          },
+          {
+            "assetId": "audio/cartoon-missile-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/cartoon-missile-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/cut-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/cut-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/cut-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/cut-04",
+            "required": true
+          },
+          {
+            "assetId": "audio/damage-taken-boks-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/damage-taken-boks-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/damage-taken-boks-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/damage-taken-boks-04",
+            "required": true
+          },
+          {
+            "assetId": "audio/damage-taken-boks-05",
+            "required": true
+          },
+          {
+            "assetId": "audio/explosion-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/explosion-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/explosion-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/fart-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/fart-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/fart-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/fart-04",
+            "required": true
+          },
+          {
+            "assetId": "audio/human-bok-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/human-bok-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/human-bok-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/human-bok-04",
+            "required": true
+          },
+          {
+            "assetId": "audio/human-bok-05",
+            "required": true
+          },
+          {
+            "assetId": "audio/human-bok-06",
+            "required": true
+          },
+          {
+            "assetId": "audio/human-bok-07",
+            "required": true
+          },
+          {
+            "assetId": "audio/projectile-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/projectile-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/projectile-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/projectile-ricochet-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/projectile-ricochet-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/projectile-ricochet-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/projectile-ricochet-04",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-04",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-05",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-06",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-07",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-08",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-gark-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-gark-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-gark-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-gark-04",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-gark-05",
+            "required": true
+          },
+          {
+            "assetId": "audio/real-chicken-bok-gark-06",
+            "required": true
+          },
+          {
+            "assetId": "audio/slap-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/slap-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/slap-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/slap-04",
+            "required": true
+          },
+          {
+            "assetId": "audio/slap-05",
+            "required": true
+          },
+          {
+            "assetId": "audio/songs/cf-pre-game-loop-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/squeak-chicken-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/squeak-chicken-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/squeak-chicken-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/squeak-chicken-04",
+            "required": true
+          },
+          {
+            "assetId": "audio/swipe-inpact-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/swipe-inpact-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/swipe-inpact-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/thud-01",
+            "required": true
+          },
+          {
+            "assetId": "audio/thud-02",
+            "required": true
+          },
+          {
+            "assetId": "audio/thud-03",
+            "required": true
+          },
+          {
+            "assetId": "audio/ui-select",
+            "required": true
+          },
+          {
+            "assetId": "audio/unsheath",
+            "required": true
+          }
+        ],
+        "lazy": true,
+        "preload": false,
+        "estimatedGpuBytes": 0
       },
       {
         "id": "chikn-flat",

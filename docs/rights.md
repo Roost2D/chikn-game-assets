@@ -4,7 +4,7 @@ The repository separates Apache-2.0 project material from Chikn community conten
 
 ## Chikn community content
 
-Official Chikn, Roostr, and FarmLand visual sources use `license: "CHIKN-COMMUNITY-NONCOMMERCIAL"` in `manifests/rights-manifest.json`. This stable repository identifier refers to the Chikn Community Asset Pack Non-Commercial Licence, Version 1.1, granted directly by Chikn; it is not a licence or sublicense granted by Roost2D.
+Official Chikn, Roostr, and FarmLand visual and audio sources use `license: "CHIKN-COMMUNITY-NONCOMMERCIAL"` in `manifests/rights-manifest.json`. This stable repository identifier refers to the Chikn Community Asset Pack Non-Commercial Licence, Version 1.1, granted directly by Chikn; it is not a licence or sublicense granted by Roost2D.
 
 Every protected record states:
 

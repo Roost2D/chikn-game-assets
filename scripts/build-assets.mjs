@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 import { access, mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises';
-import { dirname, relative, resolve, sep } from 'node:path';
+import { dirname, extname, relative, resolve, sep } from 'node:path';
 import sharp from 'sharp';
 import { canonicalSourceBytes, sourceSha256 } from './source-hash.mjs';
 
@@ -24,6 +24,7 @@ const profiles = [
 
 const allSourceFiles = [];
 const imageEntries = [];
+const directEntries = [];
 const sourceAtlases = [];
 for (const selection of sourceSelection.roots) {
   const sourceRoot = resolve(selection.source);
@@ -36,6 +37,8 @@ for (const selection of sourceSelection.roots) {
     if (!rights) throw new Error(`Source is not classified in the rights manifest: ${sourcePath}`);
     const authorized = rights.license === 'Apache-2.0' ? rights.approved === true : rights.hostingAuthorized === true && rights.communityUseAuthorized === true && rights.sublicenseGrantedByRepository === false;
     if (!authorized || rights.sha256 !== sha256) throw new Error(`Source is unauthorized or changed: ${sourcePath}`);
+    const directMediaType = selection.runtimeFiles?.mediaTypes?.[extname(sourcePath).toLowerCase()];
+    if (selection.runtime !== false && directMediaType) directEntries.push(describeDirectFile(absolute, sourceRoot, selection, rights, bytes, directMediaType));
     const isConfiguredSourceAtlas = selection.sourceAtlas && sourcePath === `${selection.source}/${selection.sourceAtlas.json}`;
     if (selection.runtime !== false && /\.json$/i.test(absolute) && (isConfiguredSourceAtlas || /_atlas_high\.json$/i.test(absolute))) sourceAtlases.push({ absolute, sourceRoot, selection, sourcePath });
     if (selection.runtime !== false && !selection.sourceAtlas && /\.(?:png|jpe?g)$/i.test(absolute) && !/_atlas_(?:high|low)\.(?:png|jpe?g)$/i.test(absolute)) imageEntries.push(await describeImage(absolute, sourceRoot, selection, [rights.id]));
@@ -43,7 +46,7 @@ for (const selection of sourceSelection.roots) {
 }
 allSourceFiles.sort((a, b) => a.path.localeCompare(b.path));
 
-const claimedReferences = new Set(imageEntries.flatMap(({ assetId, aliases }) => [assetId, ...aliases]));
+const claimedReferences = new Set([...imageEntries, ...directEntries].flatMap(({ assetId, aliases }) => [assetId, ...aliases]));
 for (const sourceAtlas of sourceAtlases.sort((a, b) => a.sourcePath.localeCompare(b.sourcePath))) {
   const atlas = JSON.parse(await readFile(sourceAtlas.absolute, 'utf8')); const imageName = atlas.meta?.image ?? sourceAtlas.sourcePath.replace(/\.json$/i, '.png').split('/').at(-1); const imagePath = resolve(dirname(sourceAtlas.absolute), imageName);
   const atlasSourcePath = relative(root, imagePath).split(sep).join('/'); const atlasRights = rightsByPath.get(atlasSourcePath); const jsonRights = rightsByPath.get(sourceAtlas.sourcePath);
@@ -74,20 +77,23 @@ for (const sourceAtlas of sourceAtlases.sort((a, b) => a.sourcePath.localeCompar
   }
 }
 
-for (const assetId of Object.keys(configuredAliases)) if (!imageEntries.some((entry) => entry.assetId === assetId)) throw new Error(`Configured aliases reference unknown canonical asset: ${assetId}`);
-imageEntries.sort((a, b) => a.assetId.localeCompare(b.assetId)); assertUnique(imageEntries.map((entry) => entry.assetId), 'asset id'); assertUnique(imageEntries.flatMap((entry) => entry.aliases), 'asset alias');
-const primaryIds = new Set(imageEntries.map((entry) => entry.assetId));
-for (const alias of imageEntries.flatMap((entry) => entry.aliases)) if (primaryIds.has(alias)) throw new Error(`Asset alias collides with a primary id: ${alias}`);
+imageEntries.sort((a, b) => a.assetId.localeCompare(b.assetId));
+directEntries.sort((a, b) => a.assetId.localeCompare(b.assetId));
+const runtimeEntries = [...imageEntries, ...directEntries].sort((a, b) => a.assetId.localeCompare(b.assetId));
+for (const assetId of Object.keys(configuredAliases)) if (!runtimeEntries.some((entry) => entry.assetId === assetId)) throw new Error(`Configured aliases reference unknown canonical asset: ${assetId}`);
+assertUnique(runtimeEntries.map((entry) => entry.assetId), 'asset id'); assertUnique(runtimeEntries.flatMap((entry) => entry.aliases), 'asset alias');
+const primaryIds = new Set(runtimeEntries.map((entry) => entry.assetId));
+for (const alias of runtimeEntries.flatMap((entry) => entry.aliases)) if (primaryIds.has(alias)) throw new Error(`Asset alias collides with a primary id: ${alias}`);
 const fingerprint = sha256Hex(Buffer.from(JSON.stringify({ sources: allSourceFiles.map(({ path, sha256 }) => [path, sha256]), selection: sourceSelection, aliases: assetAliasConfig, rightsDocumentSha256: sha256Hex(rightsManifestBytes), profiles, version: packageVersion })));
 if (incremental) try { if ((await readFile(resolve('runtime/.build-fingerprint'), 'utf8')).trim() === fingerprint) { console.log('Asset runtime is current; incremental build skipped.'); process.exit(0); } } catch {}
 
 await mkdir(resolve('reports/reproducibility'), { recursive: true });
-await writeJson('reports/approved-inventory.json', { schema: 'chikn-game-assets.approved-inventory/v1', generatedAt: generatedAt(), selection: sourceSelection, aliases: assetAliasConfig, rightsManifest: 'manifests/rights-manifest.json', totals: { files: allSourceFiles.length, images: imageEntries.length, bytes: allSourceFiles.reduce((total, file) => total + file.bytes, 0) }, files: allSourceFiles, images: imageEntries.map(({ buffer, ...image }) => image) });
-if (inventoryOnly || dryRun) { console.log(`${dryRun ? 'Dry run:' : 'Inventory:'} ${imageEntries.length} logical images from ${allSourceFiles.length} approved source files.`); process.exit(0); }
+await writeJson('reports/approved-inventory.json', { schema: 'chikn-game-assets.approved-inventory/v1', generatedAt: generatedAt(), selection: sourceSelection, aliases: assetAliasConfig, rightsManifest: 'manifests/rights-manifest.json', totals: { files: allSourceFiles.length, images: imageEntries.length, directFiles: directEntries.length, bytes: allSourceFiles.reduce((total, file) => total + file.bytes, 0) }, files: allSourceFiles, images: imageEntries.map(({ buffer, ...image }) => image), directFiles: directEntries.map(({ buffer, ...entry }) => entry) });
+if (inventoryOnly || dryRun) { console.log(`${dryRun ? 'Dry run:' : 'Inventory:'} ${imageEntries.length} logical images and ${directEntries.length} direct files from ${allSourceFiles.length} approved source files.`); process.exit(0); }
 
 await rm(resolve('runtime'), { recursive: true, force: true }); await mkdir(resolve('runtime/atlases'), { recursive: true });
 const profileDefinitions = Object.fromEntries(profiles.map((profile) => [profile.id, { maxAtlasSize: profile.maxAtlasSize, scale: profile.scale, gpuBudgetBytes: profile.gpuBudgetBytes }]));
-const builtVariants = new Map(imageEntries.map((entry) => [entry.assetId, []])); const pageMetadata = [];
+const builtVariants = new Map(runtimeEntries.map((entry) => [entry.assetId, []])); const pageMetadata = [];
 
 for (const profile of profiles) for (const [group, entries] of Object.entries(groupBy(imageEntries, (entry) => entry.group))) {
   const pages = pack(entries, profile);
@@ -104,6 +110,14 @@ for (const profile of profiles) for (const [group, entries] of Object.entries(gr
   }
 }
 
+for (const entry of directEntries) {
+  const output = resolve(entry.runtimePath);
+  await mkdir(dirname(output), { recursive: true });
+  await writeFile(output, entry.buffer);
+  const variant = { path: entry.runtimePath, bytes: entry.buffer.byteLength, integrity: { algorithm: 'sha256', value: sri(entry.buffer) }, scale: 1 };
+  builtVariants.set(entry.assetId, profiles.map(({ id: profile }) => ({ profile, ...variant })));
+}
+
 for (const page of pageMetadata) assertBudget(`atlas ${page.path}`, page.bytes, page.profile === 'default' ? budgets.atlasDefaultBytes : budgets.atlasHighBytes);
 const bundleFor = (bundleId, entries) => {
   const pagePaths = new Set(entries.flatMap((entry) => builtVariants.get(entry.assetId)).map((variant) => variant.path));
@@ -111,18 +125,18 @@ const bundleFor = (bundleId, entries) => {
   return { id: bundleId, items: entries.map((entry) => ({ assetId: entry.assetId, required: true })), lazy: true, preload: false, estimatedGpuBytes: gpuBytes };
 };
 const bundles = [
-  ...[...new Set(imageEntries.flatMap((entry) => [entry.assetId, ...entry.aliases]).filter((reference) => reference.includes('/')).map((reference) => reference.split('/')[0]))].sort().map((bundleId) => bundleFor(bundleId, imageEntries.filter((entry) => entry.assetId.startsWith(`${bundleId}/`) || entry.aliases.some((alias) => alias.startsWith(`${bundleId}/`))))),
+  ...[...new Set(runtimeEntries.flatMap((entry) => [entry.assetId, ...entry.aliases]).filter((reference) => reference.includes('/')).map((reference) => reference.split('/')[0]))].sort().map((bundleId) => bundleFor(bundleId, runtimeEntries.filter((entry) => entry.assetId.startsWith(`${bundleId}/`) || entry.aliases.some((alias) => alias.startsWith(`${bundleId}/`))))),
   ...['chikn', 'roostr'].map((species) => bundleFor(`${species}-unique`, imageEntries.filter((entry) => entry.unique && entry.species === species))).filter((bundle) => bundle.items.length),
 ];
 const manifest = {
   schema: 'roost2d.assets/v1', version: packageVersion, generatedAt: generatedAt(), rightsDocumentSha256: sha256Hex(rightsManifestBytes), profiles: profileDefinitions,
-  files: imageEntries.map((entry) => ({ id: entry.assetId, kind: 'atlas-frame', mediaType: 'image/png', variants: builtVariants.get(entry.assetId), aliases: entry.aliases, ...contentRights(entry.rightsIds), rightsIds: entry.rightsIds })),
+  files: runtimeEntries.map((entry) => ({ id: entry.assetId, kind: entry.kind ?? 'atlas-frame', mediaType: entry.mediaType ?? 'image/png', variants: builtVariants.get(entry.assetId), aliases: entry.aliases, ...contentRights(entry.rightsIds), rightsIds: entry.rightsIds })),
   bundles,
 };
 await writeJson('runtime/manifest.json', manifest); await writeFile(resolve('runtime/.build-fingerprint'), `${fingerprint}\n`);
 const runtimeBytes = await totalBytes(resolve('runtime')); assertBudget('default runtime', await totalBytes(resolve('runtime/atlases/default')), budgets.runtimeDefaultBytes); assertBudget('high runtime', await totalBytes(resolve('runtime/atlases/high')), budgets.runtimeHighBytes);
-await writeJson('reports/release-size.json', { schema: 'chikn-game-assets.release-size/v1', generatedAt: generatedAt(), runtimeBytes, sourceBytes: allSourceFiles.reduce((total, file) => total + file.bytes, 0), atlases: pageMetadata.map(({ frames, ...page }) => ({ ...page, frameCount: Object.keys(frames).length })) });
-await writeJson('reports/source-runtime-lineage.json', { schema: 'chikn-game-assets.lineage/v1', generatedAt: generatedAt(), assets: imageEntries.map((entry) => ({ assetId: entry.assetId, sourcePaths: entry.sourcePaths, rightsIds: entry.rightsIds, variants: builtVariants.get(entry.assetId).map(({ profile, path, frameId, frame }) => ({ profile, path, frameId, frame })) })) });
+await writeJson('reports/release-size.json', { schema: 'chikn-game-assets.release-size/v1', generatedAt: generatedAt(), runtimeBytes, sourceBytes: allSourceFiles.reduce((total, file) => total + file.bytes, 0), atlases: pageMetadata.map(({ frames, ...page }) => ({ ...page, frameCount: Object.keys(frames).length })), directFiles: directEntries.map((entry) => ({ assetId: entry.assetId, path: entry.runtimePath, mediaType: entry.mediaType, bytes: entry.buffer.byteLength })) });
+await writeJson('reports/source-runtime-lineage.json', { schema: 'chikn-game-assets.lineage/v1', generatedAt: generatedAt(), assets: runtimeEntries.map((entry) => ({ assetId: entry.assetId, sourcePaths: entry.sourcePaths, rightsIds: entry.rightsIds, variants: builtVariants.get(entry.assetId).map(({ profile, path, frameId, frame }) => ({ profile, path, frameId, frame })) })) });
 await writeJson('reports/reproducibility/semantic.json', await createSemanticReport(manifest, pageMetadata));
 
 function generatedAt() { return new Date(Number(process.env.SOURCE_DATE_EPOCH ?? 0) * 1000).toISOString(); }
@@ -145,7 +159,7 @@ function contentRights(rightsIds) {
   const protectedRecord = records.find(({ license }) => license === 'CHIKN-COMMUNITY-NONCOMMERCIAL');
   if (!protectedRecord) {
     const projectRecord = records.find(({ license, approved }) => license === 'Apache-2.0' && approved === true);
-    if (!projectRecord) throw new Error(`Runtime visual has no approved content rights record: ${rightsIds.join(', ')}`);
+    if (!projectRecord) throw new Error(`Runtime asset has no approved content rights record: ${rightsIds.join(', ')}`);
     return { license: projectRecord.license, commercialUse: projectRecord.commercialUse, attribution: projectRecord.attribution };
   }
   return {
@@ -175,6 +189,26 @@ async function describeImage(absolute, sourceRoot, selection, rightsIds) {
     ...(configuredAliases[assetId] ?? []),
   ]);
   return { assetId, aliases, group: packingGroup(selection.group, rightsIds), sourcePaths: [relative(root, absolute).split(sep).join('/')], rightsIds, width: metadata.width, height: metadata.height, buffer: await readFile(absolute) };
+}
+
+function describeDirectFile(absolute, sourceRoot, selection, rights, buffer, mediaType) {
+  const sourceRelativePath = relative(sourceRoot, absolute).split(sep).join('/');
+  const extension = extname(sourceRelativePath).toLowerCase();
+  const parts = sourceRelativePath.slice(0, -extension.length).split('/').map(slug);
+  const assetId = [selection.group, ...parts].join('/');
+  const outputRoot = selection.runtimeFiles.output ?? `runtime/${slug(selection.group)}`;
+  const runtimePath = [outputRoot.replace(/\/$/, ''), ...parts.slice(0, -1), `${parts.at(-1)}${extension}`].join('/');
+  return {
+    assetId,
+    aliases: uniqueAliases([...(sourceSelection.additionalAliases?.[assetId] ?? []), ...(configuredAliases[assetId] ?? [])]),
+    group: selection.group,
+    sourcePaths: [relative(root, absolute).split(sep).join('/')],
+    rightsIds: [rights.id],
+    kind: selection.runtimeFiles.kind ?? 'file',
+    mediaType,
+    runtimePath,
+    buffer,
+  };
 }
 
 function uniqueAliases(values) { return [...new Set(values.filter(Boolean))]; }

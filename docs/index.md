@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: Chikn Game Assets
-  text: Classified art, deterministic atlases, and Roost2D-ready integration
-  tagline: Load publicly hosted Chikn, Roostr, and FarmLand community assets without coupling your game to a fixed host or confusing Chikn rights with project-created rig metadata.
+  text: Classified art and audio, deterministic atlases, and Roost2D-ready integration
+  tagline: Load publicly hosted Chikn, Roostr, and FarmLand community assets without coupling your game to a fixed host or confusing Chikn rights with project-created metadata.
   actions:
     - theme: brand
       text: Five-minute quick start
@@ -15,11 +15,11 @@ hero:
 
 features:
   - title: Exact hosted inventory
-    details: Deduplicated individual traits/base parts, unique assembled characters, retained source atlases, and deterministic default/high runtime atlases.
+    details: Deduplicated individual traits/base parts, unique assembled characters, retained source atlases, deterministic default/high runtime atlases, and direct integrity-pinned audio.
   - title: Engine-independent delivery
     details: The npm helper resolves manifests and asset IDs; your application explicitly selects where release files are hosted.
   - title: Auditable rights boundaries
-    details: Protected visual content, published Apache-2.0 project art/metadata, and excluded project material are distinct and enforced by exact source hashes.
+    details: Protected visual/audio content, published Apache-2.0 project art/metadata, and excluded project material are distinct and enforced by exact source hashes.
 ---
 
 > Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.

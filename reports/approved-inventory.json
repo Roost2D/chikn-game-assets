@@ -68,6 +68,17 @@
         }
       },
       {
+        "source": "sources/audio",
+        "group": "audio",
+        "runtimeFiles": {
+          "kind": "audio",
+          "output": "runtime/audio",
+          "mediaTypes": {
+            ".mp3": "audio/mpeg"
+          }
+        }
+      },
+      {
         "source": "sources/legacy-enemy-flat",
         "group": "legacy-enemy-flat",
         "runtime": false
@@ -210,11 +221,407 @@
   },
   "rightsManifest": "manifests/rights-manifest.json",
   "totals": {
-    "files": 568,
+    "files": 647,
     "images": 797,
-    "bytes": 45817168
+    "directFiles": 79,
+    "bytes": 47576479
   },
   "files": [
+    {
+      "path": "sources/audio/alternate_arrow_hit.mp3",
+      "bytes": 15468,
+      "sha256": "20714c2ef6aeda19dd4cd7fc1064313d5804f7ca39c82e78e9e1120637b709bf"
+    },
+    {
+      "path": "sources/audio/arena_yell.mp3",
+      "bytes": 217124,
+      "sha256": "5790f92e1897e135499363eccb604cbe3fdf7f835a41c55048435437aec5d649"
+    },
+    {
+      "path": "sources/audio/arrow_hits_01.mp3",
+      "bytes": 13514,
+      "sha256": "9e66ab3b61e29c9cc99f77359ad7fd6febc67d249f49cc1863db44d771afb89f"
+    },
+    {
+      "path": "sources/audio/arrow_hits_02.mp3",
+      "bytes": 19024,
+      "sha256": "27260004b778a835224fab6eda56858dd83811aeca368422e5e69e8afab8d7ed"
+    },
+    {
+      "path": "sources/audio/arrow_hits_03.mp3",
+      "bytes": 14481,
+      "sha256": "6134fe9d817914e1a6b3a890e558ecbe134c3ae2710b90b748f89d87f1fc76e4"
+    },
+    {
+      "path": "sources/audio/arrow_hits_04.mp3",
+      "bytes": 14064,
+      "sha256": "177329a67a027e7bbcae2cc6ea9e90dbc2f0e9c423914d0f966448975d0d52c5"
+    },
+    {
+      "path": "sources/audio/bok_gark_01.mp3",
+      "bytes": 8292,
+      "sha256": "1a88695189679f44577192c6f283bf03d921e5d494951cb10dc87f9a266fb5da"
+    },
+    {
+      "path": "sources/audio/bok_gark_02.mp3",
+      "bytes": 16267,
+      "sha256": "109543768d0a7dea44b0b6950c24a87a41e2a7e9e2fe1dad61a747c2bf810fb4"
+    },
+    {
+      "path": "sources/audio/bok_gark_03.mp3",
+      "bytes": 9650,
+      "sha256": "01cf3ec0d3322710326c2f005b783620ad28d17372a09aab360442bd229b27cc"
+    },
+    {
+      "path": "sources/audio/bok_gark_04.mp3",
+      "bytes": 10431,
+      "sha256": "a66da8f03e2bbd878c32268afdf0bcb417060c1aeb548664b785f48d45ec6843"
+    },
+    {
+      "path": "sources/audio/bok_gark_05.mp3",
+      "bytes": 11005,
+      "sha256": "4007e624c2f1010b6f7d06d76ccf979c148d3075adea624c335617c0a567d6aa"
+    },
+    {
+      "path": "sources/audio/bok_gark_06.mp3",
+      "bytes": 10535,
+      "sha256": "58a060a799098e684ea2968c83666b903d487586e7e58dfd6784be7a9e3ad0af"
+    },
+    {
+      "path": "sources/audio/bok_gark_07.mp3",
+      "bytes": 10953,
+      "sha256": "1a76a5d616be73f7b91f16af75271f36ec5cc469844d47def894541300e06d55"
+    },
+    {
+      "path": "sources/audio/bok_gark_08.mp3",
+      "bytes": 9284,
+      "sha256": "6212faf3f76cb5c85471c43979c68bd2f7f4d1575b2b487669f2b31605167273"
+    },
+    {
+      "path": "sources/audio/boomerang.mp3",
+      "bytes": 43784,
+      "sha256": "eeb6f385c2f4022428691b08835a615ad3f4c74d921aafa7b2624e23fec03b93"
+    },
+    {
+      "path": "sources/audio/cartoon_missile_01.mp3",
+      "bytes": 130398,
+      "sha256": "35a5b029eab67f52451a4883a1f3bd0209fa6eff0c83ed22fa346ed482135bb8"
+    },
+    {
+      "path": "sources/audio/cartoon_missile_02.mp3",
+      "bytes": 78628,
+      "sha256": "54b55484076438d87e8aac1d556b85209a064539e04905ca36ab486da16ae8d7"
+    },
+    {
+      "path": "sources/audio/cut_01.mp3",
+      "bytes": 18974,
+      "sha256": "3b26ba4f5ffbf871748f9cc0e4609d1d6ed37c52d09e0c312150f7f1a7505517"
+    },
+    {
+      "path": "sources/audio/cut_02.mp3",
+      "bytes": 17199,
+      "sha256": "e568f5edb5af75550f8d0d6b83056a0478d1822682defe73b1bf1ce89c6be1b0"
+    },
+    {
+      "path": "sources/audio/cut_03.mp3",
+      "bytes": 17409,
+      "sha256": "a5281c5d3ea4bf71d86f803453e00fd7875cb83b7c644cba04a2bab64efdd028"
+    },
+    {
+      "path": "sources/audio/cut_04.mp3",
+      "bytes": 17303,
+      "sha256": "7e0bba60a2cca570ab2cde3a6ef1431c4129883a734fb553033728df2e0763d2"
+    },
+    {
+      "path": "sources/audio/damage_taken_boks_01.mp3",
+      "bytes": 11215,
+      "sha256": "db832f14c5edf1dc8b9f0f32a40566b1a232260ee00c64011b52019d656119e0"
+    },
+    {
+      "path": "sources/audio/damage_taken_boks_02.mp3",
+      "bytes": 10172,
+      "sha256": "83f1972196b8e30a0a9aec3b89fc36b89d3f9d8431ff2786f7baf7ba448c77ad"
+    },
+    {
+      "path": "sources/audio/damage_taken_boks_03.mp3",
+      "bytes": 8813,
+      "sha256": "6b6c41b4caa9ec525c701979088e79b0b4131f6533786e7c9f5df75430e4dc9c"
+    },
+    {
+      "path": "sources/audio/damage_taken_boks_04.mp3",
+      "bytes": 9023,
+      "sha256": "e3a5e49ec08ac5c69e7c0cee24ec5df8ea66972606ac7c816c0397e22ffc19e3"
+    },
+    {
+      "path": "sources/audio/damage_taken_boks_05.mp3",
+      "bytes": 9338,
+      "sha256": "4aba339b162de920e0e2a59c7cf26aafe3a5350011ebf2cd383c276d8edceea2"
+    },
+    {
+      "path": "sources/audio/explosion_01.mp3",
+      "bytes": 19351,
+      "sha256": "1c318fad8f1db9ab5421dcdecc919aa78cbc82ca0c809c85c504ab4ee30ea750"
+    },
+    {
+      "path": "sources/audio/explosion_02.mp3",
+      "bytes": 18307,
+      "sha256": "bee4a8385618e0f8e66cb19b1407b498fc40fdf4721a4ad98e65cef5afaf4c11"
+    },
+    {
+      "path": "sources/audio/explosion_03.mp3",
+      "bytes": 36177,
+      "sha256": "549429d13fb67e1e80056dfe74a80db46fe450057b3358cafdb3f024d14df55b"
+    },
+    {
+      "path": "sources/audio/fart_01.mp3",
+      "bytes": 11881,
+      "sha256": "60086c238576c85b972e48091f4e23c2eeceefd82eea7f5e3006cd2aa5369bbf"
+    },
+    {
+      "path": "sources/audio/fart_02.mp3",
+      "bytes": 9323,
+      "sha256": "2f4bc5e8f908c654e0fb9d16a2fb1afeb16468cc01dca531d375384e1c638cca"
+    },
+    {
+      "path": "sources/audio/fart_03.mp3",
+      "bytes": 8748,
+      "sha256": "8c79cc139e7abb23c130c8a6cb1a1c394e63cc108849db161cebedcc5e5a7c4c"
+    },
+    {
+      "path": "sources/audio/fart_04.mp3",
+      "bytes": 6659,
+      "sha256": "1dbf71d31b5b5420ac896b68daeb4dcdaa6485fe16ba5594130bb92149c7598c"
+    },
+    {
+      "path": "sources/audio/human_bok_01.mp3",
+      "bytes": 5083,
+      "sha256": "105cd0bb82901d8913d52a7a3b027d514bfc88b72097ba32fa8fb7338ed86a1e"
+    },
+    {
+      "path": "sources/audio/human_bok_02.mp3",
+      "bytes": 7378,
+      "sha256": "c3f1ffa7680a08217feff50de573aaebb17299b38711e69ca9da3b862629cd14"
+    },
+    {
+      "path": "sources/audio/human_bok_03.mp3",
+      "bytes": 5526,
+      "sha256": "2386a28844bcfe64f4f79fc5e81a838bc60853a7d3d41a2166e1c3471ff5cd72"
+    },
+    {
+      "path": "sources/audio/human_bok_04.mp3",
+      "bytes": 4849,
+      "sha256": "6819032f03ad5bdbed183de119812b4137f4c4aaeb2eb4a943e35c3a37a19ae0"
+    },
+    {
+      "path": "sources/audio/human_bok_05.mp3",
+      "bytes": 5735,
+      "sha256": "70b84ff41ad1a819adc00a4156bfa39cc990774ab50c9fff4681419bbfee1adb"
+    },
+    {
+      "path": "sources/audio/human_bok_06.mp3",
+      "bytes": 6492,
+      "sha256": "4bf455a66e249405edf6bfc7f9df5c4c036b2b65b15b9b4494c162f34de0c0cf"
+    },
+    {
+      "path": "sources/audio/human_bok_07.mp3",
+      "bytes": 6518,
+      "sha256": "e132d65a99e92ec7d9e8e855b954c9147d98c234ec4c0b375354851c349e8f4d"
+    },
+    {
+      "path": "sources/audio/projectile_01.mp3",
+      "bytes": 8713,
+      "sha256": "c9f21803c2b314d730c8c03574b5555ff0d35457472e5e06b08d0ce794a8882b"
+    },
+    {
+      "path": "sources/audio/projectile_02.mp3",
+      "bytes": 11062,
+      "sha256": "35e33b3a3ca1edd452ba3a8510516ebd9cfc725cd34f4399aad201aa5230439d"
+    },
+    {
+      "path": "sources/audio/projectile_03.mp3",
+      "bytes": 12291,
+      "sha256": "3b2599df7fa740da10cf7848d3c4a38529320dd6f7aa28c1c323eee794ef521d"
+    },
+    {
+      "path": "sources/audio/projectile_ricochet_01.mp3",
+      "bytes": 21741,
+      "sha256": "9f7a093a39d20c9fb5e591dd93713ea79f4758915bd06134520251552e809b0a"
+    },
+    {
+      "path": "sources/audio/projectile_ricochet_02.mp3",
+      "bytes": 18349,
+      "sha256": "aa9fa84a640ffd7db4c35febe9b9a4cdb33dd52742ed70cb36a38208b2408db4"
+    },
+    {
+      "path": "sources/audio/projectile_ricochet_03.mp3",
+      "bytes": 17619,
+      "sha256": "45e12ebf91c01934ac74fded083a52e63706ceb0e54cf8936bfe9275bcb670f9"
+    },
+    {
+      "path": "sources/audio/projectile_ricochet_04.mp3",
+      "bytes": 11017,
+      "sha256": "7d356c3484dbf0ad0d63989ae048e95e4a84b45bb3a19947a9cb71d4d0ff4170"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_01.mp3",
+      "bytes": 5511,
+      "sha256": "6e4550635d7664317aac94dade71e354c62649328c83a5aaf7a830e385d45ee8"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_02.mp3",
+      "bytes": 5615,
+      "sha256": "809b061e8d957ad36599dfab0393b6fba1bdc9892958c2c80b78aed1c920fd5b"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_03.mp3",
+      "bytes": 6347,
+      "sha256": "c5fdf35a4aff91de4292c09e769b773d77e2cbd88253a03e6e2cfd1288ed5214"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_04.mp3",
+      "bytes": 5929,
+      "sha256": "fd0605bcb30e84cb7b3e2c8c9e6aa5827f840dafc47c4982f1f793ef97e0dd8f"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_05.mp3",
+      "bytes": 4989,
+      "sha256": "35c5dd278e4884736d4d2499470336ed27cc014a1aa899fa845ed3ce20d47908"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_06.mp3",
+      "bytes": 3631,
+      "sha256": "d6b91a91cc22af54c25e64a976af8f75fb21e9a6dc4b2e9006db3bcf391d8463"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_07.mp3",
+      "bytes": 3603,
+      "sha256": "5a895d1fb20e7473be3867f3ea755e670c56830b2b51a5ce43d4d1666e64ba2a"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_08.mp3",
+      "bytes": 3786,
+      "sha256": "98038fced2a53b3bb3821efbf2a30a026ade6966261588dba830c24a74ef9512"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_gark_01.mp3",
+      "bytes": 14955,
+      "sha256": "f1b65bc05cce22c16845f8f66ad2031af3a0ab9764546727afdca51c52663aaf"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_gark_02.mp3",
+      "bytes": 13151,
+      "sha256": "e2b4800a17a14894b8fec7ee097c17dcbb6c6441a0e37a3ce6df494284d1d0b2"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_gark_03.mp3",
+      "bytes": 16937,
+      "sha256": "71332a2576b5c17a5367d11415c58ba6765a7d5f8879cbe9a4e771595268122a"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_gark_04.mp3",
+      "bytes": 24536,
+      "sha256": "5509e4880eb1b25a19e8c0824a0d7be320e9e1cb3ec13d3f5393a6b68857c8b2"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_gark_05.mp3",
+      "bytes": 19077,
+      "sha256": "91b4df9b17099d9076abbb132e4e9eff48ec94e39f6c443593792c1211a5ddd2"
+    },
+    {
+      "path": "sources/audio/real_chicken_bok_gark_06.mp3",
+      "bytes": 16258,
+      "sha256": "b5ce795dab87c3b95d16bfb5be2e335a41a0fb695ca1d6260c0314db935f581c"
+    },
+    {
+      "path": "sources/audio/slap_01.mp3",
+      "bytes": 10904,
+      "sha256": "a26939738b4956b675221ac5fd58eb94599aaaa4cf99f79f454179694a5707be"
+    },
+    {
+      "path": "sources/audio/slap_02.mp3",
+      "bytes": 10540,
+      "sha256": "48de407ae754ab592bd06754431de7e37c4f7974895877fb62e751b6415c3728"
+    },
+    {
+      "path": "sources/audio/slap_03.mp3",
+      "bytes": 10643,
+      "sha256": "6a23dff75592f20d2ee33cb0e16030e8ffe554c37a5b733e58065f7dfc485e84"
+    },
+    {
+      "path": "sources/audio/slap_04.mp3",
+      "bytes": 10277,
+      "sha256": "c487e6f6b7e43f1387337a8c6eb77de98e5577e09bb0ef75c671731343797b6f"
+    },
+    {
+      "path": "sources/audio/slap_05.mp3",
+      "bytes": 10513,
+      "sha256": "c577e3d119389dbb81743fc89559459772267dbc57da358c91c0a6ed18785c80"
+    },
+    {
+      "path": "sources/audio/Songs/CF - Pre-game Loop_01.mp3",
+      "bytes": 362551,
+      "sha256": "cb9cef4c19b24063327f8141a7d019d234e2cbd85f5e168997e721a8f5d69ab5"
+    },
+    {
+      "path": "sources/audio/squeak_chicken_01.mp3",
+      "bytes": 22538,
+      "sha256": "b85e25d8f9ddb015c49583ee0eec333e11b3896ec21208e53b724d8bb7ffeb8e"
+    },
+    {
+      "path": "sources/audio/squeak_chicken_02.mp3",
+      "bytes": 19391,
+      "sha256": "8125809684bc99c9534c4e44e7d435ca718427ac3b27bb066c21dc6dd430156a"
+    },
+    {
+      "path": "sources/audio/squeak_chicken_03.mp3",
+      "bytes": 27397,
+      "sha256": "469de59f4de2ebe262d718eaede0b65a31172fd82331275918363f0dcbececaf"
+    },
+    {
+      "path": "sources/audio/squeak_chicken_04.mp3",
+      "bytes": 18035,
+      "sha256": "f207ccdd461da5d21746f241e3a4eafeab89cf4b3ddf0e4c741d8f5b73b9bfd1"
+    },
+    {
+      "path": "sources/audio/swipe_inpact_01.mp3",
+      "bytes": 25919,
+      "sha256": "05cf14843ff9946df47f322797ff852460ec6dc985a766a797a884c12cfee6c4"
+    },
+    {
+      "path": "sources/audio/swipe_inpact_02.mp3",
+      "bytes": 9941,
+      "sha256": "716259f4f6058fb1b423f6ae4d145ac4f747c1cc33c28d3bb53dd34ff1764117"
+    },
+    {
+      "path": "sources/audio/swipe_inpact_03.mp3",
+      "bytes": 10514,
+      "sha256": "3919a4119ab0f355533fa991aafa0dc183937abf2e2c205fa69806f1807650e4"
+    },
+    {
+      "path": "sources/audio/thud_01.mp3",
+      "bytes": 15133,
+      "sha256": "9467690b46416e1a5b305480bfba6c58beebf28ee864b4ec3bc0245cfd18a154"
+    },
+    {
+      "path": "sources/audio/thud_02.mp3",
+      "bytes": 16465,
+      "sha256": "e42e70533bef509fa51ce3957b50734cc4e2e4165a158c80a58d8adf07ceb908"
+    },
+    {
+      "path": "sources/audio/thud_03.mp3",
+      "bytes": 13956,
+      "sha256": "b0ade4a8f0c8b01ceab05ccfd65e0c138fdacce8e92a2a481f08dd999244b0e8"
+    },
+    {
+      "path": "sources/audio/ui select.mp3",
+      "bytes": 8110,
+      "sha256": "92cd968e1874d2cb18524f0834820344d3bc35bbeb7a7d0bc262b1aba8b7d7ec"
+    },
+    {
+      "path": "sources/audio/unsheath.mp3",
+      "bytes": 6992,
+      "sha256": "e88f68543eddf41326426c9eba471c5809b209ca1efe17c4e00f6dcc35fc29df"
+    },
     {
       "path": "sources/chikn-atlas/chikn-Atlas.json",
       "bytes": 124595,
@@ -16839,6 +17246,1114 @@
       ],
       "width": 704,
       "height": 752
+    }
+  ],
+  "directFiles": [
+    {
+      "assetId": "audio/alternate-arrow-hit",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/alternate_arrow_hit.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/alternate-arrow-hit-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/alternate-arrow-hit.mp3"
+    },
+    {
+      "assetId": "audio/arena-yell",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/arena_yell.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/arena-yell-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/arena-yell.mp3"
+    },
+    {
+      "assetId": "audio/arrow-hits-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/arrow_hits_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/arrow-hits-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/arrow-hits-01.mp3"
+    },
+    {
+      "assetId": "audio/arrow-hits-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/arrow_hits_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/arrow-hits-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/arrow-hits-02.mp3"
+    },
+    {
+      "assetId": "audio/arrow-hits-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/arrow_hits_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/arrow-hits-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/arrow-hits-03.mp3"
+    },
+    {
+      "assetId": "audio/arrow-hits-04",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/arrow_hits_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/arrow-hits-04-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/arrow-hits-04.mp3"
+    },
+    {
+      "assetId": "audio/bok-gark-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/bok_gark_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/bok-gark-01.mp3"
+    },
+    {
+      "assetId": "audio/bok-gark-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/bok_gark_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/bok-gark-02.mp3"
+    },
+    {
+      "assetId": "audio/bok-gark-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/bok_gark_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/bok-gark-03.mp3"
+    },
+    {
+      "assetId": "audio/bok-gark-04",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/bok_gark_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-04-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/bok-gark-04.mp3"
+    },
+    {
+      "assetId": "audio/bok-gark-05",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/bok_gark_05.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-05-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/bok-gark-05.mp3"
+    },
+    {
+      "assetId": "audio/bok-gark-06",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/bok_gark_06.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-06-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/bok-gark-06.mp3"
+    },
+    {
+      "assetId": "audio/bok-gark-07",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/bok_gark_07.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-07-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/bok-gark-07.mp3"
+    },
+    {
+      "assetId": "audio/bok-gark-08",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/bok_gark_08.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/bok-gark-08-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/bok-gark-08.mp3"
+    },
+    {
+      "assetId": "audio/boomerang",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/boomerang.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/boomerang-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/boomerang.mp3"
+    },
+    {
+      "assetId": "audio/cartoon-missile-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/cartoon_missile_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/cartoon-missile-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/cartoon-missile-01.mp3"
+    },
+    {
+      "assetId": "audio/cartoon-missile-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/cartoon_missile_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/cartoon-missile-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/cartoon-missile-02.mp3"
+    },
+    {
+      "assetId": "audio/cut-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/cut_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/cut-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/cut-01.mp3"
+    },
+    {
+      "assetId": "audio/cut-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/cut_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/cut-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/cut-02.mp3"
+    },
+    {
+      "assetId": "audio/cut-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/cut_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/cut-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/cut-03.mp3"
+    },
+    {
+      "assetId": "audio/cut-04",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/cut_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/cut-04-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/cut-04.mp3"
+    },
+    {
+      "assetId": "audio/damage-taken-boks-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/damage_taken_boks_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/damage-taken-boks-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/damage-taken-boks-01.mp3"
+    },
+    {
+      "assetId": "audio/damage-taken-boks-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/damage_taken_boks_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/damage-taken-boks-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/damage-taken-boks-02.mp3"
+    },
+    {
+      "assetId": "audio/damage-taken-boks-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/damage_taken_boks_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/damage-taken-boks-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/damage-taken-boks-03.mp3"
+    },
+    {
+      "assetId": "audio/damage-taken-boks-04",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/damage_taken_boks_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/damage-taken-boks-04-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/damage-taken-boks-04.mp3"
+    },
+    {
+      "assetId": "audio/damage-taken-boks-05",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/damage_taken_boks_05.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/damage-taken-boks-05-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/damage-taken-boks-05.mp3"
+    },
+    {
+      "assetId": "audio/explosion-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/explosion_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/explosion-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/explosion-01.mp3"
+    },
+    {
+      "assetId": "audio/explosion-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/explosion_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/explosion-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/explosion-02.mp3"
+    },
+    {
+      "assetId": "audio/explosion-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/explosion_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/explosion-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/explosion-03.mp3"
+    },
+    {
+      "assetId": "audio/fart-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/fart_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/fart-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/fart-01.mp3"
+    },
+    {
+      "assetId": "audio/fart-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/fart_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/fart-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/fart-02.mp3"
+    },
+    {
+      "assetId": "audio/fart-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/fart_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/fart-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/fart-03.mp3"
+    },
+    {
+      "assetId": "audio/fart-04",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/fart_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/fart-04-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/fart-04.mp3"
+    },
+    {
+      "assetId": "audio/human-bok-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/human_bok_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/human-bok-01.mp3"
+    },
+    {
+      "assetId": "audio/human-bok-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/human_bok_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/human-bok-02.mp3"
+    },
+    {
+      "assetId": "audio/human-bok-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/human_bok_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/human-bok-03.mp3"
+    },
+    {
+      "assetId": "audio/human-bok-04",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/human_bok_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-04-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/human-bok-04.mp3"
+    },
+    {
+      "assetId": "audio/human-bok-05",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/human_bok_05.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-05-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/human-bok-05.mp3"
+    },
+    {
+      "assetId": "audio/human-bok-06",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/human_bok_06.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-06-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/human-bok-06.mp3"
+    },
+    {
+      "assetId": "audio/human-bok-07",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/human_bok_07.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/human-bok-07-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/human-bok-07.mp3"
+    },
+    {
+      "assetId": "audio/projectile-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/projectile_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/projectile-01.mp3"
+    },
+    {
+      "assetId": "audio/projectile-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/projectile_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/projectile-02.mp3"
+    },
+    {
+      "assetId": "audio/projectile-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/projectile_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/projectile-03.mp3"
+    },
+    {
+      "assetId": "audio/projectile-ricochet-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/projectile_ricochet_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-ricochet-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/projectile-ricochet-01.mp3"
+    },
+    {
+      "assetId": "audio/projectile-ricochet-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/projectile_ricochet_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-ricochet-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/projectile-ricochet-02.mp3"
+    },
+    {
+      "assetId": "audio/projectile-ricochet-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/projectile_ricochet_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-ricochet-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/projectile-ricochet-03.mp3"
+    },
+    {
+      "assetId": "audio/projectile-ricochet-04",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/projectile_ricochet_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/projectile-ricochet-04-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/projectile-ricochet-04.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-01.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-02.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-03.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-04",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-04-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-04.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-05",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_05.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-05-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-05.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-06",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_06.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-06-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-06.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-07",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_07.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-07-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-07.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-08",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_08.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-08-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-08.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-gark-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_gark_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-gark-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-gark-01.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-gark-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_gark_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-gark-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-gark-02.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-gark-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_gark_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-gark-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-gark-03.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-gark-04",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_gark_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-gark-04-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-gark-04.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-gark-05",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_gark_05.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-gark-05-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-gark-05.mp3"
+    },
+    {
+      "assetId": "audio/real-chicken-bok-gark-06",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/real_chicken_bok_gark_06.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/real-chicken-bok-gark-06-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/real-chicken-bok-gark-06.mp3"
+    },
+    {
+      "assetId": "audio/slap-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/slap_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/slap-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/slap-01.mp3"
+    },
+    {
+      "assetId": "audio/slap-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/slap_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/slap-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/slap-02.mp3"
+    },
+    {
+      "assetId": "audio/slap-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/slap_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/slap-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/slap-03.mp3"
+    },
+    {
+      "assetId": "audio/slap-04",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/slap_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/slap-04-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/slap-04.mp3"
+    },
+    {
+      "assetId": "audio/slap-05",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/slap_05.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/slap-05-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/slap-05.mp3"
+    },
+    {
+      "assetId": "audio/songs/cf-pre-game-loop-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/Songs/CF - Pre-game Loop_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/songs/cf-pre-game-loop-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/songs/cf-pre-game-loop-01.mp3"
+    },
+    {
+      "assetId": "audio/squeak-chicken-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/squeak_chicken_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/squeak-chicken-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/squeak-chicken-01.mp3"
+    },
+    {
+      "assetId": "audio/squeak-chicken-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/squeak_chicken_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/squeak-chicken-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/squeak-chicken-02.mp3"
+    },
+    {
+      "assetId": "audio/squeak-chicken-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/squeak_chicken_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/squeak-chicken-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/squeak-chicken-03.mp3"
+    },
+    {
+      "assetId": "audio/squeak-chicken-04",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/squeak_chicken_04.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/squeak-chicken-04-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/squeak-chicken-04.mp3"
+    },
+    {
+      "assetId": "audio/swipe-inpact-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/swipe_inpact_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/swipe-inpact-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/swipe-inpact-01.mp3"
+    },
+    {
+      "assetId": "audio/swipe-inpact-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/swipe_inpact_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/swipe-inpact-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/swipe-inpact-02.mp3"
+    },
+    {
+      "assetId": "audio/swipe-inpact-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/swipe_inpact_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/swipe-inpact-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/swipe-inpact-03.mp3"
+    },
+    {
+      "assetId": "audio/thud-01",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/thud_01.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/thud-01-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/thud-01.mp3"
+    },
+    {
+      "assetId": "audio/thud-02",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/thud_02.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/thud-02-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/thud-02.mp3"
+    },
+    {
+      "assetId": "audio/thud-03",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/thud_03.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/thud-03-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/thud-03.mp3"
+    },
+    {
+      "assetId": "audio/ui-select",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/ui select.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/ui-select-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/ui-select.mp3"
+    },
+    {
+      "assetId": "audio/unsheath",
+      "aliases": [],
+      "group": "audio",
+      "sourcePaths": [
+        "sources/audio/unsheath.mp3"
+      ],
+      "rightsIds": [
+        "rights/audio/unsheath-mp3"
+      ],
+      "kind": "audio",
+      "mediaType": "audio/mpeg",
+      "runtimePath": "runtime/audio/unsheath.mp3"
     }
   ]
 }

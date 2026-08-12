@@ -6,7 +6,7 @@ const exec = promisify(execFile); const { stdout } = await exec('git', ['ls-file
 const prohibited = [/(^|\/)\.env(?:\.|$)/i, /\.(?:exe|dll|dylib|so|pem|p12|key|psd|ai)$/i, /(^|\/)(?:private|unapproved|secrets?)(\/|$)/i, /(^|\/)node_modules\//];
 for (const path of paths) {
   if (prohibited.some((pattern) => pattern.test(path))) errors.push(`Prohibited public path: ${path}`);
-  if (/\.(?:png|jpe?g|webp|zip)$/i.test(path)) {
+  if (/\.(?:png|jpe?g|webp|mp3|zip)$/i.test(path)) {
     const { stdout: attribute } = await exec('git', ['check-attr', 'filter', '--', path]); if (!attribute.trim().endsWith(': lfs')) errors.push(`Binary source is not tracked by Git LFS: ${path}`);
   }
   if (/\.(?:json|md|mjs|ts|txt|yml|yaml)$/i.test(path) && !path.startsWith('reports/')) {

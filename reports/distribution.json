@@ -2,18 +2,18 @@
   "schema": "chikn-game-assets.distribution/v1",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "lfs": {
-    "logicalFiles": 560,
-    "logicalBytes": 46045658,
-    "uniqueObjects": 560,
-    "storageBytes": 46045658,
-    "expectedFreshCloneBytes": 46045658
+    "logicalFiles": 639,
+    "logicalBytes": 47804969,
+    "uniqueObjects": 639,
+    "storageBytes": 47804969,
+    "expectedFreshCloneBytes": 47804969
   },
   "releases": {
-    "expectedSourceArchiveBytes": 45817168,
-    "expectedRuntimeArchiveBytes": 49090425
+    "expectedSourceArchiveBytes": 47576479,
+    "expectedRuntimeArchiveBytes": 50958987
   },
   "runtime": {
-    "totalBytes": 49090425,
+    "totalBytes": 50958987,
     "atlasPages": [
       {
         "profile": "default",
@@ -164,6 +164,482 @@
         "profile": "high",
         "path": "runtime/atlases/high/roostr-traits-006.png",
         "bytes": 1555758
+      }
+    ],
+    "directFiles": [
+      {
+        "assetId": "audio/alternate-arrow-hit",
+        "path": "runtime/audio/alternate-arrow-hit.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 15468
+      },
+      {
+        "assetId": "audio/arena-yell",
+        "path": "runtime/audio/arena-yell.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 217124
+      },
+      {
+        "assetId": "audio/arrow-hits-01",
+        "path": "runtime/audio/arrow-hits-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 13514
+      },
+      {
+        "assetId": "audio/arrow-hits-02",
+        "path": "runtime/audio/arrow-hits-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 19024
+      },
+      {
+        "assetId": "audio/arrow-hits-03",
+        "path": "runtime/audio/arrow-hits-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 14481
+      },
+      {
+        "assetId": "audio/arrow-hits-04",
+        "path": "runtime/audio/arrow-hits-04.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 14064
+      },
+      {
+        "assetId": "audio/bok-gark-01",
+        "path": "runtime/audio/bok-gark-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 8292
+      },
+      {
+        "assetId": "audio/bok-gark-02",
+        "path": "runtime/audio/bok-gark-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 16267
+      },
+      {
+        "assetId": "audio/bok-gark-03",
+        "path": "runtime/audio/bok-gark-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 9650
+      },
+      {
+        "assetId": "audio/bok-gark-04",
+        "path": "runtime/audio/bok-gark-04.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 10431
+      },
+      {
+        "assetId": "audio/bok-gark-05",
+        "path": "runtime/audio/bok-gark-05.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 11005
+      },
+      {
+        "assetId": "audio/bok-gark-06",
+        "path": "runtime/audio/bok-gark-06.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 10535
+      },
+      {
+        "assetId": "audio/bok-gark-07",
+        "path": "runtime/audio/bok-gark-07.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 10953
+      },
+      {
+        "assetId": "audio/bok-gark-08",
+        "path": "runtime/audio/bok-gark-08.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 9284
+      },
+      {
+        "assetId": "audio/boomerang",
+        "path": "runtime/audio/boomerang.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 43784
+      },
+      {
+        "assetId": "audio/cartoon-missile-01",
+        "path": "runtime/audio/cartoon-missile-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 130398
+      },
+      {
+        "assetId": "audio/cartoon-missile-02",
+        "path": "runtime/audio/cartoon-missile-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 78628
+      },
+      {
+        "assetId": "audio/cut-01",
+        "path": "runtime/audio/cut-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 18974
+      },
+      {
+        "assetId": "audio/cut-02",
+        "path": "runtime/audio/cut-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 17199
+      },
+      {
+        "assetId": "audio/cut-03",
+        "path": "runtime/audio/cut-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 17409
+      },
+      {
+        "assetId": "audio/cut-04",
+        "path": "runtime/audio/cut-04.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 17303
+      },
+      {
+        "assetId": "audio/damage-taken-boks-01",
+        "path": "runtime/audio/damage-taken-boks-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 11215
+      },
+      {
+        "assetId": "audio/damage-taken-boks-02",
+        "path": "runtime/audio/damage-taken-boks-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 10172
+      },
+      {
+        "assetId": "audio/damage-taken-boks-03",
+        "path": "runtime/audio/damage-taken-boks-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 8813
+      },
+      {
+        "assetId": "audio/damage-taken-boks-04",
+        "path": "runtime/audio/damage-taken-boks-04.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 9023
+      },
+      {
+        "assetId": "audio/damage-taken-boks-05",
+        "path": "runtime/audio/damage-taken-boks-05.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 9338
+      },
+      {
+        "assetId": "audio/explosion-01",
+        "path": "runtime/audio/explosion-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 19351
+      },
+      {
+        "assetId": "audio/explosion-02",
+        "path": "runtime/audio/explosion-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 18307
+      },
+      {
+        "assetId": "audio/explosion-03",
+        "path": "runtime/audio/explosion-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 36177
+      },
+      {
+        "assetId": "audio/fart-01",
+        "path": "runtime/audio/fart-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 11881
+      },
+      {
+        "assetId": "audio/fart-02",
+        "path": "runtime/audio/fart-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 9323
+      },
+      {
+        "assetId": "audio/fart-03",
+        "path": "runtime/audio/fart-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 8748
+      },
+      {
+        "assetId": "audio/fart-04",
+        "path": "runtime/audio/fart-04.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 6659
+      },
+      {
+        "assetId": "audio/human-bok-01",
+        "path": "runtime/audio/human-bok-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 5083
+      },
+      {
+        "assetId": "audio/human-bok-02",
+        "path": "runtime/audio/human-bok-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 7378
+      },
+      {
+        "assetId": "audio/human-bok-03",
+        "path": "runtime/audio/human-bok-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 5526
+      },
+      {
+        "assetId": "audio/human-bok-04",
+        "path": "runtime/audio/human-bok-04.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 4849
+      },
+      {
+        "assetId": "audio/human-bok-05",
+        "path": "runtime/audio/human-bok-05.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 5735
+      },
+      {
+        "assetId": "audio/human-bok-06",
+        "path": "runtime/audio/human-bok-06.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 6492
+      },
+      {
+        "assetId": "audio/human-bok-07",
+        "path": "runtime/audio/human-bok-07.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 6518
+      },
+      {
+        "assetId": "audio/projectile-01",
+        "path": "runtime/audio/projectile-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 8713
+      },
+      {
+        "assetId": "audio/projectile-02",
+        "path": "runtime/audio/projectile-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 11062
+      },
+      {
+        "assetId": "audio/projectile-03",
+        "path": "runtime/audio/projectile-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 12291
+      },
+      {
+        "assetId": "audio/projectile-ricochet-01",
+        "path": "runtime/audio/projectile-ricochet-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 21741
+      },
+      {
+        "assetId": "audio/projectile-ricochet-02",
+        "path": "runtime/audio/projectile-ricochet-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 18349
+      },
+      {
+        "assetId": "audio/projectile-ricochet-03",
+        "path": "runtime/audio/projectile-ricochet-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 17619
+      },
+      {
+        "assetId": "audio/projectile-ricochet-04",
+        "path": "runtime/audio/projectile-ricochet-04.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 11017
+      },
+      {
+        "assetId": "audio/real-chicken-bok-01",
+        "path": "runtime/audio/real-chicken-bok-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 5511
+      },
+      {
+        "assetId": "audio/real-chicken-bok-02",
+        "path": "runtime/audio/real-chicken-bok-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 5615
+      },
+      {
+        "assetId": "audio/real-chicken-bok-03",
+        "path": "runtime/audio/real-chicken-bok-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 6347
+      },
+      {
+        "assetId": "audio/real-chicken-bok-04",
+        "path": "runtime/audio/real-chicken-bok-04.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 5929
+      },
+      {
+        "assetId": "audio/real-chicken-bok-05",
+        "path": "runtime/audio/real-chicken-bok-05.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 4989
+      },
+      {
+        "assetId": "audio/real-chicken-bok-06",
+        "path": "runtime/audio/real-chicken-bok-06.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 3631
+      },
+      {
+        "assetId": "audio/real-chicken-bok-07",
+        "path": "runtime/audio/real-chicken-bok-07.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 3603
+      },
+      {
+        "assetId": "audio/real-chicken-bok-08",
+        "path": "runtime/audio/real-chicken-bok-08.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 3786
+      },
+      {
+        "assetId": "audio/real-chicken-bok-gark-01",
+        "path": "runtime/audio/real-chicken-bok-gark-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 14955
+      },
+      {
+        "assetId": "audio/real-chicken-bok-gark-02",
+        "path": "runtime/audio/real-chicken-bok-gark-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 13151
+      },
+      {
+        "assetId": "audio/real-chicken-bok-gark-03",
+        "path": "runtime/audio/real-chicken-bok-gark-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 16937
+      },
+      {
+        "assetId": "audio/real-chicken-bok-gark-04",
+        "path": "runtime/audio/real-chicken-bok-gark-04.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 24536
+      },
+      {
+        "assetId": "audio/real-chicken-bok-gark-05",
+        "path": "runtime/audio/real-chicken-bok-gark-05.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 19077
+      },
+      {
+        "assetId": "audio/real-chicken-bok-gark-06",
+        "path": "runtime/audio/real-chicken-bok-gark-06.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 16258
+      },
+      {
+        "assetId": "audio/slap-01",
+        "path": "runtime/audio/slap-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 10904
+      },
+      {
+        "assetId": "audio/slap-02",
+        "path": "runtime/audio/slap-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 10540
+      },
+      {
+        "assetId": "audio/slap-03",
+        "path": "runtime/audio/slap-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 10643
+      },
+      {
+        "assetId": "audio/slap-04",
+        "path": "runtime/audio/slap-04.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 10277
+      },
+      {
+        "assetId": "audio/slap-05",
+        "path": "runtime/audio/slap-05.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 10513
+      },
+      {
+        "assetId": "audio/songs/cf-pre-game-loop-01",
+        "path": "runtime/audio/songs/cf-pre-game-loop-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 362551
+      },
+      {
+        "assetId": "audio/squeak-chicken-01",
+        "path": "runtime/audio/squeak-chicken-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 22538
+      },
+      {
+        "assetId": "audio/squeak-chicken-02",
+        "path": "runtime/audio/squeak-chicken-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 19391
+      },
+      {
+        "assetId": "audio/squeak-chicken-03",
+        "path": "runtime/audio/squeak-chicken-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 27397
+      },
+      {
+        "assetId": "audio/squeak-chicken-04",
+        "path": "runtime/audio/squeak-chicken-04.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 18035
+      },
+      {
+        "assetId": "audio/swipe-inpact-01",
+        "path": "runtime/audio/swipe-inpact-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 25919
+      },
+      {
+        "assetId": "audio/swipe-inpact-02",
+        "path": "runtime/audio/swipe-inpact-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 9941
+      },
+      {
+        "assetId": "audio/swipe-inpact-03",
+        "path": "runtime/audio/swipe-inpact-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 10514
+      },
+      {
+        "assetId": "audio/thud-01",
+        "path": "runtime/audio/thud-01.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 15133
+      },
+      {
+        "assetId": "audio/thud-02",
+        "path": "runtime/audio/thud-02.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 16465
+      },
+      {
+        "assetId": "audio/thud-03",
+        "path": "runtime/audio/thud-03.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 13956
+      },
+      {
+        "assetId": "audio/ui-select",
+        "path": "runtime/audio/ui-select.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 8110
+      },
+      {
+        "assetId": "audio/unsheath",
+        "path": "runtime/audio/unsheath.mp3",
+        "mediaType": "audio/mpeg",
+        "bytes": 6992
       }
     ]
   }

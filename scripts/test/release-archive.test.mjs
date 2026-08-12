@@ -37,6 +37,8 @@ test('tag workflow publishes the deterministic license-bearing release assembly'
   assert.match(assembler, /CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC\.md/);
   assert.match(assembler, /REPOSITORY-LICENSING-NOTICE_PUBLIC\.md/);
   assert.match(assembler, /manifests\/rights-manifest\.json/);
+  assert.match(assembler, /reports\/source-runtime-lineage\.json/);
+  assert.match(assembler, /docs\/audio\.md/);
   assert.match(assembler, /CHANGELOG\.md/);
 });
 

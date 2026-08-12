@@ -37,7 +37,7 @@ test('the production rig path survives pooled-style reconfiguration on desktop a
   await waitForRig(page);
 
   await page.evaluate(() => { location.hash = '#showcase'; });
-  await expect(page.getByRole('heading', { name: 'The Chikn community art shelf.' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'The Chikn community asset shelf.' })).toBeVisible();
   await page.evaluate(() => { location.hash = '#rig'; });
   await waitForRig(page);
 
