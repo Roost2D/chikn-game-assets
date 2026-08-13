@@ -56,28 +56,35 @@ test('the recipe builder composes multiple traits, hides replaced feathers, and 
   await expect(status).toContainText('"species": "roostr"');
   await page.getByLabel('Builder skin').selectOption('MutantPurple');
   await page.getByLabel('Head trait').selectOption('head/robocoq');
+  await page.getByLabel('Neck trait').selectOption('neck/stethoscope');
   await page.getByLabel('Torso trait').selectOption('torso/shield');
-  await page.getByLabel('Feet trait').selectOption('feet/golden-greaves');
+  await page.getByLabel('Feet trait').selectOption('feet/golden-feet');
   await page.getByLabel('Tail trait').selectOption('tail/foliage');
   await expect(status).toContainText('Trait_Tail_Foliage');
 
   const state = JSON.parse(await status.textContent() ?? '{}');
-  expect(state.replacementSlots).toEqual(expect.arrayContaining(['Head', 'LegFoot A', 'LegFoot B', 'Tail']));
+  expect(state.replacementSlots).toEqual(expect.arrayContaining(['LegFoot A', 'LegFoot B', 'Tail']));
+  expect(state.replacementSlots).not.toContain('Head');
   expect(state.activeAttachments).toEqual(expect.arrayContaining([
+    'MutantPurple_Head',
     'Trait_Head_Robocoq',
-    'Trait_Feet_GoldenGreaves_A',
-    'Trait_Feet_GoldenGreaves_B',
+    'Trait_Neck_Stethoscope',
+    'Trait_Feet_GoldenFeet',
     'Trait_Tail_Foliage',
   ]));
   expect(state.activeAttachments).not.toEqual(expect.arrayContaining([
-    'MutantPurple_Head',
     'MutantPurple_LegFootA',
     'MutantPurple_LegFootB',
     'MutantPurple_Tail',
   ]));
-  expect(state.animationLoop).toEqual({ loop: true, loopMode: 'ping-pong', cycleDurationMs: 1000 });
+  expect(state.animationLoop).toEqual({ loop: true, loopMode: 'repeat', cycleDurationMs: 500 });
   expect(state.traitDepths.find(({ id }: { id: string }) => id === 'tail/foliage').slotZIndexOverrides).toEqual({ Tail: 6 });
-  expect(state.traitDepths.find(({ id }: { id: string }) => id === 'torso/shield').attachmentZIndexes).toEqual([10]);
+  expect(state.traitDepths.find(({ id }: { id: string }) => id === 'torso/shield').attachmentZIndexes).toEqual([9]);
+  expect(state.traitDepths.find(({ id }: { id: string }) => id === 'neck/stethoscope').attachmentZIndexes).toEqual([20]);
+  expect(state.traitDepths.find(({ id }: { id: string }) => id === 'head/robocoq').attachmentZIndexes).toEqual([30]);
+  const singleFeet = state.traitDepths.find(({ id }: { id: string }) => id === 'feet/golden-feet');
+  expect(singleFeet.attachmentZIndexes).toEqual([20]);
+  expect(singleFeet.attachmentTransforms).toEqual([{ attachmentId: 'Trait_Feet_GoldenFeet', x: 2.5, y: -9, followSlotId: 'LegFoot A' }]);
   await expect(page.locator('#app canvas')).toBeVisible();
 
   const downloads: Download[] = [];
@@ -96,7 +103,7 @@ test('the recipe builder composes multiple traits, hides replaced feathers, and 
   expect(jsonPath).toBeTruthy();
   expect((await stat(pngPath!)).size).toBeGreaterThan(1_000);
   const sheet = JSON.parse(await readFile(jsonPath!, 'utf8'));
-  expect(sheet).toMatchObject({ schema: 'roost2d.sprite-sheet/v1', frameCount: 12, columns: 4, rows: 3, durationMs: 1000, sourceDurationMs: 500, loop: true, loopMode: 'ping-pong' });
+  expect(sheet).toMatchObject({ schema: 'roost2d.sprite-sheet/v1', frameCount: 12, columns: 4, rows: 3, durationMs: 500, sourceDurationMs: 500, loop: true, loopMode: 'repeat' });
   expect(sheet.recipe).toMatchObject({
     schema: state.schema,
     species: state.species,
@@ -112,7 +119,7 @@ test('the recipe builder composes multiple traits, hides replaced feathers, and 
   await page.getByLabel('Tail trait').selectOption('tail/golden-plumage');
   await expect(status).toContainText('Trait_Torso_Cutlass');
   const chiknState = JSON.parse(await status.textContent() ?? '{}');
-  expect(chiknState.traitDepths.find(({ id }: { id: string }) => id === 'torso/cutlass').attachmentZIndexes).toEqual([10]);
+  expect(chiknState.traitDepths.find(({ id }: { id: string }) => id === 'torso/cutlass').attachmentZIndexes).toEqual([9]);
   expect(chiknState.traitDepths.find(({ id }: { id: string }) => id === 'tail/golden-plumage').slotZIndexOverrides).toEqual({ Tail: 6 });
   await page.locator('.builder-stage').screenshot({ path: testInfo.outputPath('builder-cutlass-depth.png') });
   expect(pageErrors).toEqual([]);

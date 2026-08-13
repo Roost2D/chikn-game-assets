@@ -347,6 +347,11 @@ async function renderBuilder(session: RouteSession) {
       return {
         id,
         attachmentZIndexes: group?.attachmentIds.map((attachmentId) => current!.definition.attachments.find(({ id: candidate }) => candidate === attachmentId)?.zIndex),
+        attachmentTransforms: group?.attachmentIds.map((attachmentId) => {
+          const attachment = current!.definition.attachments.find(({ id: candidate }) => candidate === attachmentId);
+          const bone = current!.definition.bones.find(({ id: candidate }) => candidate === attachment?.boneId);
+          return { attachmentId, x: bone?.x ?? 0, y: bone?.y ?? 0, followSlotId: bone?.followSlotId };
+        }),
         slotZIndexOverrides: group?.slotZIndexOverrides ?? {},
       };
     });

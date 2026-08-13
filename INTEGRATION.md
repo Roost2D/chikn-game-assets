@@ -128,7 +128,7 @@ window.addEventListener('beforeunload', () => {
 
 For Roostr, use `loadRoostrRig()`, `loadRoostrAnimations()`, and a Roostr entry from `resolveUniqueSkin`. Both `default` and `high` profiles use the same rig metadata; the manifest selects the sampled atlas data while the adapter preserves rig-space layout.
 
-For a character generator, persist the `roost2d.chikn-character/v1` recipe shown above and let `RigRuntime` compose it. Do not independently resize and center source PNGs. Trait groups can contain multiple ordered attachments, and `replacesSlotIds` distinguishes replacement art (tail, feet, complete heads) from overlays (hats, necklaces, shields). See `docs/character-generator.md` in the source repository/archive.
+For a character generator, persist the `roost2d.chikn-character/v1` recipe shown above and let `RigRuntime` compose it. Do not independently resize and center source PNGs. Trait groups can contain multiple ordered attachments, and `replacesSlotIds` distinguishes tail/feet replacement art from head, neck, torso, hat, necklace, shield, and held-item overlays. See `docs/character-generator.md` in the source repository/archive.
 
 ## Rights
 

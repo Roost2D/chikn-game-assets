@@ -15,13 +15,13 @@ applyCharacterRecipe(rig, {
     'head/robocoq',
     'neck/stethoscope',
     'torso/shield',
-    'feet/golden-greaves',
+    'feet/golden-feet',
     'tail/foliage',
   ],
   animationId: 'roostr.walk',
 }, definition, clips);
 ```
 
-Replacement ownership is trait-specific. Tail traits replace the base tail, Feet traits replace both base feet, and complete-head traits such as Robocoq replace the base head. Overlay traits such as Stethoscope and Shield keep the body underneath. The hidden base bones stay active so replacement art follows every animation correctly.
+Replacement ownership is trait-specific. Tail traits replace the base tail and Feet traits replace both base feet. Head traits such as Robocoq remain above the selected base head; neck traits remain above torso traits, and head traits remain above both. The hidden tail/feet base bones stay active so replacement art follows every animation correctly. Single-image feet receive their rig-space right offset before both base feet are hidden.
 
 Export `roost2d.chikn-character/v1` recipes with skin and attachment-group IDs, not atlas coordinates or independently scaled PNGs. IDs remain stable when atlases are repacked. See [Character generator template](/character-generator) for the complete workflow.
