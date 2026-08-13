@@ -56,6 +56,7 @@ test('the recipe builder composes multiple traits, hides replaced feathers, and 
   await expect(status).toContainText('"species": "roostr"');
   await page.getByLabel('Builder skin').selectOption('MutantPurple');
   await page.getByLabel('Head trait').selectOption('head/robocoq');
+  await page.getByLabel('Torso trait').selectOption('torso/shield');
   await page.getByLabel('Feet trait').selectOption('feet/golden-greaves');
   await page.getByLabel('Tail trait').selectOption('tail/foliage');
   await expect(status).toContainText('Trait_Tail_Foliage');
@@ -74,6 +75,9 @@ test('the recipe builder composes multiple traits, hides replaced feathers, and 
     'MutantPurple_LegFootB',
     'MutantPurple_Tail',
   ]));
+  expect(state.animationLoop).toEqual({ loop: true, loopMode: 'ping-pong', cycleDurationMs: 1000 });
+  expect(state.traitDepths.find(({ id }: { id: string }) => id === 'tail/foliage').slotZIndexOverrides).toEqual({ Tail: 6 });
+  expect(state.traitDepths.find(({ id }: { id: string }) => id === 'torso/shield').attachmentZIndexes).toEqual([10]);
   await expect(page.locator('#app canvas')).toBeVisible();
 
   const downloads: Download[] = [];
@@ -92,7 +96,7 @@ test('the recipe builder composes multiple traits, hides replaced feathers, and 
   expect(jsonPath).toBeTruthy();
   expect((await stat(pngPath!)).size).toBeGreaterThan(1_000);
   const sheet = JSON.parse(await readFile(jsonPath!, 'utf8'));
-  expect(sheet).toMatchObject({ schema: 'roost2d.sprite-sheet/v1', frameCount: 12, columns: 4, rows: 3 });
+  expect(sheet).toMatchObject({ schema: 'roost2d.sprite-sheet/v1', frameCount: 12, columns: 4, rows: 3, durationMs: 1000, sourceDurationMs: 500, loop: true, loopMode: 'ping-pong' });
   expect(sheet.recipe).toMatchObject({
     schema: state.schema,
     species: state.species,
@@ -101,5 +105,15 @@ test('the recipe builder composes multiple traits, hides replaced feathers, and 
     animationId: state.animationId,
   });
   await png?.saveAs(testInfo.outputPath('builder-animation-sheet.png'));
+
+  await page.getByLabel('Builder species').selectOption('chikn');
+  await expect(status).toContainText('"species": "chikn"');
+  await page.getByLabel('Torso trait').selectOption('torso/cutlass');
+  await page.getByLabel('Tail trait').selectOption('tail/golden-plumage');
+  await expect(status).toContainText('Trait_Torso_Cutlass');
+  const chiknState = JSON.parse(await status.textContent() ?? '{}');
+  expect(chiknState.traitDepths.find(({ id }: { id: string }) => id === 'torso/cutlass').attachmentZIndexes).toEqual([10]);
+  expect(chiknState.traitDepths.find(({ id }: { id: string }) => id === 'tail/golden-plumage').slotZIndexOverrides).toEqual({ Tail: 6 });
+  await page.locator('.builder-stage').screenshot({ path: testInfo.outputPath('builder-cutlass-depth.png') });
   expect(pageErrors).toEqual([]);
 });

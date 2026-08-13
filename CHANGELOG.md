@@ -1,10 +1,13 @@
 # Changelog
 
-## Unreleased
+## 0.3.0 - 2026-08-13
 
 - Replace the raw two-sprite Character Builder with canonical Chikn/Roostr rig composition.
 - Support one trait per category, correct base-feather replacement, portable recipe export, transparent reference PNGs, and sampled animation sheets.
-- Update the showcase from Roost2D prerelease packages to the stable `0.1.0` line; unreleased engine changes remain local until visual approval.
+- Render replacement tails above the torso and torso traits below the foreground wing.
+- Use seamless ping-pong locomotion loops, keep action clips as one-shots, and export the complete loop cycle.
+- Add a root `npm run builder:dev` command and local builder startup documentation.
+- Prepare the showcase for the Roost2D `0.2.0` character-recipe and seamless-loop APIs.
 
 ## 0.2.0 - 2026-08-12
 

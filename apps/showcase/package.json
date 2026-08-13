@@ -1,18 +1,26 @@
 {
   "name": "chikn-game-assets-showcase",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
-  "scripts": { "dev": "vite", "build": "vite build", "check": "tsc --noEmit", "test": "node --experimental-strip-types --test test/*.test.mts" },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "check": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test test/*.test.mts"
+  },
   "dependencies": {
-    "@chikn-game-assets/runtime": "0.2.0",
-    "@roost2d/assets": "0.1.0",
-    "@roost2d/chikn-rigs": "0.1.0",
-    "@roost2d/contracts": "0.1.0",
-    "@roost2d/pixi": "0.1.0",
-    "@roost2d/rig2d": "0.1.0",
+    "@chikn-game-assets/runtime": "0.3.0",
+    "@roost2d/assets": "0.2.0",
+    "@roost2d/chikn-rigs": "0.2.0",
+    "@roost2d/contracts": "0.2.0",
+    "@roost2d/pixi": "0.2.0",
+    "@roost2d/rig2d": "0.2.0",
     "gsap": "^3.13.0",
     "pixi.js": "^8.11.0"
   },
-  "devDependencies": { "typescript": "^5.8.3", "vite": "^8.2.0" }
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^8.2.0"
+  }
 }

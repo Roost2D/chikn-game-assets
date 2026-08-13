@@ -11,6 +11,17 @@ The showcase **Character Builder** is the reference implementation. It uses the 
 5. play or seek a named rig clip;
 6. export the transparent reference PNG or a row-major animation sheet.
 
+## Start the builder locally
+
+From the `chikn-game-assets` repository root:
+
+```powershell
+npm install
+npm run builder:dev
+```
+
+Then open [http://127.0.0.1:4173/#builder](http://127.0.0.1:4173/#builder). The command rebuilds the showcase catalog before starting Vite. Stop it with `Ctrl+C`.
+
 ## Portable recipe
 
 ```json
@@ -43,11 +54,13 @@ The recipe is the handoff between a UI, an AI coding assistant, a game, and an e
 - Complete-head traits such as Robocoq own `Head`.
 - Hats, combs, necklaces, shields, and held items normally remain overlays.
 
+Depth is also part of the rig contract. Replacement tails temporarily lift their hidden `Tail` transform above the body torso. Torso traits, including Cutlass, render above the torso but below the foreground wing; applications must not patch these depths after composition.
+
 When a replacement is active, only the base sprite is hidden. Its bone remains the animation target, and the trait follows that bone. This prevents doubled feet, old tail feathers behind a new tail, or a default head showing through a complete replacement without disconnecting the trait during movement.
 
 ## Animation-sheet export
 
-The builder samples the selected Roost2D clip at 12 deterministic times. Use the two explicit animation export buttons to download:
+The builder samples the selected Roost2D clip at 12 deterministic times. `walk`, `slowed`, and `fly` use a complete forward-and-back ping-pong cycle, so their last pose joins their first pose without a reset. Actions such as attack, hit, spawn, and death are intentional one-shots. Use the two explicit animation export buttons to download:
 
 - a transparent PNG sheet in a 4-column, 3-row layout;
 - a `roost2d.sprite-sheet/v1` JSON file containing the recipe, frame rectangles, clip duration, and sample times.
@@ -63,5 +76,8 @@ Build the purple Roostr example above and verify:
 - no `MutantPurple_Head` is visible beneath Robocoq;
 - no `MutantPurple_LegFootA/B` is visible with Golden Greaves;
 - no `MutantPurple_Tail` is visible behind Foliage;
+- Foliage renders above the purple torso;
 - Stethoscope and Shield remain visible over the torso;
 - all selected traits stay attached through `walk`, `fly`, `attack`, and `hit`.
+
+For Chikn, also combine Cutlass with any tail trait and verify the tail is above the torso while Cutlass remains below the foreground wing.

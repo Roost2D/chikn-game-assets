@@ -14,7 +14,7 @@ import {
   type CharacterRecipeV1,
   type ChiknSpecies,
 } from '@roost2d/chikn-rigs';
-import type { RigDefinitionV1, TextureRef } from '@roost2d/contracts';
+import type { AnimationClipV1, RigDefinitionV1, TextureRef } from '@roost2d/contracts';
 import { PixiAssetLoader, PixiRigFactory } from '@roost2d/pixi';
 import { RigRuntime } from '@roost2d/rig2d';
 import { RouteLifecycle, type RouteSession } from './lifecycle';
@@ -341,11 +341,26 @@ async function renderBuilder(session: RouteSession) {
     if (!current) return;
     const value = recipe();
     const replacementSlots = value.traitGroupIds.flatMap((id) => current?.definition.attachmentGroups?.[id]?.replacesSlotIds ?? []);
+    const selectedClip = current.clips.find(({ id }) => id === value.animationId);
+    const traitDepths = value.traitGroupIds.map((id) => {
+      const group = current!.definition.attachmentGroups?.[id];
+      return {
+        id,
+        attachmentZIndexes: group?.attachmentIds.map((attachmentId) => current!.definition.attachments.find(({ id: candidate }) => candidate === attachmentId)?.zIndex),
+        slotZIndexOverrides: group?.slotZIndexOverrides ?? {},
+      };
+    });
     status.textContent = JSON.stringify({
       ...value,
       contentTerms: 'CHIKN-COMMUNITY-NONCOMMERCIAL',
       repositorySublicense: false,
       replacementSlots: [...new Set(replacementSlots)],
+      animationLoop: selectedClip ? {
+        loop: selectedClip.loop ?? false,
+        loopMode: selectedClip.loopMode ?? 'repeat',
+        cycleDurationMs: selectedClip.durationMs * (selectedClip.loop && selectedClip.loopMode === 'ping-pong' ? 2 : 1),
+      } : undefined,
+      traitDepths,
       activeAttachments: current.rig.activeAttachmentIds(),
     }, null, 2);
   };
@@ -442,7 +457,7 @@ async function renderBuilder(session: RouteSession) {
     const value = recipe();
     const clip = current.clips.find(({ id }) => id === value.animationId);
     if (!clip) return;
-    void exportAnimationSheet(app, current.rig, value, clip.durationMs)
+    void exportAnimationSheet(app, current.rig, value, clip)
       .catch((error: unknown) => { status.textContent = error instanceof Error ? error.message : String(error); })
       .finally(applyLiveRecipe);
   }, { signal: session.signal });
@@ -451,7 +466,7 @@ async function renderBuilder(session: RouteSession) {
     const value = recipe();
     const clip = current.clips.find(({ id }) => id === value.animationId);
     if (!clip) return;
-    const { stem, metadata } = animationSheetDescriptor(value, clip.durationMs);
+    const { stem, metadata } = animationSheetDescriptor(value, clip);
     downloadJson(`${stem}.json`, metadata);
   }, { signal: session.signal });
 
@@ -791,8 +806,9 @@ async function downloadCanvas(name: string, canvas: HTMLCanvasElement) {
   setTimeout(() => URL.revokeObjectURL(link.href), 0);
 }
 
-function animationSheetDescriptor(recipe: CharacterRecipeV1, durationMs: number) {
+function animationSheetDescriptor(recipe: CharacterRecipeV1, clip: AnimationClipV1) {
   if (!recipe.animationId) throw new Error('Choose an animation before exporting a sheet');
+  const durationMs = clip.durationMs * (clip.loop && clip.loopMode === 'ping-pong' ? 2 : 1);
   const frameCount = 12;
   const columns = 4;
   const rows = Math.ceil(frameCount / columns);
@@ -818,14 +834,17 @@ function animationSheetDescriptor(recipe: CharacterRecipeV1, durationMs: number)
       columns,
       rows,
       durationMs,
+      sourceDurationMs: clip.durationMs,
+      loop: clip.loop ?? false,
+      loopMode: clip.loopMode ?? 'repeat',
       recipe,
       frames,
     },
   };
 }
 
-async function exportAnimationSheet(app: Application, rig: RigRuntime, recipe: CharacterRecipeV1, durationMs: number) {
-  const { stem, metadata } = animationSheetDescriptor(recipe, durationMs);
+async function exportAnimationSheet(app: Application, rig: RigRuntime, recipe: CharacterRecipeV1, clip: AnimationClipV1) {
+  const { stem, metadata } = animationSheetDescriptor(recipe, clip);
   const sheet = document.createElement('canvas');
   sheet.width = metadata.columns * metadata.frameWidth;
   sheet.height = metadata.rows * metadata.frameHeight;
@@ -834,7 +853,7 @@ async function exportAnimationSheet(app: Application, rig: RigRuntime, recipe: C
   context.imageSmoothingEnabled = true;
 
   rig.stop('base');
-  rig.play(recipe.animationId!, { layer: 'base', repeat: 0 });
+  rig.play(recipe.animationId!, { layer: 'base', repeat: clip.loop && clip.loopMode === 'ping-pong' ? 1 : 0 });
   for (const frame of metadata.frames) {
     rig.seek(frame.timeMs, 'base');
     app.render();

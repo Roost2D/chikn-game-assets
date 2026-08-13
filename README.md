@@ -74,6 +74,15 @@ The logical asset ID resolves to a cropped Pixi texture; consumers never calcula
 
 Start with [`AGENTS.md`](AGENTS.md) and [`llms.txt`](llms.txt). They identify source-of-truth files, generated outputs, rights invariants, repository boundaries, and required verification commands. Release archives also include these files so agents can integrate downloaded artifacts without guessing their layout or license.
 
+## Run the character builder
+
+```powershell
+npm install
+npm run builder:dev
+```
+
+Open `http://127.0.0.1:4173/#builder`. See the [character generator template](docs/character-generator.md) for recipe, depth, looping, and export details.
+
 ## Local verification
 
 ```sh
