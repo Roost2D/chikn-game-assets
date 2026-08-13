@@ -7,6 +7,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Quick start', link: '/quick-start' },
+      { text: 'Character generator', link: '/character-generator' },
       { text: 'Showcase', link: '/showcase/' },
       { text: 'Distribution', link: '/distribution' },
       { text: 'Rights', link: '/rights' },
@@ -19,6 +20,7 @@ export default defineConfig({
           { text: 'Install Roost2D', link: '/install-roost2d' },
           { text: 'Load the asset pack', link: '/load-pack' },
           { text: 'Render a Chikn', link: '/render-chikn' },
+          { text: 'Character generator', link: '/character-generator' },
         ],
       },
       {

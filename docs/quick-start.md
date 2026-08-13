@@ -84,6 +84,6 @@ chikn-flat/admiral
 farmland/grass-full
 ```
 
-Continue with [animated rigs](/render-chikn), [FarmLand](/farmland), or the [mini-game recipe](/mini-game).
+Continue with [animated rigs](/render-chikn), the [character generator template](/character-generator), [FarmLand](/farmland), or the [mini-game recipe](/mini-game).
 
 To use Roost2D commercially without the protected content, replace this pack with independently licensed artwork that implements the same manifest contract.

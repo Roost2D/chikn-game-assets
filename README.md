@@ -68,7 +68,7 @@ chikn.position.set(240, 220);
 host.app.stage.addChild(chikn);
 ```
 
-The logical asset ID resolves to a cropped Pixi texture; consumers never calculate atlas frames themselves. See the [complete quick start](docs/quick-start.md), [rig tutorial](docs/render-chikn.md), and [offline integration guide](INTEGRATION.md).
+The logical asset ID resolves to a cropped Pixi texture; consumers never calculate atlas frames themselves. See the [complete quick start](docs/quick-start.md), [character generator template](docs/character-generator.md), [rig tutorial](docs/render-chikn.md), and [offline integration guide](INTEGRATION.md).
 
 ## For coding agents
 

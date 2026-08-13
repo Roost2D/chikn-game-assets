@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Replace the raw two-sprite Character Builder with canonical Chikn/Roostr rig composition.
+- Support one trait per category, correct base-feather replacement, portable recipe export, transparent reference PNGs, and sampled animation sheets.
+- Update the showcase from Roost2D prerelease packages to the stable `0.1.0` line; unreleased engine changes remain local until visual approval.
+
 ## 0.2.0 - 2026-08-12
 
 - Add the official EggCatch/Gravy Chikn audio corpus as 79 protected MP3 assets.

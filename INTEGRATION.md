@@ -71,6 +71,8 @@ This is the canonical browser path used by the repository's **Animated Rig** sho
 import { loadChiknPack } from '@chikn-game-assets/runtime';
 import { AssetManifestResolver, LazyAssetLoader } from '@roost2d/assets';
 import {
+  applyCharacterRecipe,
+  CHARACTER_RECIPE_SCHEMA,
   loadChiknAnimations,
   loadChiknRig,
   mergeUniqueSkin,
@@ -108,9 +110,13 @@ const factory = new PixiRigFactory(new Map(entries));
 const rig = new RigRuntime(definition, factory, clips);
 host.app.stage.addChild(factory.root);
 factory.root.position.set(320, 360);
-rig.applySkin(unique.skinId);
-rig.attachGroup('head/daft-punk');
-rig.play('chikn.idle', { layer: 'base' });
+applyCharacterRecipe(rig, {
+  schema: CHARACTER_RECIPE_SCHEMA,
+  species: 'chikn',
+  skinId: unique.skinId,
+  traitGroupIds: ['head/admiral', 'tail/golden-plumage'],
+  animationId: 'chikn.walk',
+}, definition, clips);
 
 window.addEventListener('beforeunload', () => {
   rig.dispose();
@@ -121,6 +127,8 @@ window.addEventListener('beforeunload', () => {
 ```
 
 For Roostr, use `loadRoostrRig()`, `loadRoostrAnimations()`, and a Roostr entry from `resolveUniqueSkin`. Both `default` and `high` profiles use the same rig metadata; the manifest selects the sampled atlas data while the adapter preserves rig-space layout.
+
+For a character generator, persist the `roost2d.chikn-character/v1` recipe shown above and let `RigRuntime` compose it. Do not independently resize and center source PNGs. Trait groups can contain multiple ordered attachments, and `replacesSlotIds` distinguishes replacement art (tail, feet, complete heads) from overlays (hats, necklaces, shields). See `docs/character-generator.md` in the source repository/archive.
 
 ## Rights
 
