@@ -1,4 +1,5 @@
-import { expect, test, type Page } from '@playwright/test';
+import { readFile, stat } from 'node:fs/promises';
+import { expect, test, type Download, type Page } from '@playwright/test';
 
 const readyText = '"applicationCompensation": "none"';
 
@@ -41,5 +42,85 @@ test('the production rig path survives pooled-style reconfiguration on desktop a
   await page.evaluate(() => { location.hash = '#rig'; });
   await waitForRig(page);
 
+  expect(pageErrors).toEqual([]);
+});
+
+test('the recipe builder composes multiple traits, hides replaced feathers, and exports the same animated bird', async ({ page }, testInfo) => {
+  const pageErrors: string[] = [];
+  page.on('pageerror', (error) => pageErrors.push(error.stack ?? error.message));
+  await page.goto('/#builder');
+  const status = page.locator('#app .panel pre.config');
+  await expect(status).toContainText('roost2d.chikn-character/v1');
+
+  await page.getByLabel('Builder species').selectOption('roostr');
+  await expect(status).toContainText('"species": "roostr"');
+  await page.getByLabel('Builder skin').selectOption('MutantPurple');
+  await page.getByLabel('Head trait').selectOption('head/robocoq');
+  await page.getByLabel('Neck trait').selectOption('neck/stethoscope');
+  await page.getByLabel('Torso trait').selectOption('torso/shield');
+  await page.getByLabel('Feet trait').selectOption('feet/golden-feet');
+  await page.getByLabel('Tail trait').selectOption('tail/foliage');
+  await expect(status).toContainText('Trait_Tail_Foliage');
+
+  const state = JSON.parse(await status.textContent() ?? '{}');
+  expect(state.replacementSlots).toEqual(expect.arrayContaining(['LegFoot A', 'LegFoot B', 'Tail']));
+  expect(state.replacementSlots).not.toContain('Head');
+  expect(state.activeAttachments).toEqual(expect.arrayContaining([
+    'MutantPurple_Head',
+    'Trait_Head_Robocoq',
+    'Trait_Neck_Stethoscope',
+    'Trait_Feet_GoldenFeet',
+    'Trait_Tail_Foliage',
+  ]));
+  expect(state.activeAttachments).not.toEqual(expect.arrayContaining([
+    'MutantPurple_LegFootA',
+    'MutantPurple_LegFootB',
+    'MutantPurple_Tail',
+  ]));
+  expect(state.animationLoop).toEqual({ loop: true, loopMode: 'repeat', cycleDurationMs: 500 });
+  expect(state.traitDepths.find(({ id }: { id: string }) => id === 'tail/foliage').slotZIndexOverrides).toEqual({ Tail: 6 });
+  expect(state.traitDepths.find(({ id }: { id: string }) => id === 'torso/shield').attachmentZIndexes).toEqual([9]);
+  expect(state.traitDepths.find(({ id }: { id: string }) => id === 'neck/stethoscope').attachmentZIndexes).toEqual([20]);
+  expect(state.traitDepths.find(({ id }: { id: string }) => id === 'head/robocoq').attachmentZIndexes).toEqual([30]);
+  const singleFeet = state.traitDepths.find(({ id }: { id: string }) => id === 'feet/golden-feet');
+  expect(singleFeet.attachmentZIndexes).toEqual([20]);
+  expect(singleFeet.attachmentTransforms).toEqual([{ attachmentId: 'Trait_Feet_GoldenFeet', x: 2.5, y: -9, followSlotId: 'LegFoot A' }]);
+  await expect(page.locator('#app canvas')).toBeVisible();
+
+  const downloads: Download[] = [];
+  page.on('download', (download) => downloads.push(download));
+  await page.getByRole('button', { name: 'Export animation sheet' }).click();
+  await expect.poll(() => downloads.length).toBe(1);
+  await page.getByRole('button', { name: 'Export animation JSON' }).click();
+  await expect.poll(() => downloads.length).toBe(2);
+  const png = downloads.find((download) => download.suggestedFilename().endsWith('.png'));
+  const json = downloads.find((download) => download.suggestedFilename().endsWith('.json'));
+  expect(png).toBeDefined();
+  expect(json).toBeDefined();
+  const pngPath = await png?.path();
+  const jsonPath = await json?.path();
+  expect(pngPath).toBeTruthy();
+  expect(jsonPath).toBeTruthy();
+  expect((await stat(pngPath!)).size).toBeGreaterThan(1_000);
+  const sheet = JSON.parse(await readFile(jsonPath!, 'utf8'));
+  expect(sheet).toMatchObject({ schema: 'roost2d.sprite-sheet/v1', frameCount: 12, columns: 4, rows: 3, durationMs: 500, sourceDurationMs: 500, loop: true, loopMode: 'repeat' });
+  expect(sheet.recipe).toMatchObject({
+    schema: state.schema,
+    species: state.species,
+    skinId: state.skinId,
+    traitGroupIds: state.traitGroupIds,
+    animationId: state.animationId,
+  });
+  await png?.saveAs(testInfo.outputPath('builder-animation-sheet.png'));
+
+  await page.getByLabel('Builder species').selectOption('chikn');
+  await expect(status).toContainText('"species": "chikn"');
+  await page.getByLabel('Torso trait').selectOption('torso/cutlass');
+  await page.getByLabel('Tail trait').selectOption('tail/golden-plumage');
+  await expect(status).toContainText('Trait_Torso_Cutlass');
+  const chiknState = JSON.parse(await status.textContent() ?? '{}');
+  expect(chiknState.traitDepths.find(({ id }: { id: string }) => id === 'torso/cutlass').attachmentZIndexes).toEqual([9]);
+  expect(chiknState.traitDepths.find(({ id }: { id: string }) => id === 'tail/golden-plumage').slotZIndexOverrides).toEqual({ Tail: 6 });
+  await page.locator('.builder-stage').screenshot({ path: testInfo.outputPath('builder-cutlass-depth.png') });
   expect(pageErrors).toEqual([]);
 });

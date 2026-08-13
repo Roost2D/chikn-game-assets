@@ -2,6 +2,8 @@ import { Application, Assets, Container, Graphics, Sprite, Text, Texture } from 
 import { loadChiknPack, type AssetProfileId } from '@chikn-game-assets/runtime';
 import { AssetManifestResolver, LazyAssetLoader } from '@roost2d/assets';
 import {
+  applyCharacterRecipe,
+  CHARACTER_RECIPE_SCHEMA,
   loadChiknAnimations,
   loadChiknRig,
   loadRoostrAnimations,
@@ -9,9 +11,10 @@ import {
   mergeUniqueSkin,
   UNIQUE_SKINS,
   uniqueAssetPrefix,
+  type CharacterRecipeV1,
   type ChiknSpecies,
 } from '@roost2d/chikn-rigs';
-import type { RigDefinitionV1, TextureRef } from '@roost2d/contracts';
+import type { AnimationClipV1, RigDefinitionV1, TextureRef } from '@roost2d/contracts';
 import { PixiAssetLoader, PixiRigFactory } from '@roost2d/pixi';
 import { RigRuntime } from '@roost2d/rig2d';
 import { RouteLifecycle, type RouteSession } from './lifecycle';
@@ -198,10 +201,17 @@ function renderShowcase() {
  * neither. Every Application is registered for teardown, and a stale session destroys it on
  * arrival rather than leaving it running behind the route that replaced it.
  */
-async function createStage(session: RouteSession, className = 'stage') {
+async function createStage(session: RouteSession, className = 'stage', transparent = false) {
   const stage = element('div', className);
   const app = new Application();
-  await app.init({ width: 760, height: 560, background: '#18150f', antialias: true, resolution: Math.min(devicePixelRatio, 2), autoDensity: true });
+  await app.init({
+    width: 760,
+    height: 560,
+    ...(transparent ? { backgroundAlpha: 0 } : { background: '#18150f' }),
+    antialias: true,
+    resolution: Math.min(devicePixelRatio, 2),
+    autoDensity: true,
+  });
   session.onTeardown(() => app.destroy(true, { children: true, texture: false }));
   stage.append(app.canvas);
   return { stage, app };
@@ -224,25 +234,24 @@ async function createRuntimeTextureLoader(profile: AssetProfileId = 'default') {
 }
 
 async function renderBuilder(session: RouteSession) {
-  host.append(hero('Character Builder', 'Assemble, animate, and export.', 'Choose a flat character, layer hosted rig or trait art, mirror, tint, scale, randomize, and export a portable non-commercial configuration.'));
+  host.append(hero('Rig recipe builder', 'Build one bird. Animate the same bird.', 'Choose a Chikn or Roostr skin and one trait per category. Replacement traits own their feather slots, every part stays on the rig, and exports use the same recipe as the live animation.'));
   const layout = element('div', 'workspace');
   const panel = element('section', 'panel');
-  const bodies = catalog.assets.filter((asset) => asset.aliases.some((alias) => alias.startsWith('chikn-flat/') || alias.startsWith('roostr-flat/')));
-  const traits = catalog.assets.filter((asset) => asset.group === 'chikn-traits' || asset.group === 'roostr-traits');
-
-  const bodySelect = element('select');
-  bodySelect.id = 'body';
-  for (const asset of bodies.slice(0, 250)) bodySelect.append(new Option(asset.id, asset.id));
-  if (bodySelect.options.length) bodySelect.selectedIndex = 0;
-
-  const traitSelect = element('select');
-  traitSelect.id = 'trait';
-  traitSelect.append(new Option('None', ''));
-  for (const asset of traits.slice(0, 350)) traitSelect.append(new Option(asset.id, asset.id));
+  const speciesSelect = element('select');
+  speciesSelect.setAttribute('aria-label', 'Builder species');
+  speciesSelect.append(new Option('Chikn', 'chikn'), new Option('Roostr', 'roostr'));
+  const profileSelect = element('select');
+  profileSelect.setAttribute('aria-label', 'Builder asset profile');
+  profileSelect.append(new Option('Default', 'default'), new Option('High', 'high'));
+  const skinSelect = element('select');
+  skinSelect.setAttribute('aria-label', 'Builder skin');
+  const uniqueSelect = element('select');
+  uniqueSelect.setAttribute('aria-label', 'Builder unique');
+  const traitFields = element('div', 'trait-fields');
+  const traitSelects = new Map<string, HTMLSelectElement>();
 
   const animationSelect = element('select');
-  animationSelect.id = 'animation';
-  for (const name of ['idle', 'walk', 'fly', 'attack', 'hit']) animationSelect.append(new Option(name, name));
+  animationSelect.setAttribute('aria-label', 'Builder animation');
 
   const scaleOutput = element('output');
   scaleOutput.id = 'scale-out';
@@ -255,80 +264,219 @@ async function renderBuilder(session: RouteSession) {
 
   const mirrorButton = element('button', undefined, 'Mirror');
   const randomButton = element('button', undefined, 'Random');
-  const exportButton = element('button', 'primary', 'Export JSON');
-  const configOutput = element('pre', 'config');
+  const exportRecipeButton = element('button', 'primary', 'Export recipe');
+  const exportReferenceButton = element('button', undefined, 'Export PNG');
+  const exportSheetButton = element('button', undefined, 'Export animation sheet');
+  const exportSheetMetadataButton = element('button', undefined, 'Export animation JSON');
+  const status = element('pre', 'config', 'Loading canonical rig...');
 
   panel.append(
-    field('Body', bodySelect),
-    field('Trait attachment', traitSelect),
+    field('Species', speciesSelect),
+    field('Asset profile', profileSelect),
+    field('Normal skin', skinSelect),
+    field('Unique', uniqueSelect),
+    traitFields,
     field('Animation', animationSelect),
     field('Scale ', scaleInput, scaleOutput),
     field('Tint', tintInput),
-    mirrorButton, randomButton, exportButton, configOutput,
+    mirrorButton, randomButton, exportRecipeButton, exportReferenceButton, exportSheetButton, exportSheetMetadataButton, status,
   );
 
-  const { stage, app } = await createStage(session);
+  const { stage, app } = await createStage(session, 'stage builder-stage', true);
   if (session.isStale) return;
   layout.append(panel, stage);
   host.append(layout);
 
-  const root = new Container();
-  root.position.set(380, 300);
-  app.stage.addChild(root);
-  let bodySprite: Sprite | undefined;
-  let traitSprite: Sprite | undefined;
+  const definitions = new Map<ChiknSpecies, RigDefinitionV1>();
+  const clipsBySpecies = new Map<ChiknSpecies, Awaited<ReturnType<typeof loadChiknAnimations>>>();
+  let current: { rig: RigRuntime; factory: PixiRigFactory; textures: PixiAssetLoader; definition: RigDefinitionV1; clips: Awaited<ReturnType<typeof loadChiknAnimations>> } | undefined;
+  let refreshGeneration = 0;
   let mirrored = false;
-  let time = 0;
-  const find = (id: string) => catalog.assets.find((asset) => asset.id === id)!;
-  const config = () => ({
-    schema: 'chikn-game-assets.character/v1',
-    contentTerms: 'CHIKN-COMMUNITY-NONCOMMERCIAL',
-    repositorySublicense: false,
-    body: bodySelect.value,
-    traits: traitSelect.value ? [traitSelect.value] : [],
-    animation: animationSelect.value,
-    scale: Number(scaleInput.value),
-    mirrored,
-    tint: tintInput.value,
-  });
-  const refresh = async () => {
-    bodySprite?.destroy();
-    traitSprite?.destroy();
-    traitSprite = undefined;
-    bodySprite = await loadSprite(find(bodySelect.value));
-    if (session.isStale) { bodySprite.destroy(); return; }
-    const fit = Math.min(340 / bodySprite.texture.width, 340 / bodySprite.texture.height);
-    bodySprite.scale.set(fit);
-    root.addChild(bodySprite);
-    if (traitSelect.value) {
-      traitSprite = await loadSprite(find(traitSelect.value));
-      if (session.isStale) { traitSprite.destroy(); return; }
-      traitSprite.scale.set(Math.min(340 / traitSprite.texture.width, 340 / traitSprite.texture.height));
-      root.addChild(traitSprite);
-    }
-    root.scale.set(Number(scaleInput.value) * (mirrored ? -1 : 1), Number(scaleInput.value));
-    const tint = Number.parseInt(tintInput.value.slice(1), 16);
-    bodySprite.tint = tint;
-    if (traitSprite) traitSprite.tint = tint;
-    scaleOutput.textContent = scaleInput.value;
-    configOutput.textContent = JSON.stringify(config(), null, 2);
+
+  const setOptions = (select: HTMLSelectElement, options: ReadonlyArray<readonly [string, string]>, previous?: string) => {
+    select.replaceChildren(...options.map(([label, value]) => new Option(label, value)));
+    if (previous && [...select.options].some(({ value }) => value === previous)) select.value = previous;
   };
-  panel.addEventListener('change', () => void refresh(), { signal: session.signal });
-  scaleInput.addEventListener('input', () => void refresh(), { signal: session.signal });
-  mirrorButton.addEventListener('click', () => { mirrored = !mirrored; void refresh(); }, { signal: session.signal });
+
+  const loadMetadata = async (species: ChiknSpecies) => {
+    let definition = definitions.get(species);
+    let clips = clipsBySpecies.get(species);
+    if (!definition) {
+      definition = species === 'chikn' ? await loadChiknRig() : await loadRoostrRig();
+      definitions.set(species, definition);
+    }
+    if (!clips) {
+      clips = species === 'chikn' ? await loadChiknAnimations() : await loadRoostrAnimations();
+      clipsBySpecies.set(species, clips);
+    }
+    return { definition, clips };
+  };
+
+  const disposeCurrent = async () => {
+    const active = current;
+    current = undefined;
+    if (!active) return;
+    active.rig.dispose();
+    active.factory.destroyRoot();
+    await active.textures.clear();
+  };
+  session.onTeardown(() => { refreshGeneration += 1; void disposeCurrent(); });
+
+  const recipe = (definition = current?.definition): CharacterRecipeV1 => {
+    const unique = UNIQUE_SKINS.find((entry) => entry.species === speciesSelect.value && String(entry.token) === uniqueSelect.value);
+    const skinId = unique?.skinId ?? skinSelect.value ?? definition?.defaultSkinId ?? '';
+    return {
+      schema: CHARACTER_RECIPE_SCHEMA,
+      species: speciesSelect.value as ChiknSpecies,
+      skinId,
+      traitGroupIds: [...traitSelects.values()].map(({ value }) => value).filter(Boolean),
+      animationId: animationSelect.value || undefined,
+      mirrored,
+      tint: Number.parseInt(tintInput.value.slice(1), 16),
+      renderScale: Number(scaleInput.value),
+    };
+  };
+
+  const updateStatus = () => {
+    if (!current) return;
+    const value = recipe();
+    const replacementSlots = value.traitGroupIds.flatMap((id) => current?.definition.attachmentGroups?.[id]?.replacesSlotIds ?? []);
+    const selectedClip = current.clips.find(({ id }) => id === value.animationId);
+    const traitDepths = value.traitGroupIds.map((id) => {
+      const group = current!.definition.attachmentGroups?.[id];
+      return {
+        id,
+        attachmentZIndexes: group?.attachmentIds.map((attachmentId) => current!.definition.attachments.find(({ id: candidate }) => candidate === attachmentId)?.zIndex),
+        attachmentTransforms: group?.attachmentIds.map((attachmentId) => {
+          const attachment = current!.definition.attachments.find(({ id: candidate }) => candidate === attachmentId);
+          const bone = current!.definition.bones.find(({ id: candidate }) => candidate === attachment?.boneId);
+          return { attachmentId, x: bone?.x ?? 0, y: bone?.y ?? 0, followSlotId: bone?.followSlotId };
+        }),
+        slotZIndexOverrides: group?.slotZIndexOverrides ?? {},
+      };
+    });
+    status.textContent = JSON.stringify({
+      ...value,
+      contentTerms: 'CHIKN-COMMUNITY-NONCOMMERCIAL',
+      repositorySublicense: false,
+      replacementSlots: [...new Set(replacementSlots)],
+      animationLoop: selectedClip ? {
+        loop: selectedClip.loop ?? false,
+        loopMode: selectedClip.loopMode ?? 'repeat',
+        cycleDurationMs: selectedClip.durationMs * (selectedClip.loop && selectedClip.loopMode === 'ping-pong' ? 2 : 1),
+      } : undefined,
+      traitDepths,
+      activeAttachments: current.rig.activeAttachmentIds(),
+    }, null, 2);
+  };
+
+  const applyLiveRecipe = () => {
+    if (!current) return;
+    const value = recipe();
+    applyCharacterRecipe(current.rig, value, current.definition, current.clips);
+    current.factory.root.scale.set(1);
+    const bounds = current.factory.root.getLocalBounds();
+    const fitScale = Math.min(
+      app.screen.width * 0.72 / Math.max(1, bounds.width),
+      app.screen.height * 0.72 / Math.max(1, bounds.height),
+    );
+    current.factory.root.pivot.set(bounds.x + bounds.width / 2, bounds.y + bounds.height / 2);
+    current.factory.root.position.set(app.screen.width / 2, app.screen.height / 2);
+    current.factory.root.scale.set(fitScale * (value.renderScale ?? 1));
+    scaleOutput.textContent = scaleInput.value;
+    updateStatus();
+  };
+
+  const updateControls = async () => {
+    const species = speciesSelect.value as ChiknSpecies;
+    const { definition, clips } = await loadMetadata(species);
+    if (session.isStale) return;
+    setOptions(skinSelect, Object.keys(definition.skins ?? {}).map((id) => [id, id] as const), definition.defaultSkinId);
+    setOptions(uniqueSelect, [['None', ''], ...UNIQUE_SKINS.filter((entry) => entry.species === species).map((entry) => [`#${entry.token} - ${entry.skinId}`, String(entry.token)] as const)]);
+    setOptions(animationSelect, clips.map((clip) => [clip.id.replace(`${species}.`, ''), clip.id] as const));
+    traitSelects.clear();
+    traitFields.replaceChildren();
+    const groups = Object.values(definition.attachmentGroups ?? {});
+    const categories = [...new Set(groups.map((group) => String(group.metadata?.category ?? '')).filter(Boolean))];
+    const preferred = ['Head', 'Neck', 'Torso', 'Feet', 'Tail', 'Wings'];
+    for (const category of [...preferred, ...categories.filter((value) => !preferred.includes(value))].filter((value) => categories.includes(value))) {
+      const select = element('select');
+      select.setAttribute('aria-label', `${category} trait`);
+      setOptions(select, [
+        ['None', ''],
+        ...groups.filter((group) => String(group.metadata?.category ?? '') === category).map((group) => [String(group.metadata?.name ?? group.id), group.id] as const),
+      ]);
+      select.addEventListener('change', applyLiveRecipe, { signal: session.signal });
+      traitSelects.set(category, select);
+      traitFields.append(field(`${category} trait`, select));
+    }
+  };
+
+  const refreshResources = async () => {
+    const generation = ++refreshGeneration;
+    status.textContent = 'Loading integrity-checked rig textures...';
+    await disposeCurrent();
+    try {
+      const species = speciesSelect.value as ChiknSpecies;
+      const { definition: baseDefinition, clips } = await loadMetadata(species);
+      const { pack, textures } = await createRuntimeTextureLoader(profileSelect.value as AssetProfileId);
+      let definition = baseDefinition;
+      const unique = UNIQUE_SKINS.find((entry) => entry.species === species && String(entry.token) === uniqueSelect.value);
+      if (unique) definition = mergeUniqueSkin(definition, unique, pack.assetIds.filter((id) => id.startsWith(uniqueAssetPrefix(unique))));
+      const references = new Map<string, TextureRef>();
+      for (const { texture } of definition.attachments) references.set(texture.frameId ? `${texture.assetId}#${texture.frameId}` : texture.assetId, texture);
+      const entries = await Promise.all([...references].map(async ([key, texture]) => [key, await textures.load(texture.assetId)] as const));
+      if (session.isStale || generation !== refreshGeneration) { await textures.clear(); return; }
+      const factory = new PixiRigFactory(new Map(entries));
+      const rig = new RigRuntime(definition, factory, clips);
+      current = { rig, factory, textures, definition, clips };
+      app.stage.addChild(factory.root);
+      applyLiveRecipe();
+    } catch (error) {
+      if (generation === refreshGeneration) status.textContent = error instanceof Error ? error.message : String(error);
+    }
+  };
+
+  speciesSelect.addEventListener('change', async () => { await updateControls(); await refreshResources(); }, { signal: session.signal });
+  profileSelect.addEventListener('change', () => void refreshResources(), { signal: session.signal });
+  uniqueSelect.addEventListener('change', () => void refreshResources(), { signal: session.signal });
+  skinSelect.addEventListener('change', applyLiveRecipe, { signal: session.signal });
+  animationSelect.addEventListener('change', applyLiveRecipe, { signal: session.signal });
+  tintInput.addEventListener('input', applyLiveRecipe, { signal: session.signal });
+  scaleInput.addEventListener('input', applyLiveRecipe, { signal: session.signal });
+  mirrorButton.addEventListener('click', () => { mirrored = !mirrored; applyLiveRecipe(); }, { signal: session.signal });
   randomButton.addEventListener('click', () => {
-    bodySelect.value = bodies[Math.floor(Math.random() * Math.min(250, bodies.length))]!.id;
-    traitSelect.value = Math.random() > 0.3 ? traits[Math.floor(Math.random() * Math.min(350, traits.length))]!.id : '';
-    void refresh();
+    skinSelect.selectedIndex = Math.floor(Math.random() * Math.max(1, skinSelect.options.length));
+    uniqueSelect.value = '';
+    for (const select of traitSelects.values()) select.selectedIndex = Math.random() < 0.35 ? 0 : 1 + Math.floor(Math.random() * Math.max(1, select.options.length - 1));
+    applyLiveRecipe();
   }, { signal: session.signal });
-  exportButton.addEventListener('click', () => downloadJson('chikn-character.json', config()), { signal: session.signal });
-  app.ticker.add((ticker) => {
-    time += ticker.deltaMS / 1000;
-    const animation = animationSelect.value;
-    root.y = 300 + (animation === 'walk' ? Math.abs(Math.sin(time * 7)) * -12 : Math.sin(time * 2) * 5);
-    root.rotation = animation === 'hit' ? Math.sin(time * 22) * 0.08 : animation === 'attack' ? Math.sin(time * 8) * 0.05 : 0;
-  });
-  await refresh();
+  exportRecipeButton.addEventListener('click', () => downloadJson(`${speciesSelect.value}-character-recipe.json`, recipe()), { signal: session.signal });
+  exportReferenceButton.addEventListener('click', () => {
+    if (!current) return;
+    app.render();
+    void downloadCanvas(`${speciesSelect.value}-character-reference.png`, app.canvas);
+  }, { signal: session.signal });
+  exportSheetButton.addEventListener('click', () => {
+    if (!current) return;
+    const value = recipe();
+    const clip = current.clips.find(({ id }) => id === value.animationId);
+    if (!clip) return;
+    void exportAnimationSheet(app, current.rig, value, clip)
+      .catch((error: unknown) => { status.textContent = error instanceof Error ? error.message : String(error); })
+      .finally(applyLiveRecipe);
+  }, { signal: session.signal });
+  exportSheetMetadataButton.addEventListener('click', () => {
+    if (!current) return;
+    const value = recipe();
+    const clip = current.clips.find(({ id }) => id === value.animationId);
+    if (!clip) return;
+    const { stem, metadata } = animationSheetDescriptor(value, clip);
+    downloadJson(`${stem}.json`, metadata);
+  }, { signal: session.signal });
+
+  await updateControls();
+  await refreshResources();
 }
 
 async function renderRig(session: RouteSession) {
@@ -351,7 +499,7 @@ async function renderRig(session: RouteSession) {
   traitSelect.setAttribute('aria-label', 'Trait');
   const animationSelect = element('select');
   animationSelect.setAttribute('aria-label', 'Animation');
-  const status = element('pre', 'config', 'Loading rig metadataâ€¦');
+  const status = element('pre', 'config', 'Loading rig metadata...');
   panel.append(
     field('Species', speciesSelect),
     field('Asset profile', profileSelect),
@@ -429,7 +577,7 @@ async function renderRig(session: RouteSession) {
 
   const refresh = async () => {
     const generation = ++refreshGeneration;
-    status.textContent = 'Loading integrity-checked atlas framesâ€¦';
+    status.textContent = 'Loading integrity-checked atlas frames...';
     await disposeCurrent();
     try {
       const species = speciesSelect.value as ChiknSpecies;
@@ -652,6 +800,72 @@ function downloadJson(name: string, value: unknown) {
   link.download = name;
   link.click();
   URL.revokeObjectURL(link.href);
+}
+
+async function downloadCanvas(name: string, canvas: HTMLCanvasElement) {
+  const blob = await new Promise<Blob>((resolve, reject) => canvas.toBlob((value) => value ? resolve(value) : reject(new Error('Could not encode PNG')), 'image/png'));
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = name;
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(link.href), 0);
+}
+
+function animationSheetDescriptor(recipe: CharacterRecipeV1, clip: AnimationClipV1) {
+  if (!recipe.animationId) throw new Error('Choose an animation before exporting a sheet');
+  const durationMs = clip.durationMs * (clip.loop && clip.loopMode === 'ping-pong' ? 2 : 1);
+  const frameCount = 12;
+  const columns = 4;
+  const rows = Math.ceil(frameCount / columns);
+  const frameWidth = 380;
+  const frameHeight = 280;
+  const stem = `${recipe.species}-${recipe.animationId.replace(/[^a-zA-Z0-9]+/g, '-')}`;
+  const frames = Array.from({ length: frameCount }, (_, index) => ({
+    index,
+    timeMs: Math.round(durationMs * index / (frameCount - 1)),
+    x: index % columns * frameWidth,
+    y: Math.floor(index / columns) * frameHeight,
+    width: frameWidth,
+    height: frameHeight,
+  }));
+  return {
+    stem,
+    metadata: {
+      schema: 'roost2d.sprite-sheet/v1',
+      image: `${stem}.png`,
+      frameWidth,
+      frameHeight,
+      frameCount,
+      columns,
+      rows,
+      durationMs,
+      sourceDurationMs: clip.durationMs,
+      loop: clip.loop ?? false,
+      loopMode: clip.loopMode ?? 'repeat',
+      recipe,
+      frames,
+    },
+  };
+}
+
+async function exportAnimationSheet(app: Application, rig: RigRuntime, recipe: CharacterRecipeV1, clip: AnimationClipV1) {
+  const { stem, metadata } = animationSheetDescriptor(recipe, clip);
+  const sheet = document.createElement('canvas');
+  sheet.width = metadata.columns * metadata.frameWidth;
+  sheet.height = metadata.rows * metadata.frameHeight;
+  const context = sheet.getContext('2d');
+  if (!context) throw new Error('Canvas 2D export is unavailable');
+  context.imageSmoothingEnabled = true;
+
+  rig.stop('base');
+  rig.play(recipe.animationId!, { layer: 'base', repeat: clip.loop && clip.loopMode === 'ping-pong' ? 1 : 0 });
+  for (const frame of metadata.frames) {
+    rig.seek(frame.timeMs, 'base');
+    app.render();
+    context.drawImage(app.canvas, 0, 0, app.canvas.width, app.canvas.height, frame.x, frame.y, frame.width, frame.height);
+  }
+
+  await downloadCanvas(`${stem}.png`, sheet);
 }
 
 // Start only after every module-scoped template/helper constant has initialized. Calling render

@@ -1,6 +1,6 @@
 {
   "name": "chikn-game-assets",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "Publicly hosted Chikn, Roostr, and FarmLand community asset source and runtime distributions.",
   "type": "module",
@@ -26,6 +26,7 @@
     "repro:linux": "npm run build && node scripts/repro-linux.mjs",
     "cross:verify": "npm run build && node scripts/cross-repo-verify.mjs",
     "showcase:data": "node scripts/build-showcase-data.mjs",
+    "builder:dev": "npm run showcase:data && npm run dev -w chikn-game-assets-showcase -- --host 127.0.0.1 --port 4173",
     "showcase:build": "npm run showcase:data && npm run build -w chikn-game-assets-showcase",
     "test:browser": "playwright test",
     "api:snapshot": "node scripts/runtime-api-snapshot.mjs --write",

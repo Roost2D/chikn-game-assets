@@ -3,7 +3,7 @@
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "manifest": {
     "schema": "roost2d.assets/v1",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "generatedAt": "1970-01-01T00:00:00.000Z",
     "rightsDocumentSha256": "59f7126ae172ecfc6fa77e9208cbf631f2c902848cc4143d2f30b7e84e4f4f9b",
     "profiles": {
