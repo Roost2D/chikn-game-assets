@@ -17,7 +17,7 @@
     "@roost2d/pixi": "0.3.0",
     "@roost2d/rig2d": "0.3.0",
     "gsap": "^3.13.0",
-    "pixi.js": "^8.11.0"
+    "pixi.js": "^8.20.1"
   },
   "devDependencies": {
     "typescript": "^5.8.3",
