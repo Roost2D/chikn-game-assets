@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0 - 2026-08-30
+
+- Group the installed Chikn/Roostr rig clips by category in both showcase animation pickers and reset the rig pose between independent previews.
+
 ## 0.3.0 - 2026-08-13
 
 - Replace the raw two-sprite Character Builder with canonical Chikn/Roostr rig composition.

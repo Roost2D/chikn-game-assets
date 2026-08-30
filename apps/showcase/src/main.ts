@@ -86,6 +86,38 @@ function hero(eyebrow: string, title: string, copy: string) {
   return node;
 }
 
+const ANIMATION_GROUPS: ReadonlyArray<readonly [string, readonly string[]]> = [
+  ['Movement', ['walk', 'slowed', 'fly', 'run', 'sneak', 'crouch', 'jump', 'fall', 'land', 'dodge', 'charge', 'swim', 'spawn_drop']],
+  ['Combat', ['attack', 'peck', 'attack_peck', 'attack_heavy', 'block', 'parry', 'kick', 'wing_slap', 'headbutt', 'cast']],
+  ['Reactions', ['hit', 'stagger', 'knockback', 'knockdown', 'get_up', 'death_burst']],
+  ['Emotes', ['extraction_bow', 'draft_cheer', 'victory', 'wave', 'dance', 'panic']],
+  ['Ambient', ['idle_breathe', 'idle_alert', 'sleep', 'eat', 'look_around']],
+];
+
+function animationLabel(name: string): string {
+  return name.replaceAll('_', ' ').replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function setAnimationOptions(select: HTMLSelectElement, clips: readonly AnimationClipV1[], species: ChiknSpecies): void {
+  const previous = select.value;
+  const remaining = new Map(clips.map((clip) => [clip.id.replace(`${species}.`, ''), clip]));
+  const groups = ANIMATION_GROUPS.map(([label, names]) => [label, names.flatMap((name) => {
+    const clip = remaining.get(name);
+    if (!clip) return [];
+    remaining.delete(name);
+    return [clip];
+  })] as const);
+  if (remaining.size) groups.push(['Other', [...remaining.values()]]);
+
+  select.replaceChildren(...groups.filter(([, entries]) => entries.length).map(([label, entries]) => {
+    const group = document.createElement('optgroup');
+    group.label = `${label} (${entries.length})`;
+    group.append(...entries.map((clip) => new Option(animationLabel(clip.id.replace(`${species}.`, '')), clip.id)));
+    return group;
+  }));
+  if (previous && [...select.options].some(({ value }) => value === previous)) select.value = previous;
+}
+
 /** Source paths come off disk unslugified, so encode each segment before it lands in a URL. */
 function sourceRecordUrl(sourcePath: string | undefined): string | undefined {
   if (!sourcePath) return undefined;
@@ -393,7 +425,7 @@ async function renderBuilder(session: RouteSession) {
     if (session.isStale) return;
     setOptions(skinSelect, Object.keys(definition.skins ?? {}).map((id) => [id, id] as const), definition.defaultSkinId);
     setOptions(uniqueSelect, [['None', ''], ...UNIQUE_SKINS.filter((entry) => entry.species === species).map((entry) => [`#${entry.token} - ${entry.skinId}`, String(entry.token)] as const)]);
-    setOptions(animationSelect, clips.map((clip) => [clip.id.replace(`${species}.`, ''), clip.id] as const));
+    setAnimationOptions(animationSelect, clips, species);
     traitSelects.clear();
     traitFields.replaceChildren();
     const groups = Object.values(definition.attachmentGroups ?? {});
@@ -480,7 +512,7 @@ async function renderBuilder(session: RouteSession) {
 }
 
 async function renderRig(session: RouteSession) {
-  host.append(hero('Canonical integration', 'Animated Rig', 'Exercise the released manifest, integrity loader, Chikn rig metadata, renderer-neutral runtime, and Pixi adapter with no application-side scale, parenting, or depth fixes.'));
+  host.append(hero('Chikn + Roostr motion library', 'Animated Rig', 'Preview movement, combat, reactions, emotes, and ambient states on every Chikn or Roostr skin and trait combination.'));
   const layout = element('div', 'workspace');
   const panel = element('section', 'panel');
   const speciesSelect = element('select');
@@ -572,7 +604,7 @@ async function renderRig(session: RouteSession) {
     const preferred = ['Head', 'Neck', 'Torso', 'Feet', 'Tail', 'Wings'];
     setOptions(categorySelect, [...preferred, ...categories.filter((category) => !preferred.includes(category))].map((category) => [category, category] as const));
     updateTraitOptions(definition);
-    setOptions(animationSelect, clips.map((clip) => [clip.id.replace(`${species}.`, ''), clip.id] as const));
+    setAnimationOptions(animationSelect, clips, species);
   };
 
   const refresh = async () => {
@@ -620,7 +652,7 @@ async function renderRig(session: RouteSession) {
   for (const select of [profileSelect, skinSelect, uniqueSelect, traitSelect]) select.addEventListener('change', () => void refresh(), { signal: session.signal });
   animationSelect.addEventListener('change', () => {
     if (!current) return;
-    current.rig.stop('base');
+    current.rig.resetPose();
     current.rig.play(animationSelect.value, { layer: 'base' });
   }, { signal: session.signal });
 
