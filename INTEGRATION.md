@@ -130,6 +130,8 @@ For Roostr, use `loadRoostrRig()`, `loadRoostrAnimations()`, and a Roostr entry 
 
 For a character generator, persist the `roost2d.chikn-character/v1` recipe shown above and let `RigRuntime` compose it. Do not independently resize and center source PNGs. Trait groups can contain multiple ordered attachments, and `replacesSlotIds` distinguishes tail/feet replacement art from head, neck, torso, hat, necklace, shield, and held-item overlays. See `docs/character-generator.md` in the source repository/archive.
 
+For punch, kick, selectable trait specials, externally controlled playback, and procedural effect sockets, continue with `docs/brawler-actions.md`. Combat outcomes stay in the consuming game; animation cues only synchronize presentation.
+
 ## Rights
 
 Manifest entries marked `CHIKN-COMMUNITY-NONCOMMERCIAL` are protected Chikn/Roostr/FarmLand visual or audio content governed by `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`, Version 1.1. Chikn grants that licence directly; Roost2D is an authorised distributor only and grants no Chikn licence, sublicense or commercial rights. Entries marked `Apache-2.0`, currently including `farmland/water-swim-ring-coq`, are independently authored project material and do not belong to Chikn. Files in `excludedPaths`, including the non-Chikn `eggorithm.png`, are not part of either published archive.

@@ -13,3 +13,5 @@ rig.setMirrored(true);
 Named layers allow simultaneous locomotion and reactions. Stop/dispose the rig with its scene, and release its manifest-resolved textures separately.
 
 Legacy animation JSON retained in the source archive is classified as Apache-2.0 metadata. Legacy rendered animation sprites and unrelated demo images are excluded from the public content artifacts.
+
+The current adapter also supplies combat idle, run, jump, fall, land, dash, guard, knockdown, get-up, trait-aware punch, flying spin kick, and selectable special actions. Animation cues and sockets are presentation metadata; they do not perform hit detection or apply damage. See [Trait-aware brawler actions](/brawler-actions).

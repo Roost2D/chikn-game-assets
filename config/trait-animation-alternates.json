@@ -1,0 +1,11 @@
+{
+  "schema": "chikn-game-assets.trait-animation-alternates/v1",
+  "alternates": {
+    "chikn-traits/feet/bluefeet-a-2": "feet/blue-feet",
+    "chikn-traits/feet/greenfeet-a-2": "feet/green-feet",
+    "chikn-traits/feet/greenfeet-b-2": "feet/green-feet",
+    "chikn-traits/feet/purplefeet-a-2": "feet/purple-feet",
+    "chikn-traits/feet/redfeet-a-2": "feet/red-feet",
+    "chikn-traits/tail/red-plumage-a": "tail/red-plumage"
+  }
+}

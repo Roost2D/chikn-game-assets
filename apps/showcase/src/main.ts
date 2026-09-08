@@ -4,19 +4,24 @@ import { AssetManifestResolver, LazyAssetLoader } from '@roost2d/assets';
 import {
   applyCharacterRecipe,
   CHARACTER_RECIPE_SCHEMA,
+  createChiknTraitAnimationProfiles,
+  listAvailableChiknActions,
+  listChiknSpecials,
   loadChiknAnimations,
   loadChiknRig,
   loadRoostrAnimations,
   loadRoostrRig,
   mergeUniqueSkin,
+  resolveChiknAction,
   UNIQUE_SKINS,
   uniqueAssetPrefix,
   type CharacterRecipeV1,
   type ChiknSpecies,
+  type ResolvedChiknAction,
 } from '@roost2d/chikn-rigs';
 import type { AnimationClipV1, RigDefinitionV1, TextureRef } from '@roost2d/contracts';
-import { PixiAssetLoader, PixiRigFactory } from '@roost2d/pixi';
-import { RigRuntime } from '@roost2d/rig2d';
+import { PixiAssetLoader, PixiProceduralEffect, PixiRigFactory, PixiRigNode } from '@roost2d/pixi';
+import { RigActionController, RigRuntime, type RigAnimationHandle } from '@roost2d/rig2d';
 import { RouteLifecycle, type RouteSession } from './lifecycle';
 import './style.css';
 
@@ -53,7 +58,7 @@ const catalog = await fetch('./data/catalog.json').then((response) => {
   if (!response.ok) throw new Error(`Catalog ${response.status}`);
   return response.json() as Promise<Catalog>;
 });
-const routes = ['showcase', 'builder', 'rig', 'farmland', 'game'] as const;
+const routes = ['showcase', 'builder', 'brawler', 'rig', 'farmland', 'game'] as const;
 type Route = typeof routes[number];
 
 const lifecycle = new RouteLifecycle();
@@ -65,6 +70,7 @@ async function render() {
   host.replaceChildren();
   if (route === 'showcase') renderShowcase();
   if (route === 'builder') await renderBuilder(session);
+  if (route === 'brawler') await renderBrawlerPreview(session);
   if (route === 'rig') await renderRig(session);
   if (route === 'farmland') await renderFarmland(session);
   if (route === 'game') await renderGame(session);
@@ -266,7 +272,7 @@ async function createRuntimeTextureLoader(profile: AssetProfileId = 'default') {
 }
 
 async function renderBuilder(session: RouteSession) {
-  host.append(hero('Rig recipe builder', 'Build one bird. Animate the same bird.', 'Choose a Chikn or Roostr skin and one trait per category. Replacement traits own their feather slots, every part stays on the rig, and exports use the same recipe as the live animation.'));
+  host.append(hero('Trait-aware action builder', 'Build one bird. Fight with its traits.', 'Compose a Chikn or Roostr, preview brawler movement, resolve weapons and selectable specials, scrub the shared action clock, and export exactly what you see.'));
   const layout = element('div', 'workspace');
   const panel = element('section', 'panel');
   const speciesSelect = element('select');
@@ -285,6 +291,22 @@ async function renderBuilder(session: RouteSession) {
   const animationSelect = element('select');
   animationSelect.setAttribute('aria-label', 'Builder animation');
 
+  const specialSelect = element('select');
+  specialSelect.setAttribute('aria-label', 'Builder special');
+  const punchButton = element('button', 'primary', 'Punch');
+  const kickButton = element('button', 'primary', 'Kick');
+  const specialButton = element('button', 'primary', 'Special');
+  const pauseButton = element('button', undefined, 'Pause');
+  const effectsInput = element('input');
+  Object.assign(effectsInput, { type: 'checkbox', checked: true });
+  effectsInput.setAttribute('aria-label', 'Show action effects');
+  const speedInput = element('input');
+  Object.assign(speedInput, { type: 'range', min: '0.25', max: '2', step: '0.05', value: '1' });
+  speedInput.setAttribute('aria-label', 'Action speed');
+  const scrubInput = element('input');
+  Object.assign(scrubInput, { type: 'range', min: '0', max: '1', step: '1', value: '0' });
+  scrubInput.setAttribute('aria-label', 'Action time');
+
   const scaleOutput = element('output');
   scaleOutput.id = 'scale-out';
   scaleOutput.textContent = '1';
@@ -300,6 +322,8 @@ async function renderBuilder(session: RouteSession) {
   const exportReferenceButton = element('button', undefined, 'Export PNG');
   const exportSheetButton = element('button', undefined, 'Export animation sheet');
   const exportSheetMetadataButton = element('button', undefined, 'Export animation JSON');
+  const exportActionSheetButton = element('button', undefined, 'Export action sheet');
+  const exportActionMetadataButton = element('button', undefined, 'Export action JSON');
   const status = element('pre', 'config', 'Loading canonical rig...');
 
   panel.append(
@@ -309,10 +333,16 @@ async function renderBuilder(session: RouteSession) {
     field('Unique', uniqueSelect),
     traitFields,
     field('Animation', animationSelect),
+    field('Selectable special', specialSelect),
+    element('div', 'action-buttons'),
+    field('Action time', scrubInput),
+    field('Action speed', speedInput),
+    field('Effects', effectsInput),
     field('Scale ', scaleInput, scaleOutput),
     field('Tint', tintInput),
-    mirrorButton, randomButton, exportRecipeButton, exportReferenceButton, exportSheetButton, exportSheetMetadataButton, status,
+    mirrorButton, randomButton, exportRecipeButton, exportReferenceButton, exportSheetButton, exportSheetMetadataButton, exportActionSheetButton, exportActionMetadataButton, status,
   );
+  panel.querySelector('.action-buttons')!.append(punchButton, kickButton, specialButton, pauseButton);
 
   const { stage, app } = await createStage(session, 'stage builder-stage', true);
   if (session.isStale) return;
@@ -321,7 +351,11 @@ async function renderBuilder(session: RouteSession) {
 
   const definitions = new Map<ChiknSpecies, RigDefinitionV1>();
   const clipsBySpecies = new Map<ChiknSpecies, Awaited<ReturnType<typeof loadChiknAnimations>>>();
-  let current: { rig: RigRuntime; factory: PixiRigFactory; textures: PixiAssetLoader; definition: RigDefinitionV1; clips: Awaited<ReturnType<typeof loadChiknAnimations>> } | undefined;
+  let current: { rig: RigRuntime; controller: RigActionController; factory: PixiRigFactory; textures: PixiAssetLoader; definition: RigDefinitionV1; clips: Awaited<ReturnType<typeof loadChiknAnimations>> } | undefined;
+  let actionPlayback: RigAnimationHandle | undefined;
+  let resolvedAction: ResolvedChiknAction | undefined;
+  let actionEffects: Array<{ cueTimeMs: number; instance: PixiProceduralEffect }> = [];
+  let actionPaused = false;
   let refreshGeneration = 0;
   let mirrored = false;
 
@@ -348,7 +382,8 @@ async function renderBuilder(session: RouteSession) {
     const active = current;
     current = undefined;
     if (!active) return;
-    active.rig.dispose();
+    clearActionEffects();
+    active.controller.dispose(); active.rig.dispose();
     active.factory.destroyRoot();
     await active.textures.clear();
   };
@@ -399,11 +434,64 @@ async function renderBuilder(session: RouteSession) {
       } : undefined,
       traitDepths,
       activeAttachments: current.rig.activeAttachmentIds(),
+      availableActions: listAvailableChiknActions(value, current.definition),
+      selectedTraitProfiles: createChiknTraitAnimationProfiles(current.definition).filter(({ traitGroupId }) => value.traitGroupIds.includes(traitGroupId)),
+      action: resolvedAction ? { id: resolvedAction.id, clipId: resolvedAction.clip.id, label: resolvedAction.label, motionFamily: resolvedAction.motionFamily, durationMs: resolvedAction.clip.durationMs, cues: resolvedAction.clip.cues, effects: resolvedAction.effects, elapsedMs: actionPlayback?.elapsedMs ?? 0 } : undefined,
     }, null, 2);
+  };
+
+  function clearActionEffects() {
+    for (const effect of actionEffects) effect.instance.destroy();
+    actionEffects = [];
+  }
+
+  function spawnEffect(effect: ResolvedChiknAction['effects'][number], cueTimeMs: number, elapsedMs = cueTimeMs) {
+    if (!current || !effectsInput.checked) return;
+    const socket = current.rig.node('socket', effect.socketId);
+    if (!(socket instanceof PixiRigNode)) return;
+    const instance = new PixiProceduralEffect(effect, socket);
+    instance.sample(Math.max(0, elapsedMs - cueTimeMs));
+    actionEffects.push({ cueTimeMs, instance });
+  }
+
+  function rebuildEffectsAt(elapsedMs: number) {
+    clearActionEffects();
+    if (!resolvedAction) return;
+    for (const effect of resolvedAction.effects) {
+      const cueTime = resolvedAction.clip.cues?.find(({ id }) => id === effect.cueId)?.timeMs ?? 0;
+      if (elapsedMs >= cueTime && elapsedMs < cueTime + effect.durationMs) spawnEffect(effect, cueTime, elapsedMs);
+    }
+  }
+
+  const refreshSpecials = () => {
+    if (!current) return;
+    const specials = listChiknSpecials(recipe(), current.definition);
+    setOptions(specialSelect, specials.length ? specials.map(({ label, id }) => [label, id] as const) : [['No special available', '']]);
+    specialButton.disabled = !specials.length;
+  };
+
+  const startAction = (actionId: string, elapsedMs = 0, paused = false) => {
+    if (!current || !actionId) return;
+    clearActionEffects();
+    resolvedAction = resolveChiknAction(recipe(), current.definition, actionId);
+    actionPaused = paused;
+    pauseButton.textContent = paused ? 'Play' : 'Pause';
+    scrubInput.max = String(resolvedAction.clip.durationMs);
+    scrubInput.value = String(Math.min(elapsedMs, resolvedAction.clip.durationMs));
+    actionPlayback = current.controller.play(resolvedAction.clip, {
+      controlled: true,
+      onCue: ({ cue }) => {
+        for (const effect of resolvedAction?.effects.filter(({ cueId }) => cueId === cue.id) ?? []) spawnEffect(effect, cue.timeMs);
+      },
+      onComplete: () => { clearActionEffects(); actionPlayback = undefined; updateStatus(); },
+    });
+    if (elapsedMs > 0) { actionPlayback.sample(elapsedMs); rebuildEffectsAt(elapsedMs); }
+    updateStatus();
   };
 
   const applyLiveRecipe = () => {
     if (!current) return;
+    current.controller.cancel(); actionPlayback = undefined; resolvedAction = undefined; clearActionEffects();
     const value = recipe();
     applyCharacterRecipe(current.rig, value, current.definition, current.clips);
     current.factory.root.scale.set(1);
@@ -416,6 +504,7 @@ async function renderBuilder(session: RouteSession) {
     current.factory.root.position.set(app.screen.width / 2, app.screen.height / 2);
     current.factory.root.scale.set(fitScale * (value.renderScale ?? 1));
     scaleOutput.textContent = scaleInput.value;
+    refreshSpecials();
     updateStatus();
   };
 
@@ -461,7 +550,8 @@ async function renderBuilder(session: RouteSession) {
       if (session.isStale || generation !== refreshGeneration) { await textures.clear(); return; }
       const factory = new PixiRigFactory(new Map(entries));
       const rig = new RigRuntime(definition, factory, clips);
-      current = { rig, factory, textures, definition, clips };
+      const controller = new RigActionController(rig, { resumeLocomotion: () => { if (animationSelect.value) rig.play(animationSelect.value, { layer: 'base' }); } });
+      current = { rig, controller, factory, textures, definition, clips };
       app.stage.addChild(factory.root);
       applyLiveRecipe();
     } catch (error) {
@@ -477,6 +567,16 @@ async function renderBuilder(session: RouteSession) {
   tintInput.addEventListener('input', applyLiveRecipe, { signal: session.signal });
   scaleInput.addEventListener('input', applyLiveRecipe, { signal: session.signal });
   mirrorButton.addEventListener('click', () => { mirrored = !mirrored; applyLiveRecipe(); }, { signal: session.signal });
+  punchButton.addEventListener('click', () => startAction('punch'), { signal: session.signal });
+  kickButton.addEventListener('click', () => startAction('kick'), { signal: session.signal });
+  specialButton.addEventListener('click', () => startAction(specialSelect.value), { signal: session.signal });
+  pauseButton.addEventListener('click', () => { actionPaused = !actionPaused; pauseButton.textContent = actionPaused ? 'Play' : 'Pause'; }, { signal: session.signal });
+  scrubInput.addEventListener('input', () => {
+    if (!current || !resolvedAction) return;
+    const actionId = resolvedAction.id;
+    startAction(actionId, Number(scrubInput.value), true);
+  }, { signal: session.signal });
+  effectsInput.addEventListener('change', () => rebuildEffectsAt(actionPlayback?.elapsedMs ?? 0), { signal: session.signal });
   randomButton.addEventListener('click', () => {
     skinSelect.selectedIndex = Math.floor(Math.random() * Math.max(1, skinSelect.options.length));
     uniqueSelect.value = '';
@@ -506,9 +606,110 @@ async function renderBuilder(session: RouteSession) {
     const { stem, metadata } = animationSheetDescriptor(value, clip);
     downloadJson(`${stem}.json`, metadata);
   }, { signal: session.signal });
+  exportActionSheetButton.addEventListener('click', () => {
+    if (!current) return;
+    const action = resolvedAction ?? resolveChiknAction(recipe(), current.definition, 'punch');
+    void exportActionSheet(app, current.controller, current.rig, recipe(), action, effectsInput.checked, (timeMs) => {
+      resolvedAction = action; rebuildEffectsAt(timeMs);
+    }).catch((error: unknown) => { status.textContent = error instanceof Error ? error.message : String(error); }).finally(applyLiveRecipe);
+  }, { signal: session.signal });
+  exportActionMetadataButton.addEventListener('click', () => {
+    if (!current) return;
+    const action = resolvedAction ?? resolveChiknAction(recipe(), current.definition, 'punch');
+    const { stem, metadata } = actionSheetDescriptor(recipe(), action);
+    downloadJson(`${stem}.json`, metadata);
+  }, { signal: session.signal });
+
+  app.ticker.add((ticker) => {
+    if (!actionPlayback || !resolvedAction || actionPaused) return;
+    const playback = actionPlayback;
+    playback.advance(ticker.deltaMS * Number(speedInput.value));
+    const elapsedMs = playback.elapsedMs;
+    scrubInput.value = String(Math.min(elapsedMs, resolvedAction.clip.durationMs));
+    for (const effect of [...actionEffects]) {
+      if (effect.instance.sample(elapsedMs - effect.cueTimeMs)) { effect.instance.destroy(); actionEffects.splice(actionEffects.indexOf(effect), 1); }
+    }
+    updateStatus();
+  });
 
   await updateControls();
   await refreshResources();
+}
+
+async function renderBrawlerPreview(session: RouteSession) {
+  host.append(hero('Concurrency preview', 'Sixteen trait-aware fighters.', 'Each bird owns an independent controlled action clock. This exercises composition, interruption, sockets, and procedural effects without adding game-owned damage or collision rules.'));
+  const status = element('pre', 'config', 'Loading two integrity-checked rigs...');
+  const { stage, app } = await createStage(session, 'stage brawler-stage', true);
+  host.append(stage, status);
+  const packAndTextures = await createRuntimeTextureLoader('default');
+  if (session.isStale) { await packAndTextures.textures.clear(); return; }
+  const [chiknDefinition, roostrDefinition] = await Promise.all([loadChiknRig(), loadRoostrRig()]);
+  const definitions = { chikn: chiknDefinition, roostr: roostrDefinition };
+  const references = new Map<string, TextureRef>();
+  for (const definition of Object.values(definitions)) for (const { texture } of definition.attachments) references.set(texture.frameId ? `${texture.assetId}#${texture.frameId}` : texture.assetId, texture);
+  const entries = await Promise.all([...references].map(async ([key, texture]) => [key, await packAndTextures.textures.load(texture.assetId)] as const));
+  if (session.isStale) { await packAndTextures.textures.clear(); return; }
+  const textureMap = new Map(entries);
+  type Fighter = { rig: RigRuntime; controller: RigActionController; factory: PixiRigFactory; recipe: CharacterRecipeV1; action: ResolvedChiknAction; playback?: RigAnimationHandle; effects: Array<{ startMs: number; effect: PixiProceduralEffect }> };
+  const fighters: Fighter[] = [];
+  const preferred = ['head/laser-eye', 'torso/katana', 'tail/golden-egg', 'feet/golden-feet'];
+
+  const restart = (fighter: Fighter) => {
+    for (const active of fighter.effects) active.effect.destroy();
+    fighter.effects = [];
+    const specials = listChiknSpecials(fighter.recipe, fighter.rig.definition);
+    const actionId = specials[0]?.id ?? (fighters.indexOf(fighter) % 2 ? 'kick' : 'punch');
+    fighter.action = resolveChiknAction(fighter.recipe, fighter.rig.definition, actionId);
+    fighter.playback = fighter.controller.play(fighter.action.clip, {
+      controlled: true,
+      onCue: ({ cue }) => {
+        for (const descriptor of fighter.action.effects.filter(({ cueId }) => cueId === cue.id)) {
+          const socket = fighter.rig.node('socket', descriptor.socketId);
+          if (socket instanceof PixiRigNode) fighter.effects.push({ startMs: cue.timeMs, effect: new PixiProceduralEffect(descriptor, socket) });
+        }
+      },
+      onComplete: () => { fighter.playback = undefined; },
+    });
+  };
+
+  for (let index = 0; index < 16; index += 1) {
+    const species: ChiknSpecies = index % 2 ? 'roostr' : 'chikn';
+    const definition = definitions[species];
+    const factory = new PixiRigFactory(textureMap);
+    const rig = new RigRuntime(definition, factory, []);
+    const groups = Object.keys(definition.attachmentGroups ?? {});
+    const requested = preferred[index];
+    const traitGroupId = requested && definition.attachmentGroups?.[requested] ? requested : groups[index * 17 % groups.length]!;
+    const recipe: CharacterRecipeV1 = { schema: CHARACTER_RECIPE_SCHEMA, species, skinId: definition.defaultSkinId!, traitGroupIds: [traitGroupId] };
+    applyCharacterRecipe(rig, recipe, definition);
+    const bounds = factory.root.getLocalBounds();
+    const cellWidth = app.screen.width / 4;
+    const cellHeight = app.screen.height / 4;
+    const fit = Math.min(cellWidth * .72 / Math.max(1, bounds.width), cellHeight * .72 / Math.max(1, bounds.height));
+    factory.root.pivot.set(bounds.x + bounds.width / 2, bounds.y + bounds.height / 2);
+    factory.root.position.set((index % 4 + .5) * cellWidth, (Math.floor(index / 4) + .55) * cellHeight);
+    factory.root.scale.set(fit);
+    app.stage.addChild(factory.root);
+    const fighter: Fighter = { rig, controller: new RigActionController(rig), factory, recipe, action: undefined as unknown as ResolvedChiknAction, effects: [] };
+    fighters.push(fighter);
+    restart(fighter);
+  }
+
+  app.ticker.add((ticker) => {
+    for (const fighter of fighters) {
+      if (!fighter.playback) { restart(fighter); continue; }
+      const playback = fighter.playback;
+      playback.advance(ticker.deltaMS);
+      for (const active of [...fighter.effects]) if (active.effect.sample(playback.elapsedMs - active.startMs)) {
+        active.effect.destroy(); fighter.effects.splice(fighter.effects.indexOf(active), 1);
+      }
+    }
+  });
+  status.textContent = JSON.stringify({ fighters: fighters.length, species: { chikn: 8, roostr: 8 }, ownership: 'independent action clocks', gameplayAuthority: 'consumer owned' }, null, 2);
+  session.onTeardown(() => {
+    for (const fighter of fighters) { for (const active of fighter.effects) active.effect.destroy(); fighter.controller.dispose(); fighter.rig.dispose(); fighter.factory.destroyRoot(); }
+    void packAndTextures.textures.clear();
+  });
 }
 
 async function renderRig(session: RouteSession) {
@@ -880,6 +1081,41 @@ function animationSheetDescriptor(recipe: CharacterRecipeV1, clip: AnimationClip
   };
 }
 
+function actionSheetDescriptor(recipe: CharacterRecipeV1, action: ResolvedChiknAction) {
+  const fps = 24;
+  const frameCount = Math.ceil(action.clip.durationMs / 1000 * fps) + 1;
+  const columns = 8;
+  const rows = Math.ceil(frameCount / columns);
+  const frameWidth = 380;
+  const frameHeight = 280;
+  const stem = `${recipe.species}-${action.id.replace(/[^a-zA-Z0-9]+/g, '-')}`;
+  const frames = Array.from({ length: frameCount }, (_, index) => ({
+    index,
+    timeMs: Math.min(action.clip.durationMs, Math.round(index * 1000 / fps)),
+    x: index % columns * frameWidth,
+    y: Math.floor(index / columns) * frameHeight,
+    width: frameWidth,
+    height: frameHeight,
+  }));
+  return {
+    stem,
+    metadata: {
+      schema: 'roost2d.action-sheet/v1',
+      image: `${stem}.png`,
+      fps,
+      frameWidth,
+      frameHeight,
+      frameCount,
+      columns,
+      rows,
+      durationMs: action.clip.durationMs,
+      recipe,
+      action: { id: action.id, input: action.input, clipId: action.clip.id, label: action.label, motionFamily: action.motionFamily, durationMs: action.clip.durationMs, sourceTraitGroupId: action.sourceTraitGroupId, cues: action.clip.cues ?? [], effects: action.effects },
+      frames,
+    },
+  };
+}
+
 async function exportAnimationSheet(app: Application, rig: RigRuntime, recipe: CharacterRecipeV1, clip: AnimationClipV1) {
   const { stem, metadata } = animationSheetDescriptor(recipe, clip);
   const sheet = document.createElement('canvas');
@@ -897,6 +1133,26 @@ async function exportAnimationSheet(app: Application, rig: RigRuntime, recipe: C
     context.drawImage(app.canvas, 0, 0, app.canvas.width, app.canvas.height, frame.x, frame.y, frame.width, frame.height);
   }
 
+  await downloadCanvas(`${stem}.png`, sheet);
+}
+
+async function exportActionSheet(app: Application, controller: RigActionController, rig: RigRuntime, recipe: CharacterRecipeV1, action: ResolvedChiknAction, includeEffects: boolean, renderEffectsAt: (timeMs: number) => void) {
+  const { stem, metadata } = actionSheetDescriptor(recipe, action);
+  const sheet = document.createElement('canvas');
+  sheet.width = metadata.columns * metadata.frameWidth;
+  sheet.height = metadata.rows * metadata.frameHeight;
+  const context = sheet.getContext('2d');
+  if (!context) throw new Error('Canvas 2D export is unavailable');
+  context.imageSmoothingEnabled = true;
+  const playback = controller.play(action.clip, { controlled: true });
+  for (const frame of metadata.frames) {
+    playback.sample(frame.timeMs);
+    if (includeEffects) renderEffectsAt(frame.timeMs);
+    app.render();
+    context.clearRect(frame.x, frame.y, frame.width, frame.height);
+    context.drawImage(app.canvas, 0, 0, app.canvas.width, app.canvas.height, frame.x, frame.y, frame.width, frame.height);
+  }
+  controller.cancel();
   await downloadCanvas(`${stem}.png`, sheet);
 }
 

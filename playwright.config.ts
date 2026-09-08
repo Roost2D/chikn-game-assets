@@ -16,7 +16,7 @@ export default defineConfig({
     { name: 'mobile-webkit', use: { ...devices['iPhone 13'] } },
   ],
   webServer: {
-    command: 'npm run showcase:data && npm run dev -w chikn-game-assets-showcase -- --host 127.0.0.1 --port 4173',
+    command: 'npm run showcase:data && npm run dev -w chikn-game-assets-showcase -- --host 127.0.0.1 --port 4173 --force',
     url: 'http://127.0.0.1:4173/#rig',
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,

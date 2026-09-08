@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.0 - 2026-09-08
+
+- Add exhaustive animation coverage for all 276 Chikn/Roostr rig trait groups and all 322 canonical or alternate trait assets.
+- Extend the Character Builder with trait-aware Punch, flying spin Kick, selectable Special, deterministic effects, pause/speed/scrub controls, and transparent 24 fps action-sheet exports.
+- Add a 16-fighter simultaneous playback preview, browser coverage for Chromium and mobile WebKit, and a complete TypeScript integration guide.
+
 ## 0.4.0 - 2026-08-30
 
 - Group the installed Chikn/Roostr rig clips by category in both showcase animation pickers and reset the rig pose between independent previews.

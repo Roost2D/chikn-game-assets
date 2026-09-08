@@ -67,6 +67,8 @@ The builder samples the selected Roost2D clip at 12 deterministic times. `walk` 
 
 PNG and JSON are separate user gestures so mobile Safari does not block the second file as an unsolicited download.
 
+The action controls resolve Punch, Kick, and any equipped trait specials separately from the legacy animation selector. Action playback can be paused, scrubbed, and speed-adjusted. Action sheets sample at 24 fps with consistent frame bounds and include enabled procedural effects; their JSON records the recipe, selected action, cues, sockets, effect descriptions, and frame times.
+
 This sheet is a deterministic rendering of the selected rig. If an external generative model is used to create more elaborate poses, use the exported transparent reference as the identity/style input and the JSON recipe as the immutable trait specification. Treat every generated frame as new derivative artwork that still follows the Chikn community content terms.
 
 ## Minimum acceptance check

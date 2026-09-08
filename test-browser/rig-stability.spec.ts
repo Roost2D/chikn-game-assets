@@ -124,3 +124,49 @@ test('the recipe builder composes multiple traits, hides replaced feathers, and 
   await page.locator('.builder-stage').screenshot({ path: testInfo.outputPath('builder-cutlass-depth.png') });
   expect(pageErrors).toEqual([]);
 });
+
+test('trait-aware actions resolve weapons, selectable specials, scrubbing, and 24 fps exports', async ({ page }) => {
+  const pageErrors: string[] = [];
+  page.on('pageerror', (error) => pageErrors.push(error.stack ?? error.message));
+  await page.goto('/#builder');
+  const status = page.locator('#app .panel pre.config');
+  await expect(status).toContainText('roost2d.chikn-character/v1');
+  await expect(page.getByRole('button', { name: 'Special', exact: true })).toBeDisabled();
+
+  await page.getByLabel('Builder species').selectOption('roostr');
+  await page.getByLabel('Torso trait').selectOption('torso/katana');
+  await page.getByRole('button', { name: 'Punch', exact: true }).click();
+  await expect(status).toContainText('roostr.action.punch.blade');
+  await expect(status).toContainText('"kind": "slash"');
+
+  await page.getByLabel('Head trait').selectOption('head/laser-eye');
+  await expect(page.getByLabel('Builder special')).toHaveValue('head/laser-eye:laser');
+  await page.getByRole('button', { name: 'Special', exact: true }).click();
+  await expect(status).toContainText('roostr.action.special.beam');
+  await expect(status).toContainText('"socketId": "eyes"');
+  await page.getByRole('button', { name: 'Pause', exact: true }).click();
+  await page.getByLabel('Action time').fill('260');
+  await expect(status).toContainText('head/laser-eye:laser');
+
+  const downloadPromise = page.waitForEvent('download');
+  await page.getByRole('button', { name: 'Export action JSON' }).click();
+  const download = await downloadPromise;
+  const path = await download.path();
+  const actionSheet = JSON.parse(await readFile(path!, 'utf8'));
+  expect(actionSheet).toMatchObject({ schema: 'roost2d.action-sheet/v1', fps: 24, action: { motionFamily: 'beam' } });
+  expect(actionSheet.frameCount).toBeGreaterThan(12);
+  expect(pageErrors).toEqual([]);
+});
+
+test('the sixteen-fighter preview runs independent Chikn and Roostr action clocks', async ({ page }) => {
+  const pageErrors: string[] = [];
+  page.on('pageerror', (error) => pageErrors.push(error.stack ?? error.message));
+  await page.goto('/#brawler');
+  const status = page.locator('#app pre.config');
+  await expect(status).toContainText('"fighters": 16');
+  await expect(status).toContainText('"chikn": 8');
+  await expect(status).toContainText('"roostr": 8');
+  await expect(page.locator('#app canvas')).toBeVisible();
+  await page.waitForTimeout(800);
+  expect(pageErrors).toEqual([]);
+});

@@ -1,0 +1,5618 @@
+{
+  "schema": "chikn-game-assets.trait-animation-coverage/v1",
+  "assetManifestVersion": "0.5.0",
+  "totals": {
+    "traitGroups": 276,
+    "chikn": 114,
+    "roostr": 162,
+    "traitAssets": 322,
+    "specials": 36
+  },
+  "traits": [
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/black-vans",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_BlackVans_A",
+        "Trait_Feet_BlackVans_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.987,
+      "speed": 1.009,
+      "assetIds": [
+        "chikn-traits/feet/blackvans-a",
+        "chikn-traits/feet/blackvans-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/blue-feet",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_BlueFeet_A"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.08,
+      "speed": 0.947,
+      "assetIds": [
+        "chikn-traits/feet/bluefeet-a"
+      ],
+      "alternateAssetIds": [
+        "chikn-traits/feet/bluefeet-a-2"
+      ]
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/blue-kicks",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_BlueKicks_A",
+        "Trait_Feet_BlueKicks_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.063,
+      "speed": 0.958,
+      "assetIds": [
+        "chikn-traits/feet/bluekicks-a",
+        "chikn-traits/feet/bluekicks-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/comfortable-uggs",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_ComfortableUggs_A",
+        "Trait_Feet_ComfortableUggs_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.962,
+      "speed": 1.025,
+      "assetIds": [
+        "chikn-traits/feet/comfortableuggs-a",
+        "chikn-traits/feet/comfortableuggs-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/green-feet",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_GreenFeet_A"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.881,
+      "speed": 1.079,
+      "assetIds": [
+        "chikn-traits/feet/greenfeet-a"
+      ],
+      "alternateAssetIds": [
+        "chikn-traits/feet/greenfeet-a-2",
+        "chikn-traits/feet/greenfeet-b-2"
+      ]
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/green-kicks",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_GreenKicks_A",
+        "Trait_Feet_GreenKicks_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.99,
+      "speed": 1.007,
+      "assetIds": [
+        "chikn-traits/feet/greenkicks-a",
+        "chikn-traits/feet/greenkicks-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/purple-feet",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_PurpleFeet_A"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.026,
+      "speed": 0.983,
+      "assetIds": [
+        "chikn-traits/feet/purplefeet-a"
+      ],
+      "alternateAssetIds": [
+        "chikn-traits/feet/purplefeet-a-2"
+      ]
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/purple-leather-boots",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_PurpleLeatherBoots_A",
+        "Trait_Feet_PurpleLeatherBoots_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.107,
+      "speed": 0.929,
+      "assetIds": [
+        "chikn-traits/feet/purpleboots-a",
+        "chikn-traits/feet/purpleboots-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/real-feet",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_RealFeet_A",
+        "Trait_Feet_RealFeet_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.971,
+      "speed": 1.019,
+      "assetIds": [
+        "chikn-traits/feet/realfeet-a",
+        "chikn-traits/feet/realfeet-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/red-feet",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_RedFeet_A"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.921,
+      "speed": 1.053,
+      "assetIds": [
+        "chikn-traits/feet/redfeet-a"
+      ],
+      "alternateAssetIds": [
+        "chikn-traits/feet/redfeet-a-2"
+      ]
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/red-leather-boots",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_RedLeatherBoots_A",
+        "Trait_Feet_RedLeatherBoots_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.882,
+      "speed": 1.079,
+      "assetIds": [
+        "chikn-traits/feet/redboots-a",
+        "chikn-traits/feet/redboots-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/red-vans",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_RedVans_A",
+        "Trait_Feet_RedVans_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.901,
+      "speed": 1.066,
+      "assetIds": [
+        "chikn-traits/feet/redvans-a",
+        "chikn-traits/feet/redvans-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/rollerderby",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_Rollerderby_A",
+        "Trait_Feet_Rollerderby_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1,
+      "speed": 1,
+      "assetIds": [
+        "chikn-traits/feet/rollerderby-a",
+        "chikn-traits/feet/rollerderby-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "feet/swashbucklers",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_Swashbucklers_A",
+        "Trait_Feet_Swashbucklers_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.03,
+      "speed": 0.98,
+      "assetIds": [
+        "chikn-traits/feet/swashbucklers-a",
+        "chikn-traits/feet/swashbucklers-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/admiral",
+      "category": "Head",
+      "motionFamily": "ranged",
+      "attachmentTargets": [
+        "Trait_Head_Admiral"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.029,
+      "speed": 0.98,
+      "special": {
+        "id": "head/admiral:shot",
+        "label": "Admiral shot",
+        "family": "projectile",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "chikn-traits/head/admiral"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/all-seeing-eye",
+      "category": "Head",
+      "motionFamily": "casting",
+      "attachmentTargets": [
+        "Trait_Head_AllSeeingEye"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.965,
+      "speed": 1.023,
+      "special": {
+        "id": "head/all-seeing-eye:cast",
+        "label": "All Seeing Eye special",
+        "family": "cast",
+        "socketId": "eyes"
+      },
+      "assetIds": [
+        "chikn-traits/head/allseeingeye"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/avax-safety-officer",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_AvaxSafetyOfficer"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.989,
+      "speed": 1.007,
+      "assetIds": [
+        "chikn-traits/head/avaxsafetyofficer"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/black-sweatband",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_BlackSweatband"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.901,
+      "speed": 1.066,
+      "assetIds": [
+        "chikn-traits/head/blacksweatband"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/blue-mage",
+      "category": "Head",
+      "motionFamily": "casting",
+      "attachmentTargets": [
+        "Trait_Head_BlueMage"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.061,
+      "speed": 0.959,
+      "special": {
+        "id": "head/blue-mage:cast",
+        "label": "Blue Mage special",
+        "family": "cast",
+        "socketId": "eyes"
+      },
+      "assetIds": [
+        "chikn-traits/head/blue-mage"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/boxhead",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Boxhead_A",
+        "Trait_Head_Boxhead_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.062,
+      "speed": 0.959,
+      "assetIds": [
+        "chikn-traits/head/boxhead-a",
+        "chikn-traits/head/boxhead-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/charcoal-brunette",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_CharcoalBrunette_A",
+        "Trait_Head_CharcoalBrunette_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.932,
+      "speed": 1.046,
+      "assetIds": [
+        "chikn-traits/head/charcoalbrunette",
+        "chikn-traits/head/charcoalbrunette-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/cheeky-redhead",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_CheekyRedhead_A",
+        "Trait_Head_CheekyRedhead_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.044,
+      "speed": 0.971,
+      "assetIds": [
+        "chikn-traits/head/cheeky-redhead",
+        "chikn-traits/head/cheekyredhead-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/construction-helmet",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_ConstructionHelmet"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.998,
+      "speed": 1.002,
+      "assetIds": [
+        "chikn-traits/head/constructionhelmet"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/cool-dude-69",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_CoolDude69"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.065,
+      "speed": 0.957,
+      "assetIds": [
+        "chikn-traits/head/cool-dude-69"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/covid-safe",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_CovidSafe"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.119,
+      "speed": 0.92,
+      "assetIds": [
+        "chikn-traits/head/covidsafe"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/crusader",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Crusader"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.102,
+      "speed": 0.932,
+      "assetIds": [
+        "chikn-traits/head/crusader"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/daft-punk",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_DaftPunk"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.031,
+      "speed": 0.979,
+      "assetIds": [
+        "chikn-traits/head/daftpunk"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/deal-with-it",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_DealWithIt"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.932,
+      "speed": 1.046,
+      "assetIds": [
+        "chikn-traits/head/dealwithit"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/frothy-crown",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_FrothyCrown"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.006,
+      "speed": 0.996,
+      "assetIds": [
+        "chikn-traits/head/frothy-crown"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/gentlechikn",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Gentlechikn"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.058,
+      "speed": 0.962,
+      "assetIds": [
+        "chikn-traits/head/gentlechikn"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/gentleman-s-pipe",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_GentlemanSPipe"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.066,
+      "speed": 0.956,
+      "assetIds": [
+        "chikn-traits/head/gentlemanspipe"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/golden-blonde",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_GoldenBlonde_A",
+        "Trait_Head_GoldenBlonde_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.943,
+      "speed": 1.038,
+      "assetIds": [
+        "chikn-traits/head/goldenblonde",
+        "chikn-traits/head/goldenblonde-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/golden-bone-daddy",
+      "category": "Head",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Head_GoldenBoneDaddy"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.074,
+      "speed": 0.951,
+      "assetIds": [
+        "chikn-traits/head/goldenbonedaddy"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/golden-crusader",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_GoldenCrusader"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1,
+      "speed": 1,
+      "assetIds": [
+        "chikn-traits/head/goldencrusader"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/goose",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Goose"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.058,
+      "speed": 0.961,
+      "assetIds": [
+        "chikn-traits/head/goose"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/hamlet",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Hamlet"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.015,
+      "speed": 0.99,
+      "assetIds": [
+        "chikn-traits/head/hamlet"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/hothead",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Hothead"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.982,
+      "speed": 1.012,
+      "special": {
+        "id": "head/hothead:burst",
+        "label": "Hothead burst",
+        "family": "burst",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "chikn-traits/head/hothead"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/hubba-bubba",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_HubbaBubba"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.917,
+      "speed": 1.055,
+      "assetIds": [
+        "chikn-traits/head/hubbabubba"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/icey-stare",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_IceyStare"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.89,
+      "speed": 1.073,
+      "assetIds": [
+        "chikn-traits/head/icey-stare"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/inherited-royalty",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_InheritedRoyalty"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.049,
+      "speed": 0.967,
+      "assetIds": [
+        "chikn-traits/head/inherited-royalty"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/laser-eye",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_LaserEye"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.094,
+      "speed": 0.937,
+      "special": {
+        "id": "head/laser-eye:laser",
+        "label": "Laser Eye beam",
+        "family": "beam",
+        "socketId": "eyes"
+      },
+      "assetIds": [
+        "chikn-traits/head/lasereye"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/low-vision-admiral",
+      "category": "Head",
+      "motionFamily": "ranged",
+      "attachmentTargets": [
+        "Trait_Head_LowVisionAdmiral"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.946,
+      "speed": 1.036,
+      "special": {
+        "id": "head/low-vision-admiral:shot",
+        "label": "Low Vision Admiral shot",
+        "family": "projectile",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "chikn-traits/head/lowvisionadmiral"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/luckiest-red-cap",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_LuckiestRedCap"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.972,
+      "speed": 1.018,
+      "assetIds": [
+        "chikn-traits/head/luckiestredcap"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/lucky-blue-cap",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_LuckyBlueCap"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.993,
+      "speed": 1.004,
+      "assetIds": [
+        "chikn-traits/head/luckybluecap"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/maverick",
+      "category": "Head",
+      "motionFamily": "ranged",
+      "attachmentTargets": [
+        "Trait_Head_Maverick"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.95,
+      "speed": 1.033,
+      "special": {
+        "id": "head/maverick:shot",
+        "label": "Maverick shot",
+        "family": "projectile",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "chikn-traits/head/maverick"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/mfd",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Mfd"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.947,
+      "speed": 1.035,
+      "assetIds": [
+        "chikn-traits/head/mfd"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/moustache",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Moustache"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.072,
+      "speed": 0.952,
+      "assetIds": [
+        "chikn-traits/head/moustache"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/murica",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Murica"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.093,
+      "speed": 0.938,
+      "assetIds": [
+        "chikn-traits/head/murica"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/mysterious-fez",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_MysteriousFez"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.104,
+      "speed": 0.931,
+      "assetIds": [
+        "chikn-traits/head/mysteriousfez"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/nerdlinger",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Nerdlinger"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.932,
+      "speed": 1.045,
+      "assetIds": [
+        "chikn-traits/head/nerdlinger"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/pillager",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Pillager"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.982,
+      "speed": 1.012,
+      "assetIds": [
+        "chikn-traits/head/pillager"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/pineapple",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Pineapple"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.954,
+      "speed": 1.031,
+      "assetIds": [
+        "chikn-traits/head/pineapple"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/pixel-cigarette",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_PixelCigarette"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.927,
+      "speed": 1.049,
+      "assetIds": [
+        "chikn-traits/head/pixelcigarette"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/purple-sweatband",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_PurpleSweatband"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.948,
+      "speed": 1.035,
+      "assetIds": [
+        "chikn-traits/head/purplesweatband"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/red-mage",
+      "category": "Head",
+      "motionFamily": "casting",
+      "attachmentTargets": [
+        "Trait_Head_RedMage"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.052,
+      "speed": 0.966,
+      "special": {
+        "id": "head/red-mage:cast",
+        "label": "Red Mage special",
+        "family": "cast",
+        "socketId": "eyes"
+      },
+      "assetIds": [
+        "chikn-traits/head/red-mage"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/saint",
+      "category": "Head",
+      "motionFamily": "casting",
+      "attachmentTargets": [
+        "Trait_Head_Saint"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.112,
+      "speed": 0.925,
+      "special": {
+        "id": "head/saint:cast",
+        "label": "Saint special",
+        "family": "cast",
+        "socketId": "eyes"
+      },
+      "assetIds": [
+        "chikn-traits/head/saint"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/savage-beast",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_SavageBeast"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.965,
+      "speed": 1.023,
+      "assetIds": [
+        "chikn-traits/head/savagebeast"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/smoking-lounge",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_SmokingLounge"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.992,
+      "speed": 1.005,
+      "assetIds": [
+        "chikn-traits/head/smokinglounge"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/sucker",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Sucker"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.979,
+      "speed": 1.014,
+      "assetIds": [
+        "chikn-traits/head/sucker"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/super-saiyan",
+      "category": "Head",
+      "motionFamily": "casting",
+      "attachmentTargets": [
+        "Trait_Head_SuperSaiyan"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.915,
+      "speed": 1.057,
+      "special": {
+        "id": "head/super-saiyan:cast",
+        "label": "Super Saiyan special",
+        "family": "cast",
+        "socketId": "eyes"
+      },
+      "assetIds": [
+        "chikn-traits/head/supersaiyan"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/top-of-the-morning",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_TopOfTheMorning"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.066,
+      "speed": 0.956,
+      "assetIds": [
+        "chikn-traits/head/topofthemorning"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/tungsten-cube",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_TungstenCube"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.044,
+      "speed": 0.971,
+      "assetIds": [
+        "chikn-traits/head/tungstencube"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "head/uniquehorn",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Uniquehorn"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.058,
+      "speed": 0.961,
+      "assetIds": [
+        "chikn-traits/head/uniquehorn"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/avax-bling",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_AvaxBling"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.045,
+      "speed": 0.97,
+      "assetIds": [
+        "chikn-traits/neck/avaxbling"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/avax-degen",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_AvaxDegen"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.078,
+      "speed": 0.948,
+      "assetIds": [
+        "chikn-traits/neck/avaxdegen"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/bitcoin-bling",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_BitcoinBling"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.057,
+      "speed": 0.962,
+      "assetIds": [
+        "chikn-traits/neck/bitcoinbling"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/bitcoin-maxi",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_BitcoinMaxi"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.88,
+      "speed": 1.08,
+      "assetIds": [
+        "chikn-traits/neck/bitcoinmaxi"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/black-bandana",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_BlackBandana"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.001,
+      "speed": 1,
+      "assetIds": [
+        "chikn-traits/neck/blackbandana"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/blue-bandana",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_BlueBandana"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.94,
+      "speed": 1.04,
+      "assetIds": [
+        "chikn-traits/neck/bluebandana"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/chains-for-days",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_ChainsForDays"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.994,
+      "speed": 1.004,
+      "assetIds": [
+        "chikn-traits/neck/chainsfordays"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/chicken-choker",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_ChickenChoker"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.927,
+      "speed": 1.049,
+      "assetIds": [
+        "chikn-traits/neck/chickenchoker"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/dollar-chain",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_DollarChain"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.116,
+      "speed": 0.923,
+      "assetIds": [
+        "chikn-traits/neck/dollarchain"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/ethereum-bling",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_EthereumBling"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.082,
+      "speed": 0.946,
+      "assetIds": [
+        "chikn-traits/neck/ethereumbling"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/ethereum-gwei-guzzler",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_EthereumGweiGuzzler"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.956,
+      "speed": 1.03,
+      "assetIds": [
+        "chikn-traits/neck/ethereumgweiguzzler"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/hairy-old-man",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_HairyOldMan"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.965,
+      "speed": 1.023,
+      "assetIds": [
+        "chikn-traits/neck/hairyoldman"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/mim-bling",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_MimBling"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.936,
+      "speed": 1.042,
+      "assetIds": [
+        "chikn-traits/neck/mimbling"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/mim-og",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_MimOg"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.946,
+      "speed": 1.036,
+      "assetIds": [
+        "chikn-traits/neck/mimog"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/polygon-bling",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_PolygonBling"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.087,
+      "speed": 0.942,
+      "assetIds": [
+        "chikn-traits/neck/polygonbling"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/polygon-degen",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_PolygonDegen"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.919,
+      "speed": 1.054,
+      "assetIds": [
+        "chikn-traits/neck/polygondegen"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/purple-bowtie",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_PurpleBowtie"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.884,
+      "speed": 1.077,
+      "assetIds": [
+        "chikn-traits/neck/purplebowtie"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/red-bandana",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_RedBandana"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.107,
+      "speed": 0.929,
+      "assetIds": [
+        "chikn-traits/neck/redbandana"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/red-bowtie",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_RedBowtie"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.998,
+      "speed": 1.001,
+      "assetIds": [
+        "chikn-traits/neck/redbowtie"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/second-head",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_SecondHead"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.998,
+      "speed": 1.002,
+      "assetIds": [
+        "chikn-traits/neck/secondhead"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "neck/wage-slave",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_WageSlave"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.99,
+      "speed": 1.007,
+      "assetIds": [
+        "chikn-traits/neck/wageslave"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "tail/big-mama-fat-pipes",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_BigMamaFatPipes"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.116,
+      "speed": 0.923,
+      "special": {
+        "id": "tail/big-mama-fat-pipes:burst",
+        "label": "Big Mama Fat Pipes burst",
+        "family": "burst",
+        "socketId": "tail"
+      },
+      "assetIds": [
+        "chikn-traits/tail/big-mama-fat-pipes"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "tail/gas-guzzler",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_GasGuzzler"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.062,
+      "speed": 0.959,
+      "special": {
+        "id": "tail/gas-guzzler:burst",
+        "label": "Gas Guzzler burst",
+        "family": "burst",
+        "socketId": "tail"
+      },
+      "assetIds": [
+        "chikn-traits/tail/gas-guzzler"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "tail/golden-egg",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_GoldenEgg"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.059,
+      "speed": 0.961,
+      "special": {
+        "id": "tail/golden-egg:egg",
+        "label": "Golden Egg throw",
+        "family": "projectile",
+        "socketId": "tail"
+      },
+      "assetIds": [
+        "chikn-traits/tail/golden-egg"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "tail/golden-plumage",
+      "category": "Tail",
+      "motionFamily": "casting",
+      "attachmentTargets": [
+        "Trait_Tail_GoldenPlumage_A",
+        "Trait_Tail_GoldenPlumage_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.044,
+      "speed": 0.971,
+      "special": {
+        "id": "tail/golden-plumage:cast",
+        "label": "Golden Plumage special",
+        "family": "cast",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "chikn-traits/tail/goldenplumage-a",
+        "chikn-traits/tail/goldenplumage-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "tail/led",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_Led"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.897,
+      "speed": 1.068,
+      "assetIds": [
+        "chikn-traits/tail/led"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "tail/liarliar",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_Liarliar"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.047,
+      "speed": 0.969,
+      "assetIds": [
+        "chikn-traits/tail/liar-liar"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "tail/nyan",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_Nyan"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.002,
+      "speed": 0.998,
+      "assetIds": [
+        "chikn-traits/tail/nyan"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "tail/orange-plumage",
+      "category": "Tail",
+      "motionFamily": "casting",
+      "attachmentTargets": [
+        "Trait_Tail_OrangePlumage_A",
+        "Trait_Tail_OrangePlumage_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.938,
+      "speed": 1.042,
+      "special": {
+        "id": "tail/orange-plumage:cast",
+        "label": "Orange Plumage special",
+        "family": "cast",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "chikn-traits/tail/orangeplumage-a",
+        "chikn-traits/tail/orangeplumage-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "tail/red-plumage",
+      "category": "Tail",
+      "motionFamily": "casting",
+      "attachmentTargets": [
+        "Trait_Tail_RedPlumage_A",
+        "Trait_Tail_RedPlumage_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.032,
+      "speed": 0.979,
+      "special": {
+        "id": "tail/red-plumage:cast",
+        "label": "Red Plumage special",
+        "family": "cast",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "chikn-traits/tail/redplumage-a",
+        "chikn-traits/tail/red-plumage"
+      ],
+      "alternateAssetIds": [
+        "chikn-traits/tail/red-plumage-a"
+      ]
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "tail/very-fresh-egg",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_VeryFreshEgg"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.991,
+      "speed": 1.006,
+      "special": {
+        "id": "tail/very-fresh-egg:egg",
+        "label": "Very Fresh Egg throw",
+        "family": "projectile",
+        "socketId": "tail"
+      },
+      "assetIds": [
+        "chikn-traits/tail/very-fresh-egg"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/a-fresh-baguette",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_AFreshBaguette"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.994,
+      "speed": 1.004,
+      "assetIds": [
+        "chikn-traits/torso/afreshbaguette"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/action-shorts",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_ActionShorts_A",
+        "Trait_Torso_ActionShorts_B",
+        "Trait_Torso_ActionShorts_C"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.943,
+      "speed": 1.038,
+      "assetIds": [
+        "chikn-traits/torso/actionshorts-body",
+        "chikn-traits/torso/actionshorts-panta",
+        "chikn-traits/torso/actionshorts-pantb"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/big-bag-of-cash",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_BigBagOfCash"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.055,
+      "speed": 0.963,
+      "assetIds": [
+        "chikn-traits/torso/bigbagofcash"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/big-ol-corn-cob",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_BigOlCornCob"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.097,
+      "speed": 0.935,
+      "assetIds": [
+        "chikn-traits/torso/bigolcorncob"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/blue-bag",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_BlueBag"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.909,
+      "speed": 1.06,
+      "assetIds": [
+        "chikn-traits/torso/bluebag"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/business-boy",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_BusinessBoy_A",
+        "Trait_Torso_BusinessBoy_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.046,
+      "speed": 0.97,
+      "assetIds": [
+        "chikn-traits/torso/businessboy-body",
+        "chikn-traits/torso/businessboy-wing"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/captain-chimerica",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_CaptainChimerica"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.997,
+      "speed": 1.002,
+      "assetIds": [
+        "chikn-traits/torso/captainchimerica"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/cutlass",
+      "category": "Torso",
+      "motionFamily": "blade",
+      "attachmentTargets": [
+        "Trait_Torso_Cutlass"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.916,
+      "speed": 1.056,
+      "assetIds": [
+        "chikn-traits/torso/cutlass"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/fresh-fish",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_FreshFish"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.892,
+      "speed": 1.072,
+      "assetIds": [
+        "chikn-traits/torso/freshfish"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/hentai",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_Hentai_A",
+        "Trait_Torso_Hentai_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.88,
+      "speed": 1.08,
+      "assetIds": [
+        "chikn-traits/torso/hentai-front",
+        "chikn-traits/torso/hentai-back"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/human-growth-hormones",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_HumanGrowthHormones_A",
+        "Trait_Torso_HumanGrowthHormones_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.886,
+      "speed": 1.076,
+      "assetIds": [
+        "chikn-traits/torso/humangrowthhormones-front",
+        "chikn-traits/torso/humangrowthhormones-back"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/karate-kid",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_KarateKid_A",
+        "Trait_Torso_KarateKid_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.092,
+      "speed": 0.939,
+      "assetIds": [
+        "chikn-traits/torso/karatekid-body",
+        "chikn-traits/torso/karatekid-wing"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/midas-muscles",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_MidasMuscles_A",
+        "Trait_Torso_MidasMuscles_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.981,
+      "speed": 1.013,
+      "assetIds": [
+        "chikn-traits/torso/midasmucles-front",
+        "chikn-traits/torso/midasmucles-back"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/mighty-broadsword",
+      "category": "Torso",
+      "motionFamily": "blade",
+      "attachmentTargets": [
+        "Trait_Torso_MightyBroadsword"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.92,
+      "speed": 1.053,
+      "assetIds": [
+        "chikn-traits/torso/mightybroadsword"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/nugget-wand",
+      "category": "Torso",
+      "motionFamily": "casting",
+      "attachmentTargets": [
+        "Trait_Torso_NuggetWand"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.942,
+      "speed": 1.038,
+      "special": {
+        "id": "torso/nugget-wand:cast",
+        "label": "Nugget Wand special",
+        "family": "cast",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "chikn-traits/torso/nuggetwand"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/old-fashioned-romance",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_OldFashionedRomance"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.923,
+      "speed": 1.051,
+      "assetIds": [
+        "chikn-traits/torso/oldfashionedromance"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/peacemaker",
+      "category": "Torso",
+      "motionFamily": "ranged",
+      "attachmentTargets": [
+        "Trait_Torso_Peacemaker"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.078,
+      "speed": 0.948,
+      "special": {
+        "id": "torso/peacemaker:shot",
+        "label": "Peacemaker shot",
+        "family": "projectile",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "chikn-traits/torso/peacemaker"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/popsicle",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_Popsicle"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.006,
+      "speed": 0.996,
+      "assetIds": [
+        "chikn-traits/torso/popsicle"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/spell-wand",
+      "category": "Torso",
+      "motionFamily": "casting",
+      "attachmentTargets": [
+        "Trait_Torso_SpellWand"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.91,
+      "speed": 1.06,
+      "special": {
+        "id": "torso/spell-wand:cast",
+        "label": "Spell Wand special",
+        "family": "cast",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "chikn-traits/torso/spellwand"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "chikn",
+      "traitGroupId": "torso/summer-days",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_SummerDays"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.968,
+      "speed": 1.021,
+      "assetIds": [
+        "chikn-traits/torso/summerdays"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/all-stars",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_AllStars_A",
+        "Trait_Feet_AllStars_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.042,
+      "speed": 0.972,
+      "assetIds": [
+        "roostr-traits/feet/allstars-a",
+        "roostr-traits/feet/allstars-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/ball-n-chain",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_BallNChain"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.07,
+      "speed": 0.953,
+      "assetIds": [
+        "roostr-traits/feet/ballnchain"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/black-stilettos",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_BlackStilettos_A",
+        "Trait_Feet_BlackStilettos_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.053,
+      "speed": 0.965,
+      "assetIds": [
+        "roostr-traits/feet/blackstilettos-a",
+        "roostr-traits/feet/blackstilettos-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/blue-timbs",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_BlueTimbs_A",
+        "Trait_Feet_BlueTimbs_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.936,
+      "speed": 1.043,
+      "assetIds": [
+        "roostr-traits/feet/bluetimbs-a",
+        "roostr-traits/feet/bluetimbs-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/buckaroo",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_Buckaroo_A",
+        "Trait_Feet_Buckaroo_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.942,
+      "speed": 1.039,
+      "assetIds": [
+        "roostr-traits/feet/buckaroo-a",
+        "roostr-traits/feet/buckaroo-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/celestial-feet",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_CelestialFeet"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.888,
+      "speed": 1.074,
+      "assetIds": [
+        "roostr-traits/feet/celestial-feet"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/croqs",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_Croqs_A",
+        "Trait_Feet_Croqs_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.078,
+      "speed": 0.948,
+      "assetIds": [
+        "roostr-traits/feet/croqs-a",
+        "roostr-traits/feet/croqs-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/golden-feet",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_GoldenFeet"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.118,
+      "speed": 0.921,
+      "assetIds": [
+        "roostr-traits/feet/golden-feet"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/golden-greaves",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_GoldenGreaves_A",
+        "Trait_Feet_GoldenGreaves_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.026,
+      "speed": 0.983,
+      "assetIds": [
+        "roostr-traits/feet/goldengreaves-a",
+        "roostr-traits/feet/goldengreaves-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/greaves",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_Greaves_A",
+        "Trait_Feet_Greaves_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.928,
+      "speed": 1.048,
+      "assetIds": [
+        "roostr-traits/feet/greaves-a",
+        "roostr-traits/feet/greaves-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/green-feet",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_GreenFeet"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.881,
+      "speed": 1.079,
+      "assetIds": [
+        "roostr-traits/feet/green-feet"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/ironclaw",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_IronClaw"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.938,
+      "speed": 1.042,
+      "assetIds": [
+        "roostr-traits/feet/ironclaw"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/red-feet",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_RedFeet"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.921,
+      "speed": 1.053,
+      "assetIds": [
+        "roostr-traits/feet/red-feet"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/red-stilettos",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_RedStilettos_A",
+        "Trait_Feet_RedStilettos_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.89,
+      "speed": 1.074,
+      "assetIds": [
+        "roostr-traits/feet/redstilettos-a",
+        "roostr-traits/feet/redstilettos-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/sneaker-head",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_SneakerHead_A",
+        "Trait_Feet_SneakerHead_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.008,
+      "speed": 0.995,
+      "assetIds": [
+        "roostr-traits/feet/sneaker-head-a",
+        "roostr-traits/feet/sneaker-head-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "feet/spurs",
+      "category": "Feet",
+      "motionFamily": "footwear",
+      "attachmentTargets": [
+        "Trait_Feet_Spurs_A",
+        "Trait_Feet_Spurs_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.099,
+      "speed": 0.934,
+      "assetIds": [
+        "roostr-traits/feet/spur-a",
+        "roostr-traits/feet/spur-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/3d-specs",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_3dSpecs"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.963,
+      "speed": 1.025,
+      "assetIds": [
+        "roostr-traits/head/3d-specs"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/batter-up",
+      "category": "Head",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Head_BatterUp"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.886,
+      "speed": 1.076,
+      "assetIds": [
+        "roostr-traits/head/batter-up"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/beaker",
+      "category": "Head",
+      "motionFamily": "casting",
+      "attachmentTargets": [
+        "Trait_Head_Beaker"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.07,
+      "speed": 0.953,
+      "special": {
+        "id": "head/beaker:cast",
+        "label": "Beaker special",
+        "family": "cast",
+        "socketId": "eyes"
+      },
+      "assetIds": [
+        "roostr-traits/head/beaker"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/beanie",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Beanie"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.042,
+      "speed": 0.972,
+      "assetIds": [
+        "roostr-traits/head/beanie"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/beard",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Beard"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.007,
+      "speed": 0.995,
+      "assetIds": [
+        "roostr-traits/head/beard"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/beret",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Beret"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.115,
+      "speed": 0.923,
+      "assetIds": [
+        "roostr-traits/head/beret"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/boxhead",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Boxhead_A",
+        "Trait_Head_Boxhead_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.062,
+      "speed": 0.959,
+      "assetIds": [
+        "roostr-traits/head/boxhead",
+        "roostr-traits/head/boxhead-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/bucket",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Bucket_A",
+        "Trait_Head_Bucket_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.1,
+      "speed": 0.934,
+      "assetIds": [
+        "roostr-traits/head/bucket",
+        "roostr-traits/head/bucket-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/cap",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Cap"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.982,
+      "speed": 1.012,
+      "assetIds": [
+        "roostr-traits/head/cap"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/celestial-comb",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_CelestialComb"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.91,
+      "speed": 1.06,
+      "assetIds": [
+        "roostr-traits/head/celestial-comb"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/chef",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Chef"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.085,
+      "speed": 0.943,
+      "assetIds": [
+        "roostr-traits/head/chef"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/chrome-dome",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_ChromeDome"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.896,
+      "speed": 1.07,
+      "assetIds": [
+        "roostr-traits/head/chrome-dome"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/coachella",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Coachella"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.08,
+      "speed": 0.947,
+      "assetIds": [
+        "roostr-traits/head/coachella"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/conspiracy-theorist",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_ConspiracyTheorist"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.067,
+      "speed": 0.955,
+      "assetIds": [
+        "roostr-traits/head/conspiracytheorist"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/construction-helmet",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_ConstructionHelmet"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.998,
+      "speed": 1.002,
+      "assetIds": [
+        "chikn-traits/head/constructionhelmet"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/coqpit-commander",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_CoqpitCommander"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.923,
+      "speed": 1.051,
+      "assetIds": [
+        "roostr-traits/head/coqpit-commander"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/crt",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Crt"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.965,
+      "speed": 1.023,
+      "assetIds": [
+        "roostr-traits/head/crt"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/daffy",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Daffy"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.003,
+      "speed": 0.998,
+      "assetIds": [
+        "roostr-traits/head/daffy"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/dirty-bird",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_DirtyBird"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.104,
+      "speed": 0.93,
+      "assetIds": [
+        "roostr-traits/head/cigar-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/feed-bag",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_FeedBag"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1,
+      "speed": 1,
+      "assetIds": [
+        "roostr-traits/head/feed-bag"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/fez",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Fez"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.94,
+      "speed": 1.04,
+      "assetIds": [
+        "roostr-traits/head/fez"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/framez",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Framez"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.939,
+      "speed": 1.04,
+      "assetIds": [
+        "roostr-traits/head/framez"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/gas-mask",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_GasMask"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.949,
+      "speed": 1.034,
+      "assetIds": [
+        "roostr-traits/head/gasmask"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/gentlechikn",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Gentlechikn"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.058,
+      "speed": 0.962,
+      "assetIds": [
+        "roostr-traits/head/gentlechikn"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/gentleman-s-pipe",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_GentlemanSPipe"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.066,
+      "speed": 0.956,
+      "assetIds": [
+        "chikn-traits/head/gentlemanspipe"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/golden-bone-daddy",
+      "category": "Head",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Head_GoldenBoneDaddy"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.074,
+      "speed": 0.951,
+      "assetIds": [
+        "roostr-traits/head/goldenbonedaddy"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/golden-comb",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_GoldenComb"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.002,
+      "speed": 0.999,
+      "assetIds": [
+        "roostr-traits/head/golden-comb"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/golden-templar",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_GoldenTemplar"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.049,
+      "speed": 0.967,
+      "assetIds": [
+        "roostr-traits/head/golden-templar"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/grandpa",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Grandpa"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.97,
+      "speed": 1.02,
+      "assetIds": [
+        "roostr-traits/head/grandpa"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/green-comb",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_GreenComb"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.891,
+      "speed": 1.073,
+      "assetIds": [
+        "roostr-traits/head/green-comb"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/green-party-hat",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_GreenPartyHat_A",
+        "Trait_Head_GreenPartyHat_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.12,
+      "speed": 0.92,
+      "assetIds": [
+        "roostr-traits/head/green-party-hat",
+        "roostr-traits/head/green-party-hat-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/happy-birthday",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_HappyBirthday"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.969,
+      "speed": 1.021,
+      "assetIds": [
+        "roostr-traits/head/happy-birthday"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/hipster",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Hipster"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.885,
+      "speed": 1.076,
+      "assetIds": [
+        "roostr-traits/head/hipster"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/hole-in-one",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_HoleInOne"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.904,
+      "speed": 1.064,
+      "assetIds": [
+        "roostr-traits/head/hole-in-one"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/inherited-royalty",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_InheritedRoyalty"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.049,
+      "speed": 0.967,
+      "assetIds": [
+        "roostr-traits/head/inherited-royalty"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/jell-o",
+      "category": "Head",
+      "motionFamily": "casting",
+      "attachmentTargets": [
+        "Trait_Head_JellO"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.095,
+      "speed": 0.937,
+      "special": {
+        "id": "head/jell-o:cast",
+        "label": "Jell O special",
+        "family": "cast",
+        "socketId": "eyes"
+      },
+      "assetIds": [
+        "roostr-traits/head/jell-o"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/laser-eye",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_LaserEye"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.094,
+      "speed": 0.937,
+      "special": {
+        "id": "head/laser-eye:laser",
+        "label": "Laser Eye beam",
+        "family": "beam",
+        "socketId": "eyes"
+      },
+      "assetIds": [
+        "chikn-traits/head/lasereye"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/mfd",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Mfd"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.947,
+      "speed": 1.035,
+      "assetIds": [
+        "chikn-traits/head/mfd"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/mullet",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Mullet"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.895,
+      "speed": 1.07,
+      "assetIds": [
+        "roostr-traits/head/mullet"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/oasis",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Oasis"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.964,
+      "speed": 1.024,
+      "assetIds": [
+        "roostr-traits/head/oasis"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/panic-buy",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_PanicBuy_A",
+        "Trait_Head_PanicBuy_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.912,
+      "speed": 1.059,
+      "assetIds": [
+        "roostr-traits/head/panic-buy",
+        "roostr-traits/head/panic-buy-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/permabull",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Permabull",
+        "Trait_Head_Permabull_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.029,
+      "speed": 0.981,
+      "assetIds": [
+        "roostr-traits/head/permabull",
+        "roostr-traits/head/permabull-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/plague-doctor",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_PlagueDoctor"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.959,
+      "speed": 1.027,
+      "assetIds": [
+        "roostr-traits/head/plague-doctor"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/purple-comb",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_PurpleComb"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.977,
+      "speed": 1.015,
+      "assetIds": [
+        "roostr-traits/head/purple-comb"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/quarter-pounder",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_QuarterPounder"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.958,
+      "speed": 1.028,
+      "assetIds": [
+        "roostr-traits/head/quarter-pounder"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/quarterback",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Quarterback"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.897,
+      "speed": 1.068,
+      "assetIds": [
+        "roostr-traits/head/quarterback"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/robocoq",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Robocoq"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.905,
+      "speed": 1.063,
+      "assetIds": [
+        "roostr-traits/head/robocoq"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/roodboi-rootie",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_RoodboiRootie"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.05,
+      "speed": 0.967,
+      "assetIds": [
+        "roostr-traits/head/roodboi-rootie"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/rosebud",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Rosebud_A",
+        "Trait_Head_Rosebud_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.077,
+      "speed": 0.949,
+      "assetIds": [
+        "roostr-traits/head/rosebud",
+        "roostr-traits/head/rosebud-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/samurai",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Samurai_A",
+        "Trait_Head_Samurai_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.956,
+      "speed": 1.03,
+      "assetIds": [
+        "roostr-traits/head/samurai",
+        "roostr-traits/head/samurai-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/sesh-hat",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_SeshHat_A",
+        "Trait_Head_SeshHat_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.089,
+      "speed": 0.941,
+      "assetIds": [
+        "roostr-traits/head/sesh-hat",
+        "roostr-traits/head/sesh-hat-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/smol-brain-in-jar",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_SmolBrainInJar"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.885,
+      "speed": 1.077,
+      "assetIds": [
+        "roostr-traits/head/smol-brain-in-jar"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/snorkel",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Snorkel"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.065,
+      "speed": 0.957,
+      "assetIds": [
+        "roostr-traits/head/snorkel"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/sombrero",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Sombrero"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.89,
+      "speed": 1.074,
+      "assetIds": [
+        "roostr-traits/head/sombrero"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/sunnies",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Sunnies"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.887,
+      "speed": 1.075,
+      "assetIds": [
+        "roostr-traits/head/sunnies"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/supervillain",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Supervillain"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.896,
+      "speed": 1.069,
+      "assetIds": [
+        "roostr-traits/head/super-villian"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/templar",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Templar"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.077,
+      "speed": 0.948,
+      "assetIds": [
+        "roostr-traits/head/templar"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/winterproof",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Winterproof_A",
+        "Trait_Head_Winterproof_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.008,
+      "speed": 0.994,
+      "assetIds": [
+        "roostr-traits/head/winterproof",
+        "roostr-traits/head/winterproof-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "head/woody",
+      "category": "Head",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Head_Woody"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.912,
+      "speed": 1.059,
+      "assetIds": [
+        "roostr-traits/head/woody"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/a-little-rag",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_ALittleRag"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.1,
+      "speed": 0.933,
+      "assetIds": [
+        "roostr-traits/neck/a-little-rag"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/avax-degen",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_AvaxDegen"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.078,
+      "speed": 0.948,
+      "assetIds": [
+        "roostr-traits/neck/avax-degen"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/bandolier",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_Bandolier"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.898,
+      "speed": 1.068,
+      "assetIds": [
+        "roostr-traits/neck/bandolier"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/bitcoin-maxi",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_BitcoinMaxi"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.88,
+      "speed": 1.08,
+      "assetIds": [
+        "roostr-traits/neck/bitcoin-maxi"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/bone-necklace",
+      "category": "Neck",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Neck_BoneNecklace"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.106,
+      "speed": 0.929,
+      "assetIds": [
+        "roostr-traits/neck/bone-necklace"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/chick-magnet",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_ChickMagnet"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.113,
+      "speed": 0.925,
+      "assetIds": [
+        "roostr-traits/neck/chick-magnet"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/clockchain",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_Clockchain"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.978,
+      "speed": 1.015,
+      "assetIds": [
+        "roostr-traits/neck/clockchain"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/coq-maxi",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_CoqMaxi"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.039,
+      "speed": 0.974,
+      "assetIds": [
+        "roostr-traits/neck/coq-maxi"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/coq-tags",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_CoqTags"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.936,
+      "speed": 1.042,
+      "assetIds": [
+        "roostr-traits/neck/coq-tags"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/floatie-boi",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_FloatieBoi"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.996,
+      "speed": 1.002,
+      "assetIds": [
+        "roostr-traits/neck/floatie-boi"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/golden-pauldrons",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_GoldenPauldrons_A",
+        "Trait_Neck_GoldenPauldrons_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.075,
+      "speed": 0.95,
+      "assetIds": [
+        "roostr-traits/neck/golden-pauldrons",
+        "roostr-traits/neck/golden-pauldrons-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/gwei-guzzler",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_GweiGuzzler"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.977,
+      "speed": 1.015,
+      "assetIds": [
+        "roostr-traits/neck/gwei-guzzler"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/joseph-drip",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_JosephDrip"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.904,
+      "speed": 1.064,
+      "assetIds": [
+        "roostr-traits/neck/joseph-drip"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/lei",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_Lei"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.921,
+      "speed": 1.053,
+      "assetIds": [
+        "roostr-traits/neck/lei"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/make-a-wish",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_MakeAWish"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.039,
+      "speed": 0.974,
+      "assetIds": [
+        "roostr-traits/neck/make-a-wish"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/prized-coq",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_PrizedCoq"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.893,
+      "speed": 1.071,
+      "assetIds": [
+        "roostr-traits/neck/prized-coq"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/purple-bowtie",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_PurpleBowtie"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.884,
+      "speed": 1.077,
+      "assetIds": [
+        "roostr-traits/neck/purple-bowtie"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/red-bowtie",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_RedBowtie"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.998,
+      "speed": 1.001,
+      "assetIds": [
+        "roostr-traits/neck/red-bowtie"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/sash",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_Sash"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.099,
+      "speed": 0.934,
+      "assetIds": [
+        "roostr-traits/neck/sash"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/shoulder-armour",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_ShoulderArmour_A",
+        "Trait_Neck_ShoulderArmour_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.012,
+      "speed": 0.992,
+      "assetIds": [
+        "roostr-traits/neck/shoulder-armour",
+        "roostr-traits/neck/shoulder-armour-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/stethoscope",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_Stethoscope"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.996,
+      "speed": 1.002,
+      "assetIds": [
+        "roostr-traits/neck/stethoscope"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "neck/stop-loss",
+      "category": "Neck",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Neck_StopLoss"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.088,
+      "speed": 0.942,
+      "assetIds": [
+        "roostr-traits/neck/stop-loss"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/big-mama-fat-pipes",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_BigMamaFatPipes"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.116,
+      "speed": 0.923,
+      "special": {
+        "id": "tail/big-mama-fat-pipes:burst",
+        "label": "Big Mama Fat Pipes burst",
+        "family": "burst",
+        "socketId": "tail"
+      },
+      "assetIds": [
+        "roostr-traits/tail/big-mama-fat-pipes"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/chikn-jockey",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_ChiknJockey"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.039,
+      "speed": 0.974,
+      "assetIds": [
+        "roostr-traits/tail/chiknjockey"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/concorde",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_Concorde"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.085,
+      "speed": 0.944,
+      "assetIds": [
+        "roostr-traits/tail/concorde"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/foliage",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_Foliage"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.021,
+      "speed": 0.986,
+      "assetIds": [
+        "roostr-traits/tail/foliage"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/gas-guzzler",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_GasGuzzler"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.062,
+      "speed": 0.959,
+      "special": {
+        "id": "tail/gas-guzzler:burst",
+        "label": "Gas Guzzler burst",
+        "family": "burst",
+        "socketId": "tail"
+      },
+      "assetIds": [
+        "roostr-traits/tail/gas-guzzler"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/hydra",
+      "category": "Tail",
+      "motionFamily": "tail",
+      "attachmentTargets": [
+        "Trait_Tail_Hydra"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.999,
+      "speed": 1.001,
+      "special": {
+        "id": "tail/hydra:tail",
+        "label": "Hydra strike",
+        "family": "tail",
+        "socketId": "tail"
+      },
+      "assetIds": [
+        "roostr-traits/tail/hydra"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/off-grid",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_OffGrid"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.113,
+      "speed": 0.925,
+      "assetIds": [
+        "roostr-traits/tail/off-grid"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/peacoq",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_Peacoq"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.993,
+      "speed": 1.005,
+      "assetIds": [
+        "roostr-traits/tail/peakcoq"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/prawn-coqtail",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_PrawnCoqtail"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.013,
+      "speed": 0.991,
+      "assetIds": [
+        "roostr-traits/tail/prawn-coqtail"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/royal-flush",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_RoyalFlush"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.897,
+      "speed": 1.069,
+      "assetIds": [
+        "roostr-traits/tail/royal-flush"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/scorpion-king",
+      "category": "Tail",
+      "motionFamily": "tail",
+      "attachmentTargets": [
+        "Trait_Tail_ScorpionKing"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.937,
+      "speed": 1.042,
+      "special": {
+        "id": "tail/scorpion-king:tail",
+        "label": "Scorpion King strike",
+        "family": "tail",
+        "socketId": "tail"
+      },
+      "assetIds": [
+        "roostr-traits/tail/scorpion-king"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/smokestack",
+      "category": "Tail",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Tail_Smokestack"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.887,
+      "speed": 1.075,
+      "special": {
+        "id": "tail/smokestack:burst",
+        "label": "Smokestack burst",
+        "family": "burst",
+        "socketId": "tail"
+      },
+      "assetIds": [
+        "roostr-traits/tail/smokestack"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/sword-tail",
+      "category": "Tail",
+      "motionFamily": "tail",
+      "attachmentTargets": [
+        "Trait_Tail_SwordTail"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.919,
+      "speed": 1.054,
+      "special": {
+        "id": "tail/sword-tail:tail",
+        "label": "Sword Tail strike",
+        "family": "tail",
+        "socketId": "tail"
+      },
+      "assetIds": [
+        "roostr-traits/tail/swordtail"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "tail/whalegod",
+      "category": "Tail",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Tail_Whalegod"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.102,
+      "speed": 0.932,
+      "assetIds": [
+        "roostr-traits/tail/whalegod"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/9-iron",
+      "category": "Torso",
+      "motionFamily": "blade",
+      "attachmentTargets": [
+        "Trait_Torso_9Iron"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.106,
+      "speed": 0.929,
+      "assetIds": [
+        "roostr-traits/torso/9-iron"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/a-fresh-baguette",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_AFreshBaguette"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.994,
+      "speed": 1.004,
+      "assetIds": [
+        "chikn-traits/torso/afreshbaguette"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/avax-banger",
+      "category": "Torso",
+      "motionFamily": "ranged",
+      "attachmentTargets": [
+        "Trait_Torso_AvaxBanger"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.042,
+      "speed": 0.972,
+      "special": {
+        "id": "torso/avax-banger:shot",
+        "label": "Avax Banger shot",
+        "family": "projectile",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "roostr-traits/torso/avax-banger"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/banger",
+      "category": "Torso",
+      "motionFamily": "ranged",
+      "attachmentTargets": [
+        "Trait_Torso_Banger"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.053,
+      "speed": 0.965,
+      "special": {
+        "id": "torso/banger:shot",
+        "label": "Banger shot",
+        "family": "projectile",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "roostr-traits/torso/banger"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/banjo",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_Banjo"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.887,
+      "speed": 1.076,
+      "assetIds": [
+        "roostr-traits/torso/banjo"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/big-ol-corn-cob",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_BigOlCornCob"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.097,
+      "speed": 0.935,
+      "assetIds": [
+        "roostr-traits/torso/bigolcorncob"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/big-stick",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_BigStick"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.051,
+      "speed": 0.966,
+      "assetIds": [
+        "roostr-traits/torso/big-stick"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/black-t-shirt",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_BlackTShirt"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.079,
+      "speed": 0.947,
+      "assetIds": [
+        "roostr-traits/torso/black-t-shirt"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/bone",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_Bone"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.945,
+      "speed": 1.037,
+      "assetIds": [
+        "roostr-traits/torso/bone"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/boombox",
+      "category": "Torso",
+      "motionFamily": "ranged",
+      "attachmentTargets": [
+        "Trait_Torso_Boombox"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.083,
+      "speed": 0.945,
+      "special": {
+        "id": "torso/boombox:shot",
+        "label": "Boombox shot",
+        "family": "projectile",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "roostr-traits/torso/boombox"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/breastplate",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_Breastplate"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.995,
+      "speed": 1.003,
+      "assetIds": [
+        "roostr-traits/torso/breastplate"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/cd-rw",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_CdRw"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.059,
+      "speed": 0.96,
+      "assetIds": [
+        "roostr-traits/torso/cd-rw"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/dad-shirt",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_DadShirt"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.961,
+      "speed": 1.026,
+      "assetIds": [
+        "roostr-traits/torso/dad-shirt"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/doctor-coq",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_DoctorCoq"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.98,
+      "speed": 1.013,
+      "assetIds": [
+        "roostr-traits/torso/doctor-coq"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/fancy-sword",
+      "category": "Torso",
+      "motionFamily": "blade",
+      "attachmentTargets": [
+        "Trait_Torso_FancySword"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.991,
+      "speed": 1.006,
+      "assetIds": [
+        "roostr-traits/torso/fancy-sword"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/floppy-disk",
+      "category": "Torso",
+      "motionFamily": "ranged",
+      "attachmentTargets": [
+        "Trait_Torso_FloppyDisk"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.027,
+      "speed": 0.982,
+      "special": {
+        "id": "torso/floppy-disk:shot",
+        "label": "Floppy Disk shot",
+        "family": "projectile",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "roostr-traits/torso/floppy-disk"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/fresh-fish",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_FreshFish"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.892,
+      "speed": 1.072,
+      "assetIds": [
+        "roostr-traits/torso/freshfish"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/gainz",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_Gainz"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.944,
+      "speed": 1.038,
+      "assetIds": [
+        "roostr-traits/torso/gainz"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/gameboi",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_Gameboi"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.931,
+      "speed": 1.046,
+      "assetIds": [
+        "roostr-traits/torso/gameboi"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/golden-breastplate",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_GoldenBreastplate"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.02,
+      "speed": 0.986,
+      "assetIds": [
+        "roostr-traits/torso/golden-breastplate"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/goldfish",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_Goldfish"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1,
+      "speed": 1,
+      "assetIds": [
+        "roostr-traits/torso/goldfish"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/grande-lecoq",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_GrandeLecoq"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.924,
+      "speed": 1.051,
+      "assetIds": [
+        "roostr-traits/torso/grande-lecoq"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/hendrix",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_Hendrix"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.071,
+      "speed": 0.952,
+      "assetIds": [
+        "roostr-traits/torso/hendrix"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/home-run",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_HomeRun"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.91,
+      "speed": 1.06,
+      "assetIds": [
+        "roostr-traits/torso/home-run"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/hoops",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_Hoops"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.022,
+      "speed": 0.985,
+      "assetIds": [
+        "roostr-traits/torso/hoops"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/human-growth-hormones",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_HumanGrowthHormones_A",
+        "Trait_Torso_HumanGrowthHormones_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.886,
+      "speed": 1.076,
+      "assetIds": [
+        "chikn-traits/torso/humangrowthhormones-back",
+        "chikn-traits/torso/humangrowthhormones-front"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/katana",
+      "category": "Torso",
+      "motionFamily": "blade",
+      "attachmentTargets": [
+        "Trait_Torso_Katana"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.981,
+      "speed": 1.013,
+      "assetIds": [
+        "roostr-traits/torso/katana"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/kevlar",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_Kevlar"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.112,
+      "speed": 0.925,
+      "assetIds": [
+        "roostr-traits/torso/kevlar"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/lord-quas",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_LordQuas"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.092,
+      "speed": 0.939,
+      "assetIds": [
+        "roostr-traits/torso/lord-quas"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/love-balloon",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_LoveBalloon"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.028,
+      "speed": 0.981,
+      "assetIds": [
+        "roostr-traits/torso/love-balloon"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/mcfly",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_Mcfly"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.968,
+      "speed": 1.022,
+      "assetIds": [
+        "roostr-traits/torso/mcfly"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/midas-muscles",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_MidasMuscles_A",
+        "Trait_Torso_MidasMuscles_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.981,
+      "speed": 1.013,
+      "assetIds": [
+        "chikn-traits/torso/midasmucles-back",
+        "chikn-traits/torso/midasmucles-front"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/not-football",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_NotFootball"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.013,
+      "speed": 0.991,
+      "assetIds": [
+        "roostr-traits/torso/not-football"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/omelette",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_Omelette"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.068,
+      "speed": 0.955,
+      "special": {
+        "id": "torso/omelette:egg",
+        "label": "Omelette throw",
+        "family": "projectile",
+        "socketId": "wing-front"
+      },
+      "assetIds": [
+        "roostr-traits/torso/omelette"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/play-boy",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_PlayBoy"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.089,
+      "speed": 0.941,
+      "assetIds": [
+        "roostr-traits/torso/play-boy"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/red-t-shirt",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_RedTShirt"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.924,
+      "speed": 1.051,
+      "assetIds": [
+        "roostr-traits/torso/red-t-shirt"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/rubber-chikn",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_RubberChikn"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.042,
+      "speed": 0.972,
+      "assetIds": [
+        "roostr-traits/torso/rubber-chikn"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/saddle",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_Saddle"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.927,
+      "speed": 1.049,
+      "assetIds": [
+        "roostr-traits/torso/saddle"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/shield",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_Shield"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.909,
+      "speed": 1.061,
+      "assetIds": [
+        "roostr-traits/torso/shield"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/shovel",
+      "category": "Torso",
+      "motionFamily": "blade",
+      "attachmentTargets": [
+        "Trait_Torso_Shovel"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.047,
+      "speed": 0.969,
+      "assetIds": [
+        "roostr-traits/torso/shovel"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/snib-snibs",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_SnibSnibs_A",
+        "Trait_Torso_SnibSnibs_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.945,
+      "speed": 1.037,
+      "assetIds": [
+        "roostr-traits/torso/snib-snibs",
+        "roostr-traits/torso/snib-snibs-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/snip-snips",
+      "category": "Torso",
+      "motionFamily": "blade",
+      "attachmentTargets": [
+        "Trait_Torso_SnipSnips_A",
+        "Trait_Torso_SnipSnips_B"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.038,
+      "speed": 0.975,
+      "assetIds": [
+        "roostr-traits/torso/snip-snips",
+        "roostr-traits/torso/snip-snips-b"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/spelunker",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_Spelunker"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.959,
+      "speed": 1.027,
+      "assetIds": [
+        "roostr-traits/torso/spelunker"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/spork",
+      "category": "Torso",
+      "motionFamily": "blade",
+      "attachmentTargets": [
+        "Trait_Torso_Spork"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.098,
+      "speed": 0.934,
+      "assetIds": [
+        "roostr-traits/torso/spork"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/starfish",
+      "category": "Torso",
+      "motionFamily": "blunt",
+      "attachmentTargets": [
+        "Trait_Torso_Starfish"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.085,
+      "speed": 0.943,
+      "assetIds": [
+        "roostr-traits/torso/starfish"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/sword",
+      "category": "Torso",
+      "motionFamily": "blade",
+      "attachmentTargets": [
+        "Trait_Torso_Sword"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.105,
+      "speed": 0.93,
+      "assetIds": [
+        "roostr-traits/torso/sword"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/the-key",
+      "category": "Torso",
+      "motionFamily": "blade",
+      "attachmentTargets": [
+        "Trait_Torso_TheKey"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.921,
+      "speed": 1.053,
+      "assetIds": [
+        "roostr-traits/torso/the-key"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/toot-toot",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_TootToot"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 0.952,
+      "speed": 1.032,
+      "special": {
+        "id": "torso/toot-toot:burst",
+        "label": "Toot Toot burst",
+        "family": "burst",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "roostr-traits/torso/toot-toot"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/tweed",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_Tweed"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 1.052,
+      "speed": 0.965,
+      "assetIds": [
+        "roostr-traits/torso/tweed"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/white-t-shirt",
+      "category": "Torso",
+      "motionFamily": "accent",
+      "attachmentTargets": [
+        "Trait_Torso_WhiteTShirt"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick"
+      ],
+      "amplitude": 0.968,
+      "speed": 1.021,
+      "assetIds": [
+        "roostr-traits/torso/white-t-shirt"
+      ],
+      "alternateAssetIds": []
+    },
+    {
+      "species": "roostr",
+      "traitGroupId": "torso/zippo",
+      "category": "Torso",
+      "motionFamily": "ranged",
+      "attachmentTargets": [
+        "Trait_Torso_Zippo"
+      ],
+      "supportedActions": [
+        "punch",
+        "kick",
+        "special"
+      ],
+      "amplitude": 1.013,
+      "speed": 0.991,
+      "special": {
+        "id": "torso/zippo:shot",
+        "label": "Zippo shot",
+        "family": "projectile",
+        "socketId": "weapon"
+      },
+      "assetIds": [
+        "roostr-traits/torso/zippo"
+      ],
+      "alternateAssetIds": []
+    }
+  ]
+}

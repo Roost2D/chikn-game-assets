@@ -21,6 +21,7 @@ export default defineConfig({
           { text: 'Load the asset pack', link: '/load-pack' },
           { text: 'Render a Chikn', link: '/render-chikn' },
           { text: 'Character generator', link: '/character-generator' },
+          { text: 'Brawler actions', link: '/brawler-actions' },
         ],
       },
       {
@@ -29,6 +30,7 @@ export default defineConfig({
           { text: 'Audio', link: '/audio' },
           { text: 'Traits and skins', link: '/traits' },
           { text: 'Animations and ownership', link: '/animations' },
+          { text: 'Trait animation coverage', link: '/brawler-actions' },
           { text: 'Roostr rigs', link: '/roostr' },
           { text: 'FarmLand', link: '/farmland' },
           { text: 'Mini-game recipe', link: '/mini-game' },
