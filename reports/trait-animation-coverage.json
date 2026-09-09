@@ -1,6 +1,6 @@
 {
   "schema": "chikn-game-assets.trait-animation-coverage/v2",
-  "assetManifestVersion": "0.6.0",
+  "assetManifestVersion": "0.6.1",
   "totals": {
     "traitGroups": 276,
     "chikn": 114,
@@ -2072,12 +2072,12 @@
         "y": 0
       },
       "tipOffset": {
-        "x": 14,
-        "y": -3
+        "x": 0,
+        "y": 0
       },
       "originOffset": {
-        "x": 13,
-        "y": -3
+        "x": 0,
+        "y": 0
       },
       "timing": {
         "anticipationMs": 170,
@@ -2090,10 +2090,10 @@
         "family": "beam",
         "preset": "laser",
         "origin": {
-          "target": "socket",
-          "targetId": "eyes",
-          "x": 13,
-          "y": -3
+          "target": "attachment",
+          "targetId": "Trait_Head_LaserEye",
+          "x": 0,
+          "y": 0
         }
       },
       "assetIds": [
@@ -2101,10 +2101,10 @@
       ],
       "alternateAssetIds": [],
       "actionOrigin": {
-        "target": "socket",
-        "targetId": "eyes",
-        "x": 13,
-        "y": -3
+        "target": "attachment",
+        "targetId": "Trait_Head_LaserEye",
+        "x": 0,
+        "y": 0
       },
       "targetDirection": {
         "coordinateSpace": "fighter-local",
@@ -4399,7 +4399,7 @@
       },
       "originOffset": {
         "x": 0,
-        "y": 3
+        "y": 0
       },
       "timing": {
         "anticipationMs": 160,
@@ -4415,7 +4415,7 @@
           "target": "attachment",
           "targetId": "Trait_Tail_GoldenEgg",
           "x": 0,
-          "y": 3
+          "y": 0
         }
       },
       "assetIds": [
@@ -4426,7 +4426,7 @@
         "target": "attachment",
         "targetId": "Trait_Tail_GoldenEgg",
         "x": 0,
-        "y": 3
+        "y": 0
       },
       "projectileSource": {
         "attachmentId": "Trait_Tail_GoldenEgg",
@@ -4769,7 +4769,7 @@
       },
       "originOffset": {
         "x": 0,
-        "y": 3
+        "y": 0
       },
       "timing": {
         "anticipationMs": 160,
@@ -4785,7 +4785,7 @@
           "target": "attachment",
           "targetId": "Trait_Tail_VeryFreshEgg",
           "x": 0,
-          "y": 3
+          "y": 0
         }
       },
       "assetIds": [
@@ -4796,7 +4796,7 @@
         "target": "attachment",
         "targetId": "Trait_Tail_VeryFreshEgg",
         "x": 0,
-        "y": 3
+        "y": 0
       },
       "projectileSource": {
         "attachmentId": "Trait_Tail_VeryFreshEgg",
@@ -8453,12 +8453,12 @@
         "y": 0
       },
       "tipOffset": {
-        "x": 14,
-        "y": -3
+        "x": 0,
+        "y": 0
       },
       "originOffset": {
-        "x": 13,
-        "y": -3
+        "x": 0,
+        "y": 0
       },
       "timing": {
         "anticipationMs": 170,
@@ -8471,10 +8471,10 @@
         "family": "beam",
         "preset": "laser",
         "origin": {
-          "target": "socket",
-          "targetId": "eyes",
-          "x": 13,
-          "y": -3
+          "target": "attachment",
+          "targetId": "Trait_Head_LaserEye",
+          "x": 0,
+          "y": 0
         }
       },
       "assetIds": [
@@ -8482,10 +8482,10 @@
       ],
       "alternateAssetIds": [],
       "actionOrigin": {
-        "target": "socket",
-        "targetId": "eyes",
-        "x": 13,
-        "y": -3
+        "target": "attachment",
+        "targetId": "Trait_Head_LaserEye",
+        "x": 0,
+        "y": 0
       },
       "targetDirection": {
         "coordinateSpace": "fighter-local",

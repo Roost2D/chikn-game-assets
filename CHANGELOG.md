@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.6.1 - 2026-09-09
+
+- Align the Character Builder, 16-fighter preview, coverage records, and contact sheets with Roost2D's corrected attachment-space effect transforms.
+- Emit Laser Eye beams from the displayed eye, release exact-size egg clones from the equipped egg, and inset Chikn/Roostr tail traits toward the torso.
+
 ## 0.6.0 - 2026-09-09
 
 - Replace broad trait-name classification with a checked-in curated registry for all 276 Chikn and Roostr trait groups, including explicit weapon, footwear, special, and secondary-motion presets.
