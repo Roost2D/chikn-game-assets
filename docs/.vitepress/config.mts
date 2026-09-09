@@ -11,6 +11,13 @@ export default defineConfig({
       { text: 'Showcase', link: '/showcase/' },
       { text: 'Distribution', link: '/distribution' },
       { text: 'Rights', link: '/rights' },
+      {
+        text: 'Legal',
+        items: [
+          { text: 'Imprint / Impressum', link: '/imprint' },
+          { text: 'Privacy', link: '/privacy' },
+        ],
+      },
     ],
     sidebar: [
       {
@@ -44,10 +51,16 @@ export default defineConfig({
           { text: 'Rights and attribution', link: '/rights' },
           { text: 'Release integrity', link: '/releases' },
           { text: 'Security notes', link: '/security-notes' },
+          { text: 'Imprint / Impressum', link: '/imprint' },
+          { text: 'Privacy notice', link: '/privacy' },
           { text: 'Asset contributions', link: 'https://github.com/Roost2D/chikn-game-assets/blob/main/ASSET_CONTRIBUTIONS.md' },
         ],
       },
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/Roost2D/chikn-game-assets' }],
+    footer: {
+      message: '<a href="./imprint.html">Imprint / Impressum</a> · <a href="./privacy.html">Privacy</a> · <a href="./rights.html">Rights and attribution</a>',
+      copyright: 'Roost2D project documentation',
+    },
   },
 });

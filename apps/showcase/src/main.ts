@@ -66,7 +66,7 @@ const lifecycle = new RouteLifecycle();
 async function render() {
   const session = lifecycle.begin();
   const route = (routes.includes(location.hash.slice(1) as Route) ? location.hash.slice(1) : 'showcase') as Route;
-  document.querySelectorAll('nav a').forEach((link) => link.classList.toggle('active', link.getAttribute('href') === `#${route}`));
+  document.querySelectorAll('header nav a').forEach((link) => link.classList.toggle('active', link.getAttribute('href') === `#${route}`));
   host.replaceChildren();
   if (route === 'showcase') renderShowcase();
   if (route === 'builder') await renderBuilder(session);
