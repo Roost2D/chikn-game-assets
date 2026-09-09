@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.0 - 2026-09-09
+
+- Replace broad trait-name classification with a checked-in curated registry for all 276 Chikn and Roostr trait groups, including explicit weapon, footwear, special, and secondary-motion presets.
+- Add aimed fighter-local actions, calibrated attachment origins, exact equipped-art projectiles, and the 1,000 ms turn, brace, lay, launch, regrow, and restore sequence for Golden Egg and Very Fresh Egg.
+- Add the interactive target marker, expanded 16-fighter family preview, trajectory-aware 24 fps export metadata, richer coverage records, and generated review contact sheets.
+
 ## 0.5.0 - 2026-09-08
 
 - Add exhaustive animation coverage for all 276 Chikn/Roostr rig trait groups and all 322 canonical or alternate trait assets.

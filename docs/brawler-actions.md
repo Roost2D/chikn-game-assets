@@ -18,7 +18,7 @@ import {
   type CharacterRecipeV1,
   type ResolvedChiknAction,
 } from '@roost2d/chikn-rigs';
-import { PixiProceduralEffect, PixiRigFactory, PixiRigNode } from '@roost2d/pixi';
+import { PixiProceduralEffect, PixiRigFactory } from '@roost2d/pixi';
 import { RigActionController, RigRuntime } from '@roost2d/rig2d';
 
 const definition = await loadRoostrRig();
@@ -44,10 +44,10 @@ function play(action: ResolvedChiknAction, authoritativeElapsedMs = 0) {
     controlled: true,
     onCue({ cue }) {
       for (const descriptor of action.effects.filter(({ cueId }) => cueId === cue.id)) {
-        const socket = rig.node('socket', descriptor.socketId);
-        if (socket instanceof PixiRigNode) {
-          activeEffects.push({ startedAtMs: cue.timeMs, effect: new PixiProceduralEffect(descriptor, socket) });
-        }
+        activeEffects.push({
+          startedAtMs: cue.timeMs,
+          effect: PixiProceduralEffect.fromRig(descriptor, rig, factory.root),
+        });
       }
     },
   });
@@ -55,13 +55,16 @@ function play(action: ResolvedChiknAction, authoritativeElapsedMs = 0) {
   return playback;
 }
 
-const katanaPunch = resolveChiknAction(recipe, definition, 'punch');
+// Capture an enemy direction when the action starts. Positive X means the fighter's current
+// forward direction, regardless of whether the game has externally mirrored the rig.
+const targetOffset = { x: 210, y: -24 };
+const katanaPunch = resolveChiknAction(recipe, definition, 'punch', { targetOffset });
 let playback = play(katanaPunch);
 
 // The game can expose every available trait special in its own move-selection UI.
 const laser = listChiknSpecials(recipe, definition)[0];
 const serverActionAgeMs = 0; // Replace with the elapsed age supplied by your game protocol.
-if (laser) playback = play(resolveChiknAction(recipe, definition, laser.id), serverActionAgeMs);
+if (laser) playback = play(resolveChiknAction(recipe, definition, laser.id, { targetOffset }), serverActionAgeMs);
 
 function renderFrame(deltaMs: number) {
   playback.advance(deltaMs);
@@ -86,8 +89,10 @@ function dispose() {
 }
 ```
 
-`advance()` emits every crossed presentation cue once. `sample()` is silent, including when scrubbing backward, so previews and exporters cannot accidentally replay live callbacks. An online game can create the action from its authoritative start time and sample the elapsed age immediately.
+`advance()` emits every crossed presentation cue once and samples the exact cue pose before the callback. `sample()` is silent, including when scrubbing backward, so previews and exporters cannot accidentally replay live callbacks. An online game can create the action from its authoritative start time and sample the elapsed age immediately. Detached projectiles snapshot their release transform; following beams, slashes, exhaust, and trails continue to use their named origin.
 
-The Character Builder exposes Punch, Kick, selectable Special, effects, pause, speed, scrubbing, and 24 fps action-sheet export. The separate 16-Fighter Preview demonstrates independent clocks and teardown.
+Golden Egg, Very Fresh Egg, Floppy Disk, and Omelette effects clone the equipped attachment's actual Pixi texture, anchor, tint, scale, and release transform. The egg action turns the internal pose away, braces, releases beneath the tail at 400 ms, reaches presentation contact at 800 ms, regrows the equipped egg, and restores the setup pose at 1,000 ms. The game continues to own external facing, hit checks, and movement.
 
-`reports/trait-animation-coverage.json` accounts for every canonical trait asset and declared alternate. Run `npm run animations:coverage:verify` after changing source selection, aliases, or rig metadata.
+The Character Builder exposes Punch, Kick, selectable Special, a draggable/clickable local target, effects, pause, speed, scrubbing, and 24 fps action-sheet export. The separate 16-Fighter Preview demonstrates independent clocks, both external facings, opposing targets, interruption, and teardown.
+
+`reports/trait-animation-coverage.json` accounts for every canonical trait asset and declared alternate, including the curated preset, exact origin, projectile source, and target convention. The generated Chikn and Roostr HTML contact sheets show all profiles at anticipation, release/contact, and recovery. Run `npm run animations:coverage:verify` after changing source selection, aliases, or rig metadata.

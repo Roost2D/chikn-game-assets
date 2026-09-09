@@ -81,7 +81,7 @@ npm install
 npm run builder:dev
 ```
 
-Open `http://127.0.0.1:4173/#builder`. The builder groups the complete installed Chikn/Roostr clip catalog by category and exports any selected animation as a 12-frame PNG sheet plus JSON timing metadata. See the [character generator template](docs/character-generator.md) for recipe, depth, looping, and export details.
+Open `http://127.0.0.1:4173/#builder`. The builder groups the complete installed Chikn/Roostr clip catalog by category, adds a draggable fighter-local action target, and exports legacy clips or 24 fps trait-aware action sheets with timing, cue, origin, and target metadata. See the [character generator template](docs/character-generator.md) for recipe, depth, looping, and export details.
 
 ## Local verification
 

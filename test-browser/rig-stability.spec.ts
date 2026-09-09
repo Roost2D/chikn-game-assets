@@ -155,6 +155,29 @@ test('trait-aware actions resolve weapons, selectable specials, scrubbing, and 2
   const actionSheet = JSON.parse(await readFile(path!, 'utf8'));
   expect(actionSheet).toMatchObject({ schema: 'roost2d.action-sheet/v1', fps: 24, action: { motionFamily: 'beam' } });
   expect(actionSheet.frameCount).toBeGreaterThan(12);
+
+  await page.getByLabel('Builder species').selectOption('chikn');
+  await expect(status).toContainText('"species": "chikn"');
+  await page.getByLabel('Tail trait').selectOption('tail/golden-egg');
+  const canvas = page.locator('#app canvas');
+  const canvasBox = await canvas.boundingBox();
+  expect(canvasBox).toBeTruthy();
+  await canvas.click({ position: { x: canvasBox!.width * .78, y: canvasBox!.height * .38 } });
+  await page.getByRole('button', { name: 'Special', exact: true }).click();
+  await expect(status).toContainText('chikn.action.special.egg');
+  const eggState = JSON.parse(await status.textContent() ?? '{}');
+  expect(eggState.action).toMatchObject({
+    durationMs: 1000,
+    motionFamily: 'projectile',
+    effects: [{
+      space: 'detached',
+      origin: { target: 'attachment', targetId: 'Trait_Tail_GoldenEgg' },
+      visual: { kind: 'attachment-clone', attachmentId: 'Trait_Tail_GoldenEgg' },
+      trajectory: { kind: 'arc' },
+    }],
+  });
+  expect(eggState.action.targetOffset).toEqual(eggState.targetOffset);
+  expect(eggState.targetOffset).not.toEqual({ x: 180, y: 0 });
   expect(pageErrors).toEqual([]);
 });
 
@@ -166,6 +189,8 @@ test('the sixteen-fighter preview runs independent Chikn and Roostr action clock
   await expect(status).toContainText('"fighters": 16');
   await expect(status).toContainText('"chikn": 8');
   await expect(status).toContainText('"roostr": 8');
+  await expect(status).toContainText('"mirrored": 8');
+  await expect(status).toContainText('opposing fighter-local +X vectors');
   await expect(page.locator('#app canvas')).toBeVisible();
   await page.waitForTimeout(800);
   expect(pageErrors).toEqual([]);
