@@ -1,6 +1,6 @@
 {
   "schema": "chikn-game-assets.trait-animation-coverage/v2",
-  "assetManifestVersion": "0.6.1",
+  "assetManifestVersion": "0.6.2",
   "totals": {
     "traitGroups": 276,
     "chikn": 114,
@@ -67,7 +67,10 @@
       "category": "Feet",
       "motionFamily": "footwear",
       "attachmentTargets": [
-        "Trait_Feet_BlueFeet_A"
+        "Trait_Feet_BlueFeet_A",
+        "Trait_Feet_BlueFeet_B",
+        "Trait_Feet_BlueFeet_Lower_A",
+        "Trait_Feet_BlueFeet_Lower_B"
       ],
       "supportedActions": [
         "punch",
@@ -95,7 +98,8 @@
       },
       "kickPreset": "natural",
       "assetIds": [
-        "chikn-traits/feet/bluefeet-a"
+        "chikn-traits/feet/bluefeet-a",
+        "chikn-traits/feet/bluefeet-a-2"
       ],
       "alternateAssetIds": [
         "chikn-traits/feet/bluefeet-a-2"
@@ -109,7 +113,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-chikn/Feet/BlueFeet A.png"
+        "sources/traits-chikn/Feet/BlueFeet A.png",
+        "sources/traits-chikn/Feet/BlueFeet A 2.png"
       ]
     },
     {
@@ -222,7 +227,10 @@
       "category": "Feet",
       "motionFamily": "footwear",
       "attachmentTargets": [
-        "Trait_Feet_GreenFeet_A"
+        "Trait_Feet_GreenFeet_A",
+        "Trait_Feet_GreenFeet_B",
+        "Trait_Feet_GreenFeet_Lower_A",
+        "Trait_Feet_GreenFeet_Lower_B"
       ],
       "supportedActions": [
         "punch",
@@ -250,7 +258,9 @@
       },
       "kickPreset": "natural",
       "assetIds": [
-        "chikn-traits/feet/greenfeet-a"
+        "chikn-traits/feet/greenfeet-a",
+        "chikn-traits/feet/greenfeet-a-2",
+        "chikn-traits/feet/greenfeet-b-2"
       ],
       "alternateAssetIds": [
         "chikn-traits/feet/greenfeet-a-2",
@@ -265,7 +275,9 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-chikn/Feet/GreenFeet A.png"
+        "sources/traits-chikn/Feet/GreenFeet A.png",
+        "sources/traits-chikn/Feet/GreenFeet A 2.png",
+        "sources/traits-chikn/Feet/GreenFeet B 2.png"
       ]
     },
     {
@@ -326,7 +338,10 @@
       "category": "Feet",
       "motionFamily": "footwear",
       "attachmentTargets": [
-        "Trait_Feet_PurpleFeet_A"
+        "Trait_Feet_PurpleFeet_A",
+        "Trait_Feet_PurpleFeet_B",
+        "Trait_Feet_PurpleFeet_Lower_A",
+        "Trait_Feet_PurpleFeet_Lower_B"
       ],
       "supportedActions": [
         "punch",
@@ -354,7 +369,8 @@
       },
       "kickPreset": "natural",
       "assetIds": [
-        "chikn-traits/feet/purplefeet-a"
+        "chikn-traits/feet/purplefeet-a",
+        "chikn-traits/feet/purplefeet-a-2"
       ],
       "alternateAssetIds": [
         "chikn-traits/feet/purplefeet-a-2"
@@ -368,7 +384,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-chikn/Feet/PurpleFeet A.png"
+        "sources/traits-chikn/Feet/PurpleFeet A.png",
+        "sources/traits-chikn/Feet/PurpleFeet A 2.png"
       ]
     },
     {
@@ -481,7 +498,10 @@
       "category": "Feet",
       "motionFamily": "footwear",
       "attachmentTargets": [
-        "Trait_Feet_RedFeet_A"
+        "Trait_Feet_RedFeet_A",
+        "Trait_Feet_RedFeet_B",
+        "Trait_Feet_RedFeet_Lower_A",
+        "Trait_Feet_RedFeet_Lower_B"
       ],
       "supportedActions": [
         "punch",
@@ -509,7 +529,8 @@
       },
       "kickPreset": "natural",
       "assetIds": [
-        "chikn-traits/feet/redfeet-a"
+        "chikn-traits/feet/redfeet-a",
+        "chikn-traits/feet/redfeet-a-2"
       ],
       "alternateAssetIds": [
         "chikn-traits/feet/redfeet-a-2"
@@ -523,7 +544,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-chikn/Feet/RedFeet A.png"
+        "sources/traits-chikn/Feet/RedFeet A.png",
+        "sources/traits-chikn/Feet/RedFeet A 2.png"
       ]
     },
     {
@@ -1070,7 +1092,8 @@
       "motionFamily": "accent",
       "attachmentTargets": [
         "Trait_Head_CharcoalBrunette_A",
-        "Trait_Head_CharcoalBrunette_B"
+        "Trait_Head_CharcoalBrunette_B",
+        "Trait_Head_CharcoalBrunette_Bang"
       ],
       "supportedActions": [
         "punch",
@@ -1121,7 +1144,8 @@
       "motionFamily": "accent",
       "attachmentTargets": [
         "Trait_Head_CheekyRedhead_A",
-        "Trait_Head_CheekyRedhead_B"
+        "Trait_Head_CheekyRedhead_B",
+        "Trait_Head_CheekyRedhead_Bang"
       ],
       "supportedActions": [
         "punch",
@@ -1604,7 +1628,8 @@
       "motionFamily": "accent",
       "attachmentTargets": [
         "Trait_Head_GoldenBlonde_A",
-        "Trait_Head_GoldenBlonde_B"
+        "Trait_Head_GoldenBlonde_B",
+        "Trait_Head_GoldenBlonde_Bang"
       ],
       "supportedActions": [
         "punch",
@@ -9627,7 +9652,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_AvaxDegen"
+        "Trait_Neck_AvaxDegen",
+        "Trait_Neck_AvaxDegen_ChainLeft",
+        "Trait_Neck_AvaxDegen_ChainRight",
+        "Trait_Neck_AvaxDegen_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -9654,7 +9682,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/avax-degen"
+        "roostr-traits/neck/avax-degen",
+        "chikn-traits/neck/avaxdegen"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -9666,7 +9695,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/AVAX Degen.png"
+        "sources/traits-roostr/Neck/AVAX Degen.png",
+        "sources/traits-chikn/Neck/AVAXDegen.png"
       ]
     },
     {
@@ -9723,7 +9753,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_BitcoinMaxi"
+        "Trait_Neck_BitcoinMaxi",
+        "Trait_Neck_BitcoinMaxi_ChainLeft",
+        "Trait_Neck_BitcoinMaxi_ChainRight",
+        "Trait_Neck_BitcoinMaxi_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -9750,7 +9783,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/bitcoin-maxi"
+        "roostr-traits/neck/bitcoin-maxi",
+        "chikn-traits/neck/bitcoinmaxi"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -9762,7 +9796,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Bitcoin Maxi.png"
+        "sources/traits-roostr/Neck/Bitcoin Maxi.png",
+        "sources/traits-chikn/Neck/BitcoinMaxi.png"
       ]
     },
     {
@@ -9819,7 +9854,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_ChickMagnet"
+        "Trait_Neck_ChickMagnet",
+        "Trait_Neck_ChickMagnet_ChainLeft",
+        "Trait_Neck_ChickMagnet_ChainRight",
+        "Trait_Neck_ChickMagnet_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -9846,7 +9884,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/chick-magnet"
+        "roostr-traits/neck/chick-magnet",
+        "chikn-traits/neck/bitcoinbling"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -9858,7 +9897,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Chick Magnet.png"
+        "sources/traits-roostr/Neck/Chick Magnet.png",
+        "sources/traits-chikn/Neck/BitcoinBling.png"
       ]
     },
     {
@@ -9867,7 +9907,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_Clockchain"
+        "Trait_Neck_Clockchain",
+        "Trait_Neck_Clockchain_ChainLeft",
+        "Trait_Neck_Clockchain_ChainRight",
+        "Trait_Neck_Clockchain_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -9894,7 +9937,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/clockchain"
+        "roostr-traits/neck/clockchain",
+        "chikn-traits/neck/bitcoinmaxi"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -9906,7 +9950,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Clockchain.png"
+        "sources/traits-roostr/Neck/Clockchain.png",
+        "sources/traits-chikn/Neck/BitcoinMaxi.png"
       ]
     },
     {
@@ -9915,7 +9960,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_CoqMaxi"
+        "Trait_Neck_CoqMaxi",
+        "Trait_Neck_CoqMaxi_ChainLeft",
+        "Trait_Neck_CoqMaxi_ChainRight",
+        "Trait_Neck_CoqMaxi_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -9942,7 +9990,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/coq-maxi"
+        "roostr-traits/neck/coq-maxi",
+        "chikn-traits/neck/bitcoinbling"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -9954,7 +10003,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Coq Maxi.png"
+        "sources/traits-roostr/Neck/Coq Maxi.png",
+        "sources/traits-chikn/Neck/BitcoinBling.png"
       ]
     },
     {
@@ -9963,7 +10013,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_CoqTags"
+        "Trait_Neck_CoqTags",
+        "Trait_Neck_CoqTags_ChainLeft",
+        "Trait_Neck_CoqTags_ChainRight",
+        "Trait_Neck_CoqTags_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -9990,7 +10043,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/coq-tags"
+        "roostr-traits/neck/coq-tags",
+        "chikn-traits/neck/bitcoinmaxi"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -10002,7 +10056,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Coq Tags.png"
+        "sources/traits-roostr/Neck/Coq Tags.png",
+        "sources/traits-chikn/Neck/BitcoinMaxi.png"
       ]
     },
     {
@@ -10110,7 +10165,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_GweiGuzzler"
+        "Trait_Neck_GweiGuzzler",
+        "Trait_Neck_GweiGuzzler_ChainLeft",
+        "Trait_Neck_GweiGuzzler_ChainRight",
+        "Trait_Neck_GweiGuzzler_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -10137,7 +10195,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/gwei-guzzler"
+        "roostr-traits/neck/gwei-guzzler",
+        "chikn-traits/neck/ethereumgweiguzzler"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -10149,7 +10208,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Gwei Guzzler.png"
+        "sources/traits-roostr/Neck/Gwei Guzzler.png",
+        "sources/traits-chikn/Neck/EthereumGweiGuzzler.png"
       ]
     },
     {
@@ -10158,7 +10218,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_JosephDrip"
+        "Trait_Neck_JosephDrip",
+        "Trait_Neck_JosephDrip_ChainLeft",
+        "Trait_Neck_JosephDrip_ChainRight",
+        "Trait_Neck_JosephDrip_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -10185,7 +10248,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/joseph-drip"
+        "roostr-traits/neck/joseph-drip",
+        "chikn-traits/neck/bitcoinmaxi"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -10197,7 +10261,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Joseph Drip.png"
+        "sources/traits-roostr/Neck/Joseph Drip.png",
+        "sources/traits-chikn/Neck/BitcoinMaxi.png"
       ]
     },
     {
@@ -10254,7 +10319,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_MakeAWish"
+        "Trait_Neck_MakeAWish",
+        "Trait_Neck_MakeAWish_ChainLeft",
+        "Trait_Neck_MakeAWish_ChainRight",
+        "Trait_Neck_MakeAWish_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -10281,7 +10349,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/make-a-wish"
+        "roostr-traits/neck/make-a-wish",
+        "chikn-traits/neck/bitcoinmaxi"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -10293,7 +10362,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Make a Wish.png"
+        "sources/traits-roostr/Neck/Make a Wish.png",
+        "sources/traits-chikn/Neck/BitcoinMaxi.png"
       ]
     },
     {
@@ -10593,7 +10663,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_StopLoss"
+        "Trait_Neck_StopLoss",
+        "Trait_Neck_StopLoss_ChainLeft",
+        "Trait_Neck_StopLoss_ChainRight",
+        "Trait_Neck_StopLoss_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -10620,7 +10693,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/stop-loss"
+        "roostr-traits/neck/stop-loss",
+        "chikn-traits/neck/bitcoinmaxi"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -10632,7 +10706,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Stop Loss.png"
+        "sources/traits-roostr/Neck/Stop Loss.png",
+        "sources/traits-chikn/Neck/BitcoinMaxi.png"
       ]
     },
     {
@@ -10714,9 +10789,9 @@
         "punch",
         "kick"
       ],
-      "secondaryMotion": "elastic",
-      "amplitude": 1.22,
-      "speed": 0.94,
+      "secondaryMotion": "anchored",
+      "amplitude": 0,
+      "speed": 1,
       "gripOffset": {
         "x": 0,
         "y": 0

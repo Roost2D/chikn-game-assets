@@ -119,7 +119,11 @@ test('the recipe builder composes multiple traits, hides replaced feathers, and 
   await page.getByLabel('Tail trait').selectOption('tail/golden-plumage');
   await expect(status).toContainText('Trait_Torso_Cutlass');
   const chiknState = JSON.parse(await status.textContent() ?? '{}');
-  expect(chiknState.traitDepths.find(({ id }: { id: string }) => id === 'torso/cutlass').attachmentZIndexes).toEqual([9]);
+  const cutlassDepth = chiknState.traitDepths.find(({ id }: { id: string }) => id === 'torso/cutlass');
+  expect(cutlassDepth.attachmentTransforms).toEqual([expect.objectContaining({ attachmentId: 'Trait_Torso_Cutlass', followSlotId: 'Wing A' })]);
+  // The held blade is a child of the animated wing, beneath its sprite at depth 0.
+  expect(cutlassDepth.attachmentZIndexes).toHaveLength(1);
+  expect(cutlassDepth.attachmentZIndexes[0]).toBeLessThan(0);
   expect(chiknState.traitDepths.find(({ id }: { id: string }) => id === 'tail/golden-plumage').slotZIndexOverrides).toEqual({ Tail: 6 });
   await page.locator('.builder-stage').screenshot({ path: testInfo.outputPath('builder-cutlass-depth.png') });
   expect(pageErrors).toEqual([]);

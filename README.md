@@ -83,6 +83,8 @@ npm run builder:dev
 
 Open `http://127.0.0.1:4173/#builder`. The builder groups the complete installed Chikn/Roostr clip catalog by category, adds a draggable fighter-local action target, and exports legacy clips or 24 fps trait-aware action sheets with timing, cue, origin, and target metadata. See the [character generator template](docs/character-generator.md) for recipe, depth, looping, and export details.
 
+For the V2 placement/layer corrections, use the [complete assembly review](docs/trait-assembly-review.md). Its gallery renders all 276 traits as complete birds and compares 107 Chikn/Roostr V2 visuals from the builds used in Roost Rift. The owner authorized library release on 1 November 2026, including the general coat-leg correction.
+
 ## Local verification
 
 ```sh

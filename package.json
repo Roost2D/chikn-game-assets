@@ -1,6 +1,6 @@
 {
   "name": "chikn-game-assets",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "private": true,
   "description": "Publicly hosted Chikn, Roostr, and FarmLand community asset source and runtime distributions.",
   "type": "module",

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.2 - 2026-11-01
+
+- Integrate the Roost2D 0.8.0 Chikn/Roostr placement and layer corrections in the showcase and character builder. Source artwork, asset IDs and the protected-content rights manifest remain unchanged.
+- Add complete trait, outfit, V2 comparison, feedback and garment review modes, including both facings, atlas profiles and animated poses; provide offline review exports.
+- Document Bokstrike and later Roost Rift integration, preserving the independent immutable media version and game-owned head-crop pipeline.
+
 ## 0.6.1 - 2026-09-09
 
 - Align the Character Builder, 16-fighter preview, coverage records, and contact sheets with Roost2D's corrected attachment-space effect transforms.
