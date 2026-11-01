@@ -1,6 +1,6 @@
 # Bokstrike: integrate the V2 trait assembly release
 
-Update every installed `@roost2d/*` package to exact `0.8.0` and `@chikn-game-assets/runtime` to exact `0.6.2` together in a dedicated integration worktree. Update both `Game/package.json` and workspace manifests, regenerate the shared lockfile and check `npm ls` for duplicate/older engine versions. These versions are the stable release targets; registry publication and verification results are recorded in the release handoff in `kontext/inbox`.
+Update every installed `@roost2d/*` package to exact `0.8.0` and `@chikn-game-assets/runtime` to exact `0.6.2` together in a dedicated integration worktree. Update both `Game/package.json` and workspace manifests, regenerate the shared lockfile and check `npm ls` for duplicate/older engine versions. This is the stable release pair; registry publication and verification results are recorded in the release handoff in `kontext/inbox`.
 
 No Bokstrike source, head artifact, dependency, process or deployment was changed by the library release task. Coordinate the integration with the ongoing Bokstrike work; use its current branch as the integration base. Do not reset or replace those worktrees.
 

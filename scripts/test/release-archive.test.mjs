@@ -91,7 +91,7 @@ test('runtime publishing is resumable and checks its requested dist-tag', async 
   assert.match(workflow, /npm view "\$package_spec" dist\.integrity/);
   assert.match(workflow, /published_tag" != "\$package_version/);
   assert.doesNotMatch(workflow, /npm dist-tag add/);
-  assert.match(workflow, /for attempt in \{1\.\.6\}/);
+  assert.match(workflow, /for attempt in \{1\.\.60\}/);
   assert.match(workflow, /Registry postflight passed/);
 });
 
