@@ -1,6 +1,6 @@
 {
   "schema": "chikn-game-assets.trait-animation-coverage/v2",
-  "assetManifestVersion": "0.6.2",
+  "assetManifestVersion": "0.6.3-rc.0",
   "totals": {
     "traitGroups": 276,
     "chikn": 114,

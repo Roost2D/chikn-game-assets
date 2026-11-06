@@ -1,8 +1,8 @@
-import { Application, type Texture } from 'pixi.js';
+import { Application, Rectangle, Sprite, type Texture } from 'pixi.js';
 import { loadChiknPack } from '@chikn-game-assets/runtime';
 import { AssetManifestResolver, LazyAssetLoader } from '@roost2d/assets';
 import { applyCharacterRecipe, CHARACTER_RECIPE_SCHEMA, loadChiknRig, loadRoostrRig, loadChiknAnimations, loadRoostrAnimations, type CharacterRecipeV1 } from '@roost2d/chikn-rigs';
-import { PixiAssetLoader, PixiRigFactory } from '@roost2d/pixi';
+import { PixiAssetLoader, PixiRigFactory, PixiRigNode } from '@roost2d/pixi';
 import { RigRuntime } from '@roost2d/rig2d';
 import type { RigDefinitionV1 } from '@roost2d/contracts';
 import references from '../../../config/trait-review-references.json';
@@ -27,18 +27,20 @@ host.append(node('p', __ASSEMBLY_CANDIDATE__ ? 'LOCAL LIBRARY CANDIDATE · isola
 const back = node('a', 'Open character builder'); back.href = './#builder'; host.append(back);
 const controls = node('form'); controls.addEventListener('submit', event => event.preventDefault());
 const species = select('Species', [['chikn', 'Chikn'], ['roostr', 'Roostr']]);
-const mode = select('Preview set', [['traits', 'Every trait'], ['latest', 'Latest corrections'], ['coats', 'Coats and breastplates'], ['feedback', 'Your feedback · V2 visual comparisons'], ['outfits', 'Complete outfits · every trait covered'], ['references', 'Official V2 visual comparisons']]);
+const mode = select('Preview set', [['traits', 'Every trait'], ['headwear', 'Hats and head accessories'], ['latest', 'Latest corrections'], ['coats', 'Coats and breastplates'], ['feedback', 'Your feedback · V2 visual comparisons'], ['outfits', 'Complete outfits · every trait covered'], ['references', 'Official V2 visual comparisons']]);
 const skin = select('Skin', []);
 const category = select('Category', [['all', 'All categories'], ...['Head','Neck','Torso','Feet','Tail'].map(value => [value, value] as [string,string])]);
 const pose = select('Pose', [['setup', 'Setup'], ['walk', 'Walk · 25%'], ['fly', 'Fly · 25%'], ['attack', 'Attack · 50%'], ['hit', 'Hit · 50%']]);
 const profile = select('Asset profile', [['high', 'High'], ['default', 'Default']]);
 const facing = select('Facing', [['right', 'Right'], ['left', 'Left']]);
+const view = select('View', [['bird', 'Whole bird'], ['head', 'Head detail']]);
 const search = node('input'); search.type = 'search'; search.placeholder = 'Find a trait or token'; search.setAttribute('aria-label', 'Find a trait or token');
 const query = new URLSearchParams(location.search);
-if (['feedback','latest','coats'].includes(query.get('review') ?? '')) mode.input.value = query.get('review')!;
+if (['feedback','latest','coats','headwear'].includes(query.get('review') ?? '')) mode.input.value = query.get('review')!;
+if (mode.input.value === 'headwear') view.input.value = 'head';
 if (query.get('species') === 'roostr') species.input.value = 'roostr';
 if (query.get('trait')) search.value = query.get('trait')!;
-controls.append(...[species, mode, skin, category, pose, profile, facing].map(control => control.field), search);
+controls.append(...[species, mode, skin, category, pose, profile, facing, view].map(control => control.field), search);
 host.append(controls);
 const status = node('p', 'Loading…'); status.role = 'status'; host.append(status);
 host.append(node('p', 'Latest corrections cover hair, sneakers, the perched jockey, PermaBull and garment layers. Coats and breastplates cover the front wing and leg branches; held props remain behind the wing. The earlier 95-trait feedback set remains available. The owner authorized library release with the general coat-leg correction on 1 November 2026.'));
@@ -70,7 +72,9 @@ async function render() {
       loader = new PixiAssetLoader(resolver, new LazyAssetLoader(resolver));
       const ids = [...new Set(definition.attachments.map(a => a.texture.assetId))];
       textures = new Map(await Promise.all(ids.map(async id => [id, await loader!.load(id)] as const)));
+      const preferredSkin = skin.input.value || query.get('skin');
       skin.input.replaceChildren(...Object.keys(definition.skins ?? {}).map(id => new Option(id, id)));
+      if (preferredSkin && Object.hasOwn(definition.skins ?? {}, preferredSkin)) skin.input.value = preferredSkin;
       resourceKey = key;
     }
     if (current !== generation) return;
@@ -79,7 +83,12 @@ async function render() {
     const s = species.input.value as 'chikn' | 'roostr';
     const base: CharacterRecipeV1 = { schema: CHARACTER_RECIPE_SCHEMA, species: s, skinId: skin.input.value, traitGroupIds: [], mirrored: facing.input.value === 'left' };
     const rows: { id: string; title: string; recipe: CharacterRecipeV1; imageUrl?: string; referenceUrl?: string }[] = [];
-    if (['feedback','latest','coats'].includes(mode.input.value)) {
+    if (mode.input.value === 'headwear') {
+      for (const group of groups.filter(group => String(group.metadata?.category).toLowerCase() === 'head')) {
+        const ref = references.references.find(ref => ref.species === s && ref.traitGroupIds.includes(group.id));
+        rows.push({ id: group.id, title: `${group.id} · ${group.metadata?.headCoverage ?? 'coverage audit'}`, recipe: { ...base, traitGroupIds: [group.id] }, imageUrl: ref?.imageUrl, referenceUrl: ref?.referenceUrl });
+      }
+    } else if (['feedback','latest','coats'].includes(mode.input.value)) {
       const ids = mode.input.value === 'latest' ? feedback.latestCorrections[s]
         : mode.input.value === 'coats' ? feedback.coatLikeTraits[s]
         : Object.entries(feedback[s]).flatMap(([categoryName, names]) => names.map(name => `${categoryName}/${name}`));
@@ -97,8 +106,8 @@ async function render() {
       rows.push({ id: 'base', title: 'Base skin', recipe: base });
       for (const group of groups.filter(g => category.input.value === 'all' || g.metadata?.category === category.input.value)) rows.push({ id: group.id, title: group.id, recipe: { ...base, traitGroupIds: [group.id] } });
     }
-    const query = search.value.toLowerCase().trim();
-    const filtered = rows.filter(row => `${row.title} ${row.recipe.traitGroupIds.join(' ')}`.toLowerCase().includes(query) && (!['feedback','latest','coats'].includes(mode.input.value) || category.input.value === 'all' || row.id.startsWith(category.input.value.toLowerCase() + '/')));
+    const searchQuery = search.value.toLowerCase().trim();
+    const filtered = rows.filter(row => `${row.title} ${row.recipe.traitGroupIds.join(' ')}`.toLowerCase().includes(searchQuery) && (!['feedback','latest','coats'].includes(mode.input.value) || category.input.value === 'all' || row.id.startsWith(category.input.value.toLowerCase() + '/')));
     // One live rig is reused for the entire gallery; images survive GPU resource teardown.
     const factory = new PixiRigFactory(textures);
     const rig = new RigRuntime(definition, factory, clips);
@@ -113,15 +122,29 @@ async function render() {
         }
         const root = factory.root;
         root.position.set(0); root.pivot.set(0); root.scale.set(1);
-        const bounds = root.getLocalBounds();
-        const scale = Math.min(1.6, 330 / Math.max(1, bounds.width), 286 / Math.max(1, bounds.height));
+        let bounds = root.getLocalBounds();
+        if (view.input.value === 'head') {
+          const headId = definition.skins?.[row.recipe.skinId]?.Head;
+          const head = headId ? rig.node('attachment', headId) : undefined;
+          if (head instanceof PixiRigNode) {
+            const boxes = rig.activeAttachmentIds()
+              .filter(id => definition.attachments.find(part => part.id === id)?.slotId === 'Head')
+              .map(id => rig.node('attachment', id))
+              .filter((part): part is PixiRigNode => part instanceof PixiRigNode)
+              .map(part => part.display.getBounds());
+            const x = Math.min(...boxes.map(box => box.x)), y = Math.min(...boxes.map(box => box.y));
+            const right = Math.max(...boxes.map(box => box.x + box.width)), bottom = Math.max(...boxes.map(box => box.y + box.height));
+            bounds = { x: x - 10, y: y - 10, width: right - x + 20, height: bottom - y + 20 } as typeof bounds;
+          }
+        }
+        const scale = Math.min(view.input.value === 'head' ? 3 : 1.6, 330 / Math.max(1, bounds.width), 286 / Math.max(1, bounds.height));
         root.pivot.set(bounds.x + bounds.width / 2, bounds.y + bounds.height / 2);
         root.position.set(180, 160); root.scale.set(scale);
         app.stage.addChild(root); app.render();
         const article = node('article'); article.dataset.id = row.id;
         article.append(node('h2', row.title));
         const images = node('div'); images.className = 'images';
-        const preview = node('img'); preview.alt = `${s} ${row.title} assembled`; preview.src = await app.renderer.extract.base64({ target: app.stage, format: 'png' });
+        const preview = node('img'); preview.alt = `${s} ${row.title} assembled`; preview.src = await app.renderer.extract.base64({ target: app.stage, format: 'png', ...(view.input.value === 'head' ? { frame: new Rectangle(0,0,360,320) } : {}) });
         images.append(preview);
         if (row.imageUrl) { const reference = node('img'); reference.src = row.imageUrl; reference.alt = 'Official V2 visual reference'; reference.loading = 'lazy'; images.append(reference); }
         article.append(images, node('p', `${row.recipe.skinId} · ${pose.input.value} · ${facing.input.value}`), node('p', row.recipe.traitGroupIds.join(' · ') || 'No traits'));
@@ -136,7 +159,65 @@ async function render() {
   } catch (error) { if (current === generation) status.textContent = `Failed: ${error instanceof Error ? error.message : String(error)}`; }
   finally { if (current === generation) { controls.removeAttribute('aria-busy'); for (const control of controls.querySelectorAll('input,select')) (control as HTMLInputElement).disabled = false; } }
 }
-for (const control of [species, mode, skin, category, pose, profile, facing]) control.input.addEventListener('change', () => void render());
+for (const control of [species, mode, skin, category, pose, profile, facing, view]) control.input.addEventListener('change', () => void render());
 search.addEventListener('change', () => void render());
 window.addEventListener('pagehide', () => { generation++; app.destroy(true, { children: true }); void loader?.clear(); });
 await render();
+
+/** Local renderer qualification entry; no simulation, network admission or game process involved. */
+export async function verifyHeadwearAssembly() {
+  const s=species.input.value as 'chikn'|'roostr';
+  const groups=Object.values(definition.attachmentGroups??{}).filter(group=>String(group.metadata?.category).toLowerCase()==='head');
+  const factory=new PixiRigFactory(textures),rig=new RigRuntime(definition,factory,clips);
+  const checked=new Set<string>();let frames=0,pixelChecks=0,facePixels=0,combPixels=0;
+  const ensure=(value:unknown,message:string)=>{if(!value)throw Error(message);};
+  const same=(a:unknown,b:unknown)=>JSON.stringify(a)===JSON.stringify(b);
+  factory.root.position.set(180,160);factory.root.scale.set(1.3);app.stage.addChild(factory.root);
+  try{
+    for(const skinId of Object.keys(definition.skins??{}))for(const group of groups){
+      const polygon=group.slotClipPolygons?.Head;
+      ensure(['covering','partial','accessory'].includes(String(group.metadata?.headCoverage)),`${group.id}: missing coverage policy`);
+      const base=definition.attachments.find(part=>part.id===definition.skins![skinId]!.Head)!;
+      const key=skinId+JSON.stringify(polygon);
+      if(polygon&&!checked.has(key)){
+        checked.add(key);const probe=factory.createAttachment('head-coverage-probe',base.texture);const sprite=probe.display as Sprite;
+        sprite.anchor.set(base.anchorX??.5,base.anchorY??.5);const{width,height}=sprite.texture.orig;
+        const frame=new Rectangle(-sprite.anchor.x*width,-sprite.anchor.y*height,width,height);
+        const original=app.renderer.extract.pixels({target:sprite,frame});probe.clipPolygon=polygon;
+        const masked=app.renderer.extract.pixels({target:sprite,frame});
+        ensure(original.width===masked.width&&original.height===masked.height,'mask changed source bounds');
+        for(let y=0;y<original.height;y++)for(let x=0;x<original.width;x++){
+          const u=(x+.5)/original.width,v=(y+.5)/original.height,i=(y*original.width+x)*4;
+          if(u>=.40&&u<=.98&&v>=.24&&v<=.70&&original.pixels[i+3]>230){
+            facePixels++;ensure([0,1,2,3].every(c=>Math.abs(original.pixels[i+c]!-masked.pixels[i+c]!)<=1),`${s}/${skinId}: face changed under mask`);
+          }
+          if(u>=.08&&u<=.17&&v>=.03&&v<=.29){
+            if(original.pixels[i+3]>230)combPixels++;
+            ensure(masked.pixels[i+3]<=8,`${s}/${skinId}: rear comb escaped the keep mask`);
+          }
+        }
+        factory.destroy(probe);pixelChecks++;
+      }
+      for(const mirrored of [false,true]){
+        applyCharacterRecipe(rig,{schema:CHARACTER_RECIPE_SCHEMA,species:s,skinId,traitGroupIds:[group.id],mirrored},definition);
+        for(const poseId of ['setup','walk','fly','attack','hit']){
+          rig.resetPose();if(poseId!=='setup'){const clip=clips.find(clip=>clip.id===`${s}.${poseId}`)!;rig.play(clip,{controlled:true}).sample(clip.durationMs*.4);}
+          ensure(same(rig.node('attachment',base.id)?.clipPolygon,polygon),`${skinId}/${group.id}: clip lost during ${poseId}`);
+          ensure(rig.activeAttachmentIds().includes(base.id),`${skinId}/${group.id}: base face disappeared`);
+          app.render();frames++;
+          const headNode=rig.node('attachment',base.id);
+          if(headNode instanceof PixiRigNode){
+            const children=headNode.display.parent!.children;
+            ensure(children.every((child,index)=>index===0||children[index-1]!.zIndex<=child.zIndex),`${group.id}: refreshed head layers are not sorted`);
+          }
+          if(frames%128===0)await new Promise(requestAnimationFrame);
+        }
+      }
+      rig.removeGroup(group.id);ensure(rig.node('attachment',base.id)?.clipPolygon===undefined,'removed hat retained a mask');
+    }
+    return{species:s,profile:profile.input.value,groups:groups.length,skins:Object.keys(definition.skins??{}).length,frames,pixelChecks,facePixels,combPixels};
+  }finally{rig.dispose();factory.destroyRoot();}
+}
+
+declare global { interface Window { verifyHeadwearAssembly: typeof verifyHeadwearAssembly; } }
+window.verifyHeadwearAssembly = verifyHeadwearAssembly;
