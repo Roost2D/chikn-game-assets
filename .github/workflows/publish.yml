@@ -16,7 +16,8 @@ jobs:
   # Everything that runs `npm ci` — and therefore arbitrary dependency lifecycle scripts — happens
   # here, with no registry credential and no OIDC token in scope. The job's only output is a tarball.
   verify:
-    runs-on: ubuntu-latest
+    # This job also installs Chromium/WebKit system dependencies for stable releases.
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
     env:

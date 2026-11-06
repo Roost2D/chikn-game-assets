@@ -1,0 +1,46 @@
+{
+  "results": [
+    {
+      "species": "chikn",
+      "profile": "default",
+      "groups": 49,
+      "skins": 10,
+      "frames": 4900,
+      "pixelChecks": 10,
+      "facePixels": 13750,
+      "combPixels": 1020
+    },
+    {
+      "species": "chikn",
+      "profile": "high",
+      "groups": 49,
+      "skins": 10,
+      "frames": 4900,
+      "pixelChecks": 10,
+      "facePixels": 13790,
+      "combPixels": 1030
+    },
+    {
+      "species": "roostr",
+      "profile": "default",
+      "groups": 59,
+      "skins": 9,
+      "frames": 5310,
+      "pixelChecks": 9,
+      "facePixels": 9432,
+      "combPixels": 387
+    },
+    {
+      "species": "roostr",
+      "profile": "high",
+      "groups": 59,
+      "skins": 9,
+      "frames": 5310,
+      "pixelChecks": 9,
+      "facePixels": 9459,
+      "combPixels": 387
+    }
+  ],
+  "pageErrors": [],
+  "frames": 20420
+}

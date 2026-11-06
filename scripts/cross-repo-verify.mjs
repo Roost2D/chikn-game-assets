@@ -46,6 +46,13 @@ try {
     const fileFetch = async (url) => new Response(await readFile(fileURLToPath(url)), { status: 200, headers: { 'content-type': 'application/json' } });
     for (let definition of await Promise.all([loadChiknRig(fileFetch), loadRoostrRig(fileFetch)])) {
       const species = definition.id;
+      const headGroups = Object.values(definition.attachmentGroups ?? {}).filter(group => String(group.metadata?.category).toLowerCase() === 'head');
+      if (headGroups.length !== (species === 'chikn' ? 49 : 59)) throw new Error('Published headwear audit is incomplete');
+      for (const group of headGroups) {
+        if (!['covering', 'partial', 'accessory'].includes(group.metadata?.headCoverage)) throw new Error('Published headwear policy missing: ' + group.id);
+        if (group.metadata.headCoverage === 'covering' && !group.slotClipPolygons?.Head) throw new Error('Published covering hat has no mask: ' + group.id);
+        if (group.metadata.headCoverage === 'accessory' && group.slotClipPolygons?.Head) throw new Error('Published open accessory clips the head: ' + group.id);
+      }
       if (!definition.attachments.every(({ texture }) => texture.layoutScale === CHIKN_RIG_ART_SCALE[species])) throw new Error(\`\${species} layout scale is not portable\`);
       if (!definition.attachments.every(({ depthTarget }) => depthTarget === 'bone')) throw new Error(\`\${species} legacy depth is not bone-targeted\`);
       const missing = [...new Set(definition.attachments.map(({ texture }) => texture.assetId).filter((id) => !knownAssets.has(id)))];

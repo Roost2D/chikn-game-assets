@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.3 - 2026-11-06
+
+- Use Roost2D 0.9.0 covering-hat masks and stable front/rear ordering for both species; preserve glasses, hair, horns and open accessories.
+- Add all 108 head-trait comparisons and a 19-skin, two-profile, two-facing, five-pose coverage check. Document the separate pilot-cap and baked-head patch for deferred Bokstrike adoption.
+- Preserve source artwork, asset IDs and rights records. Immutable 0.6.1 media remains compatible.
+
 ## 0.6.2 - 2026-11-01
 
 - Integrate the Roost2D 0.8.0 Chikn/Roostr placement and layer corrections in the showcase and character builder. Source artwork, asset IDs and the protected-content rights manifest remain unchanged.
