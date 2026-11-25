@@ -1,9 +1,8 @@
 # Later Roostrift and Bokstrike adoption
 
-The current candidate implements the shared libraries, asset builder, website and
-Chikn starter. It does not migrate either game. The engine candidate is
-`0.10.0-rc.1`, the asset helper/media candidate is `0.7.0-rc.1`;
-neither version has been published. All official source and converted data is in
+The shared release implements the shared libraries, asset builder, website and
+Chikn starter. Game adoption remains a later task. The engine version is
+`0.10.0`, and the asset helper/media version is `0.7.0`. All official source and converted data is in
 the separately licensed immutable media artifact; npm tarballs contain code,
 types, IDs and notices only.
 
@@ -56,8 +55,7 @@ qualification evidence to changed source, dependencies or assets.
 
 ## Release handoff
 
-Use the reviewed source/asset manifests and archive digests from the candidate
+Use the reviewed source/asset manifests and archive digests from the published release
 verification receipt. Do not point game clients at mutable upstream URLs. Keep
 both original licence documents and per-file rights lineage with mirrored content.
-Package publication, game adoption, merge and deployment remain separate from
-this implementation delivery.
+Game adoption and game deployment remain separate from this library/site release.

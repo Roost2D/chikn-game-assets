@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.0 - 2026-11-25
+
+- Add the pinned official Coqfight snapshot: 41 clips, 21 body skins per species, 174 Chikn and 224 Roostr traits, with source hashes and preserved upstream licences.
+- Load native Roost2D V2 rigs and animations through helper metadata caches; fetch only the selected character?s reachable textures. Preserve authored V1 recipes and clips.
+- Add official-set controls, playback, mirroring, optional visual approach and complete clip framing to the builder and rig showcase.
+- Use published Roost2D 0.10.0 packages. Versioned archives retain classified source/runtime lineage and the exact npm helper bytes.
+
+
 ## 0.6.3 - 2026-11-06
 
 - Use Roost2D 0.9.0 covering-hat masks and stable front/rear ordering for both species; preserve glasses, hair, horns and open accessories.
