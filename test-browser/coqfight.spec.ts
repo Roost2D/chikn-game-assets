@@ -2,6 +2,20 @@ import { expect, test } from '@playwright/test';
 import { mkdir, readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
+test('switching animation sets while the authored stage starts tears down without page errors', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (error) => errors.push(error.message));
+  await page.addInitScript(() => localStorage.clear());
+  await page.goto('/#builder');
+  await page.getByLabel('Animation set', { exact: true }).selectOption('coqfight-v1');
+  await expect(page.getByRole('status')).toContainText('41 official clips');
+  await page.getByLabel('Official species', { exact: true }).selectOption('roostr');
+  await expect(page.getByLabel('Official traits', { exact: true }).locator('option')).toHaveCount(224);
+  await expect(page.getByRole('status')).toContainText('41 official clips');
+  await expect(page.locator('main canvas')).toHaveCount(1);
+  expect(errors).toEqual([]);
+});
+
 test('official catalog renders both species and controlled clips with independent recipe persistence', async ({ page }) => {
   await page.addInitScript(() => { if (!sessionStorage.getItem('coqfight-test-started')) { localStorage.clear(); sessionStorage.setItem('coqfight-test-started', '1'); } });
   await page.goto('/#builder');

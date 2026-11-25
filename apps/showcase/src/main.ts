@@ -259,8 +259,9 @@ async function createStage(session: RouteSession, className = 'stage', transpare
     resolution: Math.min(devicePixelRatio, 2),
     autoDensity: true,
   });
-  session.onTeardown(() => app.destroy(true, { children: true, texture: false }));
   stage.append(app.canvas);
+  // A stale session disposes immediately; consume the canvas before registering teardown.
+  session.onTeardown(() => app.destroy(true, { children: true, texture: false }));
   return { stage, app };
 }
 
