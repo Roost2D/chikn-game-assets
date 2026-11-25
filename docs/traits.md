@@ -22,6 +22,6 @@ applyCharacterRecipe(rig, {
 }, definition, clips);
 ```
 
-Replacement ownership is trait-specific; read `replacesSlotIds` instead of inferring ownership from the category or image count. The corrected library candidate preserves tail feathers with eggs/exhausts equipped; eggs sit behind the feathers. It preserves feet beneath greaves/spurs/ankle accessories. Coloured Chikn legs contain two shins and two toes. Head traits such as Robocoq preserve the selected base head, while multipart panels keep their authored rear/front order. Hidden base bones remain animation and follower targets. See [assembly review](/trait-assembly-review) for preview coverage and the pending release decision.
+Replacement ownership is trait-specific; read `replacesSlotIds` instead of inferring ownership from the category or image count. The released library preserves tail feathers with eggs/exhausts equipped; eggs sit behind the feathers. It preserves feet beneath greaves/spurs/ankle accessories. Coloured Chikn legs contain two shins and two toes. Head traits such as Robocoq preserve the selected base head, while multipart panels keep their authored rear/front order. Hidden base bones remain animation and follower targets. See [assembly review](/trait-assembly-review) for preview coverage and the released corrections.
 
 Export `roost2d.chikn-character/v1` recipes with skin and attachment-group IDs, not atlas coordinates or independently scaled PNGs. IDs remain stable when atlases are repacked. See [Character generator template](/character-generator) for the complete workflow.

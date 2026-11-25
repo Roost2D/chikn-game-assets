@@ -49,12 +49,12 @@ The recipe is the handoff between a UI, an AI coding assistant, a game, and an e
 
 `definition.attachmentGroups[groupId].replacesSlotIds` is authoritative.
 
-- Replacement plumage owns `Tail`; eggs, exhausts and perched riders remain overlays in the corrected library candidate.
+- Replacement plumage owns `Tail`; eggs, exhausts and perched riders remain overlays in the released library.
 - Shoes replace the corresponding feet. Coloured legs replace their shins and toes. Greaves, spurs and ankle accessories preserve the underlying feet.
 - Head traits, including Robocoq, remain overlays and never hide the selected base head.
 - Hats, combs, necklaces, shields, and held items also remain overlays.
 
-Depth is also part of the rig contract. Replacement tails temporarily lift their hidden `Tail` transform above the body torso; overlay tails retain the original branch depth. Held torso props, including Cutlass, render above the torso and below the foreground wing. Added arms use their own front/rear wing branches. Foreground neck/head pieces and explicitly authored rear panels keep their own order. Feet traits follow their appropriate animated limb branches; image count alone does not determine replacement ownership or placement. Applications must not patch these depths or offsets after composition. See [candidate assembly review](/trait-assembly-review) for the corrections and complete preview gallery.
+Depth is also part of the rig contract. Replacement tails temporarily lift their hidden `Tail` transform above the body torso; overlay tails retain the original branch depth. Held torso props, including Cutlass, render above the torso and below the foreground wing. Added arms use their own front/rear wing branches. Foreground neck/head pieces and explicitly authored rear panels keep their own order. Feet traits follow their appropriate animated limb branches; image count alone does not determine replacement ownership or placement. Applications must not patch these depths or offsets after composition. See [assembly review](/trait-assembly-review) for the corrections and complete preview gallery.
 
 Coat-like garments and breastplates cover the foreground wing. Their attachment groups temporarily lower that wing and both upper-leg branches behind the torso garment, keeping descendant shins, toes and footwear beneath it; removing the group restores their original depths. This rule is authored in the shared rig and applies across all base skins and game consumers.
 
