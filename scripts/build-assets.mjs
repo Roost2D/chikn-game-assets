@@ -3,6 +3,7 @@ import { access, mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/p
 import { dirname, extname, relative, resolve, sep } from 'node:path';
 import sharp from 'sharp';
 import { canonicalSourceBytes, sourceSha256 } from './source-hash.mjs';
+import { buildCoqfightEntries } from './coqfight-assets.mjs';
 
 const root = resolve('.');
 const packageVersion = JSON.parse(await readFile(resolve('package.json'), 'utf8')).version;
@@ -45,6 +46,7 @@ for (const selection of sourceSelection.roots) {
   }
 }
 allSourceFiles.sort((a, b) => a.path.localeCompare(b.path));
+directEntries.push(...await buildCoqfightEntries(rightsByPath));
 
 const claimedReferences = new Set([...imageEntries, ...directEntries].flatMap(({ assetId, aliases }) => [assetId, ...aliases]));
 for (const sourceAtlas of sourceAtlases.sort((a, b) => a.sourcePath.localeCompare(b.sourcePath))) {
@@ -84,7 +86,7 @@ for (const assetId of Object.keys(configuredAliases)) if (!runtimeEntries.some((
 assertUnique(runtimeEntries.map((entry) => entry.assetId), 'asset id'); assertUnique(runtimeEntries.flatMap((entry) => entry.aliases), 'asset alias');
 const primaryIds = new Set(runtimeEntries.map((entry) => entry.assetId));
 for (const alias of runtimeEntries.flatMap((entry) => entry.aliases)) if (primaryIds.has(alias)) throw new Error(`Asset alias collides with a primary id: ${alias}`);
-const fingerprint = sha256Hex(Buffer.from(JSON.stringify({ sources: allSourceFiles.map(({ path, sha256 }) => [path, sha256]), selection: sourceSelection, aliases: assetAliasConfig, rightsDocumentSha256: sha256Hex(rightsManifestBytes), profiles, version: packageVersion })));
+const fingerprint = sha256Hex(Buffer.from(JSON.stringify({ sources: allSourceFiles.map(({ path, sha256 }) => [path, sha256]), generatedData: directEntries.filter(({ kind }) => kind === 'data').map(({ assetId, buffer }) => [assetId, sha256Hex(buffer)]), selection: sourceSelection, aliases: assetAliasConfig, rightsDocumentSha256: sha256Hex(rightsManifestBytes), profiles, version: packageVersion })));
 if (incremental) try { if ((await readFile(resolve('runtime/.build-fingerprint'), 'utf8')).trim() === fingerprint) { console.log('Asset runtime is current; incremental build skipped.'); process.exit(0); } } catch {}
 
 await mkdir(resolve('reports/reproducibility'), { recursive: true });
@@ -170,6 +172,7 @@ function contentRights(rightsIds) {
     hostingAuthorized: protectedRecord.hostingAuthorized,
     communityUseAuthorized: protectedRecord.communityUseAuthorized,
     sublicenseGrantedByRepository: protectedRecord.sublicenseGrantedByRepository,
+    ...(protectedRecord.licenseDocument ? { licenseDocument: protectedRecord.licenseDocument, runtimeLicenseDocument: protectedRecord.runtimeLicenseDocument, licenseDocumentSha256: protectedRecord.licenseDocumentSha256 } : {}),
   };
 }
 function groupBy(values, key) { return values.reduce((groups, value) => { const id = key(value); (groups[id] ??= []).push(value); return groups; }, {}); }

@@ -1,5 +1,13 @@
 # @chikn-game-assets/runtime
 
+## Official Coqfight rigs and animations
+
+`loadCoqfightCatalog({ pack })` lists the pinned official body, trait and clip names. `loadCoqfightCharacter({ pack, recipe })` returns a selected-only native Roost2D v2 rig, clips, media IDs, normalized recipe and preserved source metadata. The recipe schema is `chikn.coqfight-character/v1`, with `setId: 'coqfight-v1'`, `species`, `bodySkinId`, `traitSkinIds` and `animationName`.
+
+Imported official rig/animation/trait data and native derivatives stay in the separate runtime archive under the upstream **Chikn Community Asset Licence**, preserved here as `COQFIGHT-ASSET-LICENSE.md`. The catalog records its hash and runtime path. Existing exact artwork reused from earlier releases retains its original per-file classification. This npm package contains helper code, ID catalogs and legal notices only; it does not include the official rig/animation JSON or artwork and does not add a Spine runtime dependency.
+
+The current pinned set has 41 clips. `Idle`, `IdleHurt`, `Walk`, `Run`, `Victory` and `Flap` loop by default; the other clips play once. `metadata.animationMeta` preserves the upstream loop flags, durations, generated flags and target-relative approach curves independently. Applications keep approach motion outside authoritative gameplay coordinates.
+
 Apache-2.0 TypeScript helpers and a generated ID catalog for a separately hosted Chikn Game Assets release. This npm package contains no source images, audio, or runtime media and does not grant rights to Chikn, Roostr, or FarmLand content.
 
 ```sh
@@ -40,7 +48,7 @@ Many logical image IDs share one atlas page, while each `audio/*` ID resolves to
 
 If you pass a bare `manifestUrl` instead of `baseUrl`, the asset root is not inferred from it. Supply `assetBaseUrl` explicitly, or asset resolution throws.
 
-Manifest entries marked `CHIKN-COMMUNITY-NONCOMMERCIAL` remain owned by Chikn and are governed by the Chikn Community Asset Pack Non-Commercial Licence, Version 1.1, granted directly by Chikn. Roost2D is an authorised distributor only and grants no Chikn licence, sublicense or commercial rights. A manifest entry marked `Apache-2.0`, such as `farmland/water-swim-ring-coq`, is separately classified project artwork and is not Chikn property.
+Manifest entries marked `CHIKN-COMMUNITY-NONCOMMERCIAL` remain owned by Chikn. Existing pack content retains the Chikn Community Asset Pack Non-Commercial Licence, Version 1.1. Imported official Coqfight content and native rig/animation derivatives instead identify their preserved upstream `LICENSE.md` and SHA-256 in the rights record. Consult that record and the notices supplied with the matching runtime archive. Roost2D is an authorised distributor only and grants no Chikn licence, sublicense or commercial rights. A manifest entry marked `Apache-2.0`, such as `farmland/water-swim-ring-coq`, is separately classified project artwork and is not Chikn property.
 
 IDs such as `chikn-flat/admiral` and dotted rig names may be compatibility aliases rather than primary file IDs. Always call `findAsset` (or use a Roost2D manifest resolver) instead of translating an ID into a source path.
 

@@ -27,6 +27,7 @@ await cp(resolve('reports/source-runtime-lineage.json'), resolve(release, 'runti
 await cp(resolve('README.md'), resolve(release, 'runtime/README.md'));
 await cp(resolve('INTEGRATION.md'), resolve(release, 'runtime/INTEGRATION.md'));
 await cp(resolve('docs/audio.md'), resolve(release, 'runtime/docs/audio.md'));
+await cp(resolve('docs/coqfight.md'), resolve(release, 'runtime/docs/coqfight.md'));
 await cp(resolve('CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md'), resolve(release, 'runtime/CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md'));
 await cp(resolve('REPOSITORY-LICENSING-NOTICE_PUBLIC.md'), resolve(release, 'runtime/REPOSITORY-LICENSING-NOTICE_PUBLIC.md'));
 await cp(resolve('CHIKN-COMMUNITY-ASSET-NOTICE.md'), resolve(release, 'runtime/CHIKN-COMMUNITY-ASSET-NOTICE.md'));

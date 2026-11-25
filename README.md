@@ -12,7 +12,7 @@ Official Chikn audio is classified under the same protected-content terms and is
 
 The following are not Chikn property:
 
-- rig definitions, transforms, attachment mappings, and animation timing data;
+- independently authored project rig definitions, transforms, attachment mappings, and animation timing data (imported official Coqfight data remains protected Chikn content);
 - engine/runtime code, schemas, manifests, atlas-coordinate JSON, build scripts, and documentation;
 - `water_swim_ring_coq.png`, which is published project artwork classified as Apache-2.0;
 - unrelated repository-only material such as `eggorithm.png`, which is excluded from every release artifact.
@@ -75,6 +75,8 @@ The logical asset ID resolves to a cropped Pixi texture; consumers never calcula
 Start with [`AGENTS.md`](AGENTS.md) and [`llms.txt`](llms.txt). They identify source-of-truth files, generated outputs, rights invariants, repository boundaries, and required verification commands. Release archives also include these files so agents can integrate downloaded artifacts without guessing their layout or license.
 
 ## Run the character builder
+
+The builder and rig viewer offer separate authored and [official Coqfight animation sets](docs/coqfight.md). The official set includes the latest 41 clips, including seven upstream-generated movement/emote clips, selected-only native rigs and integrity-pinned media. Official metadata and derived clips retain their upstream asset licence; the engine importer and helper remain Apache-2.0.
 
 ```powershell
 npm install

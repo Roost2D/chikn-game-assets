@@ -15,6 +15,13 @@ The runtime ZIP is what a game mirrors to static hosting or a CDN. Its contents 
 
 Bundles are grouped by content family and lazy by default. SHA-256 and frame metadata make it possible to verify every downloaded atlas and render only logical crops.
 
+The separate Official Coqfight set adds integrity-pinned native rig/animation JSON,
+the catalog, upstream script metadata and trait rules under `runtime/coqfight-v1/`.
+Its unmodified upstream licence is `runtime/coqfight-v1/LICENSE.md`. Converted poses
+and curves belong in this content artifact, not in the Apache-only npm helper or
+engine metadata package. Load only the selected body and equipped traits; do not
+preload every image in the complete source rig.
+
 Protected MP3 files live under `runtime/audio/`. Both profiles reference the same immutable bytes, and every audio manifest entry includes its byte count, SHA-256 SRI value, rights ID, and source-lineage record. The archive also carries `reports/source-runtime-lineage.json`, `INTEGRATION.md`, and `docs/audio.md` so consumers can audit provenance and integrate the audio without consulting the repository checkout.
 
 ## Sources ZIP

@@ -2,18 +2,18 @@
   "schema": "chikn-game-assets.distribution/v1",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "lfs": {
-    "logicalFiles": 639,
-    "logicalBytes": 47804969,
-    "uniqueObjects": 639,
-    "storageBytes": 47804969,
-    "expectedFreshCloneBytes": 47804969
+    "logicalFiles": 1419,
+    "logicalBytes": 96852565,
+    "uniqueObjects": 1419,
+    "storageBytes": 96852565,
+    "expectedFreshCloneBytes": 96852565
   },
   "releases": {
-    "expectedSourceArchiveBytes": 47576479,
-    "expectedRuntimeArchiveBytes": 50958987
+    "expectedSourceArchiveBytes": 99564583,
+    "expectedRuntimeArchiveBytes": 105949050
   },
   "runtime": {
-    "totalBytes": 50958987,
+    "totalBytes": 105949050,
     "atlasPages": [
       {
         "profile": "default",
@@ -28,27 +28,62 @@
       {
         "profile": "default",
         "path": "runtime/atlases/default/chikn-traits-001.png",
-        "bytes": 806178
+        "bytes": 850022
       },
       {
         "profile": "default",
         "path": "runtime/atlases/default/chikn-traits-002.png",
-        "bytes": 748311
+        "bytes": 663786
       },
       {
         "profile": "default",
         "path": "runtime/atlases/default/chikn-traits-003.png",
-        "bytes": 892241
+        "bytes": 424792
       },
       {
         "profile": "default",
         "path": "runtime/atlases/default/chikn-traits-004.png",
-        "bytes": 896826
+        "bytes": 755971
       },
       {
         "profile": "default",
         "path": "runtime/atlases/default/chikn-traits-005.png",
-        "bytes": 176691
+        "bytes": 816353
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-traits-006.png",
+        "bytes": 310464
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-traits-007.png",
+        "bytes": 570806
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-traits-008.png",
+        "bytes": 742380
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-traits-009.png",
+        "bytes": 632796
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-traits-010.png",
+        "bytes": 769540
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-traits-011.png",
+        "bytes": 677787
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/chikn-traits-012.png",
+        "bytes": 347706
       },
       {
         "profile": "default",
@@ -63,32 +98,77 @@
       {
         "profile": "default",
         "path": "runtime/atlases/default/roostr-traits-001.png",
-        "bytes": 798670
+        "bytes": 793343
       },
       {
         "profile": "default",
         "path": "runtime/atlases/default/roostr-traits-002.png",
-        "bytes": 883516
+        "bytes": 335363
       },
       {
         "profile": "default",
         "path": "runtime/atlases/default/roostr-traits-003.png",
-        "bytes": 706381
+        "bytes": 1062458
       },
       {
         "profile": "default",
         "path": "runtime/atlases/default/roostr-traits-004.png",
-        "bytes": 798737
+        "bytes": 744429
       },
       {
         "profile": "default",
         "path": "runtime/atlases/default/roostr-traits-005.png",
-        "bytes": 931377
+        "bytes": 629466
       },
       {
         "profile": "default",
         "path": "runtime/atlases/default/roostr-traits-006.png",
-        "bytes": 765371
+        "bytes": 696265
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-007.png",
+        "bytes": 728823
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-008.png",
+        "bytes": 557065
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-009.png",
+        "bytes": 575531
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-010.png",
+        "bytes": 650998
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-011.png",
+        "bytes": 753356
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-012.png",
+        "bytes": 736460
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-013.png",
+        "bytes": 776750
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-014.png",
+        "bytes": 730195
+      },
+      {
+        "profile": "default",
+        "path": "runtime/atlases/default/roostr-traits-015.png",
+        "bytes": 107004
       },
       {
         "profile": "high",
@@ -103,27 +183,62 @@
       {
         "profile": "high",
         "path": "runtime/atlases/high/chikn-traits-001.png",
-        "bytes": 2651836
+        "bytes": 2935870
       },
       {
         "profile": "high",
         "path": "runtime/atlases/high/chikn-traits-002.png",
-        "bytes": 2538784
+        "bytes": 2154363
       },
       {
         "profile": "high",
         "path": "runtime/atlases/high/chikn-traits-003.png",
-        "bytes": 2991024
+        "bytes": 1407770
       },
       {
         "profile": "high",
         "path": "runtime/atlases/high/chikn-traits-004.png",
-        "bytes": 3257736
+        "bytes": 2603022
       },
       {
         "profile": "high",
         "path": "runtime/atlases/high/chikn-traits-005.png",
-        "bytes": 359149
+        "bytes": 2935049
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-traits-006.png",
+        "bytes": 1346347
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-traits-007.png",
+        "bytes": 2173472
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-traits-008.png",
+        "bytes": 3173952
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-traits-009.png",
+        "bytes": 2017301
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-traits-010.png",
+        "bytes": 2393997
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-traits-011.png",
+        "bytes": 2521514
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/chikn-traits-012.png",
+        "bytes": 259836
       },
       {
         "profile": "high",
@@ -138,32 +253,72 @@
       {
         "profile": "high",
         "path": "runtime/atlases/high/roostr-traits-001.png",
-        "bytes": 2684657
+        "bytes": 2779151
       },
       {
         "profile": "high",
         "path": "runtime/atlases/high/roostr-traits-002.png",
-        "bytes": 3381289
+        "bytes": 1005345
       },
       {
         "profile": "high",
         "path": "runtime/atlases/high/roostr-traits-003.png",
-        "bytes": 2664437
+        "bytes": 3956781
       },
       {
         "profile": "high",
         "path": "runtime/atlases/high/roostr-traits-004.png",
-        "bytes": 3009215
+        "bytes": 2180918
       },
       {
         "profile": "high",
         "path": "runtime/atlases/high/roostr-traits-005.png",
-        "bytes": 3353858
+        "bytes": 2125018
       },
       {
         "profile": "high",
         "path": "runtime/atlases/high/roostr-traits-006.png",
-        "bytes": 1555758
+        "bytes": 2714634
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-traits-007.png",
+        "bytes": 2797932
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-traits-008.png",
+        "bytes": 1704084
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-traits-009.png",
+        "bytes": 2016319
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-traits-010.png",
+        "bytes": 2494465
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-traits-011.png",
+        "bytes": 2351182
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-traits-012.png",
+        "bytes": 2748736
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-traits-013.png",
+        "bytes": 2339405
+      },
+      {
+        "profile": "high",
+        "path": "runtime/atlases/high/roostr-traits-014.png",
+        "bytes": 2457235
       }
     ],
     "directFiles": [
@@ -640,6 +795,66 @@
         "path": "runtime/audio/unsheath.mp3",
         "mediaType": "audio/mpeg",
         "bytes": 6992
+      },
+      {
+        "assetId": "coqfight-v1/catalog",
+        "path": "runtime/coqfight-v1/catalog.json",
+        "mediaType": "application/json",
+        "bytes": 15770
+      },
+      {
+        "assetId": "coqfight-v1/chikn/animation-meta",
+        "path": "runtime/coqfight-v1/chikn/animation-meta.json",
+        "mediaType": "application/json",
+        "bytes": 14488
+      },
+      {
+        "assetId": "coqfight-v1/chikn/animations",
+        "path": "runtime/coqfight-v1/chikn/animations.json",
+        "mediaType": "application/json",
+        "bytes": 5443850
+      },
+      {
+        "assetId": "coqfight-v1/chikn/rig",
+        "path": "runtime/coqfight-v1/chikn/rig.json",
+        "mediaType": "application/json",
+        "bytes": 356590
+      },
+      {
+        "assetId": "coqfight-v1/LICENSE",
+        "path": "runtime/coqfight-v1/LICENSE.md",
+        "mediaType": "text/markdown",
+        "bytes": 3855
+      },
+      {
+        "assetId": "coqfight-v1/roostr/animation-meta",
+        "path": "runtime/coqfight-v1/roostr/animation-meta.json",
+        "mediaType": "application/json",
+        "bytes": 14488
+      },
+      {
+        "assetId": "coqfight-v1/roostr/animations",
+        "path": "runtime/coqfight-v1/roostr/animations.json",
+        "mediaType": "application/json",
+        "bytes": 5443891
+      },
+      {
+        "assetId": "coqfight-v1/roostr/rig",
+        "path": "runtime/coqfight-v1/roostr/rig.json",
+        "mediaType": "application/json",
+        "bytes": 409627
+      },
+      {
+        "assetId": "coqfight-v1/trait-catalog",
+        "path": "runtime/coqfight-v1/trait-catalog.json",
+        "mediaType": "application/json",
+        "bytes": 375114
+      },
+      {
+        "assetId": "coqfight-v1/trait-rules",
+        "path": "runtime/coqfight-v1/trait-rules.json",
+        "mediaType": "application/json",
+        "bytes": 194
       }
     ]
   }

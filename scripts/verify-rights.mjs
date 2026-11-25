@@ -42,7 +42,10 @@ for (const asset of manifest.assets ?? []) {
   if (excludedPaths.has(asset.sourcePath)) errors.push(`${asset.id}: excluded project material also has a release classification`);
   if (!asset.license || !asset.commercialUse || !asset.attribution) errors.push(`${asset.id}: incomplete rights classification`);
 
-  if (/\.json$/i.test(asset.sourcePath) && (asset.license !== 'Apache-2.0' || asset.commercialUse !== 'allowed' || asset.approved !== true)) {
+  const upstream = (policy.protectedSourcePrefixes ?? []).some((prefix) => asset.sourcePath.startsWith(prefix));
+  if ((upstream || /\/coqfight-v1-[a-f0-9]+\.png$/.test(asset.sourcePath)) && (asset.licenseDocument !== policy.upstreamCoqfight.licenseDocument || asset.licenseDocumentSha256 !== policy.upstreamCoqfight.licenseDocumentSha256)) errors.push(`${asset.id}: upstream Coqfight licence identity is missing`);
+  if (upstream && (asset.license !== policy.license || asset.ownership !== policy.ownership || asset.hostingAuthorized !== true || asset.communityUseAuthorized !== true || asset.sublicenseGrantedByRepository !== false)) errors.push(`${asset.id}: official upstream metadata must retain protected Chikn rights`);
+  if (/\.json$/i.test(asset.sourcePath) && !upstream && (asset.license !== 'Apache-2.0' || asset.commercialUse !== 'allowed' || asset.approved !== true)) {
     errors.push(`${asset.id}: project metadata must be approved Apache-2.0 material`);
   }
   if (/\.(?:png|jpe?g|mp3)$/i.test(asset.sourcePath)) {

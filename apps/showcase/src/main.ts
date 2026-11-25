@@ -24,6 +24,7 @@ import { PixiAssetLoader, PixiProceduralEffect, PixiRigFactory } from '@roost2d/
 import { RigActionController, RigRuntime, type RigAnimationHandle } from '@roost2d/rig2d';
 import { RouteLifecycle, type RouteSession } from './lifecycle';
 import './style.css';
+import { renderCoqfightPreview } from './coqfight';
 
 interface CatalogAsset {
   id: string;
@@ -68,6 +69,14 @@ async function render() {
   const route = (routes.includes(location.hash.slice(1) as Route) ? location.hash.slice(1) : 'showcase') as Route;
   document.querySelectorAll('header nav a').forEach((link) => link.classList.toggle('active', link.getAttribute('href') === `#${route}`));
   host.replaceChildren();
+  if (route === 'builder' || route === 'rig') {
+    const set = element('select'); set.setAttribute('aria-label', 'Animation set');
+    set.append(new Option('Authored Roost2D animations', 'authored'), new Option('Official Coqfight animations', 'coqfight-v1'));
+    try { set.value = localStorage.getItem('chikn.preview-animation-set.v1') === 'coqfight-v1' ? 'coqfight-v1' : 'authored'; } catch { /* Storage is optional. */ }
+    set.addEventListener('change', () => { try { localStorage.setItem('chikn.preview-animation-set.v1', set.value); } catch { /* Storage is optional. */ } void render(); }, { signal: session.signal });
+    host.append(field('Animation set', set));
+    if (set.value === 'coqfight-v1') { await renderCoqfightPreview(host, session); return; }
+  }
   if (route === 'showcase') renderShowcase();
   if (route === 'builder') await renderBuilder(session);
   if (route === 'brawler') await renderBrawlerPreview(session);

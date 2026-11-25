@@ -21,7 +21,7 @@
 
 - Official Chikn, Roostr, and FarmLand visual artwork and audio are protected Chikn content (`CHIKN-COMMUNITY-NONCOMMERCIAL`). This stable identifier refers to `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`, Version 1.1, granted directly by Chikn; it is not a Roost2D-authored licence.
 - Protected records must state third-party Chikn ownership, `hostingAuthorized: true`, `communityUseAuthorized: true`, and `sublicenseGrantedByRepository: false`.
-- Rig definitions, transforms, animations/timing, manifests, schemas, code, docs, and the specifically classified `water_swim_ring_coq.png` are project-authored Apache-2.0 material.
+- Independently project-authored rig definitions, transforms, animations/timing, manifests, schemas, code, docs, and the specifically classified `water_swim_ring_coq.png` are Apache-2.0 material. Official upstream Coqfight rig/animation/trait JSON and native derivatives retain Chikn's protected asset terms; a JSON extension never proves project authorship.
 - The artwork rendered by a rig remains protected even though the rig/animation metadata is separate.
 - `excludedPaths` are not Chikn property and must not enter generated runtime or GitHub Release artifacts. `eggorithm.png` is the canonical regression example.
 - Never refresh the rights manifest as a side effect. Run `npm run rights:refresh` only after deliberate rights review, then inspect the complete diff.

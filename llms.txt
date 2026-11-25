@@ -6,7 +6,7 @@ Ownership/licensing:
 - official Chikn/Roostr/FarmLand visual artwork and audio are protected Chikn content (`CHIKN-COMMUNITY-NONCOMMERCIAL`)
 - this identifier refers to CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md Version 1.1, granted directly by Chikn; Roost2D is an authorised distributor only
 - protected records require third-party ownership, direct Chikn licensing, authorised distribution, no repository sublicense, and exact technical hashes
-- rig definitions, transforms, animation timing, code, schemas, manifests, docs, and water_swim_ring_coq.png are project-authored Apache-2.0 material
+- Independently authored project rig definitions, transforms, animation timing, code, schemas, manifests, docs, and water_swim_ring_coq.png are Apache-2.0 material; official upstream Coqfight metadata and native derivatives remain protected Chikn content
 - artwork displayed by a rig remains protected
 - manifest excludedPaths are not Chikn property and never enter published artifacts; eggorithm.png is the regression example
 

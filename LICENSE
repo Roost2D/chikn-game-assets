@@ -2,7 +2,7 @@
 
 This repository contains materials with different ownership and usage terms. A file's classification in `manifests/rights-manifest.json` and any file-specific notice control its use.
 
-1. Source code, documentation, generated schemas, rig definitions, animation timing data, and other independently authored project metadata are licensed under Apache-2.0. See `LICENSE-CODE`.
+1. Source code, documentation, generated schemas, independently authored project rig definitions and animation timing, and other independently authored project metadata are licensed under Apache-2.0. See `LICENSE-CODE`. Official imported Coqfight skeleton, animation, trait and timing data and native derivatives are protected Chikn assets under their preserved upstream licence, `sources/coqfight-v1/LICENSE.md`.
 
 2. Official Chikn, Roostr and FarmLand visual assets classified as `CHIKN-COMMUNITY-NONCOMMERCIAL` in the rights manifest remain owned by Chikn. Chikn grants eligible users rights directly under the unmodified [`CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`](CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md), Version 1.1. The repository host is an authorised distributor and grants no Chikn licence or commercial rights. Visual entries explicitly classified as Apache-2.0, including `water_swim_ring_coq.png`, are independently authored project material and are outside those terms.
 
@@ -14,4 +14,4 @@ This repository contains materials with different ownership and usage terms. A f
 
 6. Files listed in `excludedPaths` in `manifests/rights-manifest.json` are outside the hosted Chikn asset set. Their repository presence does not identify them as Chikn property or grant rights to them.
 
-Rig and animation metadata and unrelated project materials such as `eggorithm.png` are not claimed as Chikn, Roostr or FarmLand property.
+Independently authored project rig and animation metadata and unrelated project materials such as `eggorithm.png` are not claimed as Chikn, Roostr or FarmLand property. Imported official Coqfight data remains owned by its upstream rights holders.
