@@ -138,7 +138,10 @@ test('trait-aware actions resolve weapons, selectable specials, scrubbing, and 2
   await expect(page.getByRole('button', { name: 'Special', exact: true })).toBeDisabled();
 
   await page.getByLabel('Builder species').selectOption('roostr');
+  await expect(status).toContainText('"species": "roostr"');
   await page.getByLabel('Torso trait').selectOption('torso/katana');
+  // Resolve the weapon only after the new species rig has finished loading.
+  await expect(status).toContainText('torso/katana');
   await page.getByRole('button', { name: 'Punch', exact: true }).click();
   await expect(status).toContainText('roostr.action.punch.blade');
   await expect(status).toContainText('"kind": "slash"');
@@ -163,6 +166,7 @@ test('trait-aware actions resolve weapons, selectable specials, scrubbing, and 2
   await page.getByLabel('Builder species').selectOption('chikn');
   await expect(status).toContainText('"species": "chikn"');
   await page.getByLabel('Tail trait').selectOption('tail/golden-egg');
+  await expect(status).toContainText('tail/golden-egg');
   const canvas = page.locator('#app canvas');
   const canvasBox = await canvas.boundingBox();
   expect(canvasBox).toBeTruthy();
@@ -198,4 +202,34 @@ test('the sixteen-fighter preview runs independent Chikn and Roostr action clock
   await expect(page.locator('#app canvas')).toBeVisible();
   await page.waitForTimeout(800);
   expect(pageErrors).toEqual([]);
+});
+
+
+test('actions and exports wait for integrity-checked replacement textures', async ({ page }) => {
+  await page.goto('/#builder');
+  const status = page.locator('#app .panel pre.config');
+  const punch = page.getByRole('button', { name: 'Punch', exact: true });
+  await expect(status).toContainText('roost2d.chikn-character/v1');
+  await expect(punch).toBeEnabled();
+  let release!: () => void;
+  const pending = new Promise<void>(resolve => { release = resolve; });
+  let sawRequest!: () => void;
+  const requested = new Promise<void>(resolve => { sawRequest = resolve; });
+  await page.route('**/runtime/atlases/high/**', async route => {
+    sawRequest();
+    await pending;
+    await route.continue();
+  });
+  try {
+    await page.getByLabel('Builder asset profile').selectOption('high');
+    await requested;
+    await expect(punch).toBeDisabled();
+    await expect(page.getByRole('button', { name: 'Export action JSON', exact: true })).toBeDisabled();
+    release();
+    await expect(punch).toBeEnabled();
+    await punch.click();
+    await expect(status).toContainText('chikn.action.punch');
+  } finally {
+    release();
+  }
 });
