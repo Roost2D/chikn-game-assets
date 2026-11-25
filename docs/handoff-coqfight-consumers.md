@@ -2,7 +2,7 @@
 
 The shared release implements the shared libraries, asset builder, website and
 Chikn starter. Game adoption remains a later task. The engine version is
-`0.10.0`, and the asset helper/media version is `0.7.1-rc.1`. All official source and converted data is in
+`0.10.0`, and the asset helper/media version is `0.7.1`. All official source and converted data is in
 the separately licensed immutable media artifact; npm tarballs contain code,
 types, IDs and notices only.
 
@@ -22,7 +22,7 @@ game actions to damage, cooldowns, hit frames, collisions or projectile cues.
 ## Roostrift
 
 - Keep the `Character` facade and `chiknAnimationPolicy` presentation mapping.
-  Introduce an explicit official-set choice rather than replacing authored rigs.
+  Use official placement by default for faithfully mapped TD/duel characters, retaining the authored adapter for exact unique or unsupported appearances. RPG and Clash adoption remains separate.
 - Update the installed engine/helper pins, `ChiknAssetPack` release/manifest
   digests, vendoring script and media lock together. The inspected game deliberately
   separated helper 0.6.3 from compatible media 0.6.1; do not infer media versions
