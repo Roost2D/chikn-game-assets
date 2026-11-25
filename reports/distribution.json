@@ -10,10 +10,10 @@
   },
   "releases": {
     "expectedSourceArchiveBytes": 99597503,
-    "expectedRuntimeArchiveBytes": 106105772
+    "expectedRuntimeArchiveBytes": 106105767
   },
   "runtime": {
-    "totalBytes": 106105772,
+    "totalBytes": 106105767,
     "atlasPages": [
       {
         "profile": "default",
