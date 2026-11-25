@@ -3,9 +3,10 @@
 > Chikn and Roostr characters from the game Coqfight, as Spine 4.2 skeletons with texture atlases. Load them with any official Spine 4.2 runtime (spine-canvas, spine-webgl, spine-pixi, spine-phaser, spine-unity, spine-godot and so on).
 
 Docs for people: docs.html on this site. A working web example: example.html.
+Viewer links: /?nft=chikn|roostr&body=<body>&anim=<animation>&<any key>=<trait name>... opens the home-page viewer on that coq (names ignore case, spaces and punctuation).
 
 ## Files (relative to this site; replace "chikn" with "roostr" for the other series)
-- v1/chikn/chikn.json: Spine 4.2 skeleton JSON. 68 bones, 66 slots, 21 body skins, 174 trait skins (224 on roostr), 41 animations.
+- v1/chikn/chikn.json: Spine 4.2 skeleton JSON. 68 bones, 66 slots, 21 body skins, 174 trait skins (224 on roostr), 42 animations.
 - v1/chikn/chikn.atlas: Spine 4.x atlas. Region names equal attachment paths. Pages live in v1/chikn/atlas/. Each body skin has its own page (atlas/<Body>.png) and each trait has its own page (atlas/trait-<trait>.png).
 - v1/chikn/images/<Skin>/<Part>.png: the same art as loose PNGs, for the Spine editor.
 - v1/chikn/chikn-animations-meta.json: per-animation loop flags; scriptCurves.RelativeX is the game's lunge toward the opponent (not in the skeleton).
@@ -26,11 +27,11 @@ Docs for people: docs.html on this site. A working web example: example.html.
 - Body skins: Chikn: Bayc, Bullion, Celestial, CryptoPunk, Crystale, Crystalé, Degen, DirtyBird, Elon, FrogNationGreen, GameBoy, Kernel, MutantPurple, NightstalkerBlue, PassionRed, Pepe, Pixel-Chan, PixelChan, RusticBrown, Space, SweatyMeatChikn. Roostr: Beast, Bullion, Captain, Celestial, CuteGravy, FrogGreen, Gumball, Gunslinger, Hypnocoq, Lava, Midnight, Monotone, MutantBlue, MutantGreen, MutantPurple, NightstalkerBlue, Obsidian, PassionRed, Robot, SnowWhite, Split.
 - Trait skins: "trait/chikn_*" on chikn only, "trait/roostr_*" on roostr only, unprefixed ones on both. Full list in traits.json.
 - Animations: Idle, IdleHurt, Hurt, Death, Buff, Pray, Counter, BlockMelee, BlockRanged, Punch, Kick, Kick_Space, WhirlwindKick, Headbutt, Slash, Thrust, Thrust_Beast, Baseball, Throw, ThrowLow, ThrowLow_Degen, OverheadThrow, PistolShot, RifleShot, RayCast, RayCast_Unique, SpellCast, SpellCast_Unique, SpellCastLow, SpellCastLow_Unique, Shine, Shine_Hypnocoq, TailProjectile, TailProjectile_Unique.
-- Extra locomotion animations (not from the game, play in place): Walk, Run, Flap, Victory (loop); Jump, Hop, Peck (play once).
+- Extra locomotion animations (not from the game, play in place): Walk, Run_Slow, Run_Fast, Flap, Victory (loop); Jump, Hop, Peck (play once).
 
 ## Units and gaps
 - Pixels, 100 per game unit, y up, root bone at the feet. A coq is roughly 1,600 px tall.
-- Particle effects and sounds are not included; Death ends with the coq hidden.
+- Particle effects and sounds are not included. Death ends with the coq in a heap on the ground (in the game it vanishes in a particle poof).
 
 ## Licence
 - The art is released under the Chikn Community Asset Licence (license.html, plain text at LICENSE.md). Non-commercial use is free; commercial use needs a separate agreement (royalty-free up to AUD $100,000 cumulative gross revenue, 10% above). Visible attribution is required, e.g. "Contains assets © Chikn. Used under licence. https://chikn.farm". Do not resell the original assets as standalone packs.

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.1 - 2026-11-25
+
+- Refresh the pinned official set to 42 clips: Run_Slow and Run_Fast replace Run, and Death ends grounded with the source's shared eye attachment.
+- Preserve body-specific shared-image sizes through layout scaling and keep the original image bytes deduplicated.
+- Accept earlier official Run recipes as Run_Slow when using the refreshed pack. Existing published 0.7.0 packs remain immutable.
+- Retain source licences, all previous rights records and excluded paths; classify the one new shared image under the original Chikn terms.
+
 ## 0.7.0 - 2026-11-25
 
 - Add the pinned official Coqfight snapshot: 41 clips, 21 body skins per species, 174 Chikn and 224 Roostr traits, with source hashes and preserved upstream licences.

@@ -3,14 +3,15 @@
   "setId": "coqfight-v1",
   "source": "https://assets.chikn.farm/",
   "snapshotDate": "2026-11-25",
+  "snapshotCutoffUtc": "2026-11-25T13:58:02.292Z",
   "documents": [
     {
       "url": "https://assets.chikn.farm/llms.txt",
       "sourcePath": "sources/coqfight-v1/llms.txt",
-      "bytes": 4101,
-      "sha256": "78cd3d7f820eeeef68fbf8eae70ffa0b3e6edfa16b6eb9a47f41cf5949e1b02e",
-      "canonicalSha256": "78cd3d7f820eeeef68fbf8eae70ffa0b3e6edfa16b6eb9a47f41cf5949e1b02e",
-      "lastModified": "Wed, 25 Nov 2026 06:16:40 GMT"
+      "bytes": 4350,
+      "sha256": "a9a179ea9c52078914df5383f7de334cc4c861435fcf9cb13737826488ee3dd7",
+      "canonicalSha256": "a9a179ea9c52078914df5383f7de334cc4c861435fcf9cb13737826488ee3dd7",
+      "lastModified": "Wed, 25 Nov 2026 07:37:57 GMT"
     },
     {
       "url": "https://assets.chikn.farm/LICENSE.md",
@@ -18,7 +19,7 @@
       "bytes": 3855,
       "sha256": "fd5cc718c1c61062af0da520337cbc2a24a5c730edc8a839216e084ae12e9f95",
       "canonicalSha256": "fd5cc718c1c61062af0da520337cbc2a24a5c730edc8a839216e084ae12e9f95",
-      "lastModified": "Wed, 25 Nov 2026 06:16:41 GMT"
+      "lastModified": "Wed, 25 Nov 2026 13:54:16 GMT"
     },
     {
       "url": "https://assets.chikn.farm/v1/traits/traits.json",
@@ -26,7 +27,7 @@
       "bytes": 314352,
       "sha256": "c755a79abbd47b821e467976c0ad6bfb4bd892201eabf5de8ff29d76b3887fe8",
       "canonicalSha256": "c755a79abbd47b821e467976c0ad6bfb4bd892201eabf5de8ff29d76b3887fe8",
-      "lastModified": "Wed, 25 Nov 2026 06:16:41 GMT"
+      "lastModified": "Wed, 25 Nov 2026 07:37:20 GMT"
     },
     {
       "url": "https://assets.chikn.farm/v1/traits/trait-rules.json",
@@ -34,42 +35,55 @@
       "bytes": 183,
       "sha256": "08020623e2022d532c2a0eab234cb069c18d5cdd0cee3027bd6258f3bb61bf25",
       "canonicalSha256": "08020623e2022d532c2a0eab234cb069c18d5cdd0cee3027bd6258f3bb61bf25",
-      "lastModified": "Wed, 25 Nov 2026 06:16:41 GMT"
+      "lastModified": "Wed, 25 Nov 2026 13:54:17 GMT"
     },
     {
       "url": "https://assets.chikn.farm/v1/chikn/chikn.json",
       "sourcePath": "sources/coqfight-v1/chikn/chikn.json",
-      "bytes": 1291622,
-      "sha256": "455053a552e8670a8aacaf77c7265a05cc63acf5f749030860deb7c3bba52f28",
-      "canonicalSha256": "455053a552e8670a8aacaf77c7265a05cc63acf5f749030860deb7c3bba52f28",
-      "lastModified": "Wed, 25 Nov 2026 06:15:04 GMT"
+      "bytes": 1304937,
+      "sha256": "336bcc5f4269ba32f03517ee512921add67f66e0b06b99bc384f139e284b446f",
+      "canonicalSha256": "336bcc5f4269ba32f03517ee512921add67f66e0b06b99bc384f139e284b446f",
+      "lastModified": "Wed, 25 Nov 2026 07:37:20 GMT"
     },
     {
       "url": "https://assets.chikn.farm/v1/chikn/chikn-animations-meta.json",
       "sourcePath": "sources/coqfight-v1/chikn/chikn-animations-meta.json",
-      "bytes": 11518,
-      "sha256": "422aba297e94371b10ff901c1e8f2a1521b07757c0f0d8519c042ff5106a1628",
-      "canonicalSha256": "422aba297e94371b10ff901c1e8f2a1521b07757c0f0d8519c042ff5106a1628",
-      "lastModified": "Wed, 25 Nov 2026 06:15:51 GMT"
+      "bytes": 11495,
+      "sha256": "db81835720d86ac761b4d423e50132903b3e472e417182d4cee9ac131a1b5594",
+      "canonicalSha256": "db81835720d86ac761b4d423e50132903b3e472e417182d4cee9ac131a1b5594",
+      "lastModified": "Wed, 25 Nov 2026 13:44:04 GMT"
     },
     {
       "url": "https://assets.chikn.farm/v1/roostr/roostr.json",
       "sourcePath": "sources/coqfight-v1/roostr/roostr.json",
-      "bytes": 1303359,
-      "sha256": "ccbbc351a33c52858e7b319fae19436a6c67216c9b39ac6012d9ad2e98cb9a4c",
-      "canonicalSha256": "ccbbc351a33c52858e7b319fae19436a6c67216c9b39ac6012d9ad2e98cb9a4c",
-      "lastModified": "Wed, 25 Nov 2026 06:15:51 GMT"
+      "bytes": 1316914,
+      "sha256": "2b8efab91e9c1de0955eeb19df80894f6963492dab1ddea0c210ddcf33f2b06f",
+      "canonicalSha256": "2b8efab91e9c1de0955eeb19df80894f6963492dab1ddea0c210ddcf33f2b06f",
+      "lastModified": "Wed, 25 Nov 2026 07:37:41 GMT"
     },
     {
       "url": "https://assets.chikn.farm/v1/roostr/roostr-animations-meta.json",
       "sourcePath": "sources/coqfight-v1/roostr/roostr-animations-meta.json",
-      "bytes": 11518,
-      "sha256": "422aba297e94371b10ff901c1e8f2a1521b07757c0f0d8519c042ff5106a1628",
-      "canonicalSha256": "422aba297e94371b10ff901c1e8f2a1521b07757c0f0d8519c042ff5106a1628",
-      "lastModified": "Wed, 25 Nov 2026 06:16:41 GMT"
+      "bytes": 11495,
+      "sha256": "db81835720d86ac761b4d423e50132903b3e472e417182d4cee9ac131a1b5594",
+      "canonicalSha256": "db81835720d86ac761b4d423e50132903b3e472e417182d4cee9ac131a1b5594",
+      "lastModified": "Wed, 25 Nov 2026 13:44:04 GMT"
     }
   ],
   "images": [
+    {
+      "url": "https://assets.chikn.farm/v1/chikn/images/_shared/Death.Eye.png",
+      "species": "chikn",
+      "path": "_shared/Death.Eye",
+      "skinId": "SweatyMeatChikn",
+      "sourcePath": "sources/traits-chikn/Base/_shared/coqfight-v1-476b6b488b37fddb8832.png",
+      "assetId": "chikn-traits/base/shared/coqfight-v1-476b6b488b37fddb8832",
+      "alias": "coqfight-v1/chikn/images/_shared/Death.Eye",
+      "bytes": 5847,
+      "sha256": "476b6b488b37fddb8832e9609a3321d5f113bfb180f3b1cea31842b184390944",
+      "width": 120,
+      "height": 120
+    },
     {
       "url": "https://assets.chikn.farm/v1/chikn/images/_shared/Front.Forehand.Back.png",
       "species": "chikn",
@@ -6231,6 +6245,19 @@
       "sha256": "6f9ef3462bd823baaa305e8d4212d9477ae55e32153b4c3eb3c28077447202f7",
       "width": 432,
       "height": 461
+    },
+    {
+      "url": "https://assets.chikn.farm/v1/roostr/images/_shared/Death.Eye.png",
+      "species": "roostr",
+      "path": "_shared/Death.Eye",
+      "skinId": "Split",
+      "sourcePath": "sources/traits-chikn/Base/_shared/coqfight-v1-476b6b488b37fddb8832.png",
+      "assetId": "chikn-traits/base/shared/coqfight-v1-476b6b488b37fddb8832",
+      "alias": "coqfight-v1/roostr/images/_shared/Death.Eye",
+      "bytes": 5847,
+      "sha256": "476b6b488b37fddb8832e9609a3321d5f113bfb180f3b1cea31842b184390944",
+      "width": 120,
+      "height": 120
     },
     {
       "url": "https://assets.chikn.farm/v1/roostr/images/_shared/Front.Forehand.Back.png",
@@ -13213,6 +13240,5 @@
       "width": 699,
       "height": 1072
     }
-  ],
-  "snapshotCutoffUtc": "2026-11-25T06:17:53.538Z"
+  ]
 }

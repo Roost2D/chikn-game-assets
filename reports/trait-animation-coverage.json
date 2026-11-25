@@ -1,6 +1,6 @@
 {
   "schema": "chikn-game-assets.trait-animation-coverage/v2",
-  "assetManifestVersion": "0.7.0",
+  "assetManifestVersion": "0.7.1-rc.1",
   "totals": {
     "traitGroups": 276,
     "chikn": 114,
@@ -21,7 +21,7 @@
         "occupiedSlots": [
           "Torso.Pipes.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -32,7 +32,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -45,7 +45,7 @@
           "Head.Back",
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -60,7 +60,7 @@
           "Front.Leg.Upper.Front",
           "Torso.Shorts"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -71,7 +71,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -82,7 +82,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -93,7 +93,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -104,7 +104,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -115,7 +115,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -126,7 +126,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -137,7 +137,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -148,7 +148,7 @@
         "occupiedSlots": [
           "Torso.Bag"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -159,7 +159,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -172,7 +172,7 @@
           "Torso.Pipes.Back",
           "Torso.Pipes.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -183,7 +183,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -194,7 +194,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -205,7 +205,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -216,7 +216,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -227,7 +227,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -240,7 +240,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -253,7 +253,7 @@
           "Back.Forehand.Front",
           "Front.Forehand.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -264,7 +264,7 @@
         "occupiedSlots": [
           "Torso.Bag"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -275,7 +275,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -290,7 +290,7 @@
           "Front.Leg.Foot.Front",
           "Front.Leg.Lower.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -303,7 +303,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -314,7 +314,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -325,7 +325,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -336,7 +336,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -349,7 +349,7 @@
           "Head.Back",
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -364,7 +364,7 @@
           "Torso.Front",
           "Neck.Shirt"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -375,7 +375,7 @@
         "occupiedSlots": [
           "Front.Forehand.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -386,7 +386,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -399,7 +399,7 @@
           "Head.Back",
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -412,7 +412,7 @@
           "Head.Special",
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -423,7 +423,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -434,7 +434,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -445,7 +445,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -456,7 +456,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -469,7 +469,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -480,7 +480,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -491,7 +491,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -502,7 +502,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -513,7 +513,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -524,7 +524,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -535,7 +535,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -546,7 +546,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -557,7 +557,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -568,7 +568,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -583,7 +583,7 @@
           "Front.Leg.Foot.Front",
           "Front.Leg.Lower.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -594,7 +594,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -605,7 +605,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -616,7 +616,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -627,7 +627,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -638,7 +638,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -649,7 +649,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -660,7 +660,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -671,7 +671,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -682,7 +682,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -693,7 +693,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -704,7 +704,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -715,7 +715,7 @@
         "occupiedSlots": [
           "Torso.Pipes.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -726,7 +726,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -737,7 +737,7 @@
         "occupiedSlots": [
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -750,7 +750,7 @@
           "Head.Back",
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -761,7 +761,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -772,7 +772,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -783,7 +783,7 @@
         "occupiedSlots": [
           "Tail.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -796,7 +796,7 @@
           "Torso.TailConnector",
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -807,7 +807,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -822,7 +822,7 @@
           "Front.Leg.Foot.Front",
           "Front.Leg.Lower.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -835,7 +835,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -846,7 +846,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -857,7 +857,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -870,7 +870,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -883,7 +883,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -896,7 +896,7 @@
           "Front.Wing.Front",
           "Back.Wing.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -907,7 +907,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -920,7 +920,7 @@
           "Head.Back",
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -931,7 +931,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -942,7 +942,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -953,7 +953,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -964,7 +964,7 @@
         "occupiedSlots": [
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -977,7 +977,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -990,7 +990,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1001,7 +1001,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1012,7 +1012,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1027,7 +1027,7 @@
           "Torso.Front",
           "Neck.Shirt"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1039,7 +1039,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1050,7 +1050,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1061,7 +1061,7 @@
         "occupiedSlots": [
           "Tail.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1072,7 +1072,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1083,7 +1083,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1094,7 +1094,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1105,7 +1105,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1116,7 +1116,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1129,7 +1129,7 @@
           "Back.Forehand.Front",
           "Front.Forehand.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1140,7 +1140,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1151,7 +1151,7 @@
         "occupiedSlots": [
           "Tail.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1162,7 +1162,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1175,7 +1175,7 @@
           "Front.Wing.Front",
           "Back.Wing.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1188,7 +1188,7 @@
           "Front.Wing.Front",
           "Back.Wing.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1199,7 +1199,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1210,7 +1210,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1221,7 +1221,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1232,7 +1232,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1243,7 +1243,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1254,7 +1254,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1265,7 +1265,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1276,7 +1276,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1287,7 +1287,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1298,7 +1298,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1309,7 +1309,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1320,7 +1320,7 @@
         "occupiedSlots": [
           "Tail.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1331,7 +1331,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1344,7 +1344,7 @@
           "Torso.TailConnector",
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1355,7 +1355,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1366,7 +1366,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1377,7 +1377,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1388,7 +1388,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1399,7 +1399,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1410,7 +1410,7 @@
         "occupiedSlots": [
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1421,7 +1421,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1432,7 +1432,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1445,7 +1445,7 @@
           "Back.Forehand.Front",
           "Front.Forehand.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1456,7 +1456,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1467,7 +1467,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1478,7 +1478,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1490,7 +1490,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1501,7 +1501,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1516,7 +1516,7 @@
           "Front.Leg.Foot.Front",
           "Front.Leg.Lower.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1529,7 +1529,7 @@
           "Front.Leg.Lower.Cover",
           "Back.Leg.Lower.Cover"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1540,7 +1540,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1551,7 +1551,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1563,7 +1563,7 @@
           "Back.Leg.Foot.Special",
           "Front.Leg.Foot.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1576,7 +1576,7 @@
           "Back.Leg.Lower.Cover",
           "Front.Leg.Lower.Cover"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1587,7 +1587,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1598,7 +1598,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1613,7 +1613,7 @@
           "Front.Leg.Foot.Front",
           "Front.Leg.Lower.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1626,7 +1626,7 @@
           "Back.Leg.Lower.Cover",
           "Front.Leg.Lower.Cover"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1637,7 +1637,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1650,7 +1650,7 @@
           "Torso.TailConnector",
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1663,7 +1663,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1676,7 +1676,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1687,7 +1687,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1698,7 +1698,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1709,7 +1709,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1720,7 +1720,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1733,7 +1733,7 @@
           "Neck.Back",
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1744,7 +1744,7 @@
         "occupiedSlots": [
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1755,7 +1755,7 @@
         "occupiedSlots": [
           "Front.Forehand.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1766,7 +1766,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1777,7 +1777,7 @@
         "occupiedSlots": [
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1788,7 +1788,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1799,7 +1799,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1810,7 +1810,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1821,7 +1821,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1832,7 +1832,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1843,7 +1843,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1854,7 +1854,7 @@
         "occupiedSlots": [
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1865,7 +1865,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1876,7 +1876,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1889,7 +1889,7 @@
           "Back.Leg.Lower.Cover",
           "Front.Leg.Lower.Cover"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1900,7 +1900,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1911,7 +1911,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1922,7 +1922,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1933,7 +1933,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1944,7 +1944,7 @@
         "occupiedSlots": [
           "Tail.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1955,7 +1955,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1966,7 +1966,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1977,7 +1977,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -1988,7 +1988,7 @@
         "occupiedSlots": [
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -2001,7 +2001,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -2014,7 +2014,7 @@
           "Back.Leg.Lower.Cover",
           "Front.Leg.Lower.Cover"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "chikn",
@@ -2027,7 +2027,7 @@
           "Back.Leg.Lower.Cover",
           "Front.Leg.Lower.Cover"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2038,7 +2038,7 @@
         "occupiedSlots": [
           "Torso.Pipes.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2049,7 +2049,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2062,7 +2062,7 @@
           "Head.Back",
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2073,7 +2073,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2084,7 +2084,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2095,7 +2095,7 @@
         "occupiedSlots": [
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2108,7 +2108,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2121,7 +2121,7 @@
           "Back.Leg.Lower.Cover",
           "Front.Leg.Lower.Cover"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2134,7 +2134,7 @@
           "Back.Leg.Lower.Cover",
           "Front.Leg.Lower.Cover"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2145,7 +2145,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2158,7 +2158,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2171,7 +2171,7 @@
           "Back.Leg.Lower.Cover",
           "Front.Leg.Lower.Cover"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2184,7 +2184,7 @@
           "Back.Leg.Lower.Cover",
           "Front.Leg.Lower.Cover"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2197,7 +2197,7 @@
           "Neck.Back",
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2210,7 +2210,7 @@
           "Neck.Back",
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2221,7 +2221,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2232,7 +2232,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2243,7 +2243,7 @@
         "occupiedSlots": [
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2254,7 +2254,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2265,7 +2265,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2276,7 +2276,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2293,7 +2293,7 @@
           "Torso.Back",
           "Torso.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2304,7 +2304,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2315,7 +2315,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2326,7 +2326,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2337,7 +2337,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2348,7 +2348,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2359,7 +2359,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2370,7 +2370,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2383,7 +2383,7 @@
           "Torso.Pipes.Front",
           "Torso.Pipes.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2394,7 +2394,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2405,7 +2405,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2416,7 +2416,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2429,7 +2429,7 @@
           "Back.Forehand.Front",
           "Front.Forehand.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2442,7 +2442,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2453,7 +2453,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2464,7 +2464,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2475,7 +2475,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2486,7 +2486,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2499,7 +2499,7 @@
           "Head.Front.Top",
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2514,7 +2514,7 @@
           "Front.Wing.Front",
           "Neck.Shirt"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2529,7 +2529,7 @@
           "Front.Wing.Front",
           "Neck.Shirt"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2540,7 +2540,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2553,7 +2553,7 @@
           "Head.Back",
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2566,7 +2566,7 @@
           "Head.Special",
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2577,7 +2577,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2590,7 +2590,7 @@
           "Head.Front",
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2601,7 +2601,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2612,7 +2612,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2623,7 +2623,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2634,7 +2634,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2645,7 +2645,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2656,7 +2656,7 @@
         "occupiedSlots": [
           "Torso.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2667,7 +2667,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2684,7 +2684,7 @@
           "Front.Wing.Front",
           "Neck.Shirt"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2695,7 +2695,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2706,7 +2706,7 @@
         "occupiedSlots": [
           "Front.Leg.Lower.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2717,7 +2717,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2728,7 +2728,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2739,7 +2739,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2750,7 +2750,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2763,7 +2763,7 @@
           "Back.Leg.Lower.Front",
           "Front.Leg.Lower.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2774,7 +2774,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2785,7 +2785,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2796,7 +2796,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2807,7 +2807,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2818,7 +2818,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2829,7 +2829,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2840,7 +2840,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2851,7 +2851,7 @@
         "occupiedSlots": [
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2862,7 +2862,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2873,7 +2873,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2884,7 +2884,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2895,7 +2895,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2906,7 +2906,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2917,7 +2917,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2930,7 +2930,7 @@
           "Back.Leg.Lower.Cover",
           "Front.Leg.Lower.Cover"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2941,7 +2941,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2954,7 +2954,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2967,7 +2967,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2980,7 +2980,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -2991,7 +2991,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3002,7 +3002,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3017,7 +3017,7 @@
           "Front.Leg.Foot.Front",
           "Front.Leg.Lower.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3028,7 +3028,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3039,7 +3039,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3050,7 +3050,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3061,7 +3061,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3072,7 +3072,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3083,7 +3083,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3094,7 +3094,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3105,7 +3105,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3116,7 +3116,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3127,7 +3127,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3144,7 +3144,7 @@
           "Front.Leg.Foot.Front",
           "Front.Leg.Lower.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3161,7 +3161,7 @@
           "Front.Leg.Foot.Front",
           "Front.Leg.Lower.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3176,7 +3176,7 @@
           "Front.Leg.Foot.Front",
           "Front.Leg.Lower.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3191,7 +3191,7 @@
           "Front.Leg.Foot.Front",
           "Front.Leg.Lower.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3202,7 +3202,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3213,7 +3213,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3224,7 +3224,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3235,7 +3235,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3246,7 +3246,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3257,7 +3257,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3268,7 +3268,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3283,7 +3283,7 @@
           "Neck.Shirt",
           "Torso.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3294,7 +3294,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3305,7 +3305,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3318,7 +3318,7 @@
           "Head.Back",
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3329,7 +3329,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3342,7 +3342,7 @@
           "Torso.Pipes.Front",
           "Torso.Pipes.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3353,7 +3353,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3364,7 +3364,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3375,7 +3375,7 @@
         "occupiedSlots": [
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3386,7 +3386,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3397,7 +3397,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3408,7 +3408,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3419,7 +3419,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3430,7 +3430,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3443,7 +3443,7 @@
           "Head.Back",
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3454,7 +3454,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3465,7 +3465,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3476,7 +3476,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3487,7 +3487,7 @@
         "occupiedSlots": [
           "Torso.BackFloat"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3498,7 +3498,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3511,7 +3511,7 @@
           "Back.Leg.Foot.Special",
           "Front.Leg.Foot.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3524,7 +3524,7 @@
           "Back.Leg.Foot.Special",
           "Front.Leg.Foot.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3535,7 +3535,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3546,7 +3546,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3559,7 +3559,7 @@
           "Head.Special",
           "Head.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3570,7 +3570,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3581,7 +3581,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3594,7 +3594,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3607,7 +3607,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3618,7 +3618,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3629,7 +3629,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3640,7 +3640,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3651,7 +3651,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3666,7 +3666,7 @@
           "Neck.Shirt",
           "Torso.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3677,7 +3677,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3689,7 +3689,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3700,7 +3700,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3711,7 +3711,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3728,7 +3728,7 @@
           "Torso.Back",
           "Torso.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3739,7 +3739,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3750,7 +3750,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3761,7 +3761,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3772,7 +3772,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3785,7 +3785,7 @@
           "Back.Forehand.Front",
           "Front.Forehand.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3796,7 +3796,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3807,7 +3807,7 @@
         "occupiedSlots": [
           "Tail.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3818,7 +3818,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3831,7 +3831,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3844,7 +3844,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3855,7 +3855,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3866,7 +3866,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3877,7 +3877,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3888,7 +3888,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3899,7 +3899,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3910,7 +3910,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3921,7 +3921,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3932,7 +3932,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3943,7 +3943,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3954,7 +3954,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3965,7 +3965,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3976,7 +3976,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -3987,7 +3987,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4000,7 +4000,7 @@
           "Back.Forehand.Front",
           "Front.Forehand.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4011,7 +4011,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4022,7 +4022,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4033,7 +4033,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4045,7 +4045,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4056,7 +4056,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4067,7 +4067,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4078,7 +4078,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4089,7 +4089,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4101,7 +4101,7 @@
           "Back.Leg.Foot.Special",
           "Front.Leg.Foot.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4112,7 +4112,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4123,7 +4123,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4134,7 +4134,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4145,7 +4145,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4156,7 +4156,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4167,7 +4167,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4178,7 +4178,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4191,7 +4191,7 @@
           "Neck.Back",
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4204,7 +4204,7 @@
           "Head.Back",
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4215,7 +4215,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4226,7 +4226,7 @@
         "occupiedSlots": [
           "GroundTrait"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4237,7 +4237,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4248,7 +4248,7 @@
         "occupiedSlots": [
           "Torso.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4261,7 +4261,7 @@
           "Head.Back",
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4272,7 +4272,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4283,7 +4283,7 @@
         "occupiedSlots": [
           "Front.Forehand.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4296,7 +4296,7 @@
           "Neck.Front",
           "Neck.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4307,7 +4307,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4320,7 +4320,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4333,7 +4333,7 @@
           "Back.Wing.Back",
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4344,7 +4344,7 @@
         "occupiedSlots": [
           "Front.Wing.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4355,7 +4355,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4366,7 +4366,7 @@
         "occupiedSlots": [
           "Torso.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4377,7 +4377,7 @@
         "occupiedSlots": [
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4390,7 +4390,7 @@
           "Back.Leg.Foot.Front",
           "Front.Leg.Foot.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4401,7 +4401,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4412,7 +4412,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4423,7 +4423,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4434,7 +4434,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4445,7 +4445,7 @@
         "occupiedSlots": [
           "Head.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4456,7 +4456,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4467,7 +4467,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4478,7 +4478,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4489,7 +4489,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4500,7 +4500,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4511,7 +4511,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4522,7 +4522,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4533,7 +4533,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4546,7 +4546,7 @@
           "Head.Back",
           "Head.Front.Top"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4557,7 +4557,7 @@
         "occupiedSlots": [
           "Neck.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4568,7 +4568,7 @@
         "occupiedSlots": [
           "Front.Forehand.Back"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4583,7 +4583,7 @@
           "Torso.Front",
           "Neck.Shirt"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4598,7 +4598,7 @@
           "Torso.Front",
           "Neck.Shirt"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4613,7 +4613,7 @@
           "Torso.Front",
           "Neck.Shirt"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4628,7 +4628,7 @@
           "Neck.Shirt",
           "Torso.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4639,7 +4639,7 @@
         "occupiedSlots": [
           "Head.Front"
         ],
-        "animationCount": 41
+        "animationCount": 42
       },
       {
         "species": "roostr",
@@ -4650,7 +4650,7 @@
         "occupiedSlots": [
           "Tail.Special"
         ],
-        "animationCount": 41
+        "animationCount": 42
       }
     ]
   },

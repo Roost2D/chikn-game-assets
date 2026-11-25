@@ -183,8 +183,9 @@ export async function renderCoqfightPreview(host: HTMLElement, session: RouteSes
       traits.replaceChildren(...options.traitSkinIds.map((id) => new Option(id.replace(/^trait\//, ''), id, false, saved.traitSkinIds?.includes(id))));
       traitOrder = (saved.traitSkinIds ?? []).filter((id) => options.traitSkinIds.includes(id));
       animation.replaceChildren(...catalog.animationNames.map((name) => new Option(name, name)));
-      animation.value = catalog.animationNames.includes(saved.animationName ?? '') ? saved.animationName! : 'Idle';
-      loop.checked = ['Idle', 'IdleHurt', 'Walk', 'Run', 'Victory', 'Flap'].includes(animation.value);
+      const savedAnimation = saved.animationName === 'Run' && catalog.animationNames.includes('Run_Slow') ? 'Run_Slow' : saved.animationName;
+      animation.value = catalog.animationNames.includes(savedAnimation ?? '') ? savedAnimation! : 'Idle';
+      loop.checked = ['Idle', 'IdleHurt', 'Walk', 'Run_Slow', 'Run_Fast', 'Victory', 'Flap'].includes(animation.value);
       await refresh();
     } catch (error) { if (!session.isStale && token === generation) status.textContent = error instanceof Error ? error.message : String(error); }
   };

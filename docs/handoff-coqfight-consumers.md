@@ -2,7 +2,7 @@
 
 The shared release implements the shared libraries, asset builder, website and
 Chikn starter. Game adoption remains a later task. The engine version is
-`0.10.0`, and the asset helper/media version is `0.7.0`. All official source and converted data is in
+`0.10.0`, and the asset helper/media version is `0.7.1-rc.1`. All official source and converted data is in
 the separately licensed immutable media artifact; npm tarballs contain code,
 types, IDs and notices only.
 
@@ -15,7 +15,7 @@ existing source/evidence qualification and platform synchronization requirements
 
 Keep authored loaders and V1 recipes/actions available. Official recipes use
 `chikn.coqfight-character/v1` and exact upstream body/trait/animation names.
-Do not silently reinterpret saved authored IDs. The catalog contains 41 clips,
+Do not silently reinterpret saved authored IDs. The catalog contains 42 clips,
 including upstream-generated locomotion; it is not an automatic mapping from
 game actions to damage, cooldowns, hit frames, collisions or projectile cues.
 

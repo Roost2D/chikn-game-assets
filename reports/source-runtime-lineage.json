@@ -10175,7 +10175,7 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/bayc/coqfight-v1-0587311d1fbc74c3d4f2",
           "frame": {
-            "x": 859,
+            "x": 925,
             "y": 863,
             "width": 126,
             "height": 42,
@@ -10188,7 +10188,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/bayc/coqfight-v1-0587311d1fbc74c3d4f2",
           "frame": {
-            "x": 770,
+            "x": 1225,
             "y": 186,
             "width": 251,
             "height": 84,
@@ -10212,7 +10212,7 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/bayc/coqfight-v1-7c91a1eff6182e54da98",
           "frame": {
-            "x": 991,
+            "x": 1057,
             "y": 863,
             "width": 126,
             "height": 42,
@@ -10225,7 +10225,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/bayc/coqfight-v1-7c91a1eff6182e54da98",
           "frame": {
-            "x": 1027,
+            "x": 1482,
             "y": 186,
             "width": 251,
             "height": 84,
@@ -10582,7 +10582,7 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/bullion/bullion-legfoot-a",
           "frame": {
-            "x": 1123,
+            "x": 1189,
             "y": 863,
             "width": 126,
             "height": 42,
@@ -10595,7 +10595,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/bullion/bullion-legfoot-a",
           "frame": {
-            "x": 1284,
+            "x": 1739,
             "y": 186,
             "width": 251,
             "height": 84,
@@ -10619,7 +10619,7 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/bullion/bullion-legfoot-b",
           "frame": {
-            "x": 1255,
+            "x": 1321,
             "y": 863,
             "width": 126,
             "height": 42,
@@ -10632,7 +10632,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/bullion/bullion-legfoot-b",
           "frame": {
-            "x": 1541,
+            "x": 1996,
             "y": 186,
             "width": 251,
             "height": 84,
@@ -10915,7 +10915,7 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/bullion/coqfight-v1-03bb571a47a6c76fda91",
           "frame": {
-            "x": 1387,
+            "x": 1453,
             "y": 863,
             "width": 126,
             "height": 42,
@@ -10928,7 +10928,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/bullion/coqfight-v1-03bb571a47a6c76fda91",
           "frame": {
-            "x": 1798,
+            "x": 2253,
             "y": 186,
             "width": 251,
             "height": 84,
@@ -11248,7 +11248,7 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/celestial/celestial-legfoot-a",
           "frame": {
-            "x": 1519,
+            "x": 1585,
             "y": 863,
             "width": 126,
             "height": 42,
@@ -11261,7 +11261,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/celestial/celestial-legfoot-a",
           "frame": {
-            "x": 2055,
+            "x": 2510,
             "y": 186,
             "width": 251,
             "height": 84,
@@ -11285,7 +11285,7 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/celestial/celestial-legfoot-b",
           "frame": {
-            "x": 1651,
+            "x": 1717,
             "y": 863,
             "width": 126,
             "height": 42,
@@ -11298,7 +11298,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/celestial/celestial-legfoot-b",
           "frame": {
-            "x": 2312,
+            "x": 2767,
             "y": 186,
             "width": 251,
             "height": 84,
@@ -11692,7 +11692,7 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/celestial/coqfight-v1-165a2d914a667bbd2ed9",
           "frame": {
-            "x": 1783,
+            "x": 1849,
             "y": 863,
             "width": 126,
             "height": 42,
@@ -11705,7 +11705,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/celestial/coqfight-v1-165a2d914a667bbd2ed9",
           "frame": {
-            "x": 2569,
+            "x": 3024,
             "y": 186,
             "width": 251,
             "height": 84,
@@ -11877,8 +11877,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/celestial/coqfight-v1-c12b6bc2f017a3284eb9",
           "frame": {
-            "x": 1915,
-            "y": 863,
+            "x": 3,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -11890,7 +11890,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/celestial/coqfight-v1-c12b6bc2f017a3284eb9",
           "frame": {
-            "x": 2826,
+            "x": 3281,
             "y": 186,
             "width": 251,
             "height": 84,
@@ -12173,7 +12173,7 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/cryptopunk/coqfight-v1-d5a38d0ec5dc0b9acac0",
           "frame": {
-            "x": 597,
+            "x": 663,
             "y": 863,
             "width": 125,
             "height": 43,
@@ -12186,7 +12186,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/cryptopunk/coqfight-v1-d5a38d0ec5dc0b9acac0",
           "frame": {
-            "x": 260,
+            "x": 715,
             "y": 186,
             "width": 249,
             "height": 85,
@@ -12247,7 +12247,7 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/cryptopunk/coqfight-v1-e4696b499f3cf4281daa",
           "frame": {
-            "x": 728,
+            "x": 794,
             "y": 863,
             "width": 125,
             "height": 43,
@@ -12260,7 +12260,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/cryptopunk/coqfight-v1-e4696b499f3cf4281daa",
           "frame": {
-            "x": 515,
+            "x": 970,
             "y": 186,
             "width": 249,
             "height": 85,
@@ -12358,8 +12358,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/crystale/coqfight-v1-01cb2aa26311ac046310",
           "frame": {
-            "x": 3,
-            "y": 922,
+            "x": 135,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -12371,7 +12371,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/crystale/coqfight-v1-01cb2aa26311ac046310",
           "frame": {
-            "x": 3083,
+            "x": 3538,
             "y": 186,
             "width": 251,
             "height": 84,
@@ -12543,8 +12543,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/crystale/coqfight-v1-aa2eed1e342feabd00a4",
           "frame": {
-            "x": 135,
-            "y": 922,
+            "x": 267,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -12556,7 +12556,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/crystale/coqfight-v1-aa2eed1e342feabd00a4",
           "frame": {
-            "x": 3340,
+            "x": 3795,
             "y": 186,
             "width": 251,
             "height": 84,
@@ -12802,8 +12802,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/crystale/crystale-legfoot-a",
           "frame": {
-            "x": 267,
-            "y": 922,
+            "x": 399,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -12815,8 +12815,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/crystale/crystale-legfoot-a",
           "frame": {
-            "x": 3597,
-            "y": 186,
+            "x": 3,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -12839,8 +12839,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/crystale/crystale-legfoot-b",
           "frame": {
-            "x": 399,
-            "y": 922,
+            "x": 531,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -12852,8 +12852,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/crystale/crystale-legfoot-b",
           "frame": {
-            "x": 3,
-            "y": 277,
+            "x": 260,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -13135,8 +13135,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/degen/coqfight-v1-118652d4b102451c650b",
           "frame": {
-            "x": 531,
-            "y": 922,
+            "x": 663,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -13148,8 +13148,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/degen/coqfight-v1-118652d4b102451c650b",
           "frame": {
-            "x": 260,
-            "y": 277,
+            "x": 517,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -13431,8 +13431,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/degen/coqfight-v1-c702189c8eeca6b199f1",
           "frame": {
-            "x": 663,
-            "y": 922,
+            "x": 795,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -13444,8 +13444,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/degen/coqfight-v1-c702189c8eeca6b199f1",
           "frame": {
-            "x": 517,
-            "y": 277,
+            "x": 774,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -13764,8 +13764,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/dirtybird/coqfight-v1-d68a89fc17e24c2662b0",
           "frame": {
-            "x": 795,
-            "y": 922,
+            "x": 927,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -13777,8 +13777,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/dirtybird/coqfight-v1-d68a89fc17e24c2662b0",
           "frame": {
-            "x": 774,
-            "y": 277,
+            "x": 1031,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -13801,8 +13801,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/dirtybird/coqfight-v1-e1c46bb3916678c17173",
           "frame": {
-            "x": 927,
-            "y": 922,
+            "x": 1059,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -13814,8 +13814,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/dirtybird/coqfight-v1-e1c46bb3916678c17173",
           "frame": {
-            "x": 1031,
-            "y": 277,
+            "x": 1288,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -13875,8 +13875,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/elon/coqfight-v1-10f5b4650168ac65cfbe",
           "frame": {
-            "x": 1059,
-            "y": 922,
+            "x": 1191,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -13888,8 +13888,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/elon/coqfight-v1-10f5b4650168ac65cfbe",
           "frame": {
-            "x": 1288,
-            "y": 277,
+            "x": 1545,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -13912,8 +13912,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/elon/coqfight-v1-1b3f193810ec4d92a07d",
           "frame": {
-            "x": 1191,
-            "y": 922,
+            "x": 1323,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -13925,8 +13925,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/elon/coqfight-v1-1b3f193810ec4d92a07d",
           "frame": {
-            "x": 1545,
-            "y": 277,
+            "x": 1802,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -14282,8 +14282,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/froggreen/froggreen-legfoot-a",
           "frame": {
-            "x": 1323,
-            "y": 922,
+            "x": 1455,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -14295,8 +14295,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/froggreen/froggreen-legfoot-a",
           "frame": {
-            "x": 1802,
-            "y": 277,
+            "x": 2059,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -14319,8 +14319,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/froggreen/froggreen-legfoot-b",
           "frame": {
-            "x": 1455,
-            "y": 922,
+            "x": 1587,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -14332,8 +14332,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/froggreen/froggreen-legfoot-b",
           "frame": {
-            "x": 2059,
-            "y": 277,
+            "x": 2316,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -14911,8 +14911,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/frognationgreen/coqfight-v1-986f3ca1b8584d8b453e",
           "frame": {
-            "x": 1587,
-            "y": 922,
+            "x": 1719,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -14924,8 +14924,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/frognationgreen/coqfight-v1-986f3ca1b8584d8b453e",
           "frame": {
-            "x": 2316,
-            "y": 277,
+            "x": 2573,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -14985,8 +14985,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/frognationgreen/coqfight-v1-d8d694d94d39555acf8d",
           "frame": {
-            "x": 1719,
-            "y": 922,
+            "x": 1851,
+            "y": 929,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -14998,8 +14998,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/frognationgreen/coqfight-v1-d8d694d94d39555acf8d",
           "frame": {
-            "x": 2573,
-            "y": 277,
+            "x": 2830,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -15022,8 +15022,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/gameboy/coqfight-v1-075f7ff47e0f8261f0b6",
           "frame": {
-            "x": 1851,
-            "y": 922,
+            "x": 3,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -15035,8 +15035,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/gameboy/coqfight-v1-075f7ff47e0f8261f0b6",
           "frame": {
-            "x": 2830,
-            "y": 277,
+            "x": 3087,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -15429,8 +15429,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/gameboy/gameboy-legfoot-a",
           "frame": {
-            "x": 3,
-            "y": 970,
+            "x": 135,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -15442,8 +15442,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/gameboy/gameboy-legfoot-a",
           "frame": {
-            "x": 3087,
-            "y": 277,
+            "x": 3344,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -15725,8 +15725,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/kernel/coqfight-v1-1b4c230380372a2261cc",
           "frame": {
-            "x": 135,
-            "y": 970,
+            "x": 267,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -15738,8 +15738,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/kernel/coqfight-v1-1b4c230380372a2261cc",
           "frame": {
-            "x": 3344,
-            "y": 277,
+            "x": 3601,
+            "y": 298,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -16021,8 +16021,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/kernel/coqfight-v1-f03e4b871f232a13a81d",
           "frame": {
-            "x": 267,
-            "y": 970,
+            "x": 399,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -16034,8 +16034,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/kernel/coqfight-v1-f03e4b871f232a13a81d",
           "frame": {
-            "x": 3601,
-            "y": 277,
+            "x": 3,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -16317,8 +16317,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/mutantpurple/coqfight-v1-d04a878fa86ac5be83c6",
           "frame": {
-            "x": 399,
-            "y": 970,
+            "x": 531,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -16330,8 +16330,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/mutantpurple/coqfight-v1-d04a878fa86ac5be83c6",
           "frame": {
-            "x": 3,
-            "y": 367,
+            "x": 260,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -16465,8 +16465,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/mutantpurple/coqfight-v1-fd60e19ae0d202329ac0",
           "frame": {
-            "x": 531,
-            "y": 970,
+            "x": 663,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -16478,8 +16478,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/mutantpurple/coqfight-v1-fd60e19ae0d202329ac0",
           "frame": {
-            "x": 260,
-            "y": 367,
+            "x": 517,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -16539,8 +16539,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/mutantpurple/mutantpurple-legfoot-a",
           "frame": {
-            "x": 663,
-            "y": 970,
+            "x": 795,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -16552,8 +16552,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/mutantpurple/mutantpurple-legfoot-a",
           "frame": {
-            "x": 517,
-            "y": 367,
+            "x": 774,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -16576,8 +16576,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/mutantpurple/mutantpurple-legfoot-b",
           "frame": {
-            "x": 795,
-            "y": 970,
+            "x": 927,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -16589,8 +16589,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/mutantpurple/mutantpurple-legfoot-b",
           "frame": {
-            "x": 774,
-            "y": 367,
+            "x": 1031,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -16946,8 +16946,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/nightstalkerblue/coqfight-v1-44385671001c505ceb17",
           "frame": {
-            "x": 927,
-            "y": 970,
+            "x": 1059,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -16959,8 +16959,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/nightstalkerblue/coqfight-v1-44385671001c505ceb17",
           "frame": {
-            "x": 1031,
-            "y": 367,
+            "x": 1288,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -17168,8 +17168,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/nightstalkerblue/coqfight-v1-d4c2570b733d1d603969",
           "frame": {
-            "x": 1059,
-            "y": 970,
+            "x": 1191,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -17181,8 +17181,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/nightstalkerblue/coqfight-v1-d4c2570b733d1d603969",
           "frame": {
-            "x": 1288,
-            "y": 367,
+            "x": 1545,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -17316,8 +17316,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/nightstalkerblue/nightstalkerblue-legfoot-a",
           "frame": {
-            "x": 1191,
-            "y": 970,
+            "x": 1323,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -17329,8 +17329,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/nightstalkerblue/nightstalkerblue-legfoot-a",
           "frame": {
-            "x": 1545,
-            "y": 367,
+            "x": 1802,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -17353,8 +17353,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/nightstalkerblue/nightstalkerblue-legfoot-b",
           "frame": {
-            "x": 1323,
-            "y": 970,
+            "x": 1455,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -17366,8 +17366,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/nightstalkerblue/nightstalkerblue-legfoot-b",
           "frame": {
-            "x": 1802,
-            "y": 367,
+            "x": 2059,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -17834,8 +17834,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/passionred/passionred-legfoot-a",
           "frame": {
-            "x": 1455,
-            "y": 970,
+            "x": 1587,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -17847,8 +17847,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/passionred/passionred-legfoot-a",
           "frame": {
-            "x": 2059,
-            "y": 367,
+            "x": 2316,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -17871,8 +17871,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/passionred/passionred-legfoot-b",
           "frame": {
-            "x": 1587,
-            "y": 970,
+            "x": 1719,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -17884,8 +17884,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/passionred/passionred-legfoot-b",
           "frame": {
-            "x": 2316,
-            "y": 367,
+            "x": 2573,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -18389,8 +18389,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/pepe/coqfight-v1-b5ef423bd2aebee831e7",
           "frame": {
-            "x": 1719,
-            "y": 970,
+            "x": 1851,
+            "y": 977,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -18402,8 +18402,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/pepe/coqfight-v1-b5ef423bd2aebee831e7",
           "frame": {
-            "x": 2573,
-            "y": 367,
+            "x": 2830,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -18463,8 +18463,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/pepe/coqfight-v1-cf76045f3fb7955209fe",
           "frame": {
-            "x": 1851,
-            "y": 970,
+            "x": 3,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -18476,8 +18476,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/pepe/coqfight-v1-cf76045f3fb7955209fe",
           "frame": {
-            "x": 2830,
-            "y": 367,
+            "x": 3087,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -18611,8 +18611,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/pixel-chan/coqfight-v1-899281c8e5a2109d60e0",
           "frame": {
-            "x": 3,
-            "y": 1018,
+            "x": 135,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -18624,8 +18624,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/pixel-chan/coqfight-v1-899281c8e5a2109d60e0",
           "frame": {
-            "x": 3087,
-            "y": 367,
+            "x": 3344,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -18907,8 +18907,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/pixelchan/pixelchan-legfoot-a",
           "frame": {
-            "x": 135,
-            "y": 1018,
+            "x": 267,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -18920,8 +18920,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/pixelchan/pixelchan-legfoot-a",
           "frame": {
-            "x": 3344,
-            "y": 367,
+            "x": 3601,
+            "y": 388,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -19277,8 +19277,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/rusticbrown/coqfight-v1-3930f2abfdcbc96696ef",
           "frame": {
-            "x": 267,
-            "y": 1018,
+            "x": 399,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -19290,8 +19290,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/rusticbrown/coqfight-v1-3930f2abfdcbc96696ef",
           "frame": {
-            "x": 3601,
-            "y": 367,
+            "x": 3,
+            "y": 478,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -19573,8 +19573,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/rusticbrown/coqfight-v1-a07d968cf182d1ac65f4",
           "frame": {
-            "x": 399,
-            "y": 1018,
+            "x": 531,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -19586,8 +19586,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/rusticbrown/coqfight-v1-a07d968cf182d1ac65f4",
           "frame": {
-            "x": 3,
-            "y": 457,
+            "x": 260,
+            "y": 478,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -19647,8 +19647,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/rusticbrown/rusticbrown-legfoot-a",
           "frame": {
-            "x": 531,
-            "y": 1018,
+            "x": 663,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -19660,8 +19660,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/rusticbrown/rusticbrown-legfoot-a",
           "frame": {
-            "x": 260,
-            "y": 457,
+            "x": 517,
+            "y": 478,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -19684,8 +19684,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/rusticbrown/rusticbrown-legfoot-b",
           "frame": {
-            "x": 663,
-            "y": 1018,
+            "x": 795,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -19697,8 +19697,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/rusticbrown/rusticbrown-legfoot-b",
           "frame": {
-            "x": 517,
-            "y": 457,
+            "x": 774,
+            "y": 478,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -19962,6 +19962,43 @@
             "height": 491,
             "sourceWidth": 595,
             "sourceHeight": 491
+          }
+        }
+      ]
+    },
+    {
+      "assetId": "chikn-traits/base/shared/coqfight-v1-476b6b488b37fddb8832",
+      "sourcePaths": [
+        "sources/traits-chikn/Base/_shared/coqfight-v1-476b6b488b37fddb8832.png"
+      ],
+      "rightsIds": [
+        "rights/traits-chikn/base/shared/coqfight-v1-476b6b488b37fddb8832-png"
+      ],
+      "variants": [
+        {
+          "profile": "default",
+          "path": "runtime/atlases/default/chikn-traits-012.png",
+          "frameId": "chikn-traits/base/shared/coqfight-v1-476b6b488b37fddb8832",
+          "frame": {
+            "x": 3,
+            "y": 863,
+            "width": 60,
+            "height": 60,
+            "sourceWidth": 120,
+            "sourceHeight": 120
+          }
+        },
+        {
+          "profile": "high",
+          "path": "runtime/atlases/high/chikn-traits-012.png",
+          "frameId": "chikn-traits/base/shared/coqfight-v1-476b6b488b37fddb8832",
+          "frame": {
+            "x": 3123,
+            "y": 3,
+            "width": 120,
+            "height": 120,
+            "sourceWidth": 120,
+            "sourceHeight": 120
           }
         }
       ]
@@ -20498,8 +20535,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/sweatymeatchikn/coqfight-v1-4cbb895aa10506986d19",
           "frame": {
-            "x": 795,
-            "y": 1018,
+            "x": 927,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -20511,8 +20548,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/sweatymeatchikn/coqfight-v1-4cbb895aa10506986d19",
           "frame": {
-            "x": 774,
-            "y": 457,
+            "x": 1031,
+            "y": 478,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -20646,8 +20683,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/base/sweatymeatchikn/coqfight-v1-d1816a72cf1ab5f5e87d",
           "frame": {
-            "x": 927,
-            "y": 1018,
+            "x": 1059,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -20659,8 +20696,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/base/sweatymeatchikn/coqfight-v1-d1816a72cf1ab5f5e87d",
           "frame": {
-            "x": 1031,
-            "y": 457,
+            "x": 1288,
+            "y": 478,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -21756,8 +21793,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/coqfight-v1/chikn-bluefeet/coqfight-v1-c6aa27d364a05530308c",
           "frame": {
-            "x": 1059,
-            "y": 1018,
+            "x": 1191,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -21769,8 +21806,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/coqfight-v1/chikn-bluefeet/coqfight-v1-c6aa27d364a05530308c",
           "frame": {
-            "x": 1288,
-            "y": 457,
+            "x": 1545,
+            "y": 478,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -22792,7 +22829,7 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/coqfight-v1/chikn-dealwithit/coqfight-v1-d4afec2bcd0d9a21620a",
           "frame": {
-            "x": 3,
+            "x": 69,
             "y": 863,
             "width": 225,
             "height": 53,
@@ -22805,7 +22842,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/coqfight-v1/chikn-dealwithit/coqfight-v1-d4afec2bcd0d9a21620a",
           "frame": {
-            "x": 3123,
+            "x": 3249,
             "y": 3,
             "width": 449,
             "height": 106,
@@ -22829,7 +22866,7 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/coqfight-v1/chikn-diamondfeet/coqfight-v1-1e192591477ad12087b6",
           "frame": {
-            "x": 465,
+            "x": 531,
             "y": 863,
             "width": 126,
             "height": 43,
@@ -22842,7 +22879,7 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/coqfight-v1/chikn-diamondfeet/coqfight-v1-1e192591477ad12087b6",
           "frame": {
-            "x": 3,
+            "x": 458,
             "y": 186,
             "width": 251,
             "height": 85,
@@ -23754,8 +23791,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/coqfight-v1/chikn-greenfeet/coqfight-v1-c323ad0eed6a47af1f6d",
           "frame": {
-            "x": 1191,
-            "y": 1018,
+            "x": 1323,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -23767,8 +23804,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/coqfight-v1/chikn-greenfeet/coqfight-v1-c323ad0eed6a47af1f6d",
           "frame": {
-            "x": 1545,
-            "y": 457,
+            "x": 1802,
+            "y": 478,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -26196,8 +26233,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/coqfight-v1/chikn-purplefeet/coqfight-v1-98e7c2eb30a46e1d7019",
           "frame": {
-            "x": 1323,
-            "y": 1018,
+            "x": 1455,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -26209,8 +26246,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/coqfight-v1/chikn-purplefeet/coqfight-v1-98e7c2eb30a46e1d7019",
           "frame": {
-            "x": 1802,
-            "y": 457,
+            "x": 2059,
+            "y": 478,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -27972,8 +28009,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/feet/bluefeet-a",
           "frame": {
-            "x": 1455,
-            "y": 1018,
+            "x": 1587,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -27985,8 +28022,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/feet/bluefeet-a",
           "frame": {
-            "x": 2059,
-            "y": 457,
+            "x": 2316,
+            "y": 478,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -28194,8 +28231,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/feet/greenfeet-a",
           "frame": {
-            "x": 1587,
-            "y": 1018,
+            "x": 1719,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -28207,8 +28244,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/feet/greenfeet-a",
           "frame": {
-            "x": 2316,
-            "y": 457,
+            "x": 2573,
+            "y": 478,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -28453,8 +28490,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/feet/purplefeet-a",
           "frame": {
-            "x": 1719,
-            "y": 1018,
+            "x": 1851,
+            "y": 1025,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -28466,8 +28503,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/feet/purplefeet-a",
           "frame": {
-            "x": 2573,
-            "y": 457,
+            "x": 2830,
+            "y": 478,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -28675,8 +28712,8 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/feet/redfeet-a",
           "frame": {
-            "x": 1851,
-            "y": 1018,
+            "x": 3,
+            "y": 1073,
             "width": 126,
             "height": 42,
             "sourceWidth": 251,
@@ -28688,8 +28725,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/feet/redfeet-a",
           "frame": {
-            "x": 2830,
-            "y": 457,
+            "x": 3087,
+            "y": 478,
             "width": 251,
             "height": 84,
             "sourceWidth": 251,
@@ -29563,7 +29600,7 @@
           "path": "runtime/atlases/default/chikn-traits-012.png",
           "frameId": "chikn-traits/head/dealwithit",
           "frame": {
-            "x": 234,
+            "x": 300,
             "y": 863,
             "width": 225,
             "height": 53,
@@ -29576,8 +29613,8 @@
           "path": "runtime/atlases/high/chikn-traits-012.png",
           "frameId": "chikn-traits/head/dealwithit",
           "frame": {
-            "x": 3578,
-            "y": 3,
+            "x": 3,
+            "y": 186,
             "width": 449,
             "height": 106,
             "sourceWidth": 449,

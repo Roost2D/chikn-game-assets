@@ -33,12 +33,14 @@ export async function buildCoqfightEntries(rightsByPath) {
     const result = importSpine42(source, {
       id: `coqfight-v1.${species}`,
       animationIdPrefix: `coqfight-v1.${species}.`,
-      loopAnimations: ['Idle', 'IdleHurt', 'Walk', 'Run', 'Victory', 'Flap'],
+      loopAnimations: ['Idle', 'IdleHurt', 'Walk', 'Run_Slow', 'Run_Fast', 'Victory', 'Flap'],
       resolveTexture(path, context) {
         const image = mappings.get(path);
         if (!image) throw new Error(`Unpinned Coqfight texture: ${species}/${path}`);
-        if (image.width !== context.width || image.height !== context.height) throw new Error(`Coqfight image dimensions differ from attachment dimensions: ${species}/${path}`);
-        return { assetId: image.alias };
+        // Spine region dimensions may deliberately resize shared art per body.
+        const layoutScale = context.width / image.width;
+        if (!Number.isFinite(layoutScale) || layoutScale <= 0 || Math.abs(layoutScale - context.height / image.height) > 1e-9) throw new Error(`Coqfight attachment requires nonuniform image scaling: ${species}/${path}`);
+        return { assetId: image.alias, ...(layoutScale === 1 ? {} : { layoutScale }) };
       },
     });
     catalog.species[species] = { bodySkinIds: result.metadata.bodySkinIds, traitSkinIds: result.metadata.traitSkinIds };

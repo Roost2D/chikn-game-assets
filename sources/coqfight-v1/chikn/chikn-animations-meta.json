@@ -85,17 +85,13 @@
  },
  "Death": {
   "unityLength": 4.0,
-  "loop": true,
+  "loop": false,
   "scriptCurves": {
    "Front.Leg": {
     "m_Enabled": [
      {
       "time": 0.0,
       "value": 1.0
-     },
-     {
-      "time": 0.9,
-      "value": 0.0
      }
     ]
    },
@@ -104,10 +100,6 @@
      {
       "time": 0.0,
       "value": 1.0
-     },
-     {
-      "time": 0.9,
-      "value": 0.0
      }
     ]
    },
@@ -742,7 +734,7 @@
   "loop": true,
   "generated": true
  },
- "Run": {
+ "Run_Slow": {
   "unityLength": 0.5,
   "loop": true,
   "generated": true
@@ -769,6 +761,11 @@
  },
  "Flap": {
   "unityLength": 0.5,
+  "loop": true,
+  "generated": true
+ },
+ "Run_Fast": {
+  "unityLength": 0.4,
   "loop": true,
   "generated": true
  }

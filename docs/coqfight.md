@@ -1,6 +1,6 @@
 # Official Coqfight animation set
 
-The `coqfight-v1` set is a pinned snapshot of Chikn's [official asset export](https://assets.chikn.farm/docs.html), retrieved on 25 November 2026. It contains both species' Spine 4.2 skeleton/skin data and the same 41 clips: the 34 original combat/idle clips plus seven upstream-generated clips (`Walk`, `Run`, `Jump`, `Victory`, `Peck`, `Hop`, `Flap`). Their `generated` provenance flags remain in the animation metadata. The independently authored Roost2D set remains separately available.
+The `coqfight-v1` set is a pinned snapshot of Chikn's [official asset export](https://assets.chikn.farm/docs.html), retrieved on 25 November 2026. It contains both species' Spine 4.2 skeleton/skin data and the same 42 clips: the 34 original combat/idle clips plus eight upstream-generated clips (`Walk`, `Run_Slow`, `Run_Fast`, `Jump`, `Victory`, `Peck`, `Hop`, `Flap`). Their `generated` provenance flags remain in the animation metadata. The independently authored Roost2D set remains separately available.
 
 The importer is independently authored Apache-2.0 tooling. The imported official rig, animation, trait and timing data and native derivatives retain the upstream Chikn asset terms. They live in the separately classified source/runtime archives, not in `@roost2d/chikn-rigs` or the helper npm package. The snapshot's unmodified licence is `sources/coqfight-v1/LICENSE.md`; the runtime archive carries it as `runtime/coqfight-v1/LICENSE.md`. Existing artwork reused by exact hash keeps its original per-file classification. No Spine runtime is required or bundled.
 
@@ -18,13 +18,13 @@ const character = await loadCoqfightCharacter({ pack, recipe: {
   animationName: 'Idle',
 } });
 // character.definition is a selected-only RigDefinitionV2.
-// character.clips contains the catalog's 41 AnimationClipV2 clips.
+// character.clips contains the catalog's 42 AnimationClipV2 clips.
 // Load character.assetIds through the normal manifest/Pixi loader.
 ```
 
 `bodySkinId`, `traitSkinIds` and `animationName` use exact case-sensitive upstream names returned by the catalog. The loader rejects unknown bodies and incompatible species. A later trait removes each earlier trait that shares any occupied slot, matching the source viewer; the returned recipe contains the normalized selection. Body and trait names resolve through independent slot attachment tables, with the default skin retained for animated swaps. Special head, tail and feet attachments hide their replaced base slots for the whole selected recipe. Optional `mirrored` and `renderScale` describe presentation only; they do not change gameplay positions or rig data.
 
-Use clip IDs `coqfight-v1.<species>.<AnimationName>`. Native `Idle`, `IdleHurt`, `Walk`, `Run`, `Victory` and `Flap` loop; the remaining clips play once. All 34 original source loop flags are true, including Death; those flags remain available under `metadata.animationMeta` as provenance rather than overriding the native playback policy. The original durations and body-specific aliases are preserved there too.
+Use clip IDs `coqfight-v1.<species>.<AnimationName>`. Native `Idle`, `IdleHurt`, `Walk`, `Run_Slow`, `Run_Fast`, `Victory` and `Flap` loop; the remaining clips play once. All 34 original source loop flags are true, including Death; those flags remain available under `metadata.animationMeta` as provenance rather than overriding the native playback policy. The original durations and body-specific aliases are preserved there too. The refreshed Death ends with the bird on the ground; games own despawn and any separate poof effect.
 
 `metadata.animationMeta[name].scriptCurves.root.RelativeX`, when present, is a separate target-relative approach curve. Presentation previews may opt into it; it must never move authoritative simulation coordinates. Preserve skeletal root translation separately. Particle emission and sound names are metadata only; this export includes neither particles nor sound files.
 

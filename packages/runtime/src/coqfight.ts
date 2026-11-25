@@ -85,9 +85,12 @@ export async function loadCoqfightCatalog({ pack, ...options }: LoadCoqfightCata
 }
 
 /** Composes and prunes a native rig to one body, selected traits and required default-skin fallbacks. */
-export async function loadCoqfightCharacter({ pack, recipe, ...options }: LoadCoqfightCharacterOptions): Promise<LoadedCoqfightCharacter> {
-  assertRecipe(recipe);
+export async function loadCoqfightCharacter({ pack, recipe: requestedRecipe, ...options }: LoadCoqfightCharacterOptions): Promise<LoadedCoqfightCharacter> {
+  assertRecipe(requestedRecipe);
   const catalog = await loadCoqfightCatalog({ pack, ...options });
+  // Earlier official recipes used Run before upstream split the generated run cycle.
+  const recipe = requestedRecipe.animationName === 'Run' && !catalog.animationNames.includes('Run') && catalog.animationNames.includes('Run_Slow')
+    ? { ...requestedRecipe, animationName: 'Run_Slow' } : requestedRecipe;
   const species = catalog.species[recipe.species];
   if (!species.bodySkinIds.includes(recipe.bodySkinId)) throw new Error(`Unknown Coqfight body: ${recipe.bodySkinId}`);
   for (const id of recipe.traitSkinIds) if (!species.traitSkinIds.includes(id)) throw new Error(`Unknown ${recipe.species} Coqfight trait: ${id}`);
