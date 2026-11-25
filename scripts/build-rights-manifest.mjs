@@ -22,7 +22,8 @@ for (const source of selection.roots) {
 
     const bytes = await readFile(absolute);
     const extension = extname(sourcePath).toLowerCase();
-    const grant = metadataExtensions.has(extension)
+    const upstream = (policy.protectedSourcePrefixes ?? []).some((prefix) => sourcePath.startsWith(prefix));
+    const grant = upstream ? policy : metadataExtensions.has(extension)
       ? policy.metadata
       : projectVisualPaths.has(sourcePath)
         ? policy.projectVisuals
@@ -45,6 +46,7 @@ for (const source of selection.roots) {
       communityUseAuthorized: grant.communityUseAuthorized,
       sublicenseGrantedByRepository: grant.sublicenseGrantedByRepository,
     });
+    if (upstream || /\/coqfight-v1-[a-f0-9]+\.png$/.test(sourcePath)) Object.assign(asset, policy.upstreamCoqfight);
     assets.push(asset);
   }
 }

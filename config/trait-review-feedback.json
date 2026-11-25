@@ -1,0 +1,202 @@
+{
+  "schema": "chikn-game-assets.trait-review-feedback/v1",
+  "layerPolicy": "Held props behind the front wing; coat-like garments and breastplates cover the wing and leg branches. Use V2 visuals for placements.",
+  "chikn": {
+    "head": [
+      "super-saiyan",
+      "cheeky-redhead",
+      "charcoal-brunette",
+      "golden-blonde"
+    ],
+    "neck": [
+      "second-head",
+      "avax-degen",
+      "mim-og",
+      "bitcoin-maxi",
+      "ethereum-gwei-guzzler",
+      "mim-bling",
+      "bitcoin-bling",
+      "chains-for-days",
+      "dollar-chain",
+      "ethereum-bling",
+      "avax-bling",
+      "polygon-bling",
+      "polygon-degen"
+    ],
+    "tail": [
+      "golden-egg",
+      "very-fresh-egg",
+      "gas-guzzler"
+    ],
+    "torso": [
+      "action-shorts",
+      "midas-muscles",
+      "hentai",
+      "human-growth-hormones",
+      "nugget-wand",
+      "spell-wand",
+      "popsicle",
+      "cutlass",
+      "fresh-fish",
+      "mighty-broadsword",
+      "peacemaker",
+      "big-ol-corn-cob",
+      "summer-days",
+      "a-fresh-baguette",
+      "old-fashioned-romance"
+    ]
+  },
+  "roostr": {
+    "feet": [
+      "all-stars",
+      "ball-n-chain",
+      "blue-timbs",
+      "sneaker-head",
+      "buckaroo"
+    ],
+    "head": [
+      "panic-buy",
+      "rosebud",
+      "samurai"
+    ],
+    "neck": [
+      "avax-degen",
+      "coq-maxi",
+      "gwei-guzzler",
+      "bitcoin-maxi",
+      "chick-magnet",
+      "clockchain",
+      "make-a-wish",
+      "stop-loss",
+      "joseph-drip",
+      "coq-tags",
+      "shoulder-armour",
+      "golden-pauldrons"
+    ],
+    "tail": [
+      "chikn-jockey"
+    ],
+    "torso": [
+      "lord-quas",
+      "gameboi",
+      "goldfish",
+      "hendrix",
+      "floppy-disk",
+      "boombox",
+      "mcfly",
+      "banjo",
+      "not-football",
+      "bone",
+      "zippo",
+      "fancy-sword",
+      "rubber-chikn",
+      "fresh-fish",
+      "katana",
+      "omelette",
+      "home-run",
+      "hoops",
+      "avax-banger",
+      "gainz",
+      "banger",
+      "cd-rw",
+      "sword",
+      "big-stick",
+      "starfish",
+      "big-ol-corn-cob",
+      "shovel",
+      "spork",
+      "spelunker",
+      "9-iron",
+      "the-key",
+      "toot-toot",
+      "a-fresh-baguette",
+      "breastplate",
+      "golden-breastplate",
+      "snip-snips",
+      "snib-snibs",
+      "human-growth-hormones",
+      "midas-muscles"
+    ]
+  },
+  "behindFrontWing": {
+    "chikn": [
+      "torso/nugget-wand",
+      "torso/spell-wand",
+      "torso/popsicle",
+      "torso/cutlass",
+      "torso/fresh-fish",
+      "torso/mighty-broadsword",
+      "torso/peacemaker",
+      "torso/big-ol-corn-cob",
+      "torso/summer-days",
+      "torso/a-fresh-baguette",
+      "torso/old-fashioned-romance"
+    ],
+    "roostr": [
+      "torso/lord-quas",
+      "torso/gameboi",
+      "torso/goldfish",
+      "torso/hendrix",
+      "torso/floppy-disk",
+      "torso/boombox",
+      "torso/mcfly",
+      "torso/banjo",
+      "torso/not-football",
+      "torso/bone",
+      "torso/zippo",
+      "torso/fancy-sword",
+      "torso/rubber-chikn",
+      "torso/fresh-fish",
+      "torso/katana",
+      "torso/omelette",
+      "torso/home-run",
+      "torso/hoops",
+      "torso/avax-banger",
+      "torso/gainz",
+      "torso/banger",
+      "torso/cd-rw",
+      "torso/sword",
+      "torso/big-stick",
+      "torso/starfish",
+      "torso/big-ol-corn-cob",
+      "torso/shovel",
+      "torso/spork",
+      "torso/spelunker",
+      "torso/9-iron",
+      "torso/the-key",
+      "torso/toot-toot",
+      "torso/a-fresh-baguette"
+    ]
+  },
+  "latestCorrections": {
+    "chikn": [
+      "head/super-saiyan"
+    ],
+    "roostr": [
+      "feet/sneaker-head",
+      "tail/chikn-jockey",
+      "head/permabull",
+      "torso/doctor-coq",
+      "torso/golden-breastplate"
+    ]
+  },
+  "coatLikeTraits": {
+    "chikn": [
+      "torso/business-boy",
+      "torso/karate-kid"
+    ],
+    "roostr": [
+      "torso/doctor-coq",
+      "torso/dad-shirt",
+      "torso/grande-lecoq",
+      "torso/kevlar",
+      "torso/tweed",
+      "torso/black-t-shirt",
+      "torso/white-t-shirt",
+      "torso/red-t-shirt",
+      "torso/play-boy",
+      "torso/breastplate",
+      "torso/golden-breastplate"
+    ]
+  }
+}

@@ -14,6 +14,7 @@ await cp(resolve('runtime'), resolve(output, 'runtime'), { recursive: true });
 const pages = new Map();
 const assets = [];
 for (const file of manifest.files) {
+  if (file.kind === 'data') continue;
   const variant = file.variants.find(({ profile }) => profile === 'default') ?? file.variants[0];
   const source = lineageById.get(file.id);
   const common = {

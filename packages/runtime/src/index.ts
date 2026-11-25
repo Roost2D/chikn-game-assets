@@ -1,4 +1,5 @@
 export const CHIKN_ASSET_PACKAGE = '@chikn-game-assets/runtime';
+export * from './coqfight.js';
 export const CHIKN_ASSET_MANIFEST_PATH = 'runtime/manifest.json';
 export const CHIKN_RUNTIME_LICENSE = 'Apache-2.0';
 export const CHIKN_CONTENT_TERMS = {
@@ -25,7 +26,7 @@ export interface ChiknAssetManifest {
   generatedAt: string;
   rightsDocumentSha256: string;
   profiles: Record<AssetProfileId, { maxAtlasSize: number; scale: number; gpuBudgetBytes: number }>;
-  files: Array<{ id: string; aliases?: string[]; kind?: string; mediaType: string; license?: 'CHIKN-COMMUNITY-NONCOMMERCIAL' | 'Apache-2.0'; ownership?: 'third-party-chikn-rights-holder'; hostingAuthorized?: boolean; communityUseAuthorized?: boolean; sublicenseGrantedByRepository?: false; commercialUse?: string; attribution?: string; rightsIds?: string[]; variants: Array<{ profile: AssetProfileId; path: string; bytes: number; integrity: { algorithm: 'sha256'; value: string }; scale: number; frameId?: string; frame?: { x: number; y: number; width: number; height: number; sourceWidth: number; sourceHeight: number } }> }>;
+  files: Array<{ id: string; aliases?: string[]; kind?: string; mediaType: string; license?: 'CHIKN-COMMUNITY-NONCOMMERCIAL' | 'Apache-2.0'; ownership?: 'third-party-chikn-rights-holder'; hostingAuthorized?: boolean; communityUseAuthorized?: boolean; sublicenseGrantedByRepository?: false; commercialUse?: string; attribution?: string; rightsIds?: string[]; licenseDocument?: string; runtimeLicenseDocument?: string; licenseDocumentSha256?: string; variants: Array<{ profile: AssetProfileId; path: string; bytes: number; integrity: { algorithm: 'sha256'; value: string }; scale: number; frameId?: string; frame?: { x: number; y: number; width: number; height: number; sourceWidth: number; sourceHeight: number } }> }>;
   bundles: Array<{ id: string; lazy: boolean; preload?: boolean; estimatedGpuBytes?: number; items: Array<{ assetId: string; required: boolean; fallbackAssetId?: string }> }>;
 }
 

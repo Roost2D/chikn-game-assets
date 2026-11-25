@@ -16,6 +16,7 @@ const catalog = {
   contentLicenseName: 'Chikn Community Asset Pack Non-Commercial Licence',
   contentLicenseVersion: '1.1',
   contentLicensePath: 'CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md',
+  additionalContentLicenses: [{ setId: 'coqfight-v1', licenseId: 'CHIKN-COMMUNITY-NONCOMMERCIAL', licenseName: 'Chikn Community Asset Licence', licensePath: 'COQFIGHT-ASSET-LICENSE.md', runtimeLicensePath: 'runtime/coqfight-v1/LICENSE.md', sha256: 'fd5cc718c1c61062af0da520337cbc2a24a5c730edc8a839216e084ae12e9f95' }],
   requiredAttribution: 'Chikn™, chikn™, Roostr™ and FarmLand™ assets © Chikn. Used under the Chikn Community Asset Pack Non-Commercial Licence. Commercial licensing: chikn.farm.',
   ownership: 'third-party-chikn-rights-holder',
   hostingAuthorized: true,
@@ -33,3 +34,5 @@ await rm(resolve(packageRoot, 'catalog'), { recursive: true, force: true });
 await mkdir(resolve(packageRoot, 'catalog'), { recursive: true });
 await writeFile(resolve(packageRoot, 'catalog/asset-ids.json'), `${JSON.stringify(catalog, null, 2)}\n`);
 for (const [source, destination] of [['LICENSE-CODE', 'LICENSE'], ['CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md', 'CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md'], ['REPOSITORY-LICENSING-NOTICE_PUBLIC.md', 'REPOSITORY-LICENSING-NOTICE_PUBLIC.md'], ['CHIKN-COMMUNITY-ASSET-NOTICE.md', 'CHIKN-COMMUNITY-ASSET-NOTICE.md'], ['ATTRIBUTION.md', 'ATTRIBUTION.md'], ['COMMERCIAL_USE.md', 'COMMERCIAL_USE.md']]) await cp(resolve(repositoryRoot, source), resolve(packageRoot, destination));
+
+await cp(resolve(repositoryRoot, 'sources/coqfight-v1/LICENSE.md'), resolve(packageRoot, 'COQFIGHT-ASSET-LICENSE.md'));

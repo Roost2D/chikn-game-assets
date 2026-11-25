@@ -1,0 +1,775 @@
+{
+ "Baseball": {
+  "unityLength": 2.4833,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.55,
+      "value": 0.0
+     },
+     {
+      "time": 0.9333,
+      "value": 0.85
+     },
+     {
+      "time": 1.5333,
+      "value": 0.92
+     },
+     {
+      "time": 1.7,
+      "value": 0.92
+     },
+     {
+      "time": 1.9667,
+      "value": 0.0983
+     },
+     {
+      "time": 2.4833,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "BlockMelee": {
+  "unityLength": 1.2833,
+  "loop": true
+ },
+ "BlockRanged": {
+  "unityLength": 1.1667,
+  "loop": true
+ },
+ "Buff": {
+  "unityLength": 1.4333,
+  "loop": true
+ },
+ "Counter": {
+  "unityLength": 2.0167,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.6833,
+      "value": 0.0
+     },
+     {
+      "time": 1.0333,
+      "value": 1.0
+     },
+     {
+      "time": 1.3,
+      "value": 1.0
+     },
+     {
+      "time": 1.5,
+      "value": 0.8227
+     },
+     {
+      "time": 1.65,
+      "value": 0.0935
+     },
+     {
+      "time": 1.9833,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "Death": {
+  "unityLength": 4.0,
+  "loop": true,
+  "scriptCurves": {
+   "Front.Leg": {
+    "m_Enabled": [
+     {
+      "time": 0.0,
+      "value": 1.0
+     },
+     {
+      "time": 0.9,
+      "value": 0.0
+     }
+    ]
+   },
+   "Back.Leg": {
+    "m_Enabled": [
+     {
+      "time": 0.0,
+      "value": 1.0
+     },
+     {
+      "time": 0.9,
+      "value": 0.0
+     }
+    ]
+   },
+   "Particle System": {
+    "EmissionModule.rateOverTime.scalar": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.8667,
+      "value": 0.0
+     },
+     {
+      "time": 0.8833,
+      "value": 400.0
+     },
+     {
+      "time": 0.9167,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "Headbutt": {
+  "unityLength": 2.6833,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.2667,
+      "value": 0.0
+     },
+     {
+      "time": 0.4167,
+      "value": 0.5
+     },
+     {
+      "time": 0.8333,
+      "value": 1.0
+     },
+     {
+      "time": 1.05,
+      "value": 0.95
+     },
+     {
+      "time": 1.45,
+      "value": 0.9269
+     },
+     {
+      "time": 1.6667,
+      "value": 0.5
+     },
+     {
+      "time": 1.9333,
+      "value": 0.3018
+     },
+     {
+      "time": 2.0167,
+      "value": 0.0644
+     },
+     {
+      "time": 2.5,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "Hurt": {
+  "unityLength": 1.3333,
+  "loop": true
+ },
+ "Idle": {
+  "unityLength": 1.5,
+  "loop": true
+ },
+ "IdleHurt": {
+  "unityLength": 2.0,
+  "loop": true
+ },
+ "Kick": {
+  "unityLength": 3.0,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.5833,
+      "value": 0.0
+     },
+     {
+      "time": 0.9,
+      "value": 0.6362
+     },
+     {
+      "time": 1.0167,
+      "value": 1.0
+     },
+     {
+      "time": 1.4833,
+      "value": 0.9269
+     },
+     {
+      "time": 1.9833,
+      "value": 0.5
+     },
+     {
+      "time": 2.3667,
+      "value": 0.0835
+     },
+     {
+      "time": 2.95,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "Kick_Space": {
+  "unityLength": 4.6667,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.6167,
+      "value": 0.0
+     },
+     {
+      "time": 1.25,
+      "value": 0.4636
+     },
+     {
+      "time": 1.6333,
+      "value": 1.0
+     },
+     {
+      "time": 2.2167,
+      "value": 0.9269
+     },
+     {
+      "time": 2.8333,
+      "value": 0.5
+     },
+     {
+      "time": 3.4,
+      "value": 0.0835
+     },
+     {
+      "time": 4.4167,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "OverheadThrow": {
+  "unityLength": 2.65,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.0333,
+      "value": 0.0
+     },
+     {
+      "time": 0.8167,
+      "value": 0.0
+     },
+     {
+      "time": 1.1,
+      "value": 0.0
+     },
+     {
+      "time": 1.8,
+      "value": 0.0
+     },
+     {
+      "time": 1.8333,
+      "value": 0.0
+     },
+     {
+      "time": 1.9333,
+      "value": 0.0
+     },
+     {
+      "time": 2.15,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "PistolShot": {
+  "unityLength": 2.3,
+  "loop": true,
+  "mergedFrom": [
+   "PistolShot_Gunslinger"
+  ]
+ },
+ "Pray": {
+  "unityLength": 3.1,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.2833,
+      "value": 0.0
+     },
+     {
+      "time": 0.6667,
+      "value": 0.0
+     },
+     {
+      "time": 1.7333,
+      "value": 0.0
+     },
+     {
+      "time": 1.9167,
+      "value": 0.0
+     },
+     {
+      "time": 2.25,
+      "value": 0.0
+     },
+     {
+      "time": 2.6167,
+      "value": 0.0
+     },
+     {
+      "time": 3.1,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "Punch": {
+  "unityLength": 3.2667,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.2667,
+      "value": 0.0
+     },
+     {
+      "time": 0.4667,
+      "value": 0.4533
+     },
+     {
+      "time": 0.6,
+      "value": 0.95
+     },
+     {
+      "time": 1.1333,
+      "value": 1.05
+     },
+     {
+      "time": 1.2667,
+      "value": 0.9524
+     },
+     {
+      "time": 1.5167,
+      "value": 0.5
+     },
+     {
+      "time": 1.7833,
+      "value": 0.3018
+     },
+     {
+      "time": 1.95,
+      "value": 0.1012
+     },
+     {
+      "time": 2.5,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "RayCast": {
+  "unityLength": 3.4333,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.3167,
+      "value": 0.0
+     },
+     {
+      "time": 0.8833,
+      "value": 0.0
+     },
+     {
+      "time": 2.9,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "RayCast_Unique": {
+  "unityLength": 3.4333,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.3167,
+      "value": 0.0
+     },
+     {
+      "time": 0.8833,
+      "value": 0.0
+     },
+     {
+      "time": 2.9,
+      "value": 0.0
+     }
+    ]
+   }
+  },
+  "mergedFrom": [
+   "RayCast_CryptoPunk",
+   "RayCast_Gumball",
+   "RayCast_Kernel",
+   "RayCast_Monotone",
+   "RayCast_Pepe",
+   "RayCast_Robot"
+  ]
+ },
+ "RifleShot": {
+  "unityLength": 2.4167,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "Shine": {
+  "unityLength": 1.4333,
+  "loop": true
+ },
+ "Shine_Hypnocoq": {
+  "unityLength": 1.4333,
+  "loop": true
+ },
+ "Slash": {
+  "unityLength": 2.85,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.1167,
+      "value": 0.0
+     },
+     {
+      "time": 0.55,
+      "value": 0.6409
+     },
+     {
+      "time": 0.7,
+      "value": 1.0
+     },
+     {
+      "time": 1.4167,
+      "value": 0.9269
+     },
+     {
+      "time": 1.85,
+      "value": 0.5
+     },
+     {
+      "time": 2.2167,
+      "value": 0.1021
+     },
+     {
+      "time": 2.85,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "SpellCast": {
+  "unityLength": 2.8167,
+  "loop": true
+ },
+ "SpellCastLow": {
+  "unityLength": 2.5333,
+  "loop": true
+ },
+ "SpellCastLow_Unique": {
+  "unityLength": 3.0667,
+  "loop": true,
+  "mergedFrom": [
+   "SpellCastLow_Bayc",
+   "SpellCastLow_Captain",
+   "SpellCastLow_Split"
+  ]
+ },
+ "SpellCast_Unique": {
+  "unityLength": 2.8167,
+  "loop": true,
+  "mergedFrom": [
+   "SpellCast_Degen",
+   "SpellCast_Elon",
+   "SpellCast_Lava",
+   "SpellCast_MutantBlue",
+   "SpellCast_MutantGreen",
+   "SpellCast_SweatyMeatChikn"
+  ]
+ },
+ "TailProjectile": {
+  "unityLength": 2.8833,
+  "loop": true
+ },
+ "TailProjectile_Unique": {
+  "unityLength": 2.8833,
+  "loop": true,
+  "mergedFrom": [
+   "TailProjectile_CuteGravy",
+   "TailProjectile_DirtyBird",
+   "TailProjectile_MutantBlue",
+   "TailProjectile_MutantGreen",
+   "TailProjectile_Robot"
+  ]
+ },
+ "Throw": {
+  "unityLength": 2.35,
+  "loop": true
+ },
+ "ThrowLow": {
+  "unityLength": 3.2,
+  "loop": true
+ },
+ "ThrowLow_Degen": {
+  "unityLength": 3.6667,
+  "loop": true
+ },
+ "Thrust": {
+  "unityLength": 3.4,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.75,
+      "value": -0.0717
+     },
+     {
+      "time": 1.1,
+      "value": 1.0
+     },
+     {
+      "time": 2.1667,
+      "value": 0.368
+     },
+     {
+      "time": 2.5333,
+      "value": 0.1908
+     },
+     {
+      "time": 2.8,
+      "value": 0.05
+     },
+     {
+      "time": 3.4,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "Thrust_Beast": {
+  "unityLength": 3.4,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.75,
+      "value": -0.0717
+     },
+     {
+      "time": 1.1,
+      "value": 1.0
+     },
+     {
+      "time": 2.1667,
+      "value": 0.368
+     },
+     {
+      "time": 2.5333,
+      "value": 0.1908
+     },
+     {
+      "time": 2.8,
+      "value": 0.05
+     },
+     {
+      "time": 3.4,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "WhirlwindKick": {
+  "unityLength": 3.3167,
+  "loop": true,
+  "scriptCurves": {
+   "root": {
+    "RelativeX": [
+     {
+      "time": 0.0,
+      "value": 0.0
+     },
+     {
+      "time": 0.15,
+      "value": 0.0565
+     },
+     {
+      "time": 0.45,
+      "value": 0.8267
+     },
+     {
+      "time": 2.2667,
+      "value": 1.0
+     },
+     {
+      "time": 2.4833,
+      "value": 1.1
+     },
+     {
+      "time": 2.7333,
+      "value": 0.1
+     },
+     {
+      "time": 3.0833,
+      "value": 0.0
+     }
+    ]
+   }
+  }
+ },
+ "_aliases": {
+  "PistolShot_Gunslinger": "PistolShot",
+  "RayCast_CryptoPunk": "RayCast_Unique",
+  "RayCast_Gumball": "RayCast_Unique",
+  "RayCast_Kernel": "RayCast_Unique",
+  "RayCast_Monotone": "RayCast_Unique",
+  "RayCast_Pepe": "RayCast_Unique",
+  "RayCast_Robot": "RayCast_Unique",
+  "SpellCastLow_Bayc": "SpellCastLow_Unique",
+  "SpellCastLow_Captain": "SpellCastLow_Unique",
+  "SpellCastLow_Split": "SpellCastLow_Unique",
+  "SpellCast_Degen": "SpellCast_Unique",
+  "SpellCast_Elon": "SpellCast_Unique",
+  "SpellCast_Lava": "SpellCast_Unique",
+  "SpellCast_MutantBlue": "SpellCast_Unique",
+  "SpellCast_MutantGreen": "SpellCast_Unique",
+  "SpellCast_SweatyMeatChikn": "SpellCast_Unique",
+  "TailProjectile_CuteGravy": "TailProjectile_Unique",
+  "TailProjectile_DirtyBird": "TailProjectile_Unique",
+  "TailProjectile_MutantBlue": "TailProjectile_Unique",
+  "TailProjectile_MutantGreen": "TailProjectile_Unique",
+  "TailProjectile_Robot": "TailProjectile_Unique"
+ },
+ "Walk": {
+  "unityLength": 0.9,
+  "loop": true,
+  "generated": true
+ },
+ "Run": {
+  "unityLength": 0.5,
+  "loop": true,
+  "generated": true
+ },
+ "Jump": {
+  "unityLength": 1.1,
+  "loop": false,
+  "generated": true
+ },
+ "Victory": {
+  "unityLength": 1.6,
+  "loop": true,
+  "generated": true
+ },
+ "Peck": {
+  "unityLength": 1.3,
+  "loop": false,
+  "generated": true
+ },
+ "Hop": {
+  "unityLength": 0.6,
+  "loop": false,
+  "generated": true
+ },
+ "Flap": {
+  "unityLength": 0.5,
+  "loop": true,
+  "generated": true
+ }
+}

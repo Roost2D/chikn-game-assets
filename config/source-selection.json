@@ -4,6 +4,7 @@
     "chikn-traits/head/mfd": ["roostr.rig.mfd"]
   },
   "roots": [
+    { "source": "sources/coqfight-v1", "group": "coqfight-v1", "runtime": false },
     {
       "source": "sources/chikn-atlas",
       "group": "chikn-flat",

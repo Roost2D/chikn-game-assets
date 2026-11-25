@@ -10,6 +10,7 @@ if (alternateConfig.schema !== 'chikn-game-assets.trait-animation-alternates/v1'
 const fileFetch = async (url) => new Response(await readFile(url), { status: 200, headers: { 'content-type': 'application/json' } });
 const logicalIds = new Map(manifest.files.flatMap((file) => [file.id, ...(file.aliases ?? [])].map((id) => [id, file.id])));
 const rows = [];
+const officialRows = [];
 const claimed = new Map();
 
 for (const [species, load] of [['chikn', loadChiknRig], ['roostr', loadRoostrRig]]) {
@@ -48,6 +49,23 @@ for (const [species, load] of [['chikn', loadChiknRig], ['roostr', loadRoostrRig
   }
 }
 
+// Official trait art belongs to the imported native slot-name rig, independently of authored profiles.
+for (const species of ['chikn', 'roostr']) {
+  const definition = JSON.parse(await readFile(resolve(`runtime/coqfight-v1/${species}/rig.json`), 'utf8'));
+  const clips = JSON.parse(await readFile(resolve(`runtime/coqfight-v1/${species}/animations.json`), 'utf8'));
+  const attachments = new Map(definition.attachments.map((attachment) => [attachment.id, attachment]));
+  for (const [traitSkinId, slots] of Object.entries(definition.attachmentNames).filter(([id]) => id.startsWith('trait/'))) {
+    const assetIds = [...new Set(Object.values(slots).flatMap((names) => Object.values(names)).map((id) => {
+      const attachment = attachments.get(id);
+      const assetId = attachment && logicalIds.get(attachment.texture.assetId);
+      if (!assetId) throw new Error(`${species}:${traitSkinId}: missing native trait attachment or manifest artwork ${id}`);
+      return assetId;
+    }))];
+    for (const id of assetIds) claimed.set(id, `coqfight-v1/${species}/${traitSkinId}`);
+    officialRows.push({ species, traitSkinId, assetIds, occupiedSlots: Object.keys(slots), animationCount: clips.length });
+  }
+}
+
 const traitAssets = manifest.files.filter(({ id }) => /^(?:chikn|roostr)-traits\//.test(id) && !/\/base\//i.test(id));
 const unexplained = traitAssets.map(({ id }) => id).filter((id) => !claimed.has(id));
 if (unexplained.length) throw new Error(`Trait assets without an animation profile or declared alternate:\n${unexplained.join('\n')}`);
@@ -58,6 +76,7 @@ const report = {
   schema: 'chikn-game-assets.trait-animation-coverage/v2',
   assetManifestVersion: manifest.version,
   totals: { traitGroups: rows.length, chikn: rows.filter(({ species }) => species === 'chikn').length, roostr: rows.filter(({ species }) => species === 'roostr').length, traitAssets: traitAssets.length, specials: rows.filter(({ special }) => special).length },
+  officialCoqfight: { setId: 'coqfight-v1', traitSkins: officialRows.length, traits: officialRows },
   traits: rows.sort((a, b) => `${a.species}/${a.traitGroupId}`.localeCompare(`${b.species}/${b.traitGroupId}`)),
 };
 const serialized = `${JSON.stringify(report, null, 2)}\n`;

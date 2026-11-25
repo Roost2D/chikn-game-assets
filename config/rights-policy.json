@@ -8,6 +8,12 @@
   "hostingAuthorized": true,
   "communityUseAuthorized": true,
   "sublicenseGrantedByRepository": false,
+  "protectedSourcePrefixes": ["sources/coqfight-v1/"],
+  "upstreamCoqfight": {
+    "licenseDocument": "sources/coqfight-v1/LICENSE.md",
+    "runtimeLicenseDocument": "runtime/coqfight-v1/LICENSE.md",
+    "licenseDocumentSha256": "fd5cc718c1c61062af0da520337cbc2a24a5c730edc8a839216e084ae12e9f95"
+  },
   "metadata": {
     "extensions": [".json"],
     "category": "project-metadata",
@@ -37,6 +43,7 @@
     "sources/legacy-enemy-flat/RoostrRunr.png"
   ],
   "categories": {
+    "coqfight-v1": "official-coqfight-rig-animation-and-metadata",
     "audio": "audio",
     "chikn-atlas": "character-source-atlas",
     "roostr-atlas": "character-source-atlas",

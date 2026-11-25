@@ -16,7 +16,8 @@ jobs:
   # Everything that runs `npm ci` — and therefore arbitrary dependency lifecycle scripts — happens
   # here, with no registry credential and no OIDC token in scope. The job's only output is a tarball.
   verify:
-    runs-on: ubuntu-latest
+    # This job also installs Chromium/WebKit system dependencies for stable releases.
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
     env:
@@ -118,7 +119,8 @@ jobs:
             npm publish "$tarball" --access public --tag "$TAG"
           fi
           verified=false
-          for attempt in {1..6}; do
+          # npm may accept a signed upload before its processing queue exposes it.
+          for attempt in {1..60}; do
             published_version="$(npm view "$package_spec" version 2>/dev/null || true)"
             published_tag="$(npm view "$package_name" "dist-tags.$TAG" 2>/dev/null || true)"
             if [[ "$published_version" == "$package_version" && "$published_tag" == "$package_version" ]]; then

@@ -1,0 +1,1650 @@
+{
+  "schema": "chikn-game-assets.trait-review-references/v1",
+  "retrievedOn": "2026-10-31",
+  "source": "Roost Rift Game/src/ui/HtmlUI/CodexController.js: V2 visual URLs using the official API filename field",
+  "coverage": {
+    "chikn": {
+      "traits": 114,
+      "skins": 10,
+      "referenceCount": 49,
+      "missing": [
+        "neck/polygon-bling",
+        "neck/polygon-degen"
+      ]
+    },
+    "roostr": {
+      "traits": 162,
+      "skins": 9,
+      "referenceCount": 58,
+      "missing": [
+        "head/mfd"
+      ]
+    }
+  },
+  "references": [
+    {
+      "species": "chikn",
+      "token": 7,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/admiral",
+        "neck/purple-bowtie",
+        "torso/hentai",
+        "feet/purple-feet",
+        "tail/red-plumage"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/4d93d9c621daff38311630f7fc0bc7a5ad80a2a2.jpeg",
+      "filename": "4d93d9c621daff38311630f7fc0bc7a5ad80a2a2.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/4d93d9c621daff38311630f7fc0bc7a5ad80a2a2.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 103,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/pixel-cigarette",
+        "neck/black-bandana",
+        "torso/old-fashioned-romance",
+        "feet/blue-feet",
+        "tail/orange-plumage"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/0ff902a19802d9aaf3b9fafa244ce1ce1e8aa5bf.jpeg",
+      "filename": "0ff902a19802d9aaf3b9fafa244ce1ce1e8aa5bf.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/0ff902a19802d9aaf3b9fafa244ce1ce1e8aa5bf.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 136,
+      "skinId": "RusticBrown",
+      "traitGroupIds": [
+        "head/purple-sweatband",
+        "neck/avax-bling",
+        "torso/midas-muscles",
+        "feet/rollerderby",
+        "tail/nyan"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/6c0ced9dcfb9077d371435d057b605e53394712c.jpeg",
+      "filename": "6c0ced9dcfb9077d371435d057b605e53394712c.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/6c0ced9dcfb9077d371435d057b605e53394712c.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 270,
+      "skinId": "Bullion",
+      "traitGroupIds": [
+        "head/uniquehorn",
+        "neck/dollar-chain",
+        "torso/a-fresh-baguette",
+        "feet/red-feet",
+        "tail/liarliar"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/8f17d5f43582eaa9f0cfe722903e53de19ac1416.jpeg",
+      "filename": "8f17d5f43582eaa9f0cfe722903e53de19ac1416.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/8f17d5f43582eaa9f0cfe722903e53de19ac1416.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 640,
+      "skinId": "FrognationGreen",
+      "traitGroupIds": [
+        "head/sucker",
+        "neck/hairy-old-man",
+        "torso/big-bag-of-cash",
+        "feet/real-feet",
+        "tail/gas-guzzler"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/73ec6e07475154f9f6fdec8d16d287934872f187.jpeg",
+      "filename": "73ec6e07475154f9f6fdec8d16d287934872f187.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/73ec6e07475154f9f6fdec8d16d287934872f187.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 1283,
+      "skinId": "Gameboy",
+      "traitGroupIds": [
+        "head/lucky-blue-cap",
+        "neck/bitcoin-bling",
+        "torso/blue-bag",
+        "feet/green-feet",
+        "tail/very-fresh-egg"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/5f1bf438b825d3cb3fc36fa7de6d81d66350124c.jpeg",
+      "filename": "5f1bf438b825d3cb3fc36fa7de6d81d66350124c.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/5f1bf438b825d3cb3fc36fa7de6d81d66350124c.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 8619,
+      "skinId": "PassionRed",
+      "traitGroupIds": [
+        "head/cheeky-redhead",
+        "neck/red-bowtie",
+        "torso/human-growth-hormones",
+        "feet/swashbucklers",
+        "tail/led"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/32c4d226d7988ff5982258bd700c2c08d591f2b2.jpeg",
+      "filename": "32c4d226d7988ff5982258bd700c2c08d591f2b2.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/32c4d226d7988ff5982258bd700c2c08d591f2b2.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 1424,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/cool-dude-69",
+        "neck/red-bandana",
+        "torso/action-shorts",
+        "feet/purple-leather-boots",
+        "tail/big-mama-fat-pipes"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/292627b164ead5b006b2002a93dffc8ee4287bfb.jpeg",
+      "filename": "292627b164ead5b006b2002a93dffc8ee4287bfb.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/292627b164ead5b006b2002a93dffc8ee4287bfb.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 1627,
+      "skinId": "PixelChan",
+      "traitGroupIds": [
+        "head/pillager",
+        "neck/blue-bandana",
+        "torso/fresh-fish",
+        "feet/blue-feet",
+        "tail/golden-plumage"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/2154bbb9329479c7b9bf16775699f5473d1133bc.jpeg",
+      "filename": "2154bbb9329479c7b9bf16775699f5473d1133bc.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/2154bbb9329479c7b9bf16775699f5473d1133bc.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 3099,
+      "skinId": "Crystale",
+      "traitGroupIds": [
+        "head/super-saiyan",
+        "neck/chicken-choker",
+        "torso/summer-days",
+        "feet/blue-kicks",
+        "tail/liarliar"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/275f6f4aea4778910a631643de36bcf910ddc911.jpeg",
+      "filename": "275f6f4aea4778910a631643de36bcf910ddc911.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/275f6f4aea4778910a631643de36bcf910ddc911.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 126,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/red-mage",
+        "neck/wage-slave",
+        "torso/popsicle",
+        "feet/black-vans",
+        "tail/liarliar"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/92517fae75461b2b1f045d9477ef57638939a16a.jpeg",
+      "filename": "92517fae75461b2b1f045d9477ef57638939a16a.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/92517fae75461b2b1f045d9477ef57638939a16a.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 211,
+      "skinId": "RusticBrown",
+      "traitGroupIds": [
+        "head/boxhead",
+        "neck/ethereum-bling",
+        "torso/peacemaker",
+        "tail/golden-egg"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/1d8bfc88803c6e94119e46508e739565bee06912.jpeg",
+      "filename": "1d8bfc88803c6e94119e46508e739565bee06912.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/1d8bfc88803c6e94119e46508e739565bee06912.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 1266,
+      "skinId": "Bullion",
+      "traitGroupIds": [
+        "head/saint",
+        "neck/mim-bling",
+        "torso/big-ol-corn-cob",
+        "feet/green-kicks",
+        "tail/liarliar"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/d4425f04aeb37f7695534d6e0a383e903d1735b3.jpeg",
+      "filename": "d4425f04aeb37f7695534d6e0a383e903d1735b3.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/d4425f04aeb37f7695534d6e0a383e903d1735b3.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 4859,
+      "skinId": "Celestial",
+      "traitGroupIds": [
+        "head/construction-helmet",
+        "neck/chains-for-days",
+        "torso/mighty-broadsword",
+        "feet/green-feet",
+        "tail/nyan"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/b74ad051ae22365110da1d239177b926c5d3241c.jpeg",
+      "filename": "b74ad051ae22365110da1d239177b926c5d3241c.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/b74ad051ae22365110da1d239177b926c5d3241c.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 38,
+      "skinId": "RusticBrown",
+      "traitGroupIds": [
+        "head/frothy-crown",
+        "neck/second-head",
+        "torso/captain-chimerica"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/571deb837ecb9875060ed6090e6db0c528b3b9d2.jpeg",
+      "filename": "571deb837ecb9875060ed6090e6db0c528b3b9d2.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/571deb837ecb9875060ed6090e6db0c528b3b9d2.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 145,
+      "skinId": "FrognationGreen",
+      "traitGroupIds": [
+        "head/top-of-the-morning",
+        "neck/avax-degen",
+        "feet/comfortable-uggs",
+        "tail/very-fresh-egg"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/16b6a0faf64fee1e93fe7affbc427055068ad656.jpeg",
+      "filename": "16b6a0faf64fee1e93fe7affbc427055068ad656.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/16b6a0faf64fee1e93fe7affbc427055068ad656.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 642,
+      "skinId": "RusticBrown",
+      "traitGroupIds": [
+        "head/golden-blonde",
+        "neck/purple-bowtie",
+        "torso/nugget-wand",
+        "feet/red-vans",
+        "tail/golden-plumage"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/40a119e108f435c3ba1a825e575d091ae3df089a.jpeg",
+      "filename": "40a119e108f435c3ba1a825e575d091ae3df089a.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/40a119e108f435c3ba1a825e575d091ae3df089a.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 764,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/blue-mage",
+        "neck/ethereum-gwei-guzzler",
+        "feet/red-leather-boots"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/99ddb5501cf9ddcef3e73e69f943756cff48c564.jpeg",
+      "filename": "99ddb5501cf9ddcef3e73e69f943756cff48c564.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/99ddb5501cf9ddcef3e73e69f943756cff48c564.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 3596,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/moustache",
+        "neck/bitcoin-maxi",
+        "torso/karate-kid",
+        "tail/very-fresh-egg"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/08580bd42ccbc2dc99543a6e5b18a1cb05d3fb47.jpeg",
+      "filename": "08580bd42ccbc2dc99543a6e5b18a1cb05d3fb47.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/08580bd42ccbc2dc99543a6e5b18a1cb05d3fb47.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 3917,
+      "skinId": "FrognationGreen",
+      "traitGroupIds": [
+        "head/maverick",
+        "neck/mim-og",
+        "torso/cutlass"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/30258ffb1a3c52e1af16dd79e370930075dfe8ae.jpeg",
+      "filename": "30258ffb1a3c52e1af16dd79e370930075dfe8ae.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/30258ffb1a3c52e1af16dd79e370930075dfe8ae.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 67,
+      "skinId": "Bullion",
+      "traitGroupIds": [
+        "head/charcoal-brunette",
+        "neck/black-bandana",
+        "torso/spell-wand"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/edf0c7f2cfdc3313be284157d0cce4d31b33b249.jpeg",
+      "filename": "edf0c7f2cfdc3313be284157d0cce4d31b33b249.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/edf0c7f2cfdc3313be284157d0cce4d31b33b249.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 542,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/hubba-bubba",
+        "neck/black-bandana",
+        "torso/business-boy",
+        "tail/orange-plumage"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/b4c63ac203d25059e2f03b87c6502fb505a9ab0a.jpeg",
+      "filename": "b4c63ac203d25059e2f03b87c6502fb505a9ab0a.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/b4c63ac203d25059e2f03b87c6502fb505a9ab0a.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 3,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/nerdlinger",
+        "torso/captain-chimerica",
+        "tail/golden-egg"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/56cd79168982d220050f7c9cb0987ea5b6c22db0.jpeg",
+      "filename": "56cd79168982d220050f7c9cb0987ea5b6c22db0.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/56cd79168982d220050f7c9cb0987ea5b6c22db0.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 6,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/savage-beast",
+        "neck/purple-bowtie",
+        "feet/blue-feet"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/04b23c7931ebaa81a4b1acc0cd51f6e5954597af.jpeg",
+      "filename": "04b23c7931ebaa81a4b1acc0cd51f6e5954597af.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/04b23c7931ebaa81a4b1acc0cd51f6e5954597af.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 17,
+      "skinId": "Bullion",
+      "traitGroupIds": [
+        "head/goose",
+        "neck/blue-bandana",
+        "feet/purple-feet"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/5b3baeed72b5912880a67f5679e088a211bc85b5.jpeg",
+      "filename": "5b3baeed72b5912880a67f5679e088a211bc85b5.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/5b3baeed72b5912880a67f5679e088a211bc85b5.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 18,
+      "skinId": "PassionRed",
+      "traitGroupIds": [
+        "head/deal-with-it",
+        "torso/peacemaker",
+        "tail/gas-guzzler"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/7114a0d40025d86736130ac4696b6def8ce216f7.jpeg",
+      "filename": "7114a0d40025d86736130ac4696b6def8ce216f7.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/7114a0d40025d86736130ac4696b6def8ce216f7.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 19,
+      "skinId": "PixelChan",
+      "traitGroupIds": [
+        "head/all-seeing-eye",
+        "feet/purple-feet",
+        "tail/golden-egg"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/1d1752c89ab40ac6cc5346467348957e0eea4a79.jpeg",
+      "filename": "1d1752c89ab40ac6cc5346467348957e0eea4a79.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/1d1752c89ab40ac6cc5346467348957e0eea4a79.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 20,
+      "skinId": "RusticBrown",
+      "traitGroupIds": [
+        "head/hothead",
+        "torso/cutlass",
+        "tail/very-fresh-egg"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/caf54aea801dd26344eec605f3f9c0ca629a5ea5.jpeg",
+      "filename": "caf54aea801dd26344eec605f3f9c0ca629a5ea5.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/caf54aea801dd26344eec605f3f9c0ca629a5ea5.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 24,
+      "skinId": "PixelChan",
+      "traitGroupIds": [
+        "head/gentleman-s-pipe",
+        "torso/peacemaker"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/284508672e109e81c05abd37d653252ded82aac6.jpeg",
+      "filename": "284508672e109e81c05abd37d653252ded82aac6.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/284508672e109e81c05abd37d653252ded82aac6.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 33,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/icey-stare",
+        "torso/a-fresh-baguette",
+        "feet/red-vans"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/4ed508021ff04fb330626e3dab757d82fce8fa9c.jpeg",
+      "filename": "4ed508021ff04fb330626e3dab757d82fce8fa9c.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/4ed508021ff04fb330626e3dab757d82fce8fa9c.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 35,
+      "skinId": "RusticBrown",
+      "traitGroupIds": [
+        "head/avax-safety-officer",
+        "torso/old-fashioned-romance",
+        "feet/red-leather-boots"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/13cf60076a1deb3adbcbc29f68ee4f4f7f52a70a.jpeg",
+      "filename": "13cf60076a1deb3adbcbc29f68ee4f4f7f52a70a.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/13cf60076a1deb3adbcbc29f68ee4f4f7f52a70a.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 39,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/mysterious-fez",
+        "neck/red-bandana",
+        "torso/blue-bag",
+        "tail/orange-plumage"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/d7d4affb55d69175c1d9b03dd725012f34f6d617.jpeg",
+      "filename": "d7d4affb55d69175c1d9b03dd725012f34f6d617.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/d7d4affb55d69175c1d9b03dd725012f34f6d617.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 40,
+      "skinId": "Gameboy",
+      "traitGroupIds": [
+        "head/low-vision-admiral",
+        "neck/hairy-old-man",
+        "torso/a-fresh-baguette"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/4970e1675f71e222781405621b5499200de8619a.jpeg",
+      "filename": "4970e1675f71e222781405621b5499200de8619a.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/4970e1675f71e222781405621b5499200de8619a.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 41,
+      "skinId": "RusticBrown",
+      "traitGroupIds": [
+        "head/smoking-lounge",
+        "neck/purple-bowtie",
+        "feet/black-vans"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/c39ab526644eb32119ecdc1c074741f16e050b88.jpeg",
+      "filename": "c39ab526644eb32119ecdc1c074741f16e050b88.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/c39ab526644eb32119ecdc1c074741f16e050b88.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 48,
+      "skinId": "RusticBrown",
+      "traitGroupIds": [
+        "head/black-sweatband",
+        "torso/summer-days",
+        "tail/red-plumage"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/708bf30612ae03d7af5deeb3d96830772872a932.jpeg",
+      "filename": "708bf30612ae03d7af5deeb3d96830772872a932.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/708bf30612ae03d7af5deeb3d96830772872a932.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 64,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/mfd",
+        "neck/purple-bowtie",
+        "feet/red-vans"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/36a519325309a4ce6817a54956b0bd2e0605edf2.jpeg",
+      "filename": "36a519325309a4ce6817a54956b0bd2e0605edf2.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/36a519325309a4ce6817a54956b0bd2e0605edf2.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 75,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/inherited-royalty",
+        "torso/a-fresh-baguette",
+        "feet/red-feet",
+        "tail/liarliar"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/f5af92cceed87f63e781d96ec9318c139fcb7bf4.jpeg",
+      "filename": "f5af92cceed87f63e781d96ec9318c139fcb7bf4.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/f5af92cceed87f63e781d96ec9318c139fcb7bf4.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 86,
+      "skinId": "PassionRed",
+      "traitGroupIds": [
+        "head/tungsten-cube",
+        "neck/second-head",
+        "torso/big-bag-of-cash",
+        "feet/comfortable-uggs"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/1afa3431f3ba81939ed494655d5e8f784bdfd1c3.jpeg",
+      "filename": "1afa3431f3ba81939ed494655d5e8f784bdfd1c3.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/1afa3431f3ba81939ed494655d5e8f784bdfd1c3.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 94,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/laser-eye",
+        "neck/avax-bling",
+        "torso/popsicle"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/809de993d7e45c79156bdf9ee53e3fbbfc79328f.jpeg",
+      "filename": "809de993d7e45c79156bdf9ee53e3fbbfc79328f.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/809de993d7e45c79156bdf9ee53e3fbbfc79328f.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 113,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/golden-bone-daddy",
+        "neck/black-bandana",
+        "torso/human-growth-hormones",
+        "feet/red-feet",
+        "tail/nyan"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/03692d391034cbb49bb82a95e35b6d11b3d146e6.jpeg",
+      "filename": "03692d391034cbb49bb82a95e35b6d11b3d146e6.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/03692d391034cbb49bb82a95e35b6d11b3d146e6.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 123,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/covid-safe",
+        "torso/cutlass",
+        "tail/orange-plumage"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/31563310e39740432e445ee58da15ef3a1f4cad8.jpeg",
+      "filename": "31563310e39740432e445ee58da15ef3a1f4cad8.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/31563310e39740432e445ee58da15ef3a1f4cad8.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 147,
+      "skinId": "Bullion",
+      "traitGroupIds": [
+        "head/murica",
+        "tail/golden-plumage"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/b57426790f59114bcf046c3a106b16707916f653.jpeg",
+      "filename": "b57426790f59114bcf046c3a106b16707916f653.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/b57426790f59114bcf046c3a106b16707916f653.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 157,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/luckiest-red-cap",
+        "feet/green-feet"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/e6b9f3251376fd7d0181093ba98da19568bc9bf4.jpeg",
+      "filename": "e6b9f3251376fd7d0181093ba98da19568bc9bf4.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/e6b9f3251376fd7d0181093ba98da19568bc9bf4.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 172,
+      "skinId": "RusticBrown",
+      "traitGroupIds": [
+        "head/gentlechikn",
+        "neck/hairy-old-man",
+        "feet/blue-kicks"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/e67389c470a0b09fab916d8b35ca1fd3c5ffd287.jpeg",
+      "filename": "e67389c470a0b09fab916d8b35ca1fd3c5ffd287.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/e67389c470a0b09fab916d8b35ca1fd3c5ffd287.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 181,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/pineapple",
+        "neck/chains-for-days",
+        "torso/human-growth-hormones",
+        "feet/green-feet",
+        "tail/gas-guzzler"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/0c44beff78f4f0450e91a841bb40934b51825275.jpeg",
+      "filename": "0c44beff78f4f0450e91a841bb40934b51825275.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/0c44beff78f4f0450e91a841bb40934b51825275.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 190,
+      "skinId": "PassionRed",
+      "traitGroupIds": [
+        "head/daft-punk",
+        "neck/avax-bling",
+        "torso/blue-bag"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/91f8cb0d1f7d6bbcaa7d902cf6241c263c0fd186.jpeg",
+      "filename": "91f8cb0d1f7d6bbcaa7d902cf6241c263c0fd186.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/91f8cb0d1f7d6bbcaa7d902cf6241c263c0fd186.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 193,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/crusader",
+        "tail/liarliar"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/e71d66d4222576c6eadcba141ba192112a599de3.jpeg",
+      "filename": "e71d66d4222576c6eadcba141ba192112a599de3.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/e71d66d4222576c6eadcba141ba192112a599de3.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 234,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/hamlet",
+        "torso/big-ol-corn-cob",
+        "feet/red-feet",
+        "tail/red-plumage"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/a3fa0996a634ffd508b2fcfab8c84dff9a7aa734.jpeg",
+      "filename": "a3fa0996a634ffd508b2fcfab8c84dff9a7aa734.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/a3fa0996a634ffd508b2fcfab8c84dff9a7aa734.jpeg"
+    },
+    {
+      "species": "chikn",
+      "token": 849,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/golden-crusader",
+        "neck/dollar-chain"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/01b286e7c9b4167c51043d8904b587aa91beb6b8.jpeg",
+      "filename": "01b286e7c9b4167c51043d8904b587aa91beb6b8.jpeg",
+      "artBuild": "chiknV2/build1",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/chiknV2/build1/image/01b286e7c9b4167c51043d8904b587aa91beb6b8.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 5,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/beaker",
+        "neck/a-little-rag",
+        "torso/gameboi",
+        "feet/green-feet",
+        "tail/peacoq"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/f41449be9d5e8ba8a80080fbe47f92924db4dc83.jpeg",
+      "filename": "f41449be9d5e8ba8a80080fbe47f92924db4dc83.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/f41449be9d5e8ba8a80080fbe47f92924db4dc83.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 6,
+      "skinId": "Bullion",
+      "traitGroupIds": [
+        "head/bucket",
+        "neck/bandolier",
+        "torso/snip-snips",
+        "feet/red-feet",
+        "tail/smokestack"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/85c54b5dded1409384325ddd20c62741d2859162.jpeg",
+      "filename": "85c54b5dded1409384325ddd20c62741d2859162.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/85c54b5dded1409384325ddd20c62741d2859162.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 9,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/green-party-hat",
+        "neck/clockchain",
+        "torso/big-stick",
+        "feet/golden-greaves",
+        "tail/big-mama-fat-pipes"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/bc7878bc87973ed680a93bf0bed7fe67c0c53494.jpeg",
+      "filename": "bc7878bc87973ed680a93bf0bed7fe67c0c53494.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/bc7878bc87973ed680a93bf0bed7fe67c0c53494.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 20,
+      "skinId": "FrogGreen",
+      "traitGroupIds": [
+        "head/sunnies",
+        "neck/chick-magnet",
+        "torso/rubber-chikn",
+        "feet/blue-timbs",
+        "tail/concorde"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/df1baa8162ae4fe7f157fb8796d99d319e333622.jpeg",
+      "filename": "df1baa8162ae4fe7f157fb8796d99d319e333622.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/df1baa8162ae4fe7f157fb8796d99d319e333622.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 25,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/green-comb",
+        "neck/lei",
+        "torso/human-growth-hormones",
+        "feet/buckaroo",
+        "tail/prawn-coqtail"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/dae062c5c9fed330b7d284d5fe41f9c4a9aa4e7f.jpeg",
+      "filename": "dae062c5c9fed330b7d284d5fe41f9c4a9aa4e7f.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/dae062c5c9fed330b7d284d5fe41f9c4a9aa4e7f.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 36,
+      "skinId": "PassionRed",
+      "traitGroupIds": [
+        "head/mullet",
+        "neck/shoulder-armour",
+        "torso/play-boy",
+        "feet/ironclaw",
+        "tail/hydra"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/8251967a1ec89e377d470a4a534255e80ff8c68d.jpeg",
+      "filename": "8251967a1ec89e377d470a4a534255e80ff8c68d.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/8251967a1ec89e377d470a4a534255e80ff8c68d.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 82,
+      "skinId": "Obsidian",
+      "traitGroupIds": [
+        "head/hole-in-one",
+        "neck/red-bowtie",
+        "torso/toot-toot",
+        "feet/all-stars",
+        "tail/gas-guzzler"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/f50e99bfca9a0ae9d891db2137c3d2d02c4b0989.jpeg",
+      "filename": "f50e99bfca9a0ae9d891db2137c3d2d02c4b0989.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/f50e99bfca9a0ae9d891db2137c3d2d02c4b0989.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 10406,
+      "skinId": "Midnight",
+      "traitGroupIds": [
+        "head/samurai",
+        "neck/coq-tags",
+        "torso/bone",
+        "feet/sneaker-head",
+        "tail/chikn-jockey"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/e8fee536513066b9aab7002ec1add7c3f1be1c5b.jpeg",
+      "filename": "e8fee536513066b9aab7002ec1add7c3f1be1c5b.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/e8fee536513066b9aab7002ec1add7c3f1be1c5b.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 13,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/smol-brain-in-jar",
+        "neck/bitcoin-maxi",
+        "torso/9-iron",
+        "feet/golden-feet",
+        "tail/royal-flush"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/6b82a79c21e35a637494dc390ffe823202010460.jpeg",
+      "filename": "6b82a79c21e35a637494dc390ffe823202010460.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/6b82a79c21e35a637494dc390ffe823202010460.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 26,
+      "skinId": "FrogGreen",
+      "traitGroupIds": [
+        "head/gas-mask",
+        "neck/sash",
+        "torso/dad-shirt",
+        "feet/ball-n-chain",
+        "tail/whalegod"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/4f0294944a6b49fb7f51d9720ee49ce5bbbf1e02.jpeg",
+      "filename": "4f0294944a6b49fb7f51d9720ee49ce5bbbf1e02.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/4f0294944a6b49fb7f51d9720ee49ce5bbbf1e02.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 49,
+      "skinId": "Celestial",
+      "traitGroupIds": [
+        "head/inherited-royalty",
+        "neck/a-little-rag",
+        "torso/sword",
+        "feet/croqs",
+        "tail/scorpion-king"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/451fe123cda2e600fde1c6bb2e82e016da541e93.jpeg",
+      "filename": "451fe123cda2e600fde1c6bb2e82e016da541e93.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/451fe123cda2e600fde1c6bb2e82e016da541e93.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 74,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/sesh-hat",
+        "neck/stethoscope",
+        "torso/spelunker",
+        "feet/greaves",
+        "tail/foliage"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/5258af185316818560cde184422c1e0255d40b40.jpeg",
+      "filename": "5258af185316818560cde184422c1e0255d40b40.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/5258af185316818560cde184422c1e0255d40b40.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 289,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/chef",
+        "neck/joseph-drip",
+        "torso/banjo",
+        "feet/celestial-feet",
+        "tail/off-grid"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/a2d0b68e29d53e25b85792e47f29bc55c7f9db45.jpeg",
+      "filename": "a2d0b68e29d53e25b85792e47f29bc55c7f9db45.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/a2d0b68e29d53e25b85792e47f29bc55c7f9db45.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 48,
+      "skinId": "Obsidian",
+      "traitGroupIds": [
+        "head/beanie",
+        "neck/stop-loss",
+        "torso/fresh-fish",
+        "feet/blue-timbs",
+        "tail/sword-tail"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/f85611414b399937f0b95cd7e22c22f8a557f8a0.jpeg",
+      "filename": "f85611414b399937f0b95cd7e22c22f8a557f8a0.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/f85611414b399937f0b95cd7e22c22f8a557f8a0.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 63,
+      "skinId": "Midnight",
+      "traitGroupIds": [
+        "head/panic-buy",
+        "neck/prized-coq",
+        "torso/breastplate",
+        "feet/red-stilettos"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/b6fdf0042c79ed8e3319b1213f89d94f999ffd05.jpeg",
+      "filename": "b6fdf0042c79ed8e3319b1213f89d94f999ffd05.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/b6fdf0042c79ed8e3319b1213f89d94f999ffd05.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 133,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/permabull",
+        "neck/avax-degen",
+        "torso/lord-quas",
+        "feet/black-stilettos"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/66cb27eabf5b6165541de09bc383077863ea7d71.jpeg",
+      "filename": "66cb27eabf5b6165541de09bc383077863ea7d71.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/66cb27eabf5b6165541de09bc383077863ea7d71.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 1038,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/gentlechikn",
+        "neck/bone-necklace",
+        "torso/big-ol-corn-cob",
+        "feet/spurs",
+        "tail/chikn-jockey"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/07c3b16e4152071d39d9c030d3bac4a4e317e442.jpeg",
+      "filename": "07c3b16e4152071d39d9c030d3bac4a4e317e442.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/07c3b16e4152071d39d9c030d3bac4a4e317e442.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 14,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/hipster",
+        "neck/coq-maxi",
+        "torso/mcfly",
+        "feet/red-feet",
+        "tail/peacoq"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/62b9e1be579f47373761f6278d14e09375c44ada.jpeg",
+      "filename": "62b9e1be579f47373761f6278d14e09375c44ada.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/62b9e1be579f47373761f6278d14e09375c44ada.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 18,
+      "skinId": "FrogGreen",
+      "traitGroupIds": [
+        "head/conspiracy-theorist",
+        "neck/floatie-boi",
+        "torso/love-balloon",
+        "feet/golden-feet"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/a7237c5af209a0c426c3a37e7d8f53cdbad807af.jpeg",
+      "filename": "a7237c5af209a0c426c3a37e7d8f53cdbad807af.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/a7237c5af209a0c426c3a37e7d8f53cdbad807af.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 50,
+      "skinId": "Celestial",
+      "traitGroupIds": [
+        "head/grandpa",
+        "neck/gwei-guzzler",
+        "torso/banger",
+        "feet/green-feet",
+        "tail/sword-tail"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/6687260ac04da6fab477b301567d81d3f3416695.jpeg",
+      "filename": "6687260ac04da6fab477b301567d81d3f3416695.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/6687260ac04da6fab477b301567d81d3f3416695.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 69,
+      "skinId": "Obsidian",
+      "traitGroupIds": [
+        "head/winterproof",
+        "neck/golden-pauldrons",
+        "torso/doctor-coq",
+        "feet/golden-greaves"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/aae08709120080e88a144ba0c21019d2c504b96d.jpeg",
+      "filename": "aae08709120080e88a144ba0c21019d2c504b96d.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/aae08709120080e88a144ba0c21019d2c504b96d.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 117,
+      "skinId": "FrogGreen",
+      "traitGroupIds": [
+        "head/batter-up",
+        "neck/purple-bowtie",
+        "torso/spork",
+        "feet/blue-timbs",
+        "tail/chikn-jockey"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/54ea8e21c3cca8e1ee0652d6d5490d1539a1101b.jpeg",
+      "filename": "54ea8e21c3cca8e1ee0652d6d5490d1539a1101b.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/54ea8e21c3cca8e1ee0652d6d5490d1539a1101b.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 173,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/jell-o",
+        "neck/make-a-wish",
+        "torso/goldfish",
+        "feet/golden-feet",
+        "tail/smokestack"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/9199a52b721c6918fdd6b1a7fd035fd96de347fe.jpeg",
+      "filename": "9199a52b721c6918fdd6b1a7fd035fd96de347fe.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/9199a52b721c6918fdd6b1a7fd035fd96de347fe.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 10,
+      "skinId": "PassionRed",
+      "traitGroupIds": [
+        "head/feed-bag",
+        "neck/bandolier",
+        "torso/red-t-shirt",
+        "feet/spurs"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/b2944300b70961a6b5b5c025ee2e6a01e8e00af3.jpeg",
+      "filename": "b2944300b70961a6b5b5c025ee2e6a01e8e00af3.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/b2944300b70961a6b5b5c025ee2e6a01e8e00af3.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 12,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/crt",
+        "neck/lei",
+        "torso/boombox",
+        "tail/concorde"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/40549dc653a742c0707e01cc94c0a4a31580d475.jpeg",
+      "filename": "40549dc653a742c0707e01cc94c0a4a31580d475.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/40549dc653a742c0707e01cc94c0a4a31580d475.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 32,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/quarter-pounder",
+        "neck/coq-tags",
+        "torso/snib-snibs",
+        "feet/croqs"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/28504d86e534586fc475ded0d4627ab0860c2c1d.jpeg",
+      "filename": "28504d86e534586fc475ded0d4627ab0860c2c1d.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/28504d86e534586fc475ded0d4627ab0860c2c1d.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 34,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/coqpit-commander",
+        "torso/kevlar",
+        "feet/all-stars"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/c1a7b008ecba23ae010059b83ef99056a4cc7551.jpeg",
+      "filename": "c1a7b008ecba23ae010059b83ef99056a4cc7551.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/c1a7b008ecba23ae010059b83ef99056a4cc7551.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 35,
+      "skinId": "Bullion",
+      "traitGroupIds": [
+        "head/coachella",
+        "neck/bitcoin-maxi",
+        "torso/black-t-shirt",
+        "feet/ball-n-chain",
+        "tail/gas-guzzler"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/21877d55877e8caa92e3bba9f3576fdaa91a471d.jpeg",
+      "filename": "21877d55877e8caa92e3bba9f3576fdaa91a471d.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/21877d55877e8caa92e3bba9f3576fdaa91a471d.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 45,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/woody",
+        "neck/lei",
+        "torso/fancy-sword",
+        "feet/golden-greaves",
+        "tail/concorde"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/731ebf1e9234adba9fce6c0aec516eb73bfc9733.jpeg",
+      "filename": "731ebf1e9234adba9fce6c0aec516eb73bfc9733.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/731ebf1e9234adba9fce6c0aec516eb73bfc9733.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 51,
+      "skinId": "PassionRed",
+      "traitGroupIds": [
+        "head/sombrero",
+        "neck/a-little-rag",
+        "torso/shield",
+        "feet/ironclaw",
+        "tail/foliage"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/bb29a065f4cdede9ebacec5c350fb7c4d85ccd52.jpeg",
+      "filename": "bb29a065f4cdede9ebacec5c350fb7c4d85ccd52.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/bb29a065f4cdede9ebacec5c350fb7c4d85ccd52.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 57,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/laser-eye",
+        "neck/coq-tags",
+        "torso/midas-muscles",
+        "feet/all-stars",
+        "tail/smokestack"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/80249baa28ede1032b542820d76ddfc31e11c165.jpeg",
+      "filename": "80249baa28ede1032b542820d76ddfc31e11c165.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/80249baa28ede1032b542820d76ddfc31e11c165.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 58,
+      "skinId": "Obsidian",
+      "traitGroupIds": [
+        "head/dirty-bird",
+        "neck/red-bowtie",
+        "torso/cd-rw",
+        "feet/croqs",
+        "tail/hydra"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/608f2466f7ec2f0f110764cfe8b86225bf608959.jpeg",
+      "filename": "608f2466f7ec2f0f110764cfe8b86225bf608959.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/608f2466f7ec2f0f110764cfe8b86225bf608959.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 77,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/robocoq",
+        "torso/starfish",
+        "feet/spurs"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/a8163bdc566e1135f8b1d764e427ccc3ead07562.jpeg",
+      "filename": "a8163bdc566e1135f8b1d764e427ccc3ead07562.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/a8163bdc566e1135f8b1d764e427ccc3ead07562.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 85,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/purple-comb",
+        "neck/golden-pauldrons",
+        "torso/the-key",
+        "feet/golden-feet",
+        "tail/chikn-jockey"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/83135dab738a35b8af45bb230014fc5365d80c45.jpeg",
+      "filename": "83135dab738a35b8af45bb230014fc5365d80c45.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/83135dab738a35b8af45bb230014fc5365d80c45.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 86,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/boxhead",
+        "torso/grande-lecoq",
+        "feet/sneaker-head"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/f6e59ad331234b68fee34a0efc13533997c1de7f.jpeg",
+      "filename": "f6e59ad331234b68fee34a0efc13533997c1de7f.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/f6e59ad331234b68fee34a0efc13533997c1de7f.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 87,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/beard",
+        "neck/sash",
+        "torso/saddle",
+        "feet/black-stilettos",
+        "tail/hydra"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/8f911862c8b7f56233caca560835a305aecafe6e.jpeg",
+      "filename": "8f911862c8b7f56233caca560835a305aecafe6e.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/8f911862c8b7f56233caca560835a305aecafe6e.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 101,
+      "skinId": "Bullion",
+      "traitGroupIds": [
+        "head/chrome-dome",
+        "neck/red-bowtie",
+        "torso/a-fresh-baguette",
+        "feet/sneaker-head",
+        "tail/peacoq"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/281b4526cda44207502011c323687821f6698ab5.jpeg",
+      "filename": "281b4526cda44207502011c323687821f6698ab5.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/281b4526cda44207502011c323687821f6698ab5.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 102,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/templar",
+        "neck/a-little-rag",
+        "torso/gainz",
+        "feet/green-feet",
+        "tail/gas-guzzler"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/89126749dd0c7c23f2c99e0f399f0f66cbd6debe.jpeg",
+      "filename": "89126749dd0c7c23f2c99e0f399f0f66cbd6debe.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/89126749dd0c7c23f2c99e0f399f0f66cbd6debe.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 106,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/happy-birthday",
+        "neck/joseph-drip",
+        "torso/katana",
+        "feet/black-stilettos",
+        "tail/scorpion-king"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/f96825964dc89380442892583af19c590e0e1079.jpeg",
+      "filename": "f96825964dc89380442892583af19c590e0e1079.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/f96825964dc89380442892583af19c590e0e1079.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 126,
+      "skinId": "FrogGreen",
+      "traitGroupIds": [
+        "head/cap",
+        "neck/lei",
+        "torso/hoops",
+        "feet/croqs",
+        "tail/prawn-coqtail"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/ae86364f0ed2945e289468eeb1345b9725a77506.jpeg",
+      "filename": "ae86364f0ed2945e289468eeb1345b9725a77506.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/ae86364f0ed2945e289468eeb1345b9725a77506.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 134,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/fez",
+        "neck/lei",
+        "torso/shovel",
+        "feet/celestial-feet",
+        "tail/peacoq"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/2bbca6a655103e314d2c446880242bd65b0d26b8.jpeg",
+      "filename": "2bbca6a655103e314d2c446880242bd65b0d26b8.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/2bbca6a655103e314d2c446880242bd65b0d26b8.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 166,
+      "skinId": "PassionRed",
+      "traitGroupIds": [
+        "head/beret",
+        "neck/shoulder-armour",
+        "torso/floppy-disk",
+        "tail/gas-guzzler"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/f2f9eab3a9a34552659e186bfe001c8b2fd7d365.jpeg",
+      "filename": "f2f9eab3a9a34552659e186bfe001c8b2fd7d365.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/f2f9eab3a9a34552659e186bfe001c8b2fd7d365.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 181,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/golden-comb",
+        "neck/floatie-boi",
+        "torso/avax-banger",
+        "feet/ironclaw"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/200a1f041db16547373145883b061b06e8d15dd6.jpeg",
+      "filename": "200a1f041db16547373145883b061b06e8d15dd6.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/200a1f041db16547373145883b061b06e8d15dd6.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 203,
+      "skinId": "Bullion",
+      "traitGroupIds": [
+        "head/celestial-comb",
+        "neck/bandolier",
+        "torso/zippo",
+        "feet/all-stars",
+        "tail/chikn-jockey"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/3e8a35db46c7ea56304a6701f46be42d0c1c92e7.jpeg",
+      "filename": "3e8a35db46c7ea56304a6701f46be42d0c1c92e7.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/3e8a35db46c7ea56304a6701f46be42d0c1c92e7.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 297,
+      "skinId": "PassionRed",
+      "traitGroupIds": [
+        "head/framez",
+        "neck/sash",
+        "torso/golden-breastplate",
+        "feet/croqs"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/44c1e2bbb48ae6276581039b49ccb03fdea5f465.jpeg",
+      "filename": "44c1e2bbb48ae6276581039b49ccb03fdea5f465.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/44c1e2bbb48ae6276581039b49ccb03fdea5f465.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 357,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/rosebud",
+        "neck/bandolier",
+        "torso/tweed",
+        "feet/golden-feet"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/77ba2840e56b823fcf6e09b1882bcff15448370b.jpeg",
+      "filename": "77ba2840e56b823fcf6e09b1882bcff15448370b.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/77ba2840e56b823fcf6e09b1882bcff15448370b.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 427,
+      "skinId": "Obsidian",
+      "traitGroupIds": [
+        "head/golden-templar",
+        "torso/omelette",
+        "feet/buckaroo"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/8b8316fa7fbd8e3c37e85f3dcd80e9683fafb7b1.jpeg",
+      "filename": "8b8316fa7fbd8e3c37e85f3dcd80e9683fafb7b1.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/8b8316fa7fbd8e3c37e85f3dcd80e9683fafb7b1.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 451,
+      "skinId": "FrogGreen",
+      "traitGroupIds": [
+        "head/snorkel",
+        "neck/sash",
+        "torso/white-t-shirt",
+        "feet/croqs"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/4b7948d03321242b6f0f92735b80d4de934438f5.jpeg",
+      "filename": "4b7948d03321242b6f0f92735b80d4de934438f5.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/4b7948d03321242b6f0f92735b80d4de934438f5.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 692,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/supervillain",
+        "torso/not-football",
+        "feet/green-feet",
+        "tail/gas-guzzler"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/fc91347eebc3fbb5965e6e81e54242f2ed66ad74.jpeg",
+      "filename": "fc91347eebc3fbb5965e6e81e54242f2ed66ad74.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/fc91347eebc3fbb5965e6e81e54242f2ed66ad74.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 904,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/oasis",
+        "neck/joseph-drip",
+        "torso/home-run",
+        "feet/celestial-feet"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/81749cacca19aeb48dd86474050603e3ccda3fcb.jpeg",
+      "filename": "81749cacca19aeb48dd86474050603e3ccda3fcb.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/81749cacca19aeb48dd86474050603e3ccda3fcb.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 1246,
+      "skinId": "FrogGreen",
+      "traitGroupIds": [
+        "head/roodboi-rootie",
+        "torso/hendrix",
+        "feet/blue-timbs"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/b445475672c8de10333508890e3b912375f9f2a8.jpeg",
+      "filename": "b445475672c8de10333508890e3b912375f9f2a8.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/b445475672c8de10333508890e3b912375f9f2a8.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 44,
+      "skinId": "PassionRed",
+      "traitGroupIds": [
+        "head/plague-doctor",
+        "torso/gameboi",
+        "tail/big-mama-fat-pipes"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/6ca79ad6a676e9b94bfb3a62837e4ad7d8ede5c8.jpeg",
+      "filename": "6ca79ad6a676e9b94bfb3a62837e4ad7d8ede5c8.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/6ca79ad6a676e9b94bfb3a62837e4ad7d8ede5c8.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 91,
+      "skinId": "Obsidian",
+      "traitGroupIds": [
+        "head/construction-helmet",
+        "neck/a-little-rag",
+        "torso/snib-snibs",
+        "feet/green-feet"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/e84d992b000e32ad71d875feadc80d22e1e36751.jpeg",
+      "filename": "e84d992b000e32ad71d875feadc80d22e1e36751.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/e84d992b000e32ad71d875feadc80d22e1e36751.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 109,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/daffy",
+        "neck/chick-magnet",
+        "torso/love-balloon",
+        "feet/all-stars",
+        "tail/off-grid"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/d70de336b0c8f0fc20adac644571bfb574c99115.jpeg",
+      "filename": "d70de336b0c8f0fc20adac644571bfb574c99115.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/d70de336b0c8f0fc20adac644571bfb574c99115.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 132,
+      "skinId": "NightstalkerBlue",
+      "traitGroupIds": [
+        "head/gentleman-s-pipe",
+        "neck/prized-coq",
+        "torso/dad-shirt",
+        "feet/golden-feet",
+        "tail/royal-flush"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/d9edad6aae1dac07a7732f2373751b0b7d697fc1.jpeg",
+      "filename": "d9edad6aae1dac07a7732f2373751b0b7d697fc1.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/d9edad6aae1dac07a7732f2373751b0b7d697fc1.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 140,
+      "skinId": "MutantPurple",
+      "traitGroupIds": [
+        "head/golden-bone-daddy",
+        "torso/snib-snibs",
+        "feet/red-feet"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/181f787ab821b0ffb36c32d32d384d0da8aa93b4.jpeg",
+      "filename": "181f787ab821b0ffb36c32d32d384d0da8aa93b4.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/181f787ab821b0ffb36c32d32d384d0da8aa93b4.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 149,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/quarterback",
+        "neck/sash",
+        "torso/play-boy",
+        "feet/spurs"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/fa202504e397ce066f75b413b502dd1fc50c3866.jpeg",
+      "filename": "fa202504e397ce066f75b413b502dd1fc50c3866.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/fa202504e397ce066f75b413b502dd1fc50c3866.jpeg"
+    },
+    {
+      "species": "roostr",
+      "token": 176,
+      "skinId": "SnowWhite",
+      "traitGroupIds": [
+        "head/3d-specs",
+        "neck/a-little-rag",
+        "torso/mcfly",
+        "feet/blue-timbs",
+        "tail/whalegod"
+      ],
+      "imageUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/c2b5b5a24e9564ce140cd78658d32f3c81eb8a45.jpeg",
+      "filename": "c2b5b5a24e9564ce140cd78658d32f3c81eb8a45.jpeg",
+      "artBuild": "roostrV2/build3",
+      "referenceUrl": "https://chikn-farm.sfo3.cdn.digitaloceanspaces.com/roostrV2/build3/image/c2b5b5a24e9564ce140cd78658d32f3c81eb8a45.jpeg"
+    }
+  ],
+  "referenceKind": "v2-visuals",
+  "artBuilds": {
+    "chikn": "chiknV2/build1",
+    "roostr": "roostrV2/build3"
+  }
+}

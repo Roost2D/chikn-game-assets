@@ -56,7 +56,7 @@ test('all classified source MP3s are published with integrity and lineage', asyn
   );
   const audioBundle = manifest.bundles.find(({ id }) => id === 'audio');
   assert.equal(audioBundle?.items.length, sourceMp3s.length);
-  assert.equal(releaseSize.directFiles.length, sourceMp3s.length);
+  assert.equal(releaseSize.directFiles.filter(({ mediaType }) => mediaType === 'audio/mpeg').length, sourceMp3s.length);
 });
 
 async function readJson(path) {

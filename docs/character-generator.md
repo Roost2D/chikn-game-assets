@@ -49,12 +49,14 @@ The recipe is the handoff between a UI, an AI coding assistant, a game, and an e
 
 `definition.attachmentGroups[groupId].replacesSlotIds` is authoritative.
 
-- Tail traits own `Tail`.
-- Feet traits own `LegFoot A` and `LegFoot B`.
+- Replacement plumage owns `Tail`; eggs, exhausts and perched riders remain overlays in the corrected library candidate.
+- Shoes replace the corresponding feet. Coloured legs replace their shins and toes. Greaves, spurs and ankle accessories preserve the underlying feet.
 - Head traits, including Robocoq, remain overlays and never hide the selected base head.
 - Hats, combs, necklaces, shields, and held items also remain overlays.
 
-Depth is also part of the rig contract. Replacement tails temporarily lift their hidden `Tail` transform above the body torso. Torso traits, including Cutlass, render above the torso but below the foreground wing. Neck traits render above torso traits, and head traits render above both the base head and neck traits. Feet traits render above their base foot branches; a one-image feet trait is shifted right to the authored composite-foot position before it replaces both base feet. Applications must not patch these depths or offsets after composition.
+Depth is also part of the rig contract. Replacement tails temporarily lift their hidden `Tail` transform above the body torso; overlay tails retain the original branch depth. Held torso props, including Cutlass, render above the torso and below the foreground wing. Added arms use their own front/rear wing branches. Foreground neck/head pieces and explicitly authored rear panels keep their own order. Feet traits follow their appropriate animated limb branches; image count alone does not determine replacement ownership or placement. Applications must not patch these depths or offsets after composition. See [candidate assembly review](/trait-assembly-review) for the corrections and complete preview gallery.
+
+Coat-like garments and breastplates cover the foreground wing. Their attachment groups temporarily lower that wing and both upper-leg branches behind the torso garment, keeping descendant shins, toes and footwear beneath it; removing the group restores their original depths. This rule is authored in the shared rig and applies across all base skins and game consumers.
 
 When a tail or feet replacement is active, only its base sprite is hidden. The base bone remains the animation target, and the trait follows that bone. This prevents doubled feet or old tail feathers behind a replacement without disconnecting the trait during movement.
 

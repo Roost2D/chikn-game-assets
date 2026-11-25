@@ -18,7 +18,9 @@ Generated atlas PNGs, thumbnails, resized assets, and cropped frames retain the 
 
 ## Independently authored Apache material
 
-Code, docs, schemas, manifest/atlas JSON, rig definitions, transforms, attachment mappings, and animation clips/timing are independently authored Apache-2.0 project material. `sources/farmland/water_swim_ring_coq.png` is also independently authored project artwork: it is deliberately published with `license: "Apache-2.0"`, `commercialUse: "allowed"`, and no Chikn ownership/permission fields. Generated pages isolate Apache project artwork from protected content, so an integrity-checked fetch never returns a mixed-rights atlas page. Artwork rendered through a rig remains Chikn community content.
+Code, docs, schemas, manifest/atlas JSON, and independently authored project rigs and animation timing are Apache-2.0 project material. Imported official Coqfight skeletons, transforms, attachment mappings, animation clips/timing, and native derivatives remain protected Chikn content. Their rights records identify the preserved upstream licence document and its hash; a JSON extension does not establish authorship. See [the separate official set](./coqfight.md).
+
+`sources/farmland/water_swim_ring_coq.png` is also independently authored project artwork: it is deliberately published with `license: "Apache-2.0"`, `commercialUse: "allowed"`, and no Chikn ownership/permission fields. Generated pages isolate Apache project artwork from protected content, so an integrity-checked fetch never returns a mixed-rights atlas page. Artwork rendered through a rig remains Chikn community content.
 
 ## Excluded and unrelated material
 

@@ -2,121 +2,2700 @@
   "schema": "chikn-game-assets.asset-aliases/v1",
   "aliases": {
     "chikn-traits/base/gameboy/gameboy-legfoot-a": [
-      "chikn-traits/base/gameboy/gameboy-legfoot-b",
       "chikn-flat/gameboy-legfoot-b",
       "chikn-rig/gameboy/gameboy-legfoot-b",
+      "chikn-traits/base/gameboy/gameboy-legfoot-b",
       "chikn.rig.gameboy-legfoot-b"
     ],
     "chikn-traits/base/pixelchan/pixelchan-legfoot-a": [
-      "chikn-traits/base/pixelchan/pixelchan-legfoot-b",
       "chikn-flat/pixelchan-legfoot-b",
       "chikn-rig/pixelchan/pixelchan-legfoot-b",
+      "chikn-traits/base/pixelchan/pixelchan-legfoot-b",
       "chikn.rig.pixelchan-legfoot-b"
     ],
     "roostr-traits/base/bullion/bullion-legfoot": [
-      "roostr-traits/base/snowwhite/snowwhite-legfoot",
       "roostr-flat/chikn-roostr/snowwhite-legfoot",
       "roostr-rig/snowwhite/snowwhite-legfoot",
+      "roostr-traits/base/snowwhite/snowwhite-legfoot",
       "roostr.rig.snowwhite-legfoot"
     ],
     "roostr-traits/base/midnight/midnight-legfoot": [
-      "roostr-traits/base/midnight/midnight-legfoot-1",
       "roostr-flat/chikn-roostr/midnight-legfoot-1",
       "roostr-rig/midnight/midnight-legfoot-1",
+      "roostr-traits/base/midnight/midnight-legfoot-1",
       "roostr.rig.midnight-legfoot-1"
     ],
     "roostr-traits/base/obsidian/obsidian-legfoot": [
-      "roostr-traits/base/obsidian/obsidian-legfoot-1",
       "roostr-flat/chikn-roostr/obsidian-legfoot-1",
       "roostr-rig/obsidian/obsidian-legfoot-1",
+      "roostr-traits/base/obsidian/obsidian-legfoot-1",
       "roostr.rig.obsidian-legfoot-1"
     ],
     "chikn-traits/feet/bluefeet-a-2": [
-      "chikn-traits/feet/bluefeet-b-2",
       "chikn-flat/bluefeet-b-2",
-      "chikn.rig.bluefeet-b-2",
       "chikn-flat/passionred-leglower-a",
       "chikn-rig/passionred/passionred-leglower-a",
+      "chikn-traits/feet/bluefeet-b-2",
+      "chikn.rig.bluefeet-b-2",
       "chikn.rig.passionred-leglower-a"
     ],
     "chikn-traits/feet/bluefeet-a": [
-      "chikn-traits/feet/bluefeet-b",
       "chikn-flat/bluefeet-b",
+      "chikn-traits/feet/bluefeet-b",
       "chikn.rig.bluefeet-b"
     ],
     "chikn-traits/feet/greenfeet-a": [
-      "chikn-traits/feet/greenfeet-b",
       "chikn-flat/greenfeet-b",
+      "chikn-traits/feet/greenfeet-b",
       "chikn.rig.greenfeet-b"
     ],
     "chikn-traits/feet/purplefeet-a-2": [
-      "chikn-traits/feet/purplefeet-b-2",
       "chikn-flat/purplefeet-b-2",
+      "chikn-traits/feet/purplefeet-b-2",
       "chikn.rig.purplefeet-b-2"
     ],
     "chikn-traits/feet/purplefeet-a": [
-      "chikn-traits/feet/purplefeet-b",
       "chikn-flat/purplefeet-b",
+      "chikn-traits/feet/purplefeet-b",
       "chikn.rig.purplefeet-b"
     ],
     "chikn-traits/feet/redfeet-a-2": [
-      "chikn-traits/feet/redfeet-b-2",
       "chikn-flat/redfeet-b-2",
+      "chikn-traits/feet/redfeet-b-2",
       "chikn.rig.redfeet-b-2"
     ],
     "chikn-traits/feet/redfeet-a": [
-      "chikn-traits/feet/redfeet-b",
       "chikn-flat/redfeet-b",
+      "chikn-traits/feet/redfeet-b",
       "chikn.rig.redfeet-b"
     ],
     "chikn-traits/tail/red-plumage": [
-      "chikn-traits/tail/redplumage-b",
       "chikn-flat/redplumage-b",
+      "chikn-traits/tail/redplumage-b",
       "chikn.rig.redplumage-b"
     ],
     "chikn-traits/head/constructionhelmet": [
-      "roostr-traits/head/constructionhelmet",
       "roostr-flat/chikn-roostr/constructionhelmet",
+      "roostr-traits/head/constructionhelmet",
       "roostr.rig.constructionhelmet"
     ],
     "chikn-traits/head/gentlemanspipe": [
-      "roostr-traits/head/gentleman-s-pipe-b",
       "roostr-flat/chikn-roostr/gentleman-s-pipe-b",
+      "roostr-traits/head/gentleman-s-pipe-b",
       "roostr.rig.gentleman-s-pipe-b"
     ],
     "chikn-traits/head/lasereye": [
-      "roostr-traits/head/laser-eye",
       "roostr-flat/chikn-roostr/laser-eye",
+      "roostr-traits/head/laser-eye",
       "roostr.rig.laser-eye"
     ],
     "chikn-traits/torso/afreshbaguette": [
-      "roostr-traits/torso/afreshbaguette",
       "roostr-flat/chikn-roostr/afreshbaguette",
+      "roostr-traits/torso/afreshbaguette",
       "roostr.rig.afreshbaguette"
     ],
     "chikn-traits/torso/humangrowthhormones-back": [
-      "roostr-traits/torso/humangrowthhormones",
       "roostr-flat/chikn-roostr/humangrowthhormones",
+      "roostr-traits/torso/humangrowthhormones",
       "roostr.rig.humangrowthhormones"
     ],
     "chikn-traits/torso/humangrowthhormones-front": [
-      "roostr-traits/torso/humangrowthhormones-b",
       "roostr-flat/chikn-roostr/humangrowthhormones-b",
+      "roostr-traits/torso/humangrowthhormones-b",
       "roostr.rig.humangrowthhormones-b"
     ],
     "chikn-traits/torso/midasmucles-back": [
-      "roostr-traits/torso/midasmucles",
       "roostr-flat/chikn-roostr/midasmucles",
+      "roostr-traits/torso/midasmucles",
       "roostr.rig.midasmucles"
     ],
     "chikn-traits/torso/midasmucles-front": [
-      "roostr-traits/torso/midasmucles-b",
       "roostr-flat/chikn-roostr/midasmucles-b",
+      "roostr-traits/torso/midasmucles-b",
       "roostr.rig.midasmucles-b"
     ],
-    "farmland/grass-full": ["farmland/placeholder-tile"],
-    "farmland/smallfarm-cabbage": ["farmland/smallfarm-cabbage-fence"],
-    "farmland/smallfarm-corn": ["farmland/smallfarm-corn-fence"],
-    "farmland/smallfarm-wheat": ["farmland/smallfarm-wheat-fence"]
+    "farmland/grass-full": [
+      "farmland/placeholder-tile"
+    ],
+    "farmland/smallfarm-cabbage": [
+      "farmland/smallfarm-cabbage-fence"
+    ],
+    "farmland/smallfarm-corn": [
+      "farmland/smallfarm-corn-fence"
+    ],
+    "farmland/smallfarm-wheat": [
+      "farmland/smallfarm-wheat-fence"
+    ],
+    "chikn-traits/base/bayc/coqfight-v1-8c78bf4606adf0c37454": [
+      "coqfight-v1/chikn/images/Bayc/Back.Wing",
+      "coqfight-v1/chikn/images/Bayc/Front.Wing"
+    ],
+    "chikn-traits/base/bayc/coqfight-v1-7f2b989f981734075f83": [
+      "coqfight-v1/chikn/images/Bayc/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/bayc/coqfight-v1-85ba6f9ca3f8978c1be3": [
+      "coqfight-v1/chikn/images/Bayc/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/bayc/coqfight-v1-dd971a5c2a42285f79fe": [
+      "coqfight-v1/chikn/images/Bayc/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/bayc/coqfight-v1-0587311d1fbc74c3d4f2": [
+      "coqfight-v1/chikn/images/Bayc/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/bayc/coqfight-v1-d1d31d8d564dd26cb177": [
+      "coqfight-v1/chikn/images/Bayc/Tail"
+    ],
+    "chikn-traits/base/bayc/coqfight-v1-d16744147bab44ce485e": [
+      "coqfight-v1/chikn/images/Bayc/Torso"
+    ],
+    "chikn-traits/base/bayc/coqfight-v1-7c91a1eff6182e54da98": [
+      "coqfight-v1/chikn/images/Bayc/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/bayc/coqfight-v1-8e509e872771a3795bfc": [
+      "coqfight-v1/chikn/images/Bayc/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/bullion/coqfight-v1-89118edd0d40e741b4ff": [
+      "coqfight-v1/chikn/images/Bullion/Back.Leg.Lower",
+      "coqfight-v1/chikn/images/Bullion/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/bullion/coqfight-v1-03bb571a47a6c76fda91": [
+      "coqfight-v1/chikn/images/Bullion/Back.Leg.Foot",
+      "coqfight-v1/chikn/images/Bullion/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/bullion/coqfight-v1-ca02e9bf9e186da747c3": [
+      "coqfight-v1/chikn/images/Bullion/Back.Leg.Upper",
+      "coqfight-v1/chikn/images/Bullion/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/shared/coqfight-v1-ca3122535b6384d013c6": [
+      "coqfight-v1/chikn/images/_shared/Front.Forehand.Back",
+      "coqfight-v1/chikn/images/trait/chikn_roocketlauncher/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/_shared/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_roocketlauncher/Front.Forehand.Back"
+    ],
+    "chikn-traits/base/bullion/coqfight-v1-b5613c199a0ebcdb8d5f": [
+      "coqfight-v1/chikn/images/Bullion/Back.Wing",
+      "coqfight-v1/chikn/images/Bullion/Front.Wing"
+    ],
+    "chikn-traits/base/bayc/coqfight-v1-ceb6755fd9eaf9301899": [
+      "coqfight-v1/chikn/images/Bayc/Head"
+    ],
+    "chikn-traits/base/bullion/coqfight-v1-9a056b0390977c35aec2": [
+      "coqfight-v1/chikn/images/Bullion/Tail"
+    ],
+    "chikn-traits/base/bullion/coqfight-v1-ff8e5696726748fb391e": [
+      "coqfight-v1/chikn/images/Bullion/Head"
+    ],
+    "chikn-traits/base/bullion/coqfight-v1-91becec9d60dce3f5efd": [
+      "coqfight-v1/chikn/images/Bullion/Head.Comb"
+    ],
+    "chikn-traits/base/celestial/coqfight-v1-019daae4cd3393316e80": [
+      "coqfight-v1/chikn/images/Celestial/Back.Wing",
+      "coqfight-v1/chikn/images/Celestial/Front.Wing"
+    ],
+    "chikn-traits/base/celestial/coqfight-v1-08a2b3c7a8e02425571f": [
+      "coqfight-v1/chikn/images/Celestial/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/bullion/coqfight-v1-d7061ef560659651e918": [
+      "coqfight-v1/chikn/images/Bullion/Torso"
+    ],
+    "chikn-traits/base/celestial/coqfight-v1-2533c770ecc7ecd5d9dd": [
+      "coqfight-v1/chikn/images/Celestial/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/celestial/coqfight-v1-56ba782c10a57aaaf22b": [
+      "coqfight-v1/chikn/images/Celestial/Tail"
+    ],
+    "chikn-traits/base/celestial/coqfight-v1-072478b2dc234267fd96": [
+      "coqfight-v1/chikn/images/Celestial/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/celestial/coqfight-v1-fda1ae6364440bf59a79": [
+      "coqfight-v1/chikn/images/Celestial/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/celestial/coqfight-v1-165a2d914a667bbd2ed9": [
+      "coqfight-v1/chikn/images/Celestial/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/celestial/coqfight-v1-d9ce4ca28f0fce71f4b8": [
+      "coqfight-v1/chikn/images/Celestial/Torso"
+    ],
+    "chikn-traits/base/celestial/coqfight-v1-1977905a48ccedd8aeec": [
+      "coqfight-v1/chikn/images/Celestial/Head.Comb"
+    ],
+    "chikn-traits/base/celestial/coqfight-v1-c12b6bc2f017a3284eb9": [
+      "coqfight-v1/chikn/images/Celestial/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/celestial/coqfight-v1-a37c05b5fc8c3d5355ea": [
+      "coqfight-v1/chikn/images/Celestial/Head"
+    ],
+    "chikn-traits/base/cryptopunk/coqfight-v1-4c97b72a66d24d49dfa7": [
+      "coqfight-v1/chikn/images/CryptoPunk/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/cryptopunk/coqfight-v1-e4696b499f3cf4281daa": [
+      "coqfight-v1/chikn/images/CryptoPunk/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/cryptopunk/coqfight-v1-81f28828720235e1740e": [
+      "coqfight-v1/chikn/images/CryptoPunk/Back.Wing",
+      "coqfight-v1/chikn/images/CryptoPunk/Front.Wing"
+    ],
+    "chikn-traits/base/cryptopunk/coqfight-v1-1b80cd7708cbadf7b035": [
+      "coqfight-v1/chikn/images/CryptoPunk/Tail"
+    ],
+    "chikn-traits/base/cryptopunk/coqfight-v1-d9673d7067bb4b4c80c0": [
+      "coqfight-v1/chikn/images/CryptoPunk/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/cryptopunk/coqfight-v1-7dba1ac721683b2d7c6d": [
+      "coqfight-v1/chikn/images/CryptoPunk/Torso"
+    ],
+    "chikn-traits/base/cryptopunk/coqfight-v1-d5a38d0ec5dc0b9acac0": [
+      "coqfight-v1/chikn/images/CryptoPunk/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/cryptopunk/coqfight-v1-fcba6c6c568a9c85d29a": [
+      "coqfight-v1/chikn/images/CryptoPunk/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/cryptopunk/coqfight-v1-14f2f7eed3c85783de75": [
+      "coqfight-v1/chikn/images/CryptoPunk/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/cryptopunk/coqfight-v1-f978bb9206475994c01d": [
+      "coqfight-v1/chikn/images/CryptoPunk/Head"
+    ],
+    "chikn-traits/base/crystale/coqfight-v1-bdd85bbde004077dcabe": [
+      "coqfight-v1/chikn/images/Crystale/Back.Leg.Lower",
+      "coqfight-v1/chikn/images/Crystalé/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/crystale/coqfight-v1-01cb2aa26311ac046310": [
+      "coqfight-v1/chikn/images/Crystale/Back.Leg.Foot",
+      "coqfight-v1/chikn/images/Crystalé/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/crystale/coqfight-v1-594960f03e11cb927ea0": [
+      "coqfight-v1/chikn/images/Crystale/Back.Wing",
+      "coqfight-v1/chikn/images/Crystale/Front.Wing",
+      "coqfight-v1/chikn/images/Crystalé/Back.Wing",
+      "coqfight-v1/chikn/images/Crystalé/Front.Wing"
+    ],
+    "chikn-traits/base/crystale/coqfight-v1-e5627566d50e1ead6e18": [
+      "coqfight-v1/chikn/images/Crystale/Back.Leg.Upper",
+      "coqfight-v1/chikn/images/Crystalé/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/crystale/coqfight-v1-8e180965851f13c8d21a": [
+      "coqfight-v1/chikn/images/Crystale/Tail",
+      "coqfight-v1/chikn/images/Crystalé/Tail"
+    ],
+    "chikn-traits/base/crystale/coqfight-v1-aa2eed1e342feabd00a4": [
+      "coqfight-v1/chikn/images/Crystale/Front.Leg.Foot",
+      "coqfight-v1/chikn/images/Crystalé/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/crystale/coqfight-v1-e769cbb84b6dc6ce6360": [
+      "coqfight-v1/chikn/images/Crystale/Front.Leg.Lower",
+      "coqfight-v1/chikn/images/Crystalé/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/crystale/coqfight-v1-58729312f3e85965c944": [
+      "coqfight-v1/chikn/images/Crystale/Front.Leg.Upper",
+      "coqfight-v1/chikn/images/Crystalé/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/crystale/coqfight-v1-df9e81818daac32f94ad": [
+      "coqfight-v1/chikn/images/Crystale/Torso",
+      "coqfight-v1/chikn/images/Crystalé/Torso"
+    ],
+    "chikn-traits/base/crystale/coqfight-v1-8cc7132945a9275fc132": [
+      "coqfight-v1/chikn/images/Crystale/Head.Comb",
+      "coqfight-v1/chikn/images/Crystalé/Head.Comb"
+    ],
+    "chikn-traits/base/crystale/coqfight-v1-ecb2c493e58461319132": [
+      "coqfight-v1/chikn/images/Crystale/Head",
+      "coqfight-v1/chikn/images/Crystalé/Head"
+    ],
+    "chikn-traits/base/degen/coqfight-v1-a95b303e4af42cffbd2c": [
+      "coqfight-v1/chikn/images/Degen/Back.Wing",
+      "coqfight-v1/chikn/images/Degen/Front.Wing"
+    ],
+    "chikn-traits/base/degen/coqfight-v1-118652d4b102451c650b": [
+      "coqfight-v1/chikn/images/Degen/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/degen/coqfight-v1-e8695aa6cf4d1f89768d": [
+      "coqfight-v1/chikn/images/Degen/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/degen/coqfight-v1-94ef350013b828aeca68": [
+      "coqfight-v1/chikn/images/Degen/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/degen/coqfight-v1-99a4aceb8a49e54da9e6": [
+      "coqfight-v1/chikn/images/Degen/Tail"
+    ],
+    "chikn-traits/base/degen/coqfight-v1-78ac2cd0fbf2d03fbaa3": [
+      "coqfight-v1/chikn/images/Degen/Torso"
+    ],
+    "chikn-traits/base/degen/coqfight-v1-75ebc55ab79b229ed9a6": [
+      "coqfight-v1/chikn/images/Degen/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/degen/coqfight-v1-c702189c8eeca6b199f1": [
+      "coqfight-v1/chikn/images/Degen/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/degen/coqfight-v1-bc9e393f07a87aa406c8": [
+      "coqfight-v1/chikn/images/Degen/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/dirtybird/coqfight-v1-86cae0028cbe0273ebc1": [
+      "coqfight-v1/chikn/images/DirtyBird/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/dirtybird/coqfight-v1-ea620a6ff4082f7265f9": [
+      "coqfight-v1/chikn/images/DirtyBird/Back.Wing",
+      "coqfight-v1/chikn/images/DirtyBird/Front.Wing"
+    ],
+    "chikn-traits/base/degen/coqfight-v1-a70f051ea7f6cbb706a5": [
+      "coqfight-v1/chikn/images/Degen/Head"
+    ],
+    "chikn-traits/base/dirtybird/coqfight-v1-e1c46bb3916678c17173": [
+      "coqfight-v1/chikn/images/DirtyBird/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/dirtybird/coqfight-v1-b5760fa00d81e5484be8": [
+      "coqfight-v1/chikn/images/DirtyBird/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/dirtybird/coqfight-v1-336080f3ce0200fc5ac5": [
+      "coqfight-v1/chikn/images/DirtyBird/Tail"
+    ],
+    "chikn-traits/base/dirtybird/coqfight-v1-4ef1970b8b683ce091b4": [
+      "coqfight-v1/chikn/images/DirtyBird/Torso"
+    ],
+    "chikn-traits/base/dirtybird/coqfight-v1-1c6153b041742dd2b6b8": [
+      "coqfight-v1/chikn/images/DirtyBird/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/dirtybird/coqfight-v1-d68a89fc17e24c2662b0": [
+      "coqfight-v1/chikn/images/DirtyBird/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/dirtybird/coqfight-v1-a6e6513f66f67ee0d326": [
+      "coqfight-v1/chikn/images/DirtyBird/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/elon/coqfight-v1-a9a36471fb4f6f82e3d5": [
+      "coqfight-v1/chikn/images/Elon/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/dirtybird/coqfight-v1-b57a44f81e15e0c9909b": [
+      "coqfight-v1/chikn/images/DirtyBird/Head"
+    ],
+    "chikn-traits/base/elon/coqfight-v1-1b3f193810ec4d92a07d": [
+      "coqfight-v1/chikn/images/Elon/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/elon/coqfight-v1-573f7b7725f35779ad6c": [
+      "coqfight-v1/chikn/images/Elon/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/elon/coqfight-v1-334f86c8284a95022964": [
+      "coqfight-v1/chikn/images/Elon/Back.Wing",
+      "coqfight-v1/chikn/images/Elon/Front.Wing"
+    ],
+    "chikn-traits/base/elon/coqfight-v1-ee62c985f69603ce2044": [
+      "coqfight-v1/chikn/images/Elon/Tail"
+    ],
+    "chikn-traits/base/elon/coqfight-v1-972b835c11220fd52d86": [
+      "coqfight-v1/chikn/images/Elon/Torso"
+    ],
+    "chikn-traits/base/elon/coqfight-v1-e3a206b0378dd1c8b40e": [
+      "coqfight-v1/chikn/images/Elon/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/elon/coqfight-v1-10f5b4650168ac65cfbe": [
+      "coqfight-v1/chikn/images/Elon/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/elon/coqfight-v1-6b5cb9dc6d8cdf7d024f": [
+      "coqfight-v1/chikn/images/Elon/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/elon/coqfight-v1-3cec83f735484e8a8ea6": [
+      "coqfight-v1/chikn/images/Elon/Head"
+    ],
+    "chikn-traits/base/frognationgreen/coqfight-v1-6f19d5b83368e7bcaf12": [
+      "coqfight-v1/chikn/images/FrogNationGreen/Back.Wing",
+      "coqfight-v1/chikn/images/FrogNationGreen/Front.Wing"
+    ],
+    "chikn-traits/base/frognationgreen/coqfight-v1-8feba4e9d2e0866c67d0": [
+      "coqfight-v1/chikn/images/FrogNationGreen/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/frognationgreen/coqfight-v1-986f3ca1b8584d8b453e": [
+      "coqfight-v1/chikn/images/FrogNationGreen/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/frognationgreen/coqfight-v1-0e3407bcc04b202d1a43": [
+      "coqfight-v1/chikn/images/FrogNationGreen/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/frognationgreen/coqfight-v1-60297e7bf24066c595ee": [
+      "coqfight-v1/chikn/images/FrogNationGreen/Torso"
+    ],
+    "chikn-traits/base/frognationgreen/coqfight-v1-927c7f54b2324d25df95": [
+      "coqfight-v1/chikn/images/FrogNationGreen/Tail"
+    ],
+    "chikn-traits/base/frognationgreen/coqfight-v1-87bdd13308202edc299a": [
+      "coqfight-v1/chikn/images/FrogNationGreen/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/frognationgreen/coqfight-v1-d8d694d94d39555acf8d": [
+      "coqfight-v1/chikn/images/FrogNationGreen/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/frognationgreen/coqfight-v1-9d062c6d47ef6e8d2b91": [
+      "coqfight-v1/chikn/images/FrogNationGreen/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/frognationgreen/coqfight-v1-52d24a10618454b41922": [
+      "coqfight-v1/chikn/images/FrogNationGreen/Head.Comb"
+    ],
+    "chikn-traits/base/frognationgreen/coqfight-v1-0418f1124e602e3a6141": [
+      "coqfight-v1/chikn/images/FrogNationGreen/Head"
+    ],
+    "chikn-traits/base/gameboy/coqfight-v1-11c5098af15b30623ff1": [
+      "coqfight-v1/chikn/images/GameBoy/Back.Wing",
+      "coqfight-v1/chikn/images/GameBoy/Front.Wing"
+    ],
+    "chikn-traits/base/gameboy/coqfight-v1-c515fd7b0b3ceb5d6513": [
+      "coqfight-v1/chikn/images/GameBoy/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/gameboy/coqfight-v1-075f7ff47e0f8261f0b6": [
+      "coqfight-v1/chikn/images/GameBoy/Back.Leg.Foot",
+      "coqfight-v1/chikn/images/GameBoy/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/gameboy/coqfight-v1-6433b3b42016c5926dc1": [
+      "coqfight-v1/chikn/images/GameBoy/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/gameboy/coqfight-v1-eb17f9041d2ec394f3b2": [
+      "coqfight-v1/chikn/images/GameBoy/Tail"
+    ],
+    "chikn-traits/base/gameboy/coqfight-v1-b177c705ea3abdb993db": [
+      "coqfight-v1/chikn/images/GameBoy/Torso"
+    ],
+    "chikn-traits/base/gameboy/coqfight-v1-3bf1ff0d73f8e88252b0": [
+      "coqfight-v1/chikn/images/GameBoy/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/gameboy/coqfight-v1-0e59452b63d5abe912dd": [
+      "coqfight-v1/chikn/images/GameBoy/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/gameboy/coqfight-v1-2c7d2bdd6b0f173af9c8": [
+      "coqfight-v1/chikn/images/GameBoy/Head.Comb"
+    ],
+    "chikn-traits/base/kernel/coqfight-v1-fcfabe2a77a0eeec9fe0": [
+      "coqfight-v1/chikn/images/Kernel/Back.Wing",
+      "coqfight-v1/chikn/images/Kernel/Front.Wing"
+    ],
+    "chikn-traits/base/kernel/coqfight-v1-1b4c230380372a2261cc": [
+      "coqfight-v1/chikn/images/Kernel/Back.Leg.Foot",
+      "coqfight-v1/chikn/images/PassionRed/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/kernel/coqfight-v1-e4516e092f1f4a927526": [
+      "coqfight-v1/chikn/images/Kernel/Back.Leg.Lower",
+      "coqfight-v1/chikn/images/PassionRed/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/kernel/coqfight-v1-4cd1b9d463dcbb5d6ba0": [
+      "coqfight-v1/chikn/images/Kernel/Back.Leg.Upper",
+      "coqfight-v1/chikn/images/PassionRed/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/kernel/coqfight-v1-aae9dce7088133ce8d09": [
+      "coqfight-v1/chikn/images/Kernel/Torso",
+      "coqfight-v1/chikn/images/PassionRed/Torso"
+    ],
+    "chikn-traits/base/gameboy/coqfight-v1-d187c16fe79fd809fea0": [
+      "coqfight-v1/chikn/images/GameBoy/Head"
+    ],
+    "chikn-traits/base/kernel/coqfight-v1-8aa710220ea4f7228e3d": [
+      "coqfight-v1/chikn/images/Kernel/Tail",
+      "coqfight-v1/chikn/images/PassionRed/Tail"
+    ],
+    "chikn-traits/base/kernel/coqfight-v1-3393e97e7818217f0dd6": [
+      "coqfight-v1/chikn/images/Kernel/Front.Leg.Lower",
+      "coqfight-v1/chikn/images/PassionRed/Front.Leg.Lower",
+      "coqfight-v1/chikn/images/trait/chikn_redfeet/Back.Leg.Lower.Front",
+      "coqfight-v1/chikn/images/trait/chikn_redfeet/Front.Leg.Lower.Front",
+      "coqfight-v1/roostr/images/trait/roostr_feetred/Back.Leg.Lower.Front",
+      "coqfight-v1/roostr/images/trait/roostr_feetred/Front.Leg.Lower.Front"
+    ],
+    "chikn-traits/base/kernel/coqfight-v1-f03e4b871f232a13a81d": [
+      "coqfight-v1/chikn/images/Kernel/Front.Leg.Foot",
+      "coqfight-v1/chikn/images/PassionRed/Front.Leg.Foot",
+      "coqfight-v1/chikn/images/trait/chikn_redfeet/Back.Leg.Foot.Front",
+      "coqfight-v1/chikn/images/trait/chikn_redfeet/Front.Leg.Foot.Front",
+      "coqfight-v1/roostr/images/trait/roostr_feetred/Back.Leg.Foot.Front",
+      "coqfight-v1/roostr/images/trait/roostr_feetred/Front.Leg.Foot.Front"
+    ],
+    "chikn-traits/base/kernel/coqfight-v1-bddbd9372ccb16cea9d6": [
+      "coqfight-v1/chikn/images/Kernel/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/kernel/coqfight-v1-6adf36e4b0f821a8b593": [
+      "coqfight-v1/chikn/images/Kernel/Head"
+    ],
+    "chikn-traits/base/mutantpurple/coqfight-v1-1ab3f9f1586ea71f5f03": [
+      "coqfight-v1/chikn/images/MutantPurple/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/mutantpurple/coqfight-v1-1e4a1746267b24b46141": [
+      "coqfight-v1/chikn/images/MutantPurple/Back.Wing",
+      "coqfight-v1/chikn/images/MutantPurple/Front.Wing"
+    ],
+    "chikn-traits/base/mutantpurple/coqfight-v1-fd60e19ae0d202329ac0": [
+      "coqfight-v1/chikn/images/MutantPurple/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/mutantpurple/coqfight-v1-f2f670566ae4b612cb21": [
+      "coqfight-v1/chikn/images/MutantPurple/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/mutantpurple/coqfight-v1-da8f9555d95138deb916": [
+      "coqfight-v1/chikn/images/MutantPurple/Tail"
+    ],
+    "chikn-traits/base/mutantpurple/coqfight-v1-be37ea74a8a6257272e6": [
+      "coqfight-v1/chikn/images/MutantPurple/Torso"
+    ],
+    "chikn-traits/base/mutantpurple/coqfight-v1-862a879246525c4b9628": [
+      "coqfight-v1/chikn/images/MutantPurple/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/mutantpurple/coqfight-v1-d04a878fa86ac5be83c6": [
+      "coqfight-v1/chikn/images/MutantPurple/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/mutantpurple/coqfight-v1-f3d88f681fd1b65fd2eb": [
+      "coqfight-v1/chikn/images/MutantPurple/Head.Comb"
+    ],
+    "chikn-traits/base/mutantpurple/coqfight-v1-72faf8e93a0b603528e1": [
+      "coqfight-v1/chikn/images/MutantPurple/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/mutantpurple/coqfight-v1-3ddd9a422c6cea9a13f6": [
+      "coqfight-v1/chikn/images/MutantPurple/Head"
+    ],
+    "chikn-traits/base/nightstalkerblue/coqfight-v1-2a0c8efbc5a9ec7fcfb5": [
+      "coqfight-v1/chikn/images/NightstalkerBlue/Back.Wing",
+      "coqfight-v1/chikn/images/NightstalkerBlue/Front.Wing"
+    ],
+    "chikn-traits/base/nightstalkerblue/coqfight-v1-d4c2570b733d1d603969": [
+      "coqfight-v1/chikn/images/NightstalkerBlue/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/nightstalkerblue/coqfight-v1-c965709cc0bd3f632ac1": [
+      "coqfight-v1/chikn/images/NightstalkerBlue/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/nightstalkerblue/coqfight-v1-8413daf44e9331820b3e": [
+      "coqfight-v1/chikn/images/NightstalkerBlue/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/nightstalkerblue/coqfight-v1-fdf0ee448953044fcec0": [
+      "coqfight-v1/chikn/images/NightstalkerBlue/Tail"
+    ],
+    "chikn-traits/base/nightstalkerblue/coqfight-v1-c7601372f67991669b3e": [
+      "coqfight-v1/chikn/images/NightstalkerBlue/Torso"
+    ],
+    "chikn-traits/base/nightstalkerblue/coqfight-v1-57203d9070d52bd6a8b0": [
+      "coqfight-v1/chikn/images/NightstalkerBlue/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/nightstalkerblue/coqfight-v1-44385671001c505ceb17": [
+      "coqfight-v1/chikn/images/NightstalkerBlue/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/nightstalkerblue/coqfight-v1-fef352dcc9b0724cb5dd": [
+      "coqfight-v1/chikn/images/NightstalkerBlue/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/nightstalkerblue/coqfight-v1-216af7d8eaff2ce970bb": [
+      "coqfight-v1/chikn/images/NightstalkerBlue/Head.Comb"
+    ],
+    "chikn-traits/base/nightstalkerblue/coqfight-v1-90a3ce7d4c0ee56ea0bd": [
+      "coqfight-v1/chikn/images/NightstalkerBlue/Head"
+    ],
+    "chikn-traits/base/passionred/coqfight-v1-c1097a0d352ddbc1f886": [
+      "coqfight-v1/chikn/images/PassionRed/Back.Wing",
+      "coqfight-v1/chikn/images/PassionRed/Front.Wing"
+    ],
+    "chikn-traits/base/passionred/coqfight-v1-95901b01051a39369ab8": [
+      "coqfight-v1/chikn/images/PassionRed/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/passionred/coqfight-v1-59f07fa1cdb2c8004799": [
+      "coqfight-v1/chikn/images/PassionRed/Head.Comb"
+    ],
+    "chikn-traits/base/passionred/coqfight-v1-e60d28913de252117050": [
+      "coqfight-v1/chikn/images/PassionRed/Head"
+    ],
+    "chikn-traits/base/pepe/coqfight-v1-b3fae33c70601adbecfc": [
+      "coqfight-v1/chikn/images/Pepe/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/pepe/coqfight-v1-cf76045f3fb7955209fe": [
+      "coqfight-v1/chikn/images/Pepe/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/pepe/coqfight-v1-4fc2377889ce2cafaf46": [
+      "coqfight-v1/chikn/images/Pepe/Back.Wing",
+      "coqfight-v1/chikn/images/Pepe/Front.Wing"
+    ],
+    "chikn-traits/base/pepe/coqfight-v1-9e53fddc6072021a3e41": [
+      "coqfight-v1/chikn/images/Pepe/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/pepe/coqfight-v1-60ee8eb82b08c5890421": [
+      "coqfight-v1/chikn/images/Pepe/Tail"
+    ],
+    "chikn-traits/base/pepe/coqfight-v1-9ce9fdc0e60ab4bbc273": [
+      "coqfight-v1/chikn/images/Pepe/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/pepe/coqfight-v1-b71ecac96ac6b71bc997": [
+      "coqfight-v1/chikn/images/Pepe/Torso"
+    ],
+    "chikn-traits/base/pepe/coqfight-v1-8529b1d800c2fde29dbf": [
+      "coqfight-v1/chikn/images/Pepe/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/pixel-chan/coqfight-v1-b94b9dd560598e1ea146": [
+      "coqfight-v1/chikn/images/Pixel-Chan/Back.Wing",
+      "coqfight-v1/chikn/images/Pixel-Chan/Front.Wing",
+      "coqfight-v1/chikn/images/PixelChan/Back.Wing",
+      "coqfight-v1/chikn/images/PixelChan/Front.Wing"
+    ],
+    "chikn-traits/base/pepe/coqfight-v1-5064ebb5347f96948a3a": [
+      "coqfight-v1/chikn/images/Pepe/Head"
+    ],
+    "chikn-traits/base/pixel-chan/coqfight-v1-24501f5df67f4061153c": [
+      "coqfight-v1/chikn/images/Pixel-Chan/Back.Leg.Lower",
+      "coqfight-v1/chikn/images/PixelChan/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/pixel-chan/coqfight-v1-899281c8e5a2109d60e0": [
+      "coqfight-v1/chikn/images/Pixel-Chan/Back.Leg.Foot",
+      "coqfight-v1/chikn/images/Pixel-Chan/Front.Leg.Foot",
+      "coqfight-v1/chikn/images/PixelChan/Back.Leg.Foot",
+      "coqfight-v1/chikn/images/PixelChan/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/pixel-chan/coqfight-v1-dc258a44d92ccc5fb580": [
+      "coqfight-v1/chikn/images/Pixel-Chan/Back.Leg.Upper",
+      "coqfight-v1/chikn/images/PixelChan/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/pepe/coqfight-v1-b5ef423bd2aebee831e7": [
+      "coqfight-v1/chikn/images/Pepe/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/pixel-chan/coqfight-v1-c637bb6f8a5ba76b172f": [
+      "coqfight-v1/chikn/images/Pixel-Chan/Tail",
+      "coqfight-v1/chikn/images/PixelChan/Tail"
+    ],
+    "chikn-traits/base/pixel-chan/coqfight-v1-df2d16cc832fda0e2544": [
+      "coqfight-v1/chikn/images/Pixel-Chan/Front.Leg.Lower",
+      "coqfight-v1/chikn/images/PixelChan/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/pixel-chan/coqfight-v1-e981b6a1eae1738fa97d": [
+      "coqfight-v1/chikn/images/Pixel-Chan/Torso",
+      "coqfight-v1/chikn/images/PixelChan/Torso"
+    ],
+    "chikn-traits/base/pixel-chan/coqfight-v1-82196af48f8cc2856ca2": [
+      "coqfight-v1/chikn/images/Pixel-Chan/Front.Leg.Upper",
+      "coqfight-v1/chikn/images/PixelChan/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/pixel-chan/coqfight-v1-a8e289a1c643191a8729": [
+      "coqfight-v1/chikn/images/Pixel-Chan/Head.Comb",
+      "coqfight-v1/chikn/images/PixelChan/Head.Comb"
+    ],
+    "chikn-traits/base/pixel-chan/coqfight-v1-1d7334e651b0e67fbd72": [
+      "coqfight-v1/chikn/images/Pixel-Chan/Head",
+      "coqfight-v1/chikn/images/PixelChan/Head"
+    ],
+    "chikn-traits/base/rusticbrown/coqfight-v1-96614be2d63330b2800b": [
+      "coqfight-v1/chikn/images/RusticBrown/Back.Wing",
+      "coqfight-v1/chikn/images/RusticBrown/Front.Wing"
+    ],
+    "chikn-traits/base/rusticbrown/coqfight-v1-4f886e4d4dd5b1df2b4e": [
+      "coqfight-v1/chikn/images/RusticBrown/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/rusticbrown/coqfight-v1-a07d968cf182d1ac65f4": [
+      "coqfight-v1/chikn/images/RusticBrown/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/rusticbrown/coqfight-v1-79fec918b36073aea100": [
+      "coqfight-v1/chikn/images/RusticBrown/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/rusticbrown/coqfight-v1-13955329e2d08040ff06": [
+      "coqfight-v1/chikn/images/RusticBrown/Tail"
+    ],
+    "chikn-traits/base/rusticbrown/coqfight-v1-962e19e29f491655916b": [
+      "coqfight-v1/chikn/images/RusticBrown/Torso"
+    ],
+    "chikn-traits/base/rusticbrown/coqfight-v1-3930f2abfdcbc96696ef": [
+      "coqfight-v1/chikn/images/RusticBrown/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/rusticbrown/coqfight-v1-5f9615a13d2ecfc8c397": [
+      "coqfight-v1/chikn/images/RusticBrown/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/rusticbrown/coqfight-v1-932df441e525d0280cee": [
+      "coqfight-v1/chikn/images/RusticBrown/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/rusticbrown/coqfight-v1-2c524a2a836a99d6774b": [
+      "coqfight-v1/chikn/images/RusticBrown/Head.Comb"
+    ],
+    "chikn-traits/base/rusticbrown/coqfight-v1-7029b808930fc6b64edd": [
+      "coqfight-v1/chikn/images/RusticBrown/Head"
+    ],
+    "chikn-traits/base/space/coqfight-v1-48d5f0c2a67c9eedd994": [
+      "coqfight-v1/chikn/images/Space/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/space/coqfight-v1-e311bb44d0ba216f21fd": [
+      "coqfight-v1/chikn/images/Space/Back.Wing",
+      "coqfight-v1/chikn/images/Space/Front.Wing"
+    ],
+    "chikn-traits/base/space/coqfight-v1-313ce6f5c0632810a18e": [
+      "coqfight-v1/chikn/images/Space/Back.Leg.Lower.Cover"
+    ],
+    "chikn-traits/base/space/coqfight-v1-5fdd5fa67eb648e14dc6": [
+      "coqfight-v1/chikn/images/Space/Tail"
+    ],
+    "chikn-traits/base/space/coqfight-v1-b602c0d8ff6d75f146af": [
+      "coqfight-v1/chikn/images/Space/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/space/coqfight-v1-b20f140e90fda6c4bab1": [
+      "coqfight-v1/chikn/images/Space/Torso"
+    ],
+    "chikn-traits/base/space/coqfight-v1-4f401629175c10c35815": [
+      "coqfight-v1/chikn/images/Space/Front.Leg.Lower.Cover"
+    ],
+    "chikn-traits/base/sweatymeatchikn/coqfight-v1-04c8d56ca0ca1af08431": [
+      "coqfight-v1/chikn/images/SweatyMeatChikn/Back.Wing",
+      "coqfight-v1/chikn/images/SweatyMeatChikn/Front.Wing"
+    ],
+    "chikn-traits/base/space/coqfight-v1-cc5375ea13df61973010": [
+      "coqfight-v1/chikn/images/Space/Head"
+    ],
+    "chikn-traits/base/sweatymeatchikn/coqfight-v1-3e946e29058beedcb6d6": [
+      "coqfight-v1/chikn/images/SweatyMeatChikn/Back.Leg.Lower"
+    ],
+    "chikn-traits/base/sweatymeatchikn/coqfight-v1-4cbb895aa10506986d19": [
+      "coqfight-v1/chikn/images/SweatyMeatChikn/Back.Leg.Foot"
+    ],
+    "chikn-traits/base/sweatymeatchikn/coqfight-v1-c74633596b6961b18b54": [
+      "coqfight-v1/chikn/images/SweatyMeatChikn/Tail"
+    ],
+    "chikn-traits/base/sweatymeatchikn/coqfight-v1-2d06ea262c538f62aa2c": [
+      "coqfight-v1/chikn/images/SweatyMeatChikn/Front.Leg.Lower"
+    ],
+    "chikn-traits/base/sweatymeatchikn/coqfight-v1-d1816a72cf1ab5f5e87d": [
+      "coqfight-v1/chikn/images/SweatyMeatChikn/Front.Leg.Foot"
+    ],
+    "chikn-traits/base/sweatymeatchikn/coqfight-v1-5434b123f74e4e9111ca": [
+      "coqfight-v1/chikn/images/SweatyMeatChikn/Front.Leg.Upper"
+    ],
+    "chikn-traits/base/sweatymeatchikn/coqfight-v1-8096b816be0ceabacff0": [
+      "coqfight-v1/chikn/images/SweatyMeatChikn/Head"
+    ],
+    "chikn-traits/base/sweatymeatchikn/coqfight-v1-057d501f6e68fe2a235a": [
+      "coqfight-v1/chikn/images/SweatyMeatChikn/Back.Leg.Upper"
+    ],
+    "chikn-traits/base/sweatymeatchikn/coqfight-v1-3ea747015c0a906ca539": [
+      "coqfight-v1/chikn/images/SweatyMeatChikn/Torso"
+    ],
+    "chikn-traits/coqfight-v1/cheekyreadhead/coqfight-v1-4eb0bba40361779717e2": [
+      "coqfight-v1/chikn/images/trait/CheekyReadhead/Head.Back",
+      "coqfight-v1/chikn/images/trait/chikn_cheekyredhead/Head.Back",
+      "coqfight-v1/roostr/images/trait/CheekyReadhead/Head.Back"
+    ],
+    "chikn-traits/coqfight-v1/bluemage/coqfight-v1-27d86e3117864e87c115": [
+      "coqfight-v1/chikn/images/trait/BlueMage/Head.Front.Top",
+      "coqfight-v1/chikn/images/trait/chikn_bluemage/Head.Front.Top",
+      "coqfight-v1/roostr/images/trait/BlueMage/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/bigmamfatpipes/coqfight-v1-f13f9afa8c2294e54b47": [
+      "coqfight-v1/chikn/images/trait/BigMamFatPipes/Torso.Pipes.Front",
+      "coqfight-v1/chikn/images/trait/chikn_bigmamafatpipes/Torso.Pipes.Front",
+      "coqfight-v1/roostr/images/trait/BigMamFatPipes/Torso.Pipes.Front",
+      "coqfight-v1/roostr/images/trait/roostr_bigmamafatpipes/Torso.Pipes.Front"
+    ],
+    "chikn-traits/coqfight-v1/cheekyreadhead/coqfight-v1-a07202623be4f1c09f26": [
+      "coqfight-v1/chikn/images/trait/CheekyReadhead/Head.Special",
+      "coqfight-v1/chikn/images/trait/chikn_cheekyredhead/Head.Special",
+      "coqfight-v1/roostr/images/trait/CheekyReadhead/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-actionshorts/coqfight-v1-dc8ff6793a6b2dd01f77": [
+      "coqfight-v1/chikn/images/trait/chikn_actionshorts/Back.Leg.Upper.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-actionshorts/coqfight-v1-50f7848cc489cf6a1da7": [
+      "coqfight-v1/chikn/images/trait/chikn_actionshorts/Front.Leg.Upper.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-actionshorts/coqfight-v1-a3753cc710efdedecf62": [
+      "coqfight-v1/chikn/images/trait/chikn_actionshorts/Torso.Shorts"
+    ],
+    "chikn-traits/coqfight-v1/chikn-admiral/coqfight-v1-25512967a4694eaa07c4": [
+      "coqfight-v1/chikn/images/trait/chikn_admiral/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-afreshbaguette/coqfight-v1-481176b3929ac1174721": [
+      "coqfight-v1/chikn/images/trait/chikn_afreshbaguette/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_baguette/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-avaxbling/coqfight-v1-a110c668bfe74d42f10a": [
+      "coqfight-v1/chikn/images/trait/chikn_avaxbling/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-avaxdegen/coqfight-v1-9ed2f86793a9ebdbaf49": [
+      "coqfight-v1/chikn/images/trait/chikn_avaxdegen/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-allseeingeye/coqfight-v1-c46261e86bd390c105e7": [
+      "coqfight-v1/chikn/images/trait/chikn_allseeingeye/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-avaxsafetyofficer/coqfight-v1-80f42d15a096eec8eb60": [
+      "coqfight-v1/chikn/images/trait/chikn_avaxsafetyofficer/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-battlebeakmask/coqfight-v1-e1bb03107d913948d999": [
+      "coqfight-v1/chikn/images/trait/chikn_battlebeakmask/Head.Front.Top",
+      "coqfight-v1/roostr/images/trait/roostr_battlebeakmask/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bigbagofcash/coqfight-v1-8761aee1b7ac4c448fa0": [
+      "coqfight-v1/chikn/images/trait/chikn_bigbagofcash/Torso.Bag"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bigheadmode/coqfight-v1-641cddeb90ef2ccbc301": [
+      "coqfight-v1/chikn/images/trait/chikn_bigheadmode/Head.Front.Top",
+      "coqfight-v1/roostr/images/trait/roostr_bigheadmode/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bitcoinbling/coqfight-v1-2f8429a76c03a34515ba": [
+      "coqfight-v1/chikn/images/trait/chikn_bitcoinbling/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bitcoinmaxi/coqfight-v1-f04a302e8b68fbc311f5": [
+      "coqfight-v1/chikn/images/trait/chikn_bitcoinmaxi/Neck.Front",
+      "coqfight-v1/roostr/images/trait/roostr_bitcoinmaxi/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bigolcorncob/coqfight-v1-4fdb3bc15110e02339df": [
+      "coqfight-v1/chikn/images/trait/chikn_bigolcorncob/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_bigolcorncob/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-blacksweatband/coqfight-v1-9e1b70280cc81390a83d": [
+      "coqfight-v1/chikn/images/trait/chikn_blacksweatband/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-blackbandana/coqfight-v1-ea16d6beb5bb42e7d359": [
+      "coqfight-v1/chikn/images/trait/chikn_blackbandana/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-blackvans/coqfight-v1-c0af1a2641f12ed99860": [
+      "coqfight-v1/chikn/images/trait/chikn_blackvans/Back.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bigmamafatpipes/coqfight-v1-b01c6d421f541d3734b9": [
+      "coqfight-v1/chikn/images/trait/chikn_bigmamafatpipes/Torso.Pipes.Back",
+      "coqfight-v1/roostr/images/trait/roostr_bigmamafatpipes/Torso.Pipes.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-blackvans/coqfight-v1-03b5928002e62b291549": [
+      "coqfight-v1/chikn/images/trait/chikn_blackvans/Front.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-blockchainbashers/coqfight-v1-d624a1a0477ca018b5d3": [
+      "coqfight-v1/chikn/images/trait/chikn_blockchainbashers/Back.Forehand.Front",
+      "coqfight-v1/roostr/images/trait/roostr_blockchainbashers/Back.Forehand.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bluebandana/coqfight-v1-c2a04fa4839850cd79a1": [
+      "coqfight-v1/chikn/images/trait/chikn_bluebandana/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bluebag/coqfight-v1-87ed7d2bffdd607f4618": [
+      "coqfight-v1/chikn/images/trait/chikn_bluebag/Torso.Bag"
+    ],
+    "chikn-traits/coqfight-v1/chikn-blockchainbashers/coqfight-v1-a2a519f638c280d276ae": [
+      "coqfight-v1/chikn/images/trait/chikn_blockchainbashers/Front.Forehand.Front",
+      "coqfight-v1/roostr/images/trait/roostr_blockchainbashers/Front.Forehand.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bluefeet/coqfight-v1-c6aa27d364a05530308c": [
+      "coqfight-v1/chikn/images/trait/chikn_bluefeet/Back.Leg.Foot.Front",
+      "coqfight-v1/chikn/images/trait/chikn_bluefeet/Front.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bluefeet/coqfight-v1-3221083c242bb856bb09": [
+      "coqfight-v1/chikn/images/trait/chikn_bluefeet/Back.Leg.Lower.Front",
+      "coqfight-v1/chikn/images/trait/chikn_bluefeet/Front.Leg.Lower.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bluekicks/coqfight-v1-3078d68fb3c5cb539013": [
+      "coqfight-v1/chikn/images/trait/chikn_bluekicks/Back.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bokchain/coqfight-v1-8edb1f639cff92b7a67c": [
+      "coqfight-v1/chikn/images/trait/chikn_bokchain/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bluekicks/coqfight-v1-c7ebaa0799d2ec5ef043": [
+      "coqfight-v1/chikn/images/trait/chikn_bluekicks/Front.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-boxhead/coqfight-v1-0656c479d72019dfc490": [
+      "coqfight-v1/chikn/images/trait/chikn_boxhead/Head.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-bonedaddyrattler/coqfight-v1-2fa7e0ed9d384f5103d4": [
+      "coqfight-v1/chikn/images/trait/chikn_bonedaddyrattler/Tail.Special",
+      "coqfight-v1/roostr/images/trait/roostr_bonedaddyrattler/Tail.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-businessboy/coqfight-v1-d8a02bb8bb067ab4be26": [
+      "coqfight-v1/chikn/images/trait/chikn_businessboy/Front.Wing.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-businessboy/coqfight-v1-e5da4e2e330457319ed0": [
+      "coqfight-v1/chikn/images/trait/chikn_businessboy/Torso.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-boxhead/coqfight-v1-bf7831367b323d7fc42c": [
+      "coqfight-v1/chikn/images/trait/chikn_boxhead/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/chikn-businessboy/coqfight-v1-08ec33dc489d471d160a": [
+      "coqfight-v1/chikn/images/trait/chikn_businessboy/Neck.Shirt"
+    ],
+    "chikn-traits/coqfight-v1/chikn-chainsfordays/coqfight-v1-718160eb5bd9448652ed": [
+      "coqfight-v1/chikn/images/trait/chikn_chainsfordays/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-charcoalbrunette/coqfight-v1-6f51aaea9d5904d9c5f4": [
+      "coqfight-v1/chikn/images/trait/chikn_charcoalbrunette/Head.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-charcoalbrunette/coqfight-v1-0a83bc2ac798683a4a87": [
+      "coqfight-v1/chikn/images/trait/chikn_charcoalbrunette/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-captainchimerica/coqfight-v1-a5e82cdb661920f91a0c": [
+      "coqfight-v1/chikn/images/trait/chikn_captainchimerica/Front.Forehand.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-chiknatorshades/coqfight-v1-729a7e2d1a2160029224": [
+      "coqfight-v1/chikn/images/trait/chikn_chiknatorshades/Head.Front",
+      "coqfight-v1/roostr/images/trait/roostr_chiknatorshades/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-chickenchoker/coqfight-v1-76a3504e2dc9470b8706": [
+      "coqfight-v1/chikn/images/trait/chikn_chickenchoker/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-chiknslayerhelmet/coqfight-v1-8de36070dcbc57e09403": [
+      "coqfight-v1/chikn/images/trait/chikn_chiknslayerhelmet/Head.Front.Top",
+      "coqfight-v1/roostr/images/trait/roostr_chiknslayerhelmet/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/chikn-chiknsouppot/coqfight-v1-cf27694ec1bc1c034536": [
+      "coqfight-v1/chikn/images/trait/chikn_chiknsouppot/Head.Special",
+      "coqfight-v1/roostr/images/trait/roostr_chiknsouppot/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-comfortableuggs/coqfight-v1-702188f51b81b3a0a05a": [
+      "coqfight-v1/chikn/images/trait/chikn_comfortableuggs/Back.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-comfortableuggs/coqfight-v1-96b8aed2bad03ab55596": [
+      "coqfight-v1/chikn/images/trait/chikn_comfortableuggs/Front.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-constructionhelmet/coqfight-v1-928c56bba78d99ab752c": [
+      "coqfight-v1/chikn/images/trait/chikn_constructionhelmet/Head.Special",
+      "coqfight-v1/roostr/images/trait/roostr_constructionhelmet/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-coqachutail/coqfight-v1-10d7bda88dc4dad22913": [
+      "coqfight-v1/chikn/images/trait/chikn_coqachutail/Tail.Special",
+      "coqfight-v1/roostr/images/trait/roostr_coqachutail/Tail.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-cooldude69/coqfight-v1-7d3e8e6a9eaee55f0f61": [
+      "coqfight-v1/chikn/images/trait/chikn_cooldude69/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-crusader/coqfight-v1-7c1e6a27dd0ab75ba9a3": [
+      "coqfight-v1/chikn/images/trait/Crusader/Head.Front.Top",
+      "coqfight-v1/chikn/images/trait/chikn_crusader/Head.Front.Top",
+      "coqfight-v1/roostr/images/trait/Crusader/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/chikn-covidsafe/coqfight-v1-2635f4f88ad462330184": [
+      "coqfight-v1/chikn/images/trait/chikn_covidsafe/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/chikn-cryptocrashhelmet/coqfight-v1-b53a5a8f9a4b48e836b8": [
+      "coqfight-v1/chikn/images/trait/chikn_cryptocrashhelmet/Head.Special",
+      "coqfight-v1/roostr/images/trait/roostr_cryptocrashhelmet/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-cutlass/coqfight-v1-66964e13e2c9294d176f": [
+      "coqfight-v1/chikn/images/trait/chikn_cutlass/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-daftpunk/coqfight-v1-193c32d058737750c5e1": [
+      "coqfight-v1/chikn/images/trait/chikn_daftpunk/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/chikn-dealwithit/coqfight-v1-d4afec2bcd0d9a21620a": [
+      "coqfight-v1/chikn/images/trait/chikn_dealwithit/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-diamondfeet/coqfight-v1-1e192591477ad12087b6": [
+      "coqfight-v1/chikn/images/trait/chikn_diamondfeet/Back.Leg.Foot.Front",
+      "coqfight-v1/chikn/images/trait/chikn_diamondfeet/Front.Leg.Foot.Front",
+      "coqfight-v1/roostr/images/trait/roostr_diamondfeet/Back.Leg.Foot.Front",
+      "coqfight-v1/roostr/images/trait/roostr_diamondfeet/Front.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-diamondfeet/coqfight-v1-e580152d5f65b29b3606": [
+      "coqfight-v1/chikn/images/trait/chikn_diamondfeet/Back.Leg.Lower.Front",
+      "coqfight-v1/chikn/images/trait/chikn_diamondfeet/Front.Leg.Lower.Front",
+      "coqfight-v1/roostr/images/trait/roostr_diamondfeet/Back.Leg.Lower.Front",
+      "coqfight-v1/roostr/images/trait/roostr_diamondfeet/Front.Leg.Lower.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-dollarchain/coqfight-v1-0737a1b0388c1d61d5d1": [
+      "coqfight-v1/chikn/images/trait/chikn_dollarchain/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-drumsticksclub/coqfight-v1-bd56b4eed292a522e921": [
+      "coqfight-v1/chikn/images/trait/chikn_drumsticksclub/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_drumsticksclub/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-eggstraterrestrial/coqfight-v1-d79cdfe9475c1c70e16e": [
+      "coqfight-v1/chikn/images/trait/chikn_eggstraterrestrial/Head.Front.Top",
+      "coqfight-v1/roostr/images/trait/roostr_eggstraterrestrial/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/chikn-elvis/coqfight-v1-e76c98c4f7f4b316afbe": [
+      "coqfight-v1/chikn/images/trait/chikn_elvis/Head.Special",
+      "coqfight-v1/roostr/images/trait/roostr_elvis/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-featherflamethrower/coqfight-v1-0b6a1515349b6e017cc6": [
+      "coqfight-v1/chikn/images/trait/chikn_featherflamethrower/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_featherflamethrower/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-ethereumguzzler/coqfight-v1-7d0131b272921f52737e": [
+      "coqfight-v1/chikn/images/trait/EthereumGweiGuzzler/Neck.Front",
+      "coqfight-v1/chikn/images/trait/chikn_ethereumguzzler/Neck.Front",
+      "coqfight-v1/roostr/images/trait/EthereumGweiGuzzler/Neck.Front",
+      "coqfight-v1/roostr/images/trait/roostr_ethereumguzzler/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-ethereumbling/coqfight-v1-0fb5b2cd9c70a7538d9c": [
+      "coqfight-v1/chikn/images/trait/chikn_ethereumbling/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-fedoraofknowledge/coqfight-v1-dad25e4129637556b27c": [
+      "coqfight-v1/chikn/images/trait/chikn_fedoraofknowledge/Head.Special",
+      "coqfight-v1/roostr/images/trait/roostr_fedoraofknowledge/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-frothycrown/coqfight-v1-4ea081d3a0e5b8cfbcde": [
+      "coqfight-v1/chikn/images/trait/chikn_frothycrown/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-freshfish/coqfight-v1-9ebf8b9f9a9142344e4c": [
+      "coqfight-v1/chikn/images/trait/chikn_freshfish/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_fish/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-gentleman-spipe/coqfight-v1-755c446d691ce8974bf3": [
+      "coqfight-v1/chikn/images/trait/GentlemansPipe/Head.Back",
+      "coqfight-v1/chikn/images/trait/chikn_gentleman'spipe/Head.Back",
+      "coqfight-v1/roostr/images/trait/GentlemansPipe/Head.Back",
+      "coqfight-v1/roostr/images/trait/roostr_gentleman'spipe/Head.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-gentlechikn/coqfight-v1-dd2163a69724ed2007ee": [
+      "coqfight-v1/chikn/images/trait/chikn_gentlechikn/Head.Front",
+      "coqfight-v1/roostr/images/trait/roostr_gentlechikn/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-fud-proofhelmet/coqfight-v1-3ba6eed5f46acd55d2dc": [
+      "coqfight-v1/chikn/images/trait/chikn_fud-proofhelmet/Head.Special",
+      "coqfight-v1/roostr/images/trait/roostr_fud-proofhelmet/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-gasguzzler/coqfight-v1-2c3ff0e50c2b06f5e5a7": [
+      "coqfight-v1/chikn/images/trait/chikn_gasguzzler/Torso.Pipes.Front",
+      "coqfight-v1/roostr/images/trait/roostr_gasguzzler/Torso.Pipes.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-goldenblonde/coqfight-v1-b4935f01b7c2972df555": [
+      "coqfight-v1/chikn/images/trait/chikn_goldenblonde/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-goldenblonde/coqfight-v1-238d2b7b0f232813aa7e": [
+      "coqfight-v1/chikn/images/trait/chikn_goldenblonde/Head.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-goldenbonedaddy/coqfight-v1-2fe8eaf03fe340d69437": [
+      "coqfight-v1/chikn/images/trait/chikn_goldenbonedaddy/Head.Special",
+      "coqfight-v1/roostr/images/trait/roostr_goldenbonedaddy/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-goldenegg/coqfight-v1-9e42188135b23000e4a3": [
+      "coqfight-v1/chikn/images/trait/chikn_goldenegg/Tail.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-goldenplumage/coqfight-v1-342359a5040485f241ac": [
+      "coqfight-v1/chikn/images/trait/chikn_goldenplumage/Torso.TailConnector"
+    ],
+    "chikn-traits/coqfight-v1/chikn-goldencrusader/coqfight-v1-a64e283db14b06441c9e": [
+      "coqfight-v1/chikn/images/trait/chikn_goldencrusader/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/chikn-goose/coqfight-v1-a7fb01dfcc29ea99b54a": [
+      "coqfight-v1/chikn/images/trait/chikn_goose/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-greenfeet/coqfight-v1-c323ad0eed6a47af1f6d": [
+      "coqfight-v1/chikn/images/trait/chikn_greenfeet/Back.Leg.Foot.Front",
+      "coqfight-v1/chikn/images/trait/chikn_greenfeet/Front.Leg.Foot.Front",
+      "coqfight-v1/roostr/images/trait/roostr_feetgreen/Back.Leg.Foot.Front",
+      "coqfight-v1/roostr/images/trait/roostr_feetgreen/Front.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-greenfeet/coqfight-v1-7b7d1bd1731f3c0976fb": [
+      "coqfight-v1/chikn/images/trait/chikn_greenfeet/Back.Leg.Lower.Front",
+      "coqfight-v1/chikn/images/trait/chikn_greenfeet/Front.Leg.Lower.Front",
+      "coqfight-v1/roostr/images/trait/roostr_feetgreen/Back.Leg.Lower.Front",
+      "coqfight-v1/roostr/images/trait/roostr_feetgreen/Front.Leg.Lower.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-goldenplumage/coqfight-v1-298f7a304c2f0b658060": [
+      "coqfight-v1/chikn/images/trait/chikn_goldenplumage/Tail.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-greenkicks/coqfight-v1-4049c84ebfeb3c8d7f13": [
+      "coqfight-v1/chikn/images/trait/chikn_greenkicks/Back.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-greenkicks/coqfight-v1-de317ce4cca3c037edd1": [
+      "coqfight-v1/chikn/images/trait/chikn_greenkicks/Front.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-hairyoldman/coqfight-v1-3c7c777d09b54d49daf6": [
+      "coqfight-v1/chikn/images/trait/chikn_hairyoldman/Neck.Front",
+      "coqfight-v1/roostr/images/trait/roostr_beard/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-hentai/coqfight-v1-f50795f0d0820fe2f75f": [
+      "coqfight-v1/chikn/images/trait/chikn_hentai/Back.Wing.Back",
+      "coqfight-v1/chikn/images/trait/chikn_hentaiback/Back.Wing.Back",
+      "coqfight-v1/chikn/images/trait/chikn_hentaifront/Back.Wing.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-hentaifront/coqfight-v1-3ea01c990ac0d55a999c": [
+      "coqfight-v1/chikn/images/trait/chikn_hentai/Front.Wing.Front",
+      "coqfight-v1/chikn/images/trait/chikn_hentaiback/Front.Wing.Front",
+      "coqfight-v1/chikn/images/trait/chikn_hentaifront/Front.Wing.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-hodlhammer/coqfight-v1-72344a9a78d8fac46d10": [
+      "coqfight-v1/chikn/images/trait/chikn_hodlhammer/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_hodlhammer/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-hotdoghelmet/coqfight-v1-58c222313d5700c28c6d": [
+      "coqfight-v1/chikn/images/trait/chikn_hotdoghelmet/Head.Back",
+      "coqfight-v1/roostr/images/trait/roostr_hotdoghelmet/Head.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-hamlet/coqfight-v1-2f9c2216b3b3285a6aeb": [
+      "coqfight-v1/chikn/images/trait/chikn_hamlet/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-hotdogneck/coqfight-v1-e6bb92039846f1be7a96": [
+      "coqfight-v1/chikn/images/trait/chikn_hotdogneck/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-hotdoghelmet/coqfight-v1-57b322972a5ee3c91ded": [
+      "coqfight-v1/chikn/images/trait/chikn_hotdoghelmet/Head.Special",
+      "coqfight-v1/roostr/images/trait/roostr_hotdoghelmet/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-hubbabubba/coqfight-v1-160ff40b45054ac99880": [
+      "coqfight-v1/chikn/images/trait/chikn_hubbabubba/Head.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-humangrowthhormones/coqfight-v1-6626f4bd8fdfebcabe52": [
+      "coqfight-v1/chikn/images/trait/chikn_humangrowthhormones/Back.Wing.Back",
+      "coqfight-v1/chikn/images/trait/chikn_humangrowthhormonesback/Back.Wing.Back",
+      "coqfight-v1/roostr/images/trait/roostr_humangrowthhormones/Back.Wing.Back",
+      "coqfight-v1/roostr/images/trait/roostr_humangrowthhormonesback/Back.Wing.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-hothead/coqfight-v1-7f07cb12147a4c9cc409": [
+      "coqfight-v1/chikn/images/trait/chikn_hothead/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-humangrowthhormones/coqfight-v1-1a95114ec149d4ec6467": [
+      "coqfight-v1/chikn/images/trait/chikn_humangrowthhormones/Front.Wing.Front",
+      "coqfight-v1/chikn/images/trait/chikn_humangrowthhormonesback/Front.Wing.Front",
+      "coqfight-v1/roostr/images/trait/roostr_humangrowthhormones/Front.Wing.Front",
+      "coqfight-v1/roostr/images/trait/roostr_humangrowthhormonesback/Front.Wing.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-hotdogtail/coqfight-v1-62c881bda255d671e555": [
+      "coqfight-v1/chikn/images/trait/chikn_hotdogtail/Tail.Special",
+      "coqfight-v1/roostr/images/trait/roostr_hotdogtail/Tail.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-iceystare/coqfight-v1-b23ae36ad29aa95541a6": [
+      "coqfight-v1/chikn/images/trait/chikn_iceystare/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-inheritedroyalty/coqfight-v1-a21d5b0b52c12efe7a75": [
+      "coqfight-v1/chikn/images/trait/chikn_inheritedroyalty/Head.Front",
+      "coqfight-v1/roostr/images/trait/roostr_inheritedroyalty/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-karatekid/coqfight-v1-d2a187c665e00bcccdc3": [
+      "coqfight-v1/chikn/images/trait/chikn_karatekid/Front.Wing.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-karatekid/coqfight-v1-35ec13a868117288d1d7": [
+      "coqfight-v1/chikn/images/trait/chikn_karatekid/Torso.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-karatekid/coqfight-v1-a5c6811c401e8db5d1bc": [
+      "coqfight-v1/chikn/images/trait/chikn_karatekid/Neck.Shirt"
+    ],
+    "chikn-traits/coqfight-v1/chikn-kfckicks/coqfight-v1-df74f97c756eeae735db": [
+      "coqfight-v1/chikn/images/trait/chikn_kfckicks/Back.Leg.Foot.Front",
+      "coqfight-v1/chikn/images/trait/chikn_kfckicks/Front.Leg.Foot.Front",
+      "coqfight-v1/roostr/images/trait/roostr_kfckicks/Back.Leg.Foot.Front",
+      "coqfight-v1/roostr/images/trait/roostr_kfckicks/Front.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-lasereye/coqfight-v1-4f30f7b5195d2d9cfc41": [
+      "coqfight-v1/chikn/images/trait/chikn_lasereye/Head.Front",
+      "coqfight-v1/roostr/images/trait/roostr_lasereye/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-led/coqfight-v1-533417a497dbf865ef5a": [
+      "coqfight-v1/chikn/images/trait/chikn_led/Tail.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-liarliar/coqfight-v1-dc0ed1bd576920730ced": [
+      "coqfight-v1/chikn/images/trait/chikn_liarliar/Tail.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-lowvisionadmiral/coqfight-v1-7384835e37d92b8e953d": [
+      "coqfight-v1/chikn/images/trait/chikn_lowvisionadmiral/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-luckybluecap/coqfight-v1-48cddd806047bb53676a": [
+      "coqfight-v1/chikn/images/trait/chikn_luckybluecap/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-luckiestredcap/coqfight-v1-b59ab3597c4742409a05": [
+      "coqfight-v1/chikn/images/trait/chikn_luckiestredcap/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-maverick/coqfight-v1-865a08b2c347344f93ea": [
+      "coqfight-v1/chikn/images/trait/chikn_maverick/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-mecha-wing/coqfight-v1-a28f11b0a609c786a613": [
+      "coqfight-v1/chikn/images/trait/chikn_mecha-wing/Back.Forehand.Front",
+      "coqfight-v1/roostr/images/trait/roostr_mecha-wing/Back.Forehand.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-mecha-wing/coqfight-v1-4ee5f6dbaab9767e083c": [
+      "coqfight-v1/chikn/images/trait/chikn_mecha-wing/Front.Forehand.Front",
+      "coqfight-v1/roostr/images/trait/roostr_mecha-wing/Front.Forehand.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-mememask/coqfight-v1-2e1c4849f1f4a19e5a22": [
+      "coqfight-v1/chikn/images/trait/chikn_mememask/Head.Special",
+      "coqfight-v1/roostr/images/trait/roostr_mememask/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-memetail/coqfight-v1-6896fd14ecaf4dde7e0d": [
+      "coqfight-v1/chikn/images/trait/chikn_memetail/Tail.Back",
+      "coqfight-v1/roostr/images/trait/roostr_memetail/Tail.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-2351481e3d5d959a4483": [
+      "coqfight-v1/chikn/images/trait/MidasMucles/Back.Wing.Back",
+      "coqfight-v1/chikn/images/trait/chikn_midasmuscles/Back.Wing.Back",
+      "coqfight-v1/chikn/images/trait/chikn_midasmusclesback/Back.Wing.Back",
+      "coqfight-v1/roostr/images/trait/MidasMucles/Back.Wing.Back",
+      "coqfight-v1/roostr/images/trait/roostr_midasmuscles/Back.Wing.Back",
+      "coqfight-v1/roostr/images/trait/roostr_midasmusclesback/Back.Wing.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-d0e01ce20b4cd7cafa32": [
+      "coqfight-v1/chikn/images/trait/MidasMucles/Front.Wing.Front",
+      "coqfight-v1/chikn/images/trait/chikn_midasmuscles/Front.Wing.Front",
+      "coqfight-v1/chikn/images/trait/chikn_midasmusclesback/Front.Wing.Front",
+      "coqfight-v1/roostr/images/trait/MidasMucles/Front.Wing.Front",
+      "coqfight-v1/roostr/images/trait/roostr_midasmuscles/Front.Wing.Front",
+      "coqfight-v1/roostr/images/trait/roostr_midasmusclesback/Front.Wing.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-mimbling/coqfight-v1-8b56bba2c6654676c2c3": [
+      "coqfight-v1/chikn/images/trait/chikn_mimbling/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-mightybroadsword/coqfight-v1-2f6c7d10b17b5e30a543": [
+      "coqfight-v1/chikn/images/trait/chikn_mightybroadsword/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-mimog/coqfight-v1-e6e97157dd498cbfa667": [
+      "coqfight-v1/chikn/images/trait/chikn_mimog/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-moustache/coqfight-v1-559d60b507738fa9e51c": [
+      "coqfight-v1/chikn/images/trait/chikn_moustache/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-moonmedallion/coqfight-v1-eed1de466a60c90c9247": [
+      "coqfight-v1/chikn/images/trait/chikn_moonmedallion/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-mughead/coqfight-v1-689d3ba9d2090414a740": [
+      "coqfight-v1/chikn/images/trait/chikn_mughead/Head.Special",
+      "coqfight-v1/roostr/images/trait/roostr_mughead/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-murica/coqfight-v1-154bd5d2d2adeda6d053": [
+      "coqfight-v1/chikn/images/trait/chikn_murica/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/chikn-mfd/coqfight-v1-514094a3db0fcc1cf2bd": [
+      "coqfight-v1/chikn/images/trait/chikn_mfd/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-nerdlinger/coqfight-v1-8df825dfe0166f5d8f50": [
+      "coqfight-v1/chikn/images/trait/chikn_nerdlinger/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-mysteriousfez/coqfight-v1-e62352b1a145e8edd744": [
+      "coqfight-v1/chikn/images/trait/chikn_mysteriousfez/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-nyan/coqfight-v1-41771cc9f9f24e822d26": [
+      "coqfight-v1/chikn/images/trait/chikn_nyan/Tail.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-nuggetwand/coqfight-v1-19ce7f7e0c73a85b338f": [
+      "coqfight-v1/chikn/images/trait/chikn_nuggetwand/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-orangeplumage/coqfight-v1-c9cea67184c2cf3a940b": [
+      "coqfight-v1/chikn/images/trait/chikn_orangeplumage/Torso.TailConnector"
+    ],
+    "chikn-traits/coqfight-v1/chikn-oldfashionedromance/coqfight-v1-fb0c7598df187262854c": [
+      "coqfight-v1/chikn/images/trait/chikn_oldfashionedromance/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-orangeplumage/coqfight-v1-99ba9c11e9366d8f86d0": [
+      "coqfight-v1/chikn/images/trait/chikn_orangeplumage/Tail.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-peacemaker/coqfight-v1-2c0bb4927e07446f96b3": [
+      "coqfight-v1/chikn/images/trait/chikn_peacemaker/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-peckachuvisor/coqfight-v1-d64022f0fb67b5dd6a98": [
+      "coqfight-v1/chikn/images/trait/chikn_peckachuvisor/Head.Special",
+      "coqfight-v1/roostr/images/trait/roostr_peckachuvisor/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-peckax/coqfight-v1-c94403c6d66c7697d9b9": [
+      "coqfight-v1/chikn/images/trait/chikn_peckax/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_peckax/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-pillager/coqfight-v1-1d75845f72b9c6fcbf74": [
+      "coqfight-v1/chikn/images/trait/chikn_pillager/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-pineapple/coqfight-v1-bf626167f23da5b5d7e9": [
+      "coqfight-v1/chikn/images/trait/chikn_pineapple/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-pixelcigarette/coqfight-v1-9bc36cb2b8c39d15f743": [
+      "coqfight-v1/chikn/images/trait/chikn_pixelcigarette/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-pixeltail/coqfight-v1-c4b8ba160f336d19e038": [
+      "coqfight-v1/chikn/images/trait/chikn_pixeltail/Tail.Special",
+      "coqfight-v1/roostr/images/trait/roostr_pixeltail/Tail.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-plumetoniumknuckles/coqfight-v1-c9ea935a209732bb9b94": [
+      "coqfight-v1/chikn/images/trait/chikn_plumetoniumknuckles/Back.Forehand.Front",
+      "coqfight-v1/roostr/images/trait/roostr_plumetoniumknuckles/Back.Forehand.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-nonfungibubble/coqfight-v1-07b2ea0eb4bfb38cbd36": [
+      "coqfight-v1/chikn/images/trait/chikn_nonfungibubble/Head.Front.Top",
+      "coqfight-v1/roostr/images/trait/roostr_nonfungibubble/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/chikn-pixelsword/coqfight-v1-7f121b33506a1aa3c301": [
+      "coqfight-v1/chikn/images/trait/chikn_pixelsword/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_pixelsword/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-pointnshoot/coqfight-v1-957d09a859efb87a257c": [
+      "coqfight-v1/chikn/images/trait/chikn_pointnshoot/Head.Special",
+      "coqfight-v1/roostr/images/trait/roostr_pointnshoot/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-poultrypaddle/coqfight-v1-75872619bbe3f4f42a21": [
+      "coqfight-v1/chikn/images/trait/chikn_poultrypaddle/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_poultrypaddle/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-poultrypumps/coqfight-v1-bd5fa1e87ae46498c878": [
+      "coqfight-v1/chikn/images/trait/chikn_poultrypumps/Back.Leg.Foot.Front",
+      "coqfight-v1/chikn/images/trait/chikn_poultrypumps/Front.Leg.Foot.Front",
+      "coqfight-v1/roostr/images/trait/roostr_poultrypumps/Back.Leg.Foot.Front",
+      "coqfight-v1/roostr/images/trait/roostr_poultrypumps/Front.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-popsicle/coqfight-v1-8b56e9ad1825d8ef77d4": [
+      "coqfight-v1/chikn/images/trait/chikn_popsicle/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-purplebowtie/coqfight-v1-0279fc92bce9170a1645": [
+      "coqfight-v1/chikn/images/trait/chikn_purplebowtie/Neck.Front",
+      "coqfight-v1/roostr/images/trait/roostr_purplebowtie/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-plumetoniumknuckles/coqfight-v1-ebdeb743fceb894c9876": [
+      "coqfight-v1/chikn/images/trait/chikn_plumetoniumknuckles/Front.Forehand.Front",
+      "coqfight-v1/roostr/images/trait/roostr_plumetoniumknuckles/Front.Forehand.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-purplefeet/coqfight-v1-98e7c2eb30a46e1d7019": [
+      "coqfight-v1/chikn/images/trait/chikn_purplefeet/Back.Leg.Foot.Front",
+      "coqfight-v1/chikn/images/trait/chikn_purplefeet/Front.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-purplefeet/coqfight-v1-d293c2538d75768320a4": [
+      "coqfight-v1/chikn/images/trait/chikn_purplefeet/Back.Leg.Lower.Front",
+      "coqfight-v1/chikn/images/trait/chikn_purplefeet/Front.Leg.Lower.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-purpleleatherboots/coqfight-v1-c23cda26bb3241a7a2bd": [
+      "coqfight-v1/chikn/images/trait/PurpleBoots/Front.Leg.Lower.Cover",
+      "coqfight-v1/chikn/images/trait/chikn_purpleleatherboots/Front.Leg.Lower.Cover",
+      "coqfight-v1/roostr/images/trait/PurpleBoots/Front.Leg.Lower.Cover"
+    ],
+    "chikn-traits/coqfight-v1/chikn-purpleleatherboots/coqfight-v1-80b751061864986468d0": [
+      "coqfight-v1/chikn/images/trait/PurpleBoots/Back.Leg.Lower.Cover",
+      "coqfight-v1/chikn/images/trait/chikn_purpleleatherboots/Back.Leg.Lower.Cover",
+      "coqfight-v1/roostr/images/trait/PurpleBoots/Back.Leg.Lower.Cover"
+    ],
+    "chikn-traits/coqfight-v1/chikn-purplesweatband/coqfight-v1-e9e29b7cb0e814a26834": [
+      "coqfight-v1/chikn/images/trait/chikn_purplesweatband/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-pyramidplumage/coqfight-v1-20344533a387ab3b5f62": [
+      "coqfight-v1/chikn/images/trait/chikn_pyramidplumage/Tail.Special",
+      "coqfight-v1/roostr/images/trait/roostr_pyramidplumage/Tail.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-raptortalons/coqfight-v1-0579ae604488bba5c4d2": [
+      "coqfight-v1/chikn/images/trait/chikn_raptortalons/Back.Leg.Foot.Special",
+      "coqfight-v1/chikn/images/trait/chikn_raptortalons/Front.Leg.Foot.Special",
+      "coqfight-v1/roostr/images/trait/roostr_raptortalons/Back.Leg.Foot.Special",
+      "coqfight-v1/roostr/images/trait/roostr_raptortalons/Front.Leg.Foot.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-realfeet/coqfight-v1-ea441db462e4ac1a6928": [
+      "coqfight-v1/chikn/images/trait/chikn_realfeet/Back.Leg.Lower.Cover"
+    ],
+    "chikn-traits/coqfight-v1/chikn-realfeet/coqfight-v1-cf27694dcc720169adaf": [
+      "coqfight-v1/chikn/images/trait/chikn_realfeet/Front.Leg.Lower.Cover"
+    ],
+    "chikn-traits/coqfight-v1/chikn-redbowtie/coqfight-v1-9a50d8133709c2d4a669": [
+      "coqfight-v1/chikn/images/trait/chikn_redbowtie/Neck.Front",
+      "coqfight-v1/roostr/images/trait/roostr_redbowtie/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-redbandana/coqfight-v1-1a9d473a8a8e996c5c1d": [
+      "coqfight-v1/chikn/images/trait/chikn_redbandana/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-redleatherboots/coqfight-v1-98233dfba5b95c8d6cf1": [
+      "coqfight-v1/chikn/images/trait/RedBoots/Back.Leg.Lower.Cover",
+      "coqfight-v1/chikn/images/trait/chikn_redleatherboots/Back.Leg.Lower.Cover",
+      "coqfight-v1/roostr/images/trait/RedBoots/Back.Leg.Lower.Cover"
+    ],
+    "chikn-traits/coqfight-v1/chikn-redmage/coqfight-v1-33a07c73f22ce1e8f612": [
+      "coqfight-v1/chikn/images/trait/chikn_redmage/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/chikn-redleatherboots/coqfight-v1-6f9ef3462bd823baaa30": [
+      "coqfight-v1/chikn/images/trait/RedBoots/Front.Leg.Lower.Cover",
+      "coqfight-v1/chikn/images/trait/chikn_redleatherboots/Front.Leg.Lower.Cover",
+      "coqfight-v1/roostr/images/trait/RedBoots/Front.Leg.Lower.Cover"
+    ],
+    "chikn-traits/coqfight-v1/chikn-redplumage/coqfight-v1-16cba6cb3bf03f0d5534": [
+      "coqfight-v1/chikn/images/trait/chikn_redplumage/Torso.TailConnector"
+    ],
+    "chikn-traits/coqfight-v1/chikn-redvans/coqfight-v1-07acd99c586869ebeef9": [
+      "coqfight-v1/chikn/images/trait/chikn_redvans/Back.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-redvans/coqfight-v1-3ed30e78b7dea6832d1f": [
+      "coqfight-v1/chikn/images/trait/chikn_redvans/Front.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-rollerderby/coqfight-v1-b3cfd1009dd1e198bfc4": [
+      "coqfight-v1/chikn/images/trait/chikn_rollerderby/Back.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-rollerderby/coqfight-v1-87aec90ef2d9ba427be2": [
+      "coqfight-v1/chikn/images/trait/chikn_rollerderby/Front.Leg.Foot.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-redplumage/coqfight-v1-7268749399d6f4bd6f2f": [
+      "coqfight-v1/chikn/images/trait/chikn_redplumage/Tail.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-roostbixcube/coqfight-v1-920cef59541309531360": [
+      "coqfight-v1/chikn/images/trait/chikn_roostbixcube/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_roostbixcube/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-roostrifle/coqfight-v1-d559eab79d874ff857ff": [
+      "coqfight-v1/chikn/images/trait/chikn_roostrifle/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_roostrifle/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-roostrrosary/coqfight-v1-0f778b1a9b6d736618f7": [
+      "coqfight-v1/chikn/images/trait/chikn_roostrrosary/Neck.Back",
+      "coqfight-v1/roostr/images/trait/roostr_roostrrosary/Neck.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-roostrrocket/coqfight-v1-88b903fea21e9ec6f876": [
+      "coqfight-v1/chikn/images/trait/chikn_roostrrocket/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_roostrrocket/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-roostrrosary/coqfight-v1-195da210aa6edf4682dc": [
+      "coqfight-v1/chikn/images/trait/chikn_roostrrosary/Neck.Front",
+      "coqfight-v1/roostr/images/trait/roostr_roostrrosary/Neck.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-satoshishield/coqfight-v1-de385a3b4eac87444d98": [
+      "coqfight-v1/chikn/images/trait/chikn_satoshishield/Front.Forehand.Front",
+      "coqfight-v1/roostr/images/trait/roostr_satoshishield/Front.Forehand.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-savagebeast/coqfight-v1-1b2d3f8521b027a2c8ce": [
+      "coqfight-v1/chikn/images/trait/chikn_savagebeast/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-secondhead/coqfight-v1-641eed3df55a14f0206e": [
+      "coqfight-v1/chikn/images/trait/chikn_secondhead/Head.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-smokinglounge/coqfight-v1-2f9696a937bdb108438e": [
+      "coqfight-v1/chikn/images/trait/chikn_smokinglounge/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-spellwand/coqfight-v1-f05af97772c9c1a82dce": [
+      "coqfight-v1/chikn/images/trait/chikn_spellwand/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-saint/coqfight-v1-2bc0b97861f65dbe2993": [
+      "coqfight-v1/chikn/images/trait/chikn_saint/Head.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-spiritofliberty/coqfight-v1-1e67a0bbae907d7a9482": [
+      "coqfight-v1/chikn/images/trait/chikn_spiritofliberty/Head.Special",
+      "coqfight-v1/roostr/images/trait/roostr_spiritofliberty/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-spraypaint/coqfight-v1-17aa602444522cb8df5c": [
+      "coqfight-v1/chikn/images/trait/chikn_spraypaint/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_spraypaint/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-spinaltapper/coqfight-v1-6d1b90e66d44a8b36c4a": [
+      "coqfight-v1/chikn/images/trait/chikn_spinaltapper/Tail.Special",
+      "coqfight-v1/roostr/images/trait/roostr_spinaltapper/Tail.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-streamerbandana/coqfight-v1-c88a45f1f465c07a16eb": [
+      "coqfight-v1/chikn/images/trait/chikn_streamerbandana/Head.Front",
+      "coqfight-v1/roostr/images/trait/roostr_streamerbandana/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-sucker/coqfight-v1-cd017d7cec1c2f391b31": [
+      "coqfight-v1/chikn/images/trait/chikn_sucker/Head.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-summerdays/coqfight-v1-c7b7a059cfe6f7f75582": [
+      "coqfight-v1/chikn/images/trait/chikn_summerdays/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-supersaiyan/coqfight-v1-dd65f681865045814933": [
+      "coqfight-v1/chikn/images/trait/chikn_supersaiyan/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-swashbucklers/coqfight-v1-17d5292d7263efcc4f1c": [
+      "coqfight-v1/chikn/images/trait/chikn_swashbucklers/Back.Leg.Lower.Cover"
+    ],
+    "chikn-traits/coqfight-v1/chikn-swashbucklers/coqfight-v1-1297ecd99e399168b11f": [
+      "coqfight-v1/chikn/images/trait/chikn_swashbucklers/Front.Leg.Lower.Cover"
+    ],
+    "chikn-traits/coqfight-v1/chikn-swordofcoqthulhu/coqfight-v1-1402bb8f6454faa498b4": [
+      "coqfight-v1/chikn/images/trait/chikn_swordofcoqthulhu/Front.Forehand.Back",
+      "coqfight-v1/roostr/images/trait/roostr_swordofcoqthulhu/Front.Forehand.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-topofthemorning/coqfight-v1-52cf2922350534314028": [
+      "coqfight-v1/chikn/images/trait/chikn_topofthemorning/Head.Special"
+    ],
+    "chikn-traits/coqfight-v1/chikn-uniquehorn/coqfight-v1-424f00ad0971396edd52": [
+      "coqfight-v1/chikn/images/trait/chikn_uniquehorn/Head.Front"
+    ],
+    "chikn-traits/coqfight-v1/chikn-tungstencube/coqfight-v1-7839e8353e630cf87395": [
+      "coqfight-v1/chikn/images/trait/chikn_tungstencube/Head.Front.Top"
+    ],
+    "chikn-traits/coqfight-v1/chikn-veryfreshegg/coqfight-v1-143b0b978cbd5dbf7ac1": [
+      "coqfight-v1/chikn/images/trait/chikn_veryfreshegg/Tail.Back"
+    ],
+    "chikn-traits/coqfight-v1/chikn-wageslave/coqfight-v1-5c0b670ea0ffaec203ef": [
+      "coqfight-v1/chikn/images/trait/chikn_wageslave/Neck.Front"
+    ],
+    "roostr-traits/base/beast/coqfight-v1-1c55665f718c80a2e58a": [
+      "coqfight-v1/roostr/images/Beast/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/beast/coqfight-v1-5b18fba046aa0c86f907": [
+      "coqfight-v1/roostr/images/Beast/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/beast/coqfight-v1-87729976163f4de9132f": [
+      "coqfight-v1/roostr/images/Beast/Back.Leg.Foot"
+    ],
+    "roostr-traits/base/beast/coqfight-v1-f35e1ce2e2d835c0752b": [
+      "coqfight-v1/roostr/images/Beast/Back.Wing",
+      "coqfight-v1/roostr/images/Beast/Front.Wing"
+    ],
+    "roostr-traits/base/beast/coqfight-v1-a47e8cb8a777fdc06fc4": [
+      "coqfight-v1/roostr/images/Beast/Torso"
+    ],
+    "roostr-traits/base/beast/coqfight-v1-f1a75337b7c298d0797c": [
+      "coqfight-v1/roostr/images/Beast/Tail"
+    ],
+    "roostr-traits/base/beast/coqfight-v1-c07ed10ef333b53fb509": [
+      "coqfight-v1/roostr/images/Beast/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/beast/coqfight-v1-d08a127222c7b6133c51": [
+      "coqfight-v1/roostr/images/Beast/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/beast/coqfight-v1-306d4b0d73cd5137527a": [
+      "coqfight-v1/roostr/images/Beast/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/bullion/coqfight-v1-b7b2a48d3fb614aeb65c": [
+      "coqfight-v1/roostr/images/Bullion/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/beast/coqfight-v1-0a1687f7aacba8b56542": [
+      "coqfight-v1/roostr/images/Beast/Head"
+    ],
+    "roostr-traits/base/bullion/coqfight-v1-203774a35a86096074cd": [
+      "coqfight-v1/roostr/images/Bullion/Back.Leg.Foot"
+    ],
+    "roostr-traits/base/bullion/coqfight-v1-fa4984d2f003bd4d3ab8": [
+      "coqfight-v1/roostr/images/Bullion/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/bullion/coqfight-v1-b3240401c46776d60dd7": [
+      "coqfight-v1/roostr/images/Bullion/Back.Wing",
+      "coqfight-v1/roostr/images/Bullion/Front.Wing"
+    ],
+    "roostr-traits/base/bullion/coqfight-v1-2bb46606e6a25e1091ff": [
+      "coqfight-v1/roostr/images/Bullion/Tail"
+    ],
+    "roostr-traits/base/bullion/coqfight-v1-43982cd1c41c5d00bb1e": [
+      "coqfight-v1/roostr/images/Bullion/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/bullion/coqfight-v1-05cac2a653569b45c10b": [
+      "coqfight-v1/roostr/images/Bullion/Torso"
+    ],
+    "roostr-traits/base/bullion/coqfight-v1-7f760eea87c4b9cd22a0": [
+      "coqfight-v1/roostr/images/Bullion/Front.Leg.Foot",
+      "coqfight-v1/roostr/images/SnowWhite/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/bullion/coqfight-v1-b04f82f26ed7f05b6290": [
+      "coqfight-v1/roostr/images/Bullion/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/bullion/coqfight-v1-6c6be6e7084d7ad30b13": [
+      "coqfight-v1/roostr/images/Bullion/Head.Comb"
+    ],
+    "roostr-traits/base/bullion/coqfight-v1-7ea8890742002d1f3da9": [
+      "coqfight-v1/roostr/images/Bullion/Head"
+    ],
+    "roostr-traits/base/captain/coqfight-v1-d3b991b9102c9f7e62d3": [
+      "coqfight-v1/roostr/images/Captain/Back.Wing",
+      "coqfight-v1/roostr/images/Captain/Front.Wing"
+    ],
+    "roostr-traits/base/captain/coqfight-v1-60cc0b9ddcf07be86209": [
+      "coqfight-v1/roostr/images/Captain/Back.Leg.Lower",
+      "coqfight-v1/roostr/images/SnowWhite/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/captain/coqfight-v1-7c62d18fe17e22e0eb1c": [
+      "coqfight-v1/roostr/images/Captain/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/captain/coqfight-v1-029d0bab96bf44b7b117": [
+      "coqfight-v1/roostr/images/Captain/Back.Leg.Foot",
+      "coqfight-v1/roostr/images/SnowWhite/Back.Leg.Foot"
+    ],
+    "roostr-traits/base/captain/coqfight-v1-3cfb8b9eef37a4f9e47d": [
+      "coqfight-v1/roostr/images/Captain/Tail",
+      "coqfight-v1/roostr/images/SnowWhite/Tail"
+    ],
+    "roostr-traits/base/captain/coqfight-v1-e4c3ca379837a3fd42d4": [
+      "coqfight-v1/roostr/images/Captain/Torso"
+    ],
+    "roostr-traits/base/captain/coqfight-v1-239ac6f8ce1499de992d": [
+      "coqfight-v1/roostr/images/Captain/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/captain/coqfight-v1-7bdedf75e7e9b0aae8ff": [
+      "coqfight-v1/roostr/images/Captain/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/captain/coqfight-v1-ef51056af7bbafd17b96": [
+      "coqfight-v1/roostr/images/Captain/Front.Wing.Unique"
+    ],
+    "roostr-traits/base/celestial/coqfight-v1-b1d99a09b01e7f1d4bc2": [
+      "coqfight-v1/roostr/images/Celestial/Back.Wing",
+      "coqfight-v1/roostr/images/Celestial/Front.Wing"
+    ],
+    "roostr-traits/base/celestial/coqfight-v1-4f2e1c169c8a336a8a7f": [
+      "coqfight-v1/roostr/images/Celestial/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/celestial/coqfight-v1-0a5851be7a17ba730ee0": [
+      "coqfight-v1/roostr/images/Celestial/Back.Leg.Foot"
+    ],
+    "roostr-traits/base/captain/coqfight-v1-354f1e173e448565cb49": [
+      "coqfight-v1/roostr/images/Captain/Head"
+    ],
+    "roostr-traits/base/celestial/coqfight-v1-c45f89baae59d258289d": [
+      "coqfight-v1/roostr/images/Celestial/Tail"
+    ],
+    "roostr-traits/base/celestial/coqfight-v1-339e2604388e45754c68": [
+      "coqfight-v1/roostr/images/Celestial/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/celestial/coqfight-v1-f272e7c761795db026c4": [
+      "coqfight-v1/roostr/images/Celestial/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/celestial/coqfight-v1-a9e8e9ad4435f5fe89a8": [
+      "coqfight-v1/roostr/images/Celestial/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/celestial/coqfight-v1-9170fb1f9847e55d3148": [
+      "coqfight-v1/roostr/images/Celestial/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/celestial/coqfight-v1-a6b4c76de33b7536834a": [
+      "coqfight-v1/roostr/images/Celestial/Head.Comb"
+    ],
+    "roostr-traits/base/celestial/coqfight-v1-92ca8565c2b070b58d5e": [
+      "coqfight-v1/roostr/images/Celestial/Torso"
+    ],
+    "roostr-traits/base/celestial/coqfight-v1-fa1621e766f5efe43b05": [
+      "coqfight-v1/roostr/images/Celestial/Head"
+    ],
+    "roostr-traits/base/cutegravy/coqfight-v1-9be231a6bd8abf406f4c": [
+      "coqfight-v1/roostr/images/CuteGravy/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/cutegravy/coqfight-v1-29dd16dc7afe14e9f11e": [
+      "coqfight-v1/roostr/images/CuteGravy/Back.Wing",
+      "coqfight-v1/roostr/images/CuteGravy/Front.Wing"
+    ],
+    "roostr-traits/base/cutegravy/coqfight-v1-45f980eed1842d7e31a1": [
+      "coqfight-v1/roostr/images/CuteGravy/Back.Leg.Foot"
+    ],
+    "roostr-traits/base/cutegravy/coqfight-v1-4f3376e2963e6df26ff9": [
+      "coqfight-v1/roostr/images/CuteGravy/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/cutegravy/coqfight-v1-df2f5878f832e55dafcf": [
+      "coqfight-v1/roostr/images/CuteGravy/Tail"
+    ],
+    "roostr-traits/base/cutegravy/coqfight-v1-8860f363a934c2ed579a": [
+      "coqfight-v1/roostr/images/CuteGravy/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/cutegravy/coqfight-v1-ebaffb4950cf8ce62cae": [
+      "coqfight-v1/roostr/images/CuteGravy/Torso"
+    ],
+    "roostr-traits/base/cutegravy/coqfight-v1-2560c8c4bec887f4b462": [
+      "coqfight-v1/roostr/images/CuteGravy/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/cutegravy/coqfight-v1-ca5f8b42f28018daa202": [
+      "coqfight-v1/roostr/images/CuteGravy/Head"
+    ],
+    "roostr-traits/base/froggreen/coqfight-v1-2bbf9138ac651b82dc16": [
+      "coqfight-v1/roostr/images/FrogGreen/Back.Wing",
+      "coqfight-v1/roostr/images/FrogGreen/Front.Wing"
+    ],
+    "roostr-traits/base/cutegravy/coqfight-v1-ade092afeff147ea55f1": [
+      "coqfight-v1/roostr/images/CuteGravy/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/froggreen/coqfight-v1-75d484b029690e7585ec": [
+      "coqfight-v1/roostr/images/FrogGreen/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/froggreen/coqfight-v1-a0e2b1e9fa778de3020a": [
+      "coqfight-v1/roostr/images/FrogGreen/Back.Leg.Foot"
+    ],
+    "roostr-traits/base/froggreen/coqfight-v1-86d57da02de69de4e247": [
+      "coqfight-v1/roostr/images/FrogGreen/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/froggreen/coqfight-v1-9c0bd1fb4b22ce40c47b": [
+      "coqfight-v1/roostr/images/FrogGreen/Tail"
+    ],
+    "roostr-traits/base/froggreen/coqfight-v1-f22bd087b18a16ea3d7d": [
+      "coqfight-v1/roostr/images/FrogGreen/Torso"
+    ],
+    "roostr-traits/base/froggreen/coqfight-v1-6a031001a69a8cbfa3b6": [
+      "coqfight-v1/roostr/images/FrogGreen/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/froggreen/coqfight-v1-4f8d3b5ec7b69e22c7c2": [
+      "coqfight-v1/roostr/images/FrogGreen/Head.Comb"
+    ],
+    "roostr-traits/base/froggreen/coqfight-v1-b5b12b968b92882a1a1c": [
+      "coqfight-v1/roostr/images/FrogGreen/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/froggreen/coqfight-v1-87e375818fe84afd8762": [
+      "coqfight-v1/roostr/images/FrogGreen/Head"
+    ],
+    "roostr-traits/base/gumball/coqfight-v1-5694ff3dd73540be23af": [
+      "coqfight-v1/roostr/images/Gumball/Torso"
+    ],
+    "roostr-traits/base/gumball/coqfight-v1-f8ba307ffc358663000a": [
+      "coqfight-v1/roostr/images/Gumball/Head"
+    ],
+    "roostr-traits/base/froggreen/coqfight-v1-2bff6f310df91d7808e8": [
+      "coqfight-v1/roostr/images/FrogGreen/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/gumball/coqfight-v1-8ebe4fd6fb5cf5fa2995": [
+      "coqfight-v1/roostr/images/Gumball/Back.Leg.Tread"
+    ],
+    "roostr-traits/base/gunslinger/coqfight-v1-1f7c7ba86f6c7be9b961": [
+      "coqfight-v1/roostr/images/Gunslinger/Back.Wing",
+      "coqfight-v1/roostr/images/Gunslinger/Front.Wing"
+    ],
+    "roostr-traits/base/gunslinger/coqfight-v1-6e864f36e0cc8f0c701c": [
+      "coqfight-v1/roostr/images/Gunslinger/Back.Leg.Lower.Cover"
+    ],
+    "roostr-traits/base/gunslinger/coqfight-v1-87656f9697003baaa0f1": [
+      "coqfight-v1/roostr/images/Gunslinger/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/gumball/coqfight-v1-ff10f3bb08fb1454fc62": [
+      "coqfight-v1/roostr/images/Gumball/Tail"
+    ],
+    "roostr-traits/base/gunslinger/coqfight-v1-0ebdd05b00f6c4f3e032": [
+      "coqfight-v1/roostr/images/Gunslinger/Tail"
+    ],
+    "roostr-traits/base/gunslinger/coqfight-v1-f8b3ba730a81c1995f0b": [
+      "coqfight-v1/roostr/images/Gunslinger/Torso"
+    ],
+    "roostr-traits/base/gunslinger/coqfight-v1-18903053f6e355fae6cf": [
+      "coqfight-v1/roostr/images/Gunslinger/Front.Leg.Lower.Cover"
+    ],
+    "roostr-traits/base/gunslinger/coqfight-v1-9d049e5326757658bb1c": [
+      "coqfight-v1/roostr/images/Gunslinger/Head"
+    ],
+    "roostr-traits/base/gunslinger/coqfight-v1-a43f97127d8a948b31b8": [
+      "coqfight-v1/roostr/images/Gunslinger/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/gunslinger/coqfight-v1-f7cb60f9c404473f11f3": [
+      "coqfight-v1/roostr/images/Gunslinger/Front.Wing.Unique"
+    ],
+    "roostr-traits/base/hypnocoq/coqfight-v1-563f89df7e46211300f6": [
+      "coqfight-v1/roostr/images/Hypnocoq/Back.Wing"
+    ],
+    "roostr-traits/base/hypnocoq/coqfight-v1-0697eba57b08d8274e5b": [
+      "coqfight-v1/roostr/images/Hypnocoq/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/hypnocoq/coqfight-v1-e7ca7926237ff9e26937": [
+      "coqfight-v1/roostr/images/Hypnocoq/Back.Leg.Foot"
+    ],
+    "roostr-traits/base/hypnocoq/coqfight-v1-6fbda3efb7c346e43f01": [
+      "coqfight-v1/roostr/images/Hypnocoq/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/hypnocoq/coqfight-v1-080e1b70a771ab48cec4": [
+      "coqfight-v1/roostr/images/Hypnocoq/Tail"
+    ],
+    "roostr-traits/base/hypnocoq/coqfight-v1-77387399d30f54c21d4e": [
+      "coqfight-v1/roostr/images/Hypnocoq/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/hypnocoq/coqfight-v1-e5b998ea9cf5eb32d3c1": [
+      "coqfight-v1/roostr/images/Hypnocoq/Torso"
+    ],
+    "roostr-traits/base/hypnocoq/coqfight-v1-2d197f7146fe3917912e": [
+      "coqfight-v1/roostr/images/Hypnocoq/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/hypnocoq/coqfight-v1-653d1995eab63648a24e": [
+      "coqfight-v1/roostr/images/Hypnocoq/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/hypnocoq/coqfight-v1-06f1f0536202cb087b22": [
+      "coqfight-v1/roostr/images/Hypnocoq/Front.Wing"
+    ],
+    "roostr-traits/base/hypnocoq/coqfight-v1-a4dadc400c2c926a6fd3": [
+      "coqfight-v1/roostr/images/Hypnocoq/Head"
+    ],
+    "roostr-traits/base/lava/coqfight-v1-43af243cef9bbf9aa3e6": [
+      "coqfight-v1/roostr/images/Lava/Back.Leg.Lower",
+      "coqfight-v1/roostr/images/Lava/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/lava/coqfight-v1-ec028cacf3779618656b": [
+      "coqfight-v1/roostr/images/Lava/Back.Wing",
+      "coqfight-v1/roostr/images/Lava/Front.Wing"
+    ],
+    "roostr-traits/base/lava/coqfight-v1-4a8d130b70aeedb664c8": [
+      "coqfight-v1/roostr/images/Lava/Back.Leg.Foot",
+      "coqfight-v1/roostr/images/Lava/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/lava/coqfight-v1-c1e7abd8b6e489c45670": [
+      "coqfight-v1/roostr/images/Lava/Back.Leg.Upper",
+      "coqfight-v1/roostr/images/Lava/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/lava/coqfight-v1-9b16ee951b40aa7b011b": [
+      "coqfight-v1/roostr/images/Lava/Tail"
+    ],
+    "roostr-traits/base/lava/coqfight-v1-6eb687f0fd90a25a8e60": [
+      "coqfight-v1/roostr/images/Lava/Torso"
+    ],
+    "roostr-traits/base/midnight/coqfight-v1-0df6db03eca2f471d42b": [
+      "coqfight-v1/roostr/images/Midnight/Back.Wing",
+      "coqfight-v1/roostr/images/Midnight/Front.Wing"
+    ],
+    "roostr-traits/base/midnight/coqfight-v1-32989c8044ac4e0cc134": [
+      "coqfight-v1/roostr/images/Midnight/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/lava/coqfight-v1-96276754a4176f46fb09": [
+      "coqfight-v1/roostr/images/Lava/Head"
+    ],
+    "roostr-traits/base/midnight/coqfight-v1-b4ba84bb69ddfdf1dda4": [
+      "coqfight-v1/roostr/images/Midnight/Back.Leg.Foot",
+      "coqfight-v1/roostr/images/Midnight/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/midnight/coqfight-v1-8a3ea1d47d06e364c173": [
+      "coqfight-v1/roostr/images/Midnight/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/midnight/coqfight-v1-abced2b9658547ffa57d": [
+      "coqfight-v1/roostr/images/Midnight/Tail"
+    ],
+    "roostr-traits/base/midnight/coqfight-v1-8193ccc9f4513687a41c": [
+      "coqfight-v1/roostr/images/Midnight/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/midnight/coqfight-v1-99899f5455549a210641": [
+      "coqfight-v1/roostr/images/Midnight/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/midnight/coqfight-v1-c4c3aff54740fdb089c1": [
+      "coqfight-v1/roostr/images/Midnight/Head.Comb"
+    ],
+    "roostr-traits/base/midnight/coqfight-v1-6d944e3df6b50f783b57": [
+      "coqfight-v1/roostr/images/Midnight/Head"
+    ],
+    "roostr-traits/base/midnight/coqfight-v1-b5340bd8c806b5f899e8": [
+      "coqfight-v1/roostr/images/Midnight/Torso"
+    ],
+    "roostr-traits/base/monotone/coqfight-v1-92ea492c7f3ebbbb6ea7": [
+      "coqfight-v1/roostr/images/Monotone/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/monotone/coqfight-v1-4a7a336bfeb68a3dfa73": [
+      "coqfight-v1/roostr/images/Monotone/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/monotone/coqfight-v1-54c6a38499e7e8e1f333": [
+      "coqfight-v1/roostr/images/Monotone/Back.Wing",
+      "coqfight-v1/roostr/images/Monotone/Front.Wing"
+    ],
+    "roostr-traits/base/monotone/coqfight-v1-c437dfdecd3c21aec89c": [
+      "coqfight-v1/roostr/images/Monotone/Tail"
+    ],
+    "roostr-traits/base/monotone/coqfight-v1-5c27af7a9234088c8cef": [
+      "coqfight-v1/roostr/images/Monotone/Torso"
+    ],
+    "roostr-traits/base/monotone/coqfight-v1-45a4364ce914939f5821": [
+      "coqfight-v1/roostr/images/Monotone/Back.Leg.Foot"
+    ],
+    "roostr-traits/base/monotone/coqfight-v1-3be2b7048f057c0b68ec": [
+      "coqfight-v1/roostr/images/Monotone/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/monotone/coqfight-v1-7fffa316af839eca0285": [
+      "coqfight-v1/roostr/images/Monotone/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/monotone/coqfight-v1-e934b930323852a1a4ae": [
+      "coqfight-v1/roostr/images/Monotone/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/mutantblue/coqfight-v1-2e4ab77c381c41413dec": [
+      "coqfight-v1/roostr/images/MutantBlue/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/mutantblue/coqfight-v1-15d4af101d9160a6093c": [
+      "coqfight-v1/roostr/images/MutantBlue/Back.Wing",
+      "coqfight-v1/roostr/images/MutantBlue/Front.Wing"
+    ],
+    "roostr-traits/base/monotone/coqfight-v1-a9947607290564240ba2": [
+      "coqfight-v1/roostr/images/Monotone/Head"
+    ],
+    "roostr-traits/base/mutantblue/coqfight-v1-8c11fa6540330927a47a": [
+      "coqfight-v1/roostr/images/MutantBlue/Back.Leg.Foot",
+      "coqfight-v1/roostr/images/MutantGreen/Back.Leg.Foot"
+    ],
+    "roostr-traits/base/mutantblue/coqfight-v1-2234fbe0480eb90bd87d": [
+      "coqfight-v1/roostr/images/MutantBlue/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/mutantblue/coqfight-v1-dda9b8fbc76f862be156": [
+      "coqfight-v1/roostr/images/MutantBlue/Tail"
+    ],
+    "roostr-traits/base/mutantblue/coqfight-v1-c0cda99f5ce273cc0268": [
+      "coqfight-v1/roostr/images/MutantBlue/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/mutantblue/coqfight-v1-461bccb12edb458a1b34": [
+      "coqfight-v1/roostr/images/MutantBlue/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/mutantblue/coqfight-v1-f9f3a7b688b9efb77add": [
+      "coqfight-v1/roostr/images/MutantBlue/Front.Leg.Foot",
+      "coqfight-v1/roostr/images/MutantGreen/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/mutantblue/coqfight-v1-56521c13cacf1b11c7f1": [
+      "coqfight-v1/roostr/images/MutantBlue/Torso"
+    ],
+    "roostr-traits/base/mutantblue/coqfight-v1-e0b6c2ba79d8cd7420c9": [
+      "coqfight-v1/roostr/images/MutantBlue/Head"
+    ],
+    "roostr-traits/base/mutantgreen/coqfight-v1-3f3bcd90941092abba9d": [
+      "coqfight-v1/roostr/images/MutantGreen/Back.Wing",
+      "coqfight-v1/roostr/images/MutantGreen/Front.Wing"
+    ],
+    "roostr-traits/base/mutantgreen/coqfight-v1-a0bc849e470234cd1e45": [
+      "coqfight-v1/roostr/images/MutantGreen/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/mutantgreen/coqfight-v1-7c7088af2e8bb6c5b86d": [
+      "coqfight-v1/roostr/images/MutantGreen/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/mutantgreen/coqfight-v1-f3c2084488501f396b26": [
+      "coqfight-v1/roostr/images/MutantGreen/Tail"
+    ],
+    "roostr-traits/base/mutantgreen/coqfight-v1-7dbc2c78d88511f5bdad": [
+      "coqfight-v1/roostr/images/MutantGreen/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/mutantgreen/coqfight-v1-7e0a45f6366af4828872": [
+      "coqfight-v1/roostr/images/MutantGreen/Torso"
+    ],
+    "roostr-traits/base/mutantgreen/coqfight-v1-e7f8fb5eff66cb557227": [
+      "coqfight-v1/roostr/images/MutantGreen/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/mutantpurple/coqfight-v1-5f1b5d6c3d141ab892ec": [
+      "coqfight-v1/roostr/images/MutantPurple/Back.Wing",
+      "coqfight-v1/roostr/images/MutantPurple/Front.Wing"
+    ],
+    "roostr-traits/base/mutantpurple/coqfight-v1-160fba27b5414254d72f": [
+      "coqfight-v1/roostr/images/MutantPurple/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/mutantgreen/coqfight-v1-ab699a1b4af4cb7851da": [
+      "coqfight-v1/roostr/images/MutantGreen/Head"
+    ],
+    "roostr-traits/base/mutantpurple/coqfight-v1-6968efd34c9589dfd0b1": [
+      "coqfight-v1/roostr/images/MutantPurple/Back.Leg.Foot"
+    ],
+    "roostr-traits/base/mutantpurple/coqfight-v1-0929d8a690e14a1670dd": [
+      "coqfight-v1/roostr/images/MutantPurple/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/mutantpurple/coqfight-v1-fd85146b187492ccd745": [
+      "coqfight-v1/roostr/images/MutantPurple/Tail"
+    ],
+    "roostr-traits/base/mutantpurple/coqfight-v1-288c6d83710e2ff3b1ed": [
+      "coqfight-v1/roostr/images/MutantPurple/Torso"
+    ],
+    "roostr-traits/base/mutantpurple/coqfight-v1-bba9d97947111299a5b3": [
+      "coqfight-v1/roostr/images/MutantPurple/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/mutantpurple/coqfight-v1-c69941631344bd73b2c0": [
+      "coqfight-v1/roostr/images/MutantPurple/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/mutantpurple/coqfight-v1-8142698e1b73739582dc": [
+      "coqfight-v1/roostr/images/MutantPurple/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/mutantpurple/coqfight-v1-aa7f4b6d1250d8922098": [
+      "coqfight-v1/roostr/images/MutantPurple/Head"
+    ],
+    "roostr-traits/base/nightstalkerblue/coqfight-v1-ef91cae83108b11d927b": [
+      "coqfight-v1/roostr/images/NightstalkerBlue/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/nightstalkerblue/coqfight-v1-05b2781a9aec136e1dc9": [
+      "coqfight-v1/roostr/images/NightstalkerBlue/Back.Leg.Foot"
+    ],
+    "roostr-traits/base/nightstalkerblue/coqfight-v1-53f29ad7048ec5f60b39": [
+      "coqfight-v1/roostr/images/NightstalkerBlue/Back.Wing",
+      "coqfight-v1/roostr/images/NightstalkerBlue/Front.Wing"
+    ],
+    "roostr-traits/base/nightstalkerblue/coqfight-v1-8444afc9b13e88c0fd52": [
+      "coqfight-v1/roostr/images/NightstalkerBlue/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/nightstalkerblue/coqfight-v1-4e65f6747e8971b5da0a": [
+      "coqfight-v1/roostr/images/NightstalkerBlue/Tail"
+    ],
+    "roostr-traits/base/mutantpurple/coqfight-v1-8c62b41eb8efd16ad19e": [
+      "coqfight-v1/roostr/images/MutantPurple/Head.Comb"
+    ],
+    "roostr-traits/base/nightstalkerblue/coqfight-v1-022ad2d7036562820ad4": [
+      "coqfight-v1/roostr/images/NightstalkerBlue/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/nightstalkerblue/coqfight-v1-2118e0a3b3d52289ee81": [
+      "coqfight-v1/roostr/images/NightstalkerBlue/Torso"
+    ],
+    "roostr-traits/base/nightstalkerblue/coqfight-v1-c418f9ff95e558a00631": [
+      "coqfight-v1/roostr/images/NightstalkerBlue/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/nightstalkerblue/coqfight-v1-6f7bf57f1a8e1bf823d6": [
+      "coqfight-v1/roostr/images/NightstalkerBlue/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/nightstalkerblue/coqfight-v1-92107a1a2d1336d47472": [
+      "coqfight-v1/roostr/images/NightstalkerBlue/Head.Comb"
+    ],
+    "roostr-traits/base/nightstalkerblue/coqfight-v1-bbbbc0c9410a4c15ac14": [
+      "coqfight-v1/roostr/images/NightstalkerBlue/Head"
+    ],
+    "roostr-traits/base/obsidian/coqfight-v1-ecbdabc42aff5f025fec": [
+      "coqfight-v1/roostr/images/Obsidian/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/obsidian/coqfight-v1-3c3442be88c955c80878": [
+      "coqfight-v1/roostr/images/Obsidian/Back.Wing",
+      "coqfight-v1/roostr/images/Obsidian/Front.Wing"
+    ],
+    "roostr-traits/base/obsidian/coqfight-v1-75544f29fec3a2a852b6": [
+      "coqfight-v1/roostr/images/Obsidian/Back.Leg.Foot",
+      "coqfight-v1/roostr/images/Obsidian/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/obsidian/coqfight-v1-6029336aca42dc791c20": [
+      "coqfight-v1/roostr/images/Obsidian/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/obsidian/coqfight-v1-fd1465bbb876600f19d3": [
+      "coqfight-v1/roostr/images/Obsidian/Torso"
+    ],
+    "roostr-traits/base/obsidian/coqfight-v1-35bf0404c962e9627be3": [
+      "coqfight-v1/roostr/images/Obsidian/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/obsidian/coqfight-v1-124beb5301edf047cbd9": [
+      "coqfight-v1/roostr/images/Obsidian/Tail"
+    ],
+    "roostr-traits/base/obsidian/coqfight-v1-7e0d6ee0a060d3c953a9": [
+      "coqfight-v1/roostr/images/Obsidian/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/obsidian/coqfight-v1-428c07c5a30a2b759191": [
+      "coqfight-v1/roostr/images/Obsidian/Head.Comb"
+    ],
+    "roostr-traits/base/passionred/coqfight-v1-df51ef057bb6c3da226d": [
+      "coqfight-v1/roostr/images/PassionRed/Back.Wing",
+      "coqfight-v1/roostr/images/PassionRed/Front.Wing"
+    ],
+    "roostr-traits/base/obsidian/coqfight-v1-e40ab66a211a21036574": [
+      "coqfight-v1/roostr/images/Obsidian/Head"
+    ],
+    "roostr-traits/base/passionred/coqfight-v1-9c96fb27ebbdffc5877d": [
+      "coqfight-v1/roostr/images/PassionRed/Back.Leg.Foot"
+    ],
+    "roostr-traits/base/passionred/coqfight-v1-43821b9097bd1570a9c4": [
+      "coqfight-v1/roostr/images/PassionRed/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/passionred/coqfight-v1-275f1243fdb79a3c91b1": [
+      "coqfight-v1/roostr/images/PassionRed/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/passionred/coqfight-v1-ffd87693750a7efd8f95": [
+      "coqfight-v1/roostr/images/PassionRed/Tail"
+    ],
+    "roostr-traits/base/passionred/coqfight-v1-de694f0b922b0c6b4155": [
+      "coqfight-v1/roostr/images/PassionRed/Torso"
+    ],
+    "roostr-traits/base/passionred/coqfight-v1-dfc4c3fafd77d04cb4d7": [
+      "coqfight-v1/roostr/images/PassionRed/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/passionred/coqfight-v1-f148683d2d8f8994151d": [
+      "coqfight-v1/roostr/images/PassionRed/Head.Comb"
+    ],
+    "roostr-traits/base/passionred/coqfight-v1-83d5068f7f32dc9d2c1d": [
+      "coqfight-v1/roostr/images/PassionRed/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/passionred/coqfight-v1-d689547aa63654b40f37": [
+      "coqfight-v1/roostr/images/PassionRed/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/passionred/coqfight-v1-58c338c053052d39c5de": [
+      "coqfight-v1/roostr/images/PassionRed/Head"
+    ],
+    "roostr-traits/base/robot/coqfight-v1-2cc6c42fd27b6cc0f21b": [
+      "coqfight-v1/roostr/images/Robot/Back.Wing",
+      "coqfight-v1/roostr/images/Robot/Front.Wing"
+    ],
+    "roostr-traits/base/robot/coqfight-v1-d59629dd74be2d8cdb82": [
+      "coqfight-v1/roostr/images/Robot/Back.Leg.Tread",
+      "coqfight-v1/roostr/images/Robot/Front.Leg.Tread"
+    ],
+    "roostr-traits/base/robot/coqfight-v1-9f16ff16fac0cf31d3f5": [
+      "coqfight-v1/roostr/images/Robot/Tail"
+    ],
+    "roostr-traits/base/robot/coqfight-v1-a71ff8185eb94b49444a": [
+      "coqfight-v1/roostr/images/Robot/Torso"
+    ],
+    "roostr-traits/base/snowwhite/coqfight-v1-c37b5fce841a7987843a": [
+      "coqfight-v1/roostr/images/SnowWhite/Back.Wing",
+      "coqfight-v1/roostr/images/SnowWhite/Front.Wing"
+    ],
+    "roostr-traits/base/snowwhite/coqfight-v1-d14e951c7380a9f49375": [
+      "coqfight-v1/roostr/images/SnowWhite/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/snowwhite/coqfight-v1-ac570d7dd3a7f28f38ef": [
+      "coqfight-v1/roostr/images/SnowWhite/Torso"
+    ],
+    "roostr-traits/base/snowwhite/coqfight-v1-82e2e0eb0fee79a55b35": [
+      "coqfight-v1/roostr/images/SnowWhite/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/robot/coqfight-v1-725f7b60e491d4922fb6": [
+      "coqfight-v1/roostr/images/Robot/Head"
+    ],
+    "roostr-traits/base/snowwhite/coqfight-v1-87f4bb3dbc20661ad275": [
+      "coqfight-v1/roostr/images/SnowWhite/Head.Comb"
+    ],
+    "roostr-traits/base/snowwhite/coqfight-v1-fb5c89446f23d5615e64": [
+      "coqfight-v1/roostr/images/SnowWhite/Front.Leg.Upper"
+    ],
+    "roostr-traits/base/snowwhite/coqfight-v1-03e7948a9afa1d6cc389": [
+      "coqfight-v1/roostr/images/SnowWhite/Head"
+    ],
+    "roostr-traits/base/split/coqfight-v1-1b83ef9ea95e0e7dc689": [
+      "coqfight-v1/roostr/images/Split/Back.Wing",
+      "coqfight-v1/roostr/images/Split/Front.Wing"
+    ],
+    "roostr-traits/base/split/coqfight-v1-729cff4244dde268ba8e": [
+      "coqfight-v1/roostr/images/Split/Back.Leg.Lower"
+    ],
+    "roostr-traits/base/split/coqfight-v1-13b0750bbb82cc539b43": [
+      "coqfight-v1/roostr/images/Split/Back.Leg.Foot"
+    ],
+    "roostr-traits/base/split/coqfight-v1-49d945d58ec00b486496": [
+      "coqfight-v1/roostr/images/Split/Back.Leg.Upper"
+    ],
+    "roostr-traits/base/split/coqfight-v1-61e690878df308a32c5e": [
+      "coqfight-v1/roostr/images/Split/Front.Leg.Lower"
+    ],
+    "roostr-traits/base/split/coqfight-v1-dc7637089b6ca20606b2": [
+      "coqfight-v1/roostr/images/Split/Tail"
+    ],
+    "roostr-traits/base/split/coqfight-v1-c4da2c478a617a522bd1": [
+      "coqfight-v1/roostr/images/Split/Front.Leg.Foot"
+    ],
+    "roostr-traits/base/split/coqfight-v1-db4b942a36fe28dc683d": [
+      "coqfight-v1/roostr/images/Split/Torso"
+    ],
+    "roostr-traits/base/split/coqfight-v1-bb82cf7c87137d2ce4d8": [
+      "coqfight-v1/roostr/images/Split/Head"
+    ],
+    "roostr-traits/base/split/coqfight-v1-7fb58aee27dce92700d9": [
+      "coqfight-v1/roostr/images/Split/Front.Leg.Upper"
+    ],
+    "roostr-traits/coqfight-v1/roostr-3dglasses/coqfight-v1-7354505f5fe74e2c3259": [
+      "coqfight-v1/roostr/images/trait/roostr_3dglasses/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-airjordans/coqfight-v1-9996b2b7f1849713e793": [
+      "coqfight-v1/roostr/images/trait/roostr_airjordans/Back.Leg.Foot.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-airjordans/coqfight-v1-374d58f38f1119e00aa6": [
+      "coqfight-v1/roostr/images/trait/roostr_airjordans/Front.Leg.Foot.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-armourleggold/coqfight-v1-09ec53e8780fb90c6512": [
+      "coqfight-v1/roostr/images/trait/roostr_armourleggold/Front.Leg.Lower.Cover"
+    ],
+    "roostr-traits/coqfight-v1/roostr-armourlegnormal/coqfight-v1-3cb8bb1c13aa669b6b84": [
+      "coqfight-v1/roostr/images/trait/roostr_armourlegnormal/Back.Leg.Lower.Cover"
+    ],
+    "roostr-traits/coqfight-v1/roostr-armourshouldergold/coqfight-v1-64495f76306b3a272d8a": [
+      "coqfight-v1/roostr/images/trait/roostr_armourshouldergold/Neck.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-armourlegnormal/coqfight-v1-e073dc1847ac8a38ecc2": [
+      "coqfight-v1/roostr/images/trait/roostr_armourlegnormal/Front.Leg.Lower.Cover"
+    ],
+    "roostr-traits/coqfight-v1/roostr-armourshouldermetal/coqfight-v1-d3ea11d21c9d5c19d3a3": [
+      "coqfight-v1/roostr/images/trait/roostr_armourshouldermetal/Neck.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-armourshouldermetal/coqfight-v1-319911dc61fbe69b0876": [
+      "coqfight-v1/roostr/images/trait/roostr_armourshouldermetal/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-armourshouldergold/coqfight-v1-6d206d66a8c7ac73dfb1": [
+      "coqfight-v1/roostr/images/trait/roostr_armourshouldergold/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-armourleggold/coqfight-v1-14993aafe21f26510823": [
+      "coqfight-v1/roostr/images/trait/roostr_armourleggold/Back.Leg.Lower.Cover"
+    ],
+    "roostr-traits/coqfight-v1/roostr-avaxdegen/coqfight-v1-f73d1caec389f42e7ee2": [
+      "coqfight-v1/roostr/images/trait/roostr_avaxdegen/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-ballnchain/coqfight-v1-a53e9cb9352013f15b50": [
+      "coqfight-v1/roostr/images/trait/roostr_ballnchain/Front.Leg.Foot.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-baseballbat/coqfight-v1-99a4bbca629283693d4a": [
+      "coqfight-v1/roostr/images/trait/roostr_baseballbat/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-basketball/coqfight-v1-80367776018dba9a0c70": [
+      "coqfight-v1/roostr/images/trait/roostr_basketball/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-baseballhelmet/coqfight-v1-bd06e7b7fe8abca5ac06": [
+      "coqfight-v1/roostr/images/trait/roostr_baseballhelmet/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bathrobe/coqfight-v1-c503263a2eef993d0dc8": [
+      "coqfight-v1/roostr/images/trait/roostr_bathrobe/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bathrobe/coqfight-v1-22396d8b54a613884418": [
+      "coqfight-v1/roostr/images/trait/roostr_bathrobe/Neck.Shirt"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bathrobe/coqfight-v1-dbc6c862d10a9a264f28": [
+      "coqfight-v1/roostr/images/trait/roostr_bathrobe/Torso.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bathrobe/coqfight-v1-338f1953e86f2f87bec5": [
+      "coqfight-v1/roostr/images/trait/roostr_bathrobe/Torso.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bdayhat/coqfight-v1-b9d0d593fddc23b6b2a2": [
+      "coqfight-v1/roostr/images/trait/roostr_bdayhat/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-beanie/coqfight-v1-a5f99557f2fa54775b97": [
+      "coqfight-v1/roostr/images/trait/roostr_beanie/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-beaker/coqfight-v1-d14fff2690486afec8fe": [
+      "coqfight-v1/roostr/images/trait/roostr_beaker/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-beret/coqfight-v1-3c59278c849662a4483b": [
+      "coqfight-v1/roostr/images/trait/roostr_beret/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bigstick/coqfight-v1-6254b7a23da016968873": [
+      "coqfight-v1/roostr/images/trait/roostr_bigstick/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bluetimbs/coqfight-v1-afc35ce3d48b0e99e1ae": [
+      "coqfight-v1/roostr/images/trait/roostr_bluetimbs/Back.Leg.Foot.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bokchain/coqfight-v1-506144a2bde8944d337a": [
+      "coqfight-v1/roostr/images/trait/roostr_bokchain/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bluetimbs/coqfight-v1-f4148b3acb89ef8a8c1b": [
+      "coqfight-v1/roostr/images/trait/roostr_bluetimbs/Front.Leg.Foot.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bone/coqfight-v1-1a20d4b77bd6a6f97a62": [
+      "coqfight-v1/roostr/images/trait/roostr_bone/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-boxhead/coqfight-v1-47aaf14365e3a9c7a3ca": [
+      "coqfight-v1/roostr/images/trait/roostr_boxhead/Head.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-boxhead/coqfight-v1-42ec5a565166947090d8": [
+      "coqfight-v1/roostr/images/trait/roostr_boxhead/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-breastplategold/coqfight-v1-4c34f342c8960d0ec522": [
+      "coqfight-v1/roostr/images/trait/roostr_breastplategold/Torso.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-breastplategold/coqfight-v1-6f0ad49a6fe4418f6d14": [
+      "coqfight-v1/roostr/images/trait/roostr_breastplategold/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-breastplategold/coqfight-v1-2915ddedcd9e4c43a669": [
+      "coqfight-v1/roostr/images/trait/roostr_breastplategold/Neck.Shirt"
+    ],
+    "roostr-traits/coqfight-v1/roostr-breastplatenormal/coqfight-v1-7843330a08ada96d7afb": [
+      "coqfight-v1/roostr/images/trait/roostr_breastplatenormal/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-breastplatenormal/coqfight-v1-739d414d213610e54984": [
+      "coqfight-v1/roostr/images/trait/roostr_breastplatenormal/Torso.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-breastplatenormal/coqfight-v1-7008c87992297818ce07": [
+      "coqfight-v1/roostr/images/trait/roostr_breastplatenormal/Neck.Shirt"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bonenecklace/coqfight-v1-440452517b334dd641b3": [
+      "coqfight-v1/roostr/images/trait/roostr_bonenecklace/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-brick/coqfight-v1-ffe01ddb621948068ae3": [
+      "coqfight-v1/roostr/images/trait/roostr_brick/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bucket/coqfight-v1-12622554af26fc2db0ce": [
+      "coqfight-v1/roostr/images/trait/roostr_bucket/Head.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bucket/coqfight-v1-dc8abff354dc18532b19": [
+      "coqfight-v1/roostr/images/trait/roostr_bucket/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-buckethat/coqfight-v1-5942fa592c897b2e3a86": [
+      "coqfight-v1/roostr/images/trait/roostr_buckethat/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-buckethat/coqfight-v1-42238a0d462ee0711087": [
+      "coqfight-v1/roostr/images/trait/roostr_buckethat/Head.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bulletbandolier/coqfight-v1-bf70ebedcedd9e6c006c": [
+      "coqfight-v1/roostr/images/trait/roostr_bulletbandolier/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bullhorn/coqfight-v1-e9996b43ab19a3ab1be9": [
+      "coqfight-v1/roostr/images/trait/roostr_bullhorn/Head.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-bullhorn/coqfight-v1-2da93e30a1977764b5a6": [
+      "coqfight-v1/roostr/images/trait/roostr_bullhorn/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-burger/coqfight-v1-825d67be0e3611f2b485": [
+      "coqfight-v1/roostr/images/trait/roostr_burger/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cap/coqfight-v1-7cbc2d6566249fa15926": [
+      "coqfight-v1/roostr/images/trait/roostr_cap/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-ccboombox/coqfight-v1-8e6d070f92346dadb8ae": [
+      "coqfight-v1/roostr/images/trait/roostr_ccboombox/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-ccchickmagnet/coqfight-v1-ebb5f0805f4d6f5cc638": [
+      "coqfight-v1/roostr/images/trait/roostr_ccchickmagnet/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-ccchiknjockey/coqfight-v1-ba3a3a588926536512d7": [
+      "coqfight-v1/roostr/images/trait/roostr_ccchiknjockey/Torso.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cchawaii/coqfight-v1-67b25e051f975868af45": [
+      "coqfight-v1/roostr/images/trait/roostr_cchawaii/Torso.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cccoqmaxi/coqfight-v1-992583a7ad0ef501fc3a": [
+      "coqfight-v1/roostr/images/trait/roostr_cccoqmaxi/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cchawaii/coqfight-v1-ba326baa623e3d14cdff": [
+      "coqfight-v1/roostr/images/trait/roostr_cchawaii/Torso.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cchawaii/coqfight-v1-bc07b05cbf03ec6096d6": [
+      "coqfight-v1/roostr/images/trait/roostr_cchawaii/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cchawaii/coqfight-v1-95f7efe2af4da16c9fc5": [
+      "coqfight-v1/roostr/images/trait/roostr_cchawaii/Neck.Shirt"
+    ],
+    "roostr-traits/coqfight-v1/roostr-ccbanjo/coqfight-v1-3771f287238af1e3b3a3": [
+      "coqfight-v1/roostr/images/trait/roostr_ccbanjo/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cchoverboard/coqfight-v1-bf5cafd02fa1133f2a27": [
+      "coqfight-v1/roostr/images/trait/roostr_cchoverboard/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-ccironclaw/coqfight-v1-0490176a39476de9a723": [
+      "coqfight-v1/roostr/images/trait/roostr_ccironclaw/Front.Leg.Lower.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-ccplaguedoctor/coqfight-v1-b3d260d2fe4e39e6bd4c": [
+      "coqfight-v1/roostr/images/trait/roostr_ccplaguedoctor/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-ccspurs/coqfight-v1-b34c45fb5ef192638bdd": [
+      "coqfight-v1/roostr/images/trait/roostr_ccspurs/Back.Leg.Lower.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-ccspurs/coqfight-v1-bc72fee54c43e63bdc54": [
+      "coqfight-v1/roostr/images/trait/roostr_ccspurs/Front.Leg.Lower.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-ccpeacock/coqfight-v1-8825b2ba7571f852a0a2": [
+      "coqfight-v1/roostr/images/trait/roostr_ccpeacock/Tail.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cctinfoil/coqfight-v1-d411f97aff947caf99d8": [
+      "coqfight-v1/roostr/images/trait/roostr_cctinfoil/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-ccswordtail/coqfight-v1-eab1d108b0aa003d3a48": [
+      "coqfight-v1/roostr/images/trait/roostr_ccswordtail/Tail.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cd/coqfight-v1-02519f79681d2fce2af2": [
+      "coqfight-v1/roostr/images/trait/roostr_cd/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-chefhat/coqfight-v1-68b5e9f06736bd7c0a3a": [
+      "coqfight-v1/roostr/images/trait/roostr_chefhat/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cclei/coqfight-v1-0491c93372d78efab428": [
+      "coqfight-v1/roostr/images/trait/roostr_cclei/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cigar/coqfight-v1-e7c2912896ca4a1a8fea": [
+      "coqfight-v1/roostr/images/trait/roostr_cigar/Head.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-combcolourcelestial/coqfight-v1-01861ae8edcb2be07a77": [
+      "coqfight-v1/roostr/images/trait/roostr_combcolourcelestial/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-ccsombrero/coqfight-v1-0944d75a2a6cfc66f00a": [
+      "coqfight-v1/roostr/images/trait/roostr_ccsombrero/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-combcolourgreen/coqfight-v1-c837549119969d2b6777": [
+      "coqfight-v1/roostr/images/trait/roostr_combcolourgreen/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-combcolourpurple/coqfight-v1-279dc39869f24e0c053b": [
+      "coqfight-v1/roostr/images/trait/roostr_combcolourpurple/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cowboy/coqfight-v1-a715d551c96e8843f81b": [
+      "coqfight-v1/roostr/images/trait/roostr_cowboy/Back.Leg.Lower.Cover"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cowboy/coqfight-v1-404aed2f80a01fc4f22b": [
+      "coqfight-v1/roostr/images/trait/roostr_cowboy/Front.Leg.Lower.Cover"
+    ],
+    "roostr-traits/coqfight-v1/roostr-combcolourgolden/coqfight-v1-0b51753512046b18c24c": [
+      "coqfight-v1/roostr/images/trait/roostr_combcolourgolden/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-cowboyhat/coqfight-v1-047d9b7a368c3e8c3aff": [
+      "coqfight-v1/roostr/images/trait/roostr_cowboyhat/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-crabclaws/coqfight-v1-0ea4a9eb4e097e438ccd": [
+      "coqfight-v1/roostr/images/trait/roostr_crabclaws/Back.Wing.Back",
+      "coqfight-v1/roostr/images/trait/roostr_crabclawsback/Back.Wing.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-crabclaws/coqfight-v1-e769a5b22686e29b2be3": [
+      "coqfight-v1/roostr/images/trait/roostr_crabclaws/Front.Wing.Front",
+      "coqfight-v1/roostr/images/trait/roostr_crabclawsback/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-crocs/coqfight-v1-97e234930e4dc0bcf7f7": [
+      "coqfight-v1/roostr/images/trait/roostr_crocs/Back.Leg.Foot.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-crocs/coqfight-v1-dfa04bed0fb6709e1063": [
+      "coqfight-v1/roostr/images/trait/roostr_crocs/Front.Leg.Foot.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-crtmonitor/coqfight-v1-b13f550de87f55b0e20e": [
+      "coqfight-v1/roostr/images/trait/roostr_crtmonitor/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-dogtags/coqfight-v1-b0c6b6401b4c44eba29d": [
+      "coqfight-v1/roostr/images/trait/roostr_dogtags/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-duck/coqfight-v1-336c843cdc38f5038856": [
+      "coqfight-v1/roostr/images/trait/roostr_duck/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-dumbell/coqfight-v1-d092428372badec7be5f": [
+      "coqfight-v1/roostr/images/trait/roostr_dumbell/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-fancysword/coqfight-v1-3734421dabb295179d68": [
+      "coqfight-v1/roostr/images/trait/roostr_fancysword/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-feetcelestial/coqfight-v1-0fca1e0345792a28d725": [
+      "coqfight-v1/roostr/images/trait/roostr_feetcelestial/Back.Leg.Foot.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-feetcelestial/coqfight-v1-06c490ae2c4e755e17af": [
+      "coqfight-v1/roostr/images/trait/roostr_feetcelestial/Front.Leg.Foot.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-feetcelestial/coqfight-v1-b8b1412e7d3f6d8a9b08": [
+      "coqfight-v1/roostr/images/trait/roostr_feetcelestial/Back.Leg.Lower.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-feetcelestial/coqfight-v1-53141b3637746adf5d75": [
+      "coqfight-v1/roostr/images/trait/roostr_feetcelestial/Front.Leg.Lower.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-feetgolden/coqfight-v1-5d72438176024a53601d": [
+      "coqfight-v1/roostr/images/trait/roostr_feetgolden/Back.Leg.Lower.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-feetgolden/coqfight-v1-1b4b21c164f4f4f7a0a6": [
+      "coqfight-v1/roostr/images/trait/roostr_feetgolden/Front.Leg.Lower.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-feetgolden/coqfight-v1-c658e73fd7608fa93d2b": [
+      "coqfight-v1/roostr/images/trait/roostr_feetgolden/Front.Leg.Foot.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-feetgolden/coqfight-v1-04bd407385c71901b6a0": [
+      "coqfight-v1/roostr/images/trait/roostr_feetgolden/Back.Leg.Foot.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-fez/coqfight-v1-cc571279bf30ef83728f": [
+      "coqfight-v1/roostr/images/trait/roostr_fez/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-fishgold/coqfight-v1-8bfb40af553baf53ba57": [
+      "coqfight-v1/roostr/images/trait/roostr_fishgold/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-floppydisk/coqfight-v1-ab52910e64dc00080e2a": [
+      "coqfight-v1/roostr/images/trait/roostr_floppydisk/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-footballhelmet/coqfight-v1-f7154f06f46ebf903ff6": [
+      "coqfight-v1/roostr/images/trait/roostr_footballhelmet/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-flowercrown/coqfight-v1-591781ed1f74021206cf": [
+      "coqfight-v1/roostr/images/trait/roostr_flowercrown/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-formalvest/coqfight-v1-a25eb9b7279f3f0de1d7": [
+      "coqfight-v1/roostr/images/trait/roostr_formalvest/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-flamingtorch/coqfight-v1-9e551a046ae352e7bb2b": [
+      "coqfight-v1/roostr/images/trait/roostr_flamingtorch/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-formalvest/coqfight-v1-20278d7a5e6db5a41d65": [
+      "coqfight-v1/roostr/images/trait/roostr_formalvest/Neck.Shirt"
+    ],
+    "roostr-traits/coqfight-v1/roostr-formalvest/coqfight-v1-03c4a122ee9dc7036e73": [
+      "coqfight-v1/roostr/images/trait/roostr_formalvest/Torso.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-fryingpan/coqfight-v1-0bd342f1eadc1b88bc26": [
+      "coqfight-v1/roostr/images/trait/roostr_fryingpan/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-fuzzyhat/coqfight-v1-3bb755d6ceb8ecbd9929": [
+      "coqfight-v1/roostr/images/trait/roostr_fuzzyhat/Head.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-fuzzyhat/coqfight-v1-8d921f5e47f43cb8ffc9": [
+      "coqfight-v1/roostr/images/trait/roostr_fuzzyhat/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-gameboy/coqfight-v1-5148c685e34f64862bde": [
+      "coqfight-v1/roostr/images/trait/roostr_gameboy/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-gasguzzler/coqfight-v1-10b547b22c06bdc42e93": [
+      "coqfight-v1/roostr/images/trait/roostr_gasguzzler/Torso.Pipes.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-gasmask/coqfight-v1-bdf17f00cfb2da753d70": [
+      "coqfight-v1/roostr/images/trait/roostr_gasmask/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-glasses/coqfight-v1-c71188db3eb59bd6d06b": [
+      "coqfight-v1/roostr/images/trait/roostr_glasses/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-golfball/coqfight-v1-acf7531ddce8967ef019": [
+      "coqfight-v1/roostr/images/trait/roostr_golfball/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-golfclub/coqfight-v1-dc03aef0ebdd000cdf7c": [
+      "coqfight-v1/roostr/images/trait/roostr_golfclub/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-grandpa/coqfight-v1-7d49a59224fed7d0d227": [
+      "coqfight-v1/roostr/images/trait/roostr_grandpa/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-greenpartyhat/coqfight-v1-b9d16d041612ec312a8a": [
+      "coqfight-v1/roostr/images/trait/roostr_greenpartyhat/Head.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-greenpartyhat/coqfight-v1-08640fdc2e877b3c2a2d": [
+      "coqfight-v1/roostr/images/trait/roostr_greenpartyhat/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-hammernormal/coqfight-v1-01ebf410e544cc0bdc5f": [
+      "coqfight-v1/roostr/images/trait/roostr_hammernormal/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-hammerred/coqfight-v1-0f9c3d66a42ea96a3a57": [
+      "coqfight-v1/roostr/images/trait/roostr_hammerred/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-heartballoon/coqfight-v1-77cb83e75de5fa0ac10b": [
+      "coqfight-v1/roostr/images/trait/roostr_heartballoon/Torso.BackFloat"
+    ],
+    "roostr-traits/coqfight-v1/roostr-highheelsblack/coqfight-v1-2451337ac8c41b57ef32": [
+      "coqfight-v1/roostr/images/trait/roostr_highheelsblack/Back.Leg.Foot.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-helmet-chromedome/coqfight-v1-63c69fc3d07c1d025347": [
+      "coqfight-v1/roostr/images/trait/roostr_helmet(chromedome)/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-guitar/coqfight-v1-d74a164b2154ed17cec8": [
+      "coqfight-v1/roostr/images/trait/roostr_guitar/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-highheelsred/coqfight-v1-96d101c768b0ee3a0f8b": [
+      "coqfight-v1/roostr/images/trait/roostr_highheelsred/Back.Leg.Foot.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-highheelsred/coqfight-v1-6173aebb790bc1e93885": [
+      "coqfight-v1/roostr/images/trait/roostr_highheelsred/Front.Leg.Foot.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-highheelsblack/coqfight-v1-69406dea08405eaf6f2a": [
+      "coqfight-v1/roostr/images/trait/roostr_highheelsblack/Front.Leg.Foot.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-hipster/coqfight-v1-4f6b68a6fedeae3181c2": [
+      "coqfight-v1/roostr/images/trait/roostr_hipster/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-hotdogneck/coqfight-v1-fd8df9b8571d9d244128": [
+      "coqfight-v1/roostr/images/trait/roostr_hotdogneck/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-jello/coqfight-v1-e3b40f26ce30d1283daa": [
+      "coqfight-v1/roostr/images/trait/roostr_jello/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-katana/coqfight-v1-2bf0b493ce281ba7657a": [
+      "coqfight-v1/roostr/images/trait/roostr_katana/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-kevlar/coqfight-v1-aaf5c62d2de1396797ea": [
+      "coqfight-v1/roostr/images/trait/roostr_kevlar/Neck.Shirt"
+    ],
+    "roostr-traits/coqfight-v1/roostr-kevlar/coqfight-v1-1591728ae0320571fe53": [
+      "coqfight-v1/roostr/images/trait/roostr_kevlar/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-kevlar/coqfight-v1-ab010171a0aa664aac85": [
+      "coqfight-v1/roostr/images/trait/roostr_kevlar/Torso.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-key/coqfight-v1-e75bf6d60a2607ba694d": [
+      "coqfight-v1/roostr/images/trait/roostr_key/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-hydra/coqfight-v1-32611dce455c35dfd1af": [
+      "coqfight-v1/roostr/images/trait/roostr_hydra/Tail.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-labcoat/coqfight-v1-0a84ecea164d87844238": [
+      "coqfight-v1/roostr/images/trait/roostr_labcoat/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-knighthelmetgold/coqfight-v1-60845a01ec4d64346520": [
+      "coqfight-v1/roostr/images/trait/roostr_knighthelmetgold/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-knighthelmetmetal/coqfight-v1-99defb22ec3769af324c": [
+      "coqfight-v1/roostr/images/trait/roostr_knighthelmetmetal/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-labcoat/coqfight-v1-f445911a1384796964ce": [
+      "coqfight-v1/roostr/images/trait/roostr_labcoat/Neck.Shirt"
+    ],
+    "roostr-traits/coqfight-v1/roostr-labcoat/coqfight-v1-09c1c86eb996ac56ea05": [
+      "coqfight-v1/roostr/images/trait/roostr_labcoat/Torso.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-labcoat/coqfight-v1-1b26a3f0c4cbfc3fa3d9": [
+      "coqfight-v1/roostr/images/trait/roostr_labcoat/Torso.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-lifering/coqfight-v1-9cedbc0b92dd0341d21c": [
+      "coqfight-v1/roostr/images/trait/roostr_lifering/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-leaves/coqfight-v1-bb96649fdec534cd937f": [
+      "coqfight-v1/roostr/images/trait/roostr_leaves/Tail.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-lighter/coqfight-v1-40ab17eee7355e928f89": [
+      "coqfight-v1/roostr/images/trait/roostr_lighter/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-mfd/coqfight-v1-ec83cd7ab6260e24cc46": [
+      "coqfight-v1/roostr/images/trait/roostr_mfd/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-mullet/coqfight-v1-e712f360228cd109e711": [
+      "coqfight-v1/roostr/images/trait/roostr_mullet/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-necklaceclock/coqfight-v1-fcd67ddff2da2d53bb48": [
+      "coqfight-v1/roostr/images/trait/roostr_necklaceclock/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-necklacestop/coqfight-v1-9da2889352cfd8b166f2": [
+      "coqfight-v1/roostr/images/trait/roostr_necklacestop/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-moonmedallion/coqfight-v1-ef54faad991cd1dd3099": [
+      "coqfight-v1/roostr/images/trait/roostr_moonmedallion/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-necklacewishbone/coqfight-v1-a852ca16ab64418bf7be": [
+      "coqfight-v1/roostr/images/trait/roostr_necklacewishbone/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-pilothat/coqfight-v1-3d986f16cf3a2434223e": [
+      "coqfight-v1/roostr/images/trait/roostr_pilothat/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-plane/coqfight-v1-64db3391434919305e2c": [
+      "coqfight-v1/roostr/images/trait/roostr_plane/Tail.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-poker/coqfight-v1-20b70cace5db205df3d0": [
+      "coqfight-v1/roostr/images/trait/roostr_poker/Tail.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-prawn/coqfight-v1-f19bbf125aa374c6d4a0": [
+      "coqfight-v1/roostr/images/trait/roostr_prawn/Tail.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-punkhair/coqfight-v1-0f2dce85debdce904118": [
+      "coqfight-v1/roostr/images/trait/roostr_punkhair/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-ribbon/coqfight-v1-757d1b6241ee7a249225": [
+      "coqfight-v1/roostr/images/trait/roostr_ribbon/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-robot/coqfight-v1-8b47fd512cd858ecb085": [
+      "coqfight-v1/roostr/images/trait/roostr_robot/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-rosebud/coqfight-v1-a3c6053406b851ed6961": [
+      "coqfight-v1/roostr/images/trait/roostr_rosebud/Head.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-rosebud/coqfight-v1-b4b84b94e9505b9a47c5": [
+      "coqfight-v1/roostr/images/trait/roostr_rosebud/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-sack/coqfight-v1-3e1a23499a871f6ff31b": [
+      "coqfight-v1/roostr/images/trait/roostr_sack/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-saddle/coqfight-v1-f6df6f06dadfa010f02f": [
+      "coqfight-v1/roostr/images/trait/roostr_saddle/Torso.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-samurai/coqfight-v1-8b04db92cdc9e4f0cbca": [
+      "coqfight-v1/roostr/images/trait/roostr_samurai/Head.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-samurai/coqfight-v1-62f8d7de13eceeb851f7": [
+      "coqfight-v1/roostr/images/trait/roostr_samurai/Head.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-sash/coqfight-v1-4fe9a8736e88b93d75e4": [
+      "coqfight-v1/roostr/images/trait/roostr_sash/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-rug/coqfight-v1-2c97f713d8393cda3078": [
+      "coqfight-v1/roostr/images/trait/roostr_rug/GroundTrait"
+    ],
+    "roostr-traits/coqfight-v1/roostr-rubberchikn/coqfight-v1-a58abf671a760fd7780e": [
+      "coqfight-v1/roostr/images/trait/roostr_rubberchikn/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-scarf/coqfight-v1-21f1bb127bab22059af0": [
+      "coqfight-v1/roostr/images/trait/roostr_scarf/Neck.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-scarf/coqfight-v1-24de84ecd26c51695ee7": [
+      "coqfight-v1/roostr/images/trait/roostr_scarf/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-scorpion/coqfight-v1-17c5b13c0019ce4583c0": [
+      "coqfight-v1/roostr/images/trait/roostr_scorpion/Tail.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-scorpionsnippers/coqfight-v1-d345abb3ab0cdec8939c": [
+      "coqfight-v1/roostr/images/trait/roostr_scorpionsnippers/Back.Wing.Back",
+      "coqfight-v1/roostr/images/trait/roostr_scorpionsnippersback/Back.Wing.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-scorpionsnippers/coqfight-v1-bf58fb7011eecf59c2b2": [
+      "coqfight-v1/roostr/images/trait/roostr_scorpionsnippers/Front.Wing.Front",
+      "coqfight-v1/roostr/images/trait/roostr_scorpionsnippersback/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-shovel/coqfight-v1-9d3fe3ef8ae7204bbc87": [
+      "coqfight-v1/roostr/images/trait/roostr_shovel/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-shield/coqfight-v1-60386d0da5b101ba04b5": [
+      "coqfight-v1/roostr/images/trait/roostr_shield/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-smokestack/coqfight-v1-68fb5e91c6f9116f1d32": [
+      "coqfight-v1/roostr/images/trait/roostr_smokestack/Torso.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-sneakers/coqfight-v1-17b8fa6a0c368f6aa0ac": [
+      "coqfight-v1/roostr/images/trait/roostr_sneakers/Front.Leg.Foot.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-sneakers/coqfight-v1-a4ad1648971702460402": [
+      "coqfight-v1/roostr/images/trait/roostr_sneakers/Back.Leg.Foot.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-snorkel/coqfight-v1-be3a8277cc1089b68eed": [
+      "coqfight-v1/roostr/images/trait/roostr_snorkel/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-soccerball/coqfight-v1-d192a7cdb381f41176b6": [
+      "coqfight-v1/roostr/images/trait/roostr_soccerball/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-smolbrain/coqfight-v1-f037dc2e5b9d436d88ba": [
+      "coqfight-v1/roostr/images/trait/roostr_smolbrain/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-solar/coqfight-v1-318d6ceb10ee58e5d785": [
+      "coqfight-v1/roostr/images/trait/roostr_solar/Tail.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-spork/coqfight-v1-b17a05d487e508d4c76e": [
+      "coqfight-v1/roostr/images/trait/roostr_spork/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-starfish/coqfight-v1-5d7c9cfcaba0441c7cf2": [
+      "coqfight-v1/roostr/images/trait/roostr_starfish/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-stethoscope/coqfight-v1-2180d5a72a9f5fe4482f": [
+      "coqfight-v1/roostr/images/trait/roostr_stethoscope/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-sunglasses-01/coqfight-v1-3c804d7cfa2c5827392e": [
+      "coqfight-v1/roostr/images/trait/roostr_sunglasses_01/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-sword/coqfight-v1-c01b0d53a2d28101da27": [
+      "coqfight-v1/roostr/images/trait/roostr_sword/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-toiletpaper/coqfight-v1-a8dd768882213098120f": [
+      "coqfight-v1/roostr/images/trait/roostr_toiletpaper/Head.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-toiletpaper/coqfight-v1-70110cf028af9e52f0cc": [
+      "coqfight-v1/roostr/images/trait/roostr_toiletpaper/Head.Front.Top"
+    ],
+    "roostr-traits/coqfight-v1/roostr-traderjoe/coqfight-v1-126b6abc2c42ccd06a83": [
+      "coqfight-v1/roostr/images/trait/roostr_traderjoe/Neck.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-trumpet/coqfight-v1-11c3ab8e28e9cdf7746c": [
+      "coqfight-v1/roostr/images/trait/roostr_trumpet/Front.Forehand.Back"
+    ],
+    "roostr-traits/coqfight-v1/roostr-tshirtblack/coqfight-v1-5b83f256a2b3f53e39e6": [
+      "coqfight-v1/roostr/images/trait/roostr_tshirtblack/Torso.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-tshirtblack/coqfight-v1-437edb8a2502ee6ec73c": [
+      "coqfight-v1/roostr/images/trait/roostr_tshirtblack/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-tshirtblack/coqfight-v1-c0ec29f57438a6a9196e": [
+      "coqfight-v1/roostr/images/trait/roostr_tshirtblack/Neck.Shirt"
+    ],
+    "roostr-traits/coqfight-v1/roostr-tshirtred/coqfight-v1-d1c838458123ffc47051": [
+      "coqfight-v1/roostr/images/trait/roostr_tshirtred/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-tshirtred/coqfight-v1-7cf063e8361f61e567fe": [
+      "coqfight-v1/roostr/images/trait/roostr_tshirtred/Torso.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-tshirtred/coqfight-v1-eb0cb4e0270369b888cb": [
+      "coqfight-v1/roostr/images/trait/roostr_tshirtred/Neck.Shirt"
+    ],
+    "roostr-traits/coqfight-v1/roostr-tshirtwhite/coqfight-v1-04092b1d8fe4593e02cf": [
+      "coqfight-v1/roostr/images/trait/roostr_tshirtwhite/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-tshirtwhite/coqfight-v1-8e5d472f105e3e61d394": [
+      "coqfight-v1/roostr/images/trait/roostr_tshirtwhite/Neck.Shirt"
+    ],
+    "roostr-traits/coqfight-v1/roostr-tweed/coqfight-v1-235f876ad50305df180d": [
+      "coqfight-v1/roostr/images/trait/roostr_tweed/Front.Wing.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-tweed/coqfight-v1-d0437ef651bb70742ba0": [
+      "coqfight-v1/roostr/images/trait/roostr_tweed/Neck.Shirt"
+    ],
+    "roostr-traits/coqfight-v1/roostr-vr/coqfight-v1-6d767e81e5ce42811725": [
+      "coqfight-v1/roostr/images/trait/roostr_vr/Head.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-tweed/coqfight-v1-4328d1e3b9b88a76884c": [
+      "coqfight-v1/roostr/images/trait/roostr_tweed/Torso.Front"
+    ],
+    "roostr-traits/coqfight-v1/roostr-whale/coqfight-v1-2490506526054248e4a5": [
+      "coqfight-v1/roostr/images/trait/roostr_whale/Tail.Special"
+    ],
+    "roostr-traits/coqfight-v1/roostr-tshirtwhite/coqfight-v1-4709e8fc730b8b90d8ca": [
+      "coqfight-v1/roostr/images/trait/roostr_tshirtwhite/Torso.Front"
+    ]
   }
 }

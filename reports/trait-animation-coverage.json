@@ -1,12 +1,4658 @@
 {
   "schema": "chikn-game-assets.trait-animation-coverage/v2",
-  "assetManifestVersion": "0.6.1",
+  "assetManifestVersion": "0.7.0-rc.1",
   "totals": {
     "traitGroups": 276,
     "chikn": 114,
     "roostr": 162,
-    "traitAssets": 322,
+    "traitAssets": 718,
     "specials": 28
+  },
+  "officialCoqfight": {
+    "setId": "coqfight-v1",
+    "traitSkins": 398,
+    "traits": [
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/BigMamFatPipes",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/bigmamfatpipes/coqfight-v1-f13f9afa8c2294e54b47"
+        ],
+        "occupiedSlots": [
+          "Torso.Pipes.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/BlueMage",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/bluemage/coqfight-v1-27d86e3117864e87c115"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/CheekyReadhead",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/cheekyreadhead/coqfight-v1-4eb0bba40361779717e2",
+          "chikn-traits/coqfight-v1/cheekyreadhead/coqfight-v1-a07202623be4f1c09f26"
+        ],
+        "occupiedSlots": [
+          "Head.Back",
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_actionshorts",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-actionshorts/coqfight-v1-dc8ff6793a6b2dd01f77",
+          "chikn-traits/coqfight-v1/chikn-actionshorts/coqfight-v1-50f7848cc489cf6a1da7",
+          "chikn-traits/coqfight-v1/chikn-actionshorts/coqfight-v1-a3753cc710efdedecf62"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Upper.Front",
+          "Front.Leg.Upper.Front",
+          "Torso.Shorts"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_admiral",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-admiral/coqfight-v1-25512967a4694eaa07c4"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_afreshbaguette",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-afreshbaguette/coqfight-v1-481176b3929ac1174721"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_allseeingeye",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-allseeingeye/coqfight-v1-c46261e86bd390c105e7"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_avaxbling",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-avaxbling/coqfight-v1-a110c668bfe74d42f10a"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_avaxdegen",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-avaxdegen/coqfight-v1-9ed2f86793a9ebdbaf49"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_avaxsafetyofficer",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-avaxsafetyofficer/coqfight-v1-80f42d15a096eec8eb60"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_battlebeakmask",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-battlebeakmask/coqfight-v1-e1bb03107d913948d999"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_bigbagofcash",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bigbagofcash/coqfight-v1-8761aee1b7ac4c448fa0"
+        ],
+        "occupiedSlots": [
+          "Torso.Bag"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_bigheadmode",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bigheadmode/coqfight-v1-641cddeb90ef2ccbc301"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_bigmamafatpipes",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bigmamafatpipes/coqfight-v1-b01c6d421f541d3734b9",
+          "chikn-traits/coqfight-v1/bigmamfatpipes/coqfight-v1-f13f9afa8c2294e54b47"
+        ],
+        "occupiedSlots": [
+          "Torso.Pipes.Back",
+          "Torso.Pipes.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_bigolcorncob",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bigolcorncob/coqfight-v1-4fdb3bc15110e02339df"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_bitcoinbling",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bitcoinbling/coqfight-v1-2f8429a76c03a34515ba"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_bitcoinmaxi",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bitcoinmaxi/coqfight-v1-f04a302e8b68fbc311f5"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_blackbandana",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-blackbandana/coqfight-v1-ea16d6beb5bb42e7d359"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_blacksweatband",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-blacksweatband/coqfight-v1-9e1b70280cc81390a83d"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_blackvans",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-blackvans/coqfight-v1-c0af1a2641f12ed99860",
+          "chikn-traits/coqfight-v1/chikn-blackvans/coqfight-v1-03b5928002e62b291549"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_blockchainbashers",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-blockchainbashers/coqfight-v1-d624a1a0477ca018b5d3",
+          "chikn-traits/coqfight-v1/chikn-blockchainbashers/coqfight-v1-a2a519f638c280d276ae"
+        ],
+        "occupiedSlots": [
+          "Back.Forehand.Front",
+          "Front.Forehand.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_bluebag",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bluebag/coqfight-v1-87ed7d2bffdd607f4618"
+        ],
+        "occupiedSlots": [
+          "Torso.Bag"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_bluebandana",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bluebandana/coqfight-v1-c2a04fa4839850cd79a1"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_bluefeet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bluefeet/coqfight-v1-c6aa27d364a05530308c",
+          "chikn-traits/coqfight-v1/chikn-bluefeet/coqfight-v1-3221083c242bb856bb09"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Back.Leg.Lower.Front",
+          "Front.Leg.Foot.Front",
+          "Front.Leg.Lower.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_bluekicks",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bluekicks/coqfight-v1-3078d68fb3c5cb539013",
+          "chikn-traits/coqfight-v1/chikn-bluekicks/coqfight-v1-c7ebaa0799d2ec5ef043"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_bluemage",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/bluemage/coqfight-v1-27d86e3117864e87c115"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_bokchain",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bokchain/coqfight-v1-8edb1f639cff92b7a67c"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_bonedaddyrattler",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bonedaddyrattler/coqfight-v1-2fa7e0ed9d384f5103d4"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_boxhead",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-boxhead/coqfight-v1-0656c479d72019dfc490",
+          "chikn-traits/coqfight-v1/chikn-boxhead/coqfight-v1-bf7831367b323d7fc42c"
+        ],
+        "occupiedSlots": [
+          "Head.Back",
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_businessboy",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-businessboy/coqfight-v1-d8a02bb8bb067ab4be26",
+          "chikn-traits/coqfight-v1/chikn-businessboy/coqfight-v1-e5da4e2e330457319ed0",
+          "chikn-traits/coqfight-v1/chikn-businessboy/coqfight-v1-08ec33dc489d471d160a"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front",
+          "Torso.Front",
+          "Neck.Shirt"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_captainchimerica",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-captainchimerica/coqfight-v1-a5e82cdb661920f91a0c"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_chainsfordays",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-chainsfordays/coqfight-v1-718160eb5bd9448652ed"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_charcoalbrunette",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-charcoalbrunette/coqfight-v1-6f51aaea9d5904d9c5f4",
+          "chikn-traits/coqfight-v1/chikn-charcoalbrunette/coqfight-v1-0a83bc2ac798683a4a87"
+        ],
+        "occupiedSlots": [
+          "Head.Back",
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_cheekyredhead",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/cheekyreadhead/coqfight-v1-a07202623be4f1c09f26",
+          "chikn-traits/coqfight-v1/cheekyreadhead/coqfight-v1-4eb0bba40361779717e2"
+        ],
+        "occupiedSlots": [
+          "Head.Special",
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_chickenchoker",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-chickenchoker/coqfight-v1-76a3504e2dc9470b8706"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_chiknatorshades",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-chiknatorshades/coqfight-v1-729a7e2d1a2160029224"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_chiknslayerhelmet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-chiknslayerhelmet/coqfight-v1-8de36070dcbc57e09403"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_chiknsouppot",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-chiknsouppot/coqfight-v1-cf27694ec1bc1c034536"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_comfortableuggs",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-comfortableuggs/coqfight-v1-702188f51b81b3a0a05a",
+          "chikn-traits/coqfight-v1/chikn-comfortableuggs/coqfight-v1-96b8aed2bad03ab55596"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_constructionhelmet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-constructionhelmet/coqfight-v1-928c56bba78d99ab752c"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_cooldude69",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-cooldude69/coqfight-v1-7d3e8e6a9eaee55f0f61"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_coqachutail",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-coqachutail/coqfight-v1-10d7bda88dc4dad22913"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_covidsafe",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-covidsafe/coqfight-v1-2635f4f88ad462330184"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_crusader",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-crusader/coqfight-v1-7c1e6a27dd0ab75ba9a3"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_cryptocrashhelmet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-cryptocrashhelmet/coqfight-v1-b53a5a8f9a4b48e836b8"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_cutlass",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-cutlass/coqfight-v1-66964e13e2c9294d176f"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_daftpunk",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-daftpunk/coqfight-v1-193c32d058737750c5e1"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_dealwithit",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-dealwithit/coqfight-v1-d4afec2bcd0d9a21620a"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_diamondfeet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-diamondfeet/coqfight-v1-1e192591477ad12087b6",
+          "chikn-traits/coqfight-v1/chikn-diamondfeet/coqfight-v1-e580152d5f65b29b3606"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Back.Leg.Lower.Front",
+          "Front.Leg.Foot.Front",
+          "Front.Leg.Lower.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_dollarchain",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-dollarchain/coqfight-v1-0737a1b0388c1d61d5d1"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_drumsticksclub",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-drumsticksclub/coqfight-v1-bd56b4eed292a522e921"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_eggstraterrestrial",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-eggstraterrestrial/coqfight-v1-d79cdfe9475c1c70e16e"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_elvis",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-elvis/coqfight-v1-e76c98c4f7f4b316afbe"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_ethereumbling",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-ethereumbling/coqfight-v1-0fb5b2cd9c70a7538d9c"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_ethereumguzzler",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-ethereumguzzler/coqfight-v1-7d0131b272921f52737e"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_featherflamethrower",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-featherflamethrower/coqfight-v1-0b6a1515349b6e017cc6"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_fedoraofknowledge",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-fedoraofknowledge/coqfight-v1-dad25e4129637556b27c"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_freshfish",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-freshfish/coqfight-v1-9ebf8b9f9a9142344e4c"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_frothycrown",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-frothycrown/coqfight-v1-4ea081d3a0e5b8cfbcde"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_fud-proofhelmet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-fud-proofhelmet/coqfight-v1-3ba6eed5f46acd55d2dc"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_gasguzzler",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-gasguzzler/coqfight-v1-2c3ff0e50c2b06f5e5a7"
+        ],
+        "occupiedSlots": [
+          "Torso.Pipes.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_gentlechikn",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-gentlechikn/coqfight-v1-dd2163a69724ed2007ee"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_gentleman'spipe",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-gentleman-spipe/coqfight-v1-755c446d691ce8974bf3"
+        ],
+        "occupiedSlots": [
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_goldenblonde",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-goldenblonde/coqfight-v1-238d2b7b0f232813aa7e",
+          "chikn-traits/coqfight-v1/chikn-goldenblonde/coqfight-v1-b4935f01b7c2972df555"
+        ],
+        "occupiedSlots": [
+          "Head.Back",
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_goldenbonedaddy",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-goldenbonedaddy/coqfight-v1-2fe8eaf03fe340d69437"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_goldencrusader",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-goldencrusader/coqfight-v1-a64e283db14b06441c9e"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_goldenegg",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-goldenegg/coqfight-v1-9e42188135b23000e4a3"
+        ],
+        "occupiedSlots": [
+          "Tail.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_goldenplumage",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-goldenplumage/coqfight-v1-342359a5040485f241ac",
+          "chikn-traits/coqfight-v1/chikn-goldenplumage/coqfight-v1-298f7a304c2f0b658060"
+        ],
+        "occupiedSlots": [
+          "Torso.TailConnector",
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_goose",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-goose/coqfight-v1-a7fb01dfcc29ea99b54a"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_greenfeet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-greenfeet/coqfight-v1-c323ad0eed6a47af1f6d",
+          "chikn-traits/coqfight-v1/chikn-greenfeet/coqfight-v1-7b7d1bd1731f3c0976fb"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Back.Leg.Lower.Front",
+          "Front.Leg.Foot.Front",
+          "Front.Leg.Lower.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_greenkicks",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-greenkicks/coqfight-v1-4049c84ebfeb3c8d7f13",
+          "chikn-traits/coqfight-v1/chikn-greenkicks/coqfight-v1-de317ce4cca3c037edd1"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_hairyoldman",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hairyoldman/coqfight-v1-3c7c777d09b54d49daf6"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_hamlet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hamlet/coqfight-v1-2f9c2216b3b3285a6aeb"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_hentai",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hentai/coqfight-v1-f50795f0d0820fe2f75f",
+          "chikn-traits/coqfight-v1/chikn-hentaifront/coqfight-v1-3ea01c990ac0d55a999c"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_hentaiback",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hentai/coqfight-v1-f50795f0d0820fe2f75f",
+          "chikn-traits/coqfight-v1/chikn-hentaifront/coqfight-v1-3ea01c990ac0d55a999c"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_hentaifront",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hentaifront/coqfight-v1-3ea01c990ac0d55a999c",
+          "chikn-traits/coqfight-v1/chikn-hentai/coqfight-v1-f50795f0d0820fe2f75f"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front",
+          "Back.Wing.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_hodlhammer",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hodlhammer/coqfight-v1-72344a9a78d8fac46d10"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_hotdoghelmet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hotdoghelmet/coqfight-v1-58c222313d5700c28c6d",
+          "chikn-traits/coqfight-v1/chikn-hotdoghelmet/coqfight-v1-57b322972a5ee3c91ded"
+        ],
+        "occupiedSlots": [
+          "Head.Back",
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_hotdogneck",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hotdogneck/coqfight-v1-e6bb92039846f1be7a96"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_hotdogtail",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hotdogtail/coqfight-v1-62c881bda255d671e555"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_hothead",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hothead/coqfight-v1-7f07cb12147a4c9cc409"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_hubbabubba",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hubbabubba/coqfight-v1-160ff40b45054ac99880"
+        ],
+        "occupiedSlots": [
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_humangrowthhormones",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-humangrowthhormones/coqfight-v1-6626f4bd8fdfebcabe52",
+          "chikn-traits/coqfight-v1/chikn-humangrowthhormones/coqfight-v1-1a95114ec149d4ec6467"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_humangrowthhormonesback",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-humangrowthhormones/coqfight-v1-6626f4bd8fdfebcabe52",
+          "chikn-traits/coqfight-v1/chikn-humangrowthhormones/coqfight-v1-1a95114ec149d4ec6467"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_iceystare",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-iceystare/coqfight-v1-b23ae36ad29aa95541a6"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_inheritedroyalty",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-inheritedroyalty/coqfight-v1-a21d5b0b52c12efe7a75"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_karatekid",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-karatekid/coqfight-v1-d2a187c665e00bcccdc3",
+          "chikn-traits/coqfight-v1/chikn-karatekid/coqfight-v1-35ec13a868117288d1d7",
+          "chikn-traits/coqfight-v1/chikn-karatekid/coqfight-v1-a5c6811c401e8db5d1bc"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front",
+          "Torso.Front",
+          "Neck.Shirt"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_kfckicks",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-kfckicks/coqfight-v1-df74f97c756eeae735db"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_lasereye",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-lasereye/coqfight-v1-4f30f7b5195d2d9cfc41"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_led",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-led/coqfight-v1-533417a497dbf865ef5a"
+        ],
+        "occupiedSlots": [
+          "Tail.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_liarliar",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-liarliar/coqfight-v1-dc0ed1bd576920730ced"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_lowvisionadmiral",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-lowvisionadmiral/coqfight-v1-7384835e37d92b8e953d"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_luckiestredcap",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-luckiestredcap/coqfight-v1-b59ab3597c4742409a05"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_luckybluecap",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-luckybluecap/coqfight-v1-48cddd806047bb53676a"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_maverick",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-maverick/coqfight-v1-865a08b2c347344f93ea"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_mecha-wing",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-mecha-wing/coqfight-v1-a28f11b0a609c786a613",
+          "chikn-traits/coqfight-v1/chikn-mecha-wing/coqfight-v1-4ee5f6dbaab9767e083c"
+        ],
+        "occupiedSlots": [
+          "Back.Forehand.Front",
+          "Front.Forehand.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_mememask",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-mememask/coqfight-v1-2e1c4849f1f4a19e5a22"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_memetail",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-memetail/coqfight-v1-6896fd14ecaf4dde7e0d"
+        ],
+        "occupiedSlots": [
+          "Tail.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_mfd",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-mfd/coqfight-v1-514094a3db0fcc1cf2bd"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_midasmuscles",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-d0e01ce20b4cd7cafa32",
+          "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-2351481e3d5d959a4483"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front",
+          "Back.Wing.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_midasmusclesback",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-d0e01ce20b4cd7cafa32",
+          "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-2351481e3d5d959a4483"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front",
+          "Back.Wing.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_mightybroadsword",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-mightybroadsword/coqfight-v1-2f6c7d10b17b5e30a543"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_mimbling",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-mimbling/coqfight-v1-8b56bba2c6654676c2c3"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_mimog",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-mimog/coqfight-v1-e6e97157dd498cbfa667"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_moonmedallion",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-moonmedallion/coqfight-v1-eed1de466a60c90c9247"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_moustache",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-moustache/coqfight-v1-559d60b507738fa9e51c"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_mughead",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-mughead/coqfight-v1-689d3ba9d2090414a740"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_murica",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-murica/coqfight-v1-154bd5d2d2adeda6d053"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_mysteriousfez",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-mysteriousfez/coqfight-v1-e62352b1a145e8edd744"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_nerdlinger",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-nerdlinger/coqfight-v1-8df825dfe0166f5d8f50"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_nonfungibubble",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-nonfungibubble/coqfight-v1-07b2ea0eb4bfb38cbd36"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_nuggetwand",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-nuggetwand/coqfight-v1-19ce7f7e0c73a85b338f"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_nyan",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-nyan/coqfight-v1-41771cc9f9f24e822d26"
+        ],
+        "occupiedSlots": [
+          "Tail.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_oldfashionedromance",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-oldfashionedromance/coqfight-v1-fb0c7598df187262854c"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_orangeplumage",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-orangeplumage/coqfight-v1-c9cea67184c2cf3a940b",
+          "chikn-traits/coqfight-v1/chikn-orangeplumage/coqfight-v1-99ba9c11e9366d8f86d0"
+        ],
+        "occupiedSlots": [
+          "Torso.TailConnector",
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_peacemaker",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-peacemaker/coqfight-v1-2c0bb4927e07446f96b3"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_peckachuvisor",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-peckachuvisor/coqfight-v1-d64022f0fb67b5dd6a98"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_peckax",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-peckax/coqfight-v1-c94403c6d66c7697d9b9"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_pillager",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-pillager/coqfight-v1-1d75845f72b9c6fcbf74"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_pineapple",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-pineapple/coqfight-v1-bf626167f23da5b5d7e9"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_pixelcigarette",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-pixelcigarette/coqfight-v1-9bc36cb2b8c39d15f743"
+        ],
+        "occupiedSlots": [
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_pixelsword",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-pixelsword/coqfight-v1-7f121b33506a1aa3c301"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_pixeltail",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-pixeltail/coqfight-v1-c4b8ba160f336d19e038"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_plumetoniumknuckles",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-plumetoniumknuckles/coqfight-v1-c9ea935a209732bb9b94",
+          "chikn-traits/coqfight-v1/chikn-plumetoniumknuckles/coqfight-v1-ebdeb743fceb894c9876"
+        ],
+        "occupiedSlots": [
+          "Back.Forehand.Front",
+          "Front.Forehand.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_pointnshoot",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-pointnshoot/coqfight-v1-957d09a859efb87a257c"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_popsicle",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-popsicle/coqfight-v1-8b56e9ad1825d8ef77d4"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_poultrypaddle",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-poultrypaddle/coqfight-v1-75872619bbe3f4f42a21"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_poultrypumps",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-poultrypumps/coqfight-v1-bd5fa1e87ae46498c878"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_purplebowtie",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-purplebowtie/coqfight-v1-0279fc92bce9170a1645"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_purplefeet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-purplefeet/coqfight-v1-98e7c2eb30a46e1d7019",
+          "chikn-traits/coqfight-v1/chikn-purplefeet/coqfight-v1-d293c2538d75768320a4"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Back.Leg.Lower.Front",
+          "Front.Leg.Foot.Front",
+          "Front.Leg.Lower.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_purpleleatherboots",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-purpleleatherboots/coqfight-v1-c23cda26bb3241a7a2bd",
+          "chikn-traits/coqfight-v1/chikn-purpleleatherboots/coqfight-v1-80b751061864986468d0"
+        ],
+        "occupiedSlots": [
+          "Front.Leg.Lower.Cover",
+          "Back.Leg.Lower.Cover"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_purplesweatband",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-purplesweatband/coqfight-v1-e9e29b7cb0e814a26834"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_pyramidplumage",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-pyramidplumage/coqfight-v1-20344533a387ab3b5f62"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_raptortalons",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-raptortalons/coqfight-v1-0579ae604488bba5c4d2"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Special",
+          "Front.Leg.Foot.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_realfeet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-realfeet/coqfight-v1-ea441db462e4ac1a6928",
+          "chikn-traits/coqfight-v1/chikn-realfeet/coqfight-v1-cf27694dcc720169adaf"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Lower.Cover",
+          "Front.Leg.Lower.Cover"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_redbandana",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-redbandana/coqfight-v1-1a9d473a8a8e996c5c1d"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_redbowtie",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-redbowtie/coqfight-v1-9a50d8133709c2d4a669"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_redfeet",
+        "assetIds": [
+          "chikn-traits/base/kernel/coqfight-v1-f03e4b871f232a13a81d",
+          "chikn-traits/base/kernel/coqfight-v1-3393e97e7818217f0dd6"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Back.Leg.Lower.Front",
+          "Front.Leg.Foot.Front",
+          "Front.Leg.Lower.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_redleatherboots",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-redleatherboots/coqfight-v1-98233dfba5b95c8d6cf1",
+          "chikn-traits/coqfight-v1/chikn-redleatherboots/coqfight-v1-6f9ef3462bd823baaa30"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Lower.Cover",
+          "Front.Leg.Lower.Cover"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_redmage",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-redmage/coqfight-v1-33a07c73f22ce1e8f612"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_redplumage",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-redplumage/coqfight-v1-16cba6cb3bf03f0d5534",
+          "chikn-traits/coqfight-v1/chikn-redplumage/coqfight-v1-7268749399d6f4bd6f2f"
+        ],
+        "occupiedSlots": [
+          "Torso.TailConnector",
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_redvans",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-redvans/coqfight-v1-07acd99c586869ebeef9",
+          "chikn-traits/coqfight-v1/chikn-redvans/coqfight-v1-3ed30e78b7dea6832d1f"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_rollerderby",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-rollerderby/coqfight-v1-b3cfd1009dd1e198bfc4",
+          "chikn-traits/coqfight-v1/chikn-rollerderby/coqfight-v1-87aec90ef2d9ba427be2"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_roocketlauncher",
+        "assetIds": [
+          "chikn-traits/base/shared/coqfight-v1-ca3122535b6384d013c6"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_roostbixcube",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-roostbixcube/coqfight-v1-920cef59541309531360"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_roostrifle",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-roostrifle/coqfight-v1-d559eab79d874ff857ff"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_roostrrocket",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-roostrrocket/coqfight-v1-88b903fea21e9ec6f876"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_roostrrosary",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-roostrrosary/coqfight-v1-0f778b1a9b6d736618f7",
+          "chikn-traits/coqfight-v1/chikn-roostrrosary/coqfight-v1-195da210aa6edf4682dc"
+        ],
+        "occupiedSlots": [
+          "Neck.Back",
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_saint",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-saint/coqfight-v1-2bc0b97861f65dbe2993"
+        ],
+        "occupiedSlots": [
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_satoshishield",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-satoshishield/coqfight-v1-de385a3b4eac87444d98"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_savagebeast",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-savagebeast/coqfight-v1-1b2d3f8521b027a2c8ce"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_secondhead",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-secondhead/coqfight-v1-641eed3df55a14f0206e"
+        ],
+        "occupiedSlots": [
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_smokinglounge",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-smokinglounge/coqfight-v1-2f9696a937bdb108438e"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_spellwand",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-spellwand/coqfight-v1-f05af97772c9c1a82dce"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_spinaltapper",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-spinaltapper/coqfight-v1-6d1b90e66d44a8b36c4a"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_spiritofliberty",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-spiritofliberty/coqfight-v1-1e67a0bbae907d7a9482"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_spraypaint",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-spraypaint/coqfight-v1-17aa602444522cb8df5c"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_streamerbandana",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-streamerbandana/coqfight-v1-c88a45f1f465c07a16eb"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_sucker",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-sucker/coqfight-v1-cd017d7cec1c2f391b31"
+        ],
+        "occupiedSlots": [
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_summerdays",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-summerdays/coqfight-v1-c7b7a059cfe6f7f75582"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_supersaiyan",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-supersaiyan/coqfight-v1-dd65f681865045814933"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_swashbucklers",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-swashbucklers/coqfight-v1-17d5292d7263efcc4f1c",
+          "chikn-traits/coqfight-v1/chikn-swashbucklers/coqfight-v1-1297ecd99e399168b11f"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Lower.Cover",
+          "Front.Leg.Lower.Cover"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_swordofcoqthulhu",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-swordofcoqthulhu/coqfight-v1-1402bb8f6454faa498b4"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_topofthemorning",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-topofthemorning/coqfight-v1-52cf2922350534314028"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_tungstencube",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-tungstencube/coqfight-v1-7839e8353e630cf87395"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_uniquehorn",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-uniquehorn/coqfight-v1-424f00ad0971396edd52"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_veryfreshegg",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-veryfreshegg/coqfight-v1-143b0b978cbd5dbf7ac1"
+        ],
+        "occupiedSlots": [
+          "Tail.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/chikn_wageslave",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-wageslave/coqfight-v1-5c0b670ea0ffaec203ef"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/Crusader",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-crusader/coqfight-v1-7c1e6a27dd0ab75ba9a3"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/EthereumGweiGuzzler",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-ethereumguzzler/coqfight-v1-7d0131b272921f52737e"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/GentlemansPipe",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-gentleman-spipe/coqfight-v1-755c446d691ce8974bf3"
+        ],
+        "occupiedSlots": [
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/MidasMucles",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-2351481e3d5d959a4483",
+          "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-d0e01ce20b4cd7cafa32"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/PurpleBoots",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-purpleleatherboots/coqfight-v1-80b751061864986468d0",
+          "chikn-traits/coqfight-v1/chikn-purpleleatherboots/coqfight-v1-c23cda26bb3241a7a2bd"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Lower.Cover",
+          "Front.Leg.Lower.Cover"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "chikn",
+        "traitSkinId": "trait/RedBoots",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-redleatherboots/coqfight-v1-98233dfba5b95c8d6cf1",
+          "chikn-traits/coqfight-v1/chikn-redleatherboots/coqfight-v1-6f9ef3462bd823baaa30"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Lower.Cover",
+          "Front.Leg.Lower.Cover"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/BigMamFatPipes",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/bigmamfatpipes/coqfight-v1-f13f9afa8c2294e54b47"
+        ],
+        "occupiedSlots": [
+          "Torso.Pipes.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/BlueMage",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/bluemage/coqfight-v1-27d86e3117864e87c115"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/CheekyReadhead",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/cheekyreadhead/coqfight-v1-4eb0bba40361779717e2",
+          "chikn-traits/coqfight-v1/cheekyreadhead/coqfight-v1-a07202623be4f1c09f26"
+        ],
+        "occupiedSlots": [
+          "Head.Back",
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/Crusader",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-crusader/coqfight-v1-7c1e6a27dd0ab75ba9a3"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/EthereumGweiGuzzler",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-ethereumguzzler/coqfight-v1-7d0131b272921f52737e"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/GentlemansPipe",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-gentleman-spipe/coqfight-v1-755c446d691ce8974bf3"
+        ],
+        "occupiedSlots": [
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/MidasMucles",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-2351481e3d5d959a4483",
+          "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-d0e01ce20b4cd7cafa32"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/PurpleBoots",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-purpleleatherboots/coqfight-v1-80b751061864986468d0",
+          "chikn-traits/coqfight-v1/chikn-purpleleatherboots/coqfight-v1-c23cda26bb3241a7a2bd"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Lower.Cover",
+          "Front.Leg.Lower.Cover"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/RedBoots",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-redleatherboots/coqfight-v1-98233dfba5b95c8d6cf1",
+          "chikn-traits/coqfight-v1/chikn-redleatherboots/coqfight-v1-6f9ef3462bd823baaa30"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Lower.Cover",
+          "Front.Leg.Lower.Cover"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_3dglasses",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-3dglasses/coqfight-v1-7354505f5fe74e2c3259"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_airjordans",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-airjordans/coqfight-v1-9996b2b7f1849713e793",
+          "roostr-traits/coqfight-v1/roostr-airjordans/coqfight-v1-374d58f38f1119e00aa6"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_armourleggold",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-armourleggold/coqfight-v1-14993aafe21f26510823",
+          "roostr-traits/coqfight-v1/roostr-armourleggold/coqfight-v1-09ec53e8780fb90c6512"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Lower.Cover",
+          "Front.Leg.Lower.Cover"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_armourlegnormal",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-armourlegnormal/coqfight-v1-3cb8bb1c13aa669b6b84",
+          "roostr-traits/coqfight-v1/roostr-armourlegnormal/coqfight-v1-e073dc1847ac8a38ecc2"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Lower.Cover",
+          "Front.Leg.Lower.Cover"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_armourshouldergold",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-armourshouldergold/coqfight-v1-64495f76306b3a272d8a",
+          "roostr-traits/coqfight-v1/roostr-armourshouldergold/coqfight-v1-6d206d66a8c7ac73dfb1"
+        ],
+        "occupiedSlots": [
+          "Neck.Back",
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_armourshouldermetal",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-armourshouldermetal/coqfight-v1-d3ea11d21c9d5c19d3a3",
+          "roostr-traits/coqfight-v1/roostr-armourshouldermetal/coqfight-v1-319911dc61fbe69b0876"
+        ],
+        "occupiedSlots": [
+          "Neck.Back",
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_avaxdegen",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-avaxdegen/coqfight-v1-f73d1caec389f42e7ee2"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_baguette",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-afreshbaguette/coqfight-v1-481176b3929ac1174721"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_ballnchain",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-ballnchain/coqfight-v1-a53e9cb9352013f15b50"
+        ],
+        "occupiedSlots": [
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_baseballbat",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-baseballbat/coqfight-v1-99a4bbca629283693d4a"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_baseballhelmet",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-baseballhelmet/coqfight-v1-bd06e7b7fe8abca5ac06"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_basketball",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-basketball/coqfight-v1-80367776018dba9a0c70"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bathrobe",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-bathrobe/coqfight-v1-c503263a2eef993d0dc8",
+          "roostr-traits/coqfight-v1/roostr-bathrobe/coqfight-v1-22396d8b54a613884418",
+          "roostr-traits/coqfight-v1/roostr-bathrobe/coqfight-v1-dbc6c862d10a9a264f28",
+          "roostr-traits/coqfight-v1/roostr-bathrobe/coqfight-v1-338f1953e86f2f87bec5"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front",
+          "Neck.Shirt",
+          "Torso.Back",
+          "Torso.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_battlebeakmask",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-battlebeakmask/coqfight-v1-e1bb03107d913948d999"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bdayhat",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-bdayhat/coqfight-v1-b9d0d593fddc23b6b2a2"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_beaker",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-beaker/coqfight-v1-d14fff2690486afec8fe"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_beanie",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-beanie/coqfight-v1-a5f99557f2fa54775b97"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_beard",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hairyoldman/coqfight-v1-3c7c777d09b54d49daf6"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_beret",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-beret/coqfight-v1-3c59278c849662a4483b"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bigheadmode",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bigheadmode/coqfight-v1-641cddeb90ef2ccbc301"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bigmamafatpipes",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/bigmamfatpipes/coqfight-v1-f13f9afa8c2294e54b47",
+          "chikn-traits/coqfight-v1/chikn-bigmamafatpipes/coqfight-v1-b01c6d421f541d3734b9"
+        ],
+        "occupiedSlots": [
+          "Torso.Pipes.Front",
+          "Torso.Pipes.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bigolcorncob",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bigolcorncob/coqfight-v1-4fdb3bc15110e02339df"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bigstick",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-bigstick/coqfight-v1-6254b7a23da016968873"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bitcoinmaxi",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bitcoinmaxi/coqfight-v1-f04a302e8b68fbc311f5"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_blockchainbashers",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-blockchainbashers/coqfight-v1-d624a1a0477ca018b5d3",
+          "chikn-traits/coqfight-v1/chikn-blockchainbashers/coqfight-v1-a2a519f638c280d276ae"
+        ],
+        "occupiedSlots": [
+          "Back.Forehand.Front",
+          "Front.Forehand.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bluetimbs",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-bluetimbs/coqfight-v1-afc35ce3d48b0e99e1ae",
+          "roostr-traits/coqfight-v1/roostr-bluetimbs/coqfight-v1-f4148b3acb89ef8a8c1b"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bokchain",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-bokchain/coqfight-v1-506144a2bde8944d337a"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bone",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-bone/coqfight-v1-1a20d4b77bd6a6f97a62"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bonedaddyrattler",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-bonedaddyrattler/coqfight-v1-2fa7e0ed9d384f5103d4"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bonenecklace",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-bonenecklace/coqfight-v1-440452517b334dd641b3"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_boxhead",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-boxhead/coqfight-v1-42ec5a565166947090d8",
+          "roostr-traits/coqfight-v1/roostr-boxhead/coqfight-v1-47aaf14365e3a9c7a3ca"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top",
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_breastplategold",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-breastplategold/coqfight-v1-4c34f342c8960d0ec522",
+          "roostr-traits/coqfight-v1/roostr-breastplategold/coqfight-v1-6f0ad49a6fe4418f6d14",
+          "roostr-traits/coqfight-v1/roostr-breastplategold/coqfight-v1-2915ddedcd9e4c43a669"
+        ],
+        "occupiedSlots": [
+          "Torso.Front",
+          "Front.Wing.Front",
+          "Neck.Shirt"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_breastplatenormal",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-breastplatenormal/coqfight-v1-739d414d213610e54984",
+          "roostr-traits/coqfight-v1/roostr-breastplatenormal/coqfight-v1-7843330a08ada96d7afb",
+          "roostr-traits/coqfight-v1/roostr-breastplatenormal/coqfight-v1-7008c87992297818ce07"
+        ],
+        "occupiedSlots": [
+          "Torso.Front",
+          "Front.Wing.Front",
+          "Neck.Shirt"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_brick",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-brick/coqfight-v1-ffe01ddb621948068ae3"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bucket",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-bucket/coqfight-v1-12622554af26fc2db0ce",
+          "roostr-traits/coqfight-v1/roostr-bucket/coqfight-v1-dc8abff354dc18532b19"
+        ],
+        "occupiedSlots": [
+          "Head.Back",
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_buckethat",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-buckethat/coqfight-v1-5942fa592c897b2e3a86",
+          "roostr-traits/coqfight-v1/roostr-buckethat/coqfight-v1-42238a0d462ee0711087"
+        ],
+        "occupiedSlots": [
+          "Head.Special",
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bulletbandolier",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-bulletbandolier/coqfight-v1-bf70ebedcedd9e6c006c"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_bullhorn",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-bullhorn/coqfight-v1-2da93e30a1977764b5a6",
+          "roostr-traits/coqfight-v1/roostr-bullhorn/coqfight-v1-e9996b43ab19a3ab1be9"
+        ],
+        "occupiedSlots": [
+          "Head.Front",
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_burger",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-burger/coqfight-v1-825d67be0e3611f2b485"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_cap",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-cap/coqfight-v1-7cbc2d6566249fa15926"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_ccbanjo",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-ccbanjo/coqfight-v1-3771f287238af1e3b3a3"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_ccboombox",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-ccboombox/coqfight-v1-8e6d070f92346dadb8ae"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_ccchickmagnet",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-ccchickmagnet/coqfight-v1-ebb5f0805f4d6f5cc638"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_ccchiknjockey",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-ccchiknjockey/coqfight-v1-ba3a3a588926536512d7"
+        ],
+        "occupiedSlots": [
+          "Torso.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_cccoqmaxi",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-cccoqmaxi/coqfight-v1-992583a7ad0ef501fc3a"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_cchawaii",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-cchawaii/coqfight-v1-67b25e051f975868af45",
+          "roostr-traits/coqfight-v1/roostr-cchawaii/coqfight-v1-ba326baa623e3d14cdff",
+          "roostr-traits/coqfight-v1/roostr-cchawaii/coqfight-v1-bc07b05cbf03ec6096d6",
+          "roostr-traits/coqfight-v1/roostr-cchawaii/coqfight-v1-95f7efe2af4da16c9fc5"
+        ],
+        "occupiedSlots": [
+          "Torso.Front",
+          "Torso.Back",
+          "Front.Wing.Front",
+          "Neck.Shirt"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_cchoverboard",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-cchoverboard/coqfight-v1-bf5cafd02fa1133f2a27"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_ccironclaw",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-ccironclaw/coqfight-v1-0490176a39476de9a723"
+        ],
+        "occupiedSlots": [
+          "Front.Leg.Lower.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_cclei",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-cclei/coqfight-v1-0491c93372d78efab428"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_ccpeacock",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-ccpeacock/coqfight-v1-8825b2ba7571f852a0a2"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_ccplaguedoctor",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-ccplaguedoctor/coqfight-v1-b3d260d2fe4e39e6bd4c"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_ccsombrero",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-ccsombrero/coqfight-v1-0944d75a2a6cfc66f00a"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_ccspurs",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-ccspurs/coqfight-v1-b34c45fb5ef192638bdd",
+          "roostr-traits/coqfight-v1/roostr-ccspurs/coqfight-v1-bc72fee54c43e63bdc54"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Lower.Front",
+          "Front.Leg.Lower.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_ccswordtail",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-ccswordtail/coqfight-v1-eab1d108b0aa003d3a48"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_cctinfoil",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-cctinfoil/coqfight-v1-d411f97aff947caf99d8"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_cd",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-cd/coqfight-v1-02519f79681d2fce2af2"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_chefhat",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-chefhat/coqfight-v1-68b5e9f06736bd7c0a3a"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_chiknatorshades",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-chiknatorshades/coqfight-v1-729a7e2d1a2160029224"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_chiknslayerhelmet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-chiknslayerhelmet/coqfight-v1-8de36070dcbc57e09403"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_chiknsouppot",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-chiknsouppot/coqfight-v1-cf27694ec1bc1c034536"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_cigar",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-cigar/coqfight-v1-e7c2912896ca4a1a8fea"
+        ],
+        "occupiedSlots": [
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_combcolourcelestial",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-combcolourcelestial/coqfight-v1-01861ae8edcb2be07a77"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_combcolourgolden",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-combcolourgolden/coqfight-v1-0b51753512046b18c24c"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_combcolourgreen",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-combcolourgreen/coqfight-v1-c837549119969d2b6777"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_combcolourpurple",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-combcolourpurple/coqfight-v1-279dc39869f24e0c053b"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_constructionhelmet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-constructionhelmet/coqfight-v1-928c56bba78d99ab752c"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_coqachutail",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-coqachutail/coqfight-v1-10d7bda88dc4dad22913"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_cowboy",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-cowboy/coqfight-v1-a715d551c96e8843f81b",
+          "roostr-traits/coqfight-v1/roostr-cowboy/coqfight-v1-404aed2f80a01fc4f22b"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Lower.Cover",
+          "Front.Leg.Lower.Cover"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_cowboyhat",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-cowboyhat/coqfight-v1-047d9b7a368c3e8c3aff"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_crabclaws",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-crabclaws/coqfight-v1-0ea4a9eb4e097e438ccd",
+          "roostr-traits/coqfight-v1/roostr-crabclaws/coqfight-v1-e769a5b22686e29b2be3"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_crabclawsback",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-crabclaws/coqfight-v1-0ea4a9eb4e097e438ccd",
+          "roostr-traits/coqfight-v1/roostr-crabclaws/coqfight-v1-e769a5b22686e29b2be3"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_crocs",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-crocs/coqfight-v1-97e234930e4dc0bcf7f7",
+          "roostr-traits/coqfight-v1/roostr-crocs/coqfight-v1-dfa04bed0fb6709e1063"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_crtmonitor",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-crtmonitor/coqfight-v1-b13f550de87f55b0e20e"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_cryptocrashhelmet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-cryptocrashhelmet/coqfight-v1-b53a5a8f9a4b48e836b8"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_diamondfeet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-diamondfeet/coqfight-v1-1e192591477ad12087b6",
+          "chikn-traits/coqfight-v1/chikn-diamondfeet/coqfight-v1-e580152d5f65b29b3606"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Back.Leg.Lower.Front",
+          "Front.Leg.Foot.Front",
+          "Front.Leg.Lower.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_dogtags",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-dogtags/coqfight-v1-b0c6b6401b4c44eba29d"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_drumsticksclub",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-drumsticksclub/coqfight-v1-bd56b4eed292a522e921"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_duck",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-duck/coqfight-v1-336c843cdc38f5038856"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_dumbell",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-dumbell/coqfight-v1-d092428372badec7be5f"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_eggstraterrestrial",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-eggstraterrestrial/coqfight-v1-d79cdfe9475c1c70e16e"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_elvis",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-elvis/coqfight-v1-e76c98c4f7f4b316afbe"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_ethereumguzzler",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-ethereumguzzler/coqfight-v1-7d0131b272921f52737e"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_fancysword",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-fancysword/coqfight-v1-3734421dabb295179d68"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_featherflamethrower",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-featherflamethrower/coqfight-v1-0b6a1515349b6e017cc6"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_fedoraofknowledge",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-fedoraofknowledge/coqfight-v1-dad25e4129637556b27c"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_feetcelestial",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-feetcelestial/coqfight-v1-0fca1e0345792a28d725",
+          "roostr-traits/coqfight-v1/roostr-feetcelestial/coqfight-v1-b8b1412e7d3f6d8a9b08",
+          "roostr-traits/coqfight-v1/roostr-feetcelestial/coqfight-v1-06c490ae2c4e755e17af",
+          "roostr-traits/coqfight-v1/roostr-feetcelestial/coqfight-v1-53141b3637746adf5d75"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Back.Leg.Lower.Front",
+          "Front.Leg.Foot.Front",
+          "Front.Leg.Lower.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_feetgolden",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-feetgolden/coqfight-v1-04bd407385c71901b6a0",
+          "roostr-traits/coqfight-v1/roostr-feetgolden/coqfight-v1-5d72438176024a53601d",
+          "roostr-traits/coqfight-v1/roostr-feetgolden/coqfight-v1-c658e73fd7608fa93d2b",
+          "roostr-traits/coqfight-v1/roostr-feetgolden/coqfight-v1-1b4b21c164f4f4f7a0a6"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Back.Leg.Lower.Front",
+          "Front.Leg.Foot.Front",
+          "Front.Leg.Lower.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_feetgreen",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-greenfeet/coqfight-v1-c323ad0eed6a47af1f6d",
+          "chikn-traits/coqfight-v1/chikn-greenfeet/coqfight-v1-7b7d1bd1731f3c0976fb"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Back.Leg.Lower.Front",
+          "Front.Leg.Foot.Front",
+          "Front.Leg.Lower.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_feetred",
+        "assetIds": [
+          "chikn-traits/base/kernel/coqfight-v1-f03e4b871f232a13a81d",
+          "chikn-traits/base/kernel/coqfight-v1-3393e97e7818217f0dd6"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Back.Leg.Lower.Front",
+          "Front.Leg.Foot.Front",
+          "Front.Leg.Lower.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_fez",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-fez/coqfight-v1-cc571279bf30ef83728f"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_fish",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-freshfish/coqfight-v1-9ebf8b9f9a9142344e4c"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_fishgold",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-fishgold/coqfight-v1-8bfb40af553baf53ba57"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_flamingtorch",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-flamingtorch/coqfight-v1-9e551a046ae352e7bb2b"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_floppydisk",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-floppydisk/coqfight-v1-ab52910e64dc00080e2a"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_flowercrown",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-flowercrown/coqfight-v1-591781ed1f74021206cf"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_footballhelmet",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-footballhelmet/coqfight-v1-f7154f06f46ebf903ff6"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_formalvest",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-formalvest/coqfight-v1-a25eb9b7279f3f0de1d7",
+          "roostr-traits/coqfight-v1/roostr-formalvest/coqfight-v1-20278d7a5e6db5a41d65",
+          "roostr-traits/coqfight-v1/roostr-formalvest/coqfight-v1-03c4a122ee9dc7036e73"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front",
+          "Neck.Shirt",
+          "Torso.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_fryingpan",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-fryingpan/coqfight-v1-0bd342f1eadc1b88bc26"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_fud-proofhelmet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-fud-proofhelmet/coqfight-v1-3ba6eed5f46acd55d2dc"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_fuzzyhat",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-fuzzyhat/coqfight-v1-3bb755d6ceb8ecbd9929",
+          "roostr-traits/coqfight-v1/roostr-fuzzyhat/coqfight-v1-8d921f5e47f43cb8ffc9"
+        ],
+        "occupiedSlots": [
+          "Head.Back",
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_gameboy",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-gameboy/coqfight-v1-5148c685e34f64862bde"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_gasguzzler",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-gasguzzler/coqfight-v1-2c3ff0e50c2b06f5e5a7",
+          "roostr-traits/coqfight-v1/roostr-gasguzzler/coqfight-v1-10b547b22c06bdc42e93"
+        ],
+        "occupiedSlots": [
+          "Torso.Pipes.Front",
+          "Torso.Pipes.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_gasmask",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-gasmask/coqfight-v1-bdf17f00cfb2da753d70"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_gentlechikn",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-gentlechikn/coqfight-v1-dd2163a69724ed2007ee"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_gentleman'spipe",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-gentleman-spipe/coqfight-v1-755c446d691ce8974bf3"
+        ],
+        "occupiedSlots": [
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_glasses",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-glasses/coqfight-v1-c71188db3eb59bd6d06b"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_goldenbonedaddy",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-goldenbonedaddy/coqfight-v1-2fe8eaf03fe340d69437"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_golfball",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-golfball/coqfight-v1-acf7531ddce8967ef019"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_golfclub",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-golfclub/coqfight-v1-dc03aef0ebdd000cdf7c"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_grandpa",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-grandpa/coqfight-v1-7d49a59224fed7d0d227"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_greenpartyhat",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-greenpartyhat/coqfight-v1-b9d16d041612ec312a8a",
+          "roostr-traits/coqfight-v1/roostr-greenpartyhat/coqfight-v1-08640fdc2e877b3c2a2d"
+        ],
+        "occupiedSlots": [
+          "Head.Back",
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_guitar",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-guitar/coqfight-v1-d74a164b2154ed17cec8"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_hammernormal",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-hammernormal/coqfight-v1-01ebf410e544cc0bdc5f"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_hammerred",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-hammerred/coqfight-v1-0f9c3d66a42ea96a3a57"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_heartballoon",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-heartballoon/coqfight-v1-77cb83e75de5fa0ac10b"
+        ],
+        "occupiedSlots": [
+          "Torso.BackFloat"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_helmet(chromedome)",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-helmet-chromedome/coqfight-v1-63c69fc3d07c1d025347"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_highheelsblack",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-highheelsblack/coqfight-v1-2451337ac8c41b57ef32",
+          "roostr-traits/coqfight-v1/roostr-highheelsblack/coqfight-v1-69406dea08405eaf6f2a"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Special",
+          "Front.Leg.Foot.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_highheelsred",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-highheelsred/coqfight-v1-96d101c768b0ee3a0f8b",
+          "roostr-traits/coqfight-v1/roostr-highheelsred/coqfight-v1-6173aebb790bc1e93885"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Special",
+          "Front.Leg.Foot.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_hipster",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-hipster/coqfight-v1-4f6b68a6fedeae3181c2"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_hodlhammer",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hodlhammer/coqfight-v1-72344a9a78d8fac46d10"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_hotdoghelmet",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hotdoghelmet/coqfight-v1-57b322972a5ee3c91ded",
+          "chikn-traits/coqfight-v1/chikn-hotdoghelmet/coqfight-v1-58c222313d5700c28c6d"
+        ],
+        "occupiedSlots": [
+          "Head.Special",
+          "Head.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_hotdogneck",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-hotdogneck/coqfight-v1-fd8df9b8571d9d244128"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_hotdogtail",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-hotdogtail/coqfight-v1-62c881bda255d671e555"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_humangrowthhormones",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-humangrowthhormones/coqfight-v1-6626f4bd8fdfebcabe52",
+          "chikn-traits/coqfight-v1/chikn-humangrowthhormones/coqfight-v1-1a95114ec149d4ec6467"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_humangrowthhormonesback",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-humangrowthhormones/coqfight-v1-6626f4bd8fdfebcabe52",
+          "chikn-traits/coqfight-v1/chikn-humangrowthhormones/coqfight-v1-1a95114ec149d4ec6467"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_hydra",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-hydra/coqfight-v1-32611dce455c35dfd1af"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_inheritedroyalty",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-inheritedroyalty/coqfight-v1-a21d5b0b52c12efe7a75"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_jello",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-jello/coqfight-v1-e3b40f26ce30d1283daa"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_katana",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-katana/coqfight-v1-2bf0b493ce281ba7657a"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_kevlar",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-kevlar/coqfight-v1-1591728ae0320571fe53",
+          "roostr-traits/coqfight-v1/roostr-kevlar/coqfight-v1-aaf5c62d2de1396797ea",
+          "roostr-traits/coqfight-v1/roostr-kevlar/coqfight-v1-ab010171a0aa664aac85"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front",
+          "Neck.Shirt",
+          "Torso.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_key",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-key/coqfight-v1-e75bf6d60a2607ba694d"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_kfckicks",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-kfckicks/coqfight-v1-df74f97c756eeae735db"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_knighthelmetgold",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-knighthelmetgold/coqfight-v1-60845a01ec4d64346520"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_knighthelmetmetal",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-knighthelmetmetal/coqfight-v1-99defb22ec3769af324c"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_labcoat",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-labcoat/coqfight-v1-0a84ecea164d87844238",
+          "roostr-traits/coqfight-v1/roostr-labcoat/coqfight-v1-f445911a1384796964ce",
+          "roostr-traits/coqfight-v1/roostr-labcoat/coqfight-v1-09c1c86eb996ac56ea05",
+          "roostr-traits/coqfight-v1/roostr-labcoat/coqfight-v1-1b26a3f0c4cbfc3fa3d9"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front",
+          "Neck.Shirt",
+          "Torso.Back",
+          "Torso.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_lasereye",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-lasereye/coqfight-v1-4f30f7b5195d2d9cfc41"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_leaves",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-leaves/coqfight-v1-bb96649fdec534cd937f"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_lifering",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-lifering/coqfight-v1-9cedbc0b92dd0341d21c"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_lighter",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-lighter/coqfight-v1-40ab17eee7355e928f89"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_mecha-wing",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-mecha-wing/coqfight-v1-a28f11b0a609c786a613",
+          "chikn-traits/coqfight-v1/chikn-mecha-wing/coqfight-v1-4ee5f6dbaab9767e083c"
+        ],
+        "occupiedSlots": [
+          "Back.Forehand.Front",
+          "Front.Forehand.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_mememask",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-mememask/coqfight-v1-2e1c4849f1f4a19e5a22"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_memetail",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-memetail/coqfight-v1-6896fd14ecaf4dde7e0d"
+        ],
+        "occupiedSlots": [
+          "Tail.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_mfd",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-mfd/coqfight-v1-ec83cd7ab6260e24cc46"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_midasmuscles",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-2351481e3d5d959a4483",
+          "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-d0e01ce20b4cd7cafa32"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_midasmusclesback",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-2351481e3d5d959a4483",
+          "chikn-traits/coqfight-v1/chikn-midasmuscles/coqfight-v1-d0e01ce20b4cd7cafa32"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_moonmedallion",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-moonmedallion/coqfight-v1-ef54faad991cd1dd3099"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_mughead",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-mughead/coqfight-v1-689d3ba9d2090414a740"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_mullet",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-mullet/coqfight-v1-e712f360228cd109e711"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_necklaceclock",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-necklaceclock/coqfight-v1-fcd67ddff2da2d53bb48"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_necklacestop",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-necklacestop/coqfight-v1-9da2889352cfd8b166f2"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_necklacewishbone",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-necklacewishbone/coqfight-v1-a852ca16ab64418bf7be"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_nonfungibubble",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-nonfungibubble/coqfight-v1-07b2ea0eb4bfb38cbd36"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_peckachuvisor",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-peckachuvisor/coqfight-v1-d64022f0fb67b5dd6a98"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_peckax",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-peckax/coqfight-v1-c94403c6d66c7697d9b9"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_pilothat",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-pilothat/coqfight-v1-3d986f16cf3a2434223e"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_pixelsword",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-pixelsword/coqfight-v1-7f121b33506a1aa3c301"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_pixeltail",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-pixeltail/coqfight-v1-c4b8ba160f336d19e038"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_plane",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-plane/coqfight-v1-64db3391434919305e2c"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_plumetoniumknuckles",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-plumetoniumknuckles/coqfight-v1-c9ea935a209732bb9b94",
+          "chikn-traits/coqfight-v1/chikn-plumetoniumknuckles/coqfight-v1-ebdeb743fceb894c9876"
+        ],
+        "occupiedSlots": [
+          "Back.Forehand.Front",
+          "Front.Forehand.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_pointnshoot",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-pointnshoot/coqfight-v1-957d09a859efb87a257c"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_poker",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-poker/coqfight-v1-20b70cace5db205df3d0"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_poultrypaddle",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-poultrypaddle/coqfight-v1-75872619bbe3f4f42a21"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_poultrypumps",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-poultrypumps/coqfight-v1-bd5fa1e87ae46498c878"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_prawn",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-prawn/coqfight-v1-f19bbf125aa374c6d4a0"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_punkhair",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-punkhair/coqfight-v1-0f2dce85debdce904118"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_purplebowtie",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-purplebowtie/coqfight-v1-0279fc92bce9170a1645"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_pyramidplumage",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-pyramidplumage/coqfight-v1-20344533a387ab3b5f62"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_raptortalons",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-raptortalons/coqfight-v1-0579ae604488bba5c4d2"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Special",
+          "Front.Leg.Foot.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_redbowtie",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-redbowtie/coqfight-v1-9a50d8133709c2d4a669"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_ribbon",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-ribbon/coqfight-v1-757d1b6241ee7a249225"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_robot",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-robot/coqfight-v1-8b47fd512cd858ecb085"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_roocketlauncher",
+        "assetIds": [
+          "chikn-traits/base/shared/coqfight-v1-ca3122535b6384d013c6"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_roostbixcube",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-roostbixcube/coqfight-v1-920cef59541309531360"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_roostrifle",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-roostrifle/coqfight-v1-d559eab79d874ff857ff"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_roostrrocket",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-roostrrocket/coqfight-v1-88b903fea21e9ec6f876"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_roostrrosary",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-roostrrosary/coqfight-v1-0f778b1a9b6d736618f7",
+          "chikn-traits/coqfight-v1/chikn-roostrrosary/coqfight-v1-195da210aa6edf4682dc"
+        ],
+        "occupiedSlots": [
+          "Neck.Back",
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_rosebud",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-rosebud/coqfight-v1-a3c6053406b851ed6961",
+          "roostr-traits/coqfight-v1/roostr-rosebud/coqfight-v1-b4b84b94e9505b9a47c5"
+        ],
+        "occupiedSlots": [
+          "Head.Back",
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_rubberchikn",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-rubberchikn/coqfight-v1-a58abf671a760fd7780e"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_rug",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-rug/coqfight-v1-2c97f713d8393cda3078"
+        ],
+        "occupiedSlots": [
+          "GroundTrait"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_sack",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-sack/coqfight-v1-3e1a23499a871f6ff31b"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_saddle",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-saddle/coqfight-v1-f6df6f06dadfa010f02f"
+        ],
+        "occupiedSlots": [
+          "Torso.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_samurai",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-samurai/coqfight-v1-8b04db92cdc9e4f0cbca",
+          "roostr-traits/coqfight-v1/roostr-samurai/coqfight-v1-62f8d7de13eceeb851f7"
+        ],
+        "occupiedSlots": [
+          "Head.Back",
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_sash",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-sash/coqfight-v1-4fe9a8736e88b93d75e4"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_satoshishield",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-satoshishield/coqfight-v1-de385a3b4eac87444d98"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_scarf",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-scarf/coqfight-v1-24de84ecd26c51695ee7",
+          "roostr-traits/coqfight-v1/roostr-scarf/coqfight-v1-21f1bb127bab22059af0"
+        ],
+        "occupiedSlots": [
+          "Neck.Front",
+          "Neck.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_scorpion",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-scorpion/coqfight-v1-17c5b13c0019ce4583c0"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_scorpionsnippers",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-scorpionsnippers/coqfight-v1-d345abb3ab0cdec8939c",
+          "roostr-traits/coqfight-v1/roostr-scorpionsnippers/coqfight-v1-bf58fb7011eecf59c2b2"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_scorpionsnippersback",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-scorpionsnippers/coqfight-v1-d345abb3ab0cdec8939c",
+          "roostr-traits/coqfight-v1/roostr-scorpionsnippers/coqfight-v1-bf58fb7011eecf59c2b2"
+        ],
+        "occupiedSlots": [
+          "Back.Wing.Back",
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_shield",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-shield/coqfight-v1-60386d0da5b101ba04b5"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_shovel",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-shovel/coqfight-v1-9d3fe3ef8ae7204bbc87"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_smokestack",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-smokestack/coqfight-v1-68fb5e91c6f9116f1d32"
+        ],
+        "occupiedSlots": [
+          "Torso.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_smolbrain",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-smolbrain/coqfight-v1-f037dc2e5b9d436d88ba"
+        ],
+        "occupiedSlots": [
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_sneakers",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-sneakers/coqfight-v1-a4ad1648971702460402",
+          "roostr-traits/coqfight-v1/roostr-sneakers/coqfight-v1-17b8fa6a0c368f6aa0ac"
+        ],
+        "occupiedSlots": [
+          "Back.Leg.Foot.Front",
+          "Front.Leg.Foot.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_snorkel",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-snorkel/coqfight-v1-be3a8277cc1089b68eed"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_soccerball",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-soccerball/coqfight-v1-d192a7cdb381f41176b6"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_solar",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-solar/coqfight-v1-318d6ceb10ee58e5d785"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_spinaltapper",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-spinaltapper/coqfight-v1-6d1b90e66d44a8b36c4a"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_spiritofliberty",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-spiritofliberty/coqfight-v1-1e67a0bbae907d7a9482"
+        ],
+        "occupiedSlots": [
+          "Head.Special"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_spork",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-spork/coqfight-v1-b17a05d487e508d4c76e"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_spraypaint",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-spraypaint/coqfight-v1-17aa602444522cb8df5c"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_starfish",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-starfish/coqfight-v1-5d7c9cfcaba0441c7cf2"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_stethoscope",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-stethoscope/coqfight-v1-2180d5a72a9f5fe4482f"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_streamerbandana",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-streamerbandana/coqfight-v1-c88a45f1f465c07a16eb"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_sunglasses_01",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-sunglasses-01/coqfight-v1-3c804d7cfa2c5827392e"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_sword",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-sword/coqfight-v1-c01b0d53a2d28101da27"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_swordofcoqthulhu",
+        "assetIds": [
+          "chikn-traits/coqfight-v1/chikn-swordofcoqthulhu/coqfight-v1-1402bb8f6454faa498b4"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_toiletpaper",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-toiletpaper/coqfight-v1-a8dd768882213098120f",
+          "roostr-traits/coqfight-v1/roostr-toiletpaper/coqfight-v1-70110cf028af9e52f0cc"
+        ],
+        "occupiedSlots": [
+          "Head.Back",
+          "Head.Front.Top"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_traderjoe",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-traderjoe/coqfight-v1-126b6abc2c42ccd06a83"
+        ],
+        "occupiedSlots": [
+          "Neck.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_trumpet",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-trumpet/coqfight-v1-11c3ab8e28e9cdf7746c"
+        ],
+        "occupiedSlots": [
+          "Front.Forehand.Back"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_tshirtblack",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-tshirtblack/coqfight-v1-437edb8a2502ee6ec73c",
+          "roostr-traits/coqfight-v1/roostr-tshirtblack/coqfight-v1-5b83f256a2b3f53e39e6",
+          "roostr-traits/coqfight-v1/roostr-tshirtblack/coqfight-v1-c0ec29f57438a6a9196e"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front",
+          "Torso.Front",
+          "Neck.Shirt"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_tshirtred",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-tshirtred/coqfight-v1-d1c838458123ffc47051",
+          "roostr-traits/coqfight-v1/roostr-tshirtred/coqfight-v1-7cf063e8361f61e567fe",
+          "roostr-traits/coqfight-v1/roostr-tshirtred/coqfight-v1-eb0cb4e0270369b888cb"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front",
+          "Torso.Front",
+          "Neck.Shirt"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_tshirtwhite",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-tshirtwhite/coqfight-v1-04092b1d8fe4593e02cf",
+          "roostr-traits/coqfight-v1/roostr-tshirtwhite/coqfight-v1-4709e8fc730b8b90d8ca",
+          "roostr-traits/coqfight-v1/roostr-tshirtwhite/coqfight-v1-8e5d472f105e3e61d394"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front",
+          "Torso.Front",
+          "Neck.Shirt"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_tweed",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-tweed/coqfight-v1-235f876ad50305df180d",
+          "roostr-traits/coqfight-v1/roostr-tweed/coqfight-v1-d0437ef651bb70742ba0",
+          "roostr-traits/coqfight-v1/roostr-tweed/coqfight-v1-4328d1e3b9b88a76884c"
+        ],
+        "occupiedSlots": [
+          "Front.Wing.Front",
+          "Neck.Shirt",
+          "Torso.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_vr",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-vr/coqfight-v1-6d767e81e5ce42811725"
+        ],
+        "occupiedSlots": [
+          "Head.Front"
+        ],
+        "animationCount": 41
+      },
+      {
+        "species": "roostr",
+        "traitSkinId": "trait/roostr_whale",
+        "assetIds": [
+          "roostr-traits/coqfight-v1/roostr-whale/coqfight-v1-2490506526054248e4a5"
+        ],
+        "occupiedSlots": [
+          "Tail.Special"
+        ],
+        "animationCount": 41
+      }
+    ]
   },
   "traits": [
     {
@@ -67,7 +4713,10 @@
       "category": "Feet",
       "motionFamily": "footwear",
       "attachmentTargets": [
-        "Trait_Feet_BlueFeet_A"
+        "Trait_Feet_BlueFeet_A",
+        "Trait_Feet_BlueFeet_B",
+        "Trait_Feet_BlueFeet_Lower_A",
+        "Trait_Feet_BlueFeet_Lower_B"
       ],
       "supportedActions": [
         "punch",
@@ -95,7 +4744,8 @@
       },
       "kickPreset": "natural",
       "assetIds": [
-        "chikn-traits/feet/bluefeet-a"
+        "chikn-traits/feet/bluefeet-a",
+        "chikn-traits/feet/bluefeet-a-2"
       ],
       "alternateAssetIds": [
         "chikn-traits/feet/bluefeet-a-2"
@@ -109,7 +4759,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-chikn/Feet/BlueFeet A.png"
+        "sources/traits-chikn/Feet/BlueFeet A.png",
+        "sources/traits-chikn/Feet/BlueFeet A 2.png"
       ]
     },
     {
@@ -222,7 +4873,10 @@
       "category": "Feet",
       "motionFamily": "footwear",
       "attachmentTargets": [
-        "Trait_Feet_GreenFeet_A"
+        "Trait_Feet_GreenFeet_A",
+        "Trait_Feet_GreenFeet_B",
+        "Trait_Feet_GreenFeet_Lower_A",
+        "Trait_Feet_GreenFeet_Lower_B"
       ],
       "supportedActions": [
         "punch",
@@ -250,7 +4904,9 @@
       },
       "kickPreset": "natural",
       "assetIds": [
-        "chikn-traits/feet/greenfeet-a"
+        "chikn-traits/feet/greenfeet-a",
+        "chikn-traits/feet/greenfeet-a-2",
+        "chikn-traits/feet/greenfeet-b-2"
       ],
       "alternateAssetIds": [
         "chikn-traits/feet/greenfeet-a-2",
@@ -265,7 +4921,9 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-chikn/Feet/GreenFeet A.png"
+        "sources/traits-chikn/Feet/GreenFeet A.png",
+        "sources/traits-chikn/Feet/GreenFeet A 2.png",
+        "sources/traits-chikn/Feet/GreenFeet B 2.png"
       ]
     },
     {
@@ -326,7 +4984,10 @@
       "category": "Feet",
       "motionFamily": "footwear",
       "attachmentTargets": [
-        "Trait_Feet_PurpleFeet_A"
+        "Trait_Feet_PurpleFeet_A",
+        "Trait_Feet_PurpleFeet_B",
+        "Trait_Feet_PurpleFeet_Lower_A",
+        "Trait_Feet_PurpleFeet_Lower_B"
       ],
       "supportedActions": [
         "punch",
@@ -354,7 +5015,8 @@
       },
       "kickPreset": "natural",
       "assetIds": [
-        "chikn-traits/feet/purplefeet-a"
+        "chikn-traits/feet/purplefeet-a",
+        "chikn-traits/feet/purplefeet-a-2"
       ],
       "alternateAssetIds": [
         "chikn-traits/feet/purplefeet-a-2"
@@ -368,7 +5030,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-chikn/Feet/PurpleFeet A.png"
+        "sources/traits-chikn/Feet/PurpleFeet A.png",
+        "sources/traits-chikn/Feet/PurpleFeet A 2.png"
       ]
     },
     {
@@ -481,7 +5144,10 @@
       "category": "Feet",
       "motionFamily": "footwear",
       "attachmentTargets": [
-        "Trait_Feet_RedFeet_A"
+        "Trait_Feet_RedFeet_A",
+        "Trait_Feet_RedFeet_B",
+        "Trait_Feet_RedFeet_Lower_A",
+        "Trait_Feet_RedFeet_Lower_B"
       ],
       "supportedActions": [
         "punch",
@@ -509,7 +5175,8 @@
       },
       "kickPreset": "natural",
       "assetIds": [
-        "chikn-traits/feet/redfeet-a"
+        "chikn-traits/feet/redfeet-a",
+        "chikn-traits/feet/redfeet-a-2"
       ],
       "alternateAssetIds": [
         "chikn-traits/feet/redfeet-a-2"
@@ -523,7 +5190,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-chikn/Feet/RedFeet A.png"
+        "sources/traits-chikn/Feet/RedFeet A.png",
+        "sources/traits-chikn/Feet/RedFeet A 2.png"
       ]
     },
     {
@@ -1070,7 +5738,8 @@
       "motionFamily": "accent",
       "attachmentTargets": [
         "Trait_Head_CharcoalBrunette_A",
-        "Trait_Head_CharcoalBrunette_B"
+        "Trait_Head_CharcoalBrunette_B",
+        "Trait_Head_CharcoalBrunette_Bang"
       ],
       "supportedActions": [
         "punch",
@@ -1121,7 +5790,8 @@
       "motionFamily": "accent",
       "attachmentTargets": [
         "Trait_Head_CheekyRedhead_A",
-        "Trait_Head_CheekyRedhead_B"
+        "Trait_Head_CheekyRedhead_B",
+        "Trait_Head_CheekyRedhead_Bang"
       ],
       "supportedActions": [
         "punch",
@@ -1604,7 +6274,8 @@
       "motionFamily": "accent",
       "attachmentTargets": [
         "Trait_Head_GoldenBlonde_A",
-        "Trait_Head_GoldenBlonde_B"
+        "Trait_Head_GoldenBlonde_B",
+        "Trait_Head_GoldenBlonde_Bang"
       ],
       "supportedActions": [
         "punch",
@@ -9627,7 +14298,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_AvaxDegen"
+        "Trait_Neck_AvaxDegen",
+        "Trait_Neck_AvaxDegen_ChainLeft",
+        "Trait_Neck_AvaxDegen_ChainRight",
+        "Trait_Neck_AvaxDegen_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -9654,7 +14328,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/avax-degen"
+        "roostr-traits/neck/avax-degen",
+        "chikn-traits/neck/avaxdegen"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -9666,7 +14341,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/AVAX Degen.png"
+        "sources/traits-roostr/Neck/AVAX Degen.png",
+        "sources/traits-chikn/Neck/AVAXDegen.png"
       ]
     },
     {
@@ -9723,7 +14399,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_BitcoinMaxi"
+        "Trait_Neck_BitcoinMaxi",
+        "Trait_Neck_BitcoinMaxi_ChainLeft",
+        "Trait_Neck_BitcoinMaxi_ChainRight",
+        "Trait_Neck_BitcoinMaxi_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -9750,7 +14429,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/bitcoin-maxi"
+        "roostr-traits/neck/bitcoin-maxi",
+        "chikn-traits/neck/bitcoinmaxi"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -9762,7 +14442,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Bitcoin Maxi.png"
+        "sources/traits-roostr/Neck/Bitcoin Maxi.png",
+        "sources/traits-chikn/Neck/BitcoinMaxi.png"
       ]
     },
     {
@@ -9819,7 +14500,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_ChickMagnet"
+        "Trait_Neck_ChickMagnet",
+        "Trait_Neck_ChickMagnet_ChainLeft",
+        "Trait_Neck_ChickMagnet_ChainRight",
+        "Trait_Neck_ChickMagnet_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -9846,7 +14530,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/chick-magnet"
+        "roostr-traits/neck/chick-magnet",
+        "chikn-traits/neck/bitcoinbling"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -9858,7 +14543,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Chick Magnet.png"
+        "sources/traits-roostr/Neck/Chick Magnet.png",
+        "sources/traits-chikn/Neck/BitcoinBling.png"
       ]
     },
     {
@@ -9867,7 +14553,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_Clockchain"
+        "Trait_Neck_Clockchain",
+        "Trait_Neck_Clockchain_ChainLeft",
+        "Trait_Neck_Clockchain_ChainRight",
+        "Trait_Neck_Clockchain_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -9894,7 +14583,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/clockchain"
+        "roostr-traits/neck/clockchain",
+        "chikn-traits/neck/bitcoinmaxi"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -9906,7 +14596,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Clockchain.png"
+        "sources/traits-roostr/Neck/Clockchain.png",
+        "sources/traits-chikn/Neck/BitcoinMaxi.png"
       ]
     },
     {
@@ -9915,7 +14606,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_CoqMaxi"
+        "Trait_Neck_CoqMaxi",
+        "Trait_Neck_CoqMaxi_ChainLeft",
+        "Trait_Neck_CoqMaxi_ChainRight",
+        "Trait_Neck_CoqMaxi_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -9942,7 +14636,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/coq-maxi"
+        "roostr-traits/neck/coq-maxi",
+        "chikn-traits/neck/bitcoinbling"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -9954,7 +14649,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Coq Maxi.png"
+        "sources/traits-roostr/Neck/Coq Maxi.png",
+        "sources/traits-chikn/Neck/BitcoinBling.png"
       ]
     },
     {
@@ -9963,7 +14659,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_CoqTags"
+        "Trait_Neck_CoqTags",
+        "Trait_Neck_CoqTags_ChainLeft",
+        "Trait_Neck_CoqTags_ChainRight",
+        "Trait_Neck_CoqTags_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -9990,7 +14689,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/coq-tags"
+        "roostr-traits/neck/coq-tags",
+        "chikn-traits/neck/bitcoinmaxi"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -10002,7 +14702,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Coq Tags.png"
+        "sources/traits-roostr/Neck/Coq Tags.png",
+        "sources/traits-chikn/Neck/BitcoinMaxi.png"
       ]
     },
     {
@@ -10110,7 +14811,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_GweiGuzzler"
+        "Trait_Neck_GweiGuzzler",
+        "Trait_Neck_GweiGuzzler_ChainLeft",
+        "Trait_Neck_GweiGuzzler_ChainRight",
+        "Trait_Neck_GweiGuzzler_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -10137,7 +14841,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/gwei-guzzler"
+        "roostr-traits/neck/gwei-guzzler",
+        "chikn-traits/neck/ethereumgweiguzzler"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -10149,7 +14854,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Gwei Guzzler.png"
+        "sources/traits-roostr/Neck/Gwei Guzzler.png",
+        "sources/traits-chikn/Neck/EthereumGweiGuzzler.png"
       ]
     },
     {
@@ -10158,7 +14864,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_JosephDrip"
+        "Trait_Neck_JosephDrip",
+        "Trait_Neck_JosephDrip_ChainLeft",
+        "Trait_Neck_JosephDrip_ChainRight",
+        "Trait_Neck_JosephDrip_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -10185,7 +14894,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/joseph-drip"
+        "roostr-traits/neck/joseph-drip",
+        "chikn-traits/neck/bitcoinmaxi"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -10197,7 +14907,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Joseph Drip.png"
+        "sources/traits-roostr/Neck/Joseph Drip.png",
+        "sources/traits-chikn/Neck/BitcoinMaxi.png"
       ]
     },
     {
@@ -10254,7 +14965,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_MakeAWish"
+        "Trait_Neck_MakeAWish",
+        "Trait_Neck_MakeAWish_ChainLeft",
+        "Trait_Neck_MakeAWish_ChainRight",
+        "Trait_Neck_MakeAWish_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -10281,7 +14995,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/make-a-wish"
+        "roostr-traits/neck/make-a-wish",
+        "chikn-traits/neck/bitcoinmaxi"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -10293,7 +15008,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Make a Wish.png"
+        "sources/traits-roostr/Neck/Make a Wish.png",
+        "sources/traits-chikn/Neck/BitcoinMaxi.png"
       ]
     },
     {
@@ -10593,7 +15309,10 @@
       "category": "Neck",
       "motionFamily": "accent",
       "attachmentTargets": [
-        "Trait_Neck_StopLoss"
+        "Trait_Neck_StopLoss",
+        "Trait_Neck_StopLoss_ChainLeft",
+        "Trait_Neck_StopLoss_ChainRight",
+        "Trait_Neck_StopLoss_ChainLink"
       ],
       "supportedActions": [
         "punch",
@@ -10620,7 +15339,8 @@
         "recoveryMs": 420
       },
       "assetIds": [
-        "roostr-traits/neck/stop-loss"
+        "roostr-traits/neck/stop-loss",
+        "chikn-traits/neck/bitcoinmaxi"
       ],
       "alternateAssetIds": [],
       "targetDirection": {
@@ -10632,7 +15352,8 @@
         }
       },
       "sourcePaths": [
-        "sources/traits-roostr/Neck/Stop Loss.png"
+        "sources/traits-roostr/Neck/Stop Loss.png",
+        "sources/traits-chikn/Neck/BitcoinMaxi.png"
       ]
     },
     {
@@ -10714,9 +15435,9 @@
         "punch",
         "kick"
       ],
-      "secondaryMotion": "elastic",
-      "amplitude": 1.22,
-      "speed": 0.94,
+      "secondaryMotion": "anchored",
+      "amplitude": 0,
+      "speed": 1,
       "gripOffset": {
         "x": 0,
         "y": 0

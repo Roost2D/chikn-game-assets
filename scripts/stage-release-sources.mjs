@@ -25,7 +25,7 @@ const sourcesRoot = await realpath(resolve('sources'));
 for (const asset of manifest.assets ?? []) {
   await copyManifestAsset(asset.sourcePath);
 }
-for (const path of ['manifests/rights-manifest.json', 'reports/source-runtime-lineage.json', 'config/source-selection.json', 'config/asset-aliases.json', 'config/rights-policy.json', 'README.md', 'CHANGELOG.md', 'INTEGRATION.md', 'AGENTS.md', 'llms.txt', 'ASSET_CONTRIBUTIONS.md', 'SECURITY.md', 'LICENSE', 'LICENSE-CODE', 'CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md', 'REPOSITORY-LICENSING-NOTICE_PUBLIC.md', 'CHIKN-COMMUNITY-ASSET-NOTICE.md', 'ATTRIBUTION.md', 'COMMERCIAL_USE.md', 'TRADEMARKS.md', 'THIRD_PARTY_NOTICES.md']) {
+for (const path of ['config/coqfight-v1.lock.json', 'manifests/rights-manifest.json', 'reports/source-runtime-lineage.json', 'config/source-selection.json', 'config/asset-aliases.json', 'config/rights-policy.json', 'README.md', 'CHANGELOG.md', 'INTEGRATION.md', 'AGENTS.md', 'llms.txt', 'ASSET_CONTRIBUTIONS.md', 'SECURITY.md', 'LICENSE', 'LICENSE-CODE', 'CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md', 'REPOSITORY-LICENSING-NOTICE_PUBLIC.md', 'CHIKN-COMMUNITY-ASSET-NOTICE.md', 'ATTRIBUTION.md', 'COMMERCIAL_USE.md', 'TRADEMARKS.md', 'THIRD_PARTY_NOTICES.md']) {
   await copySupportDocument(path);
 }
 for (const entry of await readdir(resolve('docs'), { withFileTypes: true })) {

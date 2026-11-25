@@ -134,7 +134,7 @@ For punch, kick, selectable trait specials, externally controlled playback, and 
 
 ## Rights
 
-Manifest entries marked `CHIKN-COMMUNITY-NONCOMMERCIAL` are protected Chikn/Roostr/FarmLand visual or audio content governed by `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`, Version 1.1. Chikn grants that licence directly; Roost2D is an authorised distributor only and grants no Chikn licence, sublicense or commercial rights. Entries marked `Apache-2.0`, currently including `farmland/water-swim-ring-coq`, are independently authored project material and do not belong to Chikn. Files in `excludedPaths`, including the non-Chikn `eggorithm.png`, are not part of either published archive.
+Manifest entries marked `CHIKN-COMMUNITY-NONCOMMERCIAL` are protected Chikn content. Existing pack files retain `CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md`, Version 1.1. Official imported Coqfight files and native rig/animation derivatives identify their separate preserved upstream licence document and hash in the rights record; the runtime archive includes it under `coqfight-v1/LICENSE.md`. See [the official-set guide](docs/coqfight.md). Roost2D is an authorised distributor only and grants no Chikn licence, sublicense or commercial rights. Entries marked `Apache-2.0`, currently including `farmland/water-swim-ring-coq`, are independently authored project material and do not belong to Chikn. Files in `excludedPaths`, including the non-Chikn `eggorithm.png`, are not part of either published archive.
 
 Legacy flat and rig IDs are manifest aliases, not source-directory names. Resolve them with `findAsset`, `AssetManifestResolver`, or the generated catalog; do not construct a filesystem path from `chikn-flat/*`, `roostr-flat/*`, or dotted rig aliases.
 

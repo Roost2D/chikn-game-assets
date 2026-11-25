@@ -1,0 +1,8 @@
+{
+ "hidesBaseSlotWhenPresent": {
+  "Tail.Special": "Tail",
+  "Front.Leg.Foot.Special": "Front.Leg.Foot",
+  "Back.Leg.Foot.Special": "Back.Leg.Foot",
+  "Head.Special": "Head.Comb"
+ }
+}

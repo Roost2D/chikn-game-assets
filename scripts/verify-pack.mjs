@@ -15,6 +15,9 @@ if (catalog.codeLicense !== 'Apache-2.0' || catalog.contentTermsId !== 'CHIKN-CO
 if (catalog.ownership !== 'third-party-chikn-rights-holder' || catalog.hostingAuthorized !== true || catalog.communityUseAuthorized !== true || catalog.sublicenseGrantedByRepository !== false) throw new Error('Runtime catalog blurs ownership or community-use boundaries');
 for (const id of ['chikn-flat/admiral', 'chikn.rig.admiral', 'roostr-flat/chikn-roostr/3d-specs', 'farmland/water-swim-ring-coq', 'audio/bok-gark-01', 'audio/songs/cf-pre-game-loop-01']) if (!catalog.assetIds.includes(id)) throw new Error(`Runtime catalog is missing stable asset id or alias ${id}`);
 if (catalog.projectArtwork?.license !== 'Apache-2.0' || !catalog.projectArtwork.assetIds.includes('farmland/water-swim-ring-coq')) throw new Error('Runtime catalog does not identify the Apache-2.0 project artwork exception');
+const coqfightTerms = catalog.additionalContentLicenses?.find(({ setId }) => setId === 'coqfight-v1');
+if (coqfightTerms?.licensePath !== 'COQFIGHT-ASSET-LICENSE.md' || coqfightTerms.runtimeLicensePath !== 'runtime/coqfight-v1/LICENSE.md' || coqfightTerms.sha256 !== 'fd5cc718c1c61062af0da520337cbc2a24a5c730edc8a839216e084ae12e9f95') throw new Error('Runtime catalog is missing the official Coqfight licence identity');
+if (!(await readFile(resolve('sources/coqfight-v1/LICENSE.md'))).equals(await readFile(resolve('packages/runtime/COQFIGHT-ASSET-LICENSE.md')))) throw new Error('Coqfight npm licence notice must preserve the exact upstream bytes');
 const npmArgs = ['pack', '-w', '@chikn-game-assets/runtime', '--json', '--dry-run'];
 const command = process.platform === 'win32' ? process.execPath : 'npm';
 const args = process.platform === 'win32' ? [resolve(dirname(process.execPath), 'node_modules/npm/bin/npm-cli.js'), ...npmArgs] : npmArgs;
@@ -23,6 +26,8 @@ const [pack] = JSON.parse(stdout);
 if (!pack) throw new Error('npm pack did not return package metadata');
 if (pack.unpackedSize > budgets.npmPackageBytes) throw new Error(`Runtime helper package unpacked size ${pack.unpackedSize} exceeds ${budgets.npmPackageBytes}`);
 const names = new Set(pack.files.map((file) => file.path));
+if (!names.has('COQFIGHT-ASSET-LICENSE.md')) throw new Error('Runtime helper is missing the official Coqfight licence notice');
+for (const name of names) if (/coqfight/i.test(name) && /\.json$/i.test(name)) throw new Error(`Official Coqfight content must not enter the code-only npm package: ${name}`);
 for (const required of ['catalog/asset-ids.json', 'ATTRIBUTION.md', 'COMMERCIAL_USE.md', 'LICENSE', 'CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md', 'REPOSITORY-LICENSING-NOTICE_PUBLIC.md', 'CHIKN-COMMUNITY-ASSET-NOTICE.md']) if (!names.has(required)) throw new Error(`Package missing ${required}`);
 for (const legalDocument of ['CHIKN-COMMUNITY-ASSET-LICENSE_PUBLIC.md', 'REPOSITORY-LICENSING-NOTICE_PUBLIC.md']) {
   const source = await readFile(resolve(legalDocument));

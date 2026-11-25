@@ -1,6 +1,6 @@
 {
   "name": "chikn-game-assets",
-  "version": "0.6.1",
+  "version": "0.7.0-rc.1",
   "private": true,
   "description": "Publicly hosted Chikn, Roostr, and FarmLand community asset source and runtime distributions.",
   "type": "module",
@@ -15,6 +15,7 @@
   "scripts": {
     "build": "npm run assets:build && npm run build -w @chikn-game-assets/runtime",
     "assets:build": "node scripts/build-assets.mjs",
+    "coqfight:verify": "node scripts/import-coqfight-snapshot.mjs",
     "rights:refresh": "node scripts/build-rights-manifest.mjs",
     "rights:validate": "node scripts/verify-rights.mjs",
     "content-terms:validate": "node scripts/verify-content-terms.mjs",
@@ -43,6 +44,9 @@
   },
   "devDependencies": {
     "@playwright/test": "1.62.1",
+    "@roost2d/chikn-rigs": "0.10.0-rc.1",
+    "@roost2d/contracts": "0.10.0-rc.1",
+    "@roost2d/tooling": "0.10.0-rc.1",
     "@types/node": "^22.15.3",
     "esbuild": "^0.28.1",
     "sharp": "^0.35.3",

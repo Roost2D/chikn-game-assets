@@ -12,7 +12,7 @@ Official Chikn audio is classified under the same protected-content terms and is
 
 The following are not Chikn property:
 
-- rig definitions, transforms, attachment mappings, and animation timing data;
+- independently authored project rig definitions, transforms, attachment mappings, and animation timing data (imported official Coqfight data remains protected Chikn content);
 - engine/runtime code, schemas, manifests, atlas-coordinate JSON, build scripts, and documentation;
 - `water_swim_ring_coq.png`, which is published project artwork classified as Apache-2.0;
 - unrelated repository-only material such as `eggorithm.png`, which is excluded from every release artifact.
@@ -76,12 +76,16 @@ Start with [`AGENTS.md`](AGENTS.md) and [`llms.txt`](llms.txt). They identify so
 
 ## Run the character builder
 
+The builder and rig viewer offer separate authored and [official Coqfight animation sets](docs/coqfight.md). The official set includes the latest 41 clips, including seven upstream-generated movement/emote clips, selected-only native rigs and integrity-pinned media. Official metadata and derived clips retain their upstream asset licence; the engine importer and helper remain Apache-2.0.
+
 ```powershell
 npm install
 npm run builder:dev
 ```
 
 Open `http://127.0.0.1:4173/#builder`. The builder groups the complete installed Chikn/Roostr clip catalog by category, adds a draggable fighter-local action target, and exports legacy clips or 24 fps trait-aware action sheets with timing, cue, origin, and target metadata. See the [character generator template](docs/character-generator.md) for recipe, depth, looping, and export details.
+
+For the V2 placement/layer corrections, use the [complete assembly review](docs/trait-assembly-review.md). Its gallery renders all 276 traits as complete birds and compares 107 Chikn/Roostr V2 visuals from the builds used in Roost Rift. The owner authorized library release on 1 November 2026, including the general coat-leg correction.
 
 ## Local verification
 
