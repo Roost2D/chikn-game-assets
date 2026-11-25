@@ -2,18 +2,18 @@
   "schema": "chikn-game-assets.distribution/v1",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "lfs": {
-    "logicalFiles": 1419,
-    "logicalBytes": 96852565,
-    "uniqueObjects": 1419,
-    "storageBytes": 96852565,
-    "expectedFreshCloneBytes": 96852565
+    "logicalFiles": 1420,
+    "logicalBytes": 96858412,
+    "uniqueObjects": 1420,
+    "storageBytes": 96858412,
+    "expectedFreshCloneBytes": 96858412
   },
   "releases": {
-    "expectedSourceArchiveBytes": 99564583,
-    "expectedRuntimeArchiveBytes": 105949045
+    "expectedSourceArchiveBytes": 99597503,
+    "expectedRuntimeArchiveBytes": 106105772
   },
   "runtime": {
-    "totalBytes": 105949045,
+    "totalBytes": 106105772,
     "atlasPages": [
       {
         "profile": "default",
@@ -83,7 +83,7 @@
       {
         "profile": "default",
         "path": "runtime/atlases/default/chikn-traits-012.png",
-        "bytes": 347706
+        "bytes": 350176
       },
       {
         "profile": "default",
@@ -238,7 +238,7 @@
       {
         "profile": "high",
         "path": "runtime/atlases/high/chikn-traits-012.png",
-        "bytes": 259836
+        "bytes": 270227
       },
       {
         "profile": "high",
@@ -800,25 +800,25 @@
         "assetId": "coqfight-v1/catalog",
         "path": "runtime/coqfight-v1/catalog.json",
         "mediaType": "application/json",
-        "bytes": 15770
+        "bytes": 15791
       },
       {
         "assetId": "coqfight-v1/chikn/animation-meta",
         "path": "runtime/coqfight-v1/chikn/animation-meta.json",
         "mediaType": "application/json",
-        "bytes": 14488
+        "bytes": 14433
       },
       {
         "assetId": "coqfight-v1/chikn/animations",
         "path": "runtime/coqfight-v1/chikn/animations.json",
         "mediaType": "application/json",
-        "bytes": 5443850
+        "bytes": 5506102
       },
       {
         "assetId": "coqfight-v1/chikn/rig",
         "path": "runtime/coqfight-v1/chikn/rig.json",
         "mediaType": "application/json",
-        "bytes": 356590
+        "bytes": 364000
       },
       {
         "assetId": "coqfight-v1/LICENSE",
@@ -830,19 +830,19 @@
         "assetId": "coqfight-v1/roostr/animation-meta",
         "path": "runtime/coqfight-v1/roostr/animation-meta.json",
         "mediaType": "application/json",
-        "bytes": 14488
+        "bytes": 14433
       },
       {
         "assetId": "coqfight-v1/roostr/animations",
         "path": "runtime/coqfight-v1/roostr/animations.json",
         "mediaType": "application/json",
-        "bytes": 5443891
+        "bytes": 5506144
       },
       {
         "assetId": "coqfight-v1/roostr/rig",
         "path": "runtime/coqfight-v1/roostr/rig.json",
         "mediaType": "application/json",
-        "bytes": 409627
+        "bytes": 418194
       },
       {
         "assetId": "coqfight-v1/trait-catalog",

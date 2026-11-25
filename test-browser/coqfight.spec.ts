@@ -8,10 +8,10 @@ test('switching animation sets while the authored stage starts tears down withou
   await page.addInitScript(() => localStorage.clear());
   await page.goto('/#builder');
   await page.getByLabel('Animation set', { exact: true }).selectOption('coqfight-v1');
-  await expect(page.getByRole('status')).toContainText('41 official clips');
+  await expect(page.getByRole('status')).toContainText('42 official clips');
   await page.getByLabel('Official species', { exact: true }).selectOption('roostr');
   await expect(page.getByLabel('Official traits', { exact: true }).locator('option')).toHaveCount(224);
-  await expect(page.getByRole('status')).toContainText('41 official clips');
+  await expect(page.getByRole('status')).toContainText('42 official clips');
   await expect(page.locator('main canvas')).toHaveCount(1);
   expect(errors).toEqual([]);
 });
@@ -21,8 +21,8 @@ test('official catalog renders both species and controlled clips with independen
   await page.goto('/#builder');
   await page.getByLabel('Animation set', { exact: true }).selectOption('coqfight-v1');
   const status = page.getByRole('status');
-  await expect(status).toContainText('41 official clips');
-  await expect(page.getByLabel('Official animation', { exact: true }).locator('option')).toHaveCount(41);
+  await expect(status).toContainText('42 official clips');
+  await expect(page.getByLabel('Official animation', { exact: true }).locator('option')).toHaveCount(42);
   await expect(page.getByLabel('Official body', { exact: true }).locator('option')).toHaveCount(21);
   await expect(page.getByLabel('Official traits', { exact: true }).locator('option')).toHaveCount(174);
   const review = resolve('.release/review'); await mkdir(review, { recursive: true });
@@ -51,9 +51,9 @@ test('official catalog renders both species and controlled clips with independen
   await page.getByRole('button', { name: 'Replay', exact: true }).click();
   await page.getByLabel('Official species', { exact: true }).selectOption('roostr');
   await expect(page.getByLabel('Official traits', { exact: true }).locator('option')).toHaveCount(224);
-  await expect(status).toContainText('41 official clips');
+  await expect(status).toContainText('42 official clips');
   await page.getByLabel('Official traits', { exact: true }).selectOption(['trait/roostr_pilothat', 'trait/roostr_formalvest', 'trait/roostr_sword']);
-  await expect(status).toContainText('41 official clips');
+  await expect(status).toContainText('42 official clips');
   await screenshot('roostr-traits');
   await page.getByLabel('Official animation', { exact: true }).selectOption('Walk');
   await expect(page.getByLabel('Loop official animation', { exact: true })).toBeChecked();
@@ -66,7 +66,7 @@ test('official catalog renders both species and controlled clips with independen
   expect(recipe.renderScale).toBeGreaterThan(0);
   await page.reload();
   await expect(page.getByLabel('Official species', { exact: true })).toHaveValue('roostr');
-  await expect(status).toContainText('41 official clips');
+  await expect(status).toContainText('42 official clips');
   const width = await page.locator('main canvas').evaluate((canvas) => canvas.getBoundingClientRect().width);
   expect(width).toBeLessThanOrEqual(page.viewportSize()!.width);
 });
@@ -74,7 +74,7 @@ test('official catalog renders both species and controlled clips with independen
 test('a failed replacement preserves the displayed recipe for export and retry', async ({ page }) => {
   await page.addInitScript(() => localStorage.setItem('chikn.preview-animation-set.v1', 'coqfight-v1'));
   await page.goto('/#rig');
-  await expect(page.getByRole('status')).toContainText('41 official clips');
+  await expect(page.getByRole('status')).toContainText('42 official clips');
   await page.route('**/coqfight-v1/roostr/rig.json', (route) => route.fulfill({ status: 503, body: 'temporarily unavailable' }));
   await page.getByLabel('Official species', { exact: true }).selectOption('roostr');
   await expect(page.getByRole('status')).toContainText('503');
@@ -86,5 +86,5 @@ test('a failed replacement preserves the displayed recipe for export and retry',
   expect(recipe.species).toBe('chikn');
   await page.unroute('**/coqfight-v1/roostr/rig.json');
   await page.getByRole('button', { name: 'Retry', exact: true }).click();
-  await expect(page.getByRole('status')).toContainText('41 official clips');
+  await expect(page.getByRole('status')).toContainText('42 official clips');
 });

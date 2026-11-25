@@ -64,7 +64,7 @@ await Promise.all(Array.from({ length: 8 }, async () => {
     const hash = sha(bytes);
     let canonical = known.get(hash);
     if (!canonical) {
-      const directory = skinId === 'default' ? 'Base/_shared' : skinId.startsWith('trait/') ? `Coqfight-v1/${skinId.slice(6)}` : `Base/${skinId}`;
+      const directory = skinId === 'default' || path.startsWith('_shared/') ? 'Base/_shared' : skinId.startsWith('trait/') ? `Coqfight-v1/${skinId.slice(6)}` : `Base/${skinId}`;
       const sourcePath = `sources/traits-${species}/${directory}/coqfight-v1-${hash.slice(0, 20)}.png`;
       const assetId = `${species}-traits/${directory.split('/').map(slug).join('/')}/coqfight-v1-${hash.slice(0, 20)}`;
       canonical = { sourcePath, assetId };

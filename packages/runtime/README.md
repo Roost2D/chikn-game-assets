@@ -6,7 +6,7 @@
 
 Imported official rig/animation/trait data and native derivatives stay in the separate runtime archive under the upstream **Chikn Community Asset Licence**, preserved here as `COQFIGHT-ASSET-LICENSE.md`. The catalog records its hash and runtime path. Existing exact artwork reused from earlier releases retains its original per-file classification. This npm package contains helper code, ID catalogs and legal notices only; it does not include the official rig/animation JSON or artwork and does not add a Spine runtime dependency.
 
-The current pinned set has 41 clips. `Idle`, `IdleHurt`, `Walk`, `Run`, `Victory` and `Flap` loop by default; the other clips play once. `metadata.animationMeta` preserves the upstream loop flags, durations, generated flags and target-relative approach curves independently. Applications keep approach motion outside authoritative gameplay coordinates.
+The current pinned set has 42 clips. `Idle`, `IdleHurt`, `Walk`, `Run_Slow`, `Run_Fast`, `Victory` and `Flap` loop by default; the other clips play once. `metadata.animationMeta` preserves the upstream loop flags, durations, generated flags and target-relative approach curves independently. Applications keep approach motion outside authoritative gameplay coordinates.
 
 Apache-2.0 TypeScript helpers and a generated ID catalog for a separately hosted Chikn Game Assets release. This npm package contains no source images, audio, or runtime media and does not grant rights to Chikn, Roostr, or FarmLand content.
 

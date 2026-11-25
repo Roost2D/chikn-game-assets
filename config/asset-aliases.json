@@ -2696,6 +2696,10 @@
     ],
     "roostr-traits/coqfight-v1/roostr-tshirtwhite/coqfight-v1-4709e8fc730b8b90d8ca": [
       "coqfight-v1/roostr/images/trait/roostr_tshirtwhite/Torso.Front"
+    ],
+    "chikn-traits/base/shared/coqfight-v1-476b6b488b37fddb8832": [
+      "coqfight-v1/chikn/images/_shared/Death.Eye",
+      "coqfight-v1/roostr/images/_shared/Death.Eye"
     ]
   }
 }

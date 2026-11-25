@@ -24,22 +24,22 @@ const makeFixture = async (corrupt = false) => {
 test('pinned official catalog and both native species preserve all latest clips and source loop provenance', async () => {
   const fixture = await makeFixture();
   const catalog = await loadCoqfightCatalog(fixture);
-  assert.equal(catalog.animationNames.length, 41);
+  assert.equal(catalog.animationNames.length, 42);
   for (const species of ['chikn', 'roostr']) {
     const raw = await readJson(`sources/coqfight-v1/${species}/${species}.json`);
     assert.deepEqual(new Set(catalog.animationNames), new Set(Object.keys(raw.animations)));
     assert.equal(catalog.species[species].bodySkinIds.length, 21);
     assert.equal(catalog.species[species].traitSkinIds.length, species === 'chikn' ? 174 : 224);
     const character = await loadCoqfightCharacter({ ...fixture, recipe: { ...baseRecipe, species } });
-    assert.equal(character.clips.length, 41);
+    assert.equal(character.clips.length, 42);
     assert.equal(character.definition.bones.length, 69);
     assert.equal(character.definition.slots.length, 66);
     assert.deepEqual(Object.keys(character.definition.attachmentNames).sort(), ['default', 'selected']);
     assert.ok(character.assetIds.length < 30, 'selected body must not load the whole corpus');
     const clip = (name) => character.clips.find(({ id }) => id === `coqfight-v1.${species}.${name}`);
     assert.equal(clip('Death').loop, false);
-    assert.equal(character.metadata.animationMeta.Death.loop, true);
-    for (const name of ['Idle', 'IdleHurt', 'Walk', 'Run', 'Victory', 'Flap']) assert.equal(clip(name).loop, true);
+    assert.equal(character.metadata.animationMeta.Death.loop, false);
+    for (const name of ['Idle', 'IdleHurt', 'Walk', 'Run_Slow', 'Run_Fast', 'Victory', 'Flap']) assert.equal(clip(name).loop, true);
     for (const name of ['Jump', 'Peck', 'Hop']) assert.equal(clip(name).loop, false);
     assert.equal(character.metadata.animationMeta.Walk.generated, true);
   }
@@ -56,6 +56,31 @@ test('selected rigs keep named default swaps and hide replaced base slots throug
   const swapId = definition.attachmentNames.default['Front.Forehand.Back']['swap/Front.Forehand.Back'];
   assert.ok(definition.attachments.some(({ id }) => id === swapId));
   assert.ok(definition.attachments.every(({ id }) => !id.includes('/Celestial/')));
+});
+
+test('shared Death eyes retain each official body region size without duplicating source pixels', async () => {
+  const rig = await readJson('runtime/coqfight-v1/roostr/rig.json');
+  const source = await readJson('sources/coqfight-v1/roostr/roostr.json');
+  const lock = await readJson('config/coqfight-v1.lock.json');
+  const image = lock.images.find(({ species, path }) => species === 'roostr' && path === '_shared/Death.Eye');
+  assert.equal(image.width, 120);
+  for (const body of ['Bullion', 'CuteGravy', 'Hypnocoq']) {
+    const original = source.skins.find(({ name }) => name === body).attachments['Head.Eye']['Death.Eye'];
+    const id = rig.attachmentNames[body]['Head.Eye']['Death.Eye'];
+    const attachment = rig.attachments.find((entry) => entry.id === id);
+    assert.equal((attachment.texture.layoutScale ?? 1) * image.width, original.width);
+    assert.equal((attachment.texture.layoutScale ?? 1) * image.height, original.height);
+  }
+  const aliases = lock.images.filter(({ path }) => path === '_shared/Death.Eye');
+  assert.equal(new Set(aliases.map(({ sourcePath }) => sourcePath)).size, 1);
+});
+
+test('previous official Run recipes resolve to Run_Slow without mutating caller data', async () => {
+  const fixture = await makeFixture();
+  const recipe = { ...baseRecipe, animationName: 'Run' };
+  const character = await loadCoqfightCharacter({ ...fixture, recipe });
+  assert.equal(character.recipe.animationName, 'Run_Slow');
+  assert.equal(recipe.animationName, 'Run');
 });
 
 test('a later overlapping trait removes the entire earlier multi-slot trait and returns normalized recipe', async () => {
@@ -118,5 +143,5 @@ test('aborting the first route leaves a concurrent metadata subscriber live', as
   controller.abort();
   await assert.rejects(first, { name: 'AbortError' });
   releaseRig();
-  assert.equal((await second).clips.length, 41);
+  assert.equal((await second).clips.length, 42);
 });

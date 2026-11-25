@@ -2792,15 +2792,19 @@
       ],
       "roostr-traits/coqfight-v1/roostr-tshirtwhite/coqfight-v1-4709e8fc730b8b90d8ca": [
         "coqfight-v1/roostr/images/trait/roostr_tshirtwhite/Torso.Front"
+      ],
+      "chikn-traits/base/shared/coqfight-v1-476b6b488b37fddb8832": [
+        "coqfight-v1/chikn/images/_shared/Death.Eye",
+        "coqfight-v1/roostr/images/_shared/Death.Eye"
       ]
     }
   },
   "rightsManifest": "manifests/rights-manifest.json",
   "totals": {
-    "files": 1435,
-    "images": 1577,
+    "files": 1436,
+    "images": 1578,
     "directFiles": 89,
-    "bytes": 99564583
+    "bytes": 99597503
   },
   "files": [
     {
@@ -3210,13 +3214,13 @@
     },
     {
       "path": "sources/coqfight-v1/chikn/chikn-animations-meta.json",
-      "bytes": 11518,
-      "sha256": "422aba297e94371b10ff901c1e8f2a1521b07757c0f0d8519c042ff5106a1628"
+      "bytes": 11495,
+      "sha256": "db81835720d86ac761b4d423e50132903b3e472e417182d4cee9ac131a1b5594"
     },
     {
       "path": "sources/coqfight-v1/chikn/chikn.json",
-      "bytes": 1291622,
-      "sha256": "455053a552e8670a8aacaf77c7265a05cc63acf5f749030860deb7c3bba52f28"
+      "bytes": 1304937,
+      "sha256": "336bcc5f4269ba32f03517ee512921add67f66e0b06b99bc384f139e284b446f"
     },
     {
       "path": "sources/coqfight-v1/LICENSE.md",
@@ -3225,18 +3229,18 @@
     },
     {
       "path": "sources/coqfight-v1/llms.txt",
-      "bytes": 4101,
-      "sha256": "78cd3d7f820eeeef68fbf8eae70ffa0b3e6edfa16b6eb9a47f41cf5949e1b02e"
+      "bytes": 4350,
+      "sha256": "a9a179ea9c52078914df5383f7de334cc4c861435fcf9cb13737826488ee3dd7"
     },
     {
       "path": "sources/coqfight-v1/roostr/roostr-animations-meta.json",
-      "bytes": 11518,
-      "sha256": "422aba297e94371b10ff901c1e8f2a1521b07757c0f0d8519c042ff5106a1628"
+      "bytes": 11495,
+      "sha256": "db81835720d86ac761b4d423e50132903b3e472e417182d4cee9ac131a1b5594"
     },
     {
       "path": "sources/coqfight-v1/roostr/roostr.json",
-      "bytes": 1303359,
-      "sha256": "ccbbc351a33c52858e7b319fae19436a6c67216c9b39ac6012d9ad2e98cb9a4c"
+      "bytes": 1316914,
+      "sha256": "2b8efab91e9c1de0955eeb19df80894f6963492dab1ddea0c210ddcf33f2b06f"
     },
     {
       "path": "sources/coqfight-v1/traits/trait-rules.json",
@@ -3537,6 +3541,11 @@
       "path": "sources/roostr-unique/roostr-unique-Atlas.png",
       "bytes": 369992,
       "sha256": "ceb88ebf4958c2d62590e8040413f07409b7bc7941a9b9fde9c1c162eedcb09d"
+    },
+    {
+      "path": "sources/traits-chikn/Base/_shared/coqfight-v1-476b6b488b37fddb8832.png",
+      "bytes": 5847,
+      "sha256": "476b6b488b37fddb8832e9609a3321d5f113bfb180f3b1cea31842b184390944"
     },
     {
       "path": "sources/traits-chikn/Base/_shared/coqfight-v1-ca3122535b6384d013c6.png",
@@ -19157,6 +19166,25 @@
       ],
       "width": 595,
       "height": 491
+    },
+    {
+      "assetId": "chikn-traits/base/shared/coqfight-v1-476b6b488b37fddb8832",
+      "aliases": [
+        "chikn.rig.coqfight-v1-476b6b488b37fddb8832",
+        "chikn-flat/coqfight-v1-476b6b488b37fddb8832",
+        "chikn-rig/shared/coqfight-v1-476b6b488b37fddb8832",
+        "coqfight-v1/chikn/images/_shared/Death.Eye",
+        "coqfight-v1/roostr/images/_shared/Death.Eye"
+      ],
+      "group": "chikn-traits",
+      "sourcePaths": [
+        "sources/traits-chikn/Base/_shared/coqfight-v1-476b6b488b37fddb8832.png"
+      ],
+      "rightsIds": [
+        "rights/traits-chikn/base/shared/coqfight-v1-476b6b488b37fddb8832-png"
+      ],
+      "width": 120,
+      "height": 120
     },
     {
       "assetId": "chikn-traits/base/shared/coqfight-v1-ca3122535b6384d013c6",
