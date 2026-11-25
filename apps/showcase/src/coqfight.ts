@@ -3,11 +3,31 @@ import { loadChiknPack, loadCoqfightCatalog, loadCoqfightCharacter, type Coqfigh
 import { AssetManifestResolver, LazyAssetLoader } from '@roost2d/assets';
 import { PixiAssetLoader, PixiRigFactory } from '@roost2d/pixi';
 import { RigRuntime, type RigAnimationHandle } from '@roost2d/rig2d';
-import type { RigDefinitionV2 } from '@roost2d/contracts';
+import type { AnimationClipV2, RigDefinitionV2 } from '@roost2d/contracts';
 import type { RouteSession } from './lifecycle';
 
 const STORAGE = 'chikn.coqfight-character.v1';
 const make = <K extends keyof HTMLElementTagNameMap>(tag: K, text?: string): HTMLElementTagNameMap[K] => { const node = document.createElement(tag); if (text) node.textContent = text; return node; };
+interface PreviewBounds { x: number; y: number; width: number; height: number }
+
+/** Fit changes once per selected clip, never while it is playing or disappearing. */
+function measureClip(rig: RigRuntime<RigDefinitionV2>, factory: PixiRigFactory, clip: AnimationClipV2, neutral?: PreviewBounds): PreviewBounds {
+  let minX = neutral?.x ?? Infinity, minY = neutral?.y ?? Infinity;
+  let maxX = neutral ? neutral.x + neutral.width : -Infinity, maxY = neutral ? neutral.y + neutral.height : -Infinity;
+  const times = new Set([...Array.from({ length: 33 }, (_, i) => clip.durationMs * i / 32), ...clip.channels.flatMap((channel) => channel.keyframes.map(({ timeMs }) => timeMs))]);
+  rig.resetPose();
+  const handle = rig.play(clip, { controlled: true, repeat: 0 });
+  try {
+    for (const time of [...times].sort((a, b) => a - b)) {
+      handle.sample(time);
+      const b = factory.root.getLocalBounds();
+      if (b.width <= 0 || b.height <= 0 || ![b.x, b.y, b.width, b.height].every(Number.isFinite)) continue;
+      minX = Math.min(minX, b.x); minY = Math.min(minY, b.y);
+      maxX = Math.max(maxX, b.x + b.width); maxY = Math.max(maxY, b.y + b.height);
+    }
+  } finally { handle.kill(); rig.resetPose(); }
+  return { x: minX, y: minY, width: maxX - minX, height: maxY - minY };
+}
 
 /** Independent official preview; authored recipes and action clocks retain their own controls/storage. */
 export async function renderCoqfightPreview(host: HTMLElement, session: RouteSession): Promise<void> {
@@ -40,7 +60,7 @@ export async function renderCoqfightPreview(host: HTMLElement, session: RouteSes
   let generation = 0;
   let traitOrder: string[] = [];
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
-  let current: { rig: RigRuntime<RigDefinitionV2>; factory: PixiRigFactory; textures: PixiAssetLoader; character: LoadedCoqfightCharacter; handle?: RigAnimationHandle; x: number; scale: number; bounds: { x: number; y: number; width: number; height: number } } | undefined;
+  let current: { rig: RigRuntime<RigDefinitionV2>; factory: PixiRigFactory; textures: PixiAssetLoader; character: LoadedCoqfightCharacter; handle?: RigAnimationHandle; x: number; scale: number; bounds: PreviewBounds; neutralBounds: PreviewBounds; clipBounds: Map<string, PreviewBounds> } | undefined;
   let playing = !motion.matches;
   pause.textContent = playing ? 'Pause' : 'Play';
   let visible = true;
@@ -55,9 +75,11 @@ export async function renderCoqfightPreview(host: HTMLElement, session: RouteSes
     const width = Math.max(1, stage.clientWidth); const height = Math.max(1, stage.clientHeight);
     app.renderer.resize(width, height);
     const b = current.bounds;
-    const scale = Math.min(width * .68 / Math.max(1, b.width), height * .76 / Math.max(1, b.height));
+    const feetY = current.neutralBounds.y + current.neutralBounds.height;
+    const belowFeet = Math.max(0, b.y + b.height - feetY);
+    const scale = Math.min(width * .68 / Math.max(1, b.width), height * .76 / Math.max(1, feetY - b.y), belowFeet > 0 ? height * .08 / belowFeet : Infinity);
     current.scale = scale; current.x = width / 2 - (b.x + b.width / 2) * scale;
-    current.factory.root.position.set(current.x, height * .89 - (b.y + b.height) * scale);
+    current.factory.root.position.set(current.x, height * .89 - feetY * scale);
     current.factory.root.scale.set(mirror.checked ? -scale : scale, scale);
     if (mirror.checked) current.factory.root.x = width / 2 + (b.x + b.width / 2) * scale;
     current.x = current.factory.root.x;
@@ -67,12 +89,23 @@ export async function renderCoqfightPreview(host: HTMLElement, session: RouteSes
   const observer = new IntersectionObserver(([entry]) => { visible = entry?.isIntersecting ?? true; visibility(); }); observer.observe(stage); session.onTeardown(() => observer.disconnect());
   document.addEventListener('visibilitychange', visibility, { signal: session.signal });
   motion.addEventListener('change', () => { playing = !motion.matches; pause.textContent = playing ? 'Pause' : 'Play'; current?.handle?.sample(0); }, { signal: session.signal });
+  const frameClip = (clip: AnimationClipV2) => {
+    if (!current) return;
+    let b = current.clipBounds.get(clip.id);
+    if (!b) { b = measureClip(current.rig, current.factory, clip, current.neutralBounds); current.clipBounds.set(clip.id, b); }
+    const paddingX = b.width * .035, paddingY = b.height * .035;
+    const curves = current.character.metadata.animationMeta[current.character.recipe.animationName]?.scriptCurves?.root?.RelativeX;
+    const approachMargin = approach.checked ? current.neutralBounds.width * .55 * Math.max(0, ...(curves ?? []).map(({ value }) => Math.abs(value))) : 0;
+    current.bounds = { x: b.x - paddingX - approachMargin, y: b.y - paddingY, width: b.width + 2 * (paddingX + approachMargin), height: b.height + 2 * paddingY };
+    position();
+  };
   const begin = () => {
     if (!current) return;
     const clip = current.character.clips.find(({ id }) => id === `coqfight-v1.${current!.character.recipe.species}.${animation.value}`);
     if (!clip) return;
     current.handle?.kill(); current.rig.resetPose();
     current.character.recipe.animationName = animation.value;
+    frameClip(clip);
     current.handle = current.rig.play(clip, { controlled: true, repeat: loop.checked ? -1 : 0 });
     progress.max = String(clip.durationMs); progress.value = '0';
     current.factory.root.x = current.x;
@@ -110,7 +143,7 @@ export async function renderCoqfightPreview(host: HTMLElement, session: RouteSes
             let before = curves[0]!, after = curves.at(-1)!;
             for (let i = 1; i < curves.length; i += 1) if (curves[i]!.time >= time) { before = curves[i - 1]!; after = curves[i]!; break; }
             const t = after.time === before.time ? 0 : Math.max(0, Math.min(1, (time - before.time) / (after.time - before.time)));
-            offset = (before.value + (after.value - before.value) * t) * current.bounds.width * .55 * current.scale * (mirror.checked ? -1 : 1);
+            offset = (before.value + (after.value - before.value) * t) * current.neutralBounds.width * .55 * current.scale * (mirror.checked ? -1 : 1);
           }
           current.factory.root.x = current.x + offset;
           overlay.clear();
@@ -119,22 +152,13 @@ export async function renderCoqfightPreview(host: HTMLElement, session: RouteSes
       }
       const factory = pendingFactory = new PixiRigFactory(new Map(entries));
       const rig = pendingRig = new RigRuntime(character.definition, factory, character.clips);
-      // The export's unanimated setup differs from the visible standing pose. Fit the idle
-      // envelope once, then keep that camera stable through attacks, pauses and invisible Death.
+      // Neutral feet establish the floor, while each selected clip contributes its complete
+      // sampled extent (including elongated attacks) without resizing during playback.
       const idle = character.clips.find((clip) => clip.id.endsWith('.Idle'))!;
-      const idleHandle = rig.play(idle, { controlled: true, repeat: 0 });
-      let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
-      for (let i = 0; i <= 8; i += 1) {
-        idleHandle.sample(idle.durationMs * i / 8);
-        const measured = factory.root.getLocalBounds();
-        minX = Math.min(minX, measured.x); minY = Math.min(minY, measured.y);
-        maxX = Math.max(maxX, measured.x + measured.width); maxY = Math.max(maxY, measured.y + measured.height);
-      }
-      idleHandle.kill(); rig.resetPose();
-      const setupBounds = { x: minX, y: minY, width: maxX - minX, height: maxY - minY };
+      const setupBounds = measureClip(rig, factory, idle);
       dispose();
       app.stage.addChildAt(factory.root, 0);
-      current = { rig, factory, textures, character, x: 0, scale: 1, bounds: setupBounds };
+      current = { rig, factory, textures, character, x: 0, scale: 1, bounds: setupBounds, neutralBounds: setupBounds, clipBounds: new Map([[idle.id, setupBounds]]) };
       traitOrder = [...character.recipe.traitSkinIds];
       for (const option of traits.options) option.selected = traitOrder.includes(option.value);
       pendingFactory = undefined; pendingRig = undefined;
@@ -177,6 +201,10 @@ export async function renderCoqfightPreview(host: HTMLElement, session: RouteSes
   listen(pause, 'click', () => { playing = !playing; pause.textContent = playing ? 'Pause' : 'Play'; });
   listen(progress, 'input', () => { current?.handle?.sample(Number(progress.value)); });
   listen(mirror, 'change', () => { position(); remember(); });
+  listen(approach, 'change', () => {
+    const clip = current?.character.clips.find(({ id }) => id === `coqfight-v1.${current!.character.recipe.species}.${current!.character.recipe.animationName}`);
+    if (clip) frameClip(clip);
+  });
   listen(exportRecipe, 'click', () => {
     const recipe = committedRecipe(); if (!recipe) return;
     const url = URL.createObjectURL(new Blob([JSON.stringify(recipe, null, 2) + '\n'], { type: 'application/json' }));

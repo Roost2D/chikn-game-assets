@@ -14,6 +14,13 @@ test('official catalog renders both species and controlled clips with independen
   const review = resolve('.release/review'); await mkdir(review, { recursive: true });
   const screenshot = async (name: string) => page.locator('.coqfight-stage').screenshot({ path: resolve(review, `${test.info().project.name}-${name}.png`) });
   await screenshot('chikn-idle');
+  await page.getByLabel('Show official bounds', { exact: true }).check();
+  await page.getByLabel('Official animation', { exact: true }).selectOption('Headbutt');
+  await page.getByRole('button', { name: 'Pause', exact: true }).click();
+  await page.getByLabel('Preview approach motion', { exact: true }).check();
+  await page.getByLabel('Official animation time', { exact: true }).evaluate((element) => { (element as HTMLInputElement).value = '912'; element.dispatchEvent(new Event('input', { bubbles: true })); });
+  await screenshot('chikn-headbutt-bounds');
+  await page.getByRole('button', { name: 'Play', exact: true }).click();
   await page.getByLabel('Official animation', { exact: true }).selectOption('RifleShot');
   await page.getByRole('button', { name: 'Pause', exact: true }).click();
   await page.getByLabel('Official animation time', { exact: true }).press('Home');
@@ -23,6 +30,9 @@ test('official catalog renders both species and controlled clips with independen
   await page.getByLabel('Official animation', { exact: true }).selectOption('Death');
   await expect(page.getByLabel('Loop official animation', { exact: true })).not.toBeChecked();
   await page.getByRole('button', { name: 'Pause', exact: true }).click();
+  await page.getByLabel('Official animation time', { exact: true }).press('Home');
+  await page.getByLabel('Official animation time', { exact: true }).press('PageUp');
+  await screenshot('chikn-death-bounds');
   await page.getByLabel('Official animation time', { exact: true }).press('End');
   await page.getByRole('button', { name: 'Replay', exact: true }).click();
   await page.getByLabel('Official species', { exact: true }).selectOption('roostr');
