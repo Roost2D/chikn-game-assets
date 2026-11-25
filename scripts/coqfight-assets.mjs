@@ -8,7 +8,7 @@ export async function buildCoqfightEntries(rightsByPath) {
   const lock = JSON.parse(await readFile(resolve('config/coqfight-v1.lock.json'), 'utf8'));
   const toolingPath = process.env.ROOST2D_TOOLING_MODULE;
   const { importSpine42 } = await import(toolingPath ? toolingPath.startsWith('file:') ? toolingPath : pathToFileURL(resolve(toolingPath)).href : '@roost2d/tooling');
-  if (typeof importSpine42 !== 'function') throw new Error('Coqfight builds require @roost2d/tooling with importSpine42 (the pinned candidate in vendor/npm).');
+  if (typeof importSpine42 !== 'function') throw new Error('Coqfight builds require @roost2d/tooling with importSpine42 from the pinned npm release.');
   for (const entry of [...lock.documents, ...lock.images]) {
     const bytes = await readFile(resolve(entry.sourcePath));
     const actual = createHash('sha256').update(bytes).digest('hex');

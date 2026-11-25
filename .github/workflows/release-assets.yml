@@ -21,6 +21,8 @@ jobs:
       - run: npm ci
       - run: npm run release:verify
       - run: npm run release:assemble
+      - name: Use the exact published npm runtime artifact
+        run: node scripts/stage-registry-runtime.mjs
       - name: Stage deterministic release artifacts
         shell: pwsh
         run: |
