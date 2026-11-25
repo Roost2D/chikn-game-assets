@@ -1,6 +1,6 @@
 {
   "name": "@chikn-game-assets/runtime",
-  "version": "0.7.0-rc.1",
+  "version": "0.7.0",
   "description": "Apache-2.0 manifest helpers for Chikn community non-commercial assets.",
   "license": "Apache-2.0",
   "repository": {
@@ -38,6 +38,6 @@
     "test": "node --test test/*.test.mjs"
   },
   "peerDependencies": {
-    "@roost2d/contracts": "0.10.0-rc.1"
+    "@roost2d/contracts": "0.10.0"
   }
 }

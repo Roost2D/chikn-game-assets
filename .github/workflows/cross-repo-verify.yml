@@ -1,4 +1,4 @@
-name: Verify published release candidates
+name: Verify published engine and asset releases
 
 on:
   workflow_dispatch:

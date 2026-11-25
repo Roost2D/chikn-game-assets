@@ -1,6 +1,6 @@
 {
   "name": "chikn-game-assets",
-  "version": "0.7.0-rc.1",
+  "version": "0.7.0",
   "private": true,
   "description": "Publicly hosted Chikn, Roostr, and FarmLand community asset source and runtime distributions.",
   "type": "module",
@@ -44,9 +44,9 @@
   },
   "devDependencies": {
     "@playwright/test": "1.62.1",
-    "@roost2d/chikn-rigs": "0.10.0-rc.1",
-    "@roost2d/contracts": "0.10.0-rc.1",
-    "@roost2d/tooling": "0.10.0-rc.1",
+    "@roost2d/chikn-rigs": "0.10.0",
+    "@roost2d/contracts": "0.10.0",
+    "@roost2d/tooling": "0.10.0",
     "@types/node": "^22.15.3",
     "esbuild": "^0.28.1",
     "sharp": "^0.35.3",

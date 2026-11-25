@@ -1,10 +1,11 @@
 # Release integrity
 
-Tagged releases publish three artifacts:
+Tagged releases publish classified archives and their release receipt:
 
 - a source archive containing classified source images/audio, metadata, notices, and integration documentation, with `excludedPaths` omitted;
 - a runtime archive containing the manifest, deterministic default/high atlas pages, direct integrity-pinned audio, integration guidance, and community-use notices;
-- `SHA256SUMS` covering both archives.
+- the exact published npm helper tarball, verified against registry SHA-512 integrity;
+- `SHA256SUMS` covering both ZIPs and that helper, plus `release.json` with manifest and registry metadata.
 
 The attached versioned source/runtime ZIPs are the canonical complete asset artifacts. GitHub's automatically generated source archive is not advertised as the complete asset release.
 
@@ -26,9 +27,9 @@ Publishing is never part of an ordinary build or verification task.
 
 ### One-time registry bootstrap
 
-`@chikn-game-assets/runtime` does not yet exist on npm. npm requires the package to exist before a
-trusted publisher can be attached, so the first `0.1.0-rc.0` publish is an authenticated local
-bootstrap:
+This historical procedure was needed before the first package publication. The package now exists
+and routine releases use trusted publishing; do not repeat the bootstrap. For a new scope/package,
+npm requires an initial publication before attaching a trusted publisher:
 
 1. Confirm that the npm account has 2FA and publish rights for the
    `@chikn-game-assets` scope.
