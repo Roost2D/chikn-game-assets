@@ -378,6 +378,13 @@ async function renderBuilder(session: RouteSession) {
   let actionEffects: Array<{ cueTimeMs: number; instance: PixiProceduralEffect }> = [];
   let actionPaused = false;
   let refreshGeneration = 0;
+  let resourcesLoading = true;
+  const setResourceLoading = (loading: boolean) => {
+    resourcesLoading = loading;
+    const unavailable = loading || !current;
+    for (const control of [punchButton, kickButton, pauseButton, exportRecipeButton, exportReferenceButton, exportSheetButton, exportSheetMetadataButton, exportActionSheetButton, exportActionMetadataButton]) control.disabled = unavailable;
+    specialButton.disabled = unavailable || !listChiknSpecials(recipe(), current!.definition).length;
+  };
   let mirrored = false;
   let targetOffset = { x: 180, y: 0 };
 
@@ -513,11 +520,11 @@ async function renderBuilder(session: RouteSession) {
     if (!current) return;
     const specials = listChiknSpecials(recipe(), current.definition);
     setOptions(specialSelect, specials.length ? specials.map(({ label, id }) => [label, id] as const) : [['No special available', '']]);
-    specialButton.disabled = !specials.length;
+    specialButton.disabled = resourcesLoading || !specials.length;
   };
 
   const startAction = (actionId: string, elapsedMs = 0, paused = false) => {
-    if (!current || !actionId) return;
+    if (resourcesLoading || !current || !actionId) return;
     clearActionEffects();
     resolvedAction = resolveChiknAction(recipe(), current.definition, actionId, { targetOffset });
     actionPaused = paused;
@@ -583,6 +590,7 @@ async function renderBuilder(session: RouteSession) {
 
   const refreshResources = async () => {
     const generation = ++refreshGeneration;
+    setResourceLoading(true);
     status.textContent = 'Loading integrity-checked rig textures...';
     await disposeCurrent();
     try {
@@ -609,10 +617,12 @@ async function renderBuilder(session: RouteSession) {
       applyLiveRecipe();
     } catch (error) {
       if (generation === refreshGeneration) status.textContent = error instanceof Error ? error.message : String(error);
+    } finally {
+      if (!session.isStale && generation === refreshGeneration) setResourceLoading(false);
     }
   };
 
-  speciesSelect.addEventListener('change', async () => { await updateControls(); await refreshResources(); }, { signal: session.signal });
+  speciesSelect.addEventListener('change', async () => { setResourceLoading(true); await updateControls(); await refreshResources(); }, { signal: session.signal });
   profileSelect.addEventListener('change', () => void refreshResources(), { signal: session.signal });
   uniqueSelect.addEventListener('change', () => void refreshResources(), { signal: session.signal });
   skinSelect.addEventListener('change', applyLiveRecipe, { signal: session.signal });
@@ -695,6 +705,7 @@ async function renderBuilder(session: RouteSession) {
     updateStatus();
   });
 
+  setResourceLoading(true);
   await updateControls();
   await refreshResources();
 }
